@@ -1,0 +1,15 @@
+http://MoosesSoftware.epizy.com/php/aircond/00__Drop_and_Re_Create_Tables.php
+
+Current Databases
+MySQL DB Name 		MySQL User Name 	MySQL Password 		MySQL Host Name
+epiz_25227820_aircond	epiz_25227820		(Your vPanel Password)	sql313.epizy.com
+														YfHFYmXnKjOP
+
+Constants.php
+
+   // *** MySQL - http://MoosesSoftware.epizy.com/
+   const SERVER_NAME     = "sql313.epizy.com"; // serverName\instanceName
+   const DATABASE_NAME   = "epiz_25227820_aircond";
+   const USER_NAME       = "epiz_25227820";
+   const USER_PASSWORD   = "YfHFYmXnKjOP";
+

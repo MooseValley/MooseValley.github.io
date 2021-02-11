@@ -1,0 +1,49 @@
+ERROR - session_start() Cannot send session cookie - headers already sent by
+
+ERROR:
+session_start(): Cannot send session cookie - headers already sent by
+
+
+You cannot have a blank line or even a comment above the session_start() code.
+
+Had to change this:
+
+<!-- index.php -->
+<?php
+@ob_start();
+session_start();
+//if(session_status()!=PHP_SESSION_ACTIVE) session_start();
+?>
+::::
+
+TO (move the comment down):
+
+<?php
+@ob_start();
+session_start();
+//if(session_status()!=PHP_SESSION_ACTIVE) session_start();
+?>
+<!-- index.php -->
+
+That's fucking insane !!!!!!
+
+
+
+
+************************************
+
+REF: https://board.phpbuilder.com/d/10310794-resolved-warning-session-start-cannot-send-session-cookie-headers-already-sent
+
+It is not intuitive but ...
+
+if <?php is at line 2 of your script and a blank line is above it then that can cause problems such as the php header function not working.
+
+I had a HEADER session_regenerate error because a script called by require_once () or include () had 1 blank line below the closing php tag !!
+
+?>
+BLANK LINE WAS HERE
+
+echo statements will also be a problem if they precede the header function call.
+I wonder if die() or any other statements which write to the screen would be just as bad as echo () in this situation.
+
+

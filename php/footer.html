@@ -1,0 +1,29 @@
+<div id="footer">
+<center>
+<p>
+
+<?php
+$mooseWebSiteURL  = "mailto:MichaelO@centacare.net"; // "http://moosesoftware.16mb.com/";
+$mooseWebSiteName = "Moose";                         // "Moose's Software Valley";
+$startYear        = 2016;
+$version          = phpversion();
+$currentYear      = date('Y');
+$date             = date('D, j-M-Y, g:i:s A');
+$timezone         = date('e (T)');
+$gmtDifference    = date('P');
+
+echo "<hr>";
+if ($startYear != $currentYear)
+{
+	echo $startYear . "-";
+}
+echo $currentYear . " Mike's PHP Exercises. No rights reserved. Everything is FREE.  " .
+	"Website created by <a href=\" $mooseWebSiteURL \">$mooseWebSiteName</a>.";
+echo "<br>PHP v" . $version;
+echo ".   Date: " . $date;
+echo ".   Timezone: " . $timezone . ", GMT: " . $gmtDifference;
+?>
+
+</p>
+</center>
+</div>

@@ -1,0 +1,66 @@
+LOgin to Control Panel:
+000webhost.com
+
+Manage Databases
+-> New Database
+
+I created it with the same details as:
+
+   const DATABASE_NAME   = "u800723387_modb";
+   const USER_NAME       = "u800723387_giues";
+   const USER_PASSWORD   = "KCHevRkc4NUT3T1iAVj"; // Max 20 chars !
+
+
+http://moosesoftware.netau.net/php/aircond/erase_and_recreate.php
+
+http://moosesoftware.netau.net/php/aircond/index.php
+
+REF:
+https://www.000webhost.com/forum/t/how-to-connect-to-database-using-php/42093
+
+
+
+
+*** OLD Web host:
+
+https://cpanel.hostinger.co.uk/hosting/index/aid/23137819
+Domain
+moosesoftware.16mb.com
+IP Address
+185.28.20.64
+Username
+u800723387
+Activated
+09/18/2016
+Email Accounts
+0
+Subdomains
+0
+Parked Domains
+0
+FTP Accounts
+0
+MySQL Databases
+1
+server
+Server
+server37.hostinger.co.uk
+Server IP
+31.170.164.246
+Inodes
+968/20000
+Disk Usage
+768.67 / 1000 MB
+Bandwidth
+0.00 / 100000 MB
+Home Root
+/home/u800723387
+PHP Version
+7.0
+Apache Version
+Apache/2.4
+MariaDB Version
+10.2
+billing
+Hosting Plan
+
