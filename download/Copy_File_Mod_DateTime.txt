@@ -1,0 +1,203 @@
+ 
+Copy_File_Mod_DateTime			Copyright (C) Moose O'Malley, 
+-----------------------			July 2013.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Sample Execution / Demo
+   | * The Future
+   | * Reviews / Awards / CDs
+   | * Freeware Information
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+Copy_File_Mod_DateTime is a console application for DOS which runs perfectly in
+a DOS shell, command line, DOS batch script, etc under Windows 95, 98, NT, 2000, 
+XP, Vista, 7, 8, etc.
+
+Usage: execute the program with 2 command line parameters to specify the file 
+extensions that you want to process in the current directory:
+
+	Copy_File_Mod_DateTime extn1 extn2
+
+Example: 
+	`Copy_File_Mod_DateTime txt doc
+          
+This program is free software.  Anyone - any person, any company, 
+or any business - can use this program for free.  No fees or 
+payment is required.  See "Freeware Information" below.
+
+This program copies the file modified date/time from all files in the current 
+directory which have a particular extension to the same file with another 
+extension.
+
+For example, if a directory contains a bunch of video files, such as:
+- abc.avi
+- abc.mp4
+- My Home movie.AVI
+- My Home movie.mP4
+
+and you want to copy the file modified date/time from all AVI 
+files to their matching MP4 counterparts, then you would use a command like 
+this (in the directory where these files exist): 
+
+	Copy_File_Mod_DateTime avi mp4
+
+After this command has run you, the file modified date/time for "abc.mp4" 
+would be the same as "abc.avi", and the file modified date/time for 
+"My Home movie.mP4" would be the same as "My Home movie.AVI", and so 
+on for all matching pairs of AVIs and MP4 files in the current directory.
+
+Why is this useful ?  Why do this ? I do lots of video and picture conversions,
+and I wanted the converted files to have the same modified date/time as the 
+original file.  I did a bunch of internet searches, but these found no program 
+or utility that did this.  So, I wrote this program to do what I needed.
+
+The program works for files with any extensions - so it works for images 
+(bmp, jpg, png, etc), documents, spreadsheets, and all other file types.
+
+This program is completely case insensitive, so it does not matter whether 
+files have uppercase, lowercase, or mixed case names or extensions - they 
+will all be handled.  e.g. "abc.AVI" is handled the same as "AbC.avI".
+
+Also, full stops and asterisks are ignored in the parameters, so these commands 
+are all handled in exactly the same way:
+
+	Copy_File_Mod_DateTime txt doc
+	Copy_File_Mod_DateTime *.txt *.doc
+	Copy_File_Mod_DateTime .txt .doc
+
+See "Sample Execution / Demo" below for further details.
+
+Who knows, maybe someone else out there will find this program useful ?
+
+
+Sample Execution / Demo:
+-------------------------
+
+In the sample execution / demo below, I type in these commands:
+
+	dir
+	Copy_File_Mod_DateTime.exe bmp jpg
+	dir
+
+and show the results of these commands.  
+
+With these commands, I list the files in the current directory, then execute 
+Copy_File_Mod_DateTime to copy the file modified date/time from BMP to JPG files, 
+and then I list the files in the current directory again to show the results of 
+the processing.
+
+
+C:\demo>dir
+18/11/2002  02:40 AM               374 Add.bmp
+06/07/2013  02:01 PM               966 Add.jpg
+21/03/1997  03:00 AM               376 ALARM.BMP
+06/07/2013  02:01 PM             1,025 ALARM.jpg
+21/03/1997  03:00 AM               376 ambulance.bmp
+06/07/2013  02:01 PM             1,004 ambulance.jpg
+21/03/1997  03:00 AM               376 ANIMATN.BMP
+06/07/2013  02:01 PM               986 ANIMATN.jpg
+06/07/2013  01:39 PM            48,128 Copy_File_Mod_DateTime.exe
+               9 File(s)         53,611 bytes
+
+C:\demo>Copy_File_Mod_DateTime.exe bmp jpg
+- Current directory = C:\demo
+- Copying modified date/time from "C:\demo\Add.bmp" to "C:\demo\Add.jpg" ...
+Success: File modified date/time updated !
+- Copying modified date/time from "C:\demo\ALARM.BMP" to "C:\demo\ALARM.jpg" ...
+Success: File modified date/time updated !
+- Copying modified date/time from "C:\demo\ambulance.bmp" to "C:\demo\ambulance.jpg" ...
+Success: File modified date/time updated !
+- Copying modified date/time from "C:\demo\ANIMATN.BMP" to "C:\demo\ANIMATN.jpg" ...
+Success: File modified date/time updated !
+
+C:\demo>dir
+18/11/2002  02:40 AM               374 Add.bmp
+18/11/2002  02:40 AM               966 Add.jpg
+21/03/1997  03:00 AM               376 ALARM.BMP
+21/03/1997  03:00 AM             1,025 ALARM.jpg
+21/03/1997  03:00 AM               376 ambulance.bmp
+21/03/1997  03:00 AM             1,004 ambulance.jpg
+21/03/1997  03:00 AM               376 ANIMATN.BMP
+21/03/1997  03:00 AM               986 ANIMATN.jpg
+06/07/2013  01:39 PM            48,128 Copy_File_Mod_DateTime.exe
+               9 File(s)         53,611 bytes
+
+C:\demo>
+
+
+The Future :
+-------------
+
+This is an early release of the program, and several interesting
+things could be done in the future :
+
+- Add a "/s" parameter switch to process all files in all sub-directories as 
+  well as the current directory.  Would this be useful ?
+
+- Add a "/q" parameter switch to stop messages being produced during execution.
+  Would this be useful ?
+
+- Any other changes.  Can you suggest any ?
+
+Email me if you have any suggestions.
+
+
+Reviews / Awards / CDs :
+-------------------------
+
+None so far.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.  
+
+Anyone - any person, any company, or any business - can 
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please 
+consider making a PayPal donation to support my efforts.
+My PayPal address is: moose@move.to
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know.
+
+
+Amendment History :
+--------------------
+
+Vers   Date         Description
+1.0    06-Jul-2013  First Public Release.
+                    (261 lines of code, comments, and blank lines.
+
+
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this 
+program is available from my WEB page - see below.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://move.to/moose
+____________________________________________________
+ 

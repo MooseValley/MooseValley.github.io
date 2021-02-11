@@ -1,0 +1,310 @@
+ 
+Key Sound Generator 			Copyright (C) Moose O'Malley, 
+-------------------			September 2007.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Why I Wrote This Program
+   | * Installing and Using this Program
+   | * Uninstalling this Program
+   | * The Future
+   | * Reviews / Awards / CDs
+   | * Freeware Information
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+Key Sound Generator is for Windows 95, 98, ME, NT, 2000, XP, and similar.
+
+This program is free software.  Anyone - any person, any company, 
+or any business - can use this program for free.  No fees or 
+payment is required.  See "Freeware Information" below.
+
+Key Sound Generator is a fun program that plays a particular 
+sound effect each time a mouse button or keyboard key is pressed.
+
+Different sounds are played depending on the type of key or button.
+
+	Sound File      Type of Key which Triggers this Sound
+	-------------   -------------------------------------
+	ARROW.WAV       An arrow key
+	BACKSPCE.WAV    The backspace or delete key
+	MOUSE.WAV       A mouse button
+	RETURN.WAV      The Return key
+	SPACEBAR.WAV    The Spacebar
+	OTHER.WAV       Some other key on the keyboard.
+
+The following sounds are available:
+- Typewriter sound effects,  recorded from my "Brother 300T" 
+  portable typewriter.
+
+- Electronic Sounds a Public Domain sounds CD.
+
+- Wind (Thanks to Murray for these disgraceful burping sounds.)
+
+- Arcade (selected sounds from classic arcade games running in MAME)
+
+To change the sound set, simply select a new directory (within 
+the program - see below) which contains the new sounds. 
+
+You can record your own sounds and use these within the program.
+Just record them (using Windows Sound Recorder or similar) and save
+them in a directory and then select this directory to load sounds from.
+N.B. Short Sounds work best !
+
+When run, this program's icon will sit in the Windows Tray Bar area,
+and monitor your keystokes and mouse clicks and play sounds 
+as appropriate.  When you left mouse click on the program's icon in 
+the tray bar (or right mouse click and choose the "Restore" option 
+in the popup menu), then the program window will appear :
+- which enables you to see what sounds are needed,
+- enables you to select a new directory which contains alternate sounds,
+- and enables you to keep repeating sound while key is pressed / held down
+  or else just play bthe sound once no matter how long the key is held down.
+
+The menu options enable you to :
+- make the program stay "Always on Top" of other programs.
+- Auto-Run the Program when Windows Starts Up.
+- Restore Factory Defaults
+- and all other functionality that is standard to my programs.
+  (About menu, Catalog menu, etc).
+
+Developed using 32-bit Delphi.
+This program will **NOT** run under Windows 3.x
+(even with Win32 installed) !!
+
+
+Why I Wrote This Program :
+--------------------------
+
+I wrote this program because I had many requests from
+people on the internet for a program like this.
+
+Sure, key sound programs like this already exist, in 
+fact, at the request of others, I downloaded 4 key 
+sound programs from the internet and reviewed these
+before starting work on this program.
+
+All four of these programs were either limited, or you could 
+not use your own sounds, or they were deficient in other ways.
+
+In addition, three of the four key sound programs I trialed
+costed $15 US Dollars or more.  My program costs $10 Australian 
+dollars - which is about $5 US dollars.  i.e. one third of this !
+
+One of the four key sound programs was "free", but this nagged you 
+too much and changed your WEB browser's Home page.
+
+Other programs I was told about, click on Ad banners behind the 
+scenes, or hide cookies in your machine, or displayed similar 
+unacceptable behaviour.
+
+I also found quite a few bugs with some of the key sound programs
+I downloaded.  e.g. they didn't play sounds for all keyboard keys.
+
+My program incorporates all of the best features of all of 
+these programs, comes complete with multiple sets of sounds,
+allows you to use your own sounds, ensures that some sort
+of sound is played for every key on the keyboard, and only 
+costs a small fraction of these other programs without 
+any of the nags or home page changes.
+
+
+
+Installing and Using this Program :
+-----------------------------------
+
+The steps for using the program are :
+
+- Step 1 : Install the program.
+
+  Unzip the program to a directory on your PC.
+  Such as:
+
+    C:\Program Files\Key_Snd\
+
+- Step 2 : Run the Program :
+
+  Using Windows Exmplorer, open the directory where you 
+  extracted the contents of the ZIP file (in 1. above), and 
+  double click on the KEY_SND.EXE file torun the program.
+
+  When you do this, a small icon will appear in the Windows tray bar, 
+  talkclckand sounds will be made when you hit *any* key on the keyboard.
+
+If you click on the Key Sound Generator icon in the Windows Tray Bar 
+then the program window will apear, and you can then choose from a 
+whole range of options, such as :
+- Always On Top
+- Auto-Run at Windows Startup
+- Restore Factory Defaults
+- View Readme File
+- View Catalog
+- About ...  (i.e. about this program).
+- Exit (this program).
+
+N.B.  To run this program every time Windows starts up, then
+use the "Auto-Run at Windows Startup" option under the File menu.
+You only have to select this option once, and from then on, Key 
+Sound Generator will automatically run every time Windows starts up.
+
+I hope you find the program easy to use and useful.
+
+
+Uninstalling this Program :
+---------------------------
+
+Before deleting the program, you should turn off 
+the auto-running of this program under Windows - 
+if you have previously enabled it.  Simply, run the 
+program and re-select the option under the File menu 
+to achieve this.
+
+Exit the program - so it is no longer running.
+
+Using Windows Exmplorer, open the directory where you 
+extracted the contents of the ZIP file (in 1. above), and 
+then, simply delete the directory to where you extracted the
+ZIP file.  e.g.  C:\Program Files\Key_Snd\
+
+Simple as that !
+
+
+The Future :
+------------
+
+In the future, many improvements could be made to this program
+such as :
+
+- More sound groups.  e.g. a different sound for the function 
+  keys, or numeric keypad keys, or TAB, etc.
+
+- More sounds.  In the future, I would like to add additional 
+  sounds :
+    * Animal noises
+    * Farmyard noises
+    * any others ?
+
+- Better sound quality.  All sounds at the moment are 8 bit mono,
+  to save disk space and make the download from the internet as
+  small as possible.  However, 16 bit CD quality stereo sounds
+  are much better ... :)
+
+- Anything else ?
+
+If you would like any improvements, or would like to
+suggest any improvements, please email me and let me know.
+
+As with all of my shareware programs, how much more work I do on 
+this program depends entirely on what support I get, how many 
+people use the program, etc.
+
+None of my programs are perfect - I am the first to admit that.
+I have ideas for improvements and enhancements for all of my 
+shareware.  How much I improve things and when depends on the 
+support I receive for my hard work.
+
+
+Reviews / Awards / CDs :
+-------------------------
+
+None so far.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.  
+
+Anyone - any person, any company, or any business - can 
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please 
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select 
+the "About" option under the Help menu, and then click 
+the PayPal link on the "About" screen).
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know.
+
+
+Amendment History :
+--------------------
+
+Vers    Date        Description
+
+1.0  7-Apr-2001     First Public Release.
+                    (8,314 lines of code / comments.)
+
+1.1  6-Feb-2002     Bring the program up to date with my latest code libraries.
+                    Introduce yet more Anti-Hacker / Anti-Cracker measures.
+                    (10,435 lines of code / comments.)
+
+1.2  21-June-2002   Bring the program up to date with my latest code libraries.
+                    Make the TAB key use the same sound as the Spacebar.
+                    (Until now, the TAB key had no sound allocated to it, and it 
+                    made no sound at all).  (Thanks for reporting this Bill !!).
+                    (19,519 lines of code / comments.)
+
+1.2b  20-Nov-2002   Bring the program up to date with my latest code libraries.
+                    Registered Users - please contact me via email.
+                    (29,781 lines of code / comments.)
+
+1.3   22-Apr-2004   Add in the ability to disable or change the sounds played in 
+                    each category.  The user could always do this - but only 
+                    manually renaming the sound WAV files.  However, now this 
+                    functionality is provided directly by the program - 
+                    no messy renaming of files is required.
+                    In addition, the user can also choose "No Sound" for each 
+                    sound category - which is useful if a particular sound is 
+                    becoming annoying.  e.g. You might like to turn sound off 
+                    for the arrow keys.
+                    Add in the ability to restore the default sound settings 
+                    for each key / button category.
+                    All of these changes were made following some great feedback 
+                    and a request by Jonathan H.
+                    Bring the program up to date with my latest code libraries.
+                    (45,256 lines of code / comments.)
+
+1.4  25-June-2004   Fix the playing of sounds which I broke in the previous release - 
+                    but the testers somehow failed to notice this.
+                    Thanks to David for reporting this to me earlier today.
+                    Also, add in buttons to enable the user to play / hear / test 
+                    the selected sound in each category.
+                    At the end of the installation of Key Sound Generator,
+                    when the user presses the "Finish" button, automatically 
+                    run Key Sound Generator, so that the user does not have to 
+                    find it and execute it manually.
+                    Bring the program up to date with my latest code libraries.
+                    (45,327 lines of code / comments.)
+                    
+1.4f  3-Sep-2007    This program is now FREEWARE - see "Freeware Information"
+                    above.
+
+
+If this program was not downloaded from my Home Page, then
+it is most likely an old version.  The latest version of this 
+program is available from my Home page and its mirrors.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://move.to/moose
+____________________________________________________
+ 

@@ -1,0 +1,179 @@
+Millionwaire_Remake_v1,1f - Virus Scan = ALL OK, All Clear
+
+Millionwaire Remake (v1.1f)
+Millionwaire Remake
+Millionwaire_Remake_v1,1f.zip
+http://www.mediafire.com/download/likke31z3lt2h82/Millionwaire_Remake_v1%2C1f.zip
+
+
+http://www.virustotal.com/en/file/070dcc2f96f5cf585290de28c35d2feba7ae4bf1d3f2560db8b491f809c20666/analysis/1446774970/
+
+SHA256: 	070dcc2f96f5cf585290de28c35d2feba7ae4bf1d3f2560db8b491f809c20666
+File name: 	Millionwaire_Remake_v1,1f.zip
+Detection ratio: 	0 / 54
+Analysis date: 	2015-11-06 01:56:10 UTC ( 0 minutes ago )
+1
+0
+
+    Analysis
+    File detail
+    Additional information
+    Comments
+    Votes
+
+Antivirus 	Result 	Update
+ALYac 		20151106
+AVG 		20151105
+AVware 		20151105
+Ad-Aware 		20151106
+AegisLab 		20151105
+Agnitum 		20151106
+AhnLab-V3 		20151105
+Alibaba 		20151106
+Antiy-AVL 		20151106
+Arcabit 		20151106
+Avast 		20151106
+Avira 		20151106
+Baidu-International 		20151105
+BitDefender 		20151106
+Bkav 		20151105
+ByteHero 		20151106
+CAT-QuickHeal 		20151105
+CMC 		20151102
+ClamAV 		20151103
+Comodo 		20151105
+Cyren 		20151106
+DrWeb 		20151106
+ESET-NOD32 		20151106
+Emsisoft 		20151106
+F-Prot 		20151106
+F-Secure 		20151106
+Fortinet 		20151105
+GData 		20151106
+Ikarus 		20151105
+Jiangmin 		20151105
+K7AntiVirus 		20151105
+K7GW 		20151105
+Kaspersky 		20151106
+Malwarebytes 		20151105
+McAfee 		20151106
+McAfee-GW-Edition 		20151106
+MicroWorld-eScan 		20151106
+Microsoft 		20151106
+NANO-Antivirus 		20151106
+Panda 		20151105
+Rising 		20151105
+SUPERAntiSpyware 		20151106
+Sophos 		20151106
+Symantec 		20151105
+Tencent 		20151106
+TheHacker 		20151103
+TrendMicro 		20151106
+TrendMicro-HouseCall 		20151106
+VBA32 		20151105
+VIPRE 		20151106
+ViRobot 		20151106
+Zillya 		20151105
+Zoner 		20151106
+nProtect 		20151106 
+
+
+
+
+ The file being studied is a compressed stream! More specifically, it is a ZIP file.
+Interesting properties
+The studied file contains at least one Portable Executable.
+Contained files
+This file is a compressed stream containing 5 files.
+[+] Millionwaire.txt unknown 13578 Bytes
+[+] Millionwaire__Categories_Topics.txt unknown 489 Bytes
+[+] Millionwaire__MILLFILE.txt unknown 31785 Bytes
+[+] catalog.txt unknown 38182 Bytes
+[+] Millionwaire.exe Portable Executable 270864 Bytes
+Compression metadata
+Contained files
+5
+Uncompressed size
+354898
+Highest datetime
+2015-11-06 11:54:40
+Lowest datetime
+2015-10-27 17:43:14
+Contained files by extension
+txt
+4
+exe
+1
+Contained files by type
+unknown
+4
+Portable Executable
+1
+ExifTool file metadata
+MIMEType
+application/zip
+
+ZipRequiredVersion
+20
+
+ZipCRC
+0x1308ba50
+
+FileType
+ZIP
+
+ZipCompression
+Deflated
+
+ZipUncompressedSize
+13578
+
+ZipCompressedSize
+5478
+
+FileTypeExtension
+zip
+
+ZipFileName
+Millionwaire.txt
+
+ZipBitFlag
+0x0002
+
+ZipModifyDate
+2015:11:06 11:54:20
+
+
+
+
+File identification
+MD5 32a326dd44826c2244de1f6489c46dc7
+SHA1 ccb3d1396c32bbe34720a224c4f5dda5d1dc7569
+SHA256 070dcc2f96f5cf585290de28c35d2feba7ae4bf1d3f2560db8b491f809c20666
+ssdeep
+6144:nlDcpf5RIGZoMaI1ootdiQI21jFXsT5Wn3nKD0GQfNO7GCo:nlDct5xZoKOyL1JXsT5Oa9QfYil
+
+File size 289.0 KB ( 295914 bytes )
+File type ZIP
+Magic literal
+Zip archive data, at least v2.0 to extract
+
+TrID 	ZIP compressed archive (100.0%)
+Tags
+contains-pe zip upx
+
+VirusTotal metadata
+First submission 2015-11-06 01:56:10 UTC ( 2 minutes ago )
+Last submission 2015-11-06 01:56:10 UTC ( 2 minutes ago )
+File names 	Millionwaire_Remake_v1,1f.zip
+
+
+
+
+
+Comments
+
+I am super paranoid about security and all of my PCs are subject to the highest levels of security, so you can rest assured that there are no viruses or malware in any of the software I provide on my web site, as confirmed by this VirusTotal analysis. :)
+Moose
+Posted 0 minutes ago by Moose Delete 
+

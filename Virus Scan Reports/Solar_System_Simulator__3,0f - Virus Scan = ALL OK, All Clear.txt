@@ -1,0 +1,152 @@
+Solar_System_Simulator__3,0f - Virus Scan = ALL OK, All Clear
+
+Solar_System_Simulator__3,0f.zip
+
+https://www.virustotal.com/en/file/420bb3a8049b27771681b468d7a98dd2dfda3334ed1ef925ff34715035ba9f34/analysis/1421449664/
+
+SHA256: 	420bb3a8049b27771681b468d7a98dd2dfda3334ed1ef925ff34715035ba9f34
+File name: 	Solar_System_Simulator__3,0f.zip
+Detection ratio: 	0 / 57
+Analysis date: 	2015-01-16 23:07:44 UTC ( 3 minutes ago )
+1
+0
+
+    Analysis
+    Additional information
+    Comments 0
+    Votes
+
+Antivirus 	Result 	Update
+ALYac 		20150116
+AVG 		20150116
+AVware 		20150116
+Ad-Aware 		20150116
+AegisLab 		20150116
+Agnitum 		20150116
+AhnLab-V3 		20150116
+Alibaba 		20150116
+Antiy-AVL 		20150116
+Avast 		20150116
+Avira 		20150116
+Baidu-International 		20150116
+BitDefender 		20150116
+Bkav 		20150116
+ByteHero 		20150117
+CAT-QuickHeal 		20150116
+CMC 		20150116
+ClamAV 		20150116
+Comodo 		20150116
+Cyren 		20150116
+DrWeb 		20150116
+ESET-NOD32 		20150116
+Emsisoft 		20150116
+F-Prot 		20150116
+F-Secure 		20150116
+Fortinet 		20150116
+GData 		20150116
+Ikarus 		20150116
+Jiangmin 		20150116
+K7AntiVirus 		20150116
+K7GW 		20150116
+Kaspersky 		20150116
+Kingsoft 		20150117
+Malwarebytes 		20150116
+McAfee 		20150116
+McAfee-GW-Edition 		20150116
+MicroWorld-eScan 		20150116
+Microsoft 		20150116
+NANO-Antivirus 		20150116
+Norman 		20150116
+Panda 		20150116
+Qihoo-360 		20150117
+Rising 		20150116
+SUPERAntiSpyware 		20150116
+Sophos 		20150116
+Symantec 		20150116
+Tencent 		20150117
+TheHacker 		20150116
+TotalDefense 		20150116
+TrendMicro 		20150116
+TrendMicro-HouseCall 		20150116
+VBA32 		20150116
+VIPRE 		20150116
+ViRobot 		20150116
+Zillya 		20150116
+Zoner 		20150116
+nProtect 		20150116 
+
+
+
+File identification
+MD5 ca92908443f1fdc15b33d87c1bc7bcb4
+SHA1 4af2ec6847dd3a11b4020c40911cc625d87ea695
+SHA256 420bb3a8049b27771681b468d7a98dd2dfda3334ed1ef925ff34715035ba9f34
+ssdeep
+12288:WQTLEjY6fQbzmwBYxBp6enMGmD491wfekO8EKnSlFyFWIwerie9:W2LcY6fmBYDp6ElP8XAFyFRwIiG
+
+File size 574.1 KB ( 587923 bytes )
+File type ZIP
+Magic literal
+Zip archive data, at least v2.0 to extract
+
+TrID 	ZIP compressed archive (100.0%)
+Tags
+zip upx
+
+VirusTotal metadata
+First submission 2015-01-16 23:07:44 UTC ( 3 minutes ago )
+Last submission 2015-01-16 23:07:44 UTC ( 3 minutes ago )
+File names 	Solar_System_Simulator__3,0f.zip
+Advanced heuristic and reputation engines
+ClamAV PUA
+Possibly Unwanted Application. While not necessarily malicious, the scanned file presents certain characteristics which depending on the user policies and environment may or may not represent a threat. For full details see: http://www.clamav.net/doc/pua.html .
+
+Symantec reputation Suspicious.Insight
+ExifTool file metadata
+MIMEType
+application/zip
+
+ZipRequiredVersion
+20
+
+ZipCRC
+0x03e65f87
+
+FileType
+ZIP
+
+ZipCompression
+Deflated
+
+ZipUncompressedSize
+35216
+
+ZipCompressedSize
+12862
+
+FileAccessDate
+2015:01:17 00:07:41+01:00
+
+ZipFileName
+catalog.txt
+
+ZipBitFlag
+0x0002
+
+FileCreateDate
+2015:01:17 00:07:41+01:00
+
+ZipModifyDate
+2014:11:29 09:52:02
+
+
+
+Comments
+
+This software was downloaded from my web site: http://moosevalley.fhost.com.au/
+
+I am super paranoid about security and all of my PCs are subject to the highest levels of security, so you can rest assured that there are no viruses or malware in any of software on my web site, as confirmed by this VirusTotal analysis. :)
+
+Moose
+Posted 2 minutes ago by Moose Delete
+

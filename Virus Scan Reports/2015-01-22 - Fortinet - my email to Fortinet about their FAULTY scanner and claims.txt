@@ -1,0 +1,154 @@
+Fucking Fortinet lists my site as a "Malware site":
+
+>Fortinet 	Malware site
+
+http://www.fortinet.com/
+
+
+*************************************************
+
+http://www.fortinet.com/contact_us/index.html
+
+General Communications		communications@fortinet.com
+
+*************************************************
+
+
+
+----- Forwarded Message -----
+From: Moose O'Malley <moose_software@yahoo.com.au>
+To: "communications@fortinet.com" <communications@fortinet.com>
+Sent: Thursday, 22 January 2015, 21:33
+Subject: Fortinet web site scanner - FAULTY !
+
+Hi Fortinet,
+
+I have just scanned my web site using the VirusTotal URL scanner (http://www.virustotal.com/) which, at this current time, scans a given web site against 61 malware scanners.
+
+All of these scanners very rightly give my web site (http://moosevalley.fhost.com.au/) a clean bill of health.  All that is, except for Fortinet which lists my web site as a "Malware site".
+
+What the ????  I am very angry about this.  How dare you list my web site as a "Malware site".    My web site is NOT a malware site.  How DARE you suggest such a thing.  How DARE you peddle this nonsense to others.  What kind of show are you running ???
+
+Mooses Software Valley (http://moosevalley.fhost.com.au/) is my web site. I love developing software. My web site is the platform for me to distribute my software. I have been running my web site and distributing my software since July-1996. According to the download logs for the last couple of years, my software has been downloaded and used by well over 200,000 people in just the last few years, and that excludes the downloads for the 1st 15 years of my web site and the dozens (100's) of mirrors for my software around the internet.
+
+I am super paranoid about security and all of my PCs are subject to the highest levels of security, so you can rest assured that there are no viruses or malware in any of the software I provide on my web site, as confirmed by every single VirusTotal analysis of my software titles. :)
+
+Once again, I do NOT do malware.  My web site is NOT a malware site.
+
+Kindly fix your scanning algorithm, black list, and whatever else so that all of your future scans for my web site are 100% clean.
+I will be scanning my web site with VirusTotal again in the future, and if this is still an issue - if Fortinet still claiming that my web site is a "Malware site" - then I will be contacting you again.
+All the best,
+
+ Mike "Moose" OMalley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+* Email: Moose_Software@yahoo.com.au
+* WEB: http://moosevalley.fhost.com.au/
+____________________________________________________
+ 
+
+
+
+
+*************************************************
+
+http://www.virustotal.com/en/url/d94b37014c18013369c1dc2ad87b4799d4795b1f319033a30851a2825de16972/analysis/
+
+URL: 	http://moosevalley.fhost.com.au/
+Detection ratio: 	1 / 61
+Analysis date: 	2015-01-17 07:41:54 UTC ( 5 days, 3 hours ago )
+2
+0
+
+    Analysis
+    Additional information
+    Comments 0
+    Votes
+
+URL Scanner 	Result
+Fortinet 	Malware site
+ADMINUSLabs 	Clean site
+AegisLab WebGuard 	Clean site
+AlienVault 	Clean site
+Antiy-AVL 	Clean site
+AutoShun 	Unrated site
+Avira 	Clean site
+Baidu-International 	Clean site
+BitDefender 	Clean site
+Blueliv 	Clean site
+C-SIRT 	Clean site
+CLEAN MX 	Clean site
+CRDF 	Clean site
+Comodo Site Inspector 	Clean site
+CyberCrime 	Clean site
+Dr.Web 	Clean site
+ESET 	Clean site
+Emsisoft 	Clean site
+FraudSense 	Clean site
+G-Data 	Clean site
+Google Safebrowsing 	Clean site
+K7AntiVirus 	Clean site
+Kaspersky 	Unrated site
+Malc0de Database 	Clean site
+Malekal 	Clean site
+Malware Domain Blocklist 	Clean site
+MalwareDomainList 	Clean site
+MalwarePatrol 	Clean site
+Malwarebytes hpHosts 	Clean site
+Malwared 	Clean site
+Netcraft 	Unrated site
+OpenPhish 	Clean site
+Opera 	Clean site
+PalevoTracker 	Clean site
+ParetoLogic 	Clean site
+PhishLabs 	Unrated site
+Phishtank 	Clean site
+Quttera 	Clean site
+Rising 	Clean site
+SCUMWARE.org 	Clean site
+SecureBrain 	Clean site
+Sophos 	Unrated site
+Spam404 	Clean site
+SpyEyeTracker 	Clean site
+StopBadware 	Unrated site
+Sucuri SiteCheck 	Clean site
+Tencent 	Clean site
+ThreatHive 	Clean site
+Trustwave 	Unrated site
+URLQuery 	Unrated site
+VX Vault 	Clean site
+Web Security Guard 	Clean site
+Websense ThreatSeeker 	Clean site
+Webutation 	Suspicious site
+Wepawet 	Clean site
+Yandex Safebrowsing 	Clean site
+ZCloudsec 	Clean site
+ZDB Zeus 	Clean site
+ZeusTracker 	Clean site
+malwares.com URL checker 	Clean site
+zvelo 	Clean site
+
+
+
+Web site category
+Websense ThreatSeeker
+web analytics
+IP address resolution
+31.170.167.159
+Trigger active scans
+Quttera
+http://quttera.com/sitescan/moosevalley.fhost.com.au
+Sucuri
+http://sitecheck.sucuri.net/results/moosevalley.fhost.com.au
+
+
+
+
+
+Comments
+
+http://moosevalley.fhost.com.au/
+This is my web site. I love developing software. My web site is the platform for me to distrubute my software. I have been running my web site and distributing my software since July-1996. Acording to the download logs for the last couple of years, my software has been downloaded and used by well over 200,000 people in just the last few years, and that excludes the downloads for the 1st 15 years of my web site and the dozens (100's) of mirrors for my software around the internet.
+
+I am super paranoid about security and all of my PCs are subject to the highest levels of security, so you can rest assured that there are no viruses or malware in any of the software I provide on my web site, as confirmed by every single VirusTotal analysis of my software titles. :) 
+

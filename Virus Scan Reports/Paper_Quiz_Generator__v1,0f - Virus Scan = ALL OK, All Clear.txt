@@ -1,0 +1,147 @@
+Paper Quiz Generator (v1.0f)
+
+
+Paper_Quiz_Generator__v1,0f.zip
+Paper_Quiz_Generator
+
+
+http://www.virustotal.com/en/file/c50f6dacd0dcaa3f0105ef44b37c00ff6484c757aab979351958d72b548a0f6e/analysis/1427696757/
+
+SHA256: 	c50f6dacd0dcaa3f0105ef44b37c00ff6484c757aab979351958d72b548a0f6e
+File name: 	Paper_Quiz_Generator__v1,0f.zip
+Detection ratio: 	0 / 57
+Analysis date: 	2015-03-30 06:25:57 UTC ( 0 minutes ago )
+1
+0
+
+    Analysis
+    Additional information
+    Comments
+    Votes
+
+Antivirus 	Result 	Update
+ALYac 		20150330
+AVG 		20150330
+AVware 		20150330
+Ad-Aware 		20150330
+AegisLab 		20150330
+Agnitum 		20150329
+AhnLab-V3 		20150329
+Alibaba 		20150330
+Antiy-AVL 		20150330
+Avast 		20150330
+Avira 		20150330
+Baidu-International 		20150329
+BitDefender 		20150330
+Bkav 		20150328
+ByteHero 		20150330
+CAT-QuickHeal 		20150328
+CMC 		20150327
+ClamAV 		20150330
+Comodo 		20150330
+Cyren 		20150330
+DrWeb 		20150330
+ESET-NOD32 		20150330
+Emsisoft 		20150330
+F-Prot 		20150330
+F-Secure 		20150329
+Fortinet 		20150330
+GData 		20150330
+Ikarus 		20150330
+Jiangmin 		20150329
+K7AntiVirus 		20150329
+K7GW 		20150329
+Kaspersky 		20150330
+Kingsoft 		20150330
+Malwarebytes 		20150330
+McAfee 		20150330
+McAfee-GW-Edition 		20150329
+MicroWorld-eScan 		20150330
+Microsoft 		20150330
+NANO-Antivirus 		20150330
+Norman 		20150330
+Panda 		20150327
+Qihoo-360 		20150330
+Rising 		20150329
+SUPERAntiSpyware 		20150329
+Sophos 		20150330
+Symantec 		20150330
+Tencent 		20150330
+TheHacker 		20150330
+TotalDefense 		20150329
+TrendMicro 		20150330
+TrendMicro-HouseCall 		20150330
+VBA32 		20150327
+VIPRE 		20150330
+ViRobot 		20150330
+Zillya 		20150330
+Zoner 		20150327
+nProtect 		20150327 
+
+
+
+File identification
+MD5 a3f366b2de1621ce16c4159e86a5ddf0
+SHA1 897c4bf74d66d776d400c76117eedd4d4902b341
+SHA256 c50f6dacd0dcaa3f0105ef44b37c00ff6484c757aab979351958d72b548a0f6e
+ssdeep
+6144:5A/wHaM1U9HBimSMAGsjjSirMoXNEVxFKtcQADob2Jssc2U3Mw:5WONChimS5N4TFK3ASFsc2U3Mw
+
+File size 296.6 KB ( 303760 bytes )
+File type ZIP
+Magic literal
+Zip archive data, at least v2.0 to extract
+
+TrID 	ZIP compressed archive (100.0%)
+Tags
+zip upx
+
+VirusTotal metadata
+First submission 2015-03-30 06:25:57 UTC ( 1 minute ago )
+Last submission 2015-03-30 06:25:57 UTC ( 1 minute ago )
+File names 	Paper_Quiz_Generator__v1,0f.zip
+Advanced heuristic and reputation engines
+ClamAV PUA
+Possibly Unwanted Application. While not necessarily malicious, the scanned file presents certain characteristics which depending on the user policies and environment may or may not represent a threat. For full details see: http://www.clamav.net/doc/pua.html .
+
+Symantec reputation Suspicious.Insight
+ExifTool file metadata
+MIMEType
+application/zip
+
+ZipRequiredVersion
+20
+
+ZipCRC
+0x9aebe3e4
+
+FileType
+ZIP
+
+ZipCompression
+Deflated
+
+ZipUncompressedSize
+36430
+
+ZipCompressedSize
+13273
+
+ZipFileName
+catalog.txt
+
+ZipBitFlag
+0x0002
+
+ZipModifyDate
+2015:03:30 15:54:21
+
+
+
+
+Comments
+
+Downloaded from my web site: http://moosevalley.fhost.com.au/
+I am super paranoid about security and all of my PCs are subject to the highest levels of security, so you can rest assured that there are no viruses or malware in any of the software I provide on my web site, as confirmed by this VirusTotal analysis. :)
+Moose
+Posted 0 minutes ago by Moose Delete

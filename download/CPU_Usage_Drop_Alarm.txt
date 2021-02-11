@@ -1,0 +1,158 @@
+ 
+CPU Usage Drop Alarm			Copyright (C) Moose O'Malley, 
+---------------------			January 2015.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Using this Program
+   | * Why is this useful ?  /  Why do this ?
+   | * The Future
+   | * Reviews / Awards / CDs
+   | * Freeware Information
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+CPU Usage Drop Alarm is for IBM compatible PCs, desktops, laptops, netbooks, 
+etc running any version of Windows from Windows 95 onwards, which includes 
+Windows 98, ME, NT, 2000, XP, Vista, 7, 8, 10, etc, 32 and 64 bit.
+
+This program is free software.  Anyone - any person, any company, 
+or any business - can use this program for free.  No fees or 
+payment is required.  See "Freeware Information" below.
+
+CPU Usage Drop Alarm provides "CPU Usage Drop alarm"  functionality.
+When activated (by clicking the "Activate" button) this functionality 
+plays a sound over and over again until the user clicks the OK button 
+when the CPU usage drops below a user specified level for a user 
+specified number of seconds.  
+
+This is very useful for telling you when a big job has ended, 
+such as a Virus Scan, Disk Scan, Disk Defragment, CD/DVD Burning, 
+video processing and conversions, etc.
+
+This is the same functionality that is provided in some of my other 
+software titles (such as RAM / Swap Monitor), but this program provides 
+additional features.  For example, you can select whether the CPU Usage 
+being monitored is the Average, Minimum, or Maximum CPU Usage across 
+all of the CPUs in your computer.
+
+This is useful because you may be running a single threaded application (an 
+application that uses only 1 CPU), and if you want to know when this finishes 
+its processing / work, then you could monitor the Maximum CPU usage across all CPUs, 
+rather than the Average across all CPUs.
+
+If you select Average, then the number of CPUs is displayed next to the graph.
+e.g. 'Avg 8xCPU' will be displayed if you have 8 CPUs.
+
+If you select Minimum, then the ID of the CPU that had the minimum usage and the 
+number of CPUs is displayed next to the graph.  e.g. 'CPU.3/8' will be displayed 
+if CPU 3 of 8 had the minimum load.
+
+If you select Maximum, then the ID of the CPU that had the maximum usage and the 
+number of CPUs is displayed next to the graph.  e.g. 'CPU.3/8' will be displayed 
+if CPU 3 of 8 had the maxiumum load.
+
+Developed using 32-bit Delphi.
+
+This program will **NOT** run under Windows 3.x
+(even with Win32 installed) !!
+
+
+Using this Program :
+--------------------
+
+To use this program, simply run it and change the settings to suit your needs
+and click the "Activate" button.
+
+If you want this program to be "Always On Top" of other Windows, 
+then select the "Always On Top" menu option under the "File" menu.
+
+
+Why is this useful ?  /  Why do this ?
+--------------------------------------
+
+The functionality provided by this program is very useful if your PC 
+is performing Virus Scan, Disk Scan, Disk Defragment, CD/DVD Burning, 
+video processing and conversions, etc, and you want to be alerted when 
+the processing has been completed (via a sound played over and over again).
+
+This saves you having to hang around your PC watching it and waiting for it 
+to complete the work you have assigned.  You can go away, have a coffee, etc
+and as long as you are within ear shot of the sound, you will be alerted when 
+the processing has been completed.
+
+
+The Future :
+------------
+
+If you would like any of improvements, changes, additions, etc 
+please email me and let me know.
+
+
+Reviews / Awards / CDs :
+-------------------------
+
+None so far.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.  
+
+Anyone - any person, any company, or any business - can 
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please 
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select 
+the "About" option under the Help menu, and then click 
+the PayPal link on the "About" screen).
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know.
+
+
+Amendment History :
+--------------------
+
+Vers    Date        Description
+
+1.0f  13-Jan-2015   First Public Release.
+                    (621 lines of code / comments / blank lines in primary source file.)
+                    (59,916 lines of code / comments / blank lines in all primary, library, and include files.)
+
+1.1f  16-Jan-2015   Improve the alignment of some screen labels.  
+                    Fix the tab order of the GUI components.
+                    Display "Alarm Activated!" in the program's title bar when the alarm is activated.
+                    (629 lines of code / comments / blank lines in primary source file.)
+                    (59,953 lines of code / comments / blank lines in all primary, library, and include files.)
+
+
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this 
+program is available from my WEB page - see below.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://moosevalley.fhost.com.au/
+____________________________________________________
+ 

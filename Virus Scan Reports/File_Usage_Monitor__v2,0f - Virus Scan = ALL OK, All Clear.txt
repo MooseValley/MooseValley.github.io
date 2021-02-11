@@ -1,0 +1,143 @@
+File_Usage_Monitor__v2,0f
+
+http://www.virustotal.com/en/file/34510213eaa52638dd9c0c5a03c2725d7df22c2d2c567dbae08356833aa52618/analysis/1428802645/
+
+SHA256: 	34510213eaa52638dd9c0c5a03c2725d7df22c2d2c567dbae08356833aa52618
+File name: 	File_Usage_Monitor__v2,0f.zip
+Detection ratio: 	0 / 56
+Analysis date: 	2015-04-12 01:37:25 UTC ( 0 minutes ago )
+1
+0
+
+    Analysis
+    Additional information
+    Comments
+    Votes
+
+Antivirus 	Result 	Update
+ALYac 		20150411
+AVG 		20150411
+AVware 		20150412
+Ad-Aware 		20150412
+AegisLab 		20150412
+Agnitum 		20150409
+AhnLab-V3 		20150411
+Alibaba 		20150412
+Antiy-AVL 		20150411
+Avast 		20150412
+Avira 		20150411
+Baidu-International 		20150411
+BitDefender 		20150412
+Bkav 		20150410
+ByteHero 		20150412
+CAT-QuickHeal 		20150411
+CMC 		20150410
+ClamAV 		20150412
+Comodo 		20150411
+Cyren 		20150412
+DrWeb 		20150412
+ESET-NOD32 		20150411
+Emsisoft 		20150412
+F-Prot 		20150412
+F-Secure 		20150411
+Fortinet 		20150411
+GData 		20150412
+Ikarus 		20150411
+Jiangmin 		20150411
+K7AntiVirus 		20150411
+K7GW 		20150411
+Kaspersky 		20150411
+Kingsoft 		20150412
+Malwarebytes 		20150412
+McAfee 		20150412
+McAfee-GW-Edition 		20150411
+MicroWorld-eScan 		20150412
+Microsoft 		20150412
+Norman 		20150411
+Panda 		20150410
+Qihoo-360 		20150412
+Rising 		20150411
+SUPERAntiSpyware 		20150411
+Sophos 		20150411
+Symantec 		20150412
+Tencent 		20150412
+TheHacker 		20150410
+TotalDefense 		20150411
+TrendMicro 		20150412
+TrendMicro-HouseCall 		20150412
+VBA32 		20150410
+VIPRE 		20150412
+ViRobot 		20150411
+Zillya 		20150411
+Zoner 		20150410
+nProtect 		20150410 
+
+
+
+
+File identification
+MD5 292227de6b242645c167fdf5777f1a01
+SHA1 7f1687b134087ec77540e7cec029c9bf505ce12b
+SHA256 34510213eaa52638dd9c0c5a03c2725d7df22c2d2c567dbae08356833aa52618
+ssdeep
+6144:6OyKh8LIsjcHKXcUtxyt4/G4kwR/2Z6mgZOWUsff4U58llYi:60fycHWc+z/G4kK/vmgkWUsfwUmlz
+
+File size 295.7 KB ( 302776 bytes )
+File type ZIP
+Magic literal
+Zip archive data, at least v2.0 to extract
+
+TrID 	ZIP compressed archive (100.0%)
+Tags
+zip upx
+
+VirusTotal metadata
+First submission 2015-04-12 01:37:25 UTC ( 1 minute ago )
+Last submission 2015-04-12 01:37:25 UTC ( 1 minute ago )
+File names 	File_Usage_Monitor__v2,0f.zip
+Advanced heuristic and reputation engines
+ClamAV PUA
+Possibly Unwanted Application. While not necessarily malicious, the scanned file presents certain characteristics which depending on the user policies and environment may or may not represent a threat. For full details see: http://www.clamav.net/doc/pua.html .
+
+Symantec reputation Suspicious.Insight
+ExifTool file metadata
+MIMEType
+application/zip
+
+ZipRequiredVersion
+20
+
+ZipCRC
+0x1eded308
+
+FileType
+ZIP
+
+ZipCompression
+Deflated
+
+ZipUncompressedSize
+35737
+
+ZipCompressedSize
+13045
+
+ZipFileName
+catalog.txt
+
+ZipBitFlag
+0x0002
+
+ZipModifyDate
+2015:01:13 13:09:02
+
+
+
+
+
+Comments
+
+Downloaded from my web site: http://moosevalley.fhost.com.au/
+I am super paranoid about security and all of my PCs are subject to the highest levels of security, so you can rest assured that there are no viruses or malware in any of the software I provide on my web site, as confirmed by this VirusTotal analysis. :)
+Moose
+Posted 0 minutes ago by Moose Delete

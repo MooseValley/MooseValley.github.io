@@ -1,0 +1,95 @@
+SciFiComputer_1950s__v1,0f.zip
+http://www.mediafire.com/file/c5db86ht9d4d04s/SciFiComputer_1950s__v1%2C0f.zip
+
+As always, I virus scan all of the files I release against 55 of the leading virus scanners on the Virus Total web site, and updated Sag Calculator (v3.6.01) has a 100% clean bill of health.  Here's a link to the scan report:
+
+https://www.virustotal.com/en/file/94a28b916cfdca4f5c559495d137216c541a7c41aaf98466c5a6d838eae2d4b2/analysis/1485996271/
+
+
+If you have any further issues, please let me know.  :)
+
+
+*************************************************
+https://www.virustotal.com/en/file/94a28b916cfdca4f5c559495d137216c541a7c41aaf98466c5a6d838eae2d4b2/analysis/1485996271/
+
+SHA256: 	94a28b916cfdca4f5c559495d137216c541a7c41aaf98466c5a6d838eae2d4b2
+File name: 	SciFiComputer_1950s__v1,0f.zip
+Detection ratio: 	0 / 55
+Analysis date: 	2017-02-02 00:44:31 UTC ( 0 minutes ago )
+1
+0
+
+    Analysis
+    File detail
+    Additional information
+    Comments
+    Votes
+
+Antivirus 	Result 	Update
+ALYac 		20170201
+AVG 		20170201
+AVware 		20170202
+Ad-Aware 		20170202
+AegisLab 		20170201
+AhnLab-V3 		20170201
+Alibaba 		20170122
+Antiy-AVL 		20170201
+Arcabit 		20170202
+Avast 		20170202
+Avira (no cloud) 		20170201
+Baidu 		20170125
+BitDefender 		20170201
+Bkav 		20170123
+CAT-QuickHeal 		20170201
+CMC 		20170201
+ClamAV 		20170201
+Comodo 		20170201
+CrowdStrike Falcon (ML) 		20170130
+Cyren 		20170202
+DrWeb 		20170202
+ESET-NOD32 		20170202
+Emsisoft 		20170201
+F-Prot 		20170202
+F-Secure 		20170202
+Fortinet 		20170202
+GData 		20170202
+Ikarus 		20170201
+Invincea 		20170111
+Jiangmin 		20170201
+K7AntiVirus 		20170201
+K7GW 		20170202
+Kaspersky 		20170201
+Kingsoft 		20170202
+Malwarebytes 		20170201
+McAfee 		20170202
+McAfee-GW-Edition 		20170201
+eScan 		20170202
+Microsoft 		20170201
+NANO-Antivirus 		20170201
+Panda 		20170201
+Qihoo-360 		20170202
+Rising 		20170202
+SUPERAntiSpyware 		20170201
+Sophos 		20170201
+Symantec 		20170201
+Tencent 		20170202
+TheHacker 		20170129
+TrendMicro 		20170202
+TrendMicro-HouseCall 		20170202
+Trustlook 		20170202
+VBA32 		20170201
+VIPRE 		20170202
+ViRobot 		20170201
+WhiteArmor 		20170123
+Yandex 		20170201
+Zillya 		20170201
+Zoner 		20170201
+nProtect 		20170201
+
+
+Comments
+Downloaded from my web site: http://moosesoftware.16mb.com/
+I am super paranoid about security and all of my PCs are subject to the highest levels of security, so you can rest assured that there are no viruses or malware in any of the software I provide on my web site, as confirmed by this VirusTotal analysis. :)
+Moose
+Posted 0 minutes ago by Moose Delete
+

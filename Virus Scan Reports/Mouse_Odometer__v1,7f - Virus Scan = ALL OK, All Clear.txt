@@ -1,0 +1,146 @@
+Mouse_Odometer__v1,7f - Virus Scan = ALL OK, All Clear
+
+Mouse Odometer (v1.7f)
+
+http://www.virustotal.com/en/file/efef81f5cd8b227cbf275befa26a9cc6d29020b7b641a8169b76050c02ae7b69/analysis/1425272098/
+
+SHA256: 	efef81f5cd8b227cbf275befa26a9cc6d29020b7b641a8169b76050c02ae7b69
+File name: 	mouse_od__v1,7f.zip
+Detection ratio: 	0 / 57
+Analysis date: 	2015-03-02 04:54:58 UTC ( 0 minutes ago )
+1
+0
+
+    Analysis
+    Additional information
+    Comments
+    Votes
+
+Antivirus 	Result 	Update
+ALYac 		20150302
+AVG 		20150302
+AVware 		20150228
+Ad-Aware 		20150302
+AegisLab 		20150302
+Agnitum 		20150228
+AhnLab-V3 		20150301
+Alibaba 		20150302
+Antiy-AVL 		20150302
+Avast 		20150302
+Avira 		20150301
+Baidu-International 		20150301
+BitDefender 		20150302
+Bkav 		20150228
+ByteHero 		20150302
+CAT-QuickHeal 		20150228
+CMC 		20150301
+ClamAV 		20150302
+Comodo 		20150302
+Cyren 		20150302
+DrWeb 		20150302
+ESET-NOD32 		20150302
+Emsisoft 		20150302
+F-Prot 		20150302
+F-Secure 		20150301
+Fortinet 		20150302
+GData 		20150302
+Ikarus 		20150302
+Jiangmin 		20150301
+K7AntiVirus 		20150301
+K7GW 		20150301
+Kaspersky 		20150302
+Kingsoft 		20150302
+Malwarebytes 		20150302
+McAfee 		20150302
+McAfee-GW-Edition 		20150302
+MicroWorld-eScan 		20150302
+Microsoft 		20150302
+NANO-Antivirus 		20150302
+Norman 		20150301
+Panda 		20150301
+Qihoo-360 		20150302
+Rising 		20150301
+SUPERAntiSpyware 		20150301
+Sophos 		20150302
+Symantec 		20150302
+Tencent 		20150302
+TheHacker 		20150302
+TotalDefense 		20150301
+TrendMicro 		20150302
+TrendMicro-HouseCall 		20150302
+VBA32 		20150227
+VIPRE 		20150302
+ViRobot 		20150302
+Zillya 		20150228
+Zoner 		20150227
+nProtect 		20150227 
+
+
+
+
+File identification
+MD5 ac4dd3c08b1c98f180a0c757f788f67f
+SHA1 ebc84140c9da8576d25674d083321316d0d1bfcc
+SHA256 efef81f5cd8b227cbf275befa26a9cc6d29020b7b641a8169b76050c02ae7b69
+ssdeep
+6144:B74OqSqyQ13gvtyOL+vpdo2SEbF/q4ymBiirt:yOpqyQ13glyOLqQ23Q47BFt
+
+File size 259.1 KB ( 265363 bytes )
+File type ZIP
+Magic literal
+Zip archive data, at least v2.0 to extract
+
+TrID 	ZIP compressed archive (100.0%)
+Tags
+zip upx
+
+VirusTotal metadata
+First submission 2015-03-02 04:54:58 UTC ( 7 minutes ago )
+Last submission 2015-03-02 04:54:58 UTC ( 7 minutes ago )
+File names 	mouse_od__v1,7f.zip
+Advanced heuristic and reputation engines
+ClamAV PUA
+Possibly Unwanted Application. While not necessarily malicious, the scanned file presents certain characteristics which depending on the user policies and environment may or may not represent a threat. For full details see: http://www.clamav.net/doc/pua.html .
+
+Symantec reputation Suspicious.Insight
+ExifTool file metadata
+MIMEType
+application/zip
+
+ZipRequiredVersion
+20
+
+ZipCRC
+0x3de5005f
+
+FileType
+ZIP
+
+ZipCompression
+Deflated
+
+ZipUncompressedSize
+35931
+
+ZipCompressedSize
+13108
+
+ZipFileName
+catalog.txt
+
+ZipBitFlag
+0x0002
+
+ZipModifyDate
+2015:01:27 09:09:23
+
+
+
+
+
+Comments
+
+Downloaded from my web site: http://moosevalley.fhost.com.au/
+I am super paranoid about security and all of my PCs are subject to the highest levels of security, so you can rest assured that there are no viruses or malware in any of the software I provide on my web site, as confirmed by this VirusTotal analysis. :)
+Moose
+Posted 0 minutes ago by Moose Delete

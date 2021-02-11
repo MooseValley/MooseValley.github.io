@@ -1,0 +1,79 @@
+----------------------------------------------
+ Words Worth Crossword And Scrabble Companion 
+----------------------------------------------
+             Apple ][ Version
+         By Michael O'Malley - 1982
+----------------------------------------------
+
+Copyright (C) Moose O'Malley, 1982-2002.
+
+This ZIP file contains a disk image of my original 
+Words Worth Crossword And Scrabble Companion  
+Apple ][ floppy disk - a program I wrote way back 
+in 1982 on my Apple ][ computer.
+
+This Apple ][ version is FREEWARE - please feel free to copy 
+it, distribute it, and use it in any way you like.
+
+Words Worth - Crossword and Scrabble Companion
+provides some basic functionality that might be useful
+to people who like playing scrabble, or doing crosswords, 
+or anyone who needs to look up words or use words in 
+other ways.
+
+This program is *extremely* limited :
+
+- Only very basic word searching functionality is 
+  provided.
+
+- In addition, a list of only 938 words are provided -
+  but you can add more yourself using the "Add"
+  function in the program.
+
+I typed all of these words in by hand over several weeks
+in 1982 - what a hellish job that was !!
+
+Two versions of the program are provided :
+- AppleSoft BASIC version
+- and a much faster Machine Code version
+
+You can run whichever version you like.
+
+
+Using this Program :
+---------------------
+
+Unzip the disk image to wherever you have installed your 
+favourite Apple 2 emulator, and you can then run it with 
+the emulator. 
+
+Check out my Apple 2 Emulation pages for more 
+information / links :
+
+	http://move.to/moose
+
+
+Apple ][ Emulators :
+---------------------
+
+Apple ][ emulators and other disk images can be downloaded 
+from :
+
+	ftp://ftp.apple.asimov.net/pub/apple_II// 
+
+
+Windows Version with 263,000+ Words :
+--------------------------------------
+
+If you like this program, or even if you hate this program,
+make sure you check out my recent Windows version of
+Words Worth Crossword And Scrabble Companion, which includes 
+260,000+ words, powerful search capabilities, and is especially 
+designed for use by tournament crossword and scrabble players.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://move.to/moose
+____________________________________________________
+ 

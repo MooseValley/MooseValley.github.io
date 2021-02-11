@@ -1,0 +1,155 @@
+Zip_Cracker__v1,4f - Virus Scan = ALL OK, All Clear.txt
+
+<LI> <a  href= "mooses_freeware.html#ZIP_Cracker"> 								Zip Password Cracker Pro (v1.4f)</a>
+
+Zip_Cracker__v1,4f.zip
+
+http://www.virustotal.com/en/file/5219cb7bc54e55ac8ebc7d16572566e856dfecf90c6de78a86fe176e1adc0e30/analysis/
+
+SHA256: 	5219cb7bc54e55ac8ebc7d16572566e856dfecf90c6de78a86fe176e1adc0e30
+File name: 	zip-password-cracker-pro-142-1.zip
+Detection ratio: 	0 / 56
+Analysis date: 	2015-01-11 09:53:53 UTC ( 5 days, 20 hours ago )
+1
+0
+
+    Analysis
+    Additional information
+    Comments 0
+    Votes
+
+Antivirus 	Result 	Update
+ALYac 		20150111
+AVG 		20150111
+AVware 		20150111
+Ad-Aware 		20150111
+AegisLab 		20150111
+Agnitum 		20150110
+AhnLab-V3 		20150110
+Antiy-AVL 		20150111
+Avast 		20150111
+Avira 		20150110
+Baidu-International 		20150111
+BitDefender 		20150111
+Bkav 		20150109
+ByteHero 		20150111
+CAT-QuickHeal 		20150110
+CMC 		20150109
+ClamAV 		20150111
+Comodo 		20150111
+Cyren 		20150111
+DrWeb 		20150111
+ESET-NOD32 		20150111
+Emsisoft 		20150111
+F-Prot 		20150111
+F-Secure 		20150111
+Fortinet 		20150111
+GData 		20150111
+Ikarus 		20150111
+Jiangmin 		20150110
+K7AntiVirus 		20150111
+K7GW 		20150110
+Kaspersky 		20150111
+Kingsoft 		20150111
+Malwarebytes 		20150111
+McAfee 		20150111
+McAfee-GW-Edition 		20150113
+MicroWorld-eScan 		20150111
+Microsoft 		20150111
+NANO-Antivirus 		20150111
+Norman 		20150111
+Panda 		20150110
+Qihoo-360 		20150111
+Rising 		20150109
+SUPERAntiSpyware 		20150110
+Sophos 		20150110
+Symantec 		20150111
+Tencent 		20150111
+TheHacker 		20150106
+TotalDefense 		20150110
+TrendMicro 		20150111
+TrendMicro-HouseCall 		20150111
+VBA32 		20150110
+VIPRE 		20150111
+ViRobot 		20150111
+Zillya 		20150111
+Zoner 		20150107
+nProtect 		20150109 
+
+
+
+
+File identification
+MD5 411d1870c738e25d30d4c701ef3e0f47
+SHA1 477a7838c0b20b81d027f49b35664f314284b96a
+SHA256 5219cb7bc54e55ac8ebc7d16572566e856dfecf90c6de78a86fe176e1adc0e30
+ssdeep
+6144:hNGFGtC+jP04RNhQTUxY7apWp3pRZzcGzGDEpCbtCRJqR0CWntRYBc0Jb9DBg6B7:h+GBn6TEBW7hzLwbtgoR0CWn70382tF7
+
+File size 380.3 KB ( 389440 bytes )
+File type ZIP
+Magic literal
+Zip archive data, at least v2.0 to extract
+
+TrID 	ZIP compressed archive (100.0%)
+Tags
+zip upx
+
+VirusTotal metadata
+First submission 2014-03-15 07:35:45 UTC ( 10 months, 1 week ago )
+Last submission 2015-01-11 09:53:53 UTC ( 5 days, 20 hours ago )
+File names 	file-7428584_zip
+zip-password-cracker-pro-142-1.zip
+zip-password-cracker-pro-142-1.zip
+Zip_Cracker__v1,4f.zip
+Advanced heuristic and reputation engines
+ClamAV PUA
+Possibly Unwanted Application. While not necessarily malicious, the scanned file presents certain characteristics which depending on the user policies and environment may or may not represent a threat. For full details see: http://www.clamav.net/doc/pua.html .
+
+Symantec reputation Suspicious.Insight
+ExifTool file metadata
+MIMEType
+application/zip
+
+ZipRequiredVersion
+20
+
+ZipCRC
+0xc91ab38d
+
+FileType
+ZIP
+
+ZipCompression
+Deflated
+
+ZipUncompressedSize
+28335
+
+ZipCompressedSize
+9213
+
+FileAccessDate
+2015:01:11 10:54:08+01:00
+
+ZipFileName
+Zip_Cracker.txt
+
+ZipBitFlag
+0x0002
+
+FileCreateDate
+2015:01:11 10:54:08+01:00
+
+ZipModifyDate
+2013:10:26 10:28:16
+
+
+
+
+Comments
+
+Downloaded from my web site: http://moosevalley.fhost.com.au/
+I am super paranoid about security and all of my PCs are subject to the highest levels of security, so you can rest assured that there are no viruses or malware in any of the software I provide on my web site, as confirmed by this VirusTotal analysis. :)
+Moose
+Posted 0 minutes ago by Moose Delete

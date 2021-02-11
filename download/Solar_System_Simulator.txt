@@ -1,0 +1,737 @@
+ 
+Solar System Simulator		Copyright (C) Moose O'Malley, 
+----------------------		January 2015.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Why I wrote this program ?
+   | * Accuracy of the Data Presented
+   | * Installing and Using this Program
+   | * Uninstalling this Program
+   | * Glossary of Terms
+   | * Animation Speed Benchmarks
+   | * The Future
+   | * Special Thanks
+   | * Reviews / Awards / CDs
+   | * Freeware Information
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+Solar System Simulator is for IBM compatible PCs, desktops, laptops, netbooks, 
+etc running any version of Windows from Windows 95 onwards, which includes 
+Windows 98, ME, NT, 2000, XP, Vista, 7, 8, 10, etc, 32 and 64 bit.
+
+This program is free software.  Anyone - any person, any company, 
+or any business - can use this program for free.  No fees or 
+payment is required.  See "Freeware Information" below.
+
+Solar System Simulator is a program to help you visualise 
+the solar system, compare the planets, and find out more 
+about the planets.
+
+Solar System Simulator includes :
+
+- An animation of the Solar System, with the planets rotating 
+  around the Sun.  You can adjust the speed of this rotation - 
+  so that all planets move slowly, or so that some or all 
+  planets whiz around the Sun.
+
+  You can reverse, forwards, pause, re-start, and reset the 
+  action at any time.
+
+  You can also choose which planet to "stand on" and the 
+  perspective of the rotating planets and Sun is adjusted 
+  accordingly.
+
+  And, you can also trace the orbit of each object - i.e. draw
+  a white dot at the center of each object at each position.
+  This is great for helping to visualize / understrand the 
+  various orbits.
+
+- 46 Planetary Comparison Graphs (with various options) to 
+  let you compare dozens of crit
+   * Albedo [Planet's Reflectiveness]
+   * Atmosphere - Percentage Carbon Dioxide [CO2]
+   * Atmosphere - Percentage Helium [He]
+   * Atmosphere - Percentage Hydrogen [H]
+   * Atmosphere - Percentage Methane [CH4]
+   * Atmosphere - Percentage Nitrogen [N]
+   * Atmosphere - Percentage Oxygen [O2]
+   * Atmosphere - Percentage Water [H2O]
+   * Atmospheric Pressures (Millibars)
+   * Circumferences (Km)
+   * Density - Average (Kg/Cubic Meter, Density of Water=1027)
+   * Discovered - Year
+   * Distance from Earth - Closest (Millions of Km)
+   * Distance from Earth - Furthest (Millions of Km)
+   * Distance from Sunwards Neighbour [Closest Approach] (AU)
+   * Distance from Sunwards Neighbour [Closest Approach] (Millions of Km)
+   * Ellipticity [Flattening due to Rotation]
+   * Escape Velocity (Km/Sec)
+   * Gravity (m/sec2)
+   * Length of a Sidereal Day (Earth Days)
+   * Length of a Solar Day (Earth Days)
+   * Length of Year (Earth Days)
+   * Masses [Kg]
+   * Moons - Number
+   * Obliquity to Orbit [Axial Tilt] (Degrees)
+   * Orbital Eccentricity (0 = perfectly circular orbit)
+   * Orbital Inclination (Degrees)
+   * Radius - Average (Km)
+   * Radius of Oribit - Average (AU)
+   * Radius of Oribit - Average (Millions of Km)
+   * Radius of Oribit - Closest [Perihelion] (Millions of Km)
+   * Radius of Oribit - Furthest [Aphelion] (Millions of Km)
+   * Roche Limit (Km)
+   * Size in Degrees as Seen from Earth [when Closest to Earth]
+   * Size of Sun from Planet Surface [1.0 = size of Sun from Earth]
+   * Solar Irradiance
+   * Space Probe - Number Visits [so far]
+   * Space Probe - Year First Visited
+   * Sphere of Influence (Millions of Km)
+   * Surface Areas (Square Km)
+   * Temperatures Average (Degrees C)
+   * Time for Sun-Light to Reach Planet (Hours)
+   * Velocity Orbital (Km / Sec)
+   * Velocity Rotational (Km / Sec)
+   * Volume (Cubic Km)
+   * Wind Speed [Maxium] (m/sec)
+
+  You can include the Sun in these graphs if you want, or 
+  you can include or exclude the Jovian Planets (Jupiter,
+  Saturn, Uranus, and Neptune), or change various other 
+  options.
+
+- You can view the actual values / numbers, or scale the 
+  values releative to Earth.
+  This makes it easier to visualise the data.  For example, instead of
+  seeing the Planet Radius values for each planet (Earth 6,371 Km, 
+  Saturn 58,232 Km, etc) you see the sizes relative to Earth 
+  (Saturn has 9.14 Earth's radius).
+
+- Planet Statistics and information, with complete detailed
+  reports on each planet or our Sun - including size, mass,
+  length of day, temperature ranges, density, volume, 
+  surface area, orbital velocity, space craft visits, and 
+  many dozens of other measurements, statistics, and 
+  interesting facts.
+
+- A Weight Calculator to enable you to enter your weight 
+  and calculate your weight on each planet.
+
+- Extract Data: you can copy and paste any or all selected 
+  "extracted  data" into a spreadsheet or your own reports.  
+  The data is generated in "TAB separated" format to make 
+  it easy to do these things.  You can copy ALL data 
+  values for ALL planets to Windows clipboard with 3 
+  mouse clicks !!  (Simply click on the "Select All" 
+  button, "Extract Data" button, and finally the 
+  "Copy to Windows' Clipboard" button - 2 seconds is 
+  all it takes !!)
+
+- Gravity Calculator: allows you to enter the mass and volume 
+  of an object relative to Earth, and calculate the object's 
+  gravity.  This works perfectly for all asteronomical objects, 
+  including stars, Neutron Stars, Black Holes, planets and moons 
+  in our solar system, and exo-planets (planets around other stars).
+
+All data (including the reports and graphs !) can be copied 
+to Windows Clipboard at the click of a button, so that you can 
+then paste them into your own documents and use them in your 
+own projects / research / web pages / etc.
+
+You can generate a highly detailed report on all planets
+with 2 mouse clicks !!  (Select "All Objects" on the 
+"Planet Statistics" tab, and press the "Copy to Windows 
+Clipboard" button - simple !)
+
+If you do use this information or the reports or graphs in
+your own own projects / research / web pages / etc, then 
+please provide a link to my WEB page.
+
+All data has been checked against official NASA figures,
+see "Accuracy of the Data Presented" below.
+
+This program should be useful to anyone who wants to 
+learn more about the Solar System.
+
+As far as I can tell, this program is unique - after 
+carrying out extensive searching on the internet and 
+in magazines, I can find no other program like it in 
+the world !!  (At least, this was the case when the 
+program was developed - there are probably copy cat 
+rip-offs out there now ...  ;)
+
+Developed using 32-bit Delphi.
+
+This program will **NOT** run under Windows 3.x  
+(even with Win32 installed).
+
+
+Why I wrote this program ?
+--------------------------------------------
+
+I wrote this program because I have always been interested
+in space and space travel.
+
+This program is a program I have wanted to have for ages,
+but nothing quite like it exists as far as I can determine.
+
+
+Accuracy of the Data Presented :
+--------------------------------
+
+I used many sources to obtain the data that is 
+used in this program : 
+
+- Many internet sites, especially these excellent sites :
+
+  Planetary Fact Sheet - Metric
+   http://nssdc.gsfc.nasa.gov/planetary/factsheet/index.html
+
+  NASA Planets and Missions information, and great fact sheets :
+    http://nssdc.gsfc.nasa.gov/planetary/
+    http://nssdc.gsfc.nasa.gov/planetary/planetfact.html
+
+  Enchanted Learning :
+    http://www.enchantedlearning.com/subjects/astronomy/
+
+  The Planetary Society :
+    http://www.planetary.org/learn/solarsystem/index.html
+
+  Solar Views :
+    http://www.solarviews.com/eng/toc.htm
+
+  Solar Space Station :
+    http://www.solarspace.co.uk/index.html
+
+- Various books on space,
+
+- Planets DVDs (the awesome 6 x 1 hour BBC series), 
+
+- Sam Neil's Space DVD (another awesome 
+  BBC series - this time it's 3 hours long), 
+
+- Encylopeadia Britanica DVD (a real piece of crap !! - 
+  a $200 waste of money !), 
+
+- And various other sources.
+
+There was, however, a lot of variation in the figures
+these sources presented.
+
+For example, there were variations in the figures 
+presented for the diameters, temperatures, distances 
+from the Sun, masses, etc for almost every planet I.
+
+I racked my brains and pulled my hair when I found such 
+variations - and there were many dozens of such variations.
+
+However, I ended up always believing NASA's figures.
+
+Compiling this information and checking it against
+multiple sources to verify every single figure has
+been a *MAJOR* piece of work for me - requiring many 
+long nights and weekends.
+
+When I found such variations, I made a decision
+to trust what looked like the most up-to-date source
+of information (i.e. NASA).
+
+In addition, it was also very hard to determine some 
+values.  For example, the atmospheric pressure of 
+Jupiter, or the temperature ranges on the Jovian 
+Planets, etc, as this information simply isn't 
+known yet.  (More Space Probes are needed !)
+
+If anyone finds any errors in any values presented 
+in the program, then please make sure that you have 
+the latest version of the program.  (i.e. download 
+this from my web page - see below).
+
+In addition, you should double and triple check your data
+against NASA Planets information fact sheets :
+
+  http://nssdc.gsfc.nasa.gov/planetary/planetfact.html
+
+as I assume that NASA should be the most reliable source
+of information.
+
+If you are using the latest version of the program,
+and you still believe that this has errors 
+(i.e. discrepancies with the official NASA figures) 
+and you are sure that your units and numbers are correct, 
+then please email me and let me know, 
+what values you think are wrong and why, and what the 
+correct values should be.  
+
+I will then look at things and check things out, and 
+if I can confirm the errors, then I will fix these 
+and prepare a new version of the program.
+
+
+Installing and Using this Program :
+-----------------------------------
+
+To use this program, unzip the contents of the ZIP file to a 
+directory - such as c:\Planets\ - and run the executable 
+file : Solar_System_Simulator.EXE.
+
+You can also drag and drop shortcuts to this program
+onto your Desktop or Start Menu using Windows Explorer.
+
+If you want the program to run automatically when Windows
+starts up, then select this option under the "File" menu
+in the program.
+
+I hope you find the program easy to use and useful.
+
+
+Uninstalling this Program :
+---------------------------
+
+At the  present time, there is No Uninstall function.
+
+If you ever want to delete Solar System Simulator  
+from your computer, then :
+
+ 1. Exit the program, and delete it from wherever 
+    you installed it on your harddrive.
+
+Simple as that !
+
+
+Glossary of Terms :
+-------------------
+
+I assume that people know what radius, volume, circumference,
+and other basic terms mean.  Here are the meanings of 
+some of the more advanced / interesting terms.
+
+Albedo :
+An object's albedo is the ratio of the amount of solar 
+radiation reflected by it to the total amount it 
+receives.  i.e. the albedo is a measure of an object's 
+reflectiveness.  An object with a high albedo is shinier 
+than an object with a low albedo.  A white, highly 
+reflective object has an albedo of 1.0, while a black object 
+with no reflectivity has an albedo of 0.
+
+Distance - Closest Possible Distance between Planet and Earth :
+For planets beyond the orbit of Earth, this is when 
+Earth is furthest from the Sun and the planet is closest 
+to the Sun and on the same side of the Sun as Earth.
+
+Distance - Maximum Possible Distance between Planet and  Earth :
+When Earth is furthest from the Sun and the planet is furthest 
+from the Sun but on the opposite side of the Sun from Earth.
+
+Ecliptic :
+The ecliptic is the plane of Earth's orbit about the Sun.
+
+Ellipticity :
+The flattening of a planet as a result of its fast 
+rotation.
+
+Escape Velocity :
+Initial velocity, in Km/Sec, needed at the surface (at the 
+1 bar pressure level for the gas giants) to escape the 
+body's gravitational pull forever, ignoring atmospheric drag.
+
+Obliquity to Orbit :
+The object's axial tilt in degrees.
+
+Orbital Eccentricity :
+How Elliptic the object's orbit is.  0 = perfectly circular 
+orbit, higher values mean more elliptical orbits.
+
+Orbital Inclination :
+How far off the Ecliptic (i.e. the plane of the Earth's orbit 
+of the Sun) that the planets orbits the Sun - in degrees.
+
+Roche Limit :
+The Roche limit is the distance from the center of a star 
+or other object at which a large orbiting object will break 
+up due to tidal (gravitational) forces.  Large planets or 
+moons cannot orbit within the Roche limit - because they will 
+break up.  The Roche Limit was identified and invented by 
+Edouard Roche in 1848.
+
+Solar Day :
+A solar day is the amount of time that passes between two subsequent 
+times when the Sun reaches its highest position above the horizon 
+(passing through the meridian).  The solar day varies greatly throughout 
+the year, so the mean solar day is used instead.  This is calculated as 
+the average of all of the solar days in one year.  A solar day on Earth 
+is exactly 24 hours (since this is how we define hour, as 1/24 of a day).  
+A solar day is slightly longer than a sidereal day.  
+
+Sidereal Day (Period of Rotation) : 
+A sidereal day is the time it takes for the Earth to rotate on 
+its axis relative to the stars - not the sun.  Because planets move in 
+their orbits abpout the sun as they rotate, then the sidereal day is 
+not the same as a solar day.
+
+Solar Irradiance :
+The amount of sun light reaching the planet.
+
+Sphere of Influence :
+Is the area around an object in which it's gravity is 
+the dominant force.
+
+
+Animation Speed Benchmarks :
+----------------------------
+
+**************************************************  *******************
+ Computer :                                          Frames / Sec (fps)
+**************************************************  *******************
+* Desktop: Pentium II 333 MHz, 64 MB, crappy Winfast Card,         17
+2.1 GB, Windows 98
+
+* Desktop: Pentium III 700 MHz, 256 MB, crappy TNT2 M64,           92
+60 GB Segate Baracuda IV, Windows XP Pro  
+
+* Desktop: Pentium 4, 1.8 GHz, Windows XP Pro, 512 MB,             98
+shitty Intel 82845G On-Boad Graphics, 40 GB HDD
+
+* Laptop: HP EliteBook 8570w laptop, 8 GB RAM,                    330
+Intel Core i7-3820QM CPU @ 2.70GHz, NVidia Quadro K1000M (2 GB), 
+Windows 7 Professional 64-bit (purchased early-2013)
+
+* Desktop: HP Z220 Workstation, 16 GB RAM,                        714
+Intel Core i7-3770 CPU @ 3.40GHz, ATI FirePro V (1 GB), 
+Windows 7 Professional 64-bit (purchased early-2013)
+
+**************************************************  *******************
+
+If you have a computer that is significantly different 
+to the above, please email me and let me know your benchmark 
+details.
+
+
+The Future :
+------------
+
+In the future, many improvements could be made to this program,
+such as :
+
+- More accurate plotting of the orbits of planets - at the moment
+  all orbits are circular, which is perfectly acceptable - at 
+  the scale presented - for all planets except Pluto - which should
+  have an elliptical orbit which moves the it closer to the Sun
+  than Neptune for 20 years out of its 248.5 year orbit.
+
+- Optimise the animations - improve the speed - especially on slow 
+  machines.  e.g. old laptops with crappy / slow on-board graphics.
+
+- On 21-Apr-2005, Egil Larsen requested :
+
+	The only thing missing which would be fun is to be able to input 
+	a date and see the relational position of the planets for that 
+	date, but if I'm not mistaken this is way out of scope for the 
+	program.
+
+  At this stage, this is a little outside the scope for the program 
+  as it stands.  I will need to do a lot more research and think about 
+  things carefully (and probably buy several books) before I can work 
+  out how to do this.
+
+  A few registrations will need to start coming in as well.  ;)
+
+- More animation options.
+
+- More information :
+  * Crust composition.  e.g. percentage of iron, aluminium, carbon, etc.
+
+- More comparissons.
+
+- More Animations.
+
+- Sound effects.
+
+- More images of the Planets.
+
+- Frequently Asked Questions
+
+- Anything else ?
+
+If you would like any of these improvements, or would like to
+suggest more, please email me and let me know.
+
+How much more work I do on this program depends entirely on
+what support I get, how many people use the program, 
+what kind of feedback I get, etc.
+
+
+Special Thanks :
+----------------
+
+- NASA for keeping the dream alive, and whose WEB site 
+  provided a wealth of information.
+
+- Calvin Hamilton and his excellent Solar Views WEB Site : 
+
+     http://www.solarviews.com/
+
+  Calvin gave me permission to use a bunch of images in this 
+  program, including :
+   - The Relative Sizes of the Sun and the Planets
+   - The Obliquity (Angle of Tilt) of the Planets
+   - The Largest Moons and Smallest Planets
+   - and a host of others that I may use in a future release !!
+  Thanks Calvin !!
+
+
+Reviews / Awards / CDs :
+------------------------
+
+- v2.2 of this program was demonstrated and show cased on 
+  a big projection screen before current and prospective students, 
+  staff, and the general public all day during Central Queensland 
+  University's (CQUni) Open Days, in Rockhampton, Australia,  
+  in 2004, 2005, 2006, and 2007.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.  
+
+Anyone - any person, any company, or any business - can 
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please 
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select 
+the "About" option under the Help menu, and then click 
+the PayPal link on the "About" screen).
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know.
+
+
+Amendment History :
+-------------------
+
+Vers    Date        Description
+
+1.0  04-Oct-2002    First Public Release.
+                    (28,952 lines of code / comments.)
+
+1.1  11-Oct-2002    Add Data Extraction functionality - so users can extract 
+                    all or selected data item values for each planet.
+                    When a menu is clicked, stop the planet animation - this helps
+                    on slow PCs - e.g. Pentium 200's or less.
+                    Add in more calls to 'Application.ProcessMessages' - which helps
+                    make things smoother on older PCs - e.g. Pentium 200's or less.
+                    Reduce the size / resolution of the nebula star field picture 
+                    behind the planet animation - this improves performance on 
+                    slow PCs - e.g. Pentium 200's or less.  This picture reduction 
+                    also reduced the EXE size from 684 KB to 409 KB (a reduction 40%)
+                    with corressponding savings in the distribution ZIP file 
+                    download size.
+                    Remove the Start button - it was redundant.  So now there are only 
+                    Forward, Reverse, Stop and Reset buttons to control the animation 
+                    of the planets.
+                    Disable the "Maximize" icon - in the top right hand corner of 
+                    the Title bar.  (The program's window is not re-sizable).
+                    Make the program's window fit neatly on a screen with a 
+                    800 x 600 resolution or higher - any PC purchased after
+                    the early 1990's should be capable of this.
+                    Add in calculations behind the scenes for :
+                    - Orbit_Ellipse_Semi_Major_Axis_Length
+                    - Orbit_Ellipse_Semi_Minor_Axis_Length
+                    - Orbit_Ellipse_Center
+                    Click on the graph to move to the Next Graph.
+                    (29,264 lines of code / comments.)
+
+2.0  14-Oct-2002    Add in calculations for :
+                    - Roche_Limit
+                    - Sphere_of_Influence
+                    - Length of Solar Day
+                    and add in graphs for this information, and add these to the 
+                    reports for each planet.
+                    Allow the user to select the Origin - on the fly !!
+                    e.g. If you select Jupiter, then you will see what the rotation 
+                    of the planets and Sun looks like from Jupiter's perspective.  
+                    i.e. as if you were standing on the surface of Jupiter and 
+                    looking up and watching the planets.
+                    Add in buttons to increase and decrease the speed of animation.
+                    Hand edit and improve the quality of the planet bitmaps.
+                    Generate the small planet images (used for animations) on the 
+                    fly when the program starts to save holding these in the 
+                    EXE - which helped reduce the EXE size slightly.
+                    Add a "Glossary of Terms" into this text file.
+                    Use a new Sun bitmap - the old one looked like a Butternut Snap - 
+                    one of my favourite biscuits - and this was making me hungry !! ;)
+                    Actually, come to think of it, the new Sun looks like a 
+                    pizza .... Hmmmm  ...  ;)
+                    (31,517 lines of code / comments.)
+
+2.1  2-Dec-2002     Add in data, calculations, graphs, and report lines for
+                     - Distance_Closest_Possible_to_Earth
+                     - Distance_Furthest_Possible_from_Earth
+                    for each Planet.
+                    Also report the Closest, Average, and Furthest distances from 
+                    the Sun (and the Closest and Furthest distances between each 
+                    Planet and the Earth) in Light Hours - the number of hours it 
+                    takes light to travel the distance.
+                    Use different timing loops / code during animation, and redesign
+                    the planetary animation code.
+                    The animation is now smoother on slower PCs.  e.g. Pentium 100.
+                    Add the ability to trace the orbit of each object.
+                    Add File Menu options to enable the user to create or delete 
+                    shortcuts to this program on the Desktop, StartMenu, etc - 
+                    you can do this *ANY* time - not just when the program is 
+                    being installed.  (All Windows programs should provide this 
+                    functionality).
+                    Bring the program up to date with my latest code libraries.
+                    (50,414 lines of code / comments.)
+
+2.2  25-Aug-2003    Add the ability to trace the orbits of selected planets
+                    and be able to change this on-the-fly.
+                    Display the Frames per Second on animation.
+                    Add in "Animation Speed Benchmarks" above.
+                    Add in additional images :
+                     - The Relative Sizes of the Sun and the Planets 
+                     - The Obliquity (Angle of Tilt) of the Planets 
+                     - The Largest Moons and Smallest Planets
+                    These images are used with permission of Calvin Hamilton 
+                    which was received on 4-Oct-2002.   Check out Calvin's 
+                    excellent Solar Views WEB Site : http://www.solarviews.com/
+                    Bring the program up to date with my latest code libraries.
+                    (56,806 lines of code / comments.)
+
+2.2f  3-Sep-2007    This program is now FREEWARE - see "Freeware Information"
+                    above.
+
+2.3f 24-Oct-2009    The "Farewell Pluto / sorry Clive !" Release.
+                    Some usability enhancements (can use left / right arrow keys 
+                    to change graphs, etc).
+                    Calculate the actual Gravity of each planet and the Sun using its 
+                    mass and diameter (this data was hard-coded previously).
+                    Calculate some other values that were hard-coded.
+                    Increase Jupiter's moons to 63 (according to ABC Radio quiz), and
+                    Saturn has 61 moons, Uranus has 27 moons, and Neptune has 13.
+                    Remove Pluto as a planet.  On August 24, 2006, the International 
+                    Astronomical Union (IAU) voted on the definition of a planet:
+                    - orbit the sun and not another planet
+                    - be massive enough to be spherical
+                    - have cleared its orbit of debris
+                    Pluto met the first 2 criteria but not the 3rd.  Since part of 
+                    Pluto's orbit is in the Kuiper Belt, its orbit is not cleared 
+                    of debris.  Pluto is now officially known as a "dawrf planet", 
+                    and also sometimes called a Kuiper Belt Object (KBO).
+                    Poor Clyde Tombaugh (the discoverer of Pluto) will be spinning 
+                    in his grave.  At least they waited until after poor Clyde had 
+                    passed away.  The decision still affected his family however, 
+                    read this article:
+                    http://www.abc.net.au/worldtoday/content/2006/s1724550.htm
+                    For over 3 years, I have resisted removing Pluto from my Solar 
+                    System Simulator because I kept hoping the IAU would reverse 
+                    their decision.  Sadly not.
+                    I have made it so ALL of Pluto data is still there, and that 
+                    it can easily be reinstated as a planet if this decision about 
+                    Pluto changes in the future.  (Not holding my breath ...)
+                    Reduce the default "Speed" of animation (the slider at the bottom).
+		    Change the default of "Trace Orbits of Objects" to checked for all 
+		    objects.
+                    Bring the program up to date with my latest code libraries.
+                    (55,869 lines of code / comments.)
+
+3.0f 13-Jan-2015    Lots of changes for this release.  :)
+                    Add the ability to scale all graph values relative to Earth.
+                    This makes it easier to visualise the data.  For example, instead of
+                    seeing the Planet Radius values for each planet (Earth 6,371 Km, 
+                    Saturn 58,232 Km, etc) you see the sizes relative to Earth 
+                    (Saturn has 9.14 Earth's radius).
+                    Add "First Graph" and "Last Graph" buttons so you can quickly navigate 
+                    around the graphs.
+                    Remove "Registered Version" message on the "Data Extraction" tab.
+                    Replace images on "Sizes and Tilts" and "Moons and Dwarf Planets" tabs
+                    with higher resolution images.  This makes the EXE slightly larger.
+                    Update details for Pluto (add 4 newly discovered moons, etc).  
+                    Although Pluto isn't "visible" in any of my program's graphs, etc, 
+                    it is still there behind the scenes.
+                    Fix an issue with this program running under 64 bit versions of 
+                    Windows Vista, 7, 8, etc.  (Auto-run at Windows startup).
+                    Fix the solar system / planetary animation under 64 bit versions of Windows: 
+                    the problem was that the planets were NOT visible in the animation.
+                    It turns out that this problem was caused by an AutoSize parameter for 
+                    TImage components being handled differently under 64 bit versions of Windows:
+                    * For 32 bit versions of Windows, if an image is copied to a blank TImage 
+                      component with a specific size, then the size of the TImage does NOT change, 
+                      even if it's AutoSize property is set to True.
+                    * For 64 bit versions of Windows, the TImage size will be set to 0, and 0 pixels 
+                      are copied, and this is why the planets were not showing up.
+                    So, the behaviour of the TImage component completely changes depending on which 
+                    version of Windows you are using.  I could NOT find any reference to this anywhere 
+                    on the internet.  Very STRANGE and completely undocumented behaviour.  
+                    The fix for this was *very* simple: set AutoSize to false for each of the 
+                    planet TImages, and everything worked perfectly again.  :)
+                    Fix a form sizing and scaling issue under 64 bit versions of Windows Vista, 
+                    7, 8, etc - where the behaviour is, once again, completley different 
+                    to 32 bit versions of Windows.
+                    Thank you Microsoft - NOT ! - for continuing the to break and change things 
+                    behind the scenes in Windows in completely unexpected ways !
+                    Add a Gravity Calculator to the new "Gravity" tab which allows you to enter the mass and 
+                    volume of an object relative to Earth or the Sun, and calculate the object's gravity.  
+                    This works perfectly for all asteronomical objects, including stars, Neotron Stars, 
+                    Black Holes, planets and moons in our solar system, and exo-planets (planets 
+                    around other stars).  I added this functionality because I was reading some articles 
+                    about exoplanets today, such as "HD 40307g".  The articles said this exoplanet had 
+                    "eight times the mass of Earth and twice the volume" and that its "gravity will 
+                    be a real killer for any human visitors".  None of the articles mentioned what the 
+                    gravity was.  How strong was its gravity ?  Would it really kill humans ?  I decided 
+                    to work out the answers to these questions.  So, I added the "Gravity" tab to my 
+                    Solar System Simulator, added the required calculations, and within a minute or 2 
+                    I had my answers: HD 40307g's Gravity = 49.50 m/sec^2, which is 5.04x Earth`s Gravity.
+                    Now, this is strong gravity.  However, I have experienced more than 6 G for short periods 
+                    (5-10 seconds or so at a time, but it felt like hours ! ;)  in an old Russian Mig fighter jet
+                    and 5+G is not particularly comfortable, but it certainly wont kill you.  The author's 
+                    claims of it being a "real killer for any human visitors" are clearly exaggerated.  
+                    And who knows, eventually humans might learn / adapt to live under such strong gravity ?
+                    Add "Animation Speed Benchmarks" for my most recently purchased computers:
+                    * Laptop:  HP EliteBook (purchased early-2013)
+                    * Desktop: HP Z220 Workstation (purchased mid-2013)
+                    Add exception handling to the loading and saving of program settings (INI file)
+                    so that the program executes and exits cleanly (no error messages produced) even 
+                    if running from a read-only device such as a optical disk (CD-ROM, etc) or 
+                    there are disk errors or the disk is full and/or the INI file does not exist 
+                    and/or it cannot be created.
+                    Explore using a Frame Skip method for the planetary animations in the Solar System Simulator 
+                    tab, but this did not work as well as the currently implemented "Time Increment" 
+                    method that I have been using all along.  I will explore this further though.
+                    Bring the program up to date with my latest code libraries.
+                    (4,350 lines of code / comments / blank lines in primary source file.)
+                    (68,777 lines of code / comments / blank lines in all primary, library, and include files.)
+
+
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this 
+program is available from my WEB page - see below.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://moosevalley.fhost.com.au/
+____________________________________________________
+ 

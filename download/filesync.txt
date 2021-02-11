@@ -1,0 +1,441 @@
+ 
+File Synchronizer			Copyright (C) Moose O'Malley, 
+-----------------			September 2011.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Using this Program
+   | * Why I Wrote This Program
+   | * The Future
+   | * Reviews / Awards / CDs
+   | * Freeware Information
+   | * Warranty
+   | * 50,000+ Lines of Code ??? Your f^%@ing kidding me !!!
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+File Synchronizer for Windows 95, 98, NT, 2000, ME, XP, Vista, 7, etc.
+
+This program is free software.  Anyone - any person, any company, 
+or any business - can use this program for free.  No fees or 
+payment is required.  See "Freeware Information" below.
+
+File Synchronizer allows you to sychronise some or all
+of the files in 2 directories, and if you like, all of
+their sub-directories.
+
+File Synchronizer is (hopefully) extremely useful for people 
+who (like me) have their data spread over multiple PCs - such as Work 
+and Home PCs, along with work on floppies, removable harddrives,
+ZIP / JAZZ / SyQyest / Orb drives, rewritable CDs, or other media.
+
+This program enables you to easily and quickly make sure 
+you have the latest versions of files on all machines / media,
+and that your master directory contains the latest versions 
+of all files.
+
+File Synchronizer is a complex program behind the scenes,
+(and some ambiguous "help" in Delphi's on-line help cost me 
+dozens of hours of wasted work), and has been in development 
+and testing for over 6 months (since June 2001).
+
+I use this program at least several times each day, and find it
+incredibly useful, and hope that you do to.
+
+Using the new "Multi" button, you can select multiple directory pairs
+(that you have already setup and saved to file) at once.
+
+Developed using 32-bit Delphi.
+
+
+Using this Program :
+--------------------
+
+Use the directory selection buttons to select two directories.
+
+You can also Drag and Drop of directories from Windows Explorer.
+
+This Drag and Drop works in 2 ways :
+
+ 1. You can drag and drop a single directory onto the 
+    first or second directory editboxes.
+
+ 2. You can also drag two directories onto the program's 
+    main window (not onto one of the edit boxes) and they 
+    will be placed into each edit box.  (If you drag more 
+    than 2 directories or drag and drop files instead, 
+    then they will be ignored). 
+
+This hopefully provides maximum flexibility to users, 
+with a minimum of fuss.
+
+Use the Settings tab to change the functionality of the program 
+to suit your needs - normally you will synchronize all files
+in a directory and its sub-directories (and this is the default
+setting), but you can select other options.
+
+Then, press the "Build File Lists" button and the program will build 
+lists of all files in the selected directories, and also check 
+file dates and times to determine the latest versions of files, 
+find common files, and find unique files.
+
+Then, when this has finished, the program will tell you how many
+files need updating and how many files are unique, and you can also
+(if you desire) select the various file lists :
+- Files in First Directory
+- Files in Second Directory
+- Common Files
+- Files Only in the First Directory
+- Files Only in the Second Directory
+- Files in both but older in the First Directory
+- Files in both but older in the Second Directory
+
+to see the various file lists.
+
+Then you can press the "Synchronise Files" button, and files 
+will be copied according to your selections on the Settings tab.
+
+The whole process can take milliseconds or less for dozens of 
+files, or can take 10's of seconds if there are 1,000's of
+files or if you are running on a low end PC.
+
+Finally, you can save the pairs of selected directories and load 
+them back in again at any time in the future using the :
+- Load Directory Selections menu option
+- Save Directory Selections 
+menu options under the File menu, or, you can press the Load
+and Save buttons on the right hand side of the directory selection
+boxes.
+
+If you want to copy any of the lists of files to the Windows Clipboard
+so that you can paste them somewhere else, press the "Copy to Clipboard"
+button when the list of files you want is being displayed.
+
+If you want this program's window to "Stay on Top" of all other 
+programs, then select the "Stay On Top" option under the File menu.
+
+If you want to restore the program back to the state it was in when 
+you first installed it, then select the "Restore Factory Defaults"
+option under the File menu.
+
+If you want this program to run automatically at Windows Startup
+then select the "Auto-Run at Windows Startup" option under the 
+File menu.
+
+Apart from that, you can :
+- Enter or View your Registration Codes,
+- View this Readme Help file,
+- View the Registration Form,
+- View my Shareware Catalog,
+- Or see some information about this program,
+via menu options under the Help menu.
+
+Hopefully the program is as easy and straight forward to use 
+as possible.
+
+
+Why I Wrote This Program :
+--------------------------
+
+I use PCs all day at work, and most of my time at home as well.
+And, my work enables me to telework and to do most of my work at home.
+Which is exactly what I do, because my work office is full of 
+distractions.
+
+Because of the volume of data and work involved, I use 
+Removable Harddrives (in removable harddrive racks) to transfer
+my work between my Home Office and Work Office PCs.  Occasionally,
+I also use floppy disks as well - but this is rare.  In addition, 
+I keep backups of all of my data (work and home data) on all of my 
+PCs - at work and home.
+
+The "My Documents" directory (and its sub-directories) on my machines
+have well over 18,000 files - and these are just my new / changed 
+files since 1996 !!  (i.e. 6 years of work).
+
+Keeping track of changes to these documents, and making sure I am 
+using the latest version of each file has become a critical and 
+difficult to manage task.
+
+Microsoft Windows 95, etc include "My Briefcase" which apparently 
+helps you manage your files - but I have never been game to use it.  
+There is no on-line help for this program (that I have found, anyway), 
+and I will not risk my valuable data on a program that cannot tell 
+me how it works or what it does.
+
+So, as I tend to do, I decided to write my own File Synchronizer 
+program to help me manage my 1,000's of files.  This was a far bigger 
+task that I originally believed, and ended up taking me more than 6 
+months of "on again off again" part-time development and testing.
+
+This program includes the options and settings which I find useful, 
+and hope you do to.
+
+(See the Settings Tab on the main screen for further information).
+
+
+The Future :
+------------
+
+In the future, many improvements could be made to this program,
+such as :
+
+- Anything else ?  Let me know !
+
+If you would like any of these improvements, or would like to
+suggest more, please email me and let me know.
+
+How much more work I do on this program depends entirely on
+what support I get, how many people use the program, how many
+people have registered, etc.
+
+
+Reviews / Awards / CDs :
+-------------------------
+
+None so far.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.  
+
+Anyone - any person, any company, or any business - can 
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please 
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select 
+the "About" option under the Help menu, and then click 
+the PayPal link on the "About" screen).
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know.
+
+
+50,000+ Lines of Code ??? Your f^%@ing kidding me !!!
+------------------------------------------------------
+
+In the "Amendment History" below, I quote the number of lines of code / comments
+for *every* one of my projects.  This was a very interesting experiment that 
+I began conducting in August-1996 when I uploaded my first freeware / shareware
+program and started Moose's Software Valley.
+
+Before this, no other software author I had ever seen had quoted the number of 
+lines of code in their projects.  It was kept hidden.  A secret.
+
+Programmers (in the "old days" anyway) hated to reveal this information
+because they lived in eternal fear that another programmer would come along 
+and do the same thing in half the amount of code.
+
+Yes, there's a eternal "pissing contest" amongst programmers: the less lines 
+of code they write to do something, the bigger their penis, or so many think.
+Really, it's quite pathetic.  
+
+When, I began quoting the number of lines of code for my projects (in the 
+"Amendment History" below), I was the only programmer I could find who did 
+this, and I did it for 3 reasons:
+* to be the first to do it (or the first as far as I could tell), 
+* to be open and honest about my projects, 
+* to see what comments I would get back about this.  e.g. would anyone try 
+  and challenge me in some pathetic "pissing contest" ?
+
+I was amazed at some of the hysterical and abusive feedback I have received
+about this over the years.  Before we get to this, let me explain how I 
+develop software.
+
+I do it the right way.
+
+All of my applications are built on my own custom application framework that 
+includes libraries (include files, reusable containers, etc) for form scaling, 
+string processing, listbox processing, graphics handling, and many dozens of 
+other categories of methods.  
+
+Whenever I write code that might be useful somewhere else (in another project), 
+I code it as a reusable method and add it to the appropriate library file.  
+
+This is an excellent thing to do because I *never* have to reinvent any wheels, 
+and I can use and build on these methods in the future to *enormously* speed up 
+my development time.
+
+If I want to use one of my library methods in a project, I include the 
+appropriate library file and this is compiled along with my project, and all of 
+the lines of code in this library are added to the compiled lines of code value 
+that Delphi displays after a compile.
+
+In a typical project, I include dozens of library files, and all of the lines 
+of code these library files contain is added onto the compiled lines of code 
+value that Delphi displays after a compile, even though I might only use / need 
+1 or 2 methods out of the 100's of methods in each library file.
+
+The main source file for each of my projects is probably only 300 to 1,000 lines 
+of code (including white space and comment lines).  The rest of the lines of 
+code that I quote in the "Amendment History" below are for the compilation 
+of the library files I have included in the project.
+
+In addition, code is far easier to understand, debug, trace through, and test 
+when it is written nicely.  Trying to shrink the lines of code down by embedding 
+many statements per line, using arcade code constructs, or doing things the hard 
+way (to save a few lines of code), results in a mess of code that is
+very difficult to understand, debug, trace through, or test.  The people who 
+go for code size over understandability also tend to leave out comments (that 
+.
+
+I'll write the longer, nicer, and easy to understand, debug, trace through, and 
+test code every time (unless there is a *very* good reason to do otherwise, 
+e.g. where the utmost performance is required, such as for an OS, game, an 
+encryption method, etc).  I also add comments to my code (where appropriate) 
+to explain exactly what I'm doing and why.
+
+Just thought I would explain this because some people have become hysterical 
+and even abusive about the "lines of code" numbers I've quoted over the years, 
+saying stuff like:
+	
+	"50,000 lines of code ???  You've got to be F*@KING kidding me !!!
+	I could do this in 2,000 lines !!!!  What the F*@K are you doing ????  
+	Are you writing F*@KING a novel or something ??????".
+
+Yes, since I started Moose's Software Valley in August-1996, I've had 
+more than a few emails just like this.
+
+Writing software is all about making your code as easy to read and understand 
+as possible, and sticking useful / common code inside libraries (or some 
+other reusable container) to save you reinventing the wheel all the time.
+
+Perhaps one day people, who make comments like the above, might understand this.
+
+Then again, probably not ....
+
+
+Amendment History :
+--------------------
+
+Vers    Date        Description
+
+1.0   11-Mar-2002   First Public Release.
+                    (21,685 lines of code / comments.)
+
+1.1   18-Mar-2002   Enable Drag and Drop of directories from Windows Explorer.
+                    This Drag and Drop works in 2 ways :
+                    1. You can drag and drop a single directory onto the 
+                       first or second directory editboxes.
+                    2. You can also drag two directories onto the program's 
+                       main window (not onto one of the edit boxes) and they 
+                       will be placed into each edit box.  (If you drag more 
+                       than 2 directories or drag and drop files instead, 
+                       then they will be ignored). 
+                    This hopefully provides maximum flexibility to users, 
+                    with a minimum of fuss.
+                    Use a better icon for the "Load Directories" button.
+                    (21,964 lines of code / comments.)
+
+1.1b  20-Nov-2002   Bring the program up to date with my latest code libraries.
+                    (36,702 lines of code / comments.)
+
+1.2   26-Nov-2002   Display a Step x of y and file a of b figures while synchronizing 
+                    files - to give you an idea of the progress so far.
+                    Add in functionality to allow you to process files modified on 
+                    or after a certain date / time.  This functionality speeds up 
+                    the processing of recently changed files enormously - 
+                    especially when you have directory trees (like c:\My Documents) 
+                    with 20,000+ files !!  (Yes, like me ... ;)
+                    Add File Menu options to enable the user to create or delete 
+                    shortcuts to this program on the Desktop, StartMenu, SendTo menu, 
+                    etc - you can do this *ANY* time - not just when the program is 
+                    being installed.  (All Windows programs should provide this 
+                    functionality).
+                    (49,339 lines of code / comments.)
+
+1.3f  7-Dec-2010    Add in "Only Save First Setting" safety checkboxes to "Synchronize 
+                    Directory Options", "Synchronize Files Options", and "File Last 
+                    Modified Date / Time" settings groups - because it is easy to select 
+                    one of the other "dangerous" settings and exit and then forget to 
+                    reset the settings next time you run the program, thereby 
+                    not synchronising all files in all sub dirs. These new safety 
+                    settings are checked by default. If you want to make sure the 
+                    settings saved by the program are the safest possible, then 
+                    leave these new checkboxes checked.
+                    Remove "Multiple Directories" tab. This was something I started 
+                    building and then abandonded when all of my software became freeware.
+                    Fix "run out of disk space" issue - remove the half copied file.
+                    If one fo the DIRs does not exist, then offer to create it.
+                    Display the total size (in MB) of files copied after the file 
+                    synchronisation.
+                    Display elapsed time (in secs) for file synchronisation.
+                    Display Average Copy Speed (in MB/sec) for file synchronisation.
+                    Display "Step 1 of ..." for list building process.
+                    Fix the spelling of "synchrized" in this error message "File's 
+                    date / time could NOT be synchrized ...".
+                    Add a "Compare Common Files" button to compare all common files 
+                    and generate a brief report listing the common files that weren't 
+                    identical.
+                    Add a "Remove Selected" button to Remove selected items from list. 
+                    Note: No files will be deleted from your machine, they are just 
+                    removed from this list.
+                    Add a "Delete Selected Files" button to delete the selected files 
+                    permanently. Warning: All selected files will be deleted from your 
+                    machine !!
+                    Add a comma to some messages in the Title Bar. For example, change 
+                    this: "Dir and All Sub Dirs, First Dir is the Master files of any age." 
+                    to this: "Dir and All Sub Dirs, First Dir is the Master, Files of Any Age." 
+ 
+1.4f  1-Feb-2011    Add extra functionality to the "Compare Common Files" function.
+                    Now, if any files mismatch, you are shown a list, and then you can
+                    select which directory contains the correct files and then copy and
+                    recompare these by clicking the "Re-Copy and Re-Compare Files" button, 
+                    to copy, re-compare, and then display the results of this process 
+                    (to make sure all files now match).  This makes it dead easy to make 
+                    sure all files is each directory are 100% the same.
+                    Add buttons / functionality to open either of the directories in Windows 
+                    Explorer - this can be useful if you want to take a closer look or 
+                    perform any actions on the files / directories.
+                    If any settings change that require a re-build of file lists before a 
+                    file sync, then disable File Sync button until user re-builds file lists.
+                    (59,848 lines of code / comments.)
+
+2.01f               Add a "Multi" button so that you can process many or all directory pairs
+                    at once.  (Something I need to do several times every day).
+                    At this stage, the "Multi" button is for synchronising files, not for 
+                    comparing files.
+
+
+2.1f  19-Sep-2011   Save / restore the checked / unchecked status of the "Multi" button's list.
+                    Add a new section to this readme text file (see above): 
+                    * "50,000+ Lines of Code ??? Your f^%@ing kidding me !!!".
+                    
+                    WOW, it's more than 9 years after the first public release of this program, 
+                    and I still use this program at least several times every day, and find it
+                    incredibly useful.  I move files in many directories between home and work PCs
+                    every day on several USB thumb drives (for extra backups), and File Synchronizer 
+                    allows me to keep all of these files perfectly synchronised.
+                    Out of all of the software on my PCs, this is the program I use most !!  :)
+                    (70,921 lines of code / comments.)
+
+
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this 
+program is available from my WEB page - see below.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://move.to/moose
+____________________________________________________
+ 

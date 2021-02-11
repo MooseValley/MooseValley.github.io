@@ -1,0 +1,386 @@
+ 
+ Yahtzee 		Copyright (C) Moose O'Malley, 
+---------		September 2007.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Why I wrote this program ?
+   | * Installing and Using this Program
+   | * Uninstalling this Program
+   | * Yahtzee Rules
+   | * The Future
+   | * Special Thanks
+   | * Reviews / Awards / CDs
+   | * Freeware Information
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+Yahtzee is for Windows 95, 98, ME, NT, 2000, XP, etc.
+
+This program is free software.  Anyone - any person, any company, 
+or any business - can use this program for free.  No fees or 
+payment is required.  See "Freeware Information" below.
+
+This is my special version of the fun and highly addictive dice 
+game, called Yahtzee.
+
+A wealth of information is provided below to help you play 
+Yahtzee and use this program.
+
+Developed using 32-bit Delphi.
+
+This program will **NOT** run under Windows 3.x  
+(even with Win32 installed).
+
+
+Why I wrote this program ?
+--------------------------------------------
+
+I wrote this program because I thoroughly enjoy playing the 
+game Yahtzee, and I was pretty sure that my mother would 
+also like playing this game.
+
+The problem was that I couldn't find any really good versions
+of the game as shareware or freeware on the internet.
+
+And, because I had written other computer based versions of Yahtzee 
+before (in command line, character based C++), it was the right time 
+for me to do a nice, polished Windows version of the game.
+
+My version of Yahtzee is a program I have wanted to have for ages.
+
+It has many advanced features - such as High Score Table merging, etc - 
+that are NOT found in any other computer version of Yahtzee that 
+I can find.
+
+
+Installing and Using this Program :
+-----------------------------------
+
+The steps for using the program are :
+
+- Step 1 : Install the program.
+
+  Unzip the program to a directory on your PC.
+  Such as:
+
+    C:\Program Files\Yahtzee\
+
+  Using Windows Explorer, open the directory where you 
+  extracted the contents of the ZIP file (above), and 
+  copy the dice font file (Yahtzee_Font_TRPGDRG_.TTF) 
+  to the Windows Fonts directory, which is usually:
+
+       C:\WINDOWS\FONTS\
+
+- Step 2 : Run the Program :
+
+  Using Windows Explorer, open the directory where you 
+  extracted the contents of the ZIP file (in 1. above), and 
+  double click on the YAHTZEE.EXE file torun the program.
+
+Now, you are ready to play Yahtzee.  
+
+See "Yahtzee Rules" below for details of how play Yahtzee in general.
+
+To start a new game of Yahtzee, click the "Start Game" button, 
+and the dice will automatically be rolled.  You can discard any 
+unwanted dice (by clicking on them) and re-roll the dice 
+(by clicking the "Roll Dice" button) up to 2 times, select a scoring
+category by clicking a button (such as "Ones", "Twos", ....
+"3 of a Kind", etc), and then click the "Roll Dice" button to
+start your next turn.
+
+N.B.  You can also press the "R" key to re-roll the dice.
+
+To see what the current roll of the dice would score in each available 
+category, simply look at the numbers next to each score box.  
+(Provided you have "Show Potential Scores in each category"
+turned on / checked - see below).
+
+When all scoring categories are filled, the game is over.
+
+Click the "Start Game" button to start a new game.
+
+To help you work with dice, various little buttons are provided 
+near the dice (provided you have "Show Dice Invert, Off, On buttons"
+turned on / checked - see below).  These buttons are as follows :
+
+ - Invert button turns reverses the selection of the dice.  
+   i.e. all dice selected for re-roll and now kept, and all dice that 
+   were kept are marked for re-roll.
+
+ - Off button - turns all dice off.  i.e. it selects them all for re-roll.
+
+ - On button - turns all dice on.  i.e. it keeps all dice - none are selected 
+   for re-roll.
+
+ - Show previous dice - for this current roll.  Which lets you see what dice 
+   you had before the current re-roll and which dice you selected to re-roll.
+   I used this button a lot during testing / development, but it was so useful 
+   that I decided to leave it "in".
+
+Under the "Edit" menu, you can :
+
+- Change / View Program Settings
+
+  * Sort Dice into Ascending Order ? 
+    I much prefer the dice to be sorted, but some people may prefer
+    otherwise.  This provides various dice sorting options.
+
+  * Show Dice Values or Faces
+    Whether the values of each dice are shown or whether the face of 
+    each dice is shown.
+
+  * Show Max Scores for each Total Type
+    If this option is "checked" (i.e. turned on) then the maximum Upper, 
+    Lower, and Grand Total scores will be displayed in the headings.
+    e.g. If checked, then you will "Upper Total (Max=140)", but if 
+    this option isn't checked, then you will see "Upper Total".
+
+  * Show Potential Scores in each category
+    If this option is "checked" (i.e. turned on) then the score for each
+    available scoring category will be shown next to each scoring box.
+
+  * Show Dice Invert, Off, On buttons
+    This shows / hides little buttons next to the dice that allow
+    you to work with the dice in more advanced ways.  If you don't
+    use these features, then you may like to turn them off and 
+    reduce some clutter.
+
+  * Enable Game Sounds
+    Self explanatory - turns game sounds on or off.  The sounds consist
+    of various sounds, some are recordings of my voice, and others are 
+    electronic or bird sounds.
+
+- View High Scores
+  Self explanatory.
+
+- Merge in another High Score's File  (** Registered Users Only **)
+  This option allows Registered users to merge in other high score tables.
+  This is very useful if you are playing Yahtzee on multiple computers
+  and you want to merge all of these high scores into a single high score table.
+
+- Erase All High Scores               (** Registered Users Only **)
+  This option allows Registered users to erase all high scores.
+
+If you want the program to run automatically when Windows
+starts up, then select this option under the "File" menu
+in the program.
+
+If you would like to be able to run this program by clicking 
+on an icon in the Windows Start Menu, or on the Desktop, etc 
+then you can use the "Create Shortcut ..." options under 
+the program's File menu.
+
+If you want this program to be "Always On Top" 
+of other Windows, then select the "Always On Top"
+menu option under the "File" menu.
+
+I hope you find the program easy to use and useful.
+
+
+Uninstalling this Program :
+---------------------------
+
+Before deleting the program, you should turn off 
+the auto-running of this program under Windows - 
+if you have previously enabled it.  Simply, run the 
+program and re-select the option under the File menu 
+to achieve this.
+
+Exit the program - so it is no longer running.
+
+Using Windows Exmplorer, open the directory where you 
+extracted the contents of the ZIP file (in 1. above), and 
+then, simply delete the directory to where you extracted the
+ZIP file.  e.g.  C:\Program Files\Yahtzee\
+
+Simple as that !
+
+
+
+Yahtzee Rules :
+---------------
+
+Each game of Yahtzee consists of 13 rounds.
+
+In each round, you roll the five dice (and you can also re-roll any or 
+all of the dice up to twice more) and then you score the dice in one of the 
+13 scoring categories.
+
+For each game, you must score once and only once in each scoring category.
+This means that towards the end of the game you may have to settle for 
+scoring zero or a low score in some scoring categories. 
+
+The score is determined by the dice that you have rolled and by the 
+category that you have scored it in : 
+
+- Ones           : the sum of all dice with a face value of 1
+                   e.g.  1,1,2,4,6 would score 2 points if scored in the "Ones" category.
+- Twos           : the sum of all dice with a face value of 2
+                   e.g.  2,2,2,4,6 would score 6 points if scored in the "Twos" category.
+- Threes         : the sum of all dice with a face value of 3
+- Fours          : the sum of all dice with a face value of 4
+- Fives          : the sum of all dice with a face value of 5
+- Sixes          : the sum of all dice with a face value of 6
+
+- 3 of a Kind    : The sum of all dice, provided you have 3 or more of one of the dice.
+                   e.g. 1,4,5,5,5 would score 20 points.
+
+- 4 of a Kind    : The sum of all dice, provided you have 4 or more of one of the dice.
+                   e.g. 1,1,1,1,5 would score 9 points, and 1,5,5,5,5 would score 21 points.
+
+- Small Straight : 30 points (4 consecutive numbers).  e.g. 1,2,3,4,6 or 1,2,2,3,4.
+
+- Large Straight : 40 points (5 consecutive numbers).  e.g. 1,2,3,4,5 or 2,3,4,5,6. 
+
+- Full House     : 25 points. A Full House is 3 of a Kind AND a Pair.  e.g. 3,3,3,5,5.
+
+- Chance         : The sum of all dice.  e.g. 1,3,3,5,6 would score 18 points.
+
+- Yahtzee (5 of a Kind) : 50 points
+
+You also get a bonus of 35 points, if the total of all the dice in the 
+Ones to Sixes scoring categories is greater than or equal to 63 points. 
+
+Prior to computer versions of Yahtzee, physical dice were rolled, people added 
+up the dice in their head, and scoring was done on paper.
+
+Computer versions of Yahtzee, such as my program, mean that you can enjoy Yahtzee
+without having all of this hassle.
+
+In addition, my program enforces the Yahtzee rules, sorts the dice, maintains 
+high scores, and provides many other features and options to improve the game-play
+experience.
+
+
+The Future :
+------------
+
+In the future, many improvements could be made to this program,
+such as :
+
+- Support for various versions of Yahtzee - such as 
+  "Multi-Yahtzee".  e.g. 50 for the first Yahtzee, and 
+  100 points for each subsequent one.
+
+- Support for multiple human players in a single game.
+
+- Support for human Vs computer play.
+
+- More / better sound effects.
+
+- Anything else ?
+
+If you would like any of these improvements, or would like to
+suggest more, please email me and let me know.
+
+How much more work I do on this program depends entirely on
+what support I get, how many people use the program, how many
+people have registered, etc.
+
+
+Special Thanks :
+----------------
+
+- My mother for the encouragement and helpful suggestions during development.
+
+- This WEB site for the great Dice Font :
+
+     http://www.trpg.net/user/Hg/font.html
+
+  Unfortunately, this web page is in a language that I don't understand, so 
+  I cannot see who developed this font.  In addition, there are no contact 
+  or email addresses that I could find anywhere on http://www.trpg.net/user/Hg/
+  web pages, such I could not ask for permission to use this font.
+  As far as I can tell, the font is FREEWARE - there are no copyright notices.
+
+
+Reviews / Awards / CDs :
+-------------------------
+
+None so far.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.  
+
+Anyone - any person, any company, or any business - can 
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please 
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select 
+the "About" option under the Help menu, and then click 
+the PayPal link on the "About" screen).
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know.
+
+
+Amendment History :
+-------------------
+
+Vers    Date        Description
+
+1.0  23-Jan-2004    First Public Release.
+                    (65,016 lines of code / comments.)
+
+1.1   3-Feb-2004    Temporarily disable the "Roll Dice" button after each roll  
+                    so that the user cannot accidentally twitch and press it twice.
+                    If the user has pressed "R" (to Roll the Dice), but no game 
+                    is in progress, then let's start a new game.
+                    (65,050 lines of code / comments.)
+
+1.2   23-Apr-2004   Make the "Lower Total" edit-boxes read-only.
+                    Add more detail into the "Show previous dice - for 
+                    this current roll" button's report.
+                    Make the "Roll Dice" button selected after each roll - so 
+                    that the cursor isn't sitting in a score box and blinking.
+                    Show your score's ranking when you return to the main screen.
+                    e.g. Game Over - your score was 33 out of 100.
+                    Stop the ability to select dice for rolling after you have 
+                    chosen a scoring category.  i.e. between choosing the scoring 
+                    category and proceeding with your next roll.
+                    (65,144 lines of code / comments.)
+
+1.3   29-Apr-2004   If you get a high score, then make the appropriate row of 
+                    the high score table visible.
+                    i.e. scroll the display down / up to reveal the row of the 
+                    high score table where you just entered your score.
+                    (65,621 lines of code / comments.)
+
+1.3f  3-Sep-2007    This program is now FREEWARE - see "Freeware Information"
+                    above.
+
+
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this 
+program is available from my WEB page - see below.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://move.to/moose
+____________________________________________________
+ 

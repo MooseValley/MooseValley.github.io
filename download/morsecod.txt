@@ -1,0 +1,289 @@
+ 
+Morse Code Explorer		Copyright (C) Moose O'Malley, 
+-------------------		September 2007.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * The Future
+   | * Morse Code : a little history
+   | * Morse Code Translation Table
+   | * Reviews / Awards / CDs
+   | * Freeware Information
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+Morse Code Explorer for Windows 3.1, 3.11, 95, NT, 2000, XP, etc.
+
+This program is free software.  Anyone - any person, any company, 
+or any business - can use this program for free.  No fees or 
+payment is required.  See "Freeware Information" below.
+
+This program enables you to explore the wonders of Morse Code.
+
+With this program, you can :
+
+- Decode a Morse Code string.
+  Simply type in a series of DOTs (full stops) and DASHes (minus signs)
+  and seperate each seperate morse code by a space, and the program
+  will convert it to text for you.
+
+- Encode text into Morse Code.
+  Simply type in text and the program will convert it to Morse Code 
+  for you.  All characters not included in Morse's Code are ignored.
+
+- Display all Morse Code codes for each letter in the alphabet.
+  i.e. a quick reference chart.
+
+
+Morse Code : a little history
+-----------------------------
+
+When Samuel Morse decided to use an alphabetical system 
+of signals for his newly invented telegraph, he consulted a 
+Philadelphia newspaper's typecase.  Morse desired to assign the 
+shorter dot-and-dash symbols used for telegraph transmission to 
+the more commonly used letters of the alphabet, while some 
+of the longer dot-and-dash symbols would be used for less 
+frequently used characters.
+
+In counting the type in each letter bin, he found 
+12,000 e's, 9,000 t's, 8,000 each of a, o, m, i, and s, 
+6,400 h's, and so on.  With few exceptions, Morse followed 
+this list in developing his teletype code, assigning the 
+shortest symbol, a dot, to the letter "e", the most 
+common letter.  The symbol dash, was assigned to the 
+letter t, the next most common symbol.
+
+Modern International Morse Code only differs slightly from 
+Morse's original Morse Code.
+
+The duration of a dot equals one dot-unit, a dash equals three 
+dot-units, the space between dots and dashes of a letter 
+equals 1 dot-unit, and the space between letters equals 
+three dot units.
+
+The transmission of an English message consisting of 100 letters 
+requires the transmission of approximately 940 dot-units.
+
+If, instead of assigning symbols logically, they had been 
+assigned at random, then the same 100 letter message would 
+take 1160 dot-units - an increase of about 23%.
+
+This encoding technique represents the earliest application of 
+Statistical Compression for data transmission, and permits 
+almost 25% more messages on a telegraph line during a peak 
+period, than if dot-and-dash symbols were assigned at random.
+
+Amazing hey !!
+
+And, if it wasn't for Morse, we wouldn't have had all those excellent
+Wild West movies where the telegraph operators are always held at gun
+point and told to transmit wrong information to the sheriff in the next 
+town.  (And who couldn't love these movies ???  ;)
+
+
+Morse Code Translation Table :
+------------------------------
+
+A = .-     Alfa        Dot Dash 
+B = -...   Bravo       Dash Dot Dot Dot 
+C = -.-.   Charlie     Dash Dot Dash Dot 
+D = -..    Delta       Dash Dot Dot 
+E = .      Echo        Dot 
+F = ..-.   Foxtrot     Dot Dot Dash Dot 
+G = --.    Golf        Dash Dash Dot 
+H = ....   Hotel       Dot Dot Dot Dot 
+I = ..     India       Dot Dot 
+J = .---   Juliet      Dot Dash Dash Dash 
+K = -.-    Kilo        Dash Dot Dash 
+L = .-..   Lima        Dot Dash Dot Dot 
+M = --     Mike        Dash Dash 
+N = -.     November    Dash Dot 
+O = ---    Oscar       Dash Dash Dash 
+P = .--.   Papa        Dot Dash Dash Dot 
+Q = --.-   Quebec      Dash Dash Dot Dash 
+R = .-.    Romeo       Dot Dash Dot 
+S = ...    Sierra      Dot Dot Dot 
+T = -      Tango       Dash 
+U = ..-    Uniform     Dot Dot Dash 
+V = ...-   Victor      Dot Dot Dot Dash 
+W = .--    Whisky      Dot Dash Dash 
+X = -..-   X-ray       Dash Dot Dot Dash 
+Y = -.--   Yankee      Dash Dot Dash Dash 
+Z = --..   Zulu        Dash Dash Dot Dot 
+  = .-.-   CR          Dot Dash Dot Dash 
+  = .-.-   LF          Dot Dash Dot Dash 
+  = .-.-.  EoF Message Dot Dash Dot Dash Dot 
+! = .-..-.             Dot Dash Dot Dot Dash Dot 
+' = .----.             Dot Dash Dash Dash Dash Dot 
+, = --..--             Dash Dash Dot Dot Dash Dash 
+- = -....-             Dash Dot Dot Dot Dot Dash 
+. = .-.-.-             Dot Dash Dot Dash Dot Dash 
+/ = -..-.              Dash Dot Dot Dash Dot 
+0 = -----              Dash Dash Dash Dash Dash 
+1 = .----              Dot Dash Dash Dash Dash 
+2 = ..---              Dot Dot Dash Dash Dash 
+3 = ...--              Dot Dot Dot Dash Dash 
+4 = ....-              Dot Dot Dot Dot Dash 
+5 = .....              Dot Dot Dot Dot Dot 
+6 = -....              Dash Dot Dot Dot Dot 
+7 = --...              Dash Dash Dot Dot Dot 
+8 = ---..              Dash Dash Dash Dot Dot 
+9 = ----.              Dash Dash Dash Dash Dot 
+: = ---...             Dash Dash Dash Dot Dot Dot 
+= = -...-              Dash Dot Dot Dot Dash 
+? = ..--..             Dot Dot Dash Dash Dot Dot
+| = -.--.-             Dash Dot Dash Dash Dot Dash
+Á = .--.-              Dot Dash Dash Dot Dash
+Ä = .-.-               Dot Dash Dot Dash
+Æ = .-.-               Dot Dash Dot Dash (Norweigan)
+Å = .--.-              Dot Dash Dash Dot Dash (Norweigan)
+É = ..-..              Dot Dot Dash Dot Dot
+Ñ = --.--              Dash Dash Dot Dash Dash
+Ö = ---.               Dash Dash Dash Dot
+Ø = ---.               Dash Dash Dash Dot (Norweigan)
+Ü = ..--               Dot Dot Dash Dash 
+
+
+The Future :
+-------------
+
+In the future, I might add a Tutorial / Quiz function
+into the program, which would display random Morse Codes
+and you would have to guess the character it represents.
+
+Another good thing would be to play the DOTs and DASHes through 
+your sound card so that it sounds similar to a real Telegraph.
+** Done in v2.0f
+
+I would also like to add functionality to read microphone input
+and interpret this as DOTs and DASHes.
+
+Or, this could be easily done with a mouse as well - tap the mouse 
+botton for a DOT and hold it down a bit longer for a DASH - just 
+like in a real Telegraph where Morse Code was pioneered.
+** Done in v2.0f
+
+It all depends on what feedback and support I get.
+
+
+Reviews / Awards / CDs :
+-------------------------
+
+None so far.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.  
+
+Anyone - any person, any company, or any business - can 
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please 
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select 
+the "About" option under the Help menu, and then click 
+the PayPal link on the "About" screen).
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know.
+
+
+Amendment History :
+--------------------
+
+Vers    Date        Description
+1.0     07-Feb-97   First Public Release.
+1.1     16-Jun-97   Save settings automatically on Windows 95 shutdown 
+                    (Registered Users only).
+                    Start Minimised if set in Shortcut / settings
+                    (Registered Users only).  
+                    Improve application startup - size and position 
+                    form before user sees it.
+                    Add in Menu items for viewing my Shareware Catalog, 
+                    the Readme file, and the Registration Form.
+1.2     11-Jan-98   Fix a long standing but very elusive problem
+                    to do with "DateEncode" errors which occured
+                    on some machines under some conditions.
+                    Once I could replicate the error, it was
+                    reasonably straight forward to get a workaround
+                    for what was another bug in Delphi.
+                    (3,224 lines of code.)
+1.3     08-Nov-98   Add in support for the Norweigan characters
+                    Æ (A combined with an E), Ø (O with an slash), 
+                    and Å (A with a little circle over it).
+                    Added specially for : Øivind Grønli Helgesen.
+                    (3,700 lines of code.)
+
+1.4   11-Jan-2001   Store the INI settings file in the program's directory, 
+                    rather that in the Windows' directory - there's enough 
+                    crap there already ! ;)
+                    Fix an old bug in Borland Delphi / Windows NT
+                    to fix NTDLL.DLL errors on closedown which occured 
+                    on some Windows NT configurations.
+                    Improve the detection method used for determining whether 
+                    data copied from the clipboard is text or morse code.  
+                    (If input data is made up of more than 99.5% dots, dashes, 
+                    and spaces, then it is presumed to be More Code).
+                    The Percentage of input data that is valid Morse Code
+                    is now displayed next to the Input box / field.
+                    (6,725 lines of code / comments.)
+
+1.5  17-Apr-2001    Add in support for "Big Fonts" and "Other Sized Fonts" - 
+                    with these Windows resizes the windows automatically - 
+                    but only sometimes and it doesn't always do it right, 
+                    so now I make sure my main window is the right size 
+                    before doing any scaling, etc.  i.e. I make it fit the 
+                    component(s) that extend the furthest right and 
+                    furthest down the form.   See the  Start Menu -> 
+                    Settings -> Control Pannel -> Display -> Settings 
+                    Tab -> "Advanced" button -> "General" tab for 
+                    your PC's settings in this area.
+                    Bring program up-to-date with my latest code libraries.
+                    (7,700 lines of code / comments.)
+
+1.5b  20-Nov-2002   Bring the program up to date with my latest code libraries.
+                    Registered Users - please contact me via email.
+                    (31,498 lines of code / comments.)
+
+2.0f  3-Sep-2007    This program is now FREEWARE - see "Freeware Information"
+                    above.
+                    Add in the ability to assign the DOT and DASH sounds and 
+                    play any morse code back to the user.
+                    Also, allow the user to left and right mpouse click in a 
+                    specific area to play DOT and DASH sounds (respectively)  
+                    while also entering DOTs and DASHes into the input box.
+                    I had a lot more plans for this program, but alas a complete
+                    lack of support, and a plethora of cracks and hacks for my 
+                    software, have effectively scuppered these plans.
+
+
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this 
+program is available from my WEB page - see below.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://move.to/moose
+____________________________________________________
+ 

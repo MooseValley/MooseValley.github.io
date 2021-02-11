@@ -1,0 +1,285 @@
+ 
+MAME Benchmarker		Copyright (C) Moose O'Malley, 
+----------------		August 2003.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction (LONG)
+   | * Why I wrote this Program / Why use this Program
+   | * Using this Program
+   | * Useful WEB Links
+   | * Limitations / Restrictions of the program
+   | * The Future
+   | * Special Greetings / Thanks to
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+MAME Benchmarker for Windows 95, 98, NT, ME, 2000, XP, 
+and similar operating systems.
+
+MAME Benchmarker is a utility / tool which can help you
+benchmark the running of the Windows Command Line MAME 
+or the DOS MAME (Multiple Arcade Machine Emulator) :
+
+	http://www.mame.net
+
+MAME Benchmarker enables you to choose which games 
+to benchmark, which command line parameters to use
+when running MAME, and then benchmark these games 
+within MAME.
+
+After the benchmarking is complete, a TAB separated 
+report is displayed and you can easily copy and paste 
+this into a spreadsheet to allow you to compare
+these results with other benchmark results, graph 
+the results, etc.
+
+To enable this functionality, you need to :
+
+  **********************************
+  *** MAME + ROM Directories Tab ***
+  **********************************
+
+ 1. Specify the directory path and name of the DOS or Windows 
+    Command Line version of MAME.
+
+ 2. Specify the ROM directory(s).  i.e. the directory(s) 
+    where your MAME games ZIP files are stored.
+
+ 3. Press the "Refresh Originals / Clones List" button.   
+
+ 4. Type in a Description of your PC.  
+    e.g. Pentium III 667, 256 MB RAM, etc.
+
+
+  *************************************
+  *** MAME Command Line Options Tab ***
+  *************************************
+
+
+ 5.  Specify the MAME Command Line Options you require.
+
+
+  ******************************
+  *** Games to Benchmark Tab ***
+  ******************************
+
+ 6.  Press the "Refresh List" button to generate a full 
+     list of all games supported by MAME.
+
+ 7.  Add whichever games you want to the "Games to Benchmark"
+     list, or press the "Default" button to add the default 
+     list of games to benchmark.
+
+Once you do these things, then you are ready to benchmark 
+the games - simply press the "Benchmark Games" button - 
+and then sit back and wait for the results report to appear.
+
+Without this program, the benchmarking and recording of results
+is a very tedious process.  This program could save you 
+a lot of time and effort.
+
+I hope you find this program useful.
+
+MAME Benchmarker is NOT an official part of the 
+MAME project.
+
+Developed using 32-bit Delphi.
+
+
+Why I wrote this Program / Why use this Program :
+-------------------------------------------------
+
+I wrote this program so that I could benchmark MAME 
+on my PC and explore various options for improving 
+performance, and also see how my PC compared to 
+other PCs.
+
+My poor old Pentium III PC is getting real long in 
+the tooth now, and I'll be upgrading later this year.
+
+So, by making it dead easy for others to benchmark MAME 
+on their PCs, I hope that I will be able to see benchmark
+results for other PCs, so I can determine what PC to buy 
+next ...  ;)
+
+
+Using this Program :
+--------------------
+
+To use this program, simply unzip it to a directory (using 
+PKUNIP, WinZIP, or similar), run it, and click on the buttons to
+view / perform the activities you require.
+
+Then, read the "Introduction" above for further details.
+
+N.B.  Some MAME Command Line options are NOT supported by
+      every command line version of MAME.  For example :
+
+       -nodisclaimer [Disables the MAME disclaimer - Non-STD]
+       -nogameinfo   [Disables pre-game information - Non-STD]]
+
+      are not supported by all command line versions of MAME.
+
+So, if you get errors for every game, then try 
+unchecking these two Command Line options.
+
+
+Useful WEB Links :
+------------------
+
+The following WEB links are useful for anyone who 
+wants to benchmark MAME :
+
+- http://www.classicgaming.com/mame32qa/bench.htm
+
+- http://elvispr.dyns.cx/mamebench/
+
+
+Limitations / Restrictions of the program :
+-------------------------------------------
+
+None.  There is no trial period and there is no "cutdown"
+or "restricted" functionality that requires users to register.
+
+This program is FREE software - any person and any company is
+welcome to copy it, use it, and distribute it as they see fit,
+as long as the EXEcutable and this text file remain intact.
+
+If you paid money for this program, then you were ripped off,
+and you should complain to the person who sold it to you !!
+(Don't complain to me, it's nothing to do with me !!).
+
+
+The Future :
+------------
+
+In the future, many improvements could be made to this program,
+such as :
+
+- Enable the user to set-up their own "Default" list of 
+  games to benchmark.
+
+- Enable users to specify additional / other MAME settings.
+
+- Add in the ability to repeate the test nn times and 
+  average the results.
+
+- Add in support for the "Abort" button.
+
+- Add in the ability to stop on any error
+
+- Anything else ?
+
+If you would like any of these improvements, or would like to
+suggest more, or would like to give me some feedback on the 
+program, please email me and let me know.
+
+
+Special Greetings / Thanks to :
+-------------------------------
+
+Special thanks to all arcade emulator authors, people who maintain 
+arcade emulator sites, those who dump the roms, and those
+who work hard to try and preserve the actual physical arcade machines,
+with special mention to :
+
+- Dave Spicer for developing Sparcade - the very first Arcade Emulator 
+  for PCs, which introduced me to Arcade Emulation way back in 1995.
+  I was and still am compltely blown away by arcade emulation !!
+- Nicola Salmoria (for MAME and other emulators) and the fabulous MAME 
+  and various MAME 32 Development Teams.
+- Neil Bradley (Emu, Retrocade and others).
+- Antiriad and the Raine Development Team.
+- Dave (Final Burn).
+- Anders Nilsson & Janne Korpela (Neo Rage and Tutankham).
+- Thierry Lescot (System 16 Emulator).
+- Neill Corlett (MGE).
+- Michael Cuddy (KEM & Gyruss).
+- and all other arcade emulator developers - you guys rule !!!
+- Virtu Al, Brian Peek, MAME DK, and others - you guys rule too !!!
+- The guys who maintain the MAME Benchmarking web sites :
+   * http://www.classicgaming.com/mame32qa/bench.htm
+   * http://elvispr.dyns.cx/mamebench/
+
+Even though some of these emulators are no longer under development,
+your amazing work is NOT forgotten !!
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know, and I will do my best to fix it ASAP.
+
+
+Amendment History :
+--------------------
+
+Vers    Date        Description
+1.0   21-July-2003  First Public Release.
+                    (59,824 lines of code / comments.)
+
+                    21-July-2003 - Email Retrogames (Prophet 
+                    and Griking) to announce this program.
+
+                    21-July-2003 - Program announced on MAME's
+                    Fun / Fluff Message Board at www.mame.net
+
+1.1   22-July-2003  Various Improvements.
+                    Instead of using a single command to run MAME
+                    (e.g. d:\mame\mameppp ....) break it down and 
+                    store it in a batch file and execute this instead,
+                    as this will always run games correctly. For example :
+                      d:
+                      cd mame
+                      mameppp ....
+                    The prior method did not run all games.  e.g. Area51.
+                    Also, add in a "View Last Results" button, to enable 
+                    you to view the last benchmark results report.
+                    Include the total time taken (in seconds) on the
+                    benchmark report.
+                    Add in various Program Setting options :
+                    - the ability to show the Number of Frames
+                      executed for each game on the benchmark report,
+                    - and the ability to pause and wait for user input
+                      after each time MAME is executed (so you have 
+                      time to see any issues / errors, etc).
+                    Confirm with the user before removing games 
+                    from the "Games to Benchmark" list.
+                    Make the default settings for these :
+                     -nodisclaimer [Disables the MAME disclaimer - Non-STD]
+                     -nogameinfo   [Disables pre-game information - Non-STD]]
+                    non-checked.  (They aren't supported by all command
+                    line versions of MAME).
+                    (60,035 lines of code / comments.)
+
+1.1b   4-Aug-2003   Fix the icon and tool tip on the "View Previous Results"
+                    button.  (Thanks Twisty at Mame World for noticing this).
+                    (60,035 lines of code / comments.)
+
+
+If this program was not downloaded from my Home Page, then
+it might be an old version.  The latest version of this 
+program is available from my WEB page - see below.
+
+For more great software, please visit my WEB page !
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://move.to/moose
+____________________________________________________
+ 

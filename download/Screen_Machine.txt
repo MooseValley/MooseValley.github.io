@@ -1,0 +1,357 @@
+ 
+Screen Machine		Copyright (C) Moose O'Malley, 
+--------------		October 2013.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Why I wrote this program ?  What can it do ?
+   | * Installing and Using this Program
+   | * Uninstalling this Program
+   | * The Future
+   | * Reviews / Awards / CDs
+   | * Freeware Information
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+Screen Machine for Windows 95, 98, ME, NT, 2000, XP, Vista, 7, 8, etc.
+
+This program is free software.  Anyone - any person, any company, 
+or any business - can use this program for free.  No fees or 
+payment is required.  See "Freeware Information" below.
+
+Screen Machine is a program that captures screen shots of 
+the full screen of your computer in action at 1 minute, 
+5 minute, or whatever intervals you choose.
+
+For example, if I surfed the internet using Netscape or some 
+other browser, checked my email using Eudora or some other email 
+client, did some on-line chatting with an IRC client, and 
+then played some games like Age of Empires, Crazy Taxi, 
+MAME 32, etc - then Screen Machine will capture screen shots 
+of all of these programs in action at the time intervals 
+specified and store them in the directory specified.
+
+These screen shots would provide a record of what the user
+did during the time they were logged on.
+
+This program might be useful for anyone who wants to
+check what someone is doing / typing on your computer.
+e.g. keep track of what your teenage kids or the computer 
+repair guy are doing while using the internet or any other 
+programs on your computer
+
+Screen Machine captures screen shots to a directory you specify,
+and can also log all screen capturing activity to a plain text file.
+
+In addition, you can use the following options :
+
+- Only capture screen if key pressed or mouse clicked since last 
+  screen capture.  So, if the screen saver is running, or no-one is 
+  using the computer then screen shots will no longer be captured.
+
+  By default, this option is enabled.
+
+- Only capture screen if the screen's contents have changed.
+
+  N.B. A change of just one pixel is a change - so if the clock 
+       changes, or a scroll bar moves, or something in a form or 
+       status bar changes, then this means the screen has changed, 
+       and the screen will be captured.
+
+  By default, this option is enabled.
+
+- Only capture screen if there is at least 10 MB of free disk space.
+  So you don't fill up your hard disk with screen shots.
+
+  By default, this option is enabled.
+
+The program is designed to run without any user intervention for
+obvious reasons - you don't want to alert someone that you are 
+watching them / snooping on them.
+
+So, if any errors are encountered, these will be logged to the log 
+file, but no error messages will be displayed to the user.
+
+Various security / stealth options are available - 
+see "Installing and Using this Program" below.
+
+If you find this program useful, you should also take a look at
+my Key Stroke Recorder program (available on my web site).
+
+Developed using 32-bit Delphi.
+
+This program will **NOT** run under Windows 3.x  
+(even with Win32 installed).
+
+Do NOT install this software on any computers you do not own.
+
+
+Why I wrote this program ?  What can it do ?
+--------------------------------------------
+
+If you are worried what your son, daughter, friend, spouse, 
+etc might be typing or looking at or doing on your computer, 
+or if you are worried about what the repair shop guys are 
+using your computer for when it goes in for repairs, or 
+if you are worried that someone at work is using your 
+PC after hours, then Screen Machine can help log what 
+people do on your computer so that you can view this 
+later on and either dismiss or confirm your fears.
+
+The program can capture screen shots of any Windows 
+application, and most Windows / Direct/X Games.
+
+N.B.  There are some games that Screen Machine might not be 
+      able to capture correctly.  e.g. DOS games.
+
+If you find this program useful, you should also take a look at
+my Key Stroke Recorder program (available on my web site).
+
+Do NOT install this software on any computers you do not own.
+
+
+Installing and Using this Program :
+-----------------------------------
+
+To use this program, unzip the contents of the ZIP file to a 
+directory - such as c:\Screen\ - and run the executable 
+file : Screen_Machine.EXE.
+
+When the program runs, it will be minimised and it will 
+put an icon in the Windows Tray bar (with the Clock, etc) 
+which you can click on with the mouse to bring up the 
+program's main window.
+
+Various options / settings are available - see the 
+"Introduction" above.
+
+If you want the program to run automatically when Windows
+starts up, then select this option under the "File" menu
+in the program.
+
+A range of Basic Stealth Options are provided, see 
+the "Settings" tab.
+
+For example, you can change the program's title to 
+something less obvious or suspicious.  e.g. you could
+change the program's name to "My Diary" or "Windows System 
+Monitor" or something.
+
+You can also add a password so that if someone clicks on the 
+program's icon in the Windows Tray bar then they will not 
+be able to see the log or use any of the program's 
+functionality until they enter the password.
+
+On my PC (running in 1024 x 768 with 16 bit colour), each 
+captured screen (i.e. screen shot) is quite large - each 
+bitmap file is around 1.5 MB.  So, it is advisable to
+keep the "Only capture screen if there is at least 10 MB 
+of free disk space" option checked.
+
+If you want to capture screen shots for a particular user
+and you force users to log on to your system (with their own 
+username and password, which is a good idea), then you can 
+simply create a shortcut to Screen Machine in the Windows StartUp
+directory for each user.
+
+How you do this varies - consult your Windows Help Files 
+or search the internet for help on this, or if you are really 
+stuck, email me and I'll do my best to help.
+
+I hope you find the program easy to use and useful.
+
+Do NOT install this software on any computers you do not own.
+
+
+Uninstalling this Program :
+---------------------------
+
+At the  present time, there is No Uninstall function.
+
+If you ever want to delete Screen Machine 
+from your computer, then :
+
+ 1. Exit the program, and delete it from wherever you installed
+    it on your harddrive.
+
+Before doing this however :
+
+- If you have selected / enabled the "Auto-Run at Windows 
+  Startup" option (under the File menu), then you should 
+  ensure that this option is not checked / enabled 
+  (which you can easily do by re-selecting the 
+  "Auto-Run at Windows Startup" option from under 
+  the File menu).
+
+- If you have used any of the "Create Shortcut ..." options 
+  under the File menu, then you should use the "Delete All 
+  Shortcuts" option under the File menu to remove these from
+  your system.
+
+Simple as that !
+
+
+The Future :
+------------
+
+Like all of my programs, I've got tons of ideas for this 
+program.
+
+But in this case, of course, I will be very cautious in what 
+features I add because I don't want to do anything to help 
+any hackers / crackers or anyone else out there abuse or 
+misuse this program.  e.g. record passwords or information
+that they have no right to record or log or view.
+
+So, I will be very careful in providing any functionality 
+that might allow damage to be done in the wrong hands.
+
+To put it bluntly, I will not make it easier for evil people 
+to rip off or snoop on good people.
+
+In the future, many improvements could be made to this program,
+such as :
+
+- Password protection / encryption of the log file.
+
+- Ability to limit the log file to a certain size or to a certain 
+  number of lines.
+
+- Better password protection of the program.  So, that no-one can close
+  the program down unless they type the correct password.
+
+- More / Advanced Stealth Mode Options - so that the program does 
+  not appear in the Windows Task List or on the Windows Task Bar 
+  or the application / process list.  i.e. people using your computer 
+  will not know that this program is running or logging their 
+  activities.
+
+  N.B.  I can do this quite easily - but it scares the hell 
+  out of me so much that I will probably never release a program 
+  that does this because then this program could far more easily 
+  be used for evil.
+
+- Add in ability to only log selected users of your computer.
+  e.g. If Moose logs onto your computer, then log his actions, etc.
+  (This will mean that you will need to force users to log in when
+   Windows starts up).
+
+- Compression, size reduction, and/or colour reduction of the screen 
+  shots and/or saving the screen shots as JPEG files, etc to reduce 
+  the disk space they use.  Although doing this has its draw backs.
+
+  Disk space is cheap, and even in late 2002, entry level PCs come 
+  equipped with at least 40 GB hard disks - so a 1.5 MB per screen shot
+  is peanuts.
+
+  To compress images to JPEG or similar, may cause a noticeable 
+  slowdown on the PC and may alert the user to this program's 
+  presence / activity.
+
+  Saving the screen shots to uncompressed .BMP files does not cause 
+  any noticeable decrease in the PCs performance.
+
+- Anything else ?
+
+If you would like any of these improvements, or would like to
+suggest more, please email me and let me know.
+
+How much more work I do on this program depends entirely on
+what support I get, how many people use the program, etc.
+
+
+Reviews / Awards / CDs :
+-------------------------
+
+None so far.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.  
+
+Anyone - any person, any company, or any business - can 
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please 
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select 
+the "About" option under the Help menu, and then click 
+the PayPal link on the "About" screen).
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know.
+
+
+Amendment History :
+-------------------
+
+Vers    Date        Description
+
+1.0  15-Jan-2003    First Public Release.
+                    (56,905 lines of code / comments.)
+
+1.0f  3-Sep-2007    This program is now FREEWARE - see "Freeware Information"
+                    above.
+
+1.1f  26-Oct-2013   1. Fix the capturing of screen shots so that this program
+                    works properly under Windows 7 and 8 (32 bit and 64 bit)
+                    as well as all versions of Windows back to Windows 95.
+                    Under Windows 7 and 8, only a black screen was being captured.
+                    All fixed now.  Special thanks to Jerry P. for reporting 
+                    the issue.
+                    2. Prevent the form being rescaled (and text shrinking) when 
+                    "Capture Screen Now" button is clicked.
+                    3. Remove a "Registered Version Only" label in the Settings tab.
+                    4. Bring the program up to date with my latest code libraries.
+                    5. Update various sections in the Screen_Machine.txt file.
+                    (1,400 lines of code / comments / blank lines in primary source file.)
+                    (66,857 lines of code / comments / blank lines in all primary, library, and include files.)
+
+1.2f   7-Nov-2013   1. Fix some program behaviour: not minimising correctly some times 
+                    and popping up after taking screen shots and regressing to saved 
+                    settings under some conditions.  Special thanks to Jerry P. for 
+                    reporting the issue.
+                    2. Save images to JPG files rather than BMP files.
+                    I selected BMP files originally because they are super fast 
+                    to generate and write to disk.  JPG requires compression and 
+                    generating one visibly slowed the PC I was using down for a 
+                    split second way back when I wrote this program (in the early 2000's).
+                    However, modern PCs / laptops / netbooks, etc can generate 
+                    many JPGs per second with barely a blip on the CPU's radar.
+                    Here's how the sizes compare for 1280x1024 desktop screen shots:
+                    * BMP: 5,121 KB
+                    * JPG:   450 KB (varies depending on what is on the screen being captured)
+                    So, they are about 1/10th the size.
+                    (1,389 lines of code / comments / blank lines in primary source file.)
+                    (68,961 lines of code / comments / blank lines in all primary, library, and include files.)
+                    
+                    
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this 
+program is available from my WEB page - see below.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://move.to/moose
+____________________________________________________
+ 

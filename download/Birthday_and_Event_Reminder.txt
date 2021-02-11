@@ -1,0 +1,301 @@
+ 
+Birthday and Event Reminder		Copyright (C) Moose O'Malley, 
+--------------------------		September 2007.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Credits / Thanks
+   | * Why I Wrote this Program
+   | * Installing and Using this Program 
+   | * Using this Program
+   | * Uninstalling this Program
+   | * The Future
+   | * Special Thanks To
+   | * Reviews / Awards / CDs
+   | * Freeware Information
+   | * Warranty 
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+Birthday and Event Reminder is for Windows 95, 98, ME, NT, 2000, XP, etc.
+
+This program is free software.  Anyone - any person, any company, 
+or any business - can use this program for free.  No fees or 
+payment is required.  See "Freeware Information" below.
+
+Birthday and Event Reminder allows you to easily keep track of birthdays, 
+anniversaries, school reunions, and other important annual events.
+
+A range of functionality is provided with the program to help you add, 
+update, change, or delete events, and then report on the events occuring 
+within a specified number of days.  You can copy and paste this report 
+into emails or print it.
+
+This program should be very useful for helping you keep forwarned of all 
+important dates, so that you give yourself plenty of time to organise and 
+prepare for birthdays, anniversaries, and so on.
+
+Now, there is NO EXCUSE for forgetting or leaving things until the last 
+minute !!!  ;)
+
+Import functionality is also provided so that you can load data from other 
+date / event reminder programs directly into Birthday and Event Reminder 
+without having to re-type anything. Importing data from the following 
+programs is currently supported :
+- Birthday Reminder v1.5a
+
+N.B.  I am very willing to add import support for any other birthday / 
+event / reminder programs you might be using.  Just send me your data 
+files (or a sample of a data file), and I will add in the required support.
+
+Developed using 32-bit Delphi.
+
+Birthday and Event Reminder is for Windows 95, 98, ME, NT, 2000, XP, or 
+later.  This program will **NOT** run under Windows 3.x
+(even with Win32 installed) !!
+
+
+Credits / Thanks :
+------------------
+
+- Special thanks to Egil L for requesting that I develop this program.
+  Egil has received a FREE registration because he suggested a program 
+  that I believe is useful / desirable and I have gone ahead and 
+  developed it.  If this program sells really well, then I'll also 
+  be sending Egil a cheque (or "check" as American's say) depending 
+  on how sales go.
+
+
+Why I Wrote this Program :
+--------------------------
+
+Egil had been using "Birthday Reminder v1.5a" for many years.
+
+Birthday Reminder v1.5a is an old Windows 3.x program from the mid-1990's 
+from Chameleon Software (an Australian developer).
+
+Egil had attempted to contact the developer and register the program, 
+but the emails bounced, and he could not find any recent software 
+of web pages for Chameleon, and it appeared that they hadn't updated 
+any of their software or been in business for over 10 years.
+
+So, Egil contacted me and asked me to develop my own version of 
+"Birthday Reminder", which I have done.
+
+
+Installing and Using this Program :
+-----------------------------------
+
+To use this program, unzip the contents of the ZIP file to a 
+directory - such as c:\Birthday_and_Date_Reminder\ - and run the 
+executable file : Birthday_and_Date_Reminder.EXE.
+
+If you want the program to run automatically when Windows
+starts up, then select this option under the "File" menu 
+in the program.
+
+If you would like to be able to run this program by clicking 
+on an icon in the Windows Start Menu, or on the Desktop, etc 
+then you can use the "Create Shortcut ..." options under 
+the program's File menu.
+
+I hope you find the program easy to use and useful.
+
+
+Using this Program :
+--------------------
+
+To add a new birthday, anniversary, etc, click the "Add" button, and 
+select the event date, and fill in the name and event type fields.
+The event type contains a list of pre-define event types - such as 
+Birthday, Anniversary, etc, but you can type in your own even type 
+here.  i.e. the event type list is just a basic suggestion list, 
+you can type in your own event names or any other event types.  
+e.g. "Tax Return Due" or "Baby Christening" or whatever you like.
+
+To edit / modify an existing event, select it in the list and click the 
+"Edit" button.  Change any data you want, and then click "OK" to accept 
+the changed data or "Cancel" t reject any changes.
+
+To delete an event, click on the event with the mouse and click the 
+"Delete" button.  To delete multiple events, click on the first event
+and with the left-mouse button held down, drag and highlight other events,
+and then clicj with the mouse and click the "Delete" button.
+
+To erase all events from the list, click the "Reset" button.
+
+To ensure that you can never lose any data (even in a power failure), 
+after every Add, Edit, or Import operation, the data is automaticaly 
+saved to a file.
+
+When you exit the program, the data is also automaticaly saved to a file.
+
+When you Reset or Delete data, then the data is NOT automaticaly saved to 
+file, and you can undo any deletions up to the last save point.  
+i.e. up until the last Add, Edit, or Import operation, or up until the 
+last time you exited the program - whichever is most recent.
+
+To sort the data, click on any of the "Sort Data By" or "Sort Order" 
+radiobuttons.
+
+To get a list of all up and coming events click the "Report" button.  
+A report of all coming events will be displayed, and you can copy 
+this report to windows clipboard - so you can paste it into an email 
+or other document - or you can print this report directly to a selected 
+printer.
+
+You can change the timeframe (i.e. the number of days before the event)
+that you are warned, and also choose whether to display the report
+automatically when the program is run, and whether to run the program 
+automatically at Windows start-up.
+
+The program should hopefully be pretty easy and straight forward to use.
+
+
+Uninstalling this Program :
+---------------------------
+
+At the  present time, there is No Uninstall function.
+
+If you ever want to delete this program 
+from your computer, then :
+
+ 1. Exit the program, and delete it from wherever 
+    you installed it on your harddrive.
+
+Before doing this however :
+
+- If you have selected / enabled the "Auto-Run at Windows 
+  Startup" option (under the File menu), then you should 
+  ensure that this option is not checked / enabled 
+  (which you can easily do by re-selecting the 
+  "Auto-Run at Windows Startup" option from under 
+  the File menu).
+
+- If you have used any of the "Create Shortcut ..." options 
+  under the File menu, then you should use the "Delete All 
+  Shortcuts" option under the File menu to remove these from
+  your system.
+
+Simple as that !
+
+
+The Future :
+------------
+
+In the future, many improvements could be made to this program,
+such as :
+
+- Birthday and event shopping lists, so you can enter shopping / 
+  gift ideas for each event - which you can add as you think of 
+  them during the year.  These could be printed in the report.
+
+- One thing then program does not do is weed out any duplicates – 
+  so if you Import the same data 5 times, then you will have 5 
+  copies of it in the list, and the reminder for someone’s birthday 
+  would appear 5 times on the report.
+
+  I wasn’t sure whether to weed out duplicates or not.  e.g. there 
+  could be 2 or more John Smiths with the same birthday – unlikely 
+  but possible.
+
+  If anyone feels strongly about this, then please let me know
+  and I will add an optional setting into the program to enable you to 
+  ignore duplicate data ifn you like.
+
+- Anything else ?
+
+If you would like any of these improvements, or would like to
+suggest more, please email me and let me know.
+
+How much more work I do on this program depends entirely on
+what support I get, how many people use the program, etc.
+
+
+Special Thanks To :
+-------------------
+
+Special thanks to Egil L for suggesting / requesting this program.
+
+
+Reviews / Awards / CDs :
+-------------------------
+
+None so far.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.  
+
+Anyone - any person, any company, or any business - can 
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please 
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select 
+the "About" option under the Help menu, and then click 
+the PayPal link on the "About" screen).
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know.
+
+
+Amendment History :
+--------------------
+
+Vers    Date        Description
+
+0.9   25-Apr-2005   Initial Private / BETA release to Egil L for comment /
+                    feedback.  Hope you like the program Egil !
+                    (59,780 lines of code / comments.)
+
+0.95  29-Apr-2005   Next Private / BETA for comment by Egil L.
+                    Names column and column headings are bold.  The data 
+                    in some columns is now centered.  Hide the main screen 
+                    if just the Report is required  at run-time.  Bring the 
+                    internal program name into line with the external EXE name.
+                    Change the program name from "Birthday and Date Reminder" to 
+                    "Birthday and Event Reminder".  Fix the Auto-Run feature - 
+                    break-up the fights.  ;)
+                    (63,946 lines of code / comments.)
+
+0.98  05-May-2005   Fix a strange "Grid index out of range" error.
+                    Make the person's name bold and blue in the report.
+                    Improve program start-up when the report is to be shown on 
+                    start-up.
+
+1.0  16-May-2005    First Public Release.
+                    (64,691 lines of code / comments.)
+
+1.0f  3-Sep-2007    This program is now FREEWARE - see "Freeware Information"
+                    above.
+
+
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this 
+program is available from my WEB page - see below.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://move.to/moose
+____________________________________________________
+ 

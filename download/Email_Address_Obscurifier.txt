@@ -1,0 +1,261 @@
+ 
+ Email Address Obscurifier	Copyright (C) Moose O'Malley, 
+---------------------------	July 2013.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Installing and Using this Program :
+   | * Uninstalling this Program :
+   | * The Future
+   | * Reviews / Awards / CDs
+   | * Freeware Information
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+Email Address Obscurifier is for Windows 95, 98, ME, NT, 
+2000, XP, etc.
+
+This program is free software.  Anyone - any person, any company, 
+or any business - can use this program for free.  No fees or 
+payment is required.  See "Freeware Information" below.
+
+This program is especially designed for use by anyone who 
+maintains or develops WEB pages, and who wants to ensure 
+that email addresses (on the web page) cannot easily be 
+harvested by the type of people who send junk email.
+
+SPAM (i.e unsolicited junk email) is a rotten scurge that 
+is annoying millions of internet users and causing all 
+sorts of havoc due to clogged mail boxes and clogged 
+servers, not to mention the nasty payloads (viruses, 
+trojans, etc) that many spam emails contain.
+
+This program can help you to obscure the email addresses 
+on your web page(s) so that they act the same and function the 
+same as before, but so that they cannot easily be accessed / 
+identified by email harvesting programs used by people 
+who send unsolicited junk email (SPAM) to 1,000's of 
+internet users.
+
+The result of this should be a reduction in the amount of 
+SPAM (i.e. junk email) that you receive.
+
+See "Using this Program" below for further information.
+
+If this program is of interest to you, then check out 
+another of my FREE programs called "Spam Analysis Tool".
+
+Developed using 32-bit Delphi.
+
+Email Address Obscurifier is for Windows 95, 98, ME, NT, 
+2000, XP, etc. This program will **NOT** run under 
+Windows 3.x (even with Win32 installed) !!
+
+
+Using this Program :
+--------------------
+
+To use this program, simply unzip it to a directory (using 
+PKUNIP, WinZIP, or similar), run it, and drag and drop spam 
+email files and then click on the buttons to perform the 
+various activities that you require.
+
+If you want the program to run automatically when Windows
+starts up, then select this option under the "File" menu
+in the program.
+
+If you would like to be able to run this program by clicking 
+on an icon in the Windows Start Menu, or on the Desktop, etc 
+then you can use the "Create Shortcut ..." options under 
+the program's File menu.
+
+If you want this program to be "Always On Top" 
+of other Windows, then select the "Always On Top"
+menu option under the "File" menu.
+
+Email Address Obscurifier enables you to enter the following 
+data :
+
+- Email Address.  e.g. moose AT move.to  (@ replaced with AT)
+
+- "Mailto:" HTML Tag.  The default value for is "mailto:",
+  and most users should be able to stick with this default 
+  value.
+
+- Email Subject Line.  i.e. the default email subject line 
+  that you want to generate when the email link is selected
+  on the web page,
+
+- "Email me" Label.  This field determines how you want the 
+   email link to appear on a web page.
+
+
+When you press the "Obscurify" button, then valid (but obscured) 
+HTML is generated for the following output fields : 
+- Obscurified Output Fields
+- Complete Email HTML
+
+In addition, a "Mini-Pseudo WEB Browser" area shows you what the 
+obscurified Complete Email HTML will look like and act like on the web page.
+You can even click on this link and an email will be created (but NOT sent)
+with the defaults you specified above.  e.g. To the desired email address, 
+with the required subject line, etc.
+
+You can then manually replace the email links on all of your web pages
+with the obscurified Complete Email HTML, and this will offer increased 
+protection from SPAM.
+
+For example, a simple WEB page may consist of the following 
+Hyper-Text Markup Language (HTML) :
+
+	<HTML>
+	For further details about my shareware, please
+	<a href="mailto:moose AT move.to?subject=Shareware Catalog> 
+	Email moose ATmove.to</a>
+	for a full catalog.
+	</HTML>    (@ replaced with AT)
+
+The problem with this HTML code is that the email address is 
+extremely easy to identify - it is the text with an ampersand "@" 
+in the middle - and it is even listed twice in this HTML.
+
+SPAMmers use special software that scans web pages for email 
+addresses and extracts them for later use in sending bulk junk 
+emails to many 1,000's of internet users.
+
+After being "Obscurified", the above HTML would look like this :
+
+	<HTML>
+	For further details about my shareware, please
+	<a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#109;&#111;
+	&#111;&#115;&#101;&#64;&#109;&#111;&#118;&#101;&#46;&#116;
+	&#111;&#63;&#115;&#117;&#98;&#106;&#101;&#99;&#116;&#61;&#83;
+	&#104;&#97;&#114;&#101;&#119;&#97;&#114;&#101;&#32;&#67;&#97;
+	&#116;&#97;&#108;&#111;&#103;"> &#69;&#109;&#97;&#105;&#108;
+	&#32;&#109;&#111;&#111;&#115;&#101;&#64;&#109;&#111;&#118;
+	&#101;&#46;&#116;&#111;</a>
+	for a full catalog.
+	</HTML>
+
+As you can see, the email address is now no longer easy to locate.
+
+To people visiting the web page, the web page will look and act 
+exactly as before.  However, it will now be much more difficult 
+for email harvesting programs to identify and extract email 
+addresses from this web page.
+
+
+Uninstalling this Program :
+---------------------------
+
+At the  present time, there is No Uninstall function.
+
+If you ever want to delete this program
+from your computer, then :
+
+ 1. Exit the program, and delete it from wherever 
+    you installed it on your harddrive.
+
+Simple as that !
+
+Before deleting the program, you should turn off 
+the auto-running of this program under Windows - 
+if you have previously enabled it.  Simply, re-select 
+the option under the File Menu in the program to 
+achieve this.
+
+
+The Future :
+------------
+
+In the future, many improvements could be made to this program,
+such as :
+
+- More advanced obscuring options - via JAVA Script code, etc.
+
+- Anything else ?
+
+If you would like any of these improvements, or would like to
+suggest more, please email me and let me know.
+
+How much more work I do on this program depends entirely on
+what support I get, how many people use the program, 
+what feedback I get, etc.
+
+
+Reviews / Awards / CDs :
+------------------------
+
+None so far.
+
+
+Special Greetings / Thanks to :
+-------------------------------
+
+None so far.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.  
+
+Anyone - any person, any company, or any business - can 
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please 
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select 
+the "About" option under the Help menu, and then click 
+the PayPal link on the "About" screen).
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know.
+
+
+Amendment History :
+--------------------
+
+Vers    Date        Description
+
+1.0   3-May-2004    First Public Release.
+                    (51,475 lines of code / comments.)
+
+1.1  14-Jul-2013    Adjust start-up main window size to suit.
+                    Recompile and recompress program to remove "damaged 
+                    application" error.  (All of my software does a full 
+                    self-check on start-up to check nothing has messed with 
+                    it, and this was failing due to a build issue with the 
+                    old EXE.  Sadly, no-one reported it, so it went unfixed 
+                    until today when I noticed it.  :/
+                    Bring the program up to date with my latest code libraries.
+                    (54,527 lines of code, comments, and blank lines).
+                    
+
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this 
+program is available from my WEB page - see below.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://move.to/moose
+____________________________________________________
+ 

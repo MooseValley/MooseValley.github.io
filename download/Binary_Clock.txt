@@ -1,0 +1,207 @@
+ 
+Binary Clock 		Copyright (C) Moose O'Malley, 
+------------		September 2007.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Why I wrote this program ?
+   | * Installing and Using this Program
+   | * Uninstalling this Program
+   | * The Future
+   | * Freeware Information
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+Binary Clock is for Windows 95, 98, ME, NT, 2000, XP, etc.
+
+This program is free software.  Anyone - any person, any company, 
+or any business - can use this program for free.  No fees or 
+payment is required.  See "Freeware Information" below.
+
+Binary Clock is a "for fun" program that displays a re-sizable
+binary clock - that is, a clock where the time is displayed 
+via the binary number system (base 2) instead of the 
+decimal number system (base 10).
+
+A whole range (in fact, some people would probably say 
+"a whole overkill") of settings, graphics, and options 
+are available via the settings menu.
+
+The normal Windows style menus are turned off in this program
+(so they don't detract from the clock), however, everything 
+can be accessed via a right mouse click popup menu.
+
+N.B.  I have throttled this program back to use negligible 
+      CPU and machine resources.  Even on my ancient  
+      Pentium II 300 MHz PC (from 1998), this program is 
+      barely even a "blip" on its "to do" list.
+
+Developed using 32-bit Delphi.
+
+This program will **NOT** run under Windows 3.x  
+(even with Win32 installed).
+
+
+Why I wrote this program ?
+---------------------------
+
+I wrote this program because my interest in Binary Clocks
+was rekindled after reading some forum postings on the
+Atomic Maximum Power Computing Magazines website :
+
+http://www.atomicmpc.com.au/forums.asp?s=2&c=9&t=4595
+
+where loads of my fellow geeks were salivating to buy 
+a physical, hardware binary clock - which was for sale 
+for about $60 Australian dollars (inc postage from the US).
+
+Unlike such hardware based Binary Clocks, my software 
+Binary Clock will *never* wear out.
+
+And, my software Binary Clock is a hell of a lot cheaper, 
+and it can be with you whenever working on a computer.
+
+
+Installing and Using this Program :
+-----------------------------------
+
+To use this program, unzip the contents of the ZIP file to a 
+directory - such as c:\Clock\ - and run the executable 
+file : Binary_Clock.EXE.
+
+Then, you can right-mouse click on the program's main window
+and a Pop-Up Menu will appear, allowing you to go to the
+"Settings" screen, or choose from a whole range of options,
+such as :
+- Always On Top
+- Auto-Run at Windows Startup
+- Restore Factory Defaults
+- View Readme File
+- View Shareware Catalog
+- About ...  (i.e. about this program).
+- Exit (this program).
+
+I hope you find the program easy to use and useful.
+
+
+Uninstalling this Program :
+---------------------------
+
+At the  present time, there is No Uninstall function.
+
+If you ever want to delete Binary Clock
+from your computer, then :
+
+ 1. Exit the program, and delete it from wherever 
+    you installed it on your harddrive.
+
+Simple as that !
+
+Before deleting the program, you should turn off 
+the auto-running of this program under Windows - 
+if you have previously enabled it.  Simply, re-select 
+the option under the Right-Mouse Click "Pop-Up Menu" 
+in the program to achieve this.
+
+
+The Future :
+------------
+
+In the future, many improvements could be made to this program,
+such as :
+
+- Better graphics ....  ???
+
+- Get some good LED graphics ...
+
+- If Number of Runs = 0, then display a message to the user to make 
+  sure that they know about the right-mouse click popup menu.
+
+- Vertical or horizontal or diagonal (!?!) clock layout. 
+
+- Add another option to display the time as a label at the bottom of the screen
+  (instead of HHMMSS, etc)
+
+- Anything else ?
+
+If you would like any of these improvements, or would like to
+suggest more, please email me and let me know.
+
+How much more work I do on this program depends entirely on
+what support I get, how many people use the program, etc.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.  
+
+Anyone - any person, any company, or any business - can 
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please 
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select 
+the "About" option under the Help menu, and then click 
+the PayPal link on the "About" screen).
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know.
+
+
+Amendment History :
+-------------------
+
+Vers    Date        Description
+
+1.0  17-Nov-2003    First Public Release.
+                    (57,473 lines of code / comments.)
+
+                    17/Nov/2003 2:20 PM : Announced the project on 
+                    Atomic Magazine's Tech Talk Forum :
+
+                    http://www.atomicmpc.com.au/forums.asp?s=2&c=9&t=4682&m=46505
+
+                    and encounter an absolute firestorm of abuse from
+                    the cretins that lurk in these forums.
+
+1.1  3-Dec-2003     If the user left-mouse clicks on the programs window, then  
+                    automatically go to the Settings screen.
+                    More configuration options.  e.g. enable the user to 1 column 
+                    (instead of 2) for each hours, minutes, seconds, etc by
+                    selecting the new time formats H:M, H:M:S, etc.
+                    (This uses 6 bits to represent 59 minutes or seconds - 2^6 = 64).
+                    (57,548 lines of code / comments.)
+
+1.1f  3-Sep-2007    This program is now FREEWARE - see "Freeware Information"
+                    above.
+
+
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this 
+
+program is available from my WEB page - see below.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://move.to/moose
+____________________________________________________
+ 

@@ -1,0 +1,217 @@
+ 
+Clean-Up Old Files			Copyright (C) Moose O'Malley, 
+------------------			January 2010.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Using this Program
+   | * The Future
+   | * Reviews / Awards / CDs
+   | * Freeware Information
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+Clean-Up Old Files for Windows 95 / 98 / NT / 2000.
+
+This program is free software.  Anyone - any person, any company, 
+or any business - can use this program for free.  No fees or 
+payment is required.  See "Freeware Information" below.
+
+Clean-Up Old Files enables the user to specify one or more directories,
+and then periodically clean out / erase / delete files that haven't
+been modified for a certain number of days.
+
+The program enables the user to specify :
+- The directories where files will be deleted.
+- The age (in days) of files to be deleted.  i.e. if the file
+  hasn't been changed for this many days or more, it will be deleted.
+  (Registered Users Only !)
+- How often the deletion is to be performed.  e.g. every 24 hours.
+- Whether they should be prompted / warned before any files are deleted.
+- Whether the program should run automatically at Windows Start-Up.
+
+WARNING : THIS PROGRAM DELETES FILES.  USE THIS PROGRAM WITH EXTREME CAUTION.
+          USE THIS PROGRAM AT YOUR OWN RISK !
+
+Developed using 32-bit Delphi.
+
+Clean-Up Old Files for Windows 95 / 98 / NT / 2000.
+This program will **NOT** run under Windows 3.x
+(even with Win32 installed) !!
+
+
+Using this Program :
+--------------------
+
+WARNING : THIS PROGRAM DELETES FILES.  USE THIS PROGRAM WITH EXTREME CAUTION.
+          USE THIS PROGRAM AT YOUR OWN RISK !
+
+When this program runs, it sits in the Windows Tray bar (with the clock, etc).
+
+To bring up the program (i.e. make the program's main screen is visible), simply 
+click on the program's "Machine Cog" icon in the tray bar.
+
+When the program's main screen is visible you can specify :
+
+- The directories where files will be deleted - via the Add, 
+  Remove, and Reset buttons.
+
+    >>> Installation Default = No Directories (i.e. No files !)
+
+- The age (in days) of files to be deleted.  i.e. if the file
+  hasn't been changed for this many days, it will be deleted.
+
+    >>> Installation Default = 90 days.
+
+- How often (in hours) the deletion is to be performed.
+
+    >>>  Installation Default = 24 hours.
+
+- Whether they should be prompted / warned before any files are deleted.
+
+    >>> Installation Default = Yes, prompt the user *before* ANY files are deleted.
+
+- Whether the program should run automatically at Windows Start-Up.
+
+    >>> Installation Default = No, do NOT run at Windows Start-Up.
+
+When the program is first installed, all settings are 100% SAFE - that is, 
+the program cannot and will not delete anything until the user specifically
+tells it to.
+
+The user can override / alter any of these settings (with un-safe settings), 
+and then these will become the new defaults every time the program is run.
+
+To make the program go back to the tray bar, click the Minimise button or
+the standard Windows minimise icon (the leftmost icon in the top right hand 
+corner of the program's window).
+
+While the program is in the tray bar, it is still active, and will delete files
+according to its settings.
+
+To make this program run automatically whever Windows starts, simply create a 
+Shortcut to the programs EXEcutable in the Windows Startup directory.
+
+WARNING : THIS PROGRAM DELETES FILES.  USE THIS PROGRAM WITH EXTREME CAUTION.
+          IF YOU DELETE ANY USEFUL FILES WITH THIS PROGRAM THEN THAT IS
+          YOUR FAULT, AND I WILL ACCEPT NO RESPONSIBILITY.
+
+
+The Future :
+------------
+
+In the future, various improvements could be made to this program,
+for example :
+- Add in the ability to handle the Recycle Bin
+
+Let me know if there is anything you require.
+
+
+Reviews / Awards / CDs :
+-------------------------
+
+None so far.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.  
+
+Anyone - any person, any company, or any business - can 
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please 
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select 
+the "About" option under the Help menu, and then click 
+the PayPal link on the "About" screen).
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know, and I will do my best to fix it ASAP.
+
+
+Amendment History :
+--------------------
+
+Vers    Date        Description
+
+1.0   1-Sep-2000    First PRIVATE Release.
+                    (7,803 lines of code / comments.)
+
+                    A little bit of History ....
+
+                    This program was originally developed specially for 
+                    a company in the USA.  A fully working program, built
+                    to their precise specifications, was delivered to them 
+                    in good faith, but they welched out of paying and would 
+                    not answer my emails any more.  Rotten Welchers !!
+
+                    So now, 5 months later, I am adding it to my shareware 
+                    catalog.
+
+2.0   22-Jan-2001   First PUBLIC Release.
+                    Add in "Restore Factory Defaults" menu option.
+                    Add in Form and Component Scaling when the program's 
+                    main window is resized - really Cool !!
+                    Add in "Exit Program After Next Deletion" setting option.
+                    (Registered Users Only !)
+                    Add in option to Append Deleted Files to a Log, and
+                    add in a button to view this log in Windows Notepad.
+                    Add in an "Auto-Run at Windows Startup" menu option to help
+                    the user make this program run automatically at Windows Startup.
+                    This saves you creating a shortcut to the program in the Windows
+                    StartUp folder !!
+                    In addition, if you move the program to a new directory or drive,
+                    it will automatically sense that its existing auto-run command
+                    needs updating to the program's new location.  Very cool !!
+                    (8,182 lines of code / comments.)
+
+2.1   17-Apr-2001   Add in support for "Big Fonts" and "Other Sized Fonts" - 
+                    with these Windows resizes the windows automatically - 
+                    but only sometimes and it doesn't always do it right, 
+                    so now I make sure my main window is the right size 
+                    before doing any scaling, etc.  i.e. I make it fit the 
+                    component(s) that extend the furthest right and 
+                    furthest down the form.   See the  Start Menu -> 
+                    Settings -> Control Pannel -> Display -> Settings 
+                    Tab -> "Advanced" button -> "General" tab for 
+                    your PC's settings in this area.
+                    Bring program up-to-date with my latest code libraries.
+                    (9,245 lines of code / comments.)
+
+2.1b  20-Nov-2002   Bring the program up to date with my latest code libraries.
+                    (33,037 lines of code / comments.)
+
+2.1f  17-Jan-2010   This program is now FREEWARE - see "Freeware Information"
+                    above.
+                    (50,496 lines of code / comments.)
+
+
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this 
+program is available from my WEB page - see below.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://move.to/moose
+____________________________________________________
+ 

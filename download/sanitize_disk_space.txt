@@ -1,0 +1,664 @@
+ 
+Sanitize Disk Space			Copyright (C) Moose O'Malley, 
+-------------------			July 2015.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Some Background Information
+   | * Using this Program
+   | * Why is this useful ?  /  Why do this ?
+   | * Why I wrote this Program ?
+   | * Sanitization Levels
+   | * The Future
+   | * Reviews / Awards / CDs
+   | * Freeware Information
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+Sanitize Disk Space for Windows 95, 98, ME, NT, 2000, XP, Vista, 7, 8, 10, etc.
+
+Sanitize Disk Space is a program that will overwrite the data in all 
+deleted files to make it difficult (or even impossible for the highest 
+sanitization levels) for even the most skilled hackers to view / recover 
+the data in these files.
+
+You should sanitize your disk space BEFORE selling / disposing of your computers, 
+desktops, laptops, etc so that others cannot access the data in your deleted files !
+
+NOTE: Only deleted files will be overwritten.  No other files will be affected.
+
+There are two (2) versions of this program:
+
+(1). Sanitize_Disk_Space.exe
+The Windows version with the nice graphical user interface (GUI).
+See "Using the Windows GUI Version" below.
+
+(2). Sanitize_Disk_Space_CL.exe
+For running in the Windows Command Line only.  
+This program will NOT run from pure DOS - it needs Win32.
+See "Using the Windows Command Line Version" below.
+
+All versions are provided on my web page - select / use the one(s) that suit you best.
+
+Sanitize Disk Space enables you to select any writable drive connected 
+to your PC, such as any USB thumb drive, external harddrives, network 
+drives, or any of your PC's harddrives or harddrive partitions,
+and then sanitize the free / unused space on this drive.
+
+The following sanitization levels are supported by this program :
+- Prepare for Drive Imaging (1 pass)
+- Basic / Quick             (1 Pass)
+- Medium                    (3 Passes)
+- High                      (9 Passes)
+- Industrial Strength       (20 Passes)
+- Department of Defense     (35 Passes)
+- You've Got to be Joking   (100 Passes)
+
+(See "Sanitization Levels" below for further information).
+
+Once sanitized (at the highest sanitization level), the data in your 
+deleted files can never again be recovered, and no hacker - no 
+matter how clever - should ever be able to view any data contained 
+in your deleted files.
+
+This processing is ideal for use by anyone selling or replacing 
+their PC - especially if the PC contained any sensitive or 
+personal data.
+
+This program is free software.  Anyone - any person, any company, 
+or any business - can use this program for free.  No fees or 
+payment is required.  See "Freeware Information" below.
+
+Developed using 32-bit Delphi.
+
+This program will **NOT** run under Windows 3.x
+(even with Win32 installed) !!
+
+
+Some Background Information :
+-----------------------------
+
+When you delete a file, the data contained in this file still exists
+on the disk, and it can be recovered !!  
+
+Even if you empty the Recycle Bin, the data can still be recovered.  
+
+Even if you reformat your harddrive or floppy disk, the data can still 
+be recovered.
+
+This is very easy to do for people with a bit of PC knowledge and some
+easily obtainable software.  e.g. Norton Utilities "UnErase".
+
+If you delete your data, empty the Recycle Bin, format your drive, and 
+then reinstall Windows and other software from scratch, your previous 
+data can still be recovered.  (But, sophisticated techniques will be 
+required.  e.g. Norton Utilities "UnErase" will NOT be able to do this,
+but it is possible with advanced techniques.  e.g.  Magnetic Force 
+Microscopy (MFM), Scanning Probe Microscopy (SPM), etc.
+
+What is even more worrying is that even data that existed on the 
+drive many years ago, and has been erased and overwritten many times 
+with new data can still be partly recovered by very determined and 
+skilled hackers using advanced techniques : Magnetic Force Microscopy 
+(MFM), Scanning Probe Microscopy (SPM), etc.
+
+This means that if you sell your PC, or leave a floppy disk lying around,
+or leave your PC unattended, then people can look into your deleted
+files and see at least some of the data that they contained.
+
+If you have tax records, payroll data, medical records for pateints, 
+legal records for clients, diary data for patients, credit card 
+information, etc - then some or all of this data may be recoverable 
+by very determined / skilled hackers.
+
+Even if you have reformatted, repartitioned, overwritten, and 
+erased your harddrive many times, some data can still be recovered
+using very advanced techniques.
+
+Sanitize Disk Space is a program that can (at its highest sanitation 
+level) completely and utterly erase the data in all deleted files 
+on any harddrives or floppy drives you select.
+
+Once Sanitize Disk Space has been run (using its highest sanitation 
+level), the data in your deleted files can never again be recovered, 
+and no hacker - no matter how clever - should ever be able to view 
+any data contained in your deleted files.
+
+See "Sanitization Levels" below for further information about this.
+
+
+Using the Windows GUI Version :
+-------------------------------
+
+To use this program, simply run it, select a drive, and press
+the "Sanitize" button.  Full and detailed information messages
+are displayed, so you will be able to confirm your actions
+and see what has happened.
+
+When the "Play Sound" checkbox is ticked / checked, Sanitize Disk Space will 
+play a sound over and over again when all disk sanitization processing has 
+been completed.  This is to alert the user to the fact that processing has 
+completed.  The sound will cease playing when the OK button is clicked.
+
+The "Test Sound" button next to the "Play Sound" checkbox is so you can hear the 
+sound and set your volume levels in Windows Volume Controls to suit your needs.
+
+You can check / unckeck the "Play Sound" checkbox and also click the 
+"Test Sound" button at any time - even during sanitization processing.  
+So, if you want to change the setting or check your volume levels you can 
+at any time.  :)
+
+
+Using the Windows Command Line Version :
+----------------------------------------
+
+These are the command line versions:
+
+(1). Sanitize_Disk_Space_CL.exe
+For running in the Windows Command Line only.  
+This program will NOT run from pure DOS - it needs Win32.
+
+The command line version can be run in DOS / Command Line Batch files, so you can, 
+for example, automate the sanitizing of any or all disks at the click of a mouse, 
+or add the execution command(s) to AUTOEXEC.BAT files on boot disks to automatically 
+sanitize disks when the disks are booted, or type the execution command(s) at the 
+Windows command prompt, or schedule the execution command(s) or batch file(s) that 
+contain the execution command(s) in Windows to have them run automatically at 
+particular time(s) / day(s).
+
+Usage:
+
+	Sanitize_Disk_Space_CL.exe Drive Level
+
+where:
+
+* "Drive" is a single letter for a valid drive on your system. e.g. C
+
+* "Level" is the Sanitisation Level and must be an integer between 0 and 6:
+0. Prepare for Drive Imaging (1 pass)
+1. Basic / Quick  (1 Pass)
+2. Medium  (3 Passes)
+3. High  (9 Passes)
+4. Industrial Strength  (20 Passes)
+5. Department of Defense  (35 Passes)
+6. You`ve Got to be Joking (100 Passes)
+
+Example Usage: 
+
+To do a "High  (9 Passes)" sanitization of all free space on Drive C:
+
+     Sanitize_Disk_Space_CL.exe C 3
+
+If you run the program without any parameters (or with anything other than 2 parameters) then 
+you will see the Help Screen that displays the above information.
+
+The program will output status messages every after writing every 5% (see "Sample Program Run" 
+below).
+
+Basic error checking of is done for the parameters passed to the program.
+
+
+Sample Program Run: Windows Command Line Version
+
+==============================================================
+C:\utils>Sanitize_Disk_Space_CL.exe C 2
+Sanitize Disk Space v2.2f - DOS + Windows Command Line version
+by Mike "Moose" O`Malley  - November 2014
+Moose`s Software Valley - Established July, 1996.
+WEB:  http://moosevalley.fhost.com.au/
+Sanitizing C:\ at level "2. Medium  (3 Passes)" ....
+Starting Pass: 1 of 3:
+Mon, 17-Nov-2014 @ 11:09:00 am: 5%, (MB: 178 / 3,562),
+Mon, 17-Nov-2014 @ 11:09:01 am: 10%, (MB: 356 / 3,562),
+Mon, 17-Nov-2014 @ 11:09:02 am: 15%, (MB: 534 / 3,562),
+Mon, 17-Nov-2014 @ 11:09:03 am: 20%, (MB: 712 / 3,562),
+Mon, 17-Nov-2014 @ 11:09:05 am: 25%, (MB: 891 / 3,562),
+Mon, 17-Nov-2014 @ 11:09:06 am: 30%, (MB: 1,069 / 3,562),
+Cleaning up temporary files ....
+ - 1/2: c:\$$TMP001.tmp
+ - 2/2: c:\$$TMP002.tmp
+Starting Pass: 2 of 3:
+Mon, 17-Nov-2014 @ 11:09:08 am: 35%, (MB: 1,247 / 3,562),
+Mon, 17-Nov-2014 @ 11:09:09 am: 40%, (MB: 1,425 / 3,562),
+Mon, 17-Nov-2014 @ 11:09:10 am: 45%, (MB: 1,603 / 3,562),
+Mon, 17-Nov-2014 @ 11:09:11 am: 50%, (MB: 1,781 / 3,562),
+Mon, 17-Nov-2014 @ 11:09:12 am: 55%, (MB: 1,959 / 3,562),
+Mon, 17-Nov-2014 @ 11:09:13 am: 60%, (MB: 2,137 / 3,562),
+Mon, 17-Nov-2014 @ 11:09:15 am: 65%, (MB: 2,315 / 3,562),
+Cleaning up temporary files ....
+ - 1/2: c:\$$TMP001.tmp
+ - 2/2: c:\$$TMP002.tmp
+Starting Pass: 3 of 3:
+Mon, 17-Nov-2014 @ 11:09:17 am: 70%, (MB: 2,493 / 3,562),
+Mon, 17-Nov-2014 @ 11:09:17 am: 75%, (MB: 2,672 / 3,562),
+Mon, 17-Nov-2014 @ 11:09:19 am: 80%, (MB: 2,850 / 3,562),
+Mon, 17-Nov-2014 @ 11:09:20 am: 85%, (MB: 3,028 / 3,562),
+Mon, 17-Nov-2014 @ 11:09:21 am: 90%, (MB: 3,206 / 3,562),
+Mon, 17-Nov-2014 @ 11:09:22 am: 95%, (MB: 3,384 / 3,562),
+Mon, 17-Nov-2014 @ 11:09:24 am: 100%, (MB: 3,562 / 3,562),
+Cleaning up temporary files ....
+ - 1/2: c:\$$TMP001.tmp
+ - 2/2: c:\$$TMP002.tmp
+Sanitization "2. Medium  (3 Passes)" complete !
+
+C:\utils>
+==============================================================
+
+
+
+Why is this useful ?  /  Why do this ?
+--------------------------------------
+
+Doing this is particularly useful when you are selling your PC.
+
+Once Sanitize Disk Space has been run (using its highest sanitation 
+level), the data in your deleted files can never again be recovered, 
+and no hacker - no matter how clever - should ever be able to view 
+any data contained in your deleted files.
+
+See "Sanitization Levels" below for further information about this.
+
+
+Why I wrote this Program ?
+--------------------------
+
+I wrote this program to help out a friend who needed a program to 
+do this.
+
+In recent TV shows, like 60 Minutes and Today Tonight, etc
+there have been lots of reports of spectacular fuck ups by the 
+Australian Tax Office - where they have sold their old office PCs 
+to the general public, and many people have been able to recover 
+strictly confidential tax payer information that was stored in 
+"deleted" files on these ex-government PCs.
+
+If the Tax Office had used my Sanitize Disk Space computer program, 
+then they would have saved themselves a lot of embarassment.
+
+Indeed, for government agencies like the Autralian Tax Office 
+to allow this to happen not only demonstrates their incredible 
+incompetence, but also betrays the confidence of all tax payers 
+in Australia.
+
+
+Sanitization Levels :
+---------------------
+
+The following sanitization levels are supported by this program :
+- Prepare for Drive Imaging (1 pass)
+- Basic / Quick             (1 Pass)
+- Medium                    (3 Passes)
+- High                      (9 Passes)
+- Industrial Strength       (20 Passes)
+- Department of Defense     (35 Passes)
+- You've Got to be Joking   (100 Passes)
+
+For some sanitization passes, random data is written to the drive.
+
+However, for other passes, I use advanced techniques to generate
+the bit patterns required to effectively and unequivocally 
+overwrite all deleted data.
+
+According to Peter Gutman (See "References and Special Thanks" below) 
+it should be totally impossible for anyone to recover any erased data 
+from a drive overwritten using the "Department of Defense (35 Passes)"
+sanitization level.
+
+However, just to be sure, I have included a "You've Got to be Joking 
+(100 Passes)" sanitization level, which surpasses Peter's highest 
+suggested sanitization levels.  At this level, it should be totally 
+impossible for anyone to recover any data from your deleted files.
+
+As Peter Gutmann states in his paper :
+(See "References and Special Thanks" below)
+
+	In conventional terms, when a one is written to disk the 
+	media records a one, and when a zero is written the media 
+	records a zero.  
+
+	However, the actual effect is closer to obtaining a 0.95 
+	when a zero is overwritten with a one, and a 1.05 when a 
+	one is overwritten with a one.
+
+	Normal disk circuitry is set up so that both these values are 
+	read as ones, but using specialised circuitry it is possible to 
+	work out what previous "layers" contained.
+
+	The recovery of at least one or two layers of overwritten data 
+	isn't too hard to perform by reading the signal from the analog 
+	head electronics with a high-quality digital sampling oscilloscope, 
+	downloading the sampled waveform to a PC, and analysing it in 
+	software to recover the previously recorded signal. 
+
+	Using MFM (Magnetic Force Microscopy), we can go even further 
+	than this.
+
+The levels of sanitization (supported by this program) are 
+described further below.
+
+N.B.  These descriptions are also provided when you select a 
+      Sanitization Level within the program.
+
+
+**********************************
+Prepare for Drive Imaging (1 pass)
+**********************************
+
+The 1st level of sanitization, "Prepare for Drive Imaging (1 pass)", 
+just writes xFF to all free space / unused areas of the drive, so that the 
+drive will be far more compressable when it is backed up or disk imaged.
+
+The "Prepare for Drive Imaging (1 pass)" option is great if you want to 
+create a compressed image or backup of a hard-drive / disk image, because 
+the free space will compress down to virtually nothing.  
+
+If you didn't use the "Prepare for Drive Imaging (1 pass)" before backing up, 
+then the free areas of the hard-drive would be full of random data / data from 
+previously existing files, and this would not compress anywhere near as well 
+as a single value written to all free areas of the drive.  
+
+I have selected xFF (which is 255 decimal or 11111111 binary) as the value, 
+but any other value would have worked just as well.
+
+So, using this option, how much reduction will you see in your compressed 
+backup size ?  It depends on how much free space is on the hard-drive or 
+disk you are backing up.  If the disk has 50% free space, then you should 
+see something close to a 50% reduction in the disk's compressed backup size 
+(depending on what data was on the free areas of the disk before the 
+santization was performed).
+
+I added this "Prepare for Drive Imaging (1 pass)" option to Sanitize Disk Space 
+because I was creating compressed backups of my various harddrives and 
+virtual machine disks, and this option greatly reduced the size of these backups.
+
+NOTE: Data in deleted files will still be recoverable using UnErase and 
+similar software techniques.  If you want your deleted files to be 
+non recoverable, then perform a higher level of sanitation first, and 
+then perform the "Prepare for Drive Imaging (1 pass)" before 
+backing up your hard-drive / image.
+
+
+***********************
+Basic / Quick  (1 Pass)
+***********************
+
+Data in deleted files will NOT be recoverable using UnErase and similar 
+software techniques.  
+
+However, large fragments of data previously written to the disk (including 
+data that existed on the disk previously and has been overwritten many 
+times by newer data) will be recoverable by determined and skilled hackers 
+using advanced techniques : Magnetic Force Microscopy (MFM), Scanning Probe 
+Microscopy (SPM), etc.
+
+This level of sanitization is the most basic and it can be applied to 
+your drives quickly, however, it provides minimal protection for your 
+previously erased data.
+
+
+***********************
+Medium  (3 Passes)
+***********************
+
+Data in deleted files will NOT be recoverable using UnErase and similar 
+software techniques.  
+
+However, significant fragments of data previously written to the disk 
+(including data that existed on the disk previously and has been overwritten 
+many times by newer data) will be recoverable by determined and skilled 
+hackers using advanced techniques : Magnetic Force Microscopy (MFM), 
+Scanning Probe Microscopy (SPM), etc.
+
+This level of sanitization will provide more protection for your erased 
+data than all other sanitization levels with fewer passes, such as 
+"Basic / Quick  (1 Pass)".
+
+
+***********************
+High  (9 Passes)
+***********************
+
+Data in deleted files will NOT be recoverable using UnErase and similar 
+software techniques.  
+
+However, fragments of data previously written to the disk (including 
+data that existed on the disk previously and has been overwritten 
+many times by newer data) may be recoverable by very determined and 
+skilled hackers using advanced techniques : Magnetic Force Microscopy 
+(MFM), Scanning Probe Microscopy (SPM), etc.
+
+This level of sanitization will provide more protection for your erased 
+data than all other sanitization levels with fewer passes, such as 
+"Medium  (3 Passes)".
+
+
+********************************
+Industrial Strength  (20 Passes)
+********************************
+
+Data in deleted files will NOT be recoverable using UnErase and similar 
+software techniques.  
+
+However, small fragments of data previously written to the disk 
+(including data that existed on the disk previously and has been 
+overwritten many times by newer data) may be recoverable by very 
+determined and skilled hackers using advanced techniques : Magnetic 
+Force Microscopy (MFM), Scanning Probe Microscopy (SPM), etc.
+
+This level of sanitization will provide more protection for your erased 
+data than all other sanitization levels with fewer passes, such as 
+"High  (9 Passes)".
+
+
+**********************************
+Department of Defense  (35 Passes)
+**********************************
+
+Data in deleted files will NOT be recoverable using UnErase and 
+similar software techniques.  
+
+In addition, it is very unlikely that any data ever written to the 
+disk will be recoverable even by the most determined hackers, even 
+if they used advanced techniques : Magnetic Force Microscopy (MFM), 
+Scanning Probe Microscopy (SPM), etc.
+
+This level of sanitization will provide very high protection for 
+your erased data.
+
+This level of sanitization will provide more protection for your erased 
+data than all other sanitization levels with fewer passes, such as 
+"Industrial Strength  (20 Passes)".
+
+
+************************************
+You've Got to be Joking (100 Passes)
+************************************
+
+Data in deleted files will NOT be recoverable using UnErase and 
+similar software techniques.  
+
+In addition, it is *extremely* unlikely that any data ever written 
+to the disk will be recoverable even by the most determined hackers, 
+even if they used advanced techniques : Magnetic Force Microscopy 
+(MFM), Scanning Probe Microscopy (SPM), etc.
+
+This level of sanitization will provide more protection for your erased 
+data than all other sanitization levels with fewer passes supported by 
+Sanitize Disk Space.
+
+
+References and Special Thanks :
+-------------------------------
+
+The following paper (by Peter Gutmann) was invaluable to me when 
+enhancing, developing and verifying this program :
+
+- "Secure Deletion of Data from Magnetic and Solid-State Memory"
+  by Peter Gutmann of the University of Auckland, New Zealand.
+
+  http://www.usenix.org/publications/library/proceedings/sec96/full_papers/gutmann/
+
+and I would sincerely like to thank Peter for his work in this area.
+
+His paper was highly readable and, even though much of it was revision for 
+me, once I started reading it, I could not put it down.
+
+I have emailed Peter and thanked him for his work and I have offered 
+him a free copy of this program.
+
+
+The Future :
+------------
+
+In the future, many improvements could be made to this program,
+such as :
+- Log all Sanitizing to a log file.  e.g. record date, time, etc
+  that each drive was sanitized.
+- Filter out non-writable drives, such as CD Drives, DVD Drives, etc.
+- Add in a "Sanitize all Local Drives" option.
+- A pure DOS version that will run from DOS boot disks - anyone need this ?
+  To do this, I would need to dust off my old Turbo Pascal for DOS disks ....
+- Anything else ?
+
+If you would like any of these improvements, or would like to
+suggest more, please email me and let me know.
+
+How much more work I do on this program depends entirely on
+what support I get, how many people use the program, etc.
+
+
+Reviews / Awards / CDs :
+-------------------------
+
+None that anyone has told me about, so far.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.  
+
+Anyone - any person, any company, or any business - can 
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please 
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select 
+the "About" option under the Help menu, and then click 
+the PayPal link on the "About" screen).
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know.
+
+
+Amendment History :
+--------------------
+
+Vers    Date        Description
+
+1.0   05-Dec-2001   First Public Release.
+                    (9,360 lines of code / comments.)
+
+1.0b  20-Nov-2002   Bring the program up to date with my latest code libraries.
+                    (34,087 lines of code / comments.)
+
+2.0   21-June-2003  Bring the program up to date with my latest code libraries.
+                    Add in a range of levels of sanitization :
+                    - Basic / Quick           (1 Pass)
+                    - Medium                  (3 Passes)
+                    - High                    (9 Passes)
+                    - Industrial Strength     (20 Passes)
+                    - Department of Defense   (35 Passes)
+                    - You've Got to be Joking (100 Passes)
+                    Special thanks to Peter Gutmann's paper titled "Secure 
+                    Deletion of Data from Magnetic and Solid-State Memory"
+                    for helping me implement the above sanitization levels.
+                    (See "References and Special Thanks" above).
+                    I have emailed Peter and thanked him and offered him a free 
+                    copy of this program.
+                    Display additional statistics while running / sanitizing.
+                    e.g. Display Elapsed Time and an Estimate of the Time Remaining.
+                    Display the overall disk write speed on completion of the processing.
+                    Bring the program up to date with my latest code libraries.
+                    (52,208 lines of code / comments.)
+
+2.0f  3-Sep-2007    This program is now FREEWARE - see "Freeware Information"
+                    above.
+
+2.1f  30-Jan-2014   When the program first starts up, refresh the currently selected 
+                    drive's statistics (displayed in the main window).
+                    Fix an error in the calculation of MB/sec after processing has 
+                    been completed.
+                    (1,128 lines of code / comments / blank lines in primary source file.)
+                    (57,691 lines of code / comments / blank lines in all primary, library, and include files.)
+
+2.2f  10-Nov-2014   Re-design the user interface - remove the tabbed control, etc - everything 
+                    is now on one screen / form.
+                    Add a "Prepare for Drive Imaging (1 pass)" option, which is great 
+                    for when you want to back up or image a disk or hard-drive, because 
+                    it will minimise the size of any compressed backups.
+                    See "Sanitization Levels" above for further information.
+                    Also, add a "Play Sound" checkbox.  When this is ticked / checked,  
+                    Sanitize Disk Space will play a sound over and over again when all 
+                    disk sanitization processing has been completed.  This is to alert 
+                    the user to the fact that processing has completed.  The sound will 
+                    cease playing when the OK button is clicked.
+                    Add a "Test Sound" button next to the "Play Sound" checkbox so you 
+                    can hear the sound and set your volume levels in Windows Volume Controls 
+                    to suit your needs.
+                    The user can check / unckeck the "Play Sound" checkbox and also click the 
+                    "Test Sound" button at any time - even during sanitization processing.  
+                    So, if you want to change the setting or check your volume levels you 
+                    can at any time.  :)
+                    Change over to using my "Universal Progress Form" to display elapsed 
+                    time, processing speeds, estimated completion time, etc.  This form is used 
+                    across many of my programs.
+                    GUI: (1,129 lines of code / comments / blank lines in primary source file.)
+                    GUI: (61,401 lines of code / comments / blank lines in all primary, library, and include files.)
+
+2.2fb 10-Nov-2014   Windows Command Line version.
+                    Release a Windows Command Line version of the program - both share/use 
+                    this same readme text file.
+                    Update some sections of this readme text file.
+                    CL: (685 lines of code / comments / blank lines.)
+
+2.3f 18-Jul-2015    GUI Version Update.
+                    Add exception handling to the loading and saving of program settings (INI file)
+                    so that the program executes and exits cleanly (no error messages produced) even 
+                    if running from a read-only device such as a optical disk (CD-ROM, etc) or 
+                    there are disk errors or the disk is full and/or the INI file does not exist 
+                    and/or it cannot be created.
+                    Insert " and " between words in the confirmation dialog 
+                    "deletedpreviously" -> "deleted and previously".
+                    Bring the program up to date with my latest code libraries.
+                    GUI: (1,164  lines of code / comments / blank lines in primary source file.)
+                    GUI: (38,929 lines of code / comments / blank lines in all primary, library, and include files.)
+
+
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this 
+program is available from my WEB page - see below.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://moosevalley.fhost.com.au/
+____________________________________________________
+ 

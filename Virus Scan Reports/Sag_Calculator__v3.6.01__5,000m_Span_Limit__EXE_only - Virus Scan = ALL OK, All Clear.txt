@@ -1,0 +1,86 @@
+http://www.mediafire.com/file/0jcrn3s912rhczq/sag__v3.6.01__5%2C000m_Span_Limit__EXE_only.zip
+
+sag__v3.6.01__5,000m_Span_Limit__EXE_only - Virus Scan = ALL OK, All Clear
+
+https://www.virustotal.com/en/file/048166b9a37fd9c9cca43108c0957ac8ae150178e70f3f6bb76a68c11913bc69/analysis/1479645660/
+
+SHA256: 	048166b9a37fd9c9cca43108c0957ac8ae150178e70f3f6bb76a68c11913bc69
+File name: 	sag - v3.6.01 - 5,000m Span Limit.zip
+Detection ratio: 	0 / 56
+Analysis date: 	2016-11-20 12:41:00 UTC ( 1 week, 2 days ago )
+0
+0
+
+    Analysis
+    File detail
+    Additional information
+    Comments 0
+    Votes
+
+Antivirus 	Result 	Update
+ALYac 		20161120
+AVG 		20161120
+AVware 		20161120
+Ad-Aware 		20161120
+AegisLab 		20161120
+AhnLab-V3 		20161120
+Alibaba 		20161118
+Antiy-AVL 		20161120
+Arcabit 		20161120
+Avast 		20161120
+Avira (no cloud) 		20161120
+Baidu 		20161118
+BitDefender 		20161120
+Bkav 		20161119
+CAT-QuickHeal 		20161119
+CMC 		20161120
+ClamAV 		20161120
+Comodo 		20161120
+CrowdStrike Falcon (ML) 		20161024
+Cyren 		20161120
+DrWeb 		20161120
+ESET-NOD32 		20161120
+Emsisoft 		20161120
+F-Prot 		20161120
+F-Secure 		20161120
+Fortinet 		20161120
+GData 		20161120
+Ikarus 		20161120
+Invincea 		20161018
+Jiangmin 		20161120
+K7AntiVirus 		20161120
+K7GW 		20161120
+Kaspersky 		20161120
+Kingsoft 		20161120
+Malwarebytes 		20161120
+McAfee 		20161120
+McAfee-GW-Edition 		20161120
+eScan 		20161120
+Microsoft 		20161120
+NANO-Antivirus 		20161119
+Panda 		20161120
+Qihoo-360 		20161120
+Rising 		20161120
+SUPERAntiSpyware 		20161120
+Sophos 		20161120
+Symantec 		20161120
+Tencent 		20161120
+TheHacker 		20161117
+TrendMicro 		20161120
+TrendMicro-HouseCall 		20161120
+VBA32 		20161118
+VIPRE 		20161120
+ViRobot 		20161120
+Yandex 		20161119
+Zillya 		20161118
+Zoner 		20161120
+nProtect 		20161120
+
+
+
+Comments
+
+Downloaded from my web site: http://moosesoftware.16mb.com/
+I am super paranoid about security and all of my PCs are subject to the highest levels of security, so you can rest assured that there are no viruses or malware in any of the software I provide on my web site, as confirmed by this VirusTotal analysis. :)
+Moose
+Posted 0 minutes ago by Moose Delete

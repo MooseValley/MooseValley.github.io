@@ -1,0 +1,185 @@
+ 
+Directory Usage Monitor			Copyright (C) Moose O'Malley, 
+-----------------------			September 2007.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Using Directory Usage Monitor
+   | * The Future
+   | * Reviews / Awards / CDs
+   | * Freeware Information
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+Directory Usage Monitor for Windows 95, 98, NT, 2000, etc.
+
+This program is free software.  Anyone - any person, any company, 
+or any business - can use this program for free.  No fees or 
+payment is required.  See "Freeware Information" below.
+
+Directory Usage Monitor enables you to analyse the
+disk space used and the number of files present in a
+directory and all of its sub-directories on a harddisk, 
+floppy disk, CD ROM, Network Drive, or any other form of disk.
+
+If you have ever asked the questions :
+- Where the hell has all my disk space gone ?
+- Which directories are using the most disk space ?
+- Which user's on a Network drive are using the most disk space ?
+- How much disk space is Fred using on the Network Drive ?
+- How many files are there in this directory tree ?
+
+Then Directory Usage Monitor could be of great use to you !
+
+This utility could be used by Network Administrators, Systems
+Administrators, or by users who need extra disk space or find out
+where / what directory is using lots of disk space.
+
+
+Using Directory Usage Monitor :
+--------------------------------
+
+Simply select the Drive and Directory you wish to analyse
+and click the "Update Dir Info" button.
+Directory Usage Monitor will then work out the disk space
+used by the particular directory and all it's sub-directories
+and the number of files in each directory.
+
+The "Total of All Directories" (KB used and number of files)
+is displayed for the total of all directories under consideration.
+
+If you wish to "Stop" this process at any time, simply click
+the "Stop" button.  (This will result in the process being stopped
+and the text "*** Aborted !!" appearing in various cells.
+
+You can sort in ascending or descending order on Directory name,
+KB of space used, and the number of files present in each 
+directory under consideration.
+
+
+The Future :
+------------
+
+Much new functionality can be added to this program in the 
+future, such as :
+
+- Make the program a *LOT* more userfriednly.  For example, log 
+  the space used by all directories on a disk and then allow the 
+  user to instantly drill down and drill up through directory 
+  structures, and see the space usage as they go.
+
+- Keep a history of disk space usage so that comparisons
+  can be made to see how usage has changed.
+
+- Command Line mode - like Checksum Calculator - so that the 
+  program runs automatically at (say) Windows startup.
+
+- Ability to display file sizes in KB, MB, GB, TB.
+
+- Make the application reside on the Windows Tray Bar.
+
+- Add in ability to log all directories on a given drive
+  and store this information, so that as directories are 
+  traversed are revisited, the data does not need to be 
+  logged again.
+
+- For each sub-directory, display the number of 
+  sub-sub-directories it has.
+
+- Display the maximum file size, average file size, etc 
+  for each directory.
+
+- Format all numbers with a comma thousands separator.
+
+- Anything else ?
+
+If anyone requires any of this or other functionality,
+or has any other suggestions, please email me and let me 
+know !
+
+
+Reviews / Awards / CDs :
+-------------------------
+
+None yet !
+
+
+Freeware Information :
+-----------------------
+
+This is free software.  
+
+Anyone - any person, any company, or any business - can 
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please 
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select 
+the "About" option under the Help menu, and then click 
+the PayPal link on the "About" screen).
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know.
+
+
+Amendment History :
+--------------------
+
+Vers    Date        Description
+1.0   13-Apr-1998   First Public Release.
+
+1.1   01-Feb-2001   Store the INI settings file in the program's directory, 
+                    rather that in the Windows' directory - there's enough 
+                    crap there already ! ;)
+                    Fix an old bug in Borland Delphi / Windows NT
+                    to fix NTDLL.DLL errors on closedown which 
+                    occured on some Windows NT configurations.
+                    (7,823 lines of code / comments.)
+
+1.2   17-Apr-2001   Add in support for "Big Fonts" and "Other Sized Fonts" - 
+                    with these Windows resizes the windows automatically - 
+                    but only sometimes and it doesn't always do it right, 
+                    so now I make sure my main window is the right size 
+                    before doing any scaling, etc.  i.e. I make it fit the 
+                    component(s) that extend the furthest right and 
+                    furthest down the form.   See the  Start Menu -> 
+                    Settings -> Control Pannel -> Display -> Settings 
+                    Tab -> "Advanced" button -> "General" tab for 
+                    your PC's settings in this area.
+                    Bring program up-to-date with my latest code libraries.
+                    (8,669 lines of code / comments.)
+
+1.2b  20-Nov-2002   Bring the program up to date with my latest code libraries.
+                    (33,104 lines of code / comments.)
+
+1.2f  3-Sep-2007    This program is now FREEWARE - see "Freeware Information"
+                    above.
+
+
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this 
+program is available from my WEB page - see below.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://move.to/moose
+____________________________________________________
+ 

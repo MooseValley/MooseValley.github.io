@@ -1,0 +1,644 @@
+ 
+ZIP Password Cracker Pro		Copyright (C) Moose O'Malley, 
+------------------------		October 2013.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Why I wrote this program ?  What can it do ?
+   | * Benchmark Results
+   | * Using this Program
+   | * Uninstalling this Program
+   | * The Future
+   | * Known Issues / Known Limitations
+   | * Frequently Asked Questions / FAQ / F.A.Q.
+   | * Reviews / Awards / CDs
+   | * Freeware Information
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+ZIP Password Cracker Pro for Windows 95, 98, ME, NT, 
+2000, XP, Vista, 7, 8, etc.
+
+This program is free software.  Anyone - any person, any company, 
+or any business - can use this program for free.  No fees or 
+payment is required.  See "Freeware Information" below.
+
+ZIP Password Cracker Pro enables you to generate 
+passwords and apply these to password protected
+ZIP files.
+
+This can be an incredibly useful thing to do when you
+have backed up data to a ZIP file and mistyped or 
+forgotten the password.  
+
+This program saves Restart information as it tests 
+passwords (every 10,000 passwords, or whenever the 
+program is closed), so that if your computer crashes, 
+or there is a power failure, or if you switch your 
+computer off, then this program can continue where 
+it left off next time you run it when you press 
+the "Continue ZIP Testing" button.
+
+This program currently supports ZIP files only - it will 
+not work with RAR, ACE, or other compressed archive types.
+
+Developed using 32-bit Delphi.
+
+This program will **NOT** run under Windows 3.x  
+(even with Win32 installed) !!
+
+
+Why I wrote this program ?  What can it do ?
+--------------------------------------------
+
+In early 1998, I backed up loads of data to a ZIP file,
+but when I went to restore some files from the backup
+months later (in August 1998), I realised that I had 
+mistyped my password and that my data was locked up 
+tighter than a duck's arsehole.  ;)
+
+I needed help to recover my password so that I could 
+retrieve the files I needed.  So, as I usually do, I 
+sat down and wrote this program.
+
+I use very long passwords for all of my ZIP files - 15
+characters or longer - and I use numbers, letters, and
+other characters.
+
+Now, the problem was that taking these characters and 
+generating random passwords of this size would generate 
+trillions of trillions of passwords.  Pretty soon I 
+realised that it was going to take 1,000's of centuries 
+on my poor old Pentium 100 to crack my ZIP file's 
+password by Brute Force methods.
+
+So, I realised that for my particular ZIP file, 
+I needed something a lot better and a lot more focused 
+than Brute Force methods.
+
+So, then I added the "Password is Partly Known"
+tab so that I could enter the characters I thought 
+I had used in my ZIP file's password.  This
+functionality then generated passwords by simulating
+the hitting of keys around the keys used to type the
+password I thought I had typed.
+
+This resulted in far fewer passwords being generated 
+and tested / trialed.
+
+Then, I left my program running over night trying these
+"Partly Known Passwords" against my password protected
+ZIP file, and by morning it had worked out my mistyped 
+password, and I could retrieve data from my ZIP file.
+
+So, ZIP Password Cracker Pro will not be useful to
+anyone wanting to crack any reasonably protected 
+ZIP files.  e.g. where passwords are 10 characters
+or more long.
+
+But, this means that ZIP Password Cracker Pro
+is still ideal for use in the following ways :
+
+- use the "Password is Partly Known" functionality to
+  crack short or long passwords when you have a reasonably 
+  good idea what the password is.
+
+or
+
+- use "Brute Force Password Cracking" functionality 
+  to crack shorter passwords when you have no idea what 
+  the password is.
+
+
+Benchmark Results :
+--------------------
+
+Below are some benchmark results :
+
+- the number of passwords generated per second, and,
+
+- the number of passwords tested against a small password 
+  protected test ZIP file per second
+
+for various computers that I have run Zip Cracker Pro on.
+
+     Password Generation Benchmarks
+**********************************************  ****************
+Computer                                        Passwords/Second
+**********************************************  ****************
+Pentium III 700 (256 MB RAM, Windows XP Pro)       3,100
+Pentium 4 1.8 GHz (512 MB RAM, Windows XP Pro)     4,770
+**********************************************  ****************
+
+     Password Testing Benchmarks
+**********************************************  ****************
+Computer                                        Passwords/Second
+**********************************************  ****************
+Pentium III 700 (256 MB RAM, Windows XP Pro)       350 to 500
+Pentium 4 1.8 GHz (512 MB RAM, Windows XP Pro)   1,100 to 1,300
+**********************************************  ****************
+
+As time goes by, and I buy more powerful computers, or if people 
+email me and let me know the benchmark results for their computers,
+then I'll add more details to the above benchmark results.
+
+
+Using this Program :
+--------------------
+
+To use this program, unzip the contents of the ZIP file to a 
+directory - such as c:\zip_crack\ - and run the executable 
+file : Zip_Cracker.EXE.
+
+You then need to decide which method you want to use :
+
+ - Brute Force Password Cracking
+   This is most useful when you know nothing about the 
+   password for the ZIP file.  Simply select uppercase
+   letters, lowercase letters, numbers, etc and specify the
+   length of passwords to generate, and then press the
+   "Generate Passwords" passwords button.
+
+ - Password is Partly Known
+   This is most useful when you do know something about the 
+   password for the ZIP file.  Simply type in the letters / 
+   numbers / etc you think are in the required password,
+   select the required options (Double hit each key, etc)
+   and then press the "Generate Passwords" passwords button.
+
+When the passwords are generated (according to your settings),
+then the list of passwords will be displayed, and you will
+be able to specify the ZIP file to test, and then test each 
+password against the ZIP file.
+
+In addition, you will see the estimated time to test 
+all passwords in the list, which is based on your PC's
+performance during previous ZIP file tests.
+
+This program saves Restart information as it tests 
+passwords, so that if your computer crashes, or there 
+is a power failure, or you switch your computer off,
+then this program will continue where it left off
+next time you run it when you press the "Continue ZIP 
+Testing" button.
+
+This means that if your computer has been running for 
+3 days testing 1,000's of passwords, and it crashes
+or the power fails, then you do not need to start at 
+the very beginning again.
+
+I hope you find the program easy to use and useful.
+
+
+Uninstalling this Program :
+---------------------------
+
+At the  present time, there is No Uninstall function.
+
+If you ever want to delete ZIP Password Cracker Pro 
+from your computer, then :
+
+ 1. Exit the program, and delete it from wherever you installed
+    it on your harddrive.
+
+Simple as that !
+
+
+The Future :
+------------
+
+I've got tons of ideas for this program.
+
+But, of course, I will be very cautious in what features 
+I add because I don't want to do anything to help any 
+hackers / crackers out there gain access to any 
+unauthorised data.  e.g. data inside password 
+protected ZIP files that they should not be accessing.
+
+Indeed, some ZIP files on my WEB site are protected - such 
+as Talking Clock's speech packs - and only registered 
+users get the passwords to access these files.  
+
+So, I am very careful not to provide any functionality 
+to allow internet based hackers / crackers to rip off 
+any more of my work.  (These bastards do enough of this 
+already !!)
+
+In the future, many improvements could be made to this program,
+such as :
+
+- Better password generation methods.
+  e.g. when you know the first part of the password is 
+  "fred" and/or the last part of the password is "15".
+
+- Support for other compressed archive types.  
+  e.g. RAR, ACE, etc.  At the moment, this program only 
+  supports ZIP files.
+
+- Support for using pre-built lists of words, with the 
+  ability to build these into extended lists - with 
+  numeric prefixes, etc appended to each word in the list.
+
+- Support for bigger password lists.  See "Known Issues / Known 
+  Limitations" below and "Q. Can you add support for millions of 
+  billions of trillions of passwords (and more) ?" in the FAQ below.
+
+- Anything else ?
+
+If you would like any of these improvements, or would like to
+suggest more, please email me and let me know.
+
+How much more work I do on this program depends entirely on
+what support I get, how many people use the program, how many
+people have supported my efforts, and how dangerous I think 
+new features are, etc.
+
+
+Known Issues / Known Limitations:
+---------------------------------
+
+The TMemo component I am using has a 2 GB limit.
+
+So, for example, if you are generating 10 character passwords, 
+then each password requires 10 characters plus 2 characters for 
+the Carriage Return / Line Feed (CR/LF) (on Windows PCs) at 
+the end of each line, which is 12 characters per password. And, 
+the storage required is 2 bytes per character (16 bit ASCII), 
+which makes a total of: (10 + 2) x 2 bytes = 24 bytes per password.
+
+So, the 2 GB TMemo component can hold about 83 million 10 character 
+passwords.
+
+83 million might sound like a lot, but it is a very small number 
+when it comes to  generating random passwords.
+
+For example, the number of combinations of 10 character passwords 
+containing just the digits 0-9 is 10,000,000,000, or about 120 
+times what a TMemo component can hold.
+
+Clearly, you wont be using ZIP Cracker to crack long / complex 
+passwords, and this suits me just fine.  I don't want this program 
+to be used by people trying to break into ZIP files they should 
+not be trying to break into.
+
+Also see "Q. Can you add support for millions of billions of trillions 
+of passwords (and more) ?" in the FAQ below.
+
+
+Frequently Asked Questions / FAQ / F.A.Q.:
+------------------------------------------
+
+Q. I cannot make this program generate passwords very fast. It 
+starts out very quickly running close to what your benchmark
+tests are. However, after it gets to about 100,000 passwords being
+generated, it seems to do only about 100 passwords a second if that.
+
+A. This was an issue with the TMemoEx component I was using, and was 
+fixed in v1.3f (released on 23-Oct-2013).
+
+
+Q. Zip Cracker should be able to generate passwords much faster on 
+my multi-cored, super ninja PC, what's wrong with it ?
+
+A. Yes, I could speed up password generation, but I certainly don't 
+want it easier for thieves to break into other people's ZIP files.  
+
+NOTE: I am certainly not implying you are a thief or that you might 
+be doing something wrong, but I have to consider that there are people 
+out there who might be treading the dark paths.
+
+Also see "When are we going to see [put your new feature here] ?" below.
+
+
+Q. I don't believe ZIP Cracker is running with both cores ?
+
+Sorry, this program was written *long* before dual core CPUs were 
+available for home computers.  Zip Cracker is single core, single 
+threaded only.
+
+Yes, I could make the program highly multi-threaded, but I 
+certainly don't want to make it easier for thieves to break into 
+other people's ZIP files.  
+
+NOTE: I am certainly not implying you are a thief or that you might 
+be doing something wrong, but I have to consider that there are people 
+out there who might be treading the dark paths.
+
+(See "When are we going to see [put your new feature here] ?" below).
+
+
+Q. I have created a ZIP file with 7Zip, but ZIP Cracker says the 
+encryption or format isn't standard ?
+
+A. Make sure the encryption method is "ZypCrypto".  AES-256 is not 
+supported by the unZdll.dll I'm using.
+
+
+Q. When are we going to see [put your new feature here] ?
+
+A.  I am very reluctant to speed up password generation, 
+add in multi threaded processing, or support super large 
+password sets (Known Issues / Known Limitations), see etc.  
+
+Frankly, ZIP Cracker is frightening software.  It could cause 
+enormous damage in the wrong hands.  The aim of the program is 
+*NOT* to allow thieves to try and crack passwords for ZIP files 
+they don't own.  The aim is to allow people who have some idea of 
+the password (they know at least a few letters, etc) - because 
+they own the ZIP file and the data it contains.
+
+I certainly don't want to make it easier for thieves to 
+break into other people's ZIP files.
+
+NOTE: I am certainly not implying you are a thief or that you might 
+be doing something wrong, but I have to consider that there are people 
+out there who might be treading the dark paths.
+
+Another factor for me is making good use of my time.  I'm not 
+going to do lots of work for free (especially when this work 
+could help thieves).  
+
+
+Q. Can you add support for millions of billions of trillions 
+of passwords (and more) ?
+
+A.  No.  I certainly don't want to make it easier for thieves to 
+break into other people's ZIP files.
+
+NOTE: I am certainly not implying you are a thief or that you might 
+be doing something wrong, but I have to consider that there are people 
+out there who might be treading the dark paths.
+
+Also see "Known Issues / Known Limitations" above.
+
+
+Q. Please add support for newer or non-standard ZIP file format(s) or
+newer or non-standard encryption method(s) ?
+
+A.  I will continue to explore other / more up-to-date ZIP components, 
+but no guarantees.  (Exploring each one is many hours of work 
+and many seem to have issues and few seem to have help files 
+associated with them).  In short, it is a very tedious process that 
+usually involves lots of "shooting fish in barrels".  
+i.e. guess work and trial and error.
+
+
+Q. Why don't you add message boards / forums to your web site where 
+questions are answered?
+
+A. I used to have message boards on my web site, but spammers kept 
+filling them with viagra, fake watches, and other crap.  Thank 
+the spammers of the internet for their removal.  :)
+
+
+Q. I have found a ZIP Component that works well with Delphi v5, 
+supports a wide variety of ZIP formats,  and has 
+documentation (a help file) and it is easy to install ?
+
+A. Yes, please email me the details and I will check it out.  :)
+
+
+Q. I think I have found a bug in Zip Cracker or another of 
+Moose's Software Valley programs ?
+
+A. Please check the text file that comes with the program.  If the 
+issue isn't mentioned there (for example, as a "known issue") then 
+please email me details and I will check it out.
+
+
+Q. Web site [insert web site name here] has a download for your software 
+but it is an old version, can you update it or get them to update it ?
+
+A. No, life's too short.  Many web sites copy my files and add them as 
+downloads on their web site, but they do this without my knowledge and 
+without my permission.  So, I don't know who they are, I don't know how 
+to contact them, and I don't know how to get them to update their old 
+files, and I don't have time to chase around many 1,000's of web sites 
+and find out this information and ask them to update their files.
+
+For the record, I don't mind web sites copying my files and adding them 
+to their download section, as long as:
+1. My files remain intact (e.g. they don't go changing any of my files 
+   inside the ZIP files), 
+2. And they periodically check for updates (a couple of times per year 
+   should be sufficient).  If they want me to send them an email 
+   when any of my programs are updated, I'd be happy to do this.  It 
+   would take me seconds to setup a spreadsheet with a list of email 
+   addresses for each of my software titles.
+
+
+Q. I do very much love your program.
+
+A. Hey, thank you very much for your kind words / feedback. :)  :)
+
+
+
+Reviews / Awards / CDs :
+-------------------------
+
+None so far.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.  
+
+Anyone - any person, any company, or any business - can 
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please 
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select 
+the "About" option under the Help menu, and then click 
+the PayPal link on the "About" screen).
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know.
+
+
+Amendment History :
+-------------------
+
+Vers    Date        Description
+
+1.0  22-May-2002    First Public Release.
+                    (29,649 lines of code / comments.)
+
+1.1  12-Nov-2002    Check file has an extension of 'ZIP' before proceeding 
+                    with the testing.
+                    Verify the ZIP file is a valid ZIP file before doing any 
+                    subsequent processing or testing.
+                    Enormously speed up password generation and password 
+                    testing for Registered Users of this program by :
+                      1. Updating the stats every 100 passwords - not every 
+                         password as this slow things down significantly.
+                      2. Dynamically loading DLLs prior to processing.
+                      3. Various other techniques and tricks.
+                    Registered users can test passwords 5-20 times or
+                    so faster than Un-Registered users (depends on PC).
+                    Change the font to a scalable font for all items.
+                    (Fix the auto size-text truncation).
+                    Use colours to reflect the status of edit boxes : 
+                    grey = read only, white = user input, etc.
+                    Add in support for the dragging and dropping of ZIP 
+                    file(s) from Windows Explorer.
+                    Add "Benchmark Results" section to this text file.
+                    Add buttons to enable the user to reset password list, 
+                    and copy list to Windows clipboard, and paste password 
+                    list from Windows clipboard.  (Registered Users only).
+                    Add in the ability to continue password checking against
+                    a ZIP file, if a correct password has already been found
+                    but this password does not work on all files inside the 
+                    ZIP file.  (Yes, some ZIP files are encrypted with 
+                    multiple passwords).
+                    Add in support for notification, testing, and advice
+                    regarding unencrypted files (i.e. those with blank 
+                    passwords).
+                    Add in a pre-ZIP testing advice screen (with a 
+                    "Do Not Show This Again" option).
+                    Use a better initial default window size.
+                    Various other use-ability enhancements.
+                    (37,772 lines of code / comments.)
+
+1.1b  20-Nov-2002   Bring the program up to date with my latest code libraries.
+                    (43,009 lines of code / comments.)
+
+1.2    4-Dec-2002   Add File Menu options to enable the user to create or delete 
+                    shortcuts to this program on the Desktop, StartMenu, SendTo, etc
+                    and you can do this *ANY* time - not just when the program is 
+                    being installed.  (All Windows programs should provide this 
+                    functionality).
+                    You can now right-mouse click on a ZIP file and send it to
+                    this program directly - provided there is a shortcut
+                    to the program in the SendTo menu.  (See above).
+                    Insert the characters around each key for some keys that
+                    were missing these for the "Password is Partly Known"
+                    password generations.  e.g. The keys around the "."  
+                    key are ",<L;:'"/?".  (Thanks to Robert F for reporting 
+                    this to me earlier today).
+                    (55,759 lines of code / comments.)
+
+1.2f  3-Sep-2007    This program is now FREEWARE - see "Freeware Information"
+                    above.
+
+1.2fb 13-Jan-2011   Update the DLL (UnzDll.dll) included with ZIP Password Cracker Pro.
+                    Special thanks to Lost Identity for alerting me to the fact my 
+                    program wasn't finding ZIP passwords properly.  It turned out it 
+                    wasn't, because the DLL (UnzDll.dll) included with ZIP Password 
+                    Cracker Pro was not the required version.
+                    The EXE has *not* changed, it is still 1.2f.
+                    i.e. 1.2fb is v1.2f with an updated DLL file (not an updated EXE), 
+                    so the EXE still reports v1.2f.
+
+ n/a   9-Feb-2012   Add a "Frequently Asked Questions" to this text file above, and 
+                    also clarify the 1.2fb update above, following Curtis G's email 
+                    earlier today.  I get emails from a few people each year asking 
+                    similar questions, so it makes sense to put these in a FAQ.  :)
+                    See the "Frequently Asked Questions" above.  :)
+
+1.3f  23-Oct-2013   1. Fix the display of passwords containing the
+                    ampersand "&" character.  Prior to this fix,
+                    ampersands were being interpreted in the
+                    success dialog as "underline the next character".
+                    Special thanks to Jerry P. for reporting this.
+                    2. Add checking to make sure the selected ZIP file 
+                    is a standard ZIP and that it can be decrypted by 
+                    the UnzDll.Dll I am using.
+                    Special thanks to Jerry P. for reporting this.
+                    3. Always check for blank / no password before doing
+                    any other password checking.
+                    4. If the password is found, display it in a box
+                    in the bottom right hand corner and display a
+                    "Copy to Clipboard" button next to this to
+                    make it easy for the user to obtain the password.
+                    5. Display a progress bar while checking passwords
+                    to give a nice visual clue of progress.
+                    6. Add a "Display ZIP Information" button next to
+                    ZIP File name to display basic information about
+                    the ZIP file (this is all available information
+                    from the DLL I am using), and estimate whether the
+                    ZIP format / encryption method is standard and whether
+                    the password can be cracked or not.
+                    All the DLL seems to return is "ErrorCode 8" if it 
+                    doesn't recognise the ZIP format or encryption method 
+                    (and this ErrorCode is not mentioned at all in the 
+                    Help File for the DLL or the ZIP component).
+                    So, all I can do is check for "ErrorCode 8".
+                    7. Update to the very latest version of UnzDll.Dll
+                    I can find.  It is v173 and dated 15-Jul-2003, obtained
+                    from the "compressit.zip" file from Torry's Delphi Pages:
+                    http://www.torry.net/pages.php?id=300
+                    I will continue to explore other / more up-to-date
+                    ZIP components, but no guarantees.  (Exploring each
+                    one is many hours of work and many seem to have issues,
+                    most seem to be a nightmare to install / get working,
+                    and few seem to have help files associated with them).
+                    8. Check the version of <b>UnzDll.Dll</b> is the correct / 
+                    expected one before trying to crack any passwords.
+                    Add extra items to and update the FAQ (above).
+                    Bring the program up to date with my latest code libraries.
+                    (2,267 lines of code / comments / blank lines in primary source file.)
+                    (67,299 lines of code / comments / blank lines in all primary, library, and include files.)
+
+1.4f  25-Oct-2013   Another day, another release !!  ;)  LOL !!  ;)
+                    1. Change from a 3rd party Memo component, called TMemoEx,
+                    back to the standard Delphi TMemo because TMemoEx refuses 
+                    to hold more than a few million short passwords.  TMemoEx
+                    was refusing to hold more than 3,663,901 four character 
+                    passwords. This is very strange, because I have been using 
+                    the TMomeEx component for many years and have never encountered 
+                    anything like this problem before.  I searched for an updated / 
+                    fixed TMemoEx component but could not find one.  This is a 
+                    shame because TMemoEx was a lot faster than TMemo.
+                    Special thanks to Jerry P. for reporting this issue.
+                    2. Display "Loading - Please wait ..." and "Pasting - 
+                    Please wait ..." messages when loading passwords or 
+                    pasting passwords (TMemo components are very slow 
+                    when loading / pasting millions of items).
+                    3. I also found that TMemo components behave strangely and 
+                    data access speeds fluctuate wildly when they hold millions 
+                    of items.  To get around this, I removed the check for 
+                    duplicates when generating passwords to keep the speed 
+                    the same as prior versions of this program.
+                    4. For the Brute Force method, calculate and display the 
+                    number of passwords to be generated and display a progress 
+                    bar while generating passwords to give a nice visual 
+                    clue of progress.
+                    You will notice that this release has 3,300+ lines of code 
+                    less than yesterday's release, and that's because I am no 
+                    longer using the TMemoEx component, and can therefore leave 
+                    out all of my code / include files that deal with TMemoEx objects.
+                    Add "Known Issues / Known Limitations" to the Zip_Cracker.txt file.
+                    Update various sections in the Zip_Cracker.txt file.
+                    (2,351 lines of code / comments / blank lines in primary source file.)
+                    (63,934 lines of code / comments / blank lines in all primary, library, and include files.)
+
+
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this 
+program is available from my WEB page - see below.
+
+ Moose O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://move.to/moose
+____________________________________________________
+ 

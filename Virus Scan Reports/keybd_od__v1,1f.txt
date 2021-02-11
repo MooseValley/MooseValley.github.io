@@ -1,0 +1,152 @@
+keybd_od__v1,1f.zip
+
+Keyboard and Mouse Button Odometer (v1.1f)
+
+Keyboard_and_Mouse_Button_Odometer
+
+http://www.virustotal.com/en/file/c2ccb9d1a39425dcb058bfb36f0eee7afe4238bbea978ed3c59ca686430d8530/analysis/1422313992/
+
+SHA256: 	c2ccb9d1a39425dcb058bfb36f0eee7afe4238bbea978ed3c59ca686430d8530
+File name: 	keybd_od__v1,1f.zip
+Detection ratio: 	1 / 57
+Analysis date: 	2015-01-26 23:13:12 UTC ( 0 minutes ago )
+0
+0
+
+    Analysis
+    Additional information
+    Comments
+    Votes
+
+Antivirus 	Result 	Update
+Avira 	HEUR/Malware 	20150126
+ALYac 		20150126
+AVG 		20150126
+AVware 		20150126
+Ad-Aware 		20150126
+AegisLab 		20150126
+Agnitum 		20150126
+AhnLab-V3 		20150126
+Alibaba 		20150126
+Antiy-AVL 		20150126
+Avast 		20150126
+Baidu-International 		20150126
+BitDefender 		20150126
+Bkav 		20150126
+ByteHero 		20150127
+CAT-QuickHeal 		20150125
+CMC 		20150124
+ClamAV 		20150126
+Comodo 		20150126
+Cyren 		20150126
+DrWeb 		20150126
+ESET-NOD32 		20150126
+Emsisoft 		20150126
+F-Prot 		20150126
+F-Secure 		20150126
+Fortinet 		20150126
+GData 		20150126
+Ikarus 		20150126
+Jiangmin 		20150126
+K7AntiVirus 		20150126
+K7GW 		20150126
+Kaspersky 		20150126
+Kingsoft 		20150127
+Malwarebytes 		20150127
+McAfee 		20150126
+McAfee-GW-Edition 		20150126
+MicroWorld-eScan 		20150126
+Microsoft 		20150126
+NANO-Antivirus 		20150126
+Norman 		20150126
+Panda 		20150126
+Qihoo-360 		20150127
+Rising 		20150126
+SUPERAntiSpyware 		20150125
+Sophos 		20150126
+Symantec 		20150126
+Tencent 		20150127
+TheHacker 		20150126
+TotalDefense 		20150126
+TrendMicro 		20150126
+TrendMicro-HouseCall 		20150126
+VBA32 		20150126
+VIPRE 		20150126
+ViRobot 		20150126
+Zillya 		20150126
+Zoner 		20150123
+nProtect 		20150126 
+
+
+
+
+File identification
+MD5 ec71d15556b5c9aea9861c235573a7a7
+SHA1 8992e22e53512c638ed8a8de8118c7a9e85a45d7
+SHA256 c2ccb9d1a39425dcb058bfb36f0eee7afe4238bbea978ed3c59ca686430d8530
+ssdeep
+6144:bGHO2Bjg3lnBRoT/yRUFEXLnDDlXbv9yKZjwZZ2a+B2:bIiaTqUFo5Lv9zZjwX28
+
+File size 263.0 KB ( 269273 bytes )
+File type ZIP
+Magic literal
+Zip archive data, at least v2.0 to extract
+
+TrID 	ZIP compressed archive (100.0%)
+Tags
+zip upx
+
+VirusTotal metadata
+First submission 2015-01-26 23:13:12 UTC ( 1 minute ago )
+Last submission 2015-01-26 23:13:12 UTC ( 1 minute ago )
+File names 	keybd_od__v1,1f.zip
+Advanced heuristic and reputation engines
+ClamAV PUA
+Possibly Unwanted Application. While not necessarily malicious, the scanned file presents certain characteristics which depending on the user policies and environment may or may not represent a threat. For full details see: http://www.clamav.net/doc/pua.html .
+
+Symantec reputation Suspicious.Insight
+ExifTool file metadata
+MIMEType
+application/zip
+
+ZipRequiredVersion
+20
+
+ZipCRC
+0x32de27df
+
+FileType
+ZIP
+
+ZipCompression
+Deflated
+
+ZipUncompressedSize
+31859
+
+ZipCompressedSize
+11232
+
+FileAccessDate
+2015:01:27 00:13:21+01:00
+
+ZipFileName
+catalog.txt
+
+ZipBitFlag
+0
+
+FileCreateDate
+2015:01:27 00:13:21+01:00
+
+ZipModifyDate
+2007:09:18 10:49:16
+
+
+
+Comments
+
+Downloaded from my web site: http://moosevalley.fhost.com.au/
+I am super paranoid about security and all of my PCs are subject to the highest levels of security, so you can rest assured that there are no viruses or malware in any of the software I provide on my web site, as confirmed by this VirusTotal analysis. :)
+Moose
+Posted 0 minutes ago by Moose Delete

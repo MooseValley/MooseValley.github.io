@@ -1,0 +1,377 @@
+ 
+Millionwaire Remake		Software Copyright (C) Moose O'Malley, October 2015.
+-------------------		Questions/Answers data (C) BRAINBANK INC., 1982,1983. 
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Using this Program
+   | * Data File Format
+   | * The Future
+   | * Special Thanks
+   | * Reviews / Awards / CDs
+   | * Freeware Information
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+Millionwaire Remake is for IBM compatible PCs, desktops, laptops, 
+netbooks, etc running any version of Windows from Windows 95 onwards, which 
+includes Windows 98, ME, NT, 2000, XP, Vista, 7, 8, 10, etc, 32 and 64 bit.
+
+This program is free software.  Anyone - any person, any company, 
+or any business - can use this program for free.  No fees or 
+payment is required.  See "Freeware Information" below.
+
+Millionwaire Remake is a simple little quiz program, that produces the 
+same quiz (same questions, same answers, same data file, etc) as the ancient 
+Apple ][ game called "Millionwaire", but in a nice GUI for modern Windows PCs.  
+I don't recall every seeing or playing this ancient Apple ][ game until a few 
+days ago (on 26-Oct-2015), when I downloaded a disk image of the game and played 
+it on the excellent AppleWin emulator.  I made it to $1 Million on my first go 
+(it is a very easy quiz game).
+
+But, like I sometimes do (if I have time), I started poking around in the 
+disk image and I located the data file, and I slowly worked out the format 
+for the file and then wrote my own program to play the quiz based on this file.
+
+So, Millionwaire Remake is a remake of the old Apple ][ game called "Millionwaire".
+It is only single player (at the moment, would be easy to add support for any number 
+of players).  It has few sound effects.  It has hardley any graphics.  It has no wise 
+crackin' host (like Bob Brainbank in the original Apple ][ game).  It is just a very 
+basic Quiz program that produces the same quiz (same questions, same answers, same 
+data file, etc) as the original Apple ][ game.  (See "Data File Format" below for 
+my analysis / notes about the original data file format).
+
+Millionwaire Remake:
+
+- Enables you to select question categories / difficulty levels.
+
+- Specify the amounts you want to bet by moving the trackbar slider - 
+  the minimum bet is $1,000 and maximum bet is your account balance.
+  
+- Select your answer to a random Question with the difficulty and 
+  from the category selected.  (You have 15 seconds to answer each question).
+
+- And repeat the above steps over and over again until you either bomb out 
+  (bet all your money) or reach $1 Million dollars.
+
+Needless to say: all monetary amounts are play money.  There's NO REAL MONEY 
+involved in this game and you CANNOT win real money by playing this game.  
+It is all purely for fun.  Not sure if I needed to say this - it is so obvious 
+after all, and only a complete scumbag would try and claim they were somehow 
+entitled to real money for playing this game.  NO, it is ALL play money.
+
+Developed using 32-bit Delphi.
+
+
+Using this Program :
+--------------------
+
+To use this program, extract the contents of the Millionwaire Remake ZIP file 
+to a directory,such as c:\Millionwaire\ and then run the program by double clicking 
+on the Millionwaire.EXE.  
+
+Click the button at the bottom to proceed, use the radio buttons to select 
+categories and answers, use the trackbar slider to change your bet amount.
+
+
+Data File Format :
+------------------
+
+Millionwaire Remake uses the data file from the original 
+"Millionwaire" game for the Apple ][. 
+
+This data file is included - exactly as is - from the 
+original Apple ][ game.
+
+I have included my notes / discoveries about how the data file works below,
+just in case it helps someone out or just in case anyone else out there would 
+like to code their own versions of the game.  :)
+
+
+**** GAMEMILL.BAS	(Apple ][ disk file)
+
+Here's the Odds / Difficulty descriptions / multipliers:
+
+ 93 T$(I) = "3 TO 2":OD(I) = .5
+ 94  IF O$(I) = "B" THEN T$(I) = "2 TO 1":OD(I) = 1
+ 95  IF O$(I) = "C" THEN T$(I) = "3 TO 1":OD(I) = 2
+ 96  IF O$(I) = "D" THEN T$(I) = "4 TO 1":OD(I) = 3
+ 97  IF O$(I) = "E" THEN T$(I) = "5 TO 1":OD(I) = 4
+
+There are 42 Question Categories:
+
+ 270  DATA "AMERICAN CITIES","ETHNIC FOODS","SPORTS TALK","WORLD CITIES","PRESIDENTS","LANDMARKS","CALENDAR","AUTHORS","SCIENCE TERMS","HUMAN BODY"
+ 271  DATA "ANIMALS","EXPLORERS","INVENTORS","COMPOSERS","CARTOONS","ACTORS","SOLAR SYSTEM","PAINTERS","ACTRESSES"
+ 272  DATA "WARS","NOVEL CHARACTERS","BROADWAY","WOMEN","PLAYWRIGHTS","SHAKESPEARE","RULERS","PHOBIAS","PARTS OF SPEECH","OLD TESTAMENT"
+ 273  DATA "DISEASES","HISTORICAL FACTS","COMPUTERS","MATHEMATICS","MYTHOLOGY","MONEY","HOBBIES","TELEVISION","SPORTS TEAMS","SHOPPING","ROCK AND ROLL","OCCUPATIONS","COLLEGES"
+
+These categories have been extracted and placed in the data file:
+"Millionwaire__Categories_Topics.txt".
+
+
+**** MILLFILE.txt	(Apple ][ disk file)
+
+Line 1 - 42:	(42 lines)
+
+Question_Topic_Descriptions
+Question Categories
+1st 42 lines are Question Categories:
+1st line is:
+
+MATCH THE CITY WITH THE STATE-IN WHICH IT IS LOCATED.
+
+Corresponds to the 1st Category above (in the DATA lines):
+
+AMERICAN CITIES
+
+Line 43 - 3,822 inclusive:	(3,780 lines)
+
+Question Items
+42 x 90 lines (in groups of 90) are various 
+question words.  Each item has 3 lines:
+30 items x 3 lines = 90 lines
+
+TALLAHASSEE
+A
+C
+
+Line 3823 - 4,242 inclusive:	(420 lines)
+
+Are the possible answers - 10 possible answers each x 1 line per answer = 10 lines
+42 x 10
+
+COLORADO
+CONNECTICUT
+FLORIDA
+INDIANA
+KANSAS
+OHIO
+OREGON
+PENNSYLVANIA
+TEXAS
+WISCONSIN
+
+So, each Question Categories
+has 30 possible Question Items
+and there are 10 possible answers for each question, but only 4 are displayed for each question.
+
+The 2nd line below each Question is the index of the correct answer:
+
+TALLAHASSEE
+A
+C
+
+Tallahassee, Florida
+Correct answer is C (3rd answer in list) : Florida
+Ord ('C') - ORD ('A') + 1
+
+PUEBLO
+C
+A
+
+Pueblo, COLORADO
+Correct answer is A (1st answer in list) : Colorado
+Ord ('A') - ORD ('A') + 1
+
+HARRISBURG
+B
+H
+
+Harrisburg, PENNSYLVANIA
+Correct answer is H (8ths answer in list) : PENNSYLVANIA
+Ord ('H') - ORD ('A') + 1
+
+The 1st line below each Question is the index of the 
+Difficulty / Odds multiplier:
+
+A for TALLAHASSEE
+C for PUEBLO
+B for HARRISBURG
+
+Refers to the Difficulty / Odds multiplier:
+
+A => "3 TO 2": .5
+B => "2 TO 1": 1
+C => "3 TO 1": 2
+D => "4 TO 1": 3
+E => "5 TO 1": 4
+
+Ummm, that's about it.
+
+Very simple once you see the pattern.  :)
+
+The original "MILLFILE.txt" data file is provided exactly as 
+it was on the Apple ][ game disk in the file called:
+"Millionwaire__MILLFILE.txt".
+
+
+The Future :
+------------
+
+In the future, many improvements could be made to this program,
+such as :
+
+- Data file read checking.
+
+- Correct errors in the data file, especially where things have changed over
+  time.  For example: 
+  * Pluto is no longer a planet (it is a Dwarf Planet).
+  * Uranus does NOT have 5 satellites (currently 27 satellites are known @ Oct-2015).
+  * Currencues in European countries
+  * etc.  Anyone want to do some fact checking ?
+
+- Remove / replace the really silly / super obvious questions.  
+  e.g. the fact that the mathematical term dividend relates to division.
+  
+- More graphics.
+
+- More sound effects.
+
+- More questions.
+
+- Harder questions.
+
+- A wise crackin' host (like Bob Brainbank in the original Apple ][ game).
+
+- Different Levels of Play, different times to answer questions. 
+  e.g. give you 5, 10 or 15 seconds to answer a question.
+
+- Extra quiz options.  Lots of things that I could do here.  :)
+
+- Replace the American-centric questions with more international questions.
+  (or create a questions suitable for various countries and allow the user to
+  specify their country).
+  
+- Replace / expand the Rock 'n Roll questions with more recent artists, and 
+  widen the category (or add other categories) to include other genres, 
+  such as Hip Hop, Rap, Blues, Grunge, etc.
+
+- Multiple Players.
+
+- Save player stats to file (wins, losses, longest winning streak, etc).
+
+- Anything else ?
+
+If you would like any of these improvements, or would like to
+suggest more, please email me and let me know.
+
+How much more work I do on this program depends entirely on
+what support I get, how many people use the program, etc.
+
+
+Special Thanks :
+----------------
+
+(1). Special thanks to the original developers of "Millionwaire" 
+game for the Apple ][.
+
+	MILLIONWAIRE-APPLE VER3.0
+	(C) 1982,1983 BRAINBANK INC.
+	PROGRAMMED BY TUNG LEE* 
+
+My hats off to you for making a great game for a great computer system.
+
+Millionwaire Remake uses the data file from this original game.
+
+(2). Also, special thanks to Andy McFadden and his terrific CiderPress
+software (freeware, http://a2ciderpress.com/) which allowed me to extract 
+the Millionwaire data file from the disk image.
+
+(3). Jason Scott (http://textfiles.com/) for creating the backup disk image 
+of the "Millionwaire" game for the Apple ][.  I had never seen or played this 
+game until a few days aho (26-Oct-2015).  So, it is probably very rare, and it 
+might never have been backed up if Jason had not done the backup.
+
+(4). The developers of AppleWin (freeware, https://github.com/AppleWin)
+so I could run / play the game on my PC.
+
+(5). Apple Inc. for making the Apple ][.  :)
+Long Live the ][ !
+
+
+Reviews / Awards / CDs :
+-------------------------
+
+None so far.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.  
+
+Anyone - any person, any company, or any business - can 
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please 
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select 
+the "About" option under the Help menu, and then click 
+the PayPal link on the "About" screen).
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know.
+
+
+Amendment History :
+--------------------
+
+Vers    Date        Description
+
+1.0f 30-Oct-2015    First Public Release.
+                    (1,031  lines of code / comments / blank lines in primary source file.)
+                    (37,305 lines of code / comments / blank lines in all primary, library, and include files.)
+
+1.1f  6-Nov-2015    Add a timer giving you 15 seconds to answer each question.  As the 
+                    timer counts down, your potential Winnings is reduced accordingly.
+                    In other words, the faster you correctly answer questions, the 
+                    more "money" you win.  :)
+                    Display Win and Loss amounts for each question and update 
+                    these as you change the bet amount slider (and also adjust 
+                    these values as the answer timer counts down).
+                    Display winning streak details and display these as you play.
+                    (You need to get more than 1 question right in a row for them to show up).
+                    Keep track of which questions have been asked in each game
+                    (so the same question is not asked multiple times in a single game).
+                    Also, keep track of the remaining questions in each Category.
+                    If all of the questions in a Category have already been asked, then 
+                    that Category will not be offered again (for the current game).
+                    Continue displaying the "seconds count down progress bar" 
+                    after the question has been answered.
+                    Add random encouragement messages: "Good luck ! :)" and similar 
+                    when you are selecting a Question Category.
+                    Change "Better Luck Next time"  to "Better luck next time".
+                    Change Tick and Cross images from 256 to 2 colour GIF images, 
+                    to try and get rid of the ugly dark marks around the graphics 
+                    at some resolutions.  (Didn't help much ...)
+                    (1,180  lines of code / comments / blank lines in primary source file.)
+                    (37,454 lines of code / comments / blank lines in all primary, library, and include files.)
+                                        
+
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this 
+program is available from my WEB page - see below.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://moosevalley.fhost.com.au/
+____________________________________________________
+ 

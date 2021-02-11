@@ -1,0 +1,54 @@
+Loan Analyser v1.4 (Jan, 1989) for DOS.            by Moose O'Malley
+
+FREE Ware !
+
+The program is a Loan Analyser.  You enter the Loan Principal,
+the Loan Interest Rate, the Loan Payments Per Year (eg. 52, 26, 12), 
+the Loan Repayment Per Period, and an output Report File Name.
+
+The program then writes the Repayment Analysis report to
+the file name you specify, and this report contains a detailed
+analysis of the cummulative interest, principal repayed, and all
+details of the loan on a period by period basis for the life
+on the loan.
+
+This version of Loan Analyser is FREE Ware, and you can
+copy, distribute, and use it freely as long as this
+message remains intact.
+
+The program operates in character mode only.  i.e. it is not a graphical
+program, so it will work on any monitor : CGA, EGA, VGA, etc, and 
+will run on any PC (with an Intel CPU from 8088 to Pentium Pro), 
+and with any amount of memory (it only needs a few dozen KB).
+
+It runs on my 8086 640 KB CGA laptop, and it runs (at the same speed) 
+on my Pentium 100 / 16 MB / SVGA.
+
+It also runs under Windows 3.1, 95, NT, but as a DOS application.
+
+This program was written in Turbo Pascal v3 / v5 (DOS).
+
+If you like this program, please EMail me and let me know.
+
+It may encourage me to develop it further !!
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know, and I will do my best to fix it ASAP.
+
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://move.to/moose
+____________________________________________________
+ 

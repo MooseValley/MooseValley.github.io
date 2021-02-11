@@ -1,0 +1,156 @@
+ 
+Calendar Year Simple		Copyright (C) Moose O'Malley, 
+--------------------		January 2003.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Why I wrote this program ?
+   | * Credits / Thanks
+   | * Installing and Using this Program
+   | * Uninstalling this Program
+   | * Limitations / Restrictions of the program
+   | * The Future
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+Calendar Year Simple is a very basic program for Windows 
+95, 98, ME, NT, 2000, XP, etc.
+
+Calendar Year Simple shows a very simple full year 
+calendar for whatever year you select - and that's 
+about it.
+
+This program is freeware - please distribute it and 
+use it freely.
+
+Developed using 32-bit Delphi.
+
+This program will **NOT** run under Windows 3.x  
+(even with Win32 installed).
+
+
+Why I wrote this program ?
+--------------------------
+
+I wrote this program because I always seem to need 
+a full year calendar so I can look at things a
+whole year at a time.
+
+So, as I usually do, I developed this program, and it
+has proven so useful to me that I am releasing it
+as freeware onto my web page.
+
+
+Credits / Thanks :
+------------------
+
+Nil.
+
+
+Installing and Using this Program :
+-----------------------------------
+
+To use this program, unzip the contents of the ZIP file to a 
+directory - such as c:\calendar\ - and run the executable 
+file : Calendar_Year_Simple.EXE.
+
+If you want the program to run automatically when Windows
+starts up, then select this option under the "File" menu 
+in the program.
+
+If you would like to be able to run this program by clicking 
+on an icon in the Windows Start Menu, or on the Desktop, etc 
+then you can use the "Create Shortcut ..." options under 
+the program's File menu.
+
+I hope you find the program easy to use and useful.
+
+
+Uninstalling this Program :
+---------------------------
+
+At the  present time, there is No Uninstall function.
+
+If you ever want to delete Mad Cow Disease 
+from your computer, then :
+
+ 1. Exit the program, and delete it from wherever 
+    you installed it on your harddrive.
+
+Before doing this however :
+
+- If you have selected / enabled the "Auto-Run at Windows 
+  Startup" option (under the File menu), then you should 
+  ensure that this option is not checked / enabled 
+  (which you can easily do by re-selecting the 
+  "Auto-Run at Windows Startup" option from under 
+  the File menu).
+
+- If you have used any of the "Create Shortcut ..." options 
+  under the File menu, then you should use the "Delete All 
+  Shortcuts" option under the File menu to remove these from
+  your system.
+
+Simple as that !
+
+
+Limitations / Restrictions of the program :
+-------------------------------------------
+
+None.  There is no trial period and there is no "cutdown"
+or "restricted" functionality that requires users to register.
+
+This program is FREE software - any person and any company is
+welcome to copy it, use it, and distribute it as they see fit,
+as long as the EXEcutable and this text file remain intact.
+
+If you paid money for this program, then you were ripped off,
+and you should complain to the person who sold it to you !!
+(Don't complain to me, it's nothing to do with me !!).
+
+
+The Future :
+------------
+
+No plans at this stage - what more is there to do ??
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know, and I will do my best to fix it ASAP.
+
+
+Amendment History :
+-------------------
+
+Vers    Date        Description
+
+1.0  22-Jan-2003    First Public Release.
+                    (50,092 lines of code / comments.)
+
+
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this 
+program is available from my WEB page - see below.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://move.to/moose
+____________________________________________________
+ 

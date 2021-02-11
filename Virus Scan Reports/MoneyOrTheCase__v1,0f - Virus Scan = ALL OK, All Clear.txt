@@ -1,0 +1,16 @@
+https://www.virustotal.com/gui/file/324dc329119881dd1c547e4b17b81c6bd43519c0426674c905affeb851b13a6d/detection
+
+No engines detected this file
+324dc329119881dd1c547e4b17b81c6bd43519c0426674c905affeb851b13a6d
+MoneyOrTheCase__v1,0f.zip
+
+0 / 59
+
+
+Downloaded from my web site:
+http://moosesoftware.netau.net/
+(Updated host)
+I am super paranoid about security and all of my PCs are subject to the highest levels of security, so you can rest assured that there are no viruses or malware in any of the software I provide on my web site, as confirmed by this VirusTotal analysis.  :)
+Moose
+
+

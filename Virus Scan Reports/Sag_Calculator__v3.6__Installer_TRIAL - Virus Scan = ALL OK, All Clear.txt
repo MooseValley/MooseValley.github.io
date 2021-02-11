@@ -1,0 +1,106 @@
+You can download the updated Sag Calculator (with a 5,000m span limit) here:
+
+http://www.mediafire.com/file/0jcrn3s912rhczq/sag__v3.6.01__5%2C000m_Span_Limit__EXE_only.zip
+
+(If this link is wrapped onto multiple lines, then re-join the lines and paste them into your web browser).
+
+
+As always, I virus scan all of the files I release against 55 of the leading virus scanners on the Virus Total web site, and updated Sag Calculator (v3.6.01) has a 100% clean bill of health.  Here's a link to the scan report:
+
+https://www.virustotal.com/en/file/048166b9a37fd9c9cca43108c0957ac8ae150178e70f3f6bb76a68c11913bc69/analysis/1479645660/
+
+
+If you have any further issues, please let me know.  :)
+
+
+*************************************************
+
+https://www.virustotal.com/en/file/72e3c0d09e8570129fa5ecee3c3166fa8ae0e2e568d869d896cfce2b9b795294/analysis/1480468234/
+
+SHA256: 	72e3c0d09e8570129fa5ecee3c3166fa8ae0e2e568d869d896cfce2b9b795294
+File name: 	Sag_Calculator_v3.6__Installer_TRIAL.zip
+Detection ratio: 	0 / 54
+Analysis date: 	2016-11-30 01:10:34 UTC ( 1 minute ago )
+1
+0
+
+    Analysis
+    File detail
+    Additional information
+    Comments
+    Votes
+
+Antivirus 	Result 	Update
+ALYac 		20161130
+AVG 		20161129
+AVware 		20161130
+Ad-Aware 		20161130
+AegisLab 		20161129
+AhnLab-V3 		20161129
+Alibaba 		20161129
+Antiy-AVL 		20161130
+Arcabit 		20161130
+Avast 		20161130
+Avira (no cloud) 		20161130
+Baidu 		20161129
+BitDefender 		20161130
+Bkav 		20161129
+CAT-QuickHeal 		20161129
+CMC 		20161129
+ClamAV 		20161130
+Comodo 		20161130
+CrowdStrike Falcon (ML) 		20161024
+Cyren 		20161130
+DrWeb 		20161130
+ESET-NOD32 		20161129
+Emsisoft 		20161130
+F-Prot 		20161130
+F-Secure 		20161130
+Fortinet 		20161130
+GData 		20161130
+Ikarus 		20161129
+Invincea 		20161128
+Jiangmin 		20161129
+K7AntiVirus 		20161129
+K7GW 		20161129
+Kaspersky 		20161129
+Kingsoft 		20161130
+Malwarebytes 		20161129
+McAfee 		20161129
+McAfee-GW-Edition 		20161129
+eScan 		20161129
+Microsoft 		20161129
+NANO-Antivirus 		20161129
+Panda 		20161129
+Qihoo-360 		20161130
+Rising 		20161129
+SUPERAntiSpyware 		20161129
+Sophos 		20161129
+Symantec 		20161129
+Tencent 		20161130
+TheHacker 		20161126
+TrendMicro 		20161129
+TrendMicro-HouseCall 		20161129
+Trustlook 		20161130
+VBA32 		20161129
+VIPRE 		20161129
+ViRobot 		20161129
+WhiteArmor 		20161125
+Yandex 		20161128
+Zillya 		20161129
+Zoner 		20161129
+nProtect 		20161129
+
+
+
+Comments
+
+Whoops, old web site link posted a few minutes ago.
+My my web site is here: http://moosesoftware.16mb.com/
+Moose
+Posted 0 minutes ago by Moose Delete
+
+Downloaded from my web site: http://moosevalley.fhost.com.au/
+I am super paranoid about security and all of my PCs are subject to the highest levels of security, so you can rest assured that there are no viruses or malware in any of the software I provide on my web site, as confirmed by this VirusTotal analysis. :)
+Moose
+Posted 1 minute ago by Moose Delete

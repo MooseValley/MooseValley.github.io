@@ -1,0 +1,346 @@
+ 
+File Usage Monitor			Copyright (C) Moose O'Malley, 
+------------------			September 2007.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Introduction
+   | * How to use File Usage Monitor
+   | * Limitations of File Usage Monitor
+   | * The Future
+   | * Monitoring How Long Windows has been running
+   | * Special Thanks to
+   | * Reviews / Awards / CDs
+   | * Freeware Information
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+File Usage Monitor for Windows 95, 98, ME, NT, 2000, XP, etc.
+
+This program is free software.  Anyone - any person, any company, 
+or any business - can use this program for free.  No fees or 
+payment is required.  See "Freeware Information" below.
+
+File Usage Monitor simply monitors and logs the usage of 
+user-selected files.
+
+In many service oriented companies - particularly in 
+Legal Offices, Accountants, Graphic Designers, 
+Computer Consultancies, etc - customers / clients are 
+billed for each hour of work done on their behalf.
+
+File Usage Monitor enables these companies to justify / support
+work invoices sent to clients by logging the amount of
+time spent working on computer files relating to each client.
+
+Other uses include helping staff in companies fill in 
+detailed time / task recording sheets which require you to
+log what work you did during each hour of the day.
+
+As far as I know, nothing like this application exists already,
+and this application is completely unique.
+
+I would especially like to thank my brother, Peter O'Malley,
+for his original and brilliant idea for this program.
+Peter has got a Registered Version of the program, it is
+just a shame he uses a MAC not a PC !!  ;)
+
+If a CPU lockout occurs or the PC hangs for a while, I have 
+especially coded the program so that such lockouts are
+ignored in the log.  i.e. time will not be added to the
+logged usage for a file while the PC is hung.
+
+You cannot also stop / pause logging if the mouse is inactive
+for a number of seconds that you can specify on the Settings Screen.
+
+
+How to use File Usage Monitor :
+-------------------------------
+
+File Usage Monitor's main screen consists of a row of buttons 
+and a grid.  The grid consists of 3 columns which display 
+displays the File Name(s), the current status of each file, 
+and the logged usage time so far.
+
+All buttons in this program have Tooltips, so just let the 
+mouse pointer hover over the button and pretty soon, a 
+Tool Tip help will appear to explain what the button does.
+
+To Add files to the list to be monitored, click on the 
+"Add File" button - the leftmost button.
+
+To see the full name and full path for a file, click on 
+the file's row in the grid and and the file's full name 
+will appear the below the grid.
+
+To remove a file from the list to be monitored, click on 
+the row of the grid that the file is in, and then click 
+the "Remove File" button - the 2nd button from the left.
+
+To Reset the Logged Usage Time for a file, click on the 
+row of the grid that the file is in, and then click the 
+"Reset Logged Time" button - the 3rd button from the left.
+
+To halt / stop the Logging of File Usage, simply click 
+the "Stop / Halt all logging" on the far right of the 
+main window.
+
+To call up help, press the "Help" button, or select 
+the "Help" menu and choose the "Help" option.
+
+No other buttons work in this program - yet !!  
+
+
+Limitations of File Usage Monitor :
+----------------------------------
+
+At the moment, this program can only log file usage if file 
+locking occurs.  e.g.  When you edit a document in MS Word, 
+Word "locks" the document to prevent other accesses until 
+you finish editing and close the document.  Excel, Power 
+Point, Lotus 1-2-3, Access, WordPerfect, Corel Draw, and 
+most large commercial packages perform this locking.
+
+Some programs, like Notepad, Word Pad, Paint Shop Pro, etc 
+do NOT lock your files while they are being worked on.  As 
+a result of this, File Usage Monitor cannot log any access 
+to files within these programs - yet !
+
+But, I am working on ways around this as we speak !!  
+(See "The Future" below).
+
+Many DOS programs lock files (such as WordPerfect for DOS, 
+Lotus 1-2-3 for DOS, etc), and as long as these are run 
+under Windows and other Windows applications are still 
+multi-tasking, then File Usage Monitor will monitor file usage 
+of files in these DOS programs as well !!
+
+If you are not sure whether the application(s) you are using 
+lock open files, select a file for that application in File 
+Usage Monitor and see if the "File Status" changes while 
+the file is being edited in the particular application.
+
+Support for programs that do NOT lock files is being worked 
+on as we speak !!
+
+
+The Future :
+-------------
+
+This is an early release of the program, and many interesting 
+things could be done in the future.
+
+This program could well turn into a large and complex 
+application, with the following sorts of features : 
+
+- Add a Client column so that the hours spent working on 
+  all files for a client can be easily seen.
+
+- Add a Detailed Log File for each file being monitored so 
+  that you can see the various start / stop dates / times 
+  for when work was undertaken on each particular file.
+
+- Add in a Client Report button which generates a report 
+  containing : File name, logged work time (in Hours), 
+  with a month by month breakdown and an overall total.
+
+- Add in Sort functionality to sort on the various columns.
+
+- Add in the ability to ignore file usage events of less 
+  than 15 seconds (say).
+
+- Add in extra file filters on the Select File dialog, such 
+  as *.doc, *.xls, *.wk*, *.ppt, *.drw, etc.
+
+- Help File - full blown, context sensitive help for the 
+  application.
+
+- Group Working functionality to generate reports for each 
+  client even when many people are working on files relating 
+  to the client.
+
+- A Macintosh version of the program.
+
+- Add in functionality to save the File Usage Log periodically 
+  (say every 5 minutes), to minimise the impact of a total system 
+  crash on the log.
+
+- Add in a Setup screen to enable the user to customise the program.
+
+- Work on getting File Usage Monitor to log file usage in 
+  applications that do NOT lock files while they are being 
+  worked on.  See "Limitations of File Usage Monitor" above.
+
+- Anything else ?  Just Email me with suggestions / comments !!
+
+The list is almost endless !!
+
+What upgrades I do depends on what sort of response I get to 
+this program, and what other suggestions I get.
+
+
+Monitoring How Long Windows has been running :
+----------------------------------------------
+
+Need to keep track of how long you use Windows ?
+Many people need to do this inorder to coordinate Backups
+and other activities.  Well, File Usage Monitor can help !!
+
+Many files that are opened (with write locks) when Windows starts
+and are closed down when Windows exits.  These files are perfect
+for monitoring how long Windows has been running.
+
+For example, in Windows 95, these files can be used :
+
+	c:\Win386.swp
+	c:\windows\system\Mapisp32.exe
+	c:\windows\system\winspool.drv
+	c:\windows\system\systray.exe
+	c:\windows\Win386.swp  (Windows Swap File)
+
+Suitable files are not hard to find - press Ctrl-Alt-Del when 
+Windows 95 starts up and look at the list of system files.  
+There are other utilities where you can see loads of other 
+drivers that are loaded as well if you want to use others.
+
+Or you can hook into files belonging to other Windows applications - 
+such as McAfee's virus scan that loads when Windows starts :
+
+	c:\Program Files\McAfee\Vshwin32.exe
+
+
+Special Thanks to :
+-------------------
+
+I would especially like to thank the following people :
+
+- My brother, Peter O'Malley, for his original and brilliant 
+  idea for this program.  Peter has got a Registered Version of 
+  the program for coming up with the idea, but it is just a 
+  shame he uses a MAC not a PC !!  ;)
+  (If Delphi is ever released on the MAC, I will do a MAC 
+  version specially for you Peter !).
+
+- Markus Oberhumer & Laszlo Molnar who have developed
+  "The Ultimate Packer for eXecutables" (aka UPX), which 
+  is used to compress the 32 bit EXE to less than 40%
+  of it's original size.  Check out :
+   * http://cdata.tvnet.hu/~ml/upx.html
+   * http://wildsau.idv.uni-linz.ac.at/mfx/upx.html
+
+  Sadly, this utility doesn't support Windows 16 bit executables, 
+  so I am still searching for a good cheap / free Windows 
+  16 bit EXE Packer.
+
+
+Reviews / Awards / CDs :
+-------------------------
+
+None so far.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.  
+
+Anyone - any person, any company, or any business - can 
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please 
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select 
+the "About" option under the Help menu, and then click 
+the PayPal link on the "About" screen).
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know.
+
+
+Amendment History :
+--------------------
+
+Vers    Date        Description
+1.0   18-Apr-1997   First Public Release.
+                    Thank to my brother, Peter O'Malley, for his 
+                    original and brilliant idea for this program.
+1.1   24-May-1997   Save settings automatically on Windows shutdown 
+                    (Registered Users only).
+                    Start Minimised if set in Shortcut / settings
+                    (Registered Users only).  
+                    Improve application startup - size and position 
+                    form before user sees it.
+                    Put a Status Bar at the bottom of the Main 
+                    Window to hold Icon & object tool tips.
+                    Add in Menu items for viewing my Shareware 
+                    Catalog, Readme file, and Registration Form.
+1.2   13-Jun-1997   Save Window Height and Width on exit, and 
+                    enable Main Window to be resized.
+                    Build a 32 bit version for Windows 95 / NT
+                    which enables Long File Names to be used, and
+                    also enables File Usage Monitor to be placed
+                    on the Icon Tray.
+                    Make the "Add Files to be Monitored" button
+                    multi-select, so you can add many files at once.
+                    Add in a "Reset Usage" for all files button.
+1.3   11-Jan-1998   Fix a long standing but very elusive problem
+                    to do with "DateEncode" errors which occured
+                    on some machines under some conditions.
+                    Once I could replicate the error, it was
+                    reasonably straight forward to get a workaround
+                    for what was another bug in Delphi.
+                    (3,216 lines of code / comments.)
+
+1.4   18-Jul-2000   Add in the ability to Pause logging if a certain
+                    period of mouse inactivity is encountered.
+                    (Added in specially for Mark Radford).
+                    (6,691 lines of code / comments.)
+
+1.5  17-Apr-2001    Add in support for "Big Fonts" and "Other Sized Fonts" - 
+                    with these Windows resizes the windows automatically - 
+                    but only sometimes and it doesn't always do it right, 
+                    so now I make sure my main window is the right size 
+                    before doing any scaling, etc.  i.e. I make it fit the 
+                    component(s) that extend the furthest right and 
+                    furthest down the form.   See the  Start Menu -> 
+                    Settings -> Control Pannel -> Display -> Settings 
+                    Tab -> "Advanced" button -> "General" tab for 
+                    your PC's settings in this area.
+                    Bring program up-to-date with my latest code libraries.
+                    (8,381 lines of code / comments.)
+
+1.5b  20-Nov-2002   Bring the program up to date with my latest code libraries.
+                    Registered Users - please contact me via email.
+                    (28,694 lines of code / comments.)
+
+1.5f  3-Sep-2007    This program is now FREEWARE - see "Freeware Information"
+                    above.
+
+
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this 
+program is available from my WEB page - see below.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://move.to/moose
+____________________________________________________
+ 

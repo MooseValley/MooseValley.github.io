@@ -1,0 +1,286 @@
+ 
+Key Stroke Recorder		Copyright (C) Moose O'Malley, 
+-------------------		September 2007.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Why I wrote this program ?  What can it do ?
+   | * Installing and Using this Program
+   | * Uninstalling this Program
+   | * The Future
+   | * Reviews / Awards / CDs
+   | * Freeware Information
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+Key Stroke Recorder for Windows 95, 98, ME, NT, 2000, XP, etc.
+
+This program is free software.  Anyone - any person, any company, 
+or any business - can use this program for free.  No fees or 
+payment is required.  See "Freeware Information" below.
+
+Key Stroke Recorder enables you to log all key presses 
+and mouse button clicks on your computer so you can keep track
+of what has been typed on your computer.
+
+This program might be useful for anyone who wants to check
+what someone is doing / typing on your computer.
+e.g. keep track of what your teenage kids are typing while 
+using the internet or any other programs.
+
+Developed using 32-bit Delphi.
+
+This program will **NOT** run under Windows 3.x  
+(even with Win32 installed).
+
+
+Why I wrote this program ?  What can it do ?
+--------------------------------------------
+
+If you are worried what your son, daughter, friend, spouse, 
+etc might be typing on your computer, or if you are worried
+about what the repair shop guys are using your computer 
+for when it goes in for repairs, or if you are worried that
+someone at work is using your PC after hours, then 
+Key Stroke Recorder can help log what people do on your 
+computer so that you can view this log later on and either
+dismiss or confirm your fears.
+
+However, there are some things you need to understand.
+
+Note Very Well :
+
+1. This program is a Key Stroke Recorder, so all it logs at 
+   the moment is that (for example) the "A" key was pressed - not 
+   that the Caps Lock or Shift key was used to produce "a" instead 
+   of "A".
+
+2. This program is a Key Stroke Recorder, so all it logs at 
+   the moment is that (for example) the "2" key was pressed - not 
+   that the Shift key was used to produce "@" instead of "2".
+
+3. This program does not produce formatted log files or logs
+   that accurately represent all of the input as it was typed in.
+
+   For example, if you are in a Word Processor and type "Moose " 
+   and then use the mouse to select another part of the document,
+   and you type "is cute", then the log will contain :
+   "MOOSE IS CUTE" as if it was all typed at one time on the same line.
+
+   Or, if you have Mouse Button Logging turned on, then the
+   log will contain : "MOOSE <LEFT Mouse> IS CUTE" as if it was 
+   all typed at one time on the same line.
+
+4. The Delete and Backspace keys do not delete characters from the log.
+   So, if I type "Moose" and press the <BackSpace> key, then the
+   log will contain : "MOOSE", or if you have "Log Non-Alphanumeric 
+   Key Strokes" turned on, then the log will contain : 
+   "MOOSE <Backspace Key>".
+
+It is important that you understand the above.
+
+This program simply logs keystrokes as they happen.
+
+This program is not magical and it cannot reproduce the context 
+that the key strokes were used it or where or in what application 
+or in what document / file they were typed.
+
+So, this log may or may not accurately reflect what work the user
+performed on a document or file, because they may have been 
+typing bits of text in at various points within that document
+or within various documents / files.
+
+
+Installing and Using this Program :
+-----------------------------------
+
+To use this program, unzip the contents of the ZIP file to a 
+directory - such as c:\Key_Stroke\ - and run the executable 
+file : Key_Stroke_Recorder.EXE.
+
+When the program runs, it will be minimised and it will 
+put an icon in the Windows Tray bar (with the Clock, etc) 
+which you can click on with the mouse to bring up the 
+program's main windows, view the key strokes log, etc.
+
+If you want the program to run automatically when Windows
+starts up, then select this option under the "File" menu
+in the program.
+
+Advanced users may appreciate the Basic Stealth Options, 
+on the "Settings" tab.  For example:
+
+1. You can change the program's title to 
+something less obvious or suspicious.  e.g. you could
+change the program's name to "My Diary" or "Windows System 
+Monitor" or something.
+
+2. You can also add a password so that if someone clicks 
+on the program's icon in the Windows Tray bar then they 
+will not be able to see the log or use any of the program's 
+functionality until they enter the password.
+
+I hope you find the program easy to use and useful.
+
+
+Uninstalling this Program :
+---------------------------
+
+At the  present time, there is No Uninstall function.
+
+If you ever want to delete Key Stroke Recorder 
+from your computer, then :
+
+ 1. Exit the program, and delete it from wherever you installed
+    it on your harddrive.
+
+Simple as that !
+
+
+The Future :
+------------
+
+Like all of my programs, I've got tons of ideas for this 
+program.
+
+But in this case, ofcourse, I will be very cautious in what 
+features I add because I don't want to do anything to help 
+any hackers / crackers or anyone else out there abuse or 
+misuse this program.  e.g. record passwords or information
+that they have no right to record or log or view.
+
+So, I will be very careful in providing any functionality 
+that might allow damage to be done in the wrong hands.
+
+To put it bluntly, I will not make it easier for evil people 
+to rip off or snoop on good people.
+
+In the future, many improvements could be made to this program,
+such as :
+
+- Separation and correct logging of Uppercase and Lowercase letters.
+
+  N.B.  This program is a Key Stroke Recorder, so all it logs at 
+  the moment is that (for example) the "A" key was pressed - not 
+  that the Caps Lock or Shift key was used to produce "a" instead 
+  of "A".
+
+- Separation and correct logging of Shifted-Characters.  
+  e.g. !, @, #, instead of 1, 2, 3.
+
+  N.B.  This program is a Key Stroke Recorder, so all it logs at 
+  the moment is that (for example) the "2" key was pressed - not 
+  that the Shift key was used to produce "@" instead of "2".
+
+- Password protection / encryption of the log file.
+
+- Ability to limit the log file to a certain size or to a certain 
+  number of lines.
+
+- Better password protection of the program.  So, that no-one can close
+  the program down unless they type the correct password.
+
+- More / Advanced Stealth Mode Options - so that the program does 
+  not appear in the Windows Task List or on the Windows Task Bar 
+  or the application / process list.  i.e. people using your computer 
+  will not know that this program is running or logging their 
+  key strokes.
+
+  N.B.  I can do this quite easily - but it scares the hell 
+  out of me so much that I will probably never release a program 
+  that does this because then this program could far more easily 
+  be used for evil.
+
+- Add in ability to only log selected users of your computer.
+  e.g. If Moose logs onto your computer, then log his actions, etc.
+  (This will mean that you will need to force users to log in when
+   Windows starts up).
+
+- Ability to save the log file every few minutes or so.  So, that if 
+  the user switches off the PC without shutting down Windows, then
+  the log file will contain all but the very latest key strokes.
+
+- Ability to change the program's icon.  (At the moment, I have set 
+  this to a Report Format icon - which is pretty inocuous and should
+  not reveal the program's true functions.
+
+- Anything else ?
+
+If you would like any of these improvements, or would like to
+suggest more, please email me and let me know.
+
+How much more work I do on this program depends entirely on
+what support I get, how many people use the program, etc.
+
+
+Reviews / Awards / CDs :
+-------------------------
+
+None so far.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.  
+
+Anyone - any person, any company, or any business - can 
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please 
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select 
+the "About" option under the Help menu, and then click 
+the PayPal link on the "About" screen).
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know.
+
+
+Amendment History :
+-------------------
+
+Vers    Date        Description
+
+1.0  06-June-2002   First Public Release.
+                    (22,624 lines of code / comments.)
+
+1.01 11-Sep-2002    Fix a small issue with the Registration Functionality.
+                    Bring the program up to date with my latest code libraries.
+                    (22,966 lines of code / comments.)
+
+1.01b 20-Nov-2002   Bring the program up to date with my latest code libraries.
+                    Registered Users - please contact me via email.
+                    (33,243 lines of code / comments.)
+
+1.01f  3-Sep-2007   This program is now FREEWARE - see "Freeware Information"
+                    above.
+
+
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this 
+program is available from my WEB page - see below.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://move.to/moose
+____________________________________________________
+ 

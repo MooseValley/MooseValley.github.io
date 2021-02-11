@@ -1,0 +1,256 @@
+ 
+Quiz Master			Copyright (C) Moose O'Malley, 
+-----------			September 2007.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Using this Program
+   | * Question and Answer File Format
+   | * Quiz Results File Format
+   | * The Future
+   | * Reviews / Awards / CDs
+   | * Freeware Information
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+Quiz Master for Windows 95, 98, NT, 2000, XP, etc.
+
+This program is free software.  Anyone - any person, any company, 
+or any business - can use this program for free.  No fees or 
+payment is required.  See "Freeware Information" below.
+
+Quiz Master is a program that enables you to easily set-up 
+quizes - either for fun, or to test or build knowledge of 
+particular subject areas, or to help with assessment of 
+student / employee achievement.
+
+Quiz Master enables you to specify :
+- The Questions to be asked.
+- The list of possible answers, along with the correct answer.
+- The time allowed to answer each question, so that
+  difficulty questions can be allocated more time.
+- The score (or weighting) of questions, so that harder 
+  questions can be made to be worth more.
+
+Included with the program is a set of 45 Sample Questions,
+but many more questions will be made available in the future.
+At the moment, I am working on a set of 1,600 questions !!
+These will be available to Registered Users only.
+
+
+Using this Program :
+--------------------
+
+To use this program, unzip the contents of the ZIP
+file to a directory - such as c:\quizmstr - and run
+the executable file quizmstr.EXE.
+
+In the registered version of this program, you can 
+setup your own Quiz Question and Answers.
+(See below for further information).
+
+
+Question and Answer File Format :
+----------------------------------
+
+The following explains the format of the Question and Answer
+file.
+
+Comment Lines :
+
+! -  Any lines starting with an exclamation mark (!) are 
+     treated as comments and ignored.
+
+Each Question must consist of :
+
+Q::  The Question to be asked.
+A::  Answer - with possible answers seperated by '::'
+     N.B. The first answer in the list must be the correct one !
+
+Each Question may also have the following optional
+settings :
+
+S::  Score or weighting for the question (1 to 100).
+     e.g. 1 = Easy, 10 = Hard.
+     (If this parameter is not supplied, the default = 1
+      but Registered Users can change this on the
+      Settings Screen.)
+T::  Time limit for the question in seconds.
+     0 indicates no time limit.
+     (If this parameter is not supplied, the default = 5
+      but Registered Users can change this on the
+      Settings Screen.)
+
+In addition, "QT::: is used to hold the Quiz Title (only one 
+per quiz), for example :
+
+QT::General Knowledge Quiz
+
+Example :
+
+QT::General Knowledge Quiz
+Q::What is the capital of France ?
+A::Paris::Berlin::London::Prague
+S::1
+T::0
+Q::If 3 Men can move 7 tonnes of gravel in a 8 hours, how long would it take 11 Men to move the same amount of gravel ?
+A::3.2 Hours::3.5 Hours::3 Hours::8 Hours
+S::5
+Q::Which Day Is Named After A Planet ?
+A::Saturday::Monday::Wednesday::Friday
+T::3
+Q::What Is The Larva Of The Fly Called ?
+A::Maggot::Grub::Wiggler::Flyet
+
+
+Quiz Results File Format :
+-----------------------
+
+The Quiz Results File is written with one student result 
+record on each line of the file, and with the information 
+in each record seperated by commas to enable easy importing 
+into Excel, Lotus 1-2-3, Quatro Prom or just about any other 
+Spreadsheet.
+
+The comma seperated fields of each student result record 
+consist of :
+- Surname,
+- First Name,
+- Date that the quiz was attempted,
+- Start Time,
+- End Time,
+- Ellapsed Time taken to complete the quiz (in Seconds).
+- Overall Result %.
+
+Example :
+O'Malley,Moose,22/11/1999,13:58:58,13:59:32,33.5,90%
+
+
+Limitations / Restrictions of the Shareware version :
+
+
+The Future :
+------------
+
+In the future, many improvements could be made to this program,
+such as :
+- Ability to specify Success Messages depending of quiz score.
+  (At the moment, these are fixed within the program).
+- Better / Flashier / More Exciting User Interface.
+- Encryption of the Question and Answer File.
+  (So students cannot peek at or alter the Questions or Answers).
+- Encryption of the Results Log File.
+  (So students cannot peek at or alter any results).
+- Ability to handle massive question lists - consisting
+  of 1,000's of questions.
+- Ability to have "Quick Fire" rounds where you try and 
+  answer as many questions as possible in 60 seconds.
+- Anything else ?
+
+If you would like any of these improvements, or would like to
+suggest more, please email me and let me know.
+
+How much more work I do on this program depends entirely on
+what support I get, how many people use the program, how many
+people have registered, etc.
+
+
+Reviews / Awards / CDs :
+-------------------------
+
+None so far.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.  
+
+Anyone - any person, any company, or any business - can 
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please 
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select 
+the "About" option under the Help menu, and then click 
+the PayPal link on the "About" screen).
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know.
+
+
+Amendment History :
+--------------------
+
+Vers    Date        Description
+1.0   22-Nov-1998   First Public Release.
+                    (Written especially for J. T. Lawson.)
+                    (5,280 lines of code / comments.)
+                    
+1.1  17-Apr-2001    Add in support for "Big Fonts" and "Other Sized Fonts" - 
+                    with these Windows resizes the windows automatically - 
+                    but only sometimes and it doesn't always do it right, 
+                    so now I make sure my main window is the right size 
+                    before doing any scaling, etc.  i.e. I make it fit the 
+                    component(s) that extend the furthest right and 
+                    furthest down the form.   See the  Start Menu -> 
+                    Settings -> Control Pannel -> Display -> Settings 
+                    Tab -> "Advanced" button -> "General" tab for 
+                    your PC's settings in this area.
+
+                    Bring program up-to-date with my latest code libraries.
+                    When the user select the "Settings" option from the 
+                    File menu, only display the "Get Extra Functionality 
+                    if you Register" dialog if the program isn't registered.
+                    Fix the "Edit Q&A" button - it was editing the Log file 
+                    prior to the fix.  Add in "Make Surname and First Name 
+                    Entry Mandatory Priot to Quiz" setting.
+                    Add in a Quiz Results Form, with a list of the questions 
+                    answered wrongly, along with the answeres selected.
+                    Add in a "QT::" symbol which enables you to set the title
+                    of the quiz from inside the quiz questions file.
+                    (9,390 lines of code / comments.)
+
+1.2  14-Mar-2002    Bring the program up to date with my latest code libraries.
+                    Brand New About Screen and associated functionality.
+                    Add in support for the Maximise icon in the top right 
+                    corner of the program's main window.
+                    Make the default time to answer a question 20 seconds,
+                    but ofcourse, you can override this using the T:: 
+                    parameter - see above.
+                    (21,756 lines of code / comments.)
+
+1.2b  20-Nov-2002   Bring the program up to date with my latest code libraries.
+                    (34,450 lines of code / comments.)
+
+1.2f  3-Sep-2007    This program is now FREEWARE - see "Freeware Information"
+                    above.
+
+
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this 
+program is available from my WEB page - see below.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://move.to/moose
+____________________________________________________
+ 

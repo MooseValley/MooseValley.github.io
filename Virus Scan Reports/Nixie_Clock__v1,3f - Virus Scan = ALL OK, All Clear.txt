@@ -1,0 +1,155 @@
+Nixie_Clock__v1,3f - Virus Scan = ALL OK, All Clear
+Nixie_Clock__v1,3f
+Nixie Clock (v1.3f)
+
+
+http://www.virustotal.com/en/file/a9643cb9e74a9118f8079420b7a579c5136c228fc3a17c91c8058e2d1714a02c/analysis/1421544889/
+
+SHA256: 	a9643cb9e74a9118f8079420b7a579c5136c228fc3a17c91c8058e2d1714a02c
+File name: 	Nixie_Clock__v1,3f.zip
+Detection ratio: 	0 / 57
+Analysis date: 	2015-01-18 01:34:49 UTC ( 1 minute ago )
+1
+0
+
+    Analysis
+    Additional information
+    Comments
+    Votes
+
+Antivirus 	Result 	Update
+ALYac 		20150117
+AVG 		20150118
+AVware 		20150118
+Ad-Aware 		20150118
+AegisLab 		20150118
+Agnitum 		20150117
+AhnLab-V3 		20150117
+Alibaba 		20150117
+Antiy-AVL 		20150117
+Avast 		20150118
+Avira 		20150117
+Baidu-International 		20150117
+BitDefender 		20150117
+Bkav 		20150117
+ByteHero 		20150118
+CAT-QuickHeal 		20150117
+CMC 		20150116
+ClamAV 		20150118
+Comodo 		20150118
+Cyren 		20150118
+DrWeb 		20150118
+ESET-NOD32 		20150118
+Emsisoft 		20150118
+F-Prot 		20150118
+F-Secure 		20150118
+Fortinet 		20150118
+GData 		20150118
+Ikarus 		20150117
+Jiangmin 		20150116
+K7AntiVirus 		20150117
+K7GW 		20150117
+Kaspersky 		20150118
+Kingsoft 		20150118
+Malwarebytes 		20150118
+McAfee 		20150118
+McAfee-GW-Edition 		20150118
+MicroWorld-eScan 		20150118
+Microsoft 		20150118
+NANO-Antivirus 		20150117
+Norman 		20150117
+Panda 		20150117
+Qihoo-360 		20150118
+Rising 		20150117
+SUPERAntiSpyware 		20150117
+Sophos 		20150118
+Symantec 		20150118
+Tencent 		20150118
+TheHacker 		20150117
+TotalDefense 		20150117
+TrendMicro 		20150118
+TrendMicro-HouseCall 		20150118
+VBA32 		20150116
+VIPRE 		20150118
+ViRobot 		20150117
+Zillya 		20150117
+Zoner 		20150116
+nProtect 		20150116 
+
+
+
+
+
+File identification
+MD5 9ac247569648b4aaba0cf81e2fc4bb51
+SHA1 66bf88f67d92fdc8794948add0be35c06fa68b1c
+SHA256 a9643cb9e74a9118f8079420b7a579c5136c228fc3a17c91c8058e2d1714a02c
+ssdeep
+12288:cVXNmohok7wnr7pooQ8IbMGuZQrx4/Jf60TL2eXSkWIxbWCNOg0cOsG43L4BN:cVXIk7wn5/Q3YB66GRuyCN5xYN
+
+File size 607.0 KB ( 621568 bytes )
+File type ZIP
+Magic literal
+Zip archive data, at least v2.0 to extract
+
+TrID 	ZIP compressed archive (100.0%)
+Tags
+zip
+
+VirusTotal metadata
+First submission 2015-01-18 01:34:49 UTC ( 5 minutes ago )
+Last submission 2015-01-18 01:34:49 UTC ( 5 minutes ago )
+File names 	Nixie_Clock__v1,3f.zip
+Advanced heuristic and reputation engines
+ClamAV PUA
+Possibly Unwanted Application. While not necessarily malicious, the scanned file presents certain characteristics which depending on the user policies and environment may or may not represent a threat. For full details see: http://www.clamav.net/doc/pua.html .
+
+Symantec reputation Suspicious.Insight
+ExifTool file metadata
+MIMEType
+application/zip
+
+ZipRequiredVersion
+20
+
+ZipCRC
+0x32de27df
+
+FileType
+ZIP
+
+ZipCompression
+Deflated
+
+ZipUncompressedSize
+31859
+
+ZipCompressedSize
+11220
+
+FileAccessDate
+2015:01:18 02:34:53+01:00
+
+ZipFileName
+catalog.txt
+
+ZipBitFlag
+0
+
+FileCreateDate
+2015:01:18 02:34:53+01:00
+
+ZipModifyDate
+2007:09:18 10:49:16
+
+
+
+
+
+Comments
+
+Downloaded from my web site: http://moosevalley.fhost.com.au/
+I am super paranoid about security and all of my PCs are subject to the highest levels of security, so you can rest assured that there are no viruses or malware in any of the software I provide on my web site, as confirmed by this VirusTotal analysis. :)
+Moose
+Posted 0 minutes ago by Moose Delete
+

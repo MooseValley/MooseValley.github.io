@@ -1,0 +1,620 @@
+ 
+File Patcher			Copyright (C) Moose O'Malley, 
+------------			September 2007.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Using File Patcher : Process / Apply Patches
+   | * Using File Patcher : Generating a Patch File
+   | * Dragging and Dropping Files and File Patcher
+   | * Patch File Formats
+   | * Canned Patch File Format
+   | * OK, so where are the "Patches" ?
+   | * OAQ - Occassionally Asked Questions
+   | * The Future
+   | * Reviews / Awards / CDs
+   | * Freeware Information
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+File Patcher for Windows 95, 98, ME, NT, 2000, XP, etc.
+
+This program is free software.  Anyone - any person, any company, 
+or any business - can use this program for free.  No fees or 
+payment is required.  See "Freeware Information" below.
+
+File Patcher is a utility that enables you to :
+
+1. Modify a file according to the parameters and values 
+   held in a special patch file.  So :
+
+   Original File + Patches = Updated File
+
+2. Compare two files and generate another file describing
+   the differences between the two files (i.e. generate a
+   patch file).  This patch file can then be used to generate
+   the second file from the first at any time in the future.
+   (See option 1 above).  So :
+
+   Compare Original File and Updated File => List of Patches
+
+For example, the game Joust, that comes with Williams Arcade 
+Classics, can be modified to enable the famous Pterodactyl Bug 
+by applying over 180 modifications to the Joust.EXE file.
+
+Clearly doing these modifications by hand with a Nibble Editor
+or similar would be extremely time consuming and error prone.
+
+File Patcher enables you to overcome these problems by automating 
+the process - provided you have a file listing the required patches.
+Also, many other games and applications can be modified and 
+improved by applying changes to the EXE / COM or data files.
+As an example of why these file patches are useful, consider
+Microsoft Windows, Microsoft Office, or similar applications,
+or games (such as Quake, etc).  When released these programs
+all contain errors, so instead of sending everyone replacement
+CDs so that they can install the fixed software, companies
+instead release patches.  These patches contain the changes
+to files and are generally much smaller than if you had to
+download or re-install the whole program over again.
+
+File Patcher is a program that could be used to apply
+such patches to already installed software.
+
+File Patcher is developed using 32-bit Delphi.
+
+File Patcher will **NOT** run under Windows 3.x
+(even with Win32 installed) !!
+
+
+Using File Patcher : Process / Apply Patches
+----------------------------------------------
+
+Select files to process.  i.e. File prior to Patching 
+and the File after Patching :
+
+1. by clicking on the buttons next to the entry boxes for 
+   these items, or, 
+
+2. by typing in the drives, paths, and names directly, or,
+
+3. by dragging and dropping files from explorer (see 
+   "Dragging and Dropping Files and File Patcher" below), or,
+
+4. by using the "Select ..." options under the File menu, or,
+
+5. by selecting a "Canned" patch (if you have already set this 
+   up) using the "Select Canned Patch" button.
+
+Next, select a Patch Data File - which is a text file 
+which already contains the patches to apply to the file to
+be patched.
+
+Press the "Process / Apply Patches" button, and that's it - 
+it is that easy !
+
+
+Using File Patcher : Generating a Patch File :
+----------------------------------------------
+
+Select files to compare.  i.e. File prior to Patching 
+and the File after Patching :
+
+1. by clicking on the buttons next to the entry boxes for 
+   these items, or, 
+
+2. by typing in the drives, paths, and names directly, or,
+
+3. by dragging and dropping files from explorer (see 
+   "Dragging and Dropping Files and File Patcher" below), or,
+
+4. by using the "Select ..." options under the File menu.
+
+Next, select a Patch Data File - which is a text file 
+which will contain the differences between the files.
+
+Press the "Generate Patch File" button, and that's it - 
+it is that easy !
+
+
+Dragging and Dropping Files and File Patcher :
+-----------------------------------------------
+
+You can also Drag and Drop of files from Windows Explorer.
+
+This Drag and Drop works in 2 ways :
+
+1. You can drag and drop a single file onto the File prior 
+   to Patching, File after Patching, and Patch Data File
+   edit boxes.
+
+2. You can also drag one or more files to File Patcher's window
+   (Not to one of the edit boxes) and they will be placed into
+   each edit box.
+
+So, if you want to drag 2 or 3 files at once, drag them onto 
+File Patcher's window.  If you want to drag and drop single files,
+then drag and drop them onto the individual edit boxes.
+
+This provides maximum flexibility to users.
+
+
+Patch File Formats :
+--------------------
+
+The format of the individual Patch file (not the Canned 
+Patch File - which is discussed below) is 3 Hexadecial 
+numbers (with $ prefixes) : the Offset, the Old Value, 
+and the New Value seperated by spaces as follows :
+
+- $11856 $20 $49
+  $11857 $99 $4E
+  $11858 $67 $43
+
+But, as long as there are spaces between the $ prefixed numbers,
+then many other combinations will work as well, and
+any labels in between will be ignored, such as :
+
+- Offset $11856: From $20 To $49
+  Offset $11857: From $99 To $4E
+  Offset $11858: From $67 To $43
+
+- Offset= $11856   Old Value= $20   New Value= $49
+  Offset= $11857   Old Value= $99   New Value= $4E
+  Offset= $11858   Old Value= $67   New Value= $43
+
+would all work fine as well.
+
+The dollar signs followed by hexadecimal numbers - in the 
+order offset, old value, new value - are what is 
+important - the rest is all ignored.
+
+If the Old Value does not match the value at the specified
+OffSet that is about to be changed (patched), then warning 
+messages will be displayed to you.
+
+Lines starting with the characters ";", "!", or "#"
+are assumed to be comment lines and will be ingored.
+
+Counts of Characters processed, Patches Processed, Patches
+Successful, and Patches Mismatched are mainted during the
+Patch process.
+
+
+Canned Patch File Format :
+--------------------------
+
+"Canned" Patches need to be stored in a file called 'patches.ini'.
+
+This "Canned" Patch file can contain one or more pre-prepared 
+patches.  i.e. they are all stored within a single file and can 
+be selected and applied to files without having to have separate 
+patch files.
+
+This makes managing patches easier.
+
+The Canned Patch file's format is an extension of the above
+Patch File Format, and consists of the following :
+
+- the name of the patch inside square brackets.
+  For example :
+
+  [Upgrade Ram Swap v2.9 - 3.0]
+
+- Followed by the name of the Executable or file to patch.
+  For example :
+
+  File_to_Patch=ram_swap.exe
+
+- The CRC32 checksum of the file to be patched.  This is optional.
+  If you don't know or want to list the checksum, just set this to 0.
+  For example :
+
+  CRC32_Check=0
+
+- Followed by a whole series of patches to apply to the file.
+  For example :
+
+  Offset= $11856   Old Value= $20   New Value= $49
+  Offset= $11857   Old Value= $99   New Value= $4E
+  Offset= $11858   Old Value= $67   New Value= $43
+
+- If you want to insert comments into the file, the
+  any lines starting with an exclamation mark (!)
+  will be ignored and treated as comments.
+
+So, if we had multiple patches within the patches.ini file
+then the file might look like this :
+
+[Upgrade Ram Swap v2.9 - 3.0]
+!
+!  Upgrade the Executable File.
+!
+File_to_Patch=ram_swap.exe
+CRC32_Check=0
+! Change the About Screen ...
+Offset= $11856   Old Value= $20   New Value= $49
+Offset= $11857   Old Value= $99   New Value= $4E
+Offset= $11858   Old Value= $67   New Value= $43
+! Change the main Window ...
+Offset= $192D88: From $50 To $43
+Offset= $192D89: From $6C To $44
+Offset= $192D8A: From $65 To $20
+
+[Correct MCorp Financial Report]
+!
+!  Fix some wrong figures in the document.
+!
+File_to_Patch=MCorp_FinReport.doc
+CRC32_Check=32AC1
+Offset= $192DA1: From $78 To $20
+Offset= $192DA2: From $AE To $21
+Offset= $192DA4: From $43 To $20
+Offset= $192DA5: From $61 To $50
+Offset= $192DA6: From $74 To $72
+
+! Etc for other patches in the file.
+
+
+In this way, you can build up a whole selection of patches 
+within an easily maintainable text file (patches.ini).
+
+
+OK, so where are the "Patches" ?
+---------------------------------
+
+OK, Moose, I like the look of File Patcher, but I can't use 
+it without patches.  Where can I get patches ?
+
+Sorry my friend, I cannot provide patches, because these 
+could fall into the wrong hands and/or be misused or 
+abused by some people.
+
+Such patches could be misused by some people to "crack" games 
+or programs that people don't legally own.  
+
+This could land me in hot water and could hurt my fellow 
+software developers.
+
+Neither of which I will do or allow.
+
+As such, I will NEVER provide any patches - other than patches
+to my own software - to anyone under any circumstances.
+
+Any emails requesting patches will be deleted on sight !
+
+My primary aim for File Patcher is to allow other people to 
+generate update patches for programs they develop or documents 
+they write.  Then, they can then release a patch for their 
+work instead of a new big download.   Virtually all software 
+companies release patches / updates for their games / 
+applications / operating systems, etc that they develop and 
+sell.  
+
+Generating patch files or patch updates or programs to apply 
+these patches could be very time consuming.
+
+File Patcher is a program specifically written to help people 
+with this.
+
+Also, I use File Patcher personally to help me to remove the 
+
+
+
+CD Checks from games I have purchased so that I can play games 
+without the CD in the drive.  I hate having to put the CD in 
+the drive everytime I play a game.  I much prefer to install 
+the game and stick the CD back in the box and put it back 
+in my bookcase where it is safe.
+
+File Patcher can also be used to help me patch my software
+to provide this benefit.
+
+
+OAQ - Occassionally Asked Questions :
+--------------------------------------
+
+Q. Moose, I need a patch for XYZ.  Can you help ?
+A. No.  I will never supply patches to anyone under 
+   any circumstances.
+
+Q. Moose, I own game XYZ, but I hate having to stick the CD 
+   in the drive to play it, and I hate downloading cracks, and 
+   I am too lazy to learn assembler.  Can you help ?
+A. No.  I will never supply patches to anyone under 
+   any circumstances.
+
+   If you want to remove the CD check from your own games, then
+   buy a dissassembler and learn how to program in assembler.
+   (It isn't particularly hard - for some games anyway ...)
+
+   Or, failing that, if you are too lazy to do this, then you could 
+   always download a "crack" off the internet and patch your games 
+   that way.  THIS IS NOT RECOMMENDED.
+
+   WARNING: Cracks downloaded from the internet may contain viruses 
+            or trojans.  Using these is NOT RECOMMENDED.  EVER !!
+
+   My advice - learn assembler and learn to patch your own programs, 
+   or else just keep sticking the CD in the drive.
+
+   Hunting for the CD and putting in the drive is 30 seconds of 
+   work, but this is infinitely better than recovering from a 
+   virus or trojan attack !!!
+
+Q. Moose, I have a program which has a trial period, or
+   is limited to a certain number of runs, or is crippled
+   because it's shareware and I don't want to pay for it.
+   Can you help ?
+A. No.  I will never supply patches to anyone under 
+   any circumstances.
+
+   I will never hurt my fellow software developers.
+
+   I will never help anyone rip of a fellow shareware author.
+
+Q. Moose, can you teach me assembler ?
+A. No.  I know enough assembler to almost get by, so I would 
+   not be a good teacher of assembler.
+
+Q. Moose, can you teach me how to remove the CD Check 
+   from games ? (I own them all, I promise !!)
+A. No, No, NO !  I will never help anyone do anything suspect 
+   or anything that could be misued or abused by others or
+   anything that might harm my fellow software developers.
+
+I hate having to put the CD in the drive everytime I play 
+a game, so I analyse code and work out what's happening
+and remove the CD check for games I own.  
+
+But, I will not help others learn how to do this, because 
+this knowledge may be misused or abused.  
+
+Nor will I provide patches to do this under any curcumstances.
+
+I hope this is clear.
+
+
+The Future :
+------------
+
+In the future, many improvements could be made to this program,
+such as :
+
+- When generating patches, the files being compared must be the same size.
+  Improve the program in the future so that this does not need 
+  to be the case.
+
+  (Although to be honest, this does worry me - more damage / misuse
+  could happen if I ever enabled this functionality ...)
+
+- If you want to generate patches or apply patches on / to multiple files, 
+  this this is currently a laborious task, as you need to select each 
+  file and the patch file individually and generate or apply patches.  
+  Adding in a batch mode to handle groups of files could be very useful.
+
+- Allow the patches to be processed out of order.  At the moment, the 
+  patches need to be in the patch file in the order in which they 
+  are located in the file.  I don't know why, and no-one has asked for 
+  this, but some people might like to process patches in random order 
+  or something else rather than the current sequential order.
+
+- Allow Canned Patches over multiple target files - rather than one 
+  target file per patch.
+
+- Anything else ?
+
+If you would like any of these improvements, or would like to
+suggest more, please email me and let me know.
+
+How much more work I do on this program depends entirely on
+what support I get, how many people use the program, how many
+people have registered, etc.
+
+
+Reviews / Awards / CDs :
+-------------------------
+
+None so far.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.  
+
+Anyone - any person, any company, or any business - can 
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please 
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select 
+the "About" option under the Help menu, and then click 
+the PayPal link on the "About" screen).
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know.
+
+
+Amendment History :
+--------------------
+
+Vers    Date        Description
+
+1.1     01-Dec-96   First Public Release.
+
+1.2     09-Jan-97   Enable Double Click on FileName box to select file,
+                    and add in Input File and Patch File select buttons.
+
+1.3     27-Jan-97   Add in Registration functionality.
+
+2.0     07-Jul-97   Save settings automatically on Windows 95 shutdown 
+                    (Registered Users only).
+                    Start Minimised if set in Shortcut / settings
+                    (Registered Users only).  
+                    Improve application startup - size and position 
+                    form before user sees it.
+                    Add in Menu items for viewing my Shareware Catalog, 
+                    the Readme file, and the Registration Form.
+
+2.1     11-Jan-98   Fix a long standing but very elusive problem
+                    to do with "DateEncode" errors which occured
+                    on some machines under some conditions.
+                    Once I could replicate the error, it was
+                    reasonably straight forward to get a workaround
+                    for what was another bug in Delphi.
+                    (3,131 lines of code.)
+
+2.2   22-Nov-2001   Add functionality into File Patcher to enable it to
+                    generate Patch files as a result of comparing a file
+                    with its modified / altered form.
+                    Allow the user to choose what labels to insert
+                    into the generated patch file.
+                    Extend the program so that it can process any number of
+                    patches, and make other enhancements - change cursor
+                    to hour-glass during processing, etc.
+                    Use the directory for the current file as the default.
+                    Comma seperate thousands in all sizes and values displayed.
+                    Add in Form and Component Scaling when the program's
+                    main window is resized.
+                    Add Restore Factory Defaults, Always on Top, and Auto-Run
+                    at Windows Startup options to the File menu.
+                    Add in support for "Big Fonts" and "Other Sized Fonts".
+                    Bring the program up to date with my latest code libraries.
+                    Brand New About Screen and associated functionality.
+                    Add in support for the Maximise icon in the top right
+                    corner of the program's main window.
+                    This program is now for 32 bit Windows or later.  
+                    e.g. Windows 95, 98, ME, NT, 2000, etc.
+                    i.e. Windows 3.x is no longer supported.
+                    (9,643 lines of code / comments.)
+
+2.3  29-Dec-2001    Been doing a lot of File Patching lately - e.g. removing 
+                    the CD checking for my new Christmas PC Games ;)  So I
+                    have added some improvements in to File Patcher,
+                    which has been getting a hell of a work out lately.
+                    The default file access method is now Memory Streams
+                    which are about faster and better than the Block Read 
+                    methods I was using.  (You can still use this though - 
+                    see the Settings tab).
+                    Work around a bug in the 32 bit version of Delphi which 
+                    returns an End-of-File (EOF) character for every single 
+                    read operation after an EOF file has been encountered, 
+                    even when there is more (non-EOF) data in the file.
+                    (Binary files may contain multiple where EOF characters 
+                    - anywhere in the file).
+                    Add in a Halt processing button - which can be useful
+                    when you want to quit processing big files.
+                    Numerous little interface improvements.  e.g. images on 
+                    buttons, tidying up the labels, tabs, etc.
+                    (10,210 lines of code / comments.)
+
+3.0  16-Jan-2002    Big changes - and the program's code has increased by 50% -
+                    for this release !!!
+                    Add the ability to handle "Canned" Patches in 'patches.ini'.  
+                    i.e. a selection of pre-prepared patches that are all stored 
+                    within a single file and can be selected and applied to files 
+                    without having to have separate patch files.
+                    Add loads of additional information into this text file.
+                    Add in "OK, so where are the 'Patches' ?" section above.
+                    Add in "OAQ - Occassionally Asked Questions" section above.
+                    Add in "Using File Patcher : Process / Apply Patches" section above.
+                    Add in "Using File Patcher : Generating a Patch File" section above.
+                    Add in "Dragging and Dropping Files and File Patcher" section above.
+                    Add in "Canned Patch File Format" section above.
+                    Enable Drag and Drop of files from Windows Explorer.
+                    This Drag and Drop works in 2 ways :
+                    1. You can drag and drop a single file onto the File prior 
+                       to Patching, File after Patching, and Patch Data File
+                       edit boxes.
+                    2. You can also drag one or more files to File Patcher's window
+                       (Not to one of the edit boxes) and they will be placed into
+                       each edit box.
+                    This provides maximum flexibility to users.
+                    (15,035 lines of code / comments.)
+
+4.0  9-Aug-2002     Add in "Reverse a Patch" functionality, so you can generate
+                    the original file from the patched file and the patches
+                    applied to it from the patch file.
+                    Cater for blank lines in the patch file.
+                    Write comments containing File Patcher's name and version 
+                    number, my web page's URL, and also list the file names 
+                    being compared to the top of the patch file.
+                    ESCape key now closes dialogs as you would expect.  
+                    e.g. About Form, etc.
+                    Add in "Add to List of Canned Patches" button / functionality.
+                    Speed up the generation / processing of patch files enormously
+                    by updating the screen every 100,000 characters instead of every 
+                    100 characters.
+                    Enable the user to disable the calculating of checksums when 
+                    Generating Patches - this can speed up processing when
+                    dealing with massive files.  e.g. I have been dealing with 700 MB
+                    files a lot lately - patching and repairing them because they 
+                    were damaged in my backup archive.
+                    Bring the program up to date with my latest code libraries.
+                    (31,398 lines of code / comments.)
+
+4.1  1-Sep-2002     Add in a button to enable you to view / edit the Canned Patches
+                    File (patches.ini) in Notepad.
+                    Change the format of Canned Patches File (patches.ini) slightly 
+                    by adding an exclamation point to the start of two fields 
+                    as follows :
+                        File_to_Patch  ->  !File_to_Patch
+                        CRC32_Check    ->  !CRC32_Check
+                    There is only 1 registered user of this program, and I have emailed 
+                    him and offered to convert his patches.ini file for him to the new 
+                    format.  The rest of you freeloaders can do it yourselves !!  ;)
+                    Bring the program up to date with my latest code libraries.
+                    (31,586 lines of code / comments.)
+
+4.2  25-Oct-2002    Fix the checksumming and comparison of *HUGE* files - you 
+                    can now checksum or compare or process files of any size
+                    regardless of the amount of free memory your PC has.
+                    Add in a progress bar for the progress in checksumming 
+                    each file.
+                    Add in an additional file processing method (FileStreams)
+                    behind the scenes and make this *the* method - it is the best 
+                    all round method for processing files.
+                    (Disable Block Read/Write and Memory Stream methods).
+                    Add in some extra validation / checks.
+                    Improve some error / warning / confirmation dialogs.
+                    Streamline large chunks of code and remove some duplication.
+                    Add a "View Patch file" button.
+                    Bring the program up to date with my latest code libraries.
+                    (37,288 lines of code / comments.)
+
+4.2b  20-Nov-2002   Bring the program up to date with my latest code libraries.
+                    Registered Users - please contact me via email.
+                    (41,934 lines of code / comments.)
+
+4.2f  3-Sep-2007    This program is now FREEWARE - see "Freeware Information"
+                    above.
+
+
+If this program was not downloaded from my Home Page, then
+it is most likely an old version.  The latest version of this 
+program is available from my Home page and its mirrors.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://move.to/moose
+____________________________________________________
+ 

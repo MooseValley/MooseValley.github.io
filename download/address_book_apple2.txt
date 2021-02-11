@@ -1,0 +1,51 @@
+----------------------------------------------
+               Address Book
+----------------------------------------------
+             Apple ][ Version
+         By Michael O'Malley - 1982
+----------------------------------------------
+
+Copyright (C) Moose O'Malley, 1982-2002.
+
+This ZIP file contains a disk image of a program
+called Address Book - a program I wrote way back 
+in 1982 on my Apple ][ computer.
+
+This Apple ][ version is FREEWARE - please feel free 
+to copy it, distribute it, and use it in any way you 
+like.
+
+This program is *extremely* limited, but someone might
+find it useful.
+
+
+Using this Program :
+---------------------
+
+Unzip the disk image to wherever you have installed your 
+favourite Apple 2 emulator, and you can then run it with 
+the emulator. 
+
+Check out my Apple 2 Emulation pages for more 
+information / links :
+
+	http://move.to/moose
+
+
+Apple ][ Emulators :
+---------------------
+
+Apple ][ emulators and other disk images can be downloaded 
+from :
+
+	ftp://ftp.apple.asimov.net/pub/apple_II// 
+
+
+Enjoy !
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://move.to/moose
+____________________________________________________
+ 

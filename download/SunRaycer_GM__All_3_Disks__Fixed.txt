@@ -1,0 +1,116 @@
+Begin3
+Title:          GM Sunraycer - 3 Disks.  
+Author:         General Motors - PUBLIC Domain Software
+Version:        1987.
+Entered-date:   26-May-2005.
+Description:    100% working / fixed version of all 3 Sunraycer disks.
+                These disk images have been 100% checked and verified
+                and all work properly under AppleWin and ApplePC.
+Keywords:       Sunraycer Solar Race Construction Sun Solar Cell.
+Uploader:       moose AT move.to        (Mike "Moose" O'Malley - http://move.to/moose)
+                kulasoft AT verizon.net (Mike Ching - http://www.angelfire.com/hi/kulasoft/
+                thomas_lai2000 AT hotmail.com (Thomas Lai)
+Primary-site:   ftp.asimov.net /pub/apple_II/images/educational/
+                  67kB SunRaycer_GM__A_Solar_Triumph.zip
+                  72kB SunRaycer_GM__Racing_With_The_Sun.zip
+                  45kb SunRaycer_GM__Solar_Racer_Construction_Kit.zip
+Platform:       Apple ][/Apple ][+/Apple //e
+End
+
+Disk Information:
+
+SunRaycer_GM__A_Solar_Triumph.DSK
+SunRaycer_GM__Racing_With_The_Sun.DSK
+
+[ ] GM SUNRAYCER (double-sided, Public Domain, ~1987).
+In 1987, the General Motors Sunraycer was the winner out of 24 solar
+powered cars in a race across the continent of Australia. This program
+explains the principles of solar energy and the winning ideas used in
+designing the GM Sunraycer. You will also be given the opportunity
+to take the controls of the Sunraycer and try to qualify for the
+pole position in the race.  This software was made especially for
+Primary School students.
+
+
+SunRaycer_GM__Solar_Racer_Construction_Kit.DSK
+
+[ ] SOLAR RACER CONSTRUCTION KIT (Public Domain, ~1987).
+In this simulation, you build and test your own solar racer making the
+same types of decisions that the designers of the Sunraycer had to make.
+You choose the parts of your car (type of frame, battery/motor, and
+solar panel), then try out your racer on one of fourteen available
+test tracks in different kinds of weather.  This software was
+made especially for Secondary School students.
+
+
+Background Information : (short version !! ;) 
+
+For years I have been trying to play SunRaycer again under 
+emulation.  NONE of the disk images on Asimov or any other 
+sites worked with any Apple 2 emulators (and I have tried 
+new and old versions of just about everything out there - 
+AppleWin, Apple PC, Apple OASIS, MESS, etc, etc). 
+So, I assumed that the disk images were bad.
+
+In Feb, 2005, I stopped in on a round the world trip to visit 
+Mike Ching (from Kula Software - http://www.angelfire.com/hi/kulasoft/ )
+to pick up a copy of the working disks.  I also spent a few hours 
+trying to help Mike get his Apple <-> PC transfers setup and working, 
+but something fishy was going on, and ADT wasn't playing ball.
+
+When I got back home to Australia following this trip, I found that 
+my Apple ][c no longer worked.  After several months of trying to fix it - 
+reseating all of the socketable chips, replacing the Minitor BIOS with 
+the self-test version (thanks to David Wilson of Wollongong, Australia), 
+etc, etc - I still did not have a working Apple ][, so I could not 
+investigate or transfer the working SunRaycer disks.
+
+In the meantime, back in Hawaii, Mike Ching was having problems setting up 
+ADT on his Apple ][, so I sent him over my Apple ][ floppy disk containing 
+ADT, SST, Copy ][+, DDD, etc.  i.e. everything needed to transfer disk 
+images between the Apple ][ and the PC.  The disk image for this disk has 
+been available on Asimov since ~1999 :
+
+   ADT_SST_Copy_][+_DDD_BCopy_Locksmith_Autonum_Renum__Mooses_Disk.dsk
+
+Mike tried various methods to transfer the SunRaycer disks but the resulting 
+disk images would NOT work under emulation on the PC.  As an experiment, 
+he transferred working Sunraycer disks over to the PC as DSK 
+(not NIB via SST !!) and then back again to the Apple ][ as DSK, and 
+they booted fine on the Apple ][, but still would NOT work under any 
+of the Apple ][ emulators out there (AppleWin, Apple PC, Apple OASIS, 
+MESS, etc, etc) on the PC.
+
+So, the disks must be using some sneaky or undocumented feature at boot.
+
+There were 2 ways to fix this - fix the disk images or ammend the emulators 
+to support whatever is happening.  Seeing it is only 2 disks in this boat so 
+far, I reckoned that fixing the disks may be the easiest / fastest way forward.
+The emulators could wait until later.  The first step was to find what was going on.
+
+So, I posted a request for help of comp.emulators.apple2, and Thomas Lai 
+stepped forward to check out the disks and see if he could fix them.
+I emailed them to him that night.
+
+The next morning, Thomas forwarded me working Sunraycer disks.  According 
+to Thomas :
+
+"The fix was simple: change the byte (Track$19,
+Sector$0A, Address$17) from $E7 to $F7.  The problem
+is caused by all of the emulator is not implement
+rotating disk model (real floppy drive read different
+data when the time between successive read is different)."
+
+So, now we know what is wrong.  If the emulator authors want
+to think about adding support for this, then that would be terrific
+as well.  The current - unmodified - Sunraycer disk images on Asimov 
+might then work.
+
+Credits:
+- Mike "Moose" O'Malley  - moose AT move.to
+  http://move.to/moose
+- Mike Ching at KulaSoft, Hawaii - kulasoft AT verizon.net
+  http://www.angelfire.com/hi/kulasoft/
+- Thomas Lai - thomas_lai2000 AT hotmail.com
+
+EOF.

@@ -1,0 +1,175 @@
+CPUs_Monitor__v1,0f - Virus Scan = ALL OK, All Clear
+
+CPUs Monitor
+CPUs_Monitor__v1,0f.zip
+
+
+http://www.virustotal.com/en/file/de4711b7a4b20e1c7d0578ba15f610fa94c963c4ab75cb823454de4d4ec2afc0/analysis/1445125278/
+
+SHA256: 	de4711b7a4b20e1c7d0578ba15f610fa94c963c4ab75cb823454de4d4ec2afc0
+File name: 	CPUs_Monitor__v1,0f.zip
+Detection ratio: 	0 / 56
+Analysis date: 	2015-10-17 23:41:18 UTC ( 0 minutes ago )
+1
+0
+
+    Analysis
+    File detail
+    Additional information
+    Comments
+    Votes
+
+Antivirus 	Result 	Update
+ALYac 		20151017
+AVG 		20151017
+AVware 		20151017
+Ad-Aware 		20151017
+AegisLab 		20151017
+Agnitum 		20151017
+AhnLab-V3 		20151017
+Alibaba 		20151016
+Antiy-AVL 		20151017
+Arcabit 		20151017
+Avast 		20151017
+Avira 		20151017
+Baidu-International 		20151017
+BitDefender 		20151017
+Bkav 		20151017
+ByteHero 		20151018
+CAT-QuickHeal 		20151017
+CMC 		20151016
+ClamAV 		20151017
+Comodo 		20151017
+Cyren 		20151017
+DrWeb 		20151017
+ESET-NOD32 		20151017
+Emsisoft 		20151017
+F-Prot 		20151017
+F-Secure 		20151017
+Fortinet 		20151017
+GData 		20151017
+Ikarus 		20151017
+Jiangmin 		20151017
+K7AntiVirus 		20151017
+K7GW 		20151017
+Kaspersky 		20151017
+Kingsoft 		20151018
+Malwarebytes 		20151017
+McAfee 		20151017
+McAfee-GW-Edition 		20151017
+MicroWorld-eScan 		20151017
+Microsoft 		20151017
+NANO-Antivirus 		20151017
+Panda 		20151017
+Qihoo-360 		20151018
+Rising 		20151017
+SUPERAntiSpyware 		20151017
+Sophos 		20151018
+Symantec 		20151017
+Tencent 		20151018
+TheHacker 		20151017
+TrendMicro 		20151018
+TrendMicro-HouseCall 		20151018
+VBA32 		20151016
+VIPRE 		20151018
+ViRobot 		20151017
+Zillya 		20151017
+Zoner 		20151017
+nProtect 		20151016 
+
+
+
+
+ The file being studied is a compressed stream! More specifically, it is a ZIP file.
+Interesting properties
+The studied file contains at least one Portable Executable.
+Contained files
+This file is a compressed stream containing 3 files.
+[+] catalog.txt unknown 37913 Bytes
+[+] CPUs_Monitor.exe Portable Executable 360448 Bytes
+[+] CPUs_Monitor.txt unknown 6934 Bytes
+Compression metadata
+Contained files
+3
+Uncompressed size
+405295
+Highest datetime
+2015-10-18 09:32:22
+Lowest datetime
+2015-10-17 14:19:38
+Contained files by extension
+txt
+2
+exe
+1
+Contained files by type
+unknown
+2
+Portable Executable
+1
+ExifTool file metadata
+MIMEType
+application/zip
+
+ZipRequiredVersion
+20
+
+ZipCRC
+0x7347407a
+
+FileType
+ZIP
+
+ZipCompression
+Deflated
+
+ZipUncompressedSize
+37913
+
+ZipCompressedSize
+13755
+
+FileTypeExtension
+zip
+
+ZipFileName
+catalog.txt
+
+ZipBitFlag
+0x0002
+
+ZipModifyDate
+2015:10:17 14:19:19
+
+
+
+
+File identification
+MD5 a2bc7f29fb8d45397427b2913070f539
+SHA1 05d46ce5d1889ef762a90966597019db0f0bba5d
+SHA256 de4711b7a4b20e1c7d0578ba15f610fa94c963c4ab75cb823454de4d4ec2afc0
+ssdeep
+6144:a2u/S3wfWoba80mCzskQQyVaAHwbtnr7ZCDw+edQD1Gl5CjRJVWsFyM:Luq38vb50mkpsbHotnrTda1GlUNJVW9M
+
+File size 359.5 KB ( 368148 bytes )
+File type ZIP
+Magic literal
+Zip archive data, at least v2.0 to extract
+
+TrID 	ZIP compressed archive (100.0%)
+Tags
+contains-pe zip upx
+
+VirusTotal metadata
+First submission 2015-10-17 23:41:18 UTC ( 2 minutes ago )
+Last submission 2015-10-17 23:41:18 UTC ( 2 minutes ago )
+File names 	CPUs_Monitor__v1,0f.zip
+
+
+
+
+Comments
+
+I am super paranoid about security and all of my PCs are subject to the highest levels of security, so you can rest assured that there are no viruses or malware in any of the software I provide on my web site, as confirmed by this VirusTotal analysis. :)
+Moose
+Posted 0 minutes ago by Moose Delete

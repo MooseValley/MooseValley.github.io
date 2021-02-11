@@ -1,0 +1,152 @@
+Disk_Space_Logger__v1,0f.zip
+
+Disk_Space_Logger
+
+Disk Space Logger (v1.0f)
+
+http://www.virustotal.com/en/file/270d950f320e5dc297aebc38e8bc5361c963724b82c118614f73a0cd29c2019e/analysis/1422141691/
+
+SHA256: 	270d950f320e5dc297aebc38e8bc5361c963724b82c118614f73a0cd29c2019e
+File name: 	Disk_Space_Logger__v1,0f.zip
+Detection ratio: 	0 / 56
+Analysis date: 	2015-01-24 23:21:31 UTC ( 0 minutes ago )
+1
+0
+
+    Analysis
+    Additional information
+    Comments
+    Votes
+
+Antivirus 	Result 	Update
+ALYac 		20150124
+AVG 		20150124
+AVware 		20150124
+Ad-Aware 		20150124
+AegisLab 		20150124
+Agnitum 		20150124
+AhnLab-V3 		20150124
+Alibaba 		20150120
+Antiy-AVL 		20150124
+Avast 		20150124
+Avira 		20150124
+Baidu-International 		20150124
+BitDefender 		20150124
+Bkav 		20150124
+ByteHero 		20150125
+CAT-QuickHeal 		20150124
+CMC 		20150124
+ClamAV 		20150124
+Comodo 		20150124
+Cyren 		20150124
+DrWeb 		20150124
+ESET-NOD32 		20150124
+Emsisoft 		20150124
+F-Prot 		20150124
+F-Secure 		20150124
+Fortinet 		20150124
+GData 		20150124
+Ikarus 		20150124
+Jiangmin 		20150124
+K7AntiVirus 		20150124
+K7GW 		20150124
+Kaspersky 		20150124
+Kingsoft 		20150125
+Malwarebytes 		20150125
+McAfee 		20150124
+McAfee-GW-Edition 		20150124
+MicroWorld-eScan 		20150125
+Microsoft 		20150125
+NANO-Antivirus 		20150124
+Norman 		20150123
+Panda 		20150124
+Qihoo-360 		20150125
+Rising 		20150123
+SUPERAntiSpyware 		20150124
+Sophos 		20150125
+Symantec 		20150124
+Tencent 		20150125
+TheHacker 		20150123
+TotalDefense 		20150124
+TrendMicro 		20150124
+TrendMicro-HouseCall 		20150124
+VBA32 		20150123
+VIPRE 		20150124
+ViRobot 		20150124
+Zillya 		20150124
+Zoner 		20150123
+nProtect 		20150123 
+
+
+
+File identification
+MD5 ec299b8bf3f5bc1b289c9e4c3339a891
+SHA1 bbf24d84cb2cf41b00a0309d4ab8fe8878445450
+SHA256 270d950f320e5dc297aebc38e8bc5361c963724b82c118614f73a0cd29c2019e
+ssdeep
+6144:wNUxmyKSeOZEEWhh3/lhHypaGLb46R/BXWx06L1TS:wNUx7KSGFhhPvELk6d1WxhhS
+
+File size 266.0 KB ( 272389 bytes )
+File type ZIP
+Magic literal
+Zip archive data, at least v2.0 to extract
+
+TrID 	ZIP compressed archive (100.0%)
+Tags
+zip upx
+
+VirusTotal metadata
+First submission 2015-01-24 23:21:31 UTC ( 0 minutes ago )
+Last submission 2015-01-24 23:21:31 UTC ( 0 minutes ago )
+File names 	Disk_Space_Logger__v1,0f.zip
+Advanced heuristic and reputation engines
+ClamAV PUA
+Possibly Unwanted Application. While not necessarily malicious, the scanned file presents certain characteristics which depending on the user policies and environment may or may not represent a threat. For full details see: http://www.clamav.net/doc/pua.html .
+
+Symantec reputation Suspicious.Insight
+ExifTool file metadata
+MIMEType
+application/zip
+
+ZipRequiredVersion
+20
+
+ZipCRC
+0x40f8b7e1
+
+FileType
+ZIP
+
+ZipCompression
+Deflated
+
+ZipUncompressedSize
+32692
+
+ZipCompressedSize
+11984
+
+FileAccessDate
+2015:01:25 00:21:36+01:00
+
+ZipFileName
+catalog.txt
+
+ZipBitFlag
+0x0002
+
+FileCreateDate
+2015:01:25 00:21:36+01:00
+
+ZipModifyDate
+2013:09:24 19:08:23
+
+
+
+
+Comments
+
+Downloaded from my web site: http://moosevalley.fhost.com.au/
+I am super paranoid about security and all of my PCs are subject to the highest levels of security, so you can rest assured that there are no viruses or malware in any of the software I provide on my web site, as confirmed by this VirusTotal analysis. :)
+Moose
+Posted 0 minutes ago by Moose Delete

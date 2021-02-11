@@ -1,0 +1,147 @@
+Computer_Space_Simulator__v1,0f__One_Click - Virus Scan = ALL OK, All Clear
+ 
+Computer_Space_Simulator__v1,0f__One_Click.zip
+Computer Space Simulator - One Click version (v1.0)
+
+http://www.virustotal.com/en/file/f6030279db675ba7abdc474f8cb0f522f31854099d9ef39e58083b864172f653/analysis/1421475019/
+
+SHA256: 	f6030279db675ba7abdc474f8cb0f522f31854099d9ef39e58083b864172f653
+File name: 	Computer_Space_Simulator__v1,0f__One_Click.zip
+Detection ratio: 	0 / 57
+Analysis date: 	2015-01-17 06:10:19 UTC ( 0 minutes ago )
+1
+0
+
+    Analysis
+    Additional information
+    Comments
+    Votes
+
+Antivirus 	Result 	Update
+ALYac 		20150117
+AVG 		20150117
+AVware 		20150117
+Ad-Aware 		20150117
+AegisLab 		20150117
+Agnitum 		20150116
+AhnLab-V3 		20150116
+Alibaba 		20150116
+Antiy-AVL 		20150117
+Avast 		20150117
+Avira 		20150117
+Baidu-International 		20150116
+BitDefender 		20150117
+Bkav 		20150116
+ByteHero 		20150117
+CAT-QuickHeal 		20150116
+CMC 		20150116
+ClamAV 		20150117
+Comodo 		20150117
+Cyren 		20150117
+DrWeb 		20150117
+ESET-NOD32 		20150116
+Emsisoft 		20150117
+F-Prot 		20150117
+F-Secure 		20150117
+Fortinet 		20150117
+GData 		20150117
+Ikarus 		20150116
+Jiangmin 		20150116
+K7AntiVirus 		20150116
+K7GW 		20150116
+Kaspersky 		20150117
+Kingsoft 		20150117
+Malwarebytes 		20150116
+McAfee 		20150117
+McAfee-GW-Edition 		20150117
+MicroWorld-eScan 		20150117
+Microsoft 		20150117
+NANO-Antivirus 		20150117
+Norman 		20150116
+Panda 		20150116
+Qihoo-360 		20150117
+Rising 		20150116
+SUPERAntiSpyware 		20150117
+Sophos 		20150117
+Symantec 		20150117
+Tencent 		20150117
+TheHacker 		20150116
+TotalDefense 		20150116
+TrendMicro 		20150117
+TrendMicro-HouseCall 		20150117
+VBA32 		20150116
+VIPRE 		20150117
+ViRobot 		20150117
+Zillya 		20150116
+Zoner 		20150116
+nProtect 		20150116 
+
+
+
+File identification
+MD5 e1db85e0c01c0f97da06c53056b4afa0
+SHA1 d7dd510e9edf7ef87a1862a1e46a12003ae13a84
+SHA256 f6030279db675ba7abdc474f8cb0f522f31854099d9ef39e58083b864172f653
+ssdeep
+24576:j9jCTbxw6FBT5WSebQIZUOn5YQa4zMpjS8YKEy:lCTK6DQbQDOny4zoKy
+
+File size 1.1 MB ( 1111201 bytes )
+File type ZIP
+Magic literal
+Zip archive data, at least v2.0 to extract
+
+TrID 	Mozilla Firefox browser extension (66.6%)
+ZIP compressed archive (33.3%)
+Tags
+zip
+
+VirusTotal metadata
+First submission 2015-01-17 06:10:19 UTC ( 0 minutes ago )
+Last submission 2015-01-17 06:10:19 UTC ( 0 minutes ago )
+File names 	Computer_Space_Simulator__v1,0f__One_Click.zip
+ExifTool file metadata
+MIMEType
+application/zip
+
+ZipRequiredVersion
+20
+
+ZipCRC
+0x1c7c7969
+
+FileType
+ZIP
+
+ZipCompression
+Deflated
+
+ZipUncompressedSize
+1412
+
+ZipCompressedSize
+760
+
+FileAccessDate
+2015:01:17 07:10:25+01:00
+
+ZipFileName
+Computer_Space_Install.txt
+
+ZipBitFlag
+0
+
+FileCreateDate
+2015:01:17 07:10:25+01:00
+
+ZipModifyDate
+2005:05:11 15:58:10
+
+
+
+
+Comments
+
+Downloaded from my web site: http://moosevalley.fhost.com.au/
+I am super paranoid about security and all of my PCs are subject to the highest levels of security, so you can rest assured that there are no viruses or malware in any of the software I provide on my web site, as confirmed by this VirusTotal analysis. :)
+Moose
+Posted 0 minutes ago by Moose Delete

@@ -1,0 +1,88 @@
+Sprite v0.6 (Oct 1995) for DOS.            by Moose O'Malley
+
+FREE Ware !
+
+This is an old Prototype of a 2D DOS based Graphics game I 
+was working on a while ago.
+
+The control keys are :
+
+	A 		= Move Left
+	S 		= Stop
+	D 		= Move right
+	Space Bar 	= Shoot
+	ESC		= Quit
+
+This program is my FIRST real exploration into 2D sprite games !
+
+I wrote this program at a time when I was desperate to get into
+SERIOUS game programming.  (Actually, I still am !!)
+
+With "Character" based games like Tetris, Columns, and Blaster
+behind me, I really wanted to get into "graphics" based games, and
+2D sprite based games were a good place to start.
+
+I searched bookshops, and the only books I found on 
+"game programming" were for C / C++.  No good for me !!
+
+So, in the absence of any books on Game Programming, and in
+the absence of any manuals / books / help on Turbo Pascal v5,
+I set about coding this game.  Am I a masochist or what !!
+
+This early version of the game demonstrates :
+- my 2D graphics engine, which can move any number 
+  of sprites on screen, each with different numbers 
+  of frames of animation, each of different sizes, 
+  of different movement speeds, of different animation 
+  frame change speed, and each moving in 
+  different directions.
+  (All in all, I was quite happy with this flexible engine).
+- the screen wrapping, etc is correctly working.
+- the sprites can pass over a background / bitmap without 
+  disturbing it or erasing it.
+
+Later on I was going to add :
+- collision detection, 
+- scoring, 
+- decent sprites - the current sprites themselves are 
+  simple shapes built out of lines / circles.
+- improve speed control, so the ships don't speed up / slow
+  down when there are less / more ships on screen.
+- improve the draw sprite / erase sprite routines so
+  that the sprites don't flash.
+
+but, I haven't got round to this yet.
+
+Basically, this game will go no further.  My next game will
+be a Windows game, and will be written (most likely) in
+Delphi.
+
+So, this is only a *very* early prototype.
+
+It is FREE Ware, and you can copy, distribute, and 
+use it freely as long as this message remains intact.
+
+It will run under Windows 3.1, 95, NT, but as a DOS application.
+
+This program was written in Turbo Pascal v5 (DOS).
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know, and I will do my best to fix it ASAP.
+
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://move.to/moose
+____________________________________________________
+ 

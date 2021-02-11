@@ -1,0 +1,320 @@
+
+Sudoku Solver Helper Trainer		Copyright (C) Moose O'Malley, 
+-----------------------------		February 2015.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Why I wrote this program ?  What can it do ?
+   | * Using this Program
+   | * Uninstalling this Program
+   | * Sudoku Puzzle ".SOD" Data File Format
+   | * The Future
+   | * Known Issues / Known Limitations
+   | * Frequently Asked Questions / FAQ / F.A.Q.
+   | * Reviews / Awards / CDs
+   | * Freeware Information
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+Sudoku Solver Helper Trainer is for IBM compatible PCs, desktops, laptops, 
+netbooks, etc running any version of Windows from Windows 95 onwards, which 
+includes Windows 98, ME, NT, 2000, XP, Vista, 7, 8, 10, etc, 32 and 64 bit.
+
+This program is free software.  Anyone - any person, any company, 
+or any business - can use this program for free.  No fees or 
+payment is required.  See "Freeware Information" below.
+
+At its core, Sudoku Solver Helper Trainer solves sudoku puzzles,
+and it does this exactly how I personally solve the puzzles.
+When I solve sudoku puzzles, I work out and write down the numbers that 
+can go into each row, column, 3x3 box on the paper next to the puzzle,
+and then work out which numbers cannot go into each row, column, etc,
+and then solve the puzzle based on this information.  I wrote this 
+program to solve the puzzles exactly the way I do it.
+
+However, this is only the start.  Sudoku Solver Helper Trainer can do 
+*lots* more.  
+
+Sudoku Solver Helper Trainer provides functionality to:
+* Solve Sudoku puzzles.  :)
+* Give you hints on the next best "move" you can make to solve a 
+puzzle (the program highlights the cell without giving you the answer).
+* Displays the numbers that still need to be placed in each row, column, 
+and 3x3 box, so you don't need to write this down and keep track 
+of this on paper.  This makes solving puzzles *much* quicker and 
+easier, because my program does this tedious work for you !!
+* Solve the next cell / make the next move (the program highlights and 
+solves (fills in the answer) for the next best move).
+* Solve all cells / make all moves until the puzzle is solved or until 
+the puzzle is deemed "unsolvable".
+* Saves and loads puzzles to/from file (a bunch of puzzles are included 
+with the program to get you started).
+* Solves "unsolvable" puzzles by "Brute Force" methods.  That is, 
+the program guesses a number and then tries to solve the rest of 
+the puzzle.  If this doesn't work, then Sudoku Solver Helper Trainer 
+will back track, guess a different number at this cell or go to 
+another cell and try numbers and keep trying until the puzzle is solved.
+
+Sudoku Solver Helper Trainer includes a selection of more than 
+25 Sudoku puzzles: easy, medium, hard, and evil.
+
+Sudoku Solver Helper Trainer can help you and show you how to solve 
+sudoku puzzles so that you become better and faster at solving them 
+yourself.  It sure helped me !  :)
+
+Developed using 32-bit Delphi.
+
+This program will **NOT** run under Windows 3.x  
+(even with Win32 installed) !!
+
+
+Why I wrote this program ?  What can it do ?
+--------------------------------------------
+
+I wrote the first version of this program many years ago, 
+back in 2005, way back when the Sudoku craze was sweeping 
+the world.  At this time, my friends and I were very keen Sudoku 
+solvers, and I had a white board setup in my house on which I 
+would solve sudoku puzzles.
+
+I wrote the program to help me solve some of the more difficult puzzles, 
+and to help me become better at solving the puzzles.  At the time, there 
+was nothing available on the internet (that I could find) that solved 
+sudoku puzzles.
+
+My program soon solved the puzzles and did so much more - gave hints, 
+solved the next move, etc.
+
+Then, in October 2013, I was going through some of the programs I had 
+written and never released onto my web page (there are dozens of these),
+and, after getting lots of encouragement from friends and family, I
+decided to dust off my Sudoku Solver program, clean up the code, bring it 
+over to my latest code base, tidy up the user interface, and add in 
+lots of extra functionality (Undo, Undo ALL, Stats, Save button, Copy All 
+button, Reset button, etc), and release it onto my web page.
+
+Until 31-Oct-2013, I always planned to release the program as FREEWare.  
+However, friends and family convinced me to release a TRIAL version of the 
+program for FREE but charge $20 for the Full version.  
+
+I decided to charge just $10.
+
+I'm under no illusions.  I've been a shareware author since mid-1996, so 
+I know human nature *very* well.  I'd be surprised if anyone pays the 
+lousy $10, but I'd sure love to be proved wrong.  :)
+
+Update 18-Feb-2015: 
+* Due to a complete lack of encouragement and support, this program is 
+  now FREEWARE.
+
+
+Using this Program :
+--------------------
+
+To use this program, unzip the contents of the ZIP file to a 
+directory - such as c:\sudoku\ - and run the executable 
+file : Sudoku_Solver_Helper_Trainer.exe.
+
+The first time you run this program, the sudoku grid will be empty,
+so you can either:
+
+* click the "Load" button and select one of the puzzles included 
+with this program.
+
+* Or, click on a cell and enter a number between 1 and 9, and then 
+click another cell and enter another number, and so on.
+When you have the puzzle into a state in which you want to save it, 
+click the "Save" button and enter a file name or select an existing 
+puzzle file to overwrite.
+
+You can click cells in the grid to enter / change existing numbers, 
+or use the "Solve Next", "Hint", "Undo" and other buttons to work 
+through the puzzle either on your own or with help from the program.
+
+I hope you find the program easy to use and useful.
+
+
+Uninstalling this Program :
+---------------------------
+
+At the  present time, there is No Uninstall function.
+
+If you ever want to delete this program from your computer, then:
+
+ 1. Exit the program, and delete it from wherever you installed
+    it on your harddrive.
+
+Simple as that !
+
+
+Sudoku Puzzle ".SOD" Data File Format
+--------------------------------------
+
+Sudoku Solver Helper Trainer saves its sudoku puzzles in
+files with a ".SOD" file extension.
+
+The format of these files is *very* simple - just a plain 
+text file with 9 rows of 9 digits, separated by commas, 
+for example:
+
+0,0,0,0,0,0,0,8,9,
+7,0,0,0,0,2,3,0,0,
+0,1,0,0,0,3,2,0,0,
+8,0,0,0,3,6,7,0,2,
+0,0,0,9,0,5,0,0,0,
+9,0,1,2,8,0,0,0,3,
+0,0,9,3,0,0,0,5,0,
+0,0,5,6,0,0,0,0,4,
+2,8,0,0,0,0,0,0,0,
+
+If you want, you can also add comments into the file by including
+the '$', '!', or '#' anywhere on the line, for example, you can 
+include some comment lines that provide information about the puzzle 
+(for example, say where it came from, etc):
+
+#
+# http://www.websudoku.com/
+# Evil Puzzle 6,269,965,969 
+#
+0,4,0,0,0,7,0,0,9
+0,6,9,0,1,0,0,7,0
+0,0,3,0,0,0,0,0,0
+0,0,4,9,0,0,0,0,5
+0,0,0,4,8,5,0,0,0
+5,0,0,0,0,3,6,0,0
+0,0,0,0,0,0,2,0,0
+0,1,0,0,9,0,8,5,0
+7,0,0,2,0,0,0,4,0
+
+
+If you want, you can enter new puzzles straight into a plain 
+text file using Windows Notepad or similar and save the file 
+with a ".SOD" file extension.  e.g. My_Puzzle.sod
+
+And that's all there is to it.  :)
+
+
+The Future :
+------------
+
+In the future, many improvements could be made to this program,
+such as :
+
+- Improve the brute force method I am using.  There are limitations
+  with how I have implemented things, and if my program cannot 
+  solve the puzzle the program by just guessing a single number for 
+  all empty cells and then trying to solve the puzzle, then it 
+  deems the puzzle unsolvable.  I've got lots of ideas for improvements 
+  here so that my program will solve even the most evil and difficult 
+  sudoku puzzles.
+
+- Automatic generation of beginner, novice, and advanced puzzles.
+
+- Support for other variations of Sudoku, such as Hexadoku (I think 
+  that is what it is called), where the play grid is 16 x 16 cells, 
+  instead of 9 x 9 cells, and each cell can have values 0-9 and A-F.
+  Or, add support for other variations of the game.
+
+- Anything else ?
+
+If you would like any of these improvements, or would like to
+suggest more, please email me and let me know.
+
+Like for ALL of my software, how much more work I do on this 
+program depends entirely on what support I get, how many 
+people use the program.
+
+
+Known Issues / Known Limitations:
+---------------------------------
+
+None.
+
+
+Frequently Asked Questions / FAQ / F.A.Q.:
+------------------------------------------
+
+None at this time.
+
+
+Reviews / Awards / CDs :
+-------------------------
+
+None so far.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.  
+
+Anyone - any person, any company, or any business - can 
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please 
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select 
+the "About" option under the Help menu, and then click 
+the PayPal link on the "About" screen).
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know.
+
+
+Amendment History :
+-------------------
+
+Vers    Date        Description
+
+1.0   1-Nov-2013    First Public Release.
+                    My very first TRIALware release.
+                    (2,301 lines of code / comments / blank lines in primary source file.)
+                    (64,574 lines of code / comments / blank lines in all primary, library, and include files.)
+
+1.1f  18-Feb-2015   This program is now FREEWARE - see "Freeware Information" above.
+                    i.e. the FULL version of the program is now completely FREE.
+                    Add exception handling to the loading and saving of program settings (INI file)
+                    so that the program executes and exits cleanly (no error messages produced) even 
+                    if running from a read-only device such as a optical disk (CD-ROM, etc) or 
+                    there are disk errors or the disk is full and/or the INI file does not exist 
+                    and/or it cannot be created.
+                    I really hoped this program would become popular and generate interest, that 
+                    perhaps even the authors of Sudoku magazines and books might email me and ask 
+                    to include my program on cover CDs and/or on their web sites (which I would 
+                    have enthusiastically agreed to).
+                    But, not a single shred of support or encouragement since this program 
+                    was released 14+ months and not a single sale.
+                    Maybe I wildly overestimated how popular Sudoku is .....
+                    Maybe Sudoku has had its day ....  Or maybe, more likely, nobody cares ....  
+                    Anyway, this program is now FREEWARE.
+                    (2,382 lines of code / comments / blank lines in primary source file.)
+                    (40,843 lines of code / comments / blank lines in all primary, library, and include files.)
+
+
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this 
+program is available from my WEB page - see below.
+
+ Moose O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://moosevalley.fhost.com.au/
+____________________________________________________
+ 

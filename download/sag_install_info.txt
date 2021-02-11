@@ -1,0 +1,25 @@
+Overhead Cable Sag Calculator
+
+This program calculates the sag of static overhead cables 
+of uniform self-weight.  e.g. electric transmission lines.
+
+Until you purchase the program (and obtain Registration 
+codes that unlock the full functionality of the program), 
+you will NOT be able to :
+(1) Save any data to disk, or,
+(2) Print or Copy the report.
+
+Registering the program removes these restrictions.
+
+Pricing details, a Registration Form, and further help 
+is available on the WEB page and/or included with the 
+program's on-line help.
+
+This program is for Windows 95, 98, ME, NT, 2000, XP, 
+and Windows Vista, and Windows 7.
+
+Moose O'Malley
+____________________________________________________
+Moose's Software Valley - Established July, 1996.
+WEB: http://move.to/moose
+____________________________________________________

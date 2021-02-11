@@ -1,0 +1,340 @@
+ 
+Backup Again		Copyright (C) Moose O'Malley, 
+------------		September 2007.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Why I wrote this program ?
+   | * Installing and Using this Program
+   | * File Exists in Multiple Places
+   | * ZIP File Settings
+   | * Backup ZIP File Names
+   | * Uninstalling this Program
+   | * Glossary of Terms
+   | * The Future
+   | * Freeware Information
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+Backup Again is for Windows 95, 98, ME, NT, 
+2000, XP, etc.
+
+This program is free software.  Anyone - any person, any company, 
+or any business - can use this program for free.  No fees or 
+payment is required.  See "Freeware Information" below.
+
+Backup Again is a program that makes backing up your files
+a breeze.
+
+More specifically, Backup Again allows you to :
+- specify the directories to backup, 
+- specify whether you want to backup each directory or each 
+  directory and each of their sub-directories,
+- specify whether you want to backup all files, or just
+  those modified after a certain date,
+and then you simply press the "Backup and ZIP" button
+and all files are backed-up and compressed into a single 
+ZIP file which is automatically named according to the 
+current date / time.
+
+With Backup Again, backing up your data need never get 
+you down !!
+
+Developed using 32-bit Delphi.
+
+This program will **NOT** run under Windows 3.x  
+(even with Win32 installed).
+
+
+Why I wrote this program ?
+---------------------------
+
+I wrote this program because, well, let's face it,
+Backing Up your files is a chore.  No-one I know
+backs up their files as often as they should.
+
+Even I admit that, and I keep regulkar backups of backups
+in many different locations.
+
+However, what would happen if your PC was stolen, or
+your harddrive crashed, or your PC suffered a virus 
+attack ?
+
+Yes, that's right, all of your years of hard work could
+be gone in an instant.
+
+Even if you kept regular monthly or weekly backups, 
+you could still end up facing many hours of lost work.
+
+Imagine just losing a day or an hours worth of work ??
+
+When the data is gone, the chances are it is too late 
+to do anything about it - unless you have a very recent 
+backup.
+
+With Backup Again, backing up your data need never get 
+you down !!  ;)
+
+Simply, specify a few settings and click the button
+and backup again works out what to backup and does 
+the job.
+
+When the process is finished, you could then copy the 
+backup ZIP file to a floppy disk, or burn it onto a CD,
+or copy it to another harddrive, or back it up of a 
+network drive, or email it to yourself at work or home, 
+or upload it to a secure web site, etc.
+
+Once you have the Backup ZIP file, you can easily make 
+as many copies of it as you like in as many locations 
+that are available to you.
+
+
+Installing and Using this Program :
+-----------------------------------
+
+To use this program, unzip the contents of the ZIP file to a 
+directory - such as c:\Backup_Again\ - and run the executable 
+file : Backup_Again.EXE.
+
+If you want the program to run automatically when Windows
+starts up, then select this option under the "File" menu
+in the program.
+
+If you would like to be able to run this program by clicking 
+on an icon in the Windows Start Menu, or on the Desktop, etc 
+then you can use the "Create Shortcut ..." options under 
+the program's File menu.
+
+When the program is running, you can use the buttons provided 
+to add or remove data directories, do the backups, etc.
+
+In addition, you can simply drag and drop directories from Windows 
+Explorer to add these to the list of directories to backup.
+
+You can also specify where to store the backup ZIP files.
+
+On the "Settings" tab, you can also choose to :
+
+- Backup All files, or just backup files that have been 
+  modified since a certain date / time.
+
+- Backup files from just the selected directories, or
+  you could backup the files from each selected 
+  directories and all of their sub-directories.
+
+- Keep a log file of processing.
+
+Once you are happy with these settings, simply press the
+"Backup and ZIP Files" button, and the backup will proceed.
+Once completed, you will informed how many files were 
+backed up.
+
+
+File Exists in Multiple Places :
+--------------------------------
+
+If you have a file that exists in multiple places,
+then these can be a pain to backup manually.
+
+For example, if you had a file with the same name in :
+
+  c:\My Documents\     { Your main harddrive                        }
+  d:\My Documents\     { A removable drive you use at work and home }
+
+and that this file had been modified in each location since the 
+last backup date / time.
+
+If you were backing up both of these directories at once to the same
+ZIP file, then you could have problems - because ZIP files
+do not contain the drive where the file came from.  
+
+So, which version of the file is placed in the ZIP file ?
+
+The only way to determine which is the most recent version 
+of the file is to compare the last modified dates / times.
+
+And, this is exactly what Backup Again does behind the scenes.
+
+And, this ensures that the latest versions of all files are backed up.
+
+Alternatively, if you want to synchronise all files in multiple 
+directories, then you could use my File Synchroniser program.
+(Also available on my web page).
+
+
+ZIP File Settings :
+-------------------
+
+The following settings are used when ZIP'ing files :
+- Full directory paths are stored for each file
+- All files are compressed at Maximum compression.
+
+
+Backup ZIP File Names :
+-----------------------
+
+Backup ZIP file names are automatically allocated by the 
+program, depending on the current date / time, and the
+settings you specify.
+
+For example, if you choose to backup all files of any age, then
+the Backup ZIP file will be called, something like :
+
+	Backup_2003-03-26_12-59.zip
+
+which indicates that the date and time of the backup were 
+26-March-2003, at 12:59 PM.  i.e. this is when I pressed
+the "Backup and ZIP" button.
+
+N.B. This file name looks strange - especially with a 
+     semi-colon ";" separating the hours and minutes, 
+     but that is because you cannot use colons ":" 
+     in PC file names.
+
+However, if you choose to backup all files modified
+after 19-March-2003 at 1:00 AM, then the Backup ZIP 
+file will be called, something like :
+
+	Backup_2003-03-19_01-00__to__2003-03-26_12-59.zip
+
+which indicates that it contains all files modified
+between the date you specified above and the current 
+date and time.  i.e. all files modified 19-March-2003, 
+at 1:00 PM, and the date / time that the "Backup and ZIP" 
+button was pressed, which in this example is 26-March-2003, 
+at 12:59 PM.
+
+So, why did I make the program automatically allocate
+the name of the backup ZIP file ??
+
+Well, it ensures that the name is meaningful and clear.
+
+And, it means that if you sort your backups directory
+in alphabetical order, that you will see the files
+in increasing order of backup date or the last modified 
+date of the files the ZIP files contain.
+
+
+Uninstalling this Program :
+---------------------------
+
+At the  present time, there is No Uninstall function.
+
+If you ever want to delete the program from your 
+computer, then :
+
+ 1. Exit the program, and delete it from wherever 
+    you installed it on your harddrive.
+
+Before doing this however :
+
+- If you have selected / enabled the "Auto-Run at Windows 
+  Startup" option (under the File menu), then you should 
+  ensure that this option is not checked / enabled 
+  (which you can easily do by re-selecting the 
+  "Auto-Run at Windows Startup" option from under 
+  the File menu).
+
+- If you have used any of the "Create Shortcut ..." options 
+  under the File menu, then you should use the "Delete All 
+  Shortcuts" option under the File menu to remove these from
+  your system.
+
+Simple as that !
+
+
+The Future :
+------------
+
+In the future, many improvements could be made to this program,
+such as :
+
+- More Backup options :
+  * the ability to password protect backups,
+  * the ability to encrypt backups,
+  * the ability to split backup ZIP files into more 
+    conveniently sized chunks, instead of having one 
+    big ZIP file.
+  * the ability to name the Backup ZIP file yourself, instead
+    of having the program do it automatically for you.
+
+- Add in the ability to choose your own log file's name, and/or 
+  append processing results to existing log files.
+
+- Ability to specify which file types to process.
+  e.g. you might like to process Word Documents, and similar files,
+  or, you might not want to backup ZIP files or EXE files, etc.
+
+- Command Line Mode - to automate backups from the command line.
+
+- Auto-Backup mode - so that your PC automatically backs up 
+  selected directories whenever Windows starts-up and/or 
+  shuts-down.
+
+- Anything else ?
+
+If you would like any of these improvements, or would like to
+suggest more, please email me and let me know.
+
+How much more work I do on this program depends entirely on
+what support I get, how many people use the program, etc.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.  
+
+Anyone - any person, any company, or any business - can 
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please 
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select 
+the "About" option under the Help menu, and then click 
+the PayPal link on the "About" screen).
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know.
+
+
+Amendment History :
+-------------------
+
+Vers    Date        Description
+
+1.0  26-Mar-2003    First Public Release.
+                    (59,064 lines of code / comments.)
+
+1.1f  3-Sep-2007    This program is now FREEWARE - see "Freeware Information"
+                    above.
+
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this 
+program is available from my WEB page - see below.
+
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://move.to/moose
+____________________________________________________
+ 

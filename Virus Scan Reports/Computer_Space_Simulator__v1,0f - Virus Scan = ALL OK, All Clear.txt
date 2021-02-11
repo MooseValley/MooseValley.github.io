@@ -1,0 +1,146 @@
+Computer_Space_Simulator__v1,0f - Virus Scan = ALL OK, All Clear
+
+Computer_Space_Simulator__v1,0f.zip
+
+Computer Space Simulator v1.0f
+		
+http://www.virustotal.com/en/file/366a16f6d342d79253faf60e46540b374be5f9a935da2f8d1a20f16839f06afb/analysis/1421470852/
+
+SHA256: 	366a16f6d342d79253faf60e46540b374be5f9a935da2f8d1a20f16839f06afb
+File name: 	Computer_Space_Simulator.zip
+Detection ratio: 	0 / 57
+Analysis date: 	2015-01-17 05:00:52 UTC ( 0 minutes ago )
+0
+0
+
+    Analysis
+    Additional information
+    Comments
+    Votes
+
+Antivirus 	Result 	Update
+ALYac 		20150117
+AVG 		20150117
+AVware 		20150117
+Ad-Aware 		20150117
+AegisLab 		20150117
+Agnitum 		20150116
+AhnLab-V3 		20150116
+Alibaba 		20150116
+Antiy-AVL 		20150117
+Avast 		20150117
+Avira 		20150117
+Baidu-International 		20150116
+BitDefender 		20150117
+Bkav 		20150116
+ByteHero 		20150117
+CAT-QuickHeal 		20150116
+CMC 		20150116
+ClamAV 		20150116
+Comodo 		20150117
+Cyren 		20150117
+DrWeb 		20150117
+ESET-NOD32 		20150116
+Emsisoft 		20150117
+F-Prot 		20150117
+F-Secure 		20150117
+Fortinet 		20150117
+GData 		20150117
+Ikarus 		20150116
+Jiangmin 		20150116
+K7AntiVirus 		20150116
+K7GW 		20150116
+Kaspersky 		20150117
+Kingsoft 		20150117
+Malwarebytes 		20150116
+McAfee 		20150117
+McAfee-GW-Edition 		20150117
+MicroWorld-eScan 		20150117
+Microsoft 		20150117
+NANO-Antivirus 		20150117
+Norman 		20150116
+Panda 		20150116
+Qihoo-360 		20150117
+Rising 		20150116
+SUPERAntiSpyware 		20150117
+Sophos 		20150117
+Symantec 		20150117
+Tencent 		20150117
+TheHacker 		20150116
+TotalDefense 		20150116
+TrendMicro 		20150117
+TrendMicro-HouseCall 		20150117
+VBA32 		20150116
+VIPRE 		20150117
+ViRobot 		20150117
+Zillya 		20150116
+Zoner 		20150116
+nProtect 		20150116 
+
+
+
+File identification
+MD5 e7d554a3afb882bd92fe8fcd9b4eda3c
+SHA1 5fe1812932ff297dc6f9c3c0ec11a0526bdf5e5c
+SHA256 366a16f6d342d79253faf60e46540b374be5f9a935da2f8d1a20f16839f06afb
+ssdeep
+24576:e9Jh5fDan5l5WyEbED7CHr2pnLhzbam8QKSe:4h9aPCbEXOradzGoe
+
+File size 1.1 MB ( 1110973 bytes )
+File type ZIP
+Magic literal
+Zip archive data, at least v2.0 to extract
+
+TrID 	Mozilla Firefox browser extension (66.6%)
+ZIP compressed archive (33.3%)
+Tags
+zip
+
+VirusTotal metadata
+First submission 2010-02-12 05:53:42 UTC ( 4 years, 11 months ago )
+Last submission 2015-01-17 05:00:52 UTC ( 0 minutes ago )
+File names 	Computer_Space_Simulator.zip
+ExifTool file metadata
+MIMEType
+application/zip
+
+ZipRequiredVersion
+20
+
+ZipCRC
+0x0d0d7c29
+
+FileType
+ZIP
+
+ZipCompression
+Deflated
+
+ZipUncompressedSize
+1115655
+
+ZipCompressedSize
+1109935
+
+FileAccessDate
+2015:01:17 06:01:00+01:00
+
+ZipFileName
+Computer_Space_Install.EXE
+
+ZipBitFlag
+0
+
+FileCreateDate
+2015:01:17 06:01:00+01:00
+
+ZipModifyDate
+2005:05:11 15:56:20
+
+
+
+Comments
+
+Downloaded from my web site: http://moosevalley.fhost.com.au/
+I am super paranoid about security and all of my PCs are subject to the highest levels of security, so you can rest assured that there are no viruses or malware in any of the software I provide on my web site, as confirmed by this VirusTotal analysis. :)
+Moose 

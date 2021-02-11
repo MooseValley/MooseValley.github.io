@@ -1,0 +1,268 @@
+
+
+This program has been replaced and superseeded by  
+"Real_Estate_Calculator".
+
+Mike
+
+
+Real Estate Agent's Commission Calculator 
+------------------------------------------
+		Copyright (C) Moose O'Malley, 
+		February 2003.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Why I wrote this program ?
+   | * Credits / Thanks
+   | * Installing and Using this Program
+   | * Uninstalling this Program
+   | * Limitations / Restrictions of the program
+   | * The Future
+   | * Other Real Estate Software
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+Real Estate Agent's Commission Calculator is a very basic program 
+for Windows 95, 98, ME, NT, 2000, XP, etc.
+
+Real Estate Agent's Commission Calculator enables you to enter a 
+property's price and it will calculate the Real Estate Agent's 
+Commission based on calculations valid in Australia as follows :
+
+ - 3% of the first $18,000
+ - 2.5% of the balance
+
+You can then copy the commission amounts (with or without GST) 
+to Window's clipboard (by using the little buttons next to each 
+value) and paste them into your own documents / spreadsheets / files.
+
+You can also set the GST (Goods and Services Tax) rate.  
+(At the time of writing, this rate is 10% - which has been a 
+constant rate since GST was first introduced in Australia - but 
+it may change in the future - so, I've allowed you to change 
+the GST rate in the program to cater for this.)
+
+A full history of calculations is kept, so you can use the drop 
+down arrow on the right-hand side of the Property Sale Price 
+data entry box to select any previously entered price to review 
+the commission for this price.
+
+This program is freeware - please distribute it and 
+use it freely.
+
+Developed using 32-bit Delphi.
+
+This program will **NOT** run under Windows 3.x  
+
+(even with Win32 installed).
+
+
+Why I wrote this program ?
+--------------------------
+
+I wrote this program because I have recently been involved 
+in buying and selling properties and was horrified to see 
+that ALL real estate agents in my area (Capricorn Coast, 
+Queensland, Australia) are still calculating Agent's Commission 
+and GST by hand - using a calculator and/or pen and paper.
+(They didn't even have a spreadsheet set up to calculate this !!)
+
+These calculations are NOT complex, but when rushing (to put 
+properties on the market or to draw up contracts) it is 
+easy to make mistakes, and I noticed more than one agent 
+make errors in the calculations.
+
+So, I have written this program to enable any real estate 
+agent in Australia with a PC or laptop to calculate agent's 
+commissions.
+
+In addition, this program should also be useful to anyone 
+selling a property to verify the agent's commissions being 
+charged.
+
+I hope you find the program easy to use and useful.
+
+
+Credits / Thanks :
+------------------
+
+Nil.
+
+
+Installing and Using this Program :
+-----------------------------------
+
+To use this program, unzip the contents of the ZIP file to a 
+directory - such as c:\Real_Estate_Agent\ - and run the executable 
+file : Real_Estate_Agents_Commission.EXE.
+
+If you want the program to run automatically when Windows
+starts up, then select this option under the "File" menu 
+in the program.
+
+If you would like to be able to run this program by clicking 
+on an icon in the Windows Start Menu, or on the Desktop, etc 
+then you can use the "Create Shortcut ..." options under 
+the program's File menu.
+
+I hope you find the program easy to use and useful.
+
+
+Uninstalling this Program :
+---------------------------
+
+At the  present time, there is No Uninstall function.
+
+If you ever want to delete this program 
+from your computer, then :
+
+ 1. Exit the program, and delete it from wherever 
+    you installed it on your harddrive.
+
+Before doing this however :
+
+- If you have selected / enabled the "Auto-Run at Windows 
+  Startup" option (under the File menu), then you should 
+  ensure that this option is not checked / enabled 
+  (which you can easily do by re-selecting the 
+  "Auto-Run at Windows Startup" option from under 
+  the File menu).
+
+- If you have used any of the "Create Shortcut ..." options 
+  under the File menu, then you should use the "Delete All 
+  Shortcuts" option under the File menu to remove these from
+  your system.
+
+Simple as that !
+
+
+Limitations / Restrictions of the program :
+-------------------------------------------
+
+None.  There is no trial period and there is no "cutdown"
+or "restricted" functionality that requires users to register.
+
+This program is FREE software - any person and any company is
+welcome to copy it, use it, and distribute it as they see fit,
+as long as the EXEcutable and this text file remain intact.
+
+If you paid money for this program, then you were ripped off,
+and you should complain to the person who sold it to you !!
+(Don't complain to me, it's nothing to do with me !!).
+
+
+The Future :
+------------
+
+There are many things I could do with this program in the 
+future, for example :
+
+- Support for calculating agent's commissions in other countries.  
+  (Send me an email and let me know how the agent's commissions 
+  are calculated in your country and I'll add these into the 
+  program).
+
+- Enable the user to change the various percentages.
+  So, for example, the commission could be calculated as :
+   - 3.5% of the first $18,000
+   - 3.0% of the balance
+
+  instead of :
+   - 3% of the first $18,000
+   - 2.5% of the balance
+
+- Enable the user to change the various thresholds.
+  So, for example, the commission could be calculated as :
+   - 3.5% of the first $30,000
+   - 3.0% of the next $20,000 
+   - 2.5% of the balance
+
+- Anything else ??
+
+If you would like any of these improvements, or would like to
+suggest more, please email me and let me know.
+
+Depending on how sophisticated the program becomes in the 
+future, and how much work I do, I may end up charging a small 
+fee to people who wish to use the program.
+i.e. it may not always be Freeware.
+
+
+Other Real Estate Software :
+----------------------------
+
+There are many other useful pieces of software that I could develop.
+
+For example, I have already developed a basic computer system which 
+draws up all documents relating to the sale and transfer of a property
+- including all vendor, purchaser, agent, solicitor, property, 
+etc details on all normal contracts and transfer documents.
+
+However, this is currently for my own personal use - there is 
+still a fair bit of work to do before this is a polished application.
+
+Also, I am not a solicitor or a lawyer - so, I do not know if 
+the system will work for all people in all situations.  And, I 
+am certainly not prepared to release it for anyone else to use 
+until it has been thoroughly tested and signed off by one or 
+more solicitors.  
+
+Are any solicitor's interested in helping test / verify such 
+software ?  If so, then let me know, and in exchange for your help
+and "stamp of approval" I will provide the program to you 
+at discounted rates, so that you can use it yourself or sell it 
+to your own clients.
+
+Also, the REIQ Standard Contract, and the various transfer forms 
+(Form 1, Form 24, Form Q), etc are all copyright material, so I 
+will need some no doubt expensive legal advice before I could ever 
+consider selling a program that made use of these copyrighted forms.
+
+But, if any Real Estate Agents or solicitors or vendors or 
+purchasers or any one else out there would like me to finish 
+off this system and provide it for sale, then please let me know.  
+
+If there is support for such a system, and I get some help from 
+several solicitors, then I will finish this system off and sell it.
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know.
+
+
+Amendment History :
+-------------------
+
+Vers    Date        Description
+
+1.0  21-Feb-2003    First Public Release.
+                    (49,404 lines of code / comments.)
+
+
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this 
+program is available from my WEB page - see below.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://move.to/moose
+____________________________________________________
+ 

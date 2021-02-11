@@ -1,0 +1,278 @@
+ 
+Astronaut's Chronometer			Copyright (C) Moose O'Malley, 
+-----------------------			June 2003.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction                                            |
+   | * What happens at the Speed of Light ?                    |
+   | * The Future :                                            |
+   | * Known Bugs :                                            |
+   | * Disclaimer of Warranty                                  |
+   | * Shareware Reviews / Awards / CDs                        |
+   | * Shareware Information                                   |
+   | * Warranty                                                |
+   | * Amendment History                                       |
+   | * Contacting the Program's Author                         |
+   +===========================================================+
+
+Introduction :
+--------------
+
+Astronaut's Chronometer for Windows 3.1, 3.11, 95, 98, NT, 2000.
+
+This program is just a bit of a laugh really.  
+
+Basically, I wanted to write the very first computer program 
+that people could possibly use in 1,000 years time.
+
+Astronaut's Chronometer is a clock program that people could take 
+in their space ships when they travel between the stars.
+
+According to Einstein, the faster you go :
+- the slower time goes inside the space ship 
+  (according to a stationary observer outside the space ship), and,
+- the faster time seems go outside the space ship 
+  (according to those people inside it anyway).  
+
+So, I thought that if people are travelling at near the 
+speed of light, they might want to send a message home each 
+(earth) day which might only be each 5 minutes in the fast 
+travelling space ship (or less !!).
+
+This program allows you to :
+- say whether you are inside the space ship or still on earth, and,
+- explore the effects of speed on time for anywhere between 0% of 
+  the speed of light right up to 99.999999% of the speed of light.
+
+From this information, it displays the passing of time 
+on Earth and in the space ship.
+
+I know this program will never get used - Windows, Delphi, etc will 
+not be around when people are finally travelling between the stars - 
+and they certainly won't be using software like we have today.
+
+So, it is just a bit of fun.  And it has that "I developed something
+that won't be used for 1,000 years - if ever" appeal.  ;)
+
+BTW, if anyone is interested, I have a great book on Einstein's
+Theory of Relativity called "Relativity for the Layman".  
+It is a great, easy going book !
+
+Unlike all my other shareware, this program is completely
+unrestricted and un-cut-down.  When the Space Shuttle
+went bang and killed 7 astronauts, it was a very sad day,
+and since then NASA have been incredibly cautious.
+
+Well, I want mankind to reach for the other planets and stars,
+and if this program inspires somebody else to start travelling
+down this very long road, then that would be great !!
+
+Let's face it, this planet is doomed - when the sun burns its
+fuel (in ~5,000 million years), all life in this planet is finished
+so we have to get off.  Because of polution, population increases,
+and the rate at which natural resources are being used up, we
+really need to start thinking of seriously getting off this 
+planet pretty soonish - possibly within a few thousand years.
+
+I dream of humans travelling to the stars.  I hope we or
+our ancestors achieve this dream one day.
+
+Developed using 16-bit Delphi.
+
+
+What happens at the Speed of Light ?
+------------------------------------
+
+Well, some pretty wierd shit according to good old Einstein !!
+
+The faster you go, the slower time goes outside the spaceship, 
+the heavier you (and your various appendages !!) get, and 
+the longer you (and your various appendages !!) get !!
+
+Think of the possibilities !!!!!!!!!!!! :))
+
+At the speed of light, time passes outside at infinite speed,
+you are of infinite length, and of infinite mass !!
+And, you would need infinite energy to get a spaceship to
+travel that fast.  Real food for thought !!
+
+So, it probably looks like any form of human travel at the
+speed of light is probably out.
+
+
+The Future :
+------------
+
+I plan to extend this program when my work on other projects 
+allows and the mood takes me.
+
+Some things I could add to this program include :
+- Calculation of Earth escape velocities
+- Times and Distances involved in Interstellar Voyages at
+  a constant acceleration - say 1 g.
+- etc
+
+I have dug a great book on Einstein's Theory of Relativity 
+called "Relativity for the Layman" out of my storage crates,
+as well as a whole load of other space / physics books.  
+
+So, expect this utility to be updated in the future.
+
+
+Known Bugs :
+------------
+
+- None - provided Einstein is right !!
+
+
+Disclaimer of Warranty :
+------------------------
+
+This program seeks to demonstrate Einstein's theory about the
+effects of speed on the passage of time.  The algorithms used 
+in the program are at best rough approximations and at worst wild 
+guesses.  No assumptions should be made about the accuracy 
+of this program.
+
+So, if you are an astronaut travelling at somewhere near the 
+speed of light, and you use this program to schedule when
+to send Birthday cards back home, and you miss their birthday 
+by 3,000 years, don't come crying to me.  ;)
+(Unless ofcourse it was my birthday you forgot !!)
+
+
+Shareware Reviews / Awards / CDs :
+----------------------------------
+
+Version 1.0 of this program received a 3 Star rating
+(out of 5) in the 1997 Ziff Davis shareware awards.
+Thanks Ted !!
+
+Version 1.0 and later of this program were distributed on 
+Software USA Shareware CD's during 1997. To quote from 
+Software USA's Email (May 17, 97) :
+	Our Software Review Department has reviewed your 
+	title and we are very impressed. We feel that it 
+	suits our criteria for our many thousands of members.
+
+
+
+Version 1.1 of this program were distributed on 
+the Japanese magazine "TECH Win" (an ASCII Corporation publication)
+CDs in June / July 97.
+
+Version 1.1 of Astronaut's Chronometer was included on the 
+companion CD for the book "Windows '97", by Alan Simpson.
+
+
+Shareware Information :
+-----------------------
+
+Up until April 2001, this program was shareware, but from April 2001 
+onwards, I have released this program as Freeware.
+
+This is FREE software - copy, distribute, and use it however you wish.
+
+To anyone who paid money for this program while it was shareware,
+if you would like to choose another of my programs of the same price, 
+then please email me, and I'll send you a registration to this 
+alternate program for free.  
+
+This means that no-one needs to have paid money for this program.
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know, and I will do my best to fix it ASAP.
+
+
+Amendment History :
+--------------------
+
+Vers    Date        Description
+1.0   27-Mar-1997   First Public Release.
+
+1.1   09-Jun-1997   Add in Registration functionality.
+                    Save settings automatically on Windows 95 shutdown 
+                    (Registered Users only).
+                    Start Minimised if set in Shortcut / settings
+                    (Registered Users only).  
+                    Improve application startup - size and position 
+                    form before user sees it.
+                    Add in Menu items for viewing my Shareware Catalog, 
+                    the Readme file, and the Registration Form.
+
+1.2   3-Nov-1998    Add in ability to explore all speeds between
+                    0% and 99.999999% of the speed of light.
+                    Fix an error in the passing of time - I had
+                    the reverse of what really happens before.
+                    Add in Einsteins actual formulas into the 
+                    program, which really only see a big effect 
+                    on the passage when travelling 99% of the
+                    speed of light or more.
+                    Display the speed of the spaceship in 
+                    Miles/Hour and Km/Hour.
+                    (3,223 lines of code.)
+
+1.3  11-Jan-1999    Change "Miles/Hour" and "Km/Hour" labels to be
+                    the correct "Miles/Sec" and "Km/Sec".
+                    (Thanks for telling me Sebastian !)
+                    (3,223 lines of code / comments.)
+
+1.4   20-Apr-2000   Add in Form and Component Scaling when the program's 
+                    main window is resized - really Cool !!
+                    Fix NT Warning on Shutdown on some PCs.
+                    Store the INI settings file in the program's directory, 
+                    rather that in the Windows' directory - there's enough 
+                    crap there already ! ;)
+                    (5,409 lines of code / comments.)
+
+1.5   17-Apr-2001   Add in support for "Big Fonts" and "Other Sized Fonts" - 
+                    with these Windows resizes the windows automatically - 
+                    but only sometimes and it doesn't always do it right, 
+                    so now I make sure my main window is the right size 
+                    before doing any scaling, etc.  i.e. I make it fit the 
+       This         component(s) that extend the furthest right and 
+     Program        furthest down the form.   See the  Start Menu -> 
+     is now         Settings -> Control Pannel -> Display -> Settings 
+      FREE !!       Tab -> "Advanced" button -> "General" tab for 
+                    your PC's settings in this area.
+                    Bring program up-to-date with my latest code libraries.
+                    Add in "Always on Top" and "Restore Factory Defaults"
+
+                    menu options.  Release this program as Freeware.
+                    (7,669 lines of code / comments.)
+
+1.5b  20-Nov-2002   Bring the program up to date with my latest code libraries.
+                    (30,945 lines of code / comments.)
+
+1.6   30-Jun-2003   Bring the program up to date with my latest code libraries.
+                    Improve the user interface a little bit.
+                    Add in support for all of the various Windows
+                    Regional Settings for floating point numbers. 
+                    i.e. Allow people to use something other than a 
+                    full stop as the decimal point, and something 
+                    other than a comma as a 1,000's separator.
+                    (42,608 lines of code / comments.)
+
+
+If this program was not downloaded from my Home Page, then
+it is most likely an old version.  The latest version of this 
+program is available from my Home page and its mirrors.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://move.to/moose
+____________________________________________________
+ 

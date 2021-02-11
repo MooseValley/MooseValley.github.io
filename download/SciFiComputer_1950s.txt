@@ -1,0 +1,167 @@
+
+SciFiComputer 1950s			Copyright (C) Moose O'Malley,
+--------------------			February 2017.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Using this Program
+   | * The Future
+   | * Reviews / Awards / CDs
+   | * Freeware Information
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+SciFiComputer 1950s Simulator runs under the Java Virtual
+Machine (JVM).
+
+SciFiComputer 1950s Simulator is stupid little program - it is my
+lame attempt at simulating a 1950 Sci Fi movie computer - which
+had a matrix of flashing lights but didn't do much.  My program
+is the same - a matrix of flashing lights but doesn't do anything
+useful.  :)  It is just flashing lights.  Ummm, OK ?  :)
+
+I've released some cookie software onto my web page over the
+past 20+ years, but this is right up there with the cookiest
+- and the most useless !!  :)
+
+This software will run on ANY operating system that is capable of
+running the JVM, including desktops, laptops, and tablets running
+Windows, Linux, Unix, etc, such as PCs, Macs, Raspberry PI, etc.
+
+This program is free software.  Anyone - any person, any company,
+or any business - can use this program for free.  No fees or
+payment is required.  See "Freeware Information" below.
+
+
+Using this Program :
+--------------------
+
+Download and install the Java Runtime Environment (JRE) for
+your machine / OS (if it is not already installed on your machine):
+
+http://www.oracle.com/technetwork/java/javase/downloads/index.html
+
+Extract the contents of the SciFiComputer_1950s zip file you
+downloaded my my web site to a folder on your machine.
+
+And then, double click on:
+
+	SciFiComputer_1950s.jar
+
+icon / file to run the game in the Java Virtual Machine (JVM).
+
+There's no labelled buttons, no menus, no labels, and it is not
+user friendly, it's not meant to be - this is a 1950's
+SciFi computer simulator !
+
+These is no real user interface - but some of the buttons in the grid do
+"interesting" things:
+
+* The 9 (nine) leftmost, top row grid buttons change the colour scheme.
+The "CS" value in the title bar shows the colour scheme number.
+Default CS: 0 = black and white.
+
+* The 2nd row grid buttons change the maximum random number of seconds
+between random colour scheme changes.  If you don't want any colour scheme
+changes, click the left most leftmost, 2nd row button.
+The "V" value in the title bar shows the maximum random number of seconds
+between random colour scheme changes.
+Default V: 0 = no random colour scheme changes.
+
+* The 3rd row grid buttons change the maximum random number of seconds between
+grid refreshes.  If you don't want grid refreshes, click the
+left most leftmost, 3rd row button.
+The "R" value in the title bar shows the maximum random number of seconds
+between grid refreshes.
+Default R: 0 = no random grid refreshes.
+
+* The top right grid button, and 4 bottom right corner grid buttons show
+a simple About screen.
+
+Enjoy ! :)
+
+
+The Future :
+------------
+
+In the future, many improvements could be made to this program,
+such as :
+
+- Allow user to change grid size.
+
+- Round grid buttons instead of square / rectangular.
+
+- Monitor CPU usage and change grid cell colours faster
+  when CPU usage is higher.
+
+- Coalesce grid to form random words ?
+
+- Ummmm .... anything else ?
+
+If you would like any of these improvements, or would like to
+suggest more, please email me and let me know.
+
+How much more work I do on this program depends entirely on
+what support I get, how many people use the program, etc.
+
+
+Reviews / Awards / CDs :
+-------------------------
+
+None so far.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.
+
+Anyone - any person, any company, or any business - can
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select
+the "About" option under the Help menu, and then click
+the PayPal link on the "About" screen).
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let
+me know.
+
+
+Amendment History :
+--------------------
+
+Vers    Date        Description
+
+1.0f  2-Feb-2017    First public release and my 101st software title to be
+                    released on my Moose's Software Valley web page.
+                    (646 lines of code / comments / blank lines in primary source files.)
+
+
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this
+program is available from my WEB page - see below.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://moosesoftware.16mb.com/
+____________________________________________________

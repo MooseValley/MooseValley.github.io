@@ -1,0 +1,238 @@
+
+YahtzeeGUI			Copyright (C) Moose O'Malley,
+--------------			July 2017.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Using this Program
+   | * The Future
+   | * Reviews / Awards / CDs
+   | * Freeware Information
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+YahtzeeGUI is a simple dice game that runs under the Java Virtual
+Machine (JVM).
+
+YahtzeeGUI is a clone of another Yahtzee game I developed (in Delphi) that
+is also on my web site - it uses the same icons, same sound effects (my voice, etc)
+but apart from that, this Java version is a complete re-write.
+
+This game will run on ANY operating system that is capable of
+running the JVM, including desktops, laptops, and tablets running
+Windows, Linux, Unix, etc, such as PCs, Macs, Raspberry PI, etc.
+
+This program is free software.  Anyone - any person, any company,
+or any business - can use this program for free.  No fees or
+payment is required.  See "Freeware Information" below.
+
+
+Using this Program :
+--------------------
+
+Download and install the Java Runtime Environment (JRE) for
+your machine / OS (if it is not already installed on your machine):
+
+http://www.oracle.com/technetwork/java/javase/downloads/index.html
+
+Extract the contents of the YahtzeeGUI.zip file you
+downloaded from my web site to a folder on your machine.
+
+And then, double click on:
+
+	YahtzeeGUI.jar
+
+icon / file to run the game in the Java Virtual Machine (JVM).
+
+Now, you are ready to play Yahtzee.  :)
+
+See "Yahtzee Rules" below for details of how play Yahtzee in general.
+
+To start a new game of Yahtzee, click the "Start Game" button,
+and the dice will automatically be rolled.  You can discard any
+unwanted dice (by clicking on them) and re-roll the dice
+(by clicking the "Roll Dice" button) up to 2 times, select a scoring
+category by clicking a button (such as "Ones", "Twos", ....
+"3 of a Kind", etc), and then click the "Roll Dice" button to
+start your next turn.
+
+To see what the current roll of the dice would score in each available
+category, simply look at the numbers next to each score box.
+(Provided you have "Show Potential Scores in each category"
+turned on / checked - see below).
+
+When all scoring categories are filled, the game is over.
+
+Click the "Start Game" button to start a new game.
+
+To help you work with dice, various little buttons are provided
+near the dice (provided you have "Show Dice Invert, Off, On buttons"
+turned on / checked - see below).  These buttons are as follows :
+
+ - Invert button turns reverses the selection of the dice.
+   i.e. all dice selected for re-roll and now kept, and all dice that
+   were kept are marked for re-roll.
+
+ - Off button - turns all dice off.  i.e. it selects them all for re-roll.
+
+ - On button - turns all dice on.  i.e. it keeps all dice - none are selected
+   for re-roll.
+
+These buttons are provided:
+* High Scores: display a top 100 high scrores table (if any).
+* Start: start a new game.
+* Roll: roll or re-roll dice.
+* Help: display a help / about screen.
+* Exit: exit and close the YahtzeeGUI program.
+
+
+Yahtzee Rules :
+---------------
+
+Each game of Yahtzee consists of 13 rounds.
+
+In each round, you roll the five dice (and you can also re-roll any or
+all of the dice up to twice more) and then you score the dice in one of the
+13 scoring categories.
+
+For each game, you must score once and only once in each scoring category.
+This means that towards the end of the game you may have to settle for
+scoring zero or a low score in some scoring categories.
+
+The score is determined by the dice that you have rolled and by the
+category that you have scored it in :
+
+- Ones           : the sum of all dice with a face value of 1
+                   e.g.  1,1,2,4,6 would score 2 points if scored in the "Ones" category.
+- Twos           : the sum of all dice with a face value of 2
+                   e.g.  2,2,2,4,6 would score 6 points if scored in the "Twos" category.
+- Threes         : the sum of all dice with a face value of 3
+- Fours          : the sum of all dice with a face value of 4
+- Fives          : the sum of all dice with a face value of 5
+- Sixes          : the sum of all dice with a face value of 6
+
+- 3 of a Kind    : The sum of all dice, provided you have 3 or more of one of the dice.
+                   e.g. 1,4,5,5,5 would score 20 points.
+
+- 4 of a Kind    : The sum of all dice, provided you have 4 or more of one of the dice.
+                   e.g. 1,1,1,1,5 would score 9 points, and 1,5,5,5,5 would score 21 points.
+
+- Small Straight : 30 points (4 consecutive numbers).  e.g. 1,2,3,4,6 or 1,2,2,3,4.
+
+- Large Straight : 40 points (5 consecutive numbers).  e.g. 1,2,3,4,5 or 2,3,4,5,6.
+
+- Full House     : 25 points. A Full House is 3 of a Kind AND a Pair.  e.g. 3,3,3,5,5.
+
+- Chance         : The sum of all dice.  e.g. 1,3,3,5,6 would score 18 points.
+
+- Yahtzee (5 of a Kind) : 50 points
+
+You also get a bonus of 35 points, if the total of all the dice in the
+Ones to Sixes scoring categories is greater than or equal to 63 points.
+
+Prior to computer versions of Yahtzee, physical dice were rolled, people added
+up the dice in their head, and scoring was done on paper.
+
+Computer versions of Yahtzee, such as my program, mean that you can enjoy Yahtzee
+without having all of this hassle.
+
+In addition, my program enforces the Yahtzee rules, sorts the dice, maintains
+high scores, and provides many other features and options to improve the game-play
+experience.
+
+
+The Future :
+------------
+
+In the future, many improvements could be made to this program,
+such as :
+
+- R to roll / re-roll dice.
+
+- An Applet version for running in a web browser.
+
+- Support for various versions of Yahtzee - such as
+  "Multi-Yahtzee".  e.g. 50 for the first Yahtzee, and
+  100 points for each subsequent one.
+
+- Support for multiple human players in a single game.
+
+- Support for human Vs computer play.
+
+- More / better sound effects.
+
+- Yoda Yahtzee (I can do a great Yoda impersonation).
+
+- Levels, challenge levels, etc.
+
+- Different modes of play, 2 or more Players, etc.
+
+- Anything else ?
+
+If you would like any of these improvements, or would like to
+suggest more, please email me and let me know.
+
+How much more work I do on this program depends entirely on
+what support I get, how many people use the program, etc.
+
+
+Reviews / Awards / CDs :
+-------------------------
+
+None so far.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.
+
+Anyone - any person, any company, or any business - can
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select
+the "About" option under the Help menu, and then click
+the PayPal link on the "About" screen).
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let
+me know.
+
+
+Amendment History :
+--------------------
+
+Vers    Date        Description
+
+1.0f 15-Jul-2017    First public release and my 100th software
+                    title released on my Moose's Software Valley web page.
+                    (727 lines of code / comments / blank lines in primary source files.)
+
+
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this
+program is available from my WEB page - see below.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://moosesoftware.16mb.com/
+____________________________________________________

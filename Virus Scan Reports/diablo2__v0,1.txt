@@ -1,0 +1,146 @@
+diablo2__v0,1.zip
+Diablo_II_Help
+Diablo II: Windows Help File (v0.1)
+
+http://www.virustotal.com/en/file/b89b88896d90b1eb4ea0cb467110ce82a1bdad56060b01f885c0dbe47b7a1231/analysis/1422141371/
+
+SHA256: 	b89b88896d90b1eb4ea0cb467110ce82a1bdad56060b01f885c0dbe47b7a1231
+File name: 	diablo2__v0,1.zip
+Detection ratio: 	0 / 57
+Analysis date: 	2015-01-24 23:16:11 UTC ( 0 minutes ago )
+0
+0
+
+    Analysis
+    Additional information
+    Comments
+    Votes
+
+Antivirus 	Result 	Update
+ALYac 		20150124
+AVG 		20150124
+AVware 		20150124
+Ad-Aware 		20150124
+AegisLab 		20150124
+Agnitum 		20150124
+AhnLab-V3 		20150124
+Alibaba 		20150120
+Antiy-AVL 		20150124
+Avast 		20150124
+Avira 		20150124
+Baidu-International 		20150124
+BitDefender 		20150124
+Bkav 		20150124
+ByteHero 		20150125
+CAT-QuickHeal 		20150124
+CMC 		20150124
+ClamAV 		20150124
+Comodo 		20150124
+Cyren 		20150124
+DrWeb 		20150124
+ESET-NOD32 		20150124
+Emsisoft 		20150124
+F-Prot 		20150124
+F-Secure 		20150124
+Fortinet 		20150124
+GData 		20150124
+Ikarus 		20150124
+Jiangmin 		20150124
+K7AntiVirus 		20150124
+K7GW 		20150124
+Kaspersky 		20150124
+Kingsoft 		20150125
+Malwarebytes 		20150125
+McAfee 		20150124
+McAfee-GW-Edition 		20150124
+MicroWorld-eScan 		20150125
+Microsoft 		20150125
+NANO-Antivirus 		20150124
+Norman 		20150123
+Panda 		20150124
+Qihoo-360 		20150125
+Rising 		20150123
+SUPERAntiSpyware 		20150124
+Sophos 		20150125
+Symantec 		20150124
+Tencent 		20150125
+TheHacker 		20150123
+TotalDefense 		20150124
+TrendMicro 		20150124
+TrendMicro-HouseCall 		20150124
+VBA32 		20150123
+VIPRE 		20150124
+ViRobot 		20150124
+Zillya 		20150124
+Zoner 		20150123
+nProtect 		20150123 
+
+
+
+
+File identification
+MD5 f837228facde91097cfe2d6f7a5adaf0
+SHA1 34a804c1387ae5806a44a28bb6cb22f362397c41
+SHA256 b89b88896d90b1eb4ea0cb467110ce82a1bdad56060b01f885c0dbe47b7a1231
+ssdeep
+6144:X1gzlK5nUFa0wrmqaZY2ZfAYt8TK+aenAQ7n529GCDaSwxL94LHczc9XYeCiqZdB:FUGnyRYqrknAQ2GCH4L94LWkXYhL
+
+File size 414.0 KB ( 423903 bytes )
+File type ZIP
+Magic literal
+Zip archive data, at least v2.0 to extract
+
+TrID 	ZIP compressed archive (100.0%)
+Tags
+zip
+
+VirusTotal metadata
+First submission 2015-01-24 23:16:11 UTC ( 0 minutes ago )
+Last submission 2015-01-24 23:16:11 UTC ( 0 minutes ago )
+File names 	diablo2__v0,1.zip
+ExifTool file metadata
+MIMEType
+application/zip
+
+ZipRequiredVersion
+20
+
+ZipCRC
+0xeadae4e2
+
+FileType
+ZIP
+
+ZipCompression
+Deflated
+
+ZipUncompressedSize
+513021
+
+ZipCompressedSize
+423330
+
+FileAccessDate
+2015:01:25 00:16:11+01:00
+
+ZipFileName
+DIABLO2.HLP
+
+ZipBitFlag
+0
+
+FileCreateDate
+2015:01:25 00:16:11+01:00
+
+ZipModifyDate
+2001:11:08 23:20:03
+
+
+
+
+Comments
+
+Downloaded from my web site: http://moosevalley.fhost.com.au/
+I am super paranoid about security and all of my PCs are subject to the highest levels of security, so you can rest assured that there are no viruses or malware in any of the software I provide on my web site, as confirmed by this VirusTotal analysis. :)
+Moose
+Posted 0 minutes ago by Moose Delete

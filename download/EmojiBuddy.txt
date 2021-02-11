@@ -1,0 +1,146 @@
+
+Emoji Buddy			Copyright (C) Moose O'Malley,
+------------------		April 2019.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Using this Program
+   | * The Future
+   | * Reviews / Awards / CDs
+   | * Freeware Information
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+Emoji Buddy is a simple little program that lets you
+quickly and easily access some of my favourite Unicode
+Emoji and other characters.
+
+Click any button and the Unicode character is copied into
+the Clipboard buffer on your Windows, Mac, Linux computer,
+so you can paste it into Facebook, Twitter, Reddit, any
+word processing document, presentation, spreadsheet, etc.
+
+If you place the mouse pointer over any button, a tooltip
+will display the a brief description of the Unicode character.
+e.g. "Rolling on Floor Laughing".
+
+If you want all of the Unicode characters, click the "All"
+button and paste them wherever you need them.
+
+No need to visit web sites, or load a word processing document
+containing your favourite Emojis, just run my tiny Emoji Buddy
+program and click a button and then paste the characters wherever
+you need it.
+
+I personally use Emoji Buddy several times a day on my machines.
+Perhaps someone out there will also find it useful ?
+
+This program will run on ANY operating system that is capable of
+running the JVM, including desktops, laptops, and tablets running
+Windows, Linux, Unix, etc, such as PCs, Macs, Raspberry PI, etc.
+
+This program is free software.  Anyone - any person, any company,
+or any business - can use this program for free.  No fees or
+payment is required.  See "Freeware Information" below.
+
+
+Using this Program :
+--------------------
+
+Download and install the Java Runtime Environment (JRE) for
+your machine / OS (if it is not already installed on your machine):
+
+http://www.oracle.com/technetwork/java/javase/downloads/index.html
+
+Extract the contents of the EmojiBuddy.zip file you
+downloaded from my web site to a folder on your machine.
+
+And then, double click on:
+
+	EmojiGUI.jar
+
+icon / file to run the game in the Java Virtual Machine (JVM).
+
+Note: You can use Ctrl + Mouse Wheel to increase / decrease fonts,
+just like you can with web pages in a web browser.
+
+
+The Future :
+------------
+
+In the future, many improvements could be made to this program,
+such as :
+
+- More Emoji's / Unicode characters
+
+- Add your own Emoji's
+
+- Anything else ?
+
+If you would like any of these improvements, or would like to
+suggest more, please email me and let me know.
+
+How much more work I do on this program depends entirely on
+what support I get, how many people use the program, etc.
+
+
+Reviews / Awards / CDs :
+-------------------------
+
+None so far.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.
+
+Anyone - any person, any company, or any business - can
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select
+the "About" option under the Help menu, and then click
+the PayPal link on the "About" screen).
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let
+me know.
+
+
+Amendment History :
+--------------------
+
+Vers    Date        Description
+
+1.0f  07-Apr-2019   First public release and my 107th software
+                    title released on my Moose's Software Valley web page.
+                    (382 lines of code / comments / blank lines in primary source files.)
+
+
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this
+program is available from my WEB page - see below.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://moosesoftware.netau.net/
+____________________________________________________

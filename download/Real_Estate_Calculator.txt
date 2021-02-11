@@ -1,0 +1,511 @@
+ 
+Real Estate Calculator		Copyright (C) Moose O'Malley,
+----------------------		September 2007.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Real Estate Agent's Commission and Stamp Duty
+   | * Adjustments
+   | * Mortgage / Loan
+   | * Mortgage / Loan - Hints and Tips
+   | * Why I wrote this program ?
+   | * Credits / Thanks
+   | * Installing and Using this Program
+   | * Uninstalling this Program
+   | * The Future
+   | * Other Real Estate Software
+   | * Reviews / Awards / CDs
+   | * Freeware Information
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+Real Estate Calculator is a program for Windows 95, 98, 
+ME, NT, 2000, XP, etc.
+
+This program is free software.  Anyone - any person, any company, 
+or any business - can use this program for free.  No fees or 
+payment is required.  See "Freeware Information" below.
+
+Real Estate Calculator enables you to perform a number of 
+calculations which should be useful to anyone who is involved 
+in buying or selling properties or houses, such as first home 
+buyers, investors, real estate agents, solicitors, etc.
+
+More specifically, this program allows you to :
+
+- Calculate the Real Estate Agent's Commission due on 
+  the sale of a house or property.
+
+- Calculate the estimated Government Stamp Duty due when 
+  you purchase a house or property.
+
+- Calculate the Settlement Adjustments (for rates, rent, etc) 
+  due at settlement when you purchase a house or property, and
+  calculate these for the Vendor and Purchaser.
+
+- Calculate the mortgage / loan details, depending on the loan
+  amount, interest rate, repayment amount, and the frequency
+  of repayments (weekly, fortnightly, monthly, etc).
+  The program can also generate a full breakdown of the 
+  repayments, interest, etc for this loan.
+
+These calculations / functions are explained further below.
+
+N.B.  Some of the calculations that this program performs 
+      are - at this stage anyway - probably only specific 
+      to Australia, but most of the program can be used 
+      anywhere in the world.
+
+Developed using 32-bit Delphi.
+
+This program will **NOT** run under Windows 3.x  
+(even with Win32 installed).
+
+
+Real Estate Agent's Commission and Stamp Duty :
+-----------------------------------------------
+
+N.B.  The calculations that the program performs in this
+      area are - at this stage anyway - probably only 
+      specific to Australia.
+
+On the "Commission + Stamp Duty" tab, you can enter a 
+property's price and it will calculate the Real Estate Agent's 
+Commission based on calculations valid in Australia as follows :
+
+ - 3% of the first $18,000
+ - 2.5% of the balance
+
+It is on my list of things to do to add American, UK, etc
+specific calculations for Real Estate Agent's commission into
+this program.  (See "The Future" below).
+
+You can then copy the commission amounts (with or without GST) 
+to Window's clipboard (by using the little buttons next to each 
+value) and paste them into your own documents / spreadsheets / files.
+
+You can also set the GST (Goods and Services Tax) rate.  
+(At the time of writing, this rate is 10% - which has been a 
+constant rate since GST was first introduced in Australia - but 
+it may change in the future - so, I've allowed you to change 
+the GST rate in the program to cater for this.)
+
+The program also calculates the estimated Government Stamp Duty
+due in Australia when you purchase a property as follows :
+ - 1.5%  of the first 20,000
+ - 2.25% of the next  30,000
+ - 2.75% of the next  50,000
+ - 3.25% of the next 150,000
+ - 3.5%  of the next 250,000
+ - 3.75% of the remainder
+
+N.B.  This is the estimated Stamp Duty because things are a 
+      lot more complex than this - they always are with the 
+      Australian Government !!  If the property is commercial,
+      or is vacant land, or is going to be your principal place 
+      of residence live, then different rates of Stamp Duty 
+      apply - and there are also numerous rules to apply and 
+      complexities to consider as well.
+
+It is on my list of things to do to add a more complete stamp 
+duty calculation into this program in the future.
+(See "The Future" below).
+
+A full history of calculations is kept, so you can use the drop 
+down arrow on the right-hand side of the Property Sale Price 
+data entry box to select any previously entered price to review 
+the commission and stamp duty for a property selling for this 
+price.
+
+
+Adjustments :
+-------------
+
+N.B.  The calculations the program performs in this
+      area can be used by anyone anywhere in the world.
+      i.e. they are NOT specific to Australia.
+
+Example : Let's say that you are buying a house, and the 
+vendor (i.e. the current owner) has paid the rates up to 
+and past the date that you become the new legal owner of the 
+house, then at settlement you will need to pay the vendor
+a proportion of these rates.
+
+To illustrate this, let's say that the rates are $400 per 
+half year, and they have been paid for the period 6-Jan-2003
+to 4-June-2003, and that settlement date is 26-April-2003.
+This means that from 26-April-2003 you are required to pay 
+the rates for this house - so you need to reimburse the vendor
+for the rates he has already paid from 26-April-2003 to 
+4-June-2003. 
+
+So, in this case, on the "Adjustments " tab in the program, 
+you would enter the following into the program :
+
+   Period Start Date :   6-Jan-2003
+     Settlement Date :  26-April-2003
+     Period End Date :   4-June-2003
+         Full Amount :   400
+
+and press the "Calculate" button, and the program would 
+tell you that the adjustment due at settlement is 104.70.
+That is, at settlement, you would need to pay the vendor 
+104.70 for rates.
+
+You can then press the "Save" button to save this adjustment 
+under a meaningful name, such as "14 Smith St - Rates 
+Adjustment".
+
+You can use the Load, Save As, and Delete buttons to 
+load previously saved adjustments, save adjustments under 
+other names, and delete previously saved adjustments 
+respectively.
+
+Further adjustments may be required if the house is rented 
+out, etc - and the process required to generate these 
+adjustments is the same as above - but with different 
+start and end dates and amounts.
+
+
+Mortgage / Loan :
+-----------------
+
+N.B.  The calculations the program performs in this
+      area can be used by anyone anywhere in the world.
+      i.e. they are NOT specific to Australia.
+
+Let's say you have or are thinking of getting a loan for a 
+house, car, or some other investment.  Working out what you 
+can afford to pay off the loan each week or month or fortnight
+is crucial.  Also, determining the best strategy for loan 
+repayments specific to your circumstances can save you a lot 
+of trouble and money.
+
+The functions provided on the "Mortgage" tab in the program are 
+designed to help you explore and find the best strategy for repaying 
+a loan.
+
+For example, let's say that you want to borrow 95,000, and that a
+bank will lend you money at 5.5% p.a., and that you are paid 
+fortnightly and can spare 300 per fortnight to pay off your loan.
+
+For this loan, you would enter these details into the program 
+(on the "Mortgage" tab in the program) :
+
+                     Loan Principal : 95,000.00
+    Loan Interest Rate (%) per Year : 5.50%
+           Loan Repayment Frequency : Fortnightly
+   Loan Repayment Amount per Period : 300.00
+
+You could then hit the "Calculate" button, and a summary of 
+the loan will be calculated - showing how long it will take to
+pay the loan off, how much interest you will pay during the life
+of the loan, etc.
+
+Assuming that interest rates, bank fees, etc don't change, the 
+above loan will take 20.2 years to pay off.  However, if you 
+increase the repayments by 30 per fortnight, then the loan 
+will be paid off in just 17.1 years.
+
+In addition, you can also press the "Generate and View Report"
+button to generate a detailed report of the loan, or press
+the "Generate Report to Clipboard" button to generate the report
+and save it to Windows' clipboard so that you can paste it into
+a word processor document or email or web page or somewhere else.
+
+You can also press the "Save" button to save this mortgage 
+under a meaningful name, such as "14 Smith St - 95,000 Loan".
+
+You can use the Load, Save As, and Delete buttons to 
+load previously saved mortgages, save mortgages under 
+other names, and delete previously saved mortgages 
+respectively.
+
+
+Mortgage / Loan - Hints and Tips :
+----------------------------------
+
+On the "Mortgage Hints and Tips" tab in the program, 
+you can find a information which could save you a lot 
+of money and hassle during your loan.
+
+Good luck with things - but don't hesitate to seek 
+professional advice if there is anything you are not 
+sure about or want to double check.
+
+
+Why I wrote this program ?
+--------------------------
+
+I wrote this program because I am a property investor and 
+I needed a program to provide these details / calculations
+and functionality.
+
+Recently (during a month's holiday from work), I have 
+been involved in buying and selling properties and 
+was horrified to see that ALL real estate agents 
+in my area (Capricorn Coast, Queensland, Australia) 
+are still calculating Agent's Commission and GST by 
+hand - using a calculator and/or pen and paper. 
+(They didn't even have a spreadsheet set up to 
+calculate this !!)
+
+These calculations are NOT complex, but when rushing (to put 
+properties on the market or to draw up contracts) it is 
+easy to make mistakes, and I noticed more than one agent 
+make errors in the calculations.
+
+So, I originally wrote this program to calculate real 
+estate agent's commission to enable any real estate agent 
+with a PC or laptop to calculate their sales commissions.
+
+Then, I added in the mortgage report functionality.  This 
+was already contained in my old DOS program "Loan" (available 
+on my Freeware web page).  This program has served me very well 
+over the years, so it was time for a windows version, and 
+this was a perfect opportunity.
+
+Next, I added in the calculations of adjustments at settlement 
+which almost everyone by counting days on a calendar and then 
+performing calculations with a hand calculator - not any more !
+This program makes it very easy to work out the adjustments due
+at settlement.
+
+I personally use this program extensively, and 
+I hope you find the program easy to use and useful.
+
+
+Credits / Thanks :
+------------------
+
+There aren't really any credits or thanks, but I'd sure 
+like to take this opportunity to say a big hello to 
+Sylvia - the cutest little agent on the Capricorn Coast !  ;)
+
+
+Installing and Using this Program :
+-----------------------------------
+
+To use this program, unzip the contents of the ZIP file to a 
+directory - such as c:\Real_Estate\ - and run the executable 
+file : Real_Estate_Calculator.EXE.
+
+If you want the program to run automatically when Windows
+starts up, then select this option under the "File" menu 
+in the program.
+
+If you would like to be able to run this program by clicking 
+on an icon in the Windows Start Menu, or on the Desktop, etc 
+then you can use the "Create Shortcut ..." options under 
+the program's File menu.
+
+I hope you find the program easy to use and useful.
+
+
+Uninstalling this Program :
+---------------------------
+
+At the present time, there is No Uninstall function.
+
+If you ever want to delete this program 
+from your computer, then :
+
+ 1. Exit the program, and delete it from wherever 
+    you installed it on your harddrive.
+
+Before doing this however :
+
+- If you have selected / enabled the "Auto-Run at Windows 
+  Startup" option (under the File menu), then you should 
+  ensure that this option is not checked / enabled 
+  (which you can easily do by re-selecting the 
+  "Auto-Run at Windows Startup" option from under 
+  the File menu).
+
+- If you have used any of the "Create Shortcut ..." options 
+  under the File menu, then you should use the "Delete All 
+  Shortcuts" option under the File menu to remove these from
+  your system.
+
+Simple as that !
+
+
+The Future :
+------------
+
+There are many things I could do with this program in the 
+future, for example :
+
+- Support for calculating agent's commissions in other countries.  
+  (Please send me an email and let me know how the agent's 
+  commissions are calculated in your country and I'll add 
+  these into the program).
+
+- Enable the user to change the various percentages.
+  So, for example, the commission could be calculated as :
+   - 3.5% of the first $18,000
+   - 3.0% of the balance
+
+  instead of :
+   - 3% of the first $18,000
+   - 2.5% of the balance
+
+- Enable the user to change the various thresholds.
+  So, for example, the commission could be calculated as :
+   - 3.5% of the first $30,000
+   - 3.0% of the next  $20,000 
+   - 2.5% of the balance
+
+- Allow the user to rename the services tax.  In Australia,
+  it is called GST, in the UK, it is called VAT, etc.
+
+- Add in American, UK, etc specific calculations for 
+  Real Estate Agent's commission.
+  (Please email me and let me know what the 
+  calculations are in your country).
+
+- Add a more complete stamp duty calculation into this 
+  program - to cater for vacant land, principal place 
+  of residence, etc.
+
+- Add in American, UK, etc specific calculations for 
+  stamp duty.  (Please email me and let me know what the 
+  calculations are in your country).
+
+- Anything else ??
+
+If you would like any of these improvements, or would like to
+suggest more, please email me and let me know.
+
+How much more work I do on this program depends entirely on
+what support I get, how many people use the program, etc.
+
+
+Other Real Estate Software :
+----------------------------
+
+There are many other useful pieces of software that I could develop.
+
+For example, I have already developed a basic computer system which 
+draws up all documents relating to the sale and transfer of a property
+- including all vendor, purchaser, agent, solicitor, property, 
+etc details on all normal contracts and transfer documents.
+(Yes, I do all my own conveyancing).
+
+However, this is currently for my own personal use - there is 
+still a fair bit of work to do before this is a polished application.
+
+Also, I am not a solicitor or a lawyer - so, I do not know if 
+the system will work for all people in all situations.  And, I 
+am certainly not prepared to release it for anyone else to use 
+until it has been thoroughly tested and signed off by one or 
+more solicitors.  
+
+Also, at this stage, I only have the necesssary documents for 
+Queensland, Australia - and the forms in other locations in 
+Australia and in other countries may be quite different.
+
+Are any solicitor's interested in helping test / verify such 
+software ?  If so, then let me know, and in exchange for your help
+and "stamp of approval" I will provide the program to you 
+at discounted rates, so that you can use it yourself or sell it 
+to your own clients.
+
+Also, the REIQ Standard Contract, and the various transfer forms 
+(Form 1, Form 24, Form Q), etc are all copyright material, so I 
+will need some no doubt expensive legal advice before I could ever 
+consider selling a program that made use of these copyrighted forms.
+(Or can I just make up my own forms which loook similar ?)
+
+But, if any Real Estate Agents or solicitors or vendors or 
+purchasers or any one else out there would like me to finish 
+off this system and provide it for sale, then please let me know.  
+
+If there is support for such a system, and I get some help from 
+several solicitors, then I will finish this system off and sell it.
+
+
+Reviews / Awards / CDs :
+-------------------------
+
+None so far.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.  
+
+Anyone - any person, any company, or any business - can 
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please 
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select 
+the "About" option under the Help menu, and then click 
+the PayPal link on the "About" screen).
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+You should seek always professional advice if there is 
+anything you are not sure about.  
+
+You should seek professional advice to double and triple 
+check everything that this program tells you.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know.
+
+
+Amendment History :
+-------------------
+
+Vers    Date        Description
+
+1.0  27-Feb-2003    First Public Release.
+                    (58,751 lines of code / comments.)
+
+1.1  22-June-2004   On the Adjustments tab, add :
+                    - Vendors share calculations and display, 
+                    - Start To Settlement Length (days),
+                    - Vendor's Calc and Purchaser's Calc buttons and 
+                      functionality.
+                    So you can now do the adjustments either way, and
+                    calculate the Vendor's share and the Purchaser's share 
+                    of each settlement adjustment item.
+                    All add in the ability to copy the calculation
+                    expansion (e.g. 23 days * $23.86 per day = ...)
+                    for the Vendor and the Purchaser.
+                    This all makes it a breeze to do settlement adjustments 
+                    now, and this program has saved me an absolute packet 
+                    in Solicitor's fees - as I've been doing my own
+                    conveyancing for several years now.
+                    Bring the program up to date with my latest code 
+                    libraries.
+                    (68,311 lines of code / comments.)
+
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this 
+program is available from my WEB page - see below.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://move.to/moose
+____________________________________________________
+ 

@@ -1,0 +1,144 @@
+
+Money Or The Case		Copyright (C) Moose O'Malley,
+------------------		March 2019.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Using this Program
+   | * The Future
+   | * Reviews / Awards / CDs
+   | * Freeware Information
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+Money Or The Case is a simple game that runs under the Java Virtual
+Machine (JVM).
+
+Money Or The Case is my game based on games and game shows like
+'Pick a Card', 'Deal or No Deal', 'Pick a Box',
+'The Money or The Box', ... and ofcourse is just for fun.
+
+How to Play:
+* Click the 'Start' button to start a new game.
+* Select 'your' case.
+* One by one, select the required number of cases for the round.
+* At the end the round decide whether to accept the
+  offer or play on to the next round.
+* If there are 2 cases left, then select one of the cases.
+
+Needless to say, all money / winnings in this game are
+'funny money'.
+
+This game will run on ANY operating system that is capable of
+running the JVM, including desktops, laptops, and tablets running
+Windows, Linux, Unix, etc, such as PCs, Macs, Raspberry PI, etc.
+
+This program is free software.  Anyone - any person, any company,
+or any business - can use this program for free.  No fees or
+payment is required.  See "Freeware Information" below.
+
+
+Using this Program :
+--------------------
+
+Download and install the Java Runtime Environment (JRE) for
+your machine / OS (if it is not already installed on your machine):
+
+http://www.oracle.com/technetwork/java/javase/downloads/index.html
+
+Extract the contents of the MoneyOrTheCase.zip file you
+downloaded from my web site to a folder on your machine.
+
+And then, double click on:
+
+	MoneyOrTheCase.jar
+
+icon / file to run the game in the Java Virtual Machine (JVM).
+
+Note: You can use Ctrl + Mouse Wheel to increase / decrease fonts,
+just like you can with web pages in a web browser.
+
+
+The Future :
+------------
+
+In the future, many improvements could be made to this program,
+such as :
+
+- Sound effects, audience cheers, Ooohs, Ahhs, etc.
+
+- Multi-player, team play, etc
+
+- Mystery cases, penalty cases, high scores, achievements, ...
+
+- More game play options - I have lots of ideas ...
+
+- Anything else ?
+
+If you would like any of these improvements, or would like to
+suggest more, please email me and let me know.
+
+How much more work I do on this program depends entirely on
+what support I get, how many people use the program, etc.
+
+
+Reviews / Awards / CDs :
+-------------------------
+
+None so far.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.
+
+Anyone - any person, any company, or any business - can
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select
+the "About" option under the Help menu, and then click
+the PayPal link on the "About" screen).
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let
+me know.
+
+
+Amendment History :
+--------------------
+
+Vers    Date        Description
+
+1.0f  18-Mar-2019   First public release and my 107th software
+                    title released on my Moose's Software Valley web page.
+                    (873 lines of code / comments / blank lines in primary source files.)
+
+
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this
+program is available from my WEB page - see below.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://moosesoftware.netau.net/
+____________________________________________________

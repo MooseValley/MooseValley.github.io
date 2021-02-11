@@ -1,0 +1,156 @@
+ 
+Clipboard Tools		Copyright (C) Moose O'Malley, 
+---------------		January 2010.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Using this Program
+   | * Why is this useful ?  /  Why do this ?
+   | * The Future
+   | * Reviews / Awards / CDs
+   | * Freeware Information
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+Clipboard Tools is for Windows 95, 98, NT, 2000, etc.
+
+This program is free software.  Anyone - any person, any company, 
+or any business - can use this program for free.  No fees or 
+payment is required.  See "Freeware Information" below.
+
+Clipboard Tools enables you to :
+- Erase the data on the Window's Clipboard,
+- View the Text or Bitmap data in the Window's Clipboard,
+- List the formats of data currently available in the Window's 
+  Clipboard
+
+Developed using 32-bit Delphi.
+
+Clipboard Tools is for Windows 95 / 98 / NT / 2000.
+This program will **NOT** run under Windows 3.x
+(even with Win32 installed) !!
+
+
+Using this Program :
+--------------------
+
+To use this program, simply unzip it to a directory and run it,
+and then click the buttons to perform the functionality
+listed above.
+
+If you want this program to be "Always On Top" 
+of other Windows, then select the "Always On Top"
+menu option under the "File" menu.
+
+
+Why is this useful ?  /  Why do this ?
+--------------------------------------
+
+I often work with DOS or Console applications, and these can 
+be very twitchy.  e.g. you can select the text and copy it 
+from any DOS character based application, but this doesn't 
+always work - especially when the clipboard already 
+contails data.
+
+So, I originally wrote this program with the single "Erase
+Clipboard" button to overcome this limitation / bug
+in the Windows Clipboard - DOS / Console application
+interface.
+
+It has since been extended to provide other functionality
+that can be useful from time to time.
+
+
+The Future :
+------------
+
+In the future, many improvements could be made to this program,
+such as :
+- Enable the display of more formats of Clipboard data - such as
+  Rich Text, sound, etc data.
+- Buttons to contain the last 5 or 10 items contained in the 
+  Windows clipboard - to enable you to re-use and re-copy this
+  old data into your documents, etc.
+- Anything else ?
+
+If you would like any of these improvements, or would like to
+suggest more, please email me and let me know.
+
+How much more work I do on this program depends entirely on
+what support I get, how many people use the program, how many
+people have registered, etc.
+
+
+Reviews / Awards / CDs :
+-------------------------
+
+None so far.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.  
+
+Anyone - any person, any company, or any business - can 
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please 
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select 
+the "About" option under the Help menu, and then click 
+the PayPal link on the "About" screen).
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know, and I will do my best to fix it ASAP.
+
+
+Amendment History :
+--------------------
+
+Vers    Date        Description
+
+1.0   17-Apr-2001   First Public Release.
+                    (2,887 lines of code / comments.)
+
+1.1   13-Oct-2001   Bring the program up to date with my latest code libraries.
+                    Brand New About Screen and associated functionality.
+                    Add in support for the Maximise icon in the top right 
+                    corner of the program's main window.
+                    (8,609 lines of code / comments.)
+
+1.1b  20-Nov-2002   Bring the program up to date with my latest code libraries.
+                    (29,301 lines of code / comments.)
+
+1.1f  17-Jan-2010   This program is now FREEWARE - see "Freeware Information"
+                    above.
+                    (42,459 lines of code / comments.)
+
+
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this 
+program is available from my WEB page - see below.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://move.to/moose
+____________________________________________________
+ 

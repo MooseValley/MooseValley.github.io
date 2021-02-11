@@ -1,0 +1,145 @@
+https://www.virustotal.com/en/file/d0e415913ccf79a340345facdae5440d64f7563761fa15c657a20b458f34eea6/analysis/1432705306/
+
+SHA256: 	d0e415913ccf79a340345facdae5440d64f7563761fa15c657a20b458f34eea6
+File name: 	GIF_Image_Details - v0.9f - for Suzy Q.zip
+Detection ratio: 	0 / 57
+Analysis date: 	2015-05-27 05:41:46 UTC ( 1 minute ago )
+0
+0
+
+    Analysis
+    Additional information
+    Comments
+    Votes
+
+Antivirus 	Result 	Update
+ALYac 		20150527
+AVG 		20150527
+AVware 		20150527
+Ad-Aware 		20150527
+AegisLab 		20150527
+Agnitum 		20150525
+AhnLab-V3 		20150526
+Alibaba 		20150527
+Antiy-AVL 		20150527
+Avast 		20150527
+Avira 		20150527
+Baidu-International 		20150526
+BitDefender 		20150527
+Bkav 		20150526
+ByteHero 		20150527
+CAT-QuickHeal 		20150523
+CMC 		20150527
+ClamAV 		20150526
+Comodo 		20150526
+Cyren 		20150527
+DrWeb 		20150527
+ESET-NOD32 		20150527
+Emsisoft 		20150527
+F-Prot 		20150527
+F-Secure 		20150527
+Fortinet 		20150527
+GData 		20150527
+Ikarus 		20150527
+Jiangmin 		20150526
+K7AntiVirus 		20150526
+K7GW 		20150527
+Kaspersky 		20150527
+Kingsoft 		20150527
+Malwarebytes 		20150526
+McAfee 		20150527
+McAfee-GW-Edition 		20150526
+MicroWorld-eScan 		20150527
+Microsoft 		20150527
+NANO-Antivirus 		20150527
+Norman 		20150526
+Panda 		20150526
+Qihoo-360 		20150527
+Rising 		20150526
+SUPERAntiSpyware 		20150527
+Sophos 		20150527
+Symantec 		20150527
+Tencent 		20150527
+TheHacker 		20150526
+TotalDefense 		20150526
+TrendMicro 		20150527
+TrendMicro-HouseCall 		20150527
+VBA32 		20150526
+VIPRE 		20150527
+ViRobot 		20150527
+Zillya 		20150525
+Zoner 		20150526
+nProtect 		20150526 
+
+
+
+File identification
+MD5 df6b478a8e253b4c353e531d984b5ddc
+SHA1 f71ec818e506a64e2aacc203ee48930c2c2397e2
+SHA256 d0e415913ccf79a340345facdae5440d64f7563761fa15c657a20b458f34eea6
+ssdeep
+6144:0sCG6y7u7u7W4n/VosXltT3Gm/AwpD4kT08U8oV1de:0p+u0W4n/VosGmAZO
+
+File size 242.4 KB ( 248251 bytes )
+File type ZIP
+Magic literal
+Zip archive data, at least v2.0 to extract
+
+TrID 	ZIP compressed archive (100.0%)
+Tags
+zip upx
+
+VirusTotal metadata
+First submission 2015-05-27 05:41:46 UTC ( 6 minutes ago )
+Last submission 2015-05-27 05:41:46 UTC ( 6 minutes ago )
+File names 	GIF_Image_Details - v0.9f - for Suzy Q.zip
+Advanced heuristic and reputation engines
+ClamAV PUA
+Possibly Unwanted Application. While not necessarily malicious, the scanned file presents certain characteristics which depending on the user policies and environment may or may not represent a threat. For full details see: http://www.clamav.net/doc/pua.html .
+
+ExifTool file metadata
+MIMEType
+application/zip
+
+ZipRequiredVersion
+20
+
+ZipCRC
+0x5834d4a1
+
+FileType
+ZIP
+
+ZipCompression
+Deflated
+
+ZipUncompressedSize
+4169
+
+ZipCompressedSize
+1675
+
+FileTypeExtension
+zip
+
+ZipFileName
+GIF_Image_Details.txt
+
+ZipBitFlag
+0x0002
+
+ZipModifyDate
+2015:05:27 12:20:23
+
+
+
+
+Comments
+
+Special pre-release version - v0.9f - of a new program requested by Suzy Q.
+When released, this program will be available from my web site: http://moosevalley.fhost.com.au/
+I am super paranoid about security and all of my PCs are subject to the highest levels of security, so you can rest assured that there are no viruses or malware in any of the software I provide on my web site, as confirmed by this VirusTotal analysis. :)
+Moose
+Posted 0 minutes ago by Moose Delete
+
+

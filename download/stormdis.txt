@@ -1,0 +1,186 @@
+ 	
+Storm Distance Calculator			Copyright (C) Moose O'Malley, 
+-------------------------			September 2007.
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Using this Program
+   | * Inspiration for this Program
+   | * The Future
+   | * Use at Your Own Risk
+   | * Reviews / Awards / CDs
+   | * Freeware Information
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+Storm Distance Calculator for Windows 95, 98, ME, NT, 2000, XP, etc.
+
+This program is free software.  Anyone - any person, any company, 
+or any business - can use this program for free.  No fees or 
+payment is required.  See "Freeware Information" below.
+
+Storm Distance Calculator enables you to easily log the time 
+between Lighting Flashes in a storm and the subsequent 
+Thunder Rolls, and automatically :
+- calculates the distance that the storm is from you, and,
+- determines whether the storm is moving away from or towards 
+  you.
+
+Developed using 32-bit Delphi.
+
+If you find this program useful, please visit my WEB page
+and check out some of the Freeware or $5 dollar Shareware
+programs I have on offer there. 
+
+
+Using this Program :
+--------------------
+
+To use this program, simply unzip it to a directory (using 
+PKUNIP, WinZIP, or similar), run it, click the "Check for
+Pentium Flaw" button and read the message that should
+appear pretty well instantanously after this.
+
+
+Inspiration for this Program :
+------------------------------
+
+I was walking my dog, Jessica, on the beach in Yeppoon, 
+Australia on Sunday (24-Oct-1999) when I was surrounded 
+by a huge storm and rain squall.  There was lightning 
+all around us, the thunder was constantly rolling, and 
+the rain beat down so that my vision was blurred.  
+Jessica was extremely frightened and I was quite 
+concerned about us being struck.  
+
+Luckily we weren't.
+
+But I couldn't help wondering how close the lightening 
+was to us.  So, when we got home, had a shower, washed 
+Jessica, had a hot coffee, and dried off, I wrote this 
+program - Storm Distance Calculator.
+
+I now know that the lightning strikes (which were 
+happening on-average every second - were less than 
+300 metres away from  me in all directions.  The 
+storm lasted about 20 minutes.
+
+So, Jessica and I had good cause for concern during 
+the storm after all !!  ;)
+
+
+The Future :
+------------
+
+In the future, many improvements could be made to this program,
+such as :
+- Ability to display the storm distance in Miles, Feet, etc.
+- Logging of storm information into seperate files.
+- Ability to compare storm movement rates and lightning
+  strike rates.
+- Anything else ?
+
+If you would like any of these improvements, or would like to
+suggest more, please email me and let me know.
+
+How much more work I do on this program depends entirely on
+what support I get, how many people use the program, etc.
+
+
+Use at Your Own Risk :
+----------------------
+
+Using your PC near or during an electrical storm is not
+a wise thing to do.  Your PC contains very sensitive electronic
+equipment which can easily be damaged by power surges that may
+occur following lightning strikes during storms.
+
+Being present near a storm can also be dangerous.
+
+Remain close to storms at your own risk.
+
+Use this program at your own risk.
+
+
+Reviews / Awards / CDs :
+-------------------------
+
+None so far.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.  
+
+Anyone - any person, any company, or any business - can 
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please 
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select 
+the "About" option under the Help menu, and then click 
+the PayPal link on the "About" screen).
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know.
+
+
+Amendment History :
+--------------------
+
+Vers    Date        Description
+1.0   25-Oct-1999   First Public Release.
+                    (4,462 lines of code / comments.)
+
+1.1   25-Nov-2001   Store the INI settings file in the program's directory, 
+                    rather that in the Windows' directory - there's enough 
+                    crap there already ! ;)
+                    Add Restore Factory Defaults, Always on Top, and 
+                    Auto-Run at Windows Startup options to the File menu.
+                    Add in support for "Big Fonts" and "Other Sized Fonts".
+                    Bring the program up to date with my latest code libraries.
+                    Brand New About Screen and associated functionality.
+                    Add in support for the Maximise icon in the top right
+                    corner of the program's main window.
+                    This program is now for 32 bit Windows or later.  
+                    e.g. Windows 95, 98, ME, NT, 2000, or later.
+                    i.e. Windows 3.x is no longer supported.
+                    Add in a "Copy to Clipboard" speed button, next to the 
+                    elapsed time display.
+                    Add in an "Exit" button.
+                    (9,430 lines of code / comments).
+
+1.1b  20-Nov-2002   Bring the program up to date with my latest code libraries.
+                    (31,915 lines of code / comments.)
+
+1.1f  3-Sep-2007    This program is now FREEWARE - see "Freeware Information"
+                    above.
+
+
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this 
+program is available from my WEB page - see below.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://move.to/moose
+____________________________________________________
+ 

@@ -1,0 +1,253 @@
+ 
+Font Reviewer		Copyright (C) Moose O'Malley, 
+-------------		September 2007.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Credits / Thanks
+   | * Why I Wrote this Program
+   | * Installing and Using this Program 
+   | * Using this Program
+   | * Uninstalling this Program
+   | * The Future
+   | * Reviews / Awards / CDs
+   | * Freeware Information
+   | * Warranty 
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+Font Reviewer is for Windows 95, 98, ME, NT, 2000, XP, or 
+later.
+
+This program is free software.  Anyone - any person, any company, 
+or any business - can use this program for free.  No fees or 
+payment is required.  See "Freeware Information" below.
+
+Font Reviewer allows you to view all fonts installed on your computer and
+see any text you like written in any or all of the fonts that you select.
+
+Font Reviewer was developed to make font selections simple, fast, easy, 
+and painless.
+
+You can chose any or all of the following pre-defined pieces of text :
+- The Font's Name and Size (in an Arial font)
+- The Font's Name (in it's own font)
+- ABCDEFGHIJKLMNOPQRSTUVWXYZ
+- abcdefghijklmnopqrstuvwxyz
+- The quick brown fox jumped over the lazy dogs.
+- THE QUICK BROWN FOX JUMPED OVER THE LAZY DOGS.
+- 01234567890
+
+And/or you can enter any text you like and see it written in all 
+of the selected fonts.
+
+Developed using 32-bit Delphi.
+
+Font Reviewer is for Windows 95, 98, ME, NT, 2000, XP, or 
+later.  This program will **NOT** run under Windows 3.x
+(even with Win32 installed) !!
+
+
+Credits / Thanks :
+------------------
+
+- Nil.
+
+
+Why I Wrote this Program :
+--------------------------
+
+I like using different fonts and I have over 415 fonts installed 
+on my PC - and that's nothing compared to what I've had in the past.
+
+The problem is, it is impossible to remember what fonts are 
+installed or what they look like.
+
+When selecting a font to use for a piece of work, it is usually a 
+tedious, time consuming, manual loathsome process.
+
+You know the deal.  In a Word processor, to see what a piece of text 
+looks like in a particular font, you have to go through and select a 
+font and see what the text looks like, and then change the font and 
+see what the text loks like with that font, and so on.
+
+It is tedious job, and half the time you like a font that 
+you saw near the start, so you have to search all the way 
+through again.  And, when you are dealing with 100's of fonts, 
+this is a slow, error prone, and very tedious job.
+
+So, while looking for a font recently, I decided that I'd had 
+enough of this messing around, and, as I usually do, I decided 
+to write a program to help me.
+
+This program was called "Font Reviewer".
+
+Font Reviewer has already saved me many hours of tedious work.
+
+I hope you also find the program useful.
+
+
+Installing and Using this Program :
+-----------------------------------
+
+To use this program, unzip the contents of the ZIP file to a 
+directory - such as c:\Font_Reviewer\ - and run the 
+executable file : Font_Reviewer.EXE.
+
+If you want the program to run automatically when Windows
+starts up, then select this option under the "File" menu 
+in the program.
+
+If you would like to be able to run this program by clicking 
+on an icon in the Windows Start Menu, or on the Desktop, etc 
+then you can use the "Create Shortcut ..." options under 
+the program's File menu.
+
+I hope you find the program easy to use and useful.
+
+
+Using this Program :
+--------------------
+
+Select the pieces ofg text you would like to be written in the 
+selcted fonts.
+
+If you have any special text (that isn't already in the list)
+that you would like written in the selected fonts, then 
+enter it in the "Other Text" edit box and make sure that the 
+"Other Text" checkbox is checked.
+
+To select or unselect fonts, click the checkbox in front of 
+their names, or use the buttons on the right-hand side of the 
+fonts list.
+
+To invert your font selections (i.e. make all selectyed fonts
+unselected and vica versa), then use the "Invert" button.
+
+Then click the "Report" button, and you will see a report 
+containing each of the selected text items written in each 
+of the selected fonts.
+
+The program should hopefully be pretty easy and straight forward to use.
+
+
+Uninstalling this Program :
+---------------------------
+
+At the  present time, there is No Uninstall function.
+
+If you ever want to delete this program 
+from your computer, then :
+
+ 1. Exit the program, and delete it from wherever 
+    you installed it on your harddrive.
+
+Before doing this however :
+
+- If you have selected / enabled the "Auto-Run at Windows 
+  Startup" option (under the File menu), then you should 
+  ensure that this option is not checked / enabled 
+  (which you can easily do by re-selecting the 
+  "Auto-Run at Windows Startup" option from under 
+  the File menu).
+
+- If you have used any of the "Create Shortcut ..." options 
+  under the File menu, then you should use the "Delete All 
+  Shortcuts" option under the File menu to remove these from
+  your system.
+
+Simple as that !
+
+
+The Future :
+------------
+
+In the future, many improvements could be made to this program,
+such as :
+
+- Save and Load the fonts that are selected between program runs 
+  and between font list refreshes.  So, the selected fonts are 
+  preserved even as more fonts are added to your system.
+
+- Add an option to allow you to insert a blank line between report 
+  segments or not.  i.e. leave a blank line between the chunks
+  of the report for each font.
+
+- The ability to delete / uninstall selected fonts.
+
+- The ability to delete / uninstall all but the default fonts 
+  that are installed on your system during a standards Windows 
+  install.
+
+- Anything else ??  Let me know.
+
+If you would like any of these improvements, or would like to
+suggest more, please email me and let me know.
+
+How much more work I do on this program depends entirely on
+what support I get, how many people use the program, how many
+people have registered, etc.
+
+
+Reviews / Awards / CDs :
+----------------------------------
+
+None so far.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.  
+
+Anyone - any person, any company, or any business - can 
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please 
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select 
+the "About" option under the Help menu, and then click 
+the PayPal link on the "About" screen).
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know.
+
+
+Amendment History :
+--------------------
+
+Vers    Date        Description
+
+1.0   04-May-2005   First PUBLIC Release.
+                    (55,846 lines of code / comments.)
+
+1.0f  3-Sep-2007    This program is now FREEWARE - see "Freeware Information"
+                    above.
+
+
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this 
+program is available from my WEB page - see below.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://move.to/moose
+____________________________________________________
+ 

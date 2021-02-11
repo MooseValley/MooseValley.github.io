@@ -1,0 +1,147 @@
+Apple_2_Disk_Drive_Sounds__v1,0f.zip
+
+Apple_2_Disk_Drive_Sounds__WAV_Files
+
+Apple 2 Disk Drive Sounds (WAV files) (v1.0f)
+
+http://www.virustotal.com/en/file/7dd7cb192559b9192fa9fc506d41960843668d7d6f9743818e0be497f9f394c3/analysis/1422139237/
+
+SHA256: 	7dd7cb192559b9192fa9fc506d41960843668d7d6f9743818e0be497f9f394c3
+File name: 	Apple_2_Disk_Drive_Sounds__v1,0f.zip
+Detection ratio: 	0 / 57
+Analysis date: 	2015-01-24 22:40:37 UTC ( 0 minutes ago )
+1
+0
+
+    Analysis
+    Additional information
+    Comments
+    Votes
+
+Antivirus 	Result 	Update
+ALYac 		20150124
+AVG 		20150124
+AVware 		20150124
+Ad-Aware 		20150124
+AegisLab 		20150124
+Agnitum 		20150124
+AhnLab-V3 		20150124
+Alibaba 		20150120
+Antiy-AVL 		20150124
+Avast 		20150124
+Avira 		20150124
+Baidu-International 		20150124
+BitDefender 		20150124
+Bkav 		20150124
+ByteHero 		20150124
+CAT-QuickHeal 		20150124
+CMC 		20150124
+ClamAV 		20150124
+Comodo 		20150124
+Cyren 		20150124
+DrWeb 		20150124
+ESET-NOD32 		20150124
+Emsisoft 		20150124
+F-Prot 		20150124
+F-Secure 		20150124
+Fortinet 		20150124
+GData 		20150124
+Ikarus 		20150124
+Jiangmin 		20150124
+K7AntiVirus 		20150124
+K7GW 		20150124
+Kaspersky 		20150124
+Kingsoft 		20150124
+Malwarebytes 		20150124
+McAfee 		20150124
+McAfee-GW-Edition 		20150124
+MicroWorld-eScan 		20150124
+Microsoft 		20150124
+NANO-Antivirus 		20150124
+Norman 		20150123
+Panda 		20150124
+Qihoo-360 		20150124
+Rising 		20150123
+SUPERAntiSpyware 		20150124
+Sophos 		20150124
+Symantec 		20150124
+Tencent 		20150124
+TheHacker 		20150123
+TotalDefense 		20150124
+TrendMicro 		20150124
+TrendMicro-HouseCall 		20150124
+VBA32 		20150123
+VIPRE 		20150124
+ViRobot 		20150124
+Zillya 		20150124
+Zoner 		20150123
+nProtect 		20150123 
+
+
+
+
+File identification
+MD5 dae6f3f587391ddd35c1d64aa76ce0b4
+SHA1 25907569a137a72a2f481b8d14e95510dad6f21c
+SHA256 7dd7cb192559b9192fa9fc506d41960843668d7d6f9743818e0be497f9f394c3
+ssdeep
+12288:Ki9mMlX3guRTlC2V9CuggvkZSzEEazac0aC89HSSqKUHPZu7XovJB:tmMJ/RJNwugg/zWwWHqbWXO
+
+File size 592.0 KB ( 606190 bytes )
+File type ZIP
+Magic literal
+Zip archive data, at least v2.0 to extract
+
+TrID 	ZIP compressed archive (100.0%)
+Tags
+zip
+
+VirusTotal metadata
+First submission 2015-01-24 22:40:37 UTC ( 1 minute ago )
+Last submission 2015-01-24 22:40:37 UTC ( 1 minute ago )
+File names 	Apple_2_Disk_Drive_Sounds__v1,0f.zip
+ExifTool file metadata
+MIMEType
+application/zip
+
+ZipRequiredVersion
+20
+
+ZipCRC
+0x51f4c148
+
+FileType
+ZIP
+
+ZipCompression
+Deflated
+
+ZipUncompressedSize
+24066
+
+ZipCompressedSize
+17698
+
+FileAccessDate
+2015:01:24 23:40:47+01:00
+
+ZipFileName
+Apple Panic Start.wav
+
+ZipBitFlag
+0
+
+FileCreateDate
+2015:01:24 23:40:47+01:00
+
+ZipModifyDate
+2001:11:22 23:14:11
+
+
+
+Comments
+
+Downloaded from my web site: http://moosevalley.fhost.com.au/
+I am super paranoid about security and all of my PCs are subject to the highest levels of security, so you can rest assured that there are no viruses or malware in any of the software I provide on my web site, as confirmed by this VirusTotal analysis. :)
+Moose
+Posted 0 minutes ago by Moose Delete

@@ -1,0 +1,739 @@
+QI TV Show UnOfficial Companion		Copyright (C) Moose O'Malley, 
+-------------------------------		April 2015.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * NOTES
+   | * Trademarks and COPYRIGHT Information
+   | * Installing / Setting up this Program
+   | * Using this Program
+   | * Why I wrote this Program ?
+   | * Can YOU Help ?  Missing items ....
+   | * The Future
+   | * Special Thanks To
+   | * Reviews / Awards / CDs
+   | * Freeware Information
+   | * Warranty
+   | * 100% Virus Free - 55+ Virus Checkers
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction:
+-------------
+
+QI TV Show UnOfficial Companion is for IBM compatible PCs, desktops, laptops, 
+netbooks, etc running any version of Windows from Windows 95 onwards, which 
+includes Windows 98, ME, NT, 2000, XP, Vista, 7, 8, 10, etc, 32 and 64 bit.
+
+This program is free software.  Anyone - any person, any company, 
+or any business - can use this program for free.  No fees or 
+payment is required.  See "Freeware Information" below.
+
+NOTE: To avoid Copyright issues, no copyrighted material is provided with 
+this program.  See "Trademarks and COPYRIGHT Information" below for further details.
+
+QI TV Show UnOfficial Companion is for fans of the TV show QI, and will help 
+you really get the most out of QI by providing the following functionality:
+
+* Find episodes by keyword(s) and/or panelist and then watch the selected 
+  episode by simply double clicking on the episode name.
+  See "NOTES" below and "Installing / Setting up this Program" below.
+
+* Watch episodes of QI in a window or full screen, with or without subtitles, 
+  automatically skipping opening credits / music, etc.
+  See "NOTES" below and "Installing / Setting up this Program" below.
+
+* Search through episode transcripts / sub-title / keyword index files and display a 
+  list of episodes that contain the keywords.  
+  If the Transcript files are on your computer, then the sentences / phrases where each 
+  word appears will be displayed.
+  If the Sub-title files are on your computer, then the sentences / phrases where each 
+  word appears will be displayed along with the time-stamp (the location in the episode).
+  If you double click on any search results lines with a time stamp, then the video 
+  will jump to that location and play the episode from that point forward.
+  See "NOTES" below and "Installing / Setting up this Program" below.
+
+* If you have sub-title files for episodes, then QI TV Show UnOfficial Companion 
+  will automatically use these when you do a search, and you double click on a 
+  particular line in the search results, and the video will jump directly to that point
+  and play the episode from that point on.
+  See "NOTES" below and "Installing / Setting up this Program" below.
+
+* See a list of episodes that each panelist appeared,
+
+* Select multiple panelists to see which episodes they appeared in together,
+
+* See photos of every panelist that has appeared on the show to remind you who they are.
+  See "Trademarks and COPYRIGHT Information" below.
+
+* Watch any episode by simply double clicking on the episode in any of the lists 
+  (if you have the video files stored on your harddrive).
+
+* See various statistics about QI, such as the ratio of men / women on the show, 
+  who appeared most on the show, and so on.
+
+* If the "Auto Search for episode on YouTube if not found" checkbox on the Settings 
+  tab is checked, then automatically search for episodes on YouTube if they cannot 
+  be found locally on your computer.  No need to have *any* episodes stored 
+  locally on your computer.  (Make sure you have lots of spare internet bandwidth).
+
+* And more ...
+
+The program keeps track of which episodes you have watched and colour codes these 
+(blue by default, but you can change this to whatever colour you want) so you can 
+tell at a glance which episodes you have watched.  If you want to reset / erase 
+your watching history, then click the "Reset" button for your history on the 
+"Watchers" tab.
+
+If you have multiple people using the same computer, then you can add multiple people
+to the Watchers tab and they each have their own individual viewing history.
+Just click on the name in the list to change the person watching.
+
+The program colour codes episodes whose videos it cannot find red by (default).
+
+You can change the colours used for colour coding on the "Settings" tab.
+
+Macintosh, Android, Linux, iPad, etc version(s) are planned for the future.  
+See "The Future" below.
+
+NOTE: I very highly recommend that you watch my setup, installation, and usage video:
+	QI TV Show UnOfficial Companion - v1.0f
+	http://youtu.be/DBNON13WJL0
+
+Developed using 32-bit Delphi.
+
+
+NOTES:
+------
+
+* Note #1: Episode Videos
+Episode playing functionality requires either or both of the following:
+(1a) The episode video files need to be stored on your computer or on accessible 
+     network storage with names / formats that are supported by QI TV Show UnOfficial 
+     Companion and the folder(s) in the video folders set for QI TV 
+     Show UnOfficial Companion.  See "Installing / Setting up this Program" below.
+     OR,
+(1b) you need an internet connection to YouTube and you need to check the   
+     "Auto Search for episode on YouTube if not found" checkbox (Settings tab).
+
+* Note #2: VLC/VideoLan
+VLC is FREE software and it is currently supported on Windows, Linux, 
+Mac, Linux, and other environments.  VLC is the best video player on the planet.  
+Grab it here: http://www.videolan.org/vlc/.
+VLC/VideoLan functionality requires all THREE of the following conditions:
+(2a) VLC/VideoLan must be installed on your PC.
+(2b) The videos must be are stored locally on your computer or on network or 
+     external storage accessible on your computer.  That is, the videos cannot
+     be on YouTube, AND,
+(2c) VLC/VideoLan must be set as your default video player on thee "Settings" tab.
+See the "Settings tab" section in "Installing / Setting up this Program" below.
+
+* Note #3: Subtitles
+For subtitles to work for episodes of QI, the corresponding subtitle 
+files need to be stored locally on your computer or on network or 
+external storage accessible on your computer, and you need to have VLC set as 
+the video player and you need enable subtitles on the Settings tab.
+See the "Note #2" above and "Settings tab" section in "Installing / Setting 
+up this Program" below.
+
+
+Trademarks and COPYRIGHT Information:
+-------------------------------------
+
+QI TV Show UnOfficial Companion is UNOFFICIAL software.
+It is NOT officially endorsed by the copyright holders
+
+NOTE: 
+* NO COPYRIGHTED MATERIAL IS PROVIDED WITH THIS PROGRAM !
+
+All trademarks are the property of their respective owners.
+
+To avoid Copyright issues, the following are NOT supplied with this program
+(and they are NOT available from my web site):
+* Episode Videos 
+* Panelist Photos
+* Episode Sub-title files 
+* Episode Transcript files
+* Episode Questions / Answers
+* Episode sounds / music
+
+Why ?  I do NOT want to get in trouble with the copyright holders or anyone else.  
+Do NOT ask me for these items, because I will NOT supply them to anyone.
+
+Despite numerous attempts, I could not obtain the permission from the 
+copyright holders to include any other material.
+
+QI TV Show UnOfficial Companion is severely limited because I could not 
+get permission to include any of the above items with my program.
+
+Sorry, you will have to find the above information / photos / etc elsewhere.
+
+Keyword Index (.ind) files are supplied with this program.  These consist of an 
+alphabetical list of the words that appear in each episode (where available).  
+Such keyword files NOT Copyrighted material, because you cannot copyright a 
+simple list of words.
+
+If you want the episode videos, buy the QI DVDs (if available - only some 
+seasons have been released at the time of writing).  Or you could watch / 
+record the program on TV (only if legal), or search on YouTube (only if 
+legal) - most (all ?) of the episodes seem to be on YouTube ??
+
+Separate ZIP files may be provided on my web site for episode transcripts or 
+panelist photos.  If these are provided, then they will be provided in ZIP files 
+separately from my program.
+
+Panelist photos and episode transcripts are freely available on the internet, 
+so if this information is provided on my web page, then this will be provided 
+out of good faith and all I have done is gather the information and provide 
+a single source for it to save others the effort of doing this for themselves.
+
+
+Installing / Setting up this Program:
+-------------------------------------
+
+NOTE: I very highly recommend that you watch my setup, installation, and usage video:
+* QI TV Show UnOfficial Companion - v1.0f
+  http://youtu.be/DBNON13WJL0
+
+To install this program, download the ZIP file QI TV Show UnOfficial Companion 
+from my web site to your PC, and UnZip the program to a directory on your PC 
+with all folders intact.  e.g. You could UnZip the program to:
+
+c:\QI TV Show\
+
+and if you extracted the ZIP file with folders intact, then there will be a series of
+sub-folders below this directory.
+
+	Indexes
+	Photos
+	Settings
+	Sounds
+	Videos
+
+If these don't exist, then you have extracted the ZIP file incorrectly (without folders).
+Do it again and properly this time !  :)
+
+* Panelist Photos:
+
+NOTE: I could NOT include panelist photos with QI TV Show UnOfficial Companion.
+See "Trademarks and COPYRIGHT Information" above.
+You will need to create / find these yourself.
+
+If you want to be able to see the photos of the panelists when you click 
+on them, then these need to be contained in any of the "Panelist Photos"
+folders specified on the "Settings" tab.  e.g. the "Photos" folder 
+created when you extracted the QI TV Show UnOfficial Companion ZIP file above.
+The photos need to have a specific name, as follows:
+
+	panelist name.jpg
+	
+e.g. "Alan Davies.jpg"	(without the quotes).
+
+
+* Transcripts / sub-title / keyword files:
+
+NOTE: I cannot supply subtitle (SRT), transcript (TXT), or episode 
+summary (NFO) files with QI TV Show UnOfficial Companion.
+See "Trademarks and COPYRIGHT Information" above.
+
+However, I have included ALL of the Keyword Index (IND) files I have with 
+QI TV Show UnOfficial Companion.  These files are contained in the "Indexes" 
+folder when you UnZIP QI TV Show UnOfficial Companion.  I have been able to 
+include these Keyword Index files because they are NOT Copyrighted material - 
+no-one can copyright a simple list of words.
+
+These Keyword Index (IND) files consist of an alphabetical list of the 
+words that appear in each episode (where available).  Some episodes 
+are missing keyword files because I do not have the information 
+(subtitle SRT or transcript TXT file) to build / construct the 
+Keyword Index (IND) files.  (And I have not had time to watch the 
+episode and type in this information by hand).  Maybe you can help ?  
+See "Can YOU Help ?" below.
+
+If you want to be able to search through episode transcripts / sub-title / 
+keyword index files then these need to be contained in any of the 
+"Transcripts / Sub-titles / Key word files" folders specified on the 
+"Settings" tab.  e.g. "Indexes" folder created when you extracted the 
+QI TV Show UnOfficial Companion ZIP file above.
+
+These files need to follow a very flexible naming convention starting with 
+"QI" and containing the "episode name" and having a .srt, .txt, .nfo, 
+.ind file extension.  So, for example, for the "Kris Kringle" episode, 
+ALL of the following are valid names:
+	QI Kris Kringle.ind					(or .srt or .txt or .nfo)
+	QI Series K Episode 14 Kris Kringle.ind			(or .srt or .txt or .nfo)
+	QI - S11,E14 - Kris Kringle (Christmas Special).ind	(or .srt or .txt or .nfo)
+	QI Series11 Ep14 Kris Kringle Christmas.ind		(or .srt or .txt or .nfo)
+
+By convention I have used these file extensions for Transcripts / sub-title / 
+keyword files:
+* SRT are subtitle files which have time stamps for each section of dialog.
+* TXT are transcript files
+* NFO are summaries of the episode.
+* IND are keyword index files - an alphabetical list of the words that 
+  appear in each episode.
+
+QI TV Show UnOfficial Companion will search through each of the 
+"Transcripts / Sub-titles / Key word files" folders you specify on the 
+"Settings" tab and look for the files in the above order, that is:
+SRT, TXT, NFO, IND.  For example, if it can find a SRT file for the episode 
+then it will use this for the search.  If no SRT can be found, then it will 
+then look for a TXT file for the episode, and if none can be found, move 
+onto NFO, and finally IND.
+
+
+* Videos
+
+If you want to be able to double click on episodes and play them / watch 
+them, then:
+
+(1). the videos need to be contained in any of the "Episode Videos"
+folders specified on the "Settings" tab.  These files need to follow 
+a very flexible naming convention starting with "QI" and containing 
+the "episode name" and having a .mp4, .avi, or .mpg file extension.  
+So, for example, for the "Kris Kringle" episode, ALL of the following 
+are valid names:
+	QI Kris Kringle.mp4					(or .avi or .mpg)
+	QI Series K Episode 14 Kris Kringle.mp4			(or .avi or .mpg)
+	QI - S11,E14 - Kris Kringle (Christmas Special).mp4	(or .avi or .mpg)
+	QI Series11 Ep14 Kris Kringle Christmas.mp4		(or .avi or .mpg)
+
+(2). Or, if the "Auto Search for episode on YouTube if not found" checkbox 
+on the "Settings" tab is checked, then QI TV Show UnOfficial Companion will 
+search on YouTube for the episode video if it cannot be found on your computer.  
+This search will display a list of episodes on YouTube (if any) and you can click 
+on whichever one you want to watch.
+
+
+* Sounds folder
+
+If the "Sounds" folder contains a sound file called:
+
+	QI_Intro_music_clip_wav_SOUND.wav
+
+Then this sound will be played whenever the program starts-up or whenever the 
+Watcher is changed.
+
+NOTE: I could NOT include any sounds with QI TV Show UnOfficial Companion.
+See "Trademarks and COPYRIGHT Information" above.
+You will need to create / find these yourself.
+
+
+* Settings tab:
+
+On the Settings tab you can set the folders that QI TV Show UnOfficial Companion 
+will look in for videos, panelist photos, and transcripts / indexes / subtitles.
+
+Also, if VLC (VideoLan, http://www.videolan.org/vlc/) is installed on your 
+PC and VLC is selected as the default video player on the Settings tab, then 
+the following "VLC (VideoLan) Options for Playing Episodes" settings are 
+available on the Settings tab:
+- "Full Screen": if checked, VLC/VideoLan will play videos in Full Screen,
+- Subtitles (if available): display sub-titles if they are available (the .srt 
+  file for the episode is stored with the video on your harddrive).
+- "Skip seconds at beginning": if checked, then skip the 1st 30 seconds (or 
+  whatever value is entered in the little data entry box) of each episode 
+  (great for skipping the opening music / credits), 
+- "Always on Top": if checked, episodes will be played by VLC/VideoLan
+  on top of all other windows,
+
+On this tab you can also select the colours used to highlight missing videos and 
+watched episodes.
+
+If "Play sound when loading viewing history" is checked, and a sound file called
+"QI_Intro_music_clip_wav_SOUND.wav" is in the "sounds\" folder, then this sound file 
+will be played when QI TV Show UnOfficial Companion starts up and whever the "Watcher" 
+is changed.
+
+If "Auto Search for episode on YouTube if not found is checked, then 
+QI TV Show UnOfficial Companion will open your default web browser and search 
+for the episode video on the YouTube web site if you attempt to play an 
+episode's video and the video cannot be found in any of the nominated 
+video folders.
+
+
+* Audits tab:
+
+OK, if you are still with me, click the "Audit" button, and 
+QI TV Show UnOfficial Companion will check the directories / folders 
+you have specified in the Settings tab, and list what items you 
+are missing in each of these categories:
+- Panelist Photos
+- Keyword Indexes (IND)
+- Episodes (MP4, AVI, MPG)
+- Episode Transcripts (TXT) or Subtitle (SRT) files.
+
+
+Finally, I very highly recommend that you install VLC/VideoLan 
+(http://www.videolan.org/vlc/) on your computer if it isn't 
+already.  See Note #2 in "NOTES" above.
+
+
+Using this Program:
+-------------------
+
+NOTE: I very highly recommend that you watch my setup, installation, and usage video:
+* QI TV Show UnOfficial Companion - v1.0f
+  http://youtu.be/DBNON13WJL0
+
+To use QI TV Show UnOfficial Companion, unzip it to a directory on your harddrive 
+(with folders intact), etc - see "Installing / Setting up this Program" above. 
+
+Once installed / setup, run / double click the EXE:
+
+	QI_TV_Show_Unofficial_Companion.exe
+
+* Watchers tab:
+
+If you have multiple people using the same computer, then you will want to 
+set-up a watcher for each person.  e.g. you might have 3 Watchers: Moose, 
+Frankie, Murray.  The currently selected watcher is displayed in big letters 
+when QI TV Show UnOfficial Companion starts-up, and also in the program's 
+title bar.
+
+On the Watchers tab you can Add and Delete watchers, and select the current watcher.
+Once selected, you can, if you want, click the "Reset" button to erase the currently 
+selected watchers viewing history - all episodes will become "unwatched".
+
+* Panelists tab:
+
+On the left is a list of all of the panelists and other people who have appeared 
+on the show, including specials, making of documentaries, compilation shows, etc.
+This list includes the QI Elves, because they appeared in the "Making of QI" 
+documentary.
+
+On the right is a list of all episodes - including the season, episode number, episode name, 
+and the people who appeared in that episode.
+
+Click on a Panelist to see their photo - if it can be found in any of the 
+"Panelist Photos" folders specified on the "Settings" tab.
+See the "Panelist Photos" section in "Installing / Setting up this Program" above. 
+
+If you check / tick one or more panelists, that is, click the little checkbox 
+next to their name(s), the you will see the episodes that just the checked 
+panelist(s) appeared in.
+
+If you double click on any episodes, then the video for that episode will play 
+(if it is on your computer) or YouTube will be searched for the episode.  
+See the "Videos" section in "Installing / Setting up this Program" above.
+
+
+* Searches tab:
+
+You can enter whatever keywords you like, separated by spaces, and then click 
+the "Search" button and QI TV Show UnOfficial Companion will search all 
+transcripts, sub-title, or keyword files, depending on which of these files 
+exist on your computer.  See the "Transcripts / sub-title / keyword files" section 
+in "Installing / Setting up this Program" above.
+
+If you double click on any episodes in the search results, then the video for that 
+episode will play (if it is on your computer) or YouTube will be searched 
+for the episode.  See the "Videos" section in "Installing / Setting up this Program" 
+above.
+
+If you have any subtitle files installed on your computer, then you can double click 
+on the time stamped subtitle lines in the search results and the selected episode
+will play from that point forward.
+
+For example, if the search results included these lines:
+
+QI - S08,E07 - Horrible: Alan Davies, Chris Addison, Dara O'Briain, Sean Lock
+* 00:08:17,800 --> 00:08:22,120 - in the world's nastiest cocktail?
+* 00:08:39,080 --> 00:08:42,120 - We're after a nasty cocktail.
+* 00:08:42,280 --> 00:08:45,080 - It's a genuine cocktail
+* 00:09:18,760 --> 00:09:22,360 - The Sourtoe cocktail is
+* 00:11:55,280 --> 00:11:57,680 - the Sourtoe cocktail,
+
+And I double clicked on the 3rd line:
+* 00:08:42,280 --> 00:08:45,080 - It's a genuine cocktail
+
+then the "QI - S08,E07 - Horrible" episode would play from 8 mins, 42 seconds 
+into the video right were the particular search result is being discussed.
+
+This functionality requires VLC/VideoLan to be installed and setup on your computer.
+See the "Videos" section in "Installing / Setting up this Program" 
+above and Note #2 in "NOTES" above.
+
+* Audits tab:
+
+See "Installing / Setting up this Program" above. 
+
+
+* Settings tab:
+
+See "Installing / Setting up this Program" above. 
+
+
+* Statistics tab:
+
+Displays various statistics about QI, such as the ratio of men / women on 
+the show, who appeared most on the show, and so on.
+
+If the "Include Compilations, Specials, Unaired Pilot, etc" checkbox is checked, 
+then the statistics will include compilations, specials, the Unaired Pilot episode, 
+the "Making of QI" documentary, etc.
+
+
+Further Notes: 
+* You can right mouse click on most of the lists, etc in 
+QI TV Show UnOfficial Companion and a little popup menu will appear.
+Some interesting functionality hidden there, including the ability to edit 
+index keyword index files, mark episodes as watched or unwatched, 
+copy lists or lines to Windows Clipboard, and much more !  :)
+
+
+Why I wrote this Program ?
+--------------------------
+
+I am a huge fan of the TV show, and so is my mother.  In fact, Mum got me into QI.
+I really wrote this program for her !  :)
+
+When discussing the program, with Mum and friends, we would talk about things 
+that happened in an episode we watched week(s) ago, and then we would all wonder 
+what episodes they were, and we would have no way of finding out.  This is why I 
+added the "Keyword Searching" functionality into the program.
+
+I also wondered a lot about panelists.  A friend of mine likes Julian Clary, and he 
+asked which episodes Julian Clary appeared in.  I knew he had appeared in at least 
+1 episode, but I had no idea which one(s).  With my program, you can select Julian 
+(or any other panelist) from the list and see all their episodes.
+
+If you have the video files on your harddrive, then my program will play the 
+episode when you double click on it in any of the lists in which it appears.
+Or, if the video isn't available, it will search YouTube for the video.
+See the "Videos" section in "Installing / Setting up this Program" 
+above and Note #2 in "NOTES" above.
+
+We wanted to be able to flag episodes that we have watched, and have separate 
+watch lists - so we could each keep track of which episodes we had watched.
+
+All of this functionality makes it very easy to find and watch the episodes.  :)
+
+The following pre-defined search terms are built into the search drop down box so you 
+can find some really interesting episodes:
+	batman robin life tights
+	electrocuted face
+	fish louse tongue
+	flipperty flop jumpkins
+	ghost cow
+	koala fingerprints
+	mosquitoes london underground
+	nastiest cocktail
+	nun horn
+	radish meat
+	straw houses
+	tiniest houses europe
+	triple point water Dara O'Briain
+	seemerot webcam coffin
+
+
+Can YOU Help ?
+--------------
+
+Note: before emailing me, please make sure you are using the *LATEST* 
+version of QI TV Show UnOfficial Companion *and* also check my 
+web page to see if the missing information has already been supplied 
+by someone else:
+
+http://moosevalley.fhost.com.au/mooses_freeware.html#QI_TV_Show_Companion
+
+
+* Panelist Scores:
+
+Do you have a list of the scores each panelist received in each episode ?
+Is this is a nice format ?  Comma or Tab separated ?  Or, better yet, 
+in a spreadsheet ?  :)
+
+If so, please email it to me and, I will add support for panelist scores to
+QI TV Show UnOfficial Companion and probably also add graphs and trends 
+for each panelists scores, so we can see if they are getting smarter or 
+"dumber" as time goes by !  ;)  And, graphs to show how each person's score 
+compares to the average panelist scores ?
+
+
+Special Thanks To:
+------------------
+
+Special thanks to the following:
+
+(1). John Lloyd (QI creator), Stephen Fry, Alan Davies, the BBC, Talkback Thames, 
+Fremantle Media, the QI team, the QI elves, and everyone who is involved with 
+or has appeared on the show for creating such a magnificent, interesting, and 
+entertaining TV show.  Long may it continue !!  After you have finished all of 
+episodes up to Z, I hope you start back at A again and go round again 
+(and again) !! :)
+
+(2). Alex Bell (QI Researcher).  Thanks Alex !
+
+(3). ABC for broadcasting QI in Australia so us Aussies can watch it.  :)
+
+(4). Sarah (MinervaMoon)
+Web site:  http://sites.google.com/site/qitranscripts/
+Sarah's web site contains very comprehensive transcripts, with screen shots of 
+the episodes, further background information about discussion topics, errors 
+and omissions, references to other episodes (where needed), and much more.  
+Very impressive work !  Very well done indeed !  :)
+
+I asked Sarah if I could include her Transcripts with QI TV Show UnOfficial 
+Companion and she said "yes", but I was still worried about Copyright issues and 
+I didn't want to upset the QI team, the BBC, Talkback Thames, Fremantle Media,
+or anyone else.
+
+While none of Sarah's transcripts are included with QI TV Show UnOfficial Companion, 
+but I did use about 10 (?) of her transcripts to create keyword index (IND) files.
+Thanks Sarah !
+
+(5). Springfield Springfield web site 
+Web site: http://www.springfieldspringfield.co.uk/episode_scripts.php?tv-show=qi-2003
+The Springfield Springfield web site contains just the bare bones transcripts.
+
+None of the Springfield transcripts are included with QI TV Show UnOfficial Companion, 
+but I did use about 12 (?) of their transcripts to create keyword index (IND) files.
+
+(6). Special thanks to all 58 people who watched my demonstration 
+video on YouTube for the unreleased prototype version of my 
+QI TV Show UnOfficial Companion.
+
+(7). And an extra special thanks to the 1 person who gave my demonstration 
+video a "thumbs up" on YouTube !  :)  Thank you whoever you are !!!!!!!!!  :D
+
+
+The Future:
+-----------
+
+I've got LOTS of ideas for this program, but I've got to be careful !
+I do NOT want to upset anyone, or cause any issues with copyright holders.
+
+In the future, many improvements *could* be made to this program,
+such as:
+
+- Macintosh, Android, Linux, iPad, etc version(s) of this program.
+  Anyone want these ?  Let me know !
+  Anyone want to help with the development / programming of these ?  
+  Let me know !  :)
+
+- QI Quizzes - random questions from selected seasons / episodes, complete 
+  with Klaxon sounds and effects when you select a "trap" answer.
+  
+  *NOTE: Requires permission from the copyright holders.
+
+- Add music, sound effects, snippets of dialog, Stephen Fry's iconic 
+  "Good Evening, Good Evening, Good Evening", and so on from the TV show.
+  
+  *NOTE: Requires permission from the copyright holders.
+
+- Display each panelist's scores for each episode, and calculate their 
+  average score across all of their appearances on QI.  
+  I haven't added this yet. I've resisted because I know what I'm like .... 
+  Once I add in support for the points each player scored per episode, 
+  I'll be calculating the highest point scorers, the most frequent winners, 
+  the averages points each player achieved, and then I'll be generating 
+  graphs of each panelist's score and a trend line showing if they are 
+  getting better or worse and a whole host of other stuff. Trying to 
+  resist this for now. But maybe it'll happen sooner or later .... 
+  Issue, what score would I use ?  Sometimes scores are adjusted years 
+  down the track.  If I use their adjusted score, then I'll have people email 
+  me complaining that this wasn't the score they actually got at the end 
+  of the episode.  If I use the score they got in the episode, I'll have 
+  people complaining that this wasn't their final score because their 
+  score was adjusted 2 years later (or whatever).
+  Example: Dara O'Briain and his "Triple Point of Water" answer(s).  
+  REF:
+  * QI - S02,E07 - Biscuits          23:05->
+  * QI - S09,E10 - Inland Revenue    17:45->
+
+- Search for and build panelist photos from the images freely 
+  available all over the internet, Google Images, etc.
+  e.g. For Alan Davies, search to Google Images, grab the 1st image, 
+  download it, crop it to s specific size, and save it to the "Photos" 
+  folder.  Do this automatically for all panelists.
+  Anyone want this ?
+
+- Anything else ?  Would you like this program to do something else ?
+  Please email me and let me know.  :)
+
+If you would like any of these improvements, or would like to
+suggest more, please email me and let me know.  :)
+
+As with ALL of the 90+ software titles I have created and uploaded 
+to my web page, how much more work I do on this program depends 
+entirely on what feedback / support I get, how many people use 
+the program, etc.  If no-one uses or likes the program, then I'm 
+hardly likely to invest many dozens of hours porting my code to 
+other platforms or building new features into my program ! :)
+
+So, if you use / like this program, please do email me and tell me !  :)
+All kind feedback is much appreciated !  :)
+
+
+Reviews / Awards / CDs:
+-----------------------
+
+None that anyone has told me about, so far.
+
+
+Freeware Information:
+---------------------
+
+This is free software.  
+
+Anyone - any person, any company, or any business - can 
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please 
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select 
+the "About" option under the Help menu, and then click 
+the PayPal link on the "About" screen).
+
+
+Warranty:
+---------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know.
+
+
+100% Virus Free - 55+ Virus Checkers:
+------------------------------------
+VirusTotal.com is a brilliant and free web service where you can upload 
+files and, at the current time, scan them against 57 virus and malware 
+scanners. I have been using this service for many years, and nothing 
+gets near any of my machines - not even into my temporary sandbox 
+areas - unless it at least passes a VirusTotal.com scan with a 
+clean bill of health. 
+
+All of my software is scanned on VirusTotal.com and a link to 
+the Virus Scan reports is provided on my web page for each of my software 
+titles.
+  
+
+Amendment History:
+------------------
+
+Vers    Date        Description
+
+1.0f   2-Apr-2015   First Public Release.
+                    (4,632  lines of code / comments / blank lines in primary source file.)
+                    (48.624 lines of code / comments / blank lines in all primary, library, and include files.)
+
+
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this 
+program is available from my WEB page - see below.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://moosevalley.fhost.com.au/
+____________________________________________________
+ 

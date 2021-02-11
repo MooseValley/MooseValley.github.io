@@ -1,0 +1,294 @@
+ 
+ Spam Analysis Tool		Copyright (C) Moose O'Malley, 
+--------------------		September 2007.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Installing and Using this Program :
+   | * Uninstalling this Program :
+   | * The Future
+   | * Reviews / Awards / CDs
+   | * Freeware Information
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+Spam Analysis Tool for Windows 95, 98, ME, NT, 2000, XP, etc.
+
+This program is free software.  Anyone - any person, any company, 
+or any business - can use this program for free.  No fees or 
+payment is required.  See "Freeware Information" below.
+
+This tool is especially designed for use by Mail System 
+Administrators, or anyone else who runs an email server or 
+wants to block spam / junk emails.
+
+N.B.  This is probably NOT the sort of program that novice 
+PC users will find very useful.
+
+SPAM (i.e unsolicited junk email) is a rotten scurge that is 
+annoying millions of internet users and causing all sorts of
+havoc due to clogged mail boxes and clogged servers, not to mention
+the nasty payloads (viruses, trojans, etc) that many spam emails 
+contain.
+
+Most email clients (such as Outlook) allow you to save emails 
+to your harddisk with the headers intact.  e.g. in Outlook, 
+simply drag and drop the spam emails to a directory on your 
+harddisk.   (Do not open them or run any programs they contain).
+
+Once saved to your harddrive with the email headers intact, these 
+spam emails can be analysed so that their real source can be 
+identified, and then all emails from this source can be blocked 
+in the future.  Doing this will help reduce the volumes of 
+spam that you receive in the future.
+
+Spam Analysis Tool enables you to :
+- Step through directories full of spam email, 
+- View just the email headers or the entire email,
+- View each spam email's contents with colour coding
+- Select text (such as IP addresses, email addresses, etc) 
+  at the click of the mouse button, and add these to a list 
+  of unique items (which can be incorporated into a block file), 
+- And do various other things.
+
+See "Using this Program" below for further information.
+
+Developed using 32-bit Delphi.
+
+Spam Analysis Tool will **NOT** run under Windows 3.x
+(even with Win32 installed) !!
+
+
+Using this Program :
+--------------------
+
+To use this program, simply unzip it to a directory (using 
+PKUNIP, WinZIP, or similar), run it, and drag and drop spam 
+email files and then click on the buttons to perform the 
+various activities that you require.
+
+If you want the program to run automatically when Windows
+starts up, then select this option under the "File" menu
+in the program.
+
+If you would like to be able to run this program by clicking 
+on an icon in the Windows Start Menu, or on the Desktop, etc 
+then you can use the "Create Shortcut ..." options under 
+the program's File menu.
+
+If you want this program to be "Always On Top" 
+of other Windows, then select the "Always On Top"
+menu option under the "File" menu.
+
+Spam Analysis Tool enables you to :
+- Step through a directories full of spam email, 
+- View just the email headers or the entire email,
+- View each spam email's contents with colour coding
+- Select text (such as IP addresses, email addresses, etc) 
+  at the click of the mouse button, and add these to a list 
+  of unique items (which can be incorporated into a block file), 
+- And do various other things.
+
+In addition, to help you process / analyse spam emails, you can :
+- Drag and Drop selected files and/or directories of spam 
+  email files via Windows Explorer,
+- Drag and Drop selected spam email files from inside ZIP files.
+
+and any unique files (with unique drive, directory, and file name)
+will be added to the list of files in the program.
+
+You can then step through these, select IP addresses or Email addresses,
+and add these to the list of "Interesting (Unique) Items", and this 
+list can then be used to create a "block" file on the email server 
+that rejects all email from these sources in the future.
+
+The spam email's contents are "colour coded" as follows :
+- "Received" tags are coloured blue,
+- "Message-Id" tags are coloured green,
+- And, finally, any text that is already in the "Interesting Items" 
+  list is colour coded red.  This makes it easy to see what is
+  already in the "Interesting Items" list.
+
+In addition to the above, you can also use the buttons provided 
+in the program to :
+
+*** File List :
+- Add all of the files contained in a directory that you select,
+- Remove the currently selected file from the list,
+- Erase the list of files, and,
+- Copy the file list to Window's Clipboard.
+
+*** File Contents :
+- Move to the first, previous, next or last file in the list,
+- Copy the displayed file's contents to Windows Clipboard,
+- Paste data / text from Windows Clipboard (so that you can analyse 
+  this as well.  N.B. this does NOT change any file or affect any 
+  file's contents.
+
+*** Interesting Items :
+- Add the selected text (i.e. the selected file contents) to the 
+  list of Interesting (Unique) Items.
+- Delete the selected item(s) from the list of Interesting Items.
+- Copy the list of Interesting Items to Window's Clipboard.
+- Paste a list of items from Window's Clipboard and add these 
+  to the list of Interesting (Unique) Items and weed out any 
+  duplicates.
+- Erase the list of Interesting Items.
+
+
+Uninstalling this Program :
+---------------------------
+
+At the  present time, there is No Uninstall function.
+
+If you ever want to delete this program
+from your computer, then :
+
+ 1. Exit the program, and delete it from wherever 
+    you installed it on your harddrive.
+
+Simple as that !
+
+Before deleting the program, you should turn off 
+the auto-running of this program under Windows - 
+if you have previously enabled it.  Simply, re-select 
+the option under the File Menu in the program to 
+achieve this.
+
+
+The Future :
+------------
+
+In the future, many improvements could be made to this program,
+such as :
+
+- More tags / more colour coding options.
+
+- The ability to remove multiple files from the list of files at once.
+
+- Automatic scanning of emails to build a unique list of all of the 
+  (for example) IP addresses that they contain.
+
+- Ability to extract ALL email headers from all emails in the list and display
+  these is a large text file.
+
+- The ability to auto-save the "Interesting Items" list every nn seconds or 
+  every nn adds / deletes.
+
+- The ability to automatically ignore / skip files with certain file extensions. 
+  e.g. ignore / skip .EXE, .DLL, etc files.
+
+- The ability to ignore / reject / remove duplicate files by their file name.
+  i.e. ignore the drive + directory when determining duplicates.
+
+- The ability to ignore / reject / remove duplicate files by their file contents.
+  i.e. ignore the drive + directory + file name when determining duplicates.
+
+- Add in a halt / stop loading this file button - useful if you accidentally add 
+  a huge file to the file list.
+
+- Anything else ?
+
+If you would like any of these improvements, or would like to
+suggest more, please email me and let me know.
+
+How much more work I do on this program depends entirely on
+what support I get, how many people use the program, 
+what feedback I get, etc.
+
+
+Special Greetings / Thanks to :
+-------------------------------
+
+- Murray Hinton came up with the idea of colour coding
+  the text that is already in the "Interesting Items" list 
+  red while the program was still in the early stages of 
+  development.  This was a very "user friendly" enhancement 
+  to the program.  Thanks for the suggestion Murray !!  :)
+
+
+Reviews / Awards / CDs :
+-------------------------
+
+None so far.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.  
+
+Anyone - any person, any company, or any business - can 
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please 
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select 
+the "About" option under the Help menu, and then click 
+the PayPal link on the "About" screen).
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know.
+
+
+Amendment History :
+--------------------
+
+Vers    Date        Description
+
+0.6   07-Nov-2003   Email Private BETA to CQU's ITD Staff (Adrian Y and Roy G) 
+                    for review.
+
+0.7   10-Nov-2003   Add in the "Next File containing No Interesting Items" 
+                    button / functionality.
+                    Add in the ability to Auto-Save the Interesting Items 
+                    List after every change to the list.
+                    Email Private BETA to CQU's ITD Staff (Troy S) 
+                    for review.
+                    (52,765 lines of code / comments.)
+
+                    N.B.  Originally, this program was going to be FREEWARE, or 
+                    at least FREE for use by CQU staff to help CQU deal with the 
+                    mountains of spam that is bombarding their mail servers.
+                    However, I've decided to release this program as FREEWARE
+                    so that anyone and everyone canb join the fight against spam.
+
+0.9  17-Nov-2003    Add in a tool tip bar at the bottom of the window to 
+                    make it easier to read the tool tips (i.e. bubble help) 
+                    on buttons, etc.
+                    Carry out final pre-release testing.
+
+1.0   3-Dec-2003    First Public Release.
+                    (52,796 lines of code / comments.)
+
+1.0f  3-Sep-2007    This program is now FREEWARE - see "Freeware Information"
+                    above.
+
+
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this 
+program is available from my WEB page - see below.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://move.to/moose
+____________________________________________________
+ 

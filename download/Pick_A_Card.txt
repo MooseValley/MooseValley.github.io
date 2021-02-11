@@ -1,0 +1,151 @@
+ 
+Pick A Card		Copyright (C) Moose O'Malley, 
+-----------		December 2002.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Why I wrote this program ?
+   | * Credits / Thanks
+   | * Installing and Using this Program
+   | * Uninstalling this Program
+   | * The Future
+   | * Reviews / Awards / CDs
+   | * Freeware Information
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+Pick A Card is a "for fun" program for Windows 
+95, 98, ME, NT, 2000, XP, etc.
+
+This program is free software.  Anyone - any person, any company, 
+or any business - can use this program for free.  No fees or 
+payment is required.  See "Freeware Information" below.
+
+Pick A Card will use cunning, stealth, and advanced
+computer hueristics to holistically determine 
+which card you selected from a set of cards.
+
+Simply speak the name of the card out loud three times,
+and then stare at the card and keep saying its name out 
+loud and finally click your mouse on the Animated Moose.
+
+Behind the scenes, the program will then sense and analyse
+the vibrations and electromagnetic radiation entering the 
+computer via the mouse, keyboard, screen, and subtle
+variations in the air to try and determine which card
+you chose.
+
+The program is NOT yet 100% accurate, but it should be 
+correct in around 98% of cases.
+
+Warning: You may be amazed and stunned by how accurate 
+         this program is !!
+
+Please send me feedback on the program to encourage me to 
+continue my work on this program.
+
+Developed using 32-bit Delphi.
+
+This program will **NOT** run under Windows 3.x  
+(even with Win32 installed).
+
+
+Installing and Using this Program :
+-----------------------------------
+
+To use this program, unzip the contents of the ZIP file to a 
+directory - such as c:\card\ - and run the executable 
+file : Pick_A_Card.EXE.
+
+If you want the program to run automatically when Windows
+starts up, then select this option under the "File" menu 
+in the program.
+
+I hope you find the program easy to use and useful.
+
+
+Uninstalling this Program :
+---------------------------
+
+At the  present time, there is No Uninstall function.
+
+If you ever want to delete Mad Cow Disease 
+from your computer, then :
+
+ 1. Exit the program, and delete it from wherever 
+    you installed it on your harddrive.
+
+Simple as that !
+
+
+The Future :
+------------
+
+Try and improve the accuracy to 100% - however, this will 
+require a great deal of research and analysis - but one
+day it might be possible ...
+
+Please send me feedback on the program to encourage me to 
+continue my work on this program.
+
+
+Reviews / Awards / CDs :
+-------------------------
+
+None so far.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.  
+
+Anyone - any person, any company, or any business - can 
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please 
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select 
+the "About" option under the Help menu, and then click 
+the PayPal link on the "About" screen).
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know.
+
+
+Amendment History :
+-------------------
+
+Vers    Date        Description
+
+1.0  12-Dec-2002    First Public Release.
+                    (47,918 lines of code / comments.)
+
+
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this 
+program is available from my WEB page - see below.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://move.to/moose
+____________________________________________________
+ 

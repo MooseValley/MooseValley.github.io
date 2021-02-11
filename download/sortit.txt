@@ -1,0 +1,225 @@
+ 
+Sort It Out			Copyright (C) Moose O'Malley, 
+-----------			July 2013.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * The Future
+   | * Reviews / Awards / CDs
+   | * Freeware Information
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+Sort It Out for Windows 95, 98, NT, 2000, XP, Vista, 7, 8, etc.
+
+This program is free software.  Anyone - any person, any company, 
+or any business - can use this program for free.  No fees or 
+payment is required.  See "Freeware Information" below.
+
+Sort It Out is, in a nut shell, a list sorting utility.
+
+I maintain lots of lists - lists of games, lists of emulators,
+lists of names and addresses (of friends), lists of this,
+and lists of that.  And, I like all my lists to be sorted.
+How can you find things in them if they aren't sorted ?
+
+These lists are all kept in Notepad Text files, and I am forever
+loading up MS WORD, creating a new document, selecting all the 
+text in my Notepad Text list, pasting the list into WORD,
+selecting the whole list, selectng the "Table" menu,
+selecting the sort text option, specifying the sort params,
+doing the sort, copying the text, pasting it back into my 
+original list, and then exiting WORD.
+
+A lot of steps and work for a little result.
+
+Now, with Sort It Out, this process is reduced down to 3 steps :
+- select and copy the text in your list to the clipboard.
+- press the "Sort Clipboard Text" option in Sort It Out.
+- paste the sorted text back into your list.
+
+Simple as that !
+
+The following sort algorithms are available :
+- Bubble Sort
+- Exchange Sort
+- Insertion Sort
+- Shell Sort
+- Moose Sort - a very fast sort but with limitations :
+  it must be used for Ascending, case insensitive sorts, 
+  where blank lines are removed.
+
+There's also a "Do *NOT* Sort" option in the Sort Method dropdown box.
+This is for when you want to process text from the clipboard (and remove 
+duplicates, trim off white space, etc according to the other settings) but 
+not actually sort the text.
+                    
+And, you can do all of this with or without case sensitivity, and (when sorting) 
+sort in ascending or descending order.
+
+There are other options to :
+- auto copy sorted text back to the clipboard (after the processing),
+- automatically remove blank lines (during processing),
+- show sort in progress (which slows things down one hell 
+  of a lot - and I wouldn't do it for long lists).
+
+At the end of the processing, the time taken (in seconds) and the number of 
+lines processed are displayed in their boxes on screen.
+
+Sort It Out will **NOT** run under Windows 3.x
+(even with Win32 installed) !!
+
+
+The Future :
+-------------
+
+This is an early release of the program, and several interesting
+things could be done in the future :
+
+- Improve the layout of the screen - loads of things can be 
+  done here.
+
+- Optimise existing sort algorithms further.
+
+- Add in faster Sort Algorithms, such as Heap Sort and
+  Quick Sort.
+
+- Add in the ability to sort on various columns of data.
+
+- Add in the ability to ignore spaces / tabs at the start of
+  a line.
+
+- other changes.  Can you suggest any ?
+
+
+Reviews / Awards / CDs :
+-------------------------
+
+None so far.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.  
+
+Anyone - any person, any company, or any business - can 
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please 
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select 
+the "About" option under the Help menu, and then click 
+the PayPal link on the "About" screen).
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know.
+
+
+Amendment History :
+--------------------
+
+Vers    Date        Description
+1.0     13-Apr-97   First Public Release.
+
+1.1     15-Jun-97   Save settings automatically on Windows 95 shutdown 
+                    (Registered Users only).
+                    Start Minimised if set in Shortcut / settings
+                    (Registered Users only).  
+                    Save Window Height and Width on exit, and 
+                    enable Main Window to be resized.
+                    Improve application startup - size and position 
+                    form before user sees it.
+                    Add in Menu items for viewing my Shareware Catalog, 
+                    the Readme file, and the Registration Form.
+                    Add in a new "Moose Sort" option - very fast but 
+                    has limitations - must be used for Ascending, 
+                    case insensitive sorts, where blank lines are
+                    removed.
+
+1.2     11-Jan-98   Fix a long standing but very elusive problem
+                    to do with "DateEncode" errors which occured
+                    on some machines under some conditions.
+                    Once I could replicate the error, it was
+                    reasonably straight forward to get a workaround
+                    for what was another bug in Delphi.
+                    (3,177 lines of code.)
+
+1.3  17-Apr-2001    Add in support for "Big Fonts" and "Other Sized Fonts" - 
+                    with these Windows resizes the windows automatically - 
+                    but only sometimes and it doesn't always do it right, 
+                    so now I make sure my main window is the right size 
+                    before doing any scaling, etc.  i.e. I make it fit the 
+                    component(s) that extend the furthest right and 
+                    furthest down the form.   See the  Start Menu -> 
+                    Settings -> Control Pannel -> Display -> Settings 
+                    Tab -> "Advanced" button -> "General" tab for 
+                    your PC's settings in this area.
+                    Bring program up-to-date with my latest code libraries.
+                    Add in checkbox option to Remove Duplicate entries.
+                    Add in checkbox option to auto-minimise "Sort It Out" 
+                    following the sort.  Add in checkbox option to Trim 
+                    Tabs / spaces at start / end of lines. 
+                    Add in an "Exit" button.
+                    Fix hanging / locking up of program when clipboard / 
+                    sort buffer is empty.  Make "Sorted Lines" and "Elapsed 
+                    Secs" edit boxes Read-only. Change the mouse cursor 
+                    to an hourglass during the sort.
+                    Fix program hanging when the clipboard is empty.
+                    Add in an "Exit" button.
+                    Add in Form and Component Scaling when the program's 
+                    main window is resized - really Cool !!
+                    Add in "Always On Top" functionality - available 
+                    from the "File" menu.
+                    (8,943 lines of code / comments.)
+
+1.3b  20-Nov-2002   Bring the program up to date with my latest code libraries.
+                    (35,177 lines of code / comments.)
+
+1.3f   3-Sep-2007   This program is now FREEWARE - see "Freeware Information"
+                    above.
+
+1.4f   3-Dec-2012   Add in the ability to remove leading and trailing spaces, tabs, 
+                    etc from every line before it is sorted.
+                    Add the ability to remove duplicates from the sorted 
+                    results - something I have needed to do a lot of lately.
+                    Bring the program up to date with my latest code libraries.
+                    (67,168 lines of code / comments.)
+
+1.5f  16-Jul-2013   Add in "Do *NOT* Sort" as a option in the Sort Method dropdown box.
+                    This is for when you want to process text from the clipboard 
+                    (and remove duplicates, trim off white space, etc according to 
+                    the other settings) but not actually sort the text.
+                    I have needed to do this a lot lately, so I added the functionality 
+                    in to this program, Sort It Out.
+                    Bring the program up to date with my latest code libraries.
+                    (54,920 lines of code, comments, and blank lines.)
+
+
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this 
+program is available from my WEB page - see below.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://move.to/moose
+____________________________________________________
+ 

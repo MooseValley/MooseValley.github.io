@@ -1,0 +1,527 @@
+ 	
+Talking Clock			Copyright (C) Moose O'Malley, 
+-------------			September 2007.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Advanced Options
+   | * Ship's 8 Bells Method of Saying the Time
+   | * Creating your own Sound Files
+   | * The Future
+   | * Special Thanks to
+   | * Reviews / Awards / CDs
+   | * Freeware Information
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+Talking Clock for Windows 95, 98, ME, NT, 2000, XP, etc.
+
+This program is free software.  Anyone - any person, any company, 
+or any business - can use this program for free.  No fees or 
+payment is required.  See "Freeware Information" below.
+
+In the early 1980's, I played around with a fantastic 
+Talking Clock program for the Commodore 64 !
+
+This program recreates the functionality of this old program, but
+with additional functionality and a more user friendly interface,
+and now a whole range of "ready made" voice impersonations
+(Clint Eastwood, etc) that you can download from my WEB page.
+
+The idea behind Talking Clock is that once spoken digits and 
+AM / PM are recorded into seperate sound files, Talking Clock 
+will read the time out to you !  For example, it will speak
+eight fifty two PM at 8:52 PM if you want it to.
+
+Current Voice Impersonations available on from my WEB Page 
+include :
+- Moose's Voice
+- Darlene's Sexy Voice
+- John's Duke Nukem 3D
+- John's Yoda
+- Moose's Mrs Doubtfire
+- Robert's Clint Eastwood
+- Robert's Sean Connery
+
+(These ZIP files are now password protected.  Only those who make 
+a donation to support my efforts get the password to UnZIP these files).
+
+To give your PC a real nautical flavour, Talking Clock also
+supports the "Ship's 8 Bells Method of Saying the Time".
+(For further information, please refer to the "Ship's 8 
+Bells Method of Saying the Time" section below).
+
+You can download recordings of my voice for the Talking Clock
+now from my WEB Page and its mirrors (see below or Email me 
+for details), along with voice impersonations of the 
+Duke Nuke'em (hillarious !!), Clint Eastwood, Mrs Doubtfire,
+and others !!
+
+Alternatively, you can create your own sounds, as described 
+in "Creating your own Sound Files" below.
+
+To say the current time, simply click (with your left mouse 
+button) on the time in the main window.
+
+To enter the Settings Screen, right or middle mouse click
+on the time in the main window or choose the "Settings" 
+option under the "File" menu.
+
+Various playback methods and sound options are available 
+(See "Advanced Options" below).
+
+I hope you really enjoy using this program !!
+
+
+Advanced Options :
+------------------
+
+As said above, you can download "ready made" recordings 
+from my WEB Page or you can create your own sounds, as described 
+in "Creating your own Sound Files" below.
+
+Once you have the sound files, put them in the same directory as
+the Talking Clock EXE file (or else put them in their own
+Sound Directory and alter Talking Clock's Settings to
+point to the new Sound Directory), and then simply select 
+(within Talking Clock) when you want the time spoken.  
+
+The options include :
+- Say Time Every Hour
+- Never Say the Time
+- Say Time Every Minute
+- Say Time Every Quarter Hour
+- Say Time Every Half Hour
+- and others.
+
+and Talking Clock will read the time out when required.
+
+Also, to say the current time, simply click (with your left mouse 
+button) on the time in the main window.
+
+And, to enter the Settings Screen, right or middle mouse click
+on the time in the main window or choose the "Settings" 
+option under the "File" menu.
+
+Various playback methods are available to help improve
+the playback quality of the spoken time and to help
+reduce pauses between numbers when saying the time.
+These playback methods are :
+- Sequential
+- Fast
+- Optimised
+
+The Fast Playback method loads all required WAV files 
+and then plays them all in quick succession.
+
+The Optimised Playback method loads all required 
+WAV files for the spoken digits and then plays 
+them all in quick succession - other sounds 
+(Prefix / suffix) are loaded and played sequentially.
+
+The Sequential Playback method loads and then plays 
+each WAV file in turn, so there can be significant 
+pauses between spoken digits while the WAVs for the 
+next digit are loaded.
+
+The Fast and Optimised methods are far superior to the 
+Sequential method.
+
+The options available for Prefix and suffix sound 
+selection are :
+- Prefix.WAV / Suffix.WAV only
+- Random Prefix / Suffix Sound
+- Random Prefix / Suffix Sound with Blank option
+
+The sounds in prefix.wav is played before the time is spoken, 
+and the sounds in suffix.wav are played after the sound is 
+spoken.  So, for example, prefix.wav could contain the  speech 
+"The time is now" and the suffix.wav file could contain "Mike".
+
+IF the "Prefix.WAV / Suffix.WAV only" is checked, then
+only prefix.wav and suffix.wav are used.
+
+IF "Random Prefix / Suffix Sound" is checked, then a random 
+prefix is chosen out of all files matching "prefix*.wav" 
+in the current directory.  Similarly for the suffix sounds.
+
+If the "Random Prefix / Suffix Sound with Blank option" is checked
+then "No sound" is also one of the random prefixes and 
+suffixes that could also be played.
+
+
+Ship's 8 Bells Method of Saying the Time :
+------------------------------------------
+
+On Ships, a serious of bell rings are used to convey the time
+throughout the ship.
+
+For example, at :
+- 12:30  1 bell.  i.e. ding.
+-  1:00  2 bells in quick succession.  i.e. ding.ding.
+-  1:30  2 bells, pause and another bell.  i.e. ding.ding... ding.
+-  2:00  2 bells, pause and 2 bells.  i.e. ding.ding... ding.ding.
+-  2:30  2 bells, pause, 2 bells, pause, 1 bell.
+         i.e. ding.ding... ding.ding... ding.
+-  3:00  2 bells, pause, 2 bells, pause, 2 bells.
+         i.e. ding.ding... ding.ding... ding.ding.
+-  3:30  2 bells, pause, 2 bells, pause, 2 bells, pause, 1 bell.
+         i.e. ding.ding... ding.ding... ding.ding... ding.
+-  4:00  2 bells, pause, 2 bells, pause, 2 bells, pause, 2 bells.
+         i.e. ding.ding... ding.ding... ding.ding... ding.ding.
+
+After this point (i.e. at 4:30 PM) the whole cycle starts again,
+and 4:30 is the same as 12:30, 5:00 is the same as 1:00, and 
+so on, until 8:00, when the whole whole cycle starts yet again, 
+etc throughout the whole 24 hour day.
+
+As of version 3.0, Talking Clock supports this "Ship's 8 
+Bells Method of Saying the Time", which gives Talking Clock
+and your computer a distinctly nautical flavour !
+
+Please note that the 8 Bells sounds are included in the
+ZIP archive containing Talking Clock.
+
+This functionality was added especially for Scott M !
+
+
+Creating your own Sound Files :
+-------------------------------
+
+To do this, you will need to record the following sound 
+files :
+
+	0.wav		10.wav		20.wav
+	1.wav		11.wav		30.wav
+	2.wav		12.wav		40.wav
+	3.wav		13.wav		50.wav
+	4.wav		14.wav
+	5.wav		15.wav		am.wav
+	6.wav		16.wav		pm.wav
+	7.wav		17.wav
+	8.wav		18.wav		prefix.wav  (Optional)
+	9.wav		19.wav		suffix.wav  (Optional)
+
+So, for example, you would say the number "0" and save this as
+"0.wav", then start a new sound file, and say the number "1"
+and save this as "1.wav", etc.
+
+I know this is a bit of mucking around, and to get the sounds
+consistent volume and pitch and the same length - so
+that the time speech sounds good - is even more work.
+You will also get the best results if you remove "dead space"
+at the start and end of each recording.  i.e. places where
+there are no sound.  But, you will only have to do this once.
+
+This can be done by using Windows Sound Recorder or any 
+other sound recording program.  You will also need a 
+microphone plugged into your sound card as well.
+
+The sound files "prefix.wav" and "suffix.wav" are optional, but
+can be fun to use as well.
+
+You can also have multiple prefix and suffic sounds so that you 
+can get multiple / random intros to the sound.  For example :  
+prefix.wav might contain "The time is now", prefix1.wav might 
+contain "Hey, buddy, the time is ", etc.  So, this can add
+some nice variation to the speaking.
+
+Remember : The funnier the better - this is a fun program after all.
+
+
+The Future :
+-------------
+
+This is an early release of the program, and several interesting
+things could be done with it in the future.
+
+For example, imagine having :
+- Billy Connelly,
+- Burt Lancaster, 
+- Charles Bronson, 
+- Data (of Star Trek), 
+- David Bowie (like in the Major Tom song when he counts down),  
+- Davros / Daleks, 
+- Elvis, 
+- Groucho Marx, 
+- James T. Kirk (William Shatner), 
+- Judy Garland, 
+- Liza Minelli, 
+- Michael Jackson to annoy your friends,
+- Orson Welles, 
+- Peter Ustinov, 
+- Spike Milligan, 
+- Spock (Leonard Nimoy), 
+- the Queen, 
+- Tom "Dr Who" Baker, 
+- Zsa Zsa Gabor, 
+- or some other interesting voice reading out the time !!!
+
+Or if anyone has a nice / different voice, please let me know 
+as well.  A nice Irish accent, a lovely French accent, a
+gruff Scottish accent, or other interesting accents would 
+also be great to hear in Talking Clock !!
+
+For Star Trek, you could also have the Beaming down and 
+Communicator sounds as Prefix and Suffix sounds.
+
+All it takes is good samples of the required sounds, and 
+this will work.
+
+I am now actively pursuing the recording of some of
+the above via the use of voice impersonators.
+
+To avoid copyright problems, all sound sets I distribute 
+will need voices done by impersonators and all SFX
+will need to be synthesised from scratch.
+
+If anyone gets any good samples like these, please let me know.
+
+If I had time and a decent recording set-up, I would do this
+myself.
+
+Also, I might (if enough people like the idea) have a play 
+around with speech generation, so that the program will not
+need sound files at all - it will simply generate the speech
+itself.
+
+If anyone knows any good algorithms for this, or books on this, 
+or places on the Internet where I can find out about this,
+please EMail me.
+
+
+Special Thanks to :
+-------------------
+- the clever person who wrote the talking clock program on the
+  Commodore 64 in the early 1980's.
+- Ted Tatman for his helpful suggestions and advice, and his kind 
+  review of Talking Clock in the 1997 Ziff Davis Shareware Awards.
+- Darlene Tatman for her excellent sexy american voice and WAVS !
+- John Carsey for his brilliant and hillarious Duke Nukem 3D 
+  impersonations.
+- Robert Moon for his awesome Clint Eastwood and Sean Connery
+  impersonations - he is a brilliant voice impressionist and 
+  musician !!  Anyone wanting to contact Robert can do so via :
+  Email:    robert.moons@sympatico.ca
+  WEB Page: http://www3.sympatico.ca/robert.moons
+- Scott M for prompting me to do the Ship's 8 Bells work, and for
+  also supplying some sound samples of the bells ringing.
+- Anybody who has registered this program and supported my efforts
+  and the efforts of the above people.
+
+
+Reviews / Awards / CDs :
+----------------------------------
+
+Version 1.1 of this program received a 4 Star rating
+(out of 5) in the 1997 Ziff Davis shareware awards.
+Thanks Ted !!
+
+Version 1.5 and later of this program were included on
+Microforum Inc.'s (in Toronto Canada) shareware CDs.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.  
+
+Anyone - any person, any company, or any business - can 
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please 
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select 
+the "About" option under the Help menu, and then click 
+the PayPal link on the "About" screen).
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know.
+
+
+Amendment History :
+--------------------
+
+Vers    Date        Description
+1.0   27-Jan-1997   First Public Release.
+1.1   27-Jan-1997   Add in Registration functionality.
+                    (1,677 lines of code / comments).
+1.2   04-Apr-1997   Display the current time in red on a black 
+                    background to make it look a bit like an LED 
+                    clock.  Add in a "Say the Time NOW" button.
+                    Add in a "Say Time Every Quarter Hour" option.
+                    (Thanks to Ted Tatman for these suggestions !!)
+1.3   08-Apr-1997   Add in various sound playback methods (Fast, Optimised, 
+                    and Sequential).  Move the Time Say Frequency up to the 
+                    menu area to unclutter the main screen.  Add in skeleton 
+                    code for other functions - which are under construction.
+                    Limit some functionality to Registered users only - to 
+                    try and encourage some Registrations.
+                    Turn Off the Maximise icon - it wasn't needed.
+1.4   28-Apr-1997   Cater for the situation where the same sound
+                    exists multiple times in the current time - 
+                    use the already loaded sound (instead of loading 
+                    it again) to avoid the "MMSYSTEM265 This alias is 
+                    already in use by this program.  Use a unique 
+                    alias rather than the device name" errors.
+1.5   02-May-1997   Add in support for multiple prefix and suffix
+                    files - which are now chosen at Random.
+                    Disable timed saying of the Time while the 
+                    time is being played (such as when the user 
+                    pressed the "Say Time Now" button).
+                    Fix another cause of the "alias is already 
+                    in use" error.
+1.5a  06-May-1997   Make sure one of the playback Sequential / 
+                    Optimised / Fastest options is checked.
+1.6   17-Jun-1997   Save settings automatically on Windows 95 shutdown 
+                    (Registered Users only).
+                    Start Minimised if set in Shortcut / settings
+                    (Registered Users only).  
+                    Improve application startup - size and position 
+                    form before user sees it.
+                    Add in Menu items for viewing my Shareware Catalog, 
+                    the Readme file, and the Registration Form.
+                    Disable all items under the "Choose Voice Speech Set"
+                    menu - this menu is for future use only.
+1.7   20-Dec-1997   Make Talking Clock Icon in Win 95 Task Bar display 
+                    time when Talking Clock is minimised.
+                    Enable Talking Clock to say the time every 5 and 
+                    10 minutes as well.  (Register Users only).
+                    Make sure at least the basic settings are checked
+                    so that Talking Clock will say the time - This has 
+                    only been a problem if users upgrade from old version 
+                    of Talking Clock.
+1.8   01-Jan-1997   Improve application startup - size and position 
+                    form before user sees it.
+                    Add in 24 hour clock support (Registered Users only !).
+                    (3,486 lines of code / comments).
+2.0   11-Jan-1998   Fix a long standing but very elusive problem
+                    to do with "DateEncode" errors which occured
+                    on some machines under some conditions.
+                    Once I could replicate the error, it was
+                    reasonably straight forward to get a workaround
+                    for what was another bug in Delphi.
+                    (3,658 lines of code / comments).
+2.1   14-Jan-1998   Fix a little bug which occured when there
+                    were no suffix WAV files - basically the file
+                    search record needed some further validation.
+                    (3,663 lines of code / comments).
+2.2   08-Mar-1998   If the "Random Prefix / Suffix Sound" option is 
+                    checked and there is a Prefix sound and no 
+                    Suffix sound or vica versa, then stop Talking 
+                    Clock using the existing Prefix (or Suffix) sound
+                    to use as the missing Suffix (or Prefix) sound.
+                    Fix problem with the "Prefix / Suffix WAV Only"
+                    option being uncheckable - a problem seems to have 
+                    occured during the compile, as a recompilation (of
+                    the identical code) fixed this problem.  Strange !
+                    (3,674 lines of code / comments).
+
+3.0   29-Oct-1999   Massive improvements for this new release !!!
+                    Add in Ships 8 Bells method of saying the time.
+                    (For further information, see above).
+                    (Added especially for Scott M !).
+                    Great new Tabbed Notebook style Settings Screen.
+                    Ability to have "No Prefix and No Suffix" Option
+                    (Registered Users only).
+                    Enable the user to select the "Sound File (WAV) 
+                    Directory" so that multiple sound sample sets 
+                    can be kept on your harddrive in different 
+                    directories - making changing sounds easy.
+                    (Registered Users only).
+                    Improve main window, add tool tips to time and .
+                    Remove the "Say Time Now" button - it is no 
+                    longer needed.
+                    Left Mouse Clicking on the time display will 
+                    now speak the time.  Right or Middle Mouse Clicking 
+                    on the time display will enable you to view or
+                    change the settings.
+                    Much better and smoother PlayBack of sounds - 
+                    many improvements internal to Talking Clock.
+                    Should now be no problems when Talking Clock
+                    is speaking a long sound sample and you want to
+                    shutdown Windows.  
+                    (Added especially for Rich Levine).
+                    Implement Full Main Window scaling - so you can 
+                    resize the window and everything will re-scale.
+                    Enhanced "About ..." window.
+                    Hope everyone likes the new version !!
+                    (6,852 lines of code / comments).
+
+3.1   02-Nov-1999   Add in "Inform Me of Missing Sound Files (During 
+                    Playback)" option onto the Settings Screen.
+                    Some sound sets have no PREFIX.WAV, so see if 
+                    PREFIX0.WAV, PREFIX00.WAV, or PREFIX1.WAV exist 
+                    to use instead when the Settings Screen option 
+                    "Prefix.WAV / Suffix.WAV only" is selected.
+                    Fix a small bug in the Prefix sound selection.
+                    (6,927 lines of code / comments).
+
+      9-Jan-2001    Price rise from $5 to $20.
+
+3.2   ??-??-????    Work around another bug in Borland Delphi 
+                    to fix NTDLL.DLL errors on closedown which 
+                    occured on some Windows NT configurations.
+
+3.3   24-Nov-2001   Store the INI settings file in the program's directory, 
+                    rather that in the Windows' directory - there's enough 
+                    crap there already ! ;)
+                    Make the mouse cursor a hand point when it hovers over
+                    Talking Clock to indicate that a left-mouse button click
+                    does something.  i.e. Talking Clock speaks the current time.
+                    Add Restore Factory Defaults, Always on Top, and 
+                    Auto-Run at Windows Startup options to the File menu.
+                    Add in support for "Big Fonts" and "Other Sized Fonts".
+                    Bring the program up to date with my latest code libraries.
+                    Brand New About Screen and associated functionality.
+                    Add in support for the Maximise icon in the top right
+                    corner of the program's main window.
+                    This program is now for 32 bit Windows or later.  
+                    e.g. Windows 95, 98, ME, NT, 2000, or later.
+                    i.e. Windows 3.x is no longer supported.
+                    Talking Clock is now installed via an executable 
+                    installation program, and now includes the basic
+                    talking clock sounds : Moose's Voice and Ship's Bells
+                    by default "out of the box".
+                    (14,175 lines of code / comments).
+
+3.4  5-Feb-2002     Change 0 to 12 at midnight when displaying a 12 hour clock.
+                    Bring the program up to date with my latest code libraries.
+                    Introduce yet more Anti-Hacker / Anti-Cracker measures.
+                    (15,788 lines of code / comments.)
+
+3.4b  20-Nov-2002   Bring the program up to date with my latest code libraries.
+                    Registered Users - please contact me via email.
+                    (45,298 lines of code / comments.)
+
+3.4f  3-Sep-2007    This program is now FREEWARE - see "Freeware Information"
+                    above.
+
+
+If this program was not downloaded from my Home Page, then
+it is most likely an old version.  The latest version of this 
+program is available from my Home page and its mirrors.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://move.to/moose
+____________________________________________________
+ 

@@ -1,0 +1,231 @@
+ 
+Mosaic Maker Extractor 		Copyright (C) Moose O'Malley, 
+-----------------------		September 2007.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Why I wrote this program ?
+   | * Credits / Thanks
+   | * Installing and Using this Program
+   | * Uninstalling this Program
+   | * The Future
+   | * Reviews / Awards / CDs
+   | * Freeware Information
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+Mosaic Maker Extractor is for Windows 95, 98, ME, NT, 2000, XP, etc.
+
+This program is free software.  Anyone - any person, any company, 
+or any business - can use this program for free.  No fees or 
+payment is required.  See "Freeware Information" below.
+
+Mosaic Maker Extractor enables you to create mosaics or pull 
+them apart again into their component images (tiles).
+
+A mosaic is a big picture made out of lots of little pictures.
+
+So, with Mosaic Maker Extractor, you can create your own mosaics
+or extract the tiles from existing mosaics for further use in 
+other mosaics.
+
+Developed using 32-bit Delphi.
+
+This program will **NOT** run under Windows 3.x  
+(even with Win32 installed).
+
+
+Why I wrote this program ?
+--------------------------
+
+I wrote this program because I have recently been reminded 
+of my facination with mosaics.
+
+In 2000, I attended an art gallery exhibition that featured 
+(among many dozens of paintings) several computer generated mosaics.
+e.g. a jet fighter composed of 100's of little jet fighter images.
+
+I thought it would be cool to develop a program of my own 
+to generate mosaics like this.  However, because of the many other 
+projects I was working on, I shelved the idea.
+
+Then, in early January, 2005, I found a George W. Bush mosaic 
+made up of all the US soldiers who had died so far in the 
+fight against terrorism.
+
+Although I found this image very distasteful and inappropriate, 
+it did  help re-kindle my facination with mosaics.
+
+So, I sat down over a weekend and thought about how to do the job, 
+and pretty soon I had developed a very early, primitive program 
+to do generate mosaics.
+
+Then, when back at work on Monday, I did an internet search for other 
+mosaic making software, and soon found a bunch of programs.
+The cheapest of these was $29.95 US.  
+
+None of these programs included on-line help or any other form 
+of help or a step-by-step help guide, none were intuitive or 
+easy to use, and none allowed you to extract the images from 
+an existing moasic, and most were severely crippled and nagged you 
+annoyingly when you used them.
+
+So, over the course of the next fortnight, I extended and improved 
+my program, made it as easy to use as possible, added in extra 
+features that were not in any of the other mosaic programs, 
+and added in the ability to extract tile images from mosaics.
+
+The result is Mosaic Maker Extractor.
+
+I hope you find the program easy to use and useful.
+
+
+Credits / Thanks :
+------------------
+
+Nil.
+
+
+Installing and Using this Program :
+-----------------------------------
+
+To use this program, unzip the contents of the ZIP file to a 
+directory - such as c:\Mosaic_Maker_Extractor\ - and run the 
+executable file : Mosaic_Maker_Extractor.EXE.
+
+If you want the program to run automatically when Windows
+starts up, then select this option under the "File" menu 
+in the program.
+
+If you would like to be able to run this program by clicking 
+on an icon in the Windows Start Menu, or on the Desktop, etc 
+then you can use the "Create Shortcut ..." options under 
+the program's File menu.
+
+I hope you find the program easy to use and useful.
+
+
+Uninstalling this Program :
+---------------------------
+
+At the  present time, there is No Uninstall function.
+
+If you ever want to delete this program 
+from your computer, then :
+
+ 1. Exit the program, and delete it from wherever 
+    you installed it on your harddrive.
+
+Before doing this however :
+
+- If you have selected / enabled the "Auto-Run at Windows 
+  Startup" option (under the File menu), then you should 
+  ensure that this option is not checked / enabled 
+  (which you can easily do by re-selecting the 
+  "Auto-Run at Windows Startup" option from under 
+  the File menu).
+
+- If you have used any of the "Create Shortcut ..." options 
+  under the File menu, then you should use the "Delete All 
+  Shortcuts" option under the File menu to remove these from
+  your system.
+
+Simple as that !
+
+
+The Future :
+------------
+
+There are many things I could do with this program in the 
+future, for example :
+
+- Add the ability to enlarge / shrink the original image - to 
+  make massive or minute mosaics.
+
+  Currently, the mosaic image will be precisely the same size 
+  as the original image.
+
+- Add the ability to make specific tiles more or less likely 
+  to occur in the mosaic.  i.e. change the randomness of 
+  particular tiles.
+
+  Currently, if multiple tiles are selected, then each tile has 
+  an equal chances of occuring in the resulting mosaic image.
+
+- Add in support for JPG, GIF, etc files.
+
+  Currently, the program only supports bitmap (.BMP) files.
+
+- Anything else ??
+
+If you would like any of these improvements, or would like to
+suggest more, please email me and let me know.
+
+Depending on how sophisticated the program becomes in the 
+future, and how much work I do, I may end up charging a small 
+fee to people who wish to use the program.
+i.e. it may not always be Freeware.
+
+
+Reviews / Awards / CDs :
+-------------------------
+
+None so far.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.  
+
+Anyone - any person, any company, or any business - can 
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please 
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select 
+the "About" option under the Help menu, and then click 
+the PayPal link on the "About" screen).
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know.
+
+
+Amendment History :
+-------------------
+
+Vers    Date        Description
+
+1.0  19-Jan-2005    First Public Release.
+                    (55,991 lines of code / comments.)
+
+1.0f  3-Sep-2007    This program is now FREEWARE - see "Freeware Information"
+                    above.
+
+
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this 
+program is available from my WEB page - see below.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://move.to/moose
+____________________________________________________
+ 

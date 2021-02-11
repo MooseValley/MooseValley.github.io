@@ -1,0 +1,253 @@
+ 
+Bitwise Encryptor Decryptor		Copyright (C) Moose O'Malley, 
+---------------------------		October 2015.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Using this Program
+   | * The Future
+   | * Special Thanks
+   | * Reviews / Awards / CDs
+   | * Freeware Information
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+Bitwise Encryptor Decryptor is for IBM compatible PCs, desktops, laptops, 
+netbooks, etc running any version of Windows from Windows 95 onwards, which 
+includes Windows 98, ME, NT, 2000, XP, Vista, 7, 8, 10, etc, 32 and 64 bit.
+
+This program is free software.  Anyone - any person, any company, 
+or any business - can use this program for free.  No fees or 
+payment is required.  See "Freeware Information" below.
+
+Bitwise Encryptor Decryptor provides the following functionality:
+* Character Frequency Analysis.
+* Simple Bitwise Encryption of Data.
+* Single Step and Brute Force Decryption of Simple Bitwise Encrypted Data.
+* Analysis of Encrypted Data.
+
+See "Using this Program" below for a walk through of each of these uses.
+
+Bitwise Encryptor Decryptor can encrypt / decrypt data one attempt at a time, 
+or cycle through all possible combinations, stopping at possible solutions along the way.
+
+Bitwise Encryptor Decryptor also displays a chart and table of ASCII character 
+frequencies in the source and destination data as well as the percentages of alphanumeric 
+characters (a-z,A-Z,0-9) and spaces in the data, which should be useful for 
+anyone wanting to do statistical analysis of data.
+
+All of the functionality / buttons should be pretty explanatory.
+All of the buttons have tool tips / pop-up help, so just hover the mouse pointer 
+over a button to see further information / help about the button's functionality.
+
+To Encrypt: click the "Load" button, select a text file, select some 
+operations and click the "Encrypt / Decrypt" button.  Change the 
+operations and click the "Encrypt / Decrypt" button again if you want.
+
+To Decrypt: click the "Load" button, select an encrypted text file, 
+and then click the "Start / Resume" in the Brute Force section.
+
+5 bitwise operators are supported so far:
+
+* NOT: flip / invert the bits.
+NOT 01101 = 10010
+
+* SHR / SHL: shift right and left without carry.
+SHR 01101 = 00110    (the 1 bit on the right was lost !)
+
+* ROR / ROL: shift right and left with carry.
+ROR 01101 = 10110    
+(the 1 bit on the right was wrapped around to the left - NO data was lost !)
+
+I've also included a special file "Project4b_encrypted.txt" which contains a 
+special message for those who want to run this program's Brute Force decryption.
+
+Note:
+* Bitwise Encryption is NOT serious encryption in any way, shape, or form.
+  It is a very simple and very easily crackable encryption that is only really 
+  used when people are first learning about encryption or bitwise operators.
+  Bitwise Encryptor Decryptor is provided to help people do that.  :)
+
+Developed using 32-bit Delphi.
+
+
+Using this Program :
+--------------------
+
+To use this program, unzip the contents of the ZIP
+file to a directory - such as c:\GIF_Image_Details\ - and run
+the executable file GIF_Image_Details.EXE.
+
+Bitwise Encryptor Decryptor enables you to:
+
+* Use #1: Character Frequency Analysis.
+Load (from file), Paste (from Windows Clipboard), or simply type / enter 
+text into the Source Data area.  The Source Data character frequency graph 
+and table will automatically update when you do this.
+
+* Use #2: Simple Bitwise Encryption of Data.
+Load, Paste, or enter text as above.  Then select a range of Bitwise 
+Operations and then click the "Encrypt / Decrypt" button to apply the 
+operations to the Source Data and store the results in the Destination 
+Data area.  The Destination Data character frequency graph and table 
+will be automatically updated.  You can then apply other operations, 
+or Save (to file) the Source Or Destination data, or Copy the Source 
+or Destination data to Windows Clipboard using the buttons provided.
+
+* Use #3: Single Step and Brute Force Decryption of Simple Bitwise Encrypted Data.
+Load bitwise encrypted data (from file), or Paste it (from Windows 
+Clipboard) into the Source Data area.  The Source Data character 
+frequency graph and table will automatically update when you do this.  
+Then select a range of Bitwise Operations and then click the 
+"Encrypt / Decrypt" button to apply the operations to the Source Data 
+and store the results in the Destination Data area.  The 
+Destination Data character frequency graph and table will be 
+automatically updated.  You can then apply other operations, 
+or Save (to file) the Source Or Destination data, or Copy the Source 
+or Destination data to Windows Clipboard using the buttons provided.
+You can also use the "Start / Resume" button in the "Brute Force" 
+section to step through and apply all combinations of operations to 
+the Source Data and then check the resulting Destination data's 
+percentages of alphanumerics and spaces to see if the data appears 
+to have been decrypted.  You can adjust the threshold values for 
+the percentages of alphanumerics and spaces.  When a "possible solution" 
+is found, the program stops.  If you want to proceed checking further 
+operations, click the "Start / Resume" button.
+
+* Use #4: Analysis of Encrypted Data.
+The "Analysis" button next to the Source data provides a simple report 
+on the "Source Data: most frequently occuring characters (case sensitive)" 
+and a "Comparison: most frequently occuring letters in common English text".  
+This enables you to see at a glance how simple bitise encrypted data may 
+have been encrypted (what operations were used).
+
+For example, consider this Analysis report and compare the binary values 
+of the two lines I have marked with asterisks (****) below:
+
+------------------------------------------------------------------
+Source Data: most frequently occuring characters (case sensitive)
+
+ASC Char Binary   Count 
+--- ---- -------- ------
+191  ¿   10111111     51	****
+053  5   00110101     36
+023 ETB  00010111     20
+045  -   00101101     20
+
+Comparison: most frequently occuring letters in common English text
+
+ASC Char Binary   
+--- ---- --------
+032 SPC  00100000	****
+069  E   01000101
+101  e   01100101
+084  T   01010100
+116  t   01110100
+065  A   01000001
+097  a   01100001
+------------------------------------------------------------------
+
+Taking the binary values from the 2 lines I have marked with asterisks (****) 
+above, you can see that they are *VERY* closely related:
+10111111 
+00100000
+
+One is the inverse (NOT) of the other, with the bits shifted one position 
+to the right.  This gives us a very good idea of the bitwise operators 
+used: NOT and ROR, or NOT and SHR works in this case as well.
+
+NOTE: here we got lucky - the encrypted data was plain English text, and 
+the "unencrypted" version of encrypted data had spacesm followed by "e" 
+as the most common letter (matching the most frequently occuring letters 
+in common English text).  Not all bitwise encrypted data will be so easy 
+to "crack", because people may leave out spaces, or delete the letter "e" 
+before encryption.  In such cases, use the "Brute Force" options above.
+
+
+The Future :
+------------
+
+In the future, many improvements could be made to this program,
+such as :
+
+- More bitwise operations ?
+  Need anything ?  Email me and let me know.
+
+- Anything else ?  Email me and let me know.  :)
+
+If you would like any of these improvements, or would like to
+suggest more, please email me and let me know.
+
+How much more work I do on this program depends entirely on
+what support I get, how many people use the program, how many
+people have registered, etc.
+
+
+Special Thanks :
+----------------
+
+* The staff and students in the Digital Forensics course at Charles Sturt University 
+for inspiring me to develop this software.
+
+
+Reviews / Awards / CDs :
+-------------------------
+
+None so far.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.  
+
+Anyone - any person, any company, or any business - can 
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please 
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select 
+the "About" option under the Help menu, and then click 
+the PayPal link on the "About" screen).
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know.
+
+
+Amendment History :
+--------------------
+
+Vers    Date        Description
+
+1.0f 10-Oct-2015    First Public Release.
+                    (1,444  lines of code / comments / blank lines in primary source file.)
+                    (39,247 lines of code / comments / blank lines in all primary, library, and include files.)
+
+
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this 
+program is available from my WEB page - see below.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://moosevalley.fhost.com.au/
+____________________________________________________
+ 

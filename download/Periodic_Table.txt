@@ -1,0 +1,400 @@
+ 
+Periodic Table 			Copyright (C) Moose O'Malley, 
+--------------			September 2007.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Why I wrote this program ?
+   | * Accuracy of the Data Presented
+   | * Installing and Using this Program
+   | * Uninstalling this Program
+   | * Glossary of Terms
+   | * The Future
+   | * Reviews / Awards / CDs
+   | * Freeware Information
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+Periodic Table is for Windows 95, 98, ME, NT, 2000, XP, etc.
+
+This program is free software.  Anyone - any person, any company, 
+or any business - can use this program for free.  No fees or 
+payment is required.  See "Freeware Information" below.
+
+Periodic Table is a program to help you investigate, look
+up, or compare the details for all known elements.  e.g.
+Hydrogen, Helium, Lithium, etc.
+
+Periodic Table includes :
+
+- A standard Periodic Table of Elements - if you click an element, 
+  then a report for the selected element is displayed.
+  You can also find an element by name or abbreviation - to make it 
+  easier to look up elements - by using the buttons or menu options
+  provided.
+
+- 16 Element Comparison Graphs to let you compare criteria
+  for each element.  e.g. Atomic Radius, Atomic Weight,
+  Boiling Point (K), Melting Point (K), Electrical Conductivity,
+  etc.
+
+All data (including the reports and graphs !) can be copied 
+to Windows Clipboard at the click of a button, so that you can 
+then paste them into your own documents and use them in your 
+own projects / research / web pages / etc.
+
+If you do use this information or the reports or graphs in
+your own own projects / research / web pages / etc, then 
+please provide a link to my WEB page.
+
+All data has been checked against various text books and internet 
+sources, however, there was a lot of variation in the details 
+these sources presented - see "Accuracy of the Data Presented"
+below.
+
+A Glossary of Terms is provided within the program to explain 
+the terms used within this program.
+
+There are buttons and menu options to enable you to : 
+
+  1. Copy an image of the Periodic Table to Windows' Clipboard,
+     so you can paste it into a document in your word processor 
+     or spreadsheet or whatever.
+
+  2. Save an image of the Periodic Table to file,
+     so you can load this and use this elsewhere, as needed.
+
+  3. Set the Window's Desktop to be an image of the Periodic 
+     Table, so the Periodic Table is there in the background 
+     all the time.
+
+All of this functionality works according to the current size 
+of the program's main window - so if you want a bigger image, 
+then make the main window bigger before invoking these functions.
+e.g. use the Maximise icon in the top right hand corner (title bar).
+
+This program should be useful to anyone who wants to 
+learn more about the elements that make up our universe.
+
+Developed using 32-bit Delphi.
+
+This program will **NOT** run under Windows 3.x  
+(even with Win32 installed).
+
+
+Why I wrote this program ?
+--------------------------------------------
+
+Periodic Table programs are a "dime a dozen" on the internet,
+and many are freeware or shareware, so why did I bother to
+develop yet another Periodic Table program ??
+
+This is a program I have wanted to write / develop for ages.
+
+However, I have not done this because of the massive number 
+of programs already written on the Periodic Table.
+
+Over the past few years, I have been reading a lot about 
+the planets and options for human colonisation and expansion, 
+and in particular, I have been reading about TerraForming.
+
+Terraforming is a process of planetary engineering, specifically 
+directed at enhancing the capacity of an extraterrestrial planetary 
+environment to support life. The ultimate in terraforming would be 
+to create an uncontained planetary biosphere emulating all the 
+functions of the biosphere of the Earth---one that would be fully 
+habitable for human beings.  (Definition courtesy of M.J. Fogg)
+
+So, a good Periodic Table was a step towards understanding how 
+we could TerraForm another planet.
+
+In early October, 2002, I checked out a whole swag of "FREEWARE"
+programs, and none of these included the latest details of the 
+most recently found elements.  Most were very old, and they
+were quite primitive and some contained many flaws.
+
+Then I checked out a whole swag of "SHAREWARE" programs, and 
+these were much better, but they were either inaccurate or else 
+they were so crippled so that I could not look up more than a 
+few elements.  
+
+None of the dozen or so programs I reviewed included a glossary
+of terms (unlike my Periodic Table program), and I wasn't 
+completely happy with any of them.
+
+So, as I usually do, I just sat down and finally wrote my own 
+program - and Periodic Table of Elements is the result.
+
+Prices for these other shareware programs started at $20 US, and
+most authors were asking between $35 US and $50 US.  
+
+The price for my Periodic Table program is $10 Aussie dollars 
+(which equals $5 US approx) - a real bargain in comparison !!
+
+
+Accuracy of the Data Presented :
+--------------------------------
+
+All data has been checked against various text books and 
+internet sources, however, there was a lot of variation 
+in the details these sources presented, so I cannot be 
+certain that everything is 100% correct.
+
+Compiling this information and checking it against
+multiple sources to verify every single figure has
+been a major piece of work - requiring many long nights.
+
+The following Periodic Table / Chemistry web sites have
+been used to double check key figures for all elements :
+
+	http://chemlab.pc.maricopa.edu/periodic/
+
+In addition, my Encyclopeadia Britanica DVD has also 
+provided some assistance in this.
+
+If anyone finds any errors in any values presented 
+in the program, then please make sure that you have 
+the latest version of the program.  (i.e. download 
+this from my web page - see below).
+
+If you are using the latest version of the program,
+and you still believe that this has errors and you 
+are sure that your units and numbers are correct, 
+then please email me and let me know, 
+what values you think are wrong and why, and what the 
+correct values should be.  
+
+I will then look at things and check things out, and 
+if I can confirm the errors, then I will fix these 
+and prepare a new version of the program.
+
+
+Installing and Using this Program :
+-----------------------------------
+
+To use this program, unzip the contents of the ZIP file to a 
+directory - such as c:\Chemistry\ - and run the executable 
+file : Periodic_Table.EXE.
+
+You can also drag and drop shortcuts to this program
+onto your Desktop or Start Menu using Windows Explorer.
+
+If you want the program to run automatically when Windows
+starts up, then select this option under the "File" menu
+in the program.
+
+I hope you find the program easy to use and useful.
+
+
+Uninstalling this Program :
+---------------------------
+
+At the  present time, there is No Uninstall function.
+
+If you ever want to delete Periodic Table
+from your computer, then :
+
+ 1. Exit the program, and delete it from wherever 
+    you installed it on your harddrive.
+
+Simple as that !
+
+
+Glossary of Terms :
+-------------------
+
+A Glossary of Terms is provided within the program to 
+explain the terms used within this program.
+
+This Glossary is now accessible from within the program.  
+e.g. press the "Glossary" button or use the "Glossary of 
+Terms" option under the Help menu.
+
+
+The Future :
+------------
+
+In the future, many improvements could be made to this program,
+such as :
+
+- More information on each element, especially :
+  * Colour
+  * Odour
+  * Flammable in Earth's Atmosphere
+  * Ductile
+  * Malleable
+  * Hardness (Mo)
+  * Abundance in Universe
+  * Abundance in our Solar System
+  * Abundance on Earth
+  * Abundance in Earth's Atmosphere
+  * Abundance in Earth's Oceans
+  * Compressability
+  * Essential to human or animal life as we know it
+  * Toxic to human or animal life as we know it
+  * Essential to plant life as we know it
+  * Toxic to plant life as we know it
+  * Number of isotopes
+  * Half-Life (if applicable)
+  * Half-life for the longest and shortest lived isotopes.
+  * Uses / Applications
+  * etc, etc, etc
+
+  There are many dozens of things that can be added into 
+  this program for each element.
+
+- More Graphs.
+
+- The ability to "ZOOM" in on the graphs - so you can see 
+  what is going on in more detail.
+
+- Ability to extract any or all data for each element from 
+  the program so you can use this data in your own reports
+  or spreadsheets.
+
+- Form Scaling, Maximise functionality.
+
+- Anything else ?
+
+If you would like any of these improvements, or would like to
+suggest more, please email me and let me know.
+
+How much more work I do on this program depends entirely on
+what support I get, how many people use the program, etc.
+
+
+Reviews / Awards / CDs :
+-------------------------
+
+None so far.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.  
+
+Anyone - any person, any company, or any business - can 
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please 
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select 
+the "About" option under the Help menu, and then click 
+the PayPal link on the "About" screen).
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know.
+
+
+Amendment History :
+-------------------
+
+Vers    Date        Description
+
+1.0  14-Oct-2002    First Public Release.
+                    (30,580 lines of code / comments.)
+
+1.1  15-Oct-2002    You can now choose your own colours - i.e. you can now 
+                    left or right mouse click on the coloured boxes in the
+                    "Element Group Key / Legend", and select new colours for
+                    each group of elements.
+                    Add in an on-line Glossary of Terms - this is
+                    accessible from within the program.  e.g. press the
+                    "Glossary" button or use the "Glossary of Terms" option 
+                    under the Help menu.
+                    From now on, only Registered users can copy the Glossary 
+                    of Terms and Element Reports to Window's Clipboard.
+                    Improve the formatting of some numbers / data.
+                    e.g. Show 1.2300 as 1.23, etc on the element reports.
+                    (31,314 lines of code / comments.)
+
+2.0  17-Oct-2002    This is a fairly Massive Update !!!!
+                    Double check all key values (Atomic Weight, Atomic Radius, 
+                    Boiling Point, Melting Point, Density, Bonding Covalent
+                    Radius, Electron Negativity, etc) against other sources - 
+                    such as various Periodic Table / Chemistry web sites, 
+                    especially : http://chemlab.pc.maricopa.edu/periodic/
+                    and my Encyclopeadia Britanica DVD.
+                    It has been very hard work - as no two information sources
+                    seem to 100% agree on the details for each element.
+                    However, I am now much more confident in the accuracy of 
+                    the information presented in this program.
+                    Add in some additional details about each element - such
+                    as interesting properties, uses, or facts.
+                    Add in the Discoverer and the Year of Discovery (where known).
+                    For elements that have been know since ancient times (copper, 
+                    lead, etc), the Year of Discovery was nominated to be -1,000 
+                    (i.e. 1000 B.C.) just to provide a more representative range 
+                    on the Year of Discovery graph.
+                    Add a few additional terms into the Glossary of Terms.
+                    Add more descriptive Acid / Base properties : use Strong,
+                    Mild, and Weak for Acids and Bases.
+                    Add in column (group) headings : Ia, IIa, IIIa, etc.
+                    Add in Form and Component Scaling when the program's 
+                    main window is resized - really Cool !!
+                    Add in support for the Maximise icon in the top right 
+                    corner of the program's main window.
+                    Various minor usability enhancements : you can now left
+                    or right mouse click on any element to view the report,
+                    display the number of terms in the Glossary, etc.
+                    Improve the and compact the interface - use StaticText
+                    components instead of the previous Groupbox + Label.
+                    Add in buttons and menu options to provide the user with 
+                    the ability to : 
+                    1. Copy an image of the Periodic Table to Windows' Clipboard,
+                    2. Save an image of the Periodic Table to file, and,
+                    3. Set the Window's Desktop to be an image of the Periodic Table.
+                    All of these work according to the current size of the 
+                    program's main window - so if you want a bigger image, then
+                    make the main window bigger before invoking these functions.
+                    (36,252 lines of code / comments.)
+
+2.0b  20-Nov-2002   Bring the program up to date with my latest code libraries.
+                    (41,867 lines of code / comments.)
+
+2.1   30-June-2003  Bring the program up to date with my latest code libraries.
+                    Add in support for all of the various Windows
+                    Regional Settings for numbers. 
+                    i.e. Allow people to use something other than a 
+                    full stop as the decimal point, and something 
+                    other than a comma as a 1,000's separator.
+                    (Special thanks to Mathijs for reporting this issue).
+                    (69,905 lines of code / comments.)
+
+2.2    2-Feb-2005   Bring the program up to date with my latest code libraries.
+                    Fix the truncation of significant leading zeroes on the 
+                    Element Properties reports.
+                    (Special thanks to Blane P for reporting this issue).
+                    (71,828 lines of code / comments.)
+
+2.2f  3-Sep-2007    This program is now FREEWARE - see "Freeware Information"
+                    above.
+
+
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this 
+program is available from my WEB page - see below.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://move.to/moose
+____________________________________________________
+ 

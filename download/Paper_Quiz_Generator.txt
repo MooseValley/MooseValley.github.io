@@ -1,0 +1,292 @@
+ 
+Quiz Master			Copyright (C) Moose O'Malley, 
+-----------			March 2015.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Using this Program
+   | * Question and Answer File Format
+   | * Quiz Results File Format
+   | * The Future
+   | * Reviews / Awards / CDs
+   | * Freeware Information
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+Paper Quiz Generator is for IBM compatible PCs, desktops, laptops, 
+netbooks, etc running any version of Windows from Windows 95 onwards, which 
+includes Windows 98, ME, NT, 2000, XP, Vista, 7, 8, 10, etc, 32 and 64 bit.
+
+This program is free software.  Anyone - any person, any company, 
+or any business - can use this program for free.  No fees or 
+payment is required.  See "Freeware Information" below.
+
+Paper Quiz Generator is a program that enables you to generate paper 
+based true/false and multiple choice quizes - consisting of a random 
+selection of questions and the randomised answers for each question - 
+from files of questions and answers that you provide.  Paper Quiz 
+Generator is ideally suited for generating the true/false and multiple 
+choice (A,B,C,D,E,etc) question sections of paper based exams, 
+assignments, tutorial questions, and so on.
+
+Paper Quiz Generator enables you to:
+- Select a file containing the Questions and Answers or drag and 
+  drop a file from Windows Explorer (see "Question and Answer File Format" 
+  below),
+- Specify the number of questions to ask (questions are selected at 
+  random from the question and answer file),
+- Specify various other settings such as:
+* Appending an auto-incremented sequence number to output file names so you can 
+  generate many question and answer files by just repetitively clicking 
+  the "Create" button.
+* Whether to include a quick marking summary at the top of each answer file.
+This makes it much faster and much easier to mark quiz attempts.
+* Whether to show a success message dialog after each quiz is created.
+* etc
+- You can view / edit the questions and answers file, and the generated 
+  quiz questions file and quiz answers file by clicking the "Open" buttons 
+  to the right of each file name's data entry box.
+
+Paper Quiz Generator is very easy to use.  A couple of minutes (or less) 
+and you will be an expert in using Paper Quiz Generator.
+
+For information about the required question and answer file format, see 
+"Question and Answer File Format" below.
+
+A sample Questions and Answer file is included in the ZIP file for this program.
+See file called "Moose's Sample Quiz.qiz".
+
+Also, two sample quizes generated from this Questions and Answer file, 
+and their corressponding answer files, are included so you can very easily 
+see what this program does.  
+See files "Moose's Sample Quiz_1_questions.txt" and "Moose's Sample Quiz_1_answers.txt", 
+and "Moose's Sample Quiz_2_questions.txt" and "Moose's Sample Quiz_2_answers.txt".
+
+
+Notes:
+
+(1). This program is only suitable for quizes where all of the 
+questions and answers are written in plain text.  It will not and cannot 
+display images, sounds, videos, fancy formulas, specially formatted text, 
+etc in your quizes, then this program is *not* for you.  
+(I might add support for this in the future - see "The Future" below).
+
+(2). The question and answer files for this program are 100% compatible with 
+my Quiz Master software.  However, Paper Quiz Generator questions can have 100's  
+of possible answers for a question (or even millions, if you want), whereas my 
+Quiz Master software has a limit of 5 answers per question (because it has to
+display the answer to each question in up to 5 radiobuttons on the screen).
+
+I actually developed this functionality many years ago - way back in the late 
+1990's by adapting my Quiz Master program to provide what I needed. 
+Over the years, I have generated literally 1,000's of multiple choice quizes
+for courses I have taught using the paper quiz generation features I built into
+my Quiz Master program.  However, this was a hacked together solution, 
+that was disabled and hidden in all released versions of my Quiz Master program
+because and it was not polished or suitable for public release.
+
+In February 2015, I dusted off my old code, completely re-wrote it to streamline 
+everything and make it super adaptable and re-usable in other projects, extended 
+it to handle questions with anything from 1 - 1+ million answers, extracted 
+everything to an easily adaptable and re-usable Quiz Engine (behind the scenes) 
+and used this Quiz Engine created for my Paper Quiz Generator.
+
+
+Using this Program :
+--------------------
+
+To use this program, unzip the contents of the ZIP
+file to a directory - such as c:\Paper_Quiz_Generator\ - and run
+the executable file Paper_Quiz_Generator.EXE.
+
+To make the user interface more streamlined / compact, all of 
+the buttons have just an icon - no words or text in the button.  
+However, all buttons have tooltips (little pop-up help bubbles) 
+that appear when the mouse pointer hovers over them.
+
+For further information about all of the program's functionality,
+see the "Introduction" section above.
+
+For information about the question and answer file format, see 
+"Question and Answer File Format" below.
+
+
+Question and Answer File Format :
+----------------------------------
+
+The format of each Questions and Answers file is identical to 
+the required by my Quiz Master program.
+
+The following explains the format of the Question and Answer
+file.
+
+Comment Lines :
+
+! -  Any lines starting with an exclamation mark (!) are 
+!    treated as comments and are ignored.
+
+Each Question must consist of :
+
+Q::  The Question to be asked - all on one line.
+A::  A line of answers - all on one line and with each possible 
+     answer option seperated by '::'.
+     This answer line must immediately follow the question line to 
+     which it relates.
+     And, the first answer in the list must be the correct one !
+     i.e. there can ONLY be 1 correct answer and it must be 1st.
+     The answer options are randomised when the quiz is generated,
+     otherwise the quiz taker could just answer "A" for everything.
+     You can have anything from 1 up to millions of possible 
+     answers per question.  Most questions will have between 
+     between 2 and 5 answer options - and only of these will be correct.
+     
+In addition, "QT::: is used to hold the Quiz Title (only one 
+per quiz), for example :
+
+QT::General Knowledge Quiz
+
+Example:
+
+!
+! Moose's Sample Quiz.
+!
+QT::Moose's Sample Quiz
+!
+Q::What is the capital of France ?
+A::Paris::Berlin::London::Prague
+Q::If 3 Men can move 7 tonnes of gravel in a 8 hours, how long would it take 11 Men to move the same amount of gravel ?
+A::3.2 Hours::3.5 Hours::3 Hours::8 Hours
+Q::Which Day Is Named After A Planet ?
+A::Saturday::Monday::Wednesday::Friday
+Q::What Is The Larva Of The Fly Called ?
+A::Maggot::Grub::Wiggler::Flyet
+
+
+And so on - just keep adding questions and answers in the above format.
+Each question can have 1 - 1+ million possible answers.
+Just make sure the 1st answer on each line is the correct one.
+Piece of cake !  :)
+
+The following files are included in the Paper Quiz Generator ZIP file:
+
+* Moose's Sample Quiz.qiz
+Sample question and answer file (as per the above sample).
+
+
+The Future :
+------------
+
+In the future, many improvements could be made to this program,
+such as :
+
+- Import quizes in other formats / from other software.
+  Need this ?  Email me and let me know.
+
+- Support various options for formatting the resulting quiz questions 
+  and the list of answers:
+  For example, some people  may like this format:
+
+    (1). What is the capital of France ?
+
+    (A). London
+    (B). Paris
+    (C). Prague
+    (D). Berlin
+    
+  while other people may prefer:
+
+     1. What is the capital of France ?  
+     A. London
+     B. Paris
+     C. Prague
+     D. Berlin
+
+  Or some other format.  It may seem like a small point, but 
+  formatting is important, and schools, universities, etc may 
+  have standards that need to be followed for quiz questions.
+  It's not much fun re-formatting questions and answers manually.
+  So, if you need a specific format - let me know !  :)
+  
+- Support for non-text items in the quiz, such as images, sounds, 
+  videos, fancy formulas, specially formatted text, etc.
+  This will require special output files (non-text) - 
+  see next item.
+
+- Generate Quiz questions in HTML and/or Javascript so 
+  they can be added as interactive quizes to web pages, and 
+  so that they can support images, sounds, videos, fancy 
+  formulas, specially formatted text, etc.
+
+- An auto-marking / auto-grading functionality to automatically 
+  "mark" attempts at each quiz, keep logs of attempts, and so on.
+
+- Anything else ?
+
+If you would like any of these improvements, or would like to
+suggest more, please email me and let me know.
+
+How much more work I do on this program depends entirely on
+what support I get, how many people use the program, how many
+people have registered, etc.
+
+
+Reviews / Awards / CDs :
+-------------------------
+
+None so far.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.  
+
+Anyone - any person, any company, or any business - can 
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please 
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select 
+the "About" option under the Help menu, and then click 
+the PayPal link on the "About" screen).
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know.
+
+
+Amendment History :
+--------------------
+
+Vers    Date        Description
+1.0f  20-Mar-2015   First Public Release.
+                    (748 lines of code / comments / blank lines in primary source file.)
+                    (49,047 lines of code / comments / blank lines in all primary, library, and include files.)
+
+
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this 
+program is available from my WEB page - see below.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://moosevalley.fhost.com.au/
+____________________________________________________
+ 

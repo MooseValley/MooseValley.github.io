@@ -1,0 +1,43 @@
+
+Timed WEB URL / Banner Visitor  - v1.1           >> Mick the Clicker <<
+****************************************
+
+This program visits a list of nominated WEB URLs every hour or so.
+
+These URLs can be banner sites, sponsor sites, or your own site(s)
+to increase your clicks.
+
+I wrote this program because less than 1 in 5,000 people visiting
+my WEB site bothered to click on my Ad banners.
+
+Others may find it useful to increase click revenue as well !!  ;)
+
+N.B. There is no point in a single person visiting your banner / sponsor 
+     more than once per hour - if you do then all clicks in that hour count 
+     as one click only !!!
+
+This program is FREEWARE - please copy it, give it to your friends,
+put in on CDs, stick it on WEB and FTP sites, and use it all you want !!
+
+This program is for Windows 95, 98, NT, or 2000.
+
+The program will work best on PCs with a permanent internet connection,
+so that the "clicking" can occur 24 hours a day.  If not, you will have 
+to run this program when you log onto the net and exit the program 
+when you log-off again.
+
+When run, this program lives in the Windows Tray Bar - with the clock, etc.
+(It's icon is a memory chip !!).
+
+Left Mouse click on the icon to activate it, type in the WEB URL's
+(Banners, sponsors, etc) you want to visit, set the time options,
+and minimise it and forget it while it does its job !!
+
+You can even stick a shortcut to the program in your StartUp group.
+
+Releases :
+1.1  10-Mar-2000    First Public Release.
+
+Enjoy !
+
+>> Mick the Clicker <<

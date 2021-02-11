@@ -1,0 +1,267 @@
+ 
+Units Converter			Copyright (C) Moose O'Malley, 
+---------------			November 2014.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Using this Program :
+   | * Why is this program useful ?  /  Why do this ?
+   | * The Future
+   | * Program History and Special Thanks To Carl Henry and his Unicon
+   | * Reviews / Awards / CDs
+   | * Freeware Information
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+Units Converter for Windows 95, 98, ME, NT, 2000, XP, Vista, 7, 8, 10, etc.
+
+Units Converter enables you very easily and quickly 
+convert units between metric, imperial, and other units for 
+length, mass (weight), temperature, area, and many other 
+categories.
+
+The current version of the program supports 328 units in 
+14 categories.
+
+Developed using 32-bit Delphi.
+
+This program will **NOT** run under Windows 3.x
+(even with Win32 installed) !!
+
+
+Using this Program :
+--------------------
+
+Simply download the ZIP file, unzip it to a directory using
+WinZIP or similar, execute the program (unitconv.exe) on
+a PC running Windows 95 or later, and select the category of 
+units you want to convert, select the from and to units, and 
+type in the value you wished converted, and you will see the 
+result.
+
+You can copy the converted from / to values to the clipboard, or
+use the Copy Format selection at the bottom of the screen to copy 
+the conversions to Windows clipboard in a variety of formats, 
+for example:
+
+	3.75 Acres (1.52 Hectares)
+
+This is great / useful when you are doing a lot of conversions and 
+need to get the results back with a variety of units into your own 
+documents or reports.
+
+
+Why is this program useful ?  /  Why do this ?
+------------------------------------------------
+
+This program can save you hours searching through encyclopoedias,
+reference books, and the internet.  Unit Conversions can be a little 
+complex and confusing, and it is easy to make mistakes when you are 
+in a hurry.  Units Converter saves you from all of these issues and 
+the hassle.  Many dozens of units are defined in Units Converter 
+to allow you to onvert your data quickly and easily.
+
+
+The Future :
+------------
+
+In the future, many improvements could be made to this program,
+such as :
+- More Units
+- More Categories
+- Support for currency conversions ?  All I need to find is a reliable source of 
+  currency data that I can download / convert on a regular basis.  
+  Know any ?  Let me know.  :)
+- Anything else ?  Let me know !  :)
+
+
+Program History and Special Thanks To Carl Henry and his Unicon
+---------------------------------------------------------------
+
+I have wanted a nice, user friendly Units Converter program like 
+this since 1980 - long before computers had graphical user interfaces !!
+
+In my Apple ][ days in the very early 1980's, I wrote a Units Converter, 
+which was a BASIC program that handled dozens of units in 6 categories.  
+However, the Apple ][ was a very primative machine, and my program 
+wasn't all that user friendly or useful or accessible.
+
+In 1994, when I first got access to the internet, I stumbled across a 
+program called "Unicon", or Universal Units Converter, by a guy called 
+Carl Henry, who was based in California.  
+
+Carl's Unicon program was useful and was much like the re-vamped / 
+updated version of my old Apple ][ Units Converter program that I 
+had been thinking about developing for years.  Carl's $10 US 
+registration fee was very reasonable (and very typical for most 
+software at this time), but I had no way to tell if his postal address 
+was still current - there was only one way to register, 
+and that was to send $10 US ($20 Aus approx) through the post.  
+
+Carl's Unicon program did not have enough units or categories for me - 
+I needed some more conversions.  Also, Carl's Unicon program was clunky 
+to use, and I found a couple of bugs in some conversions .....
+
+Since 1994, every few years, I have searched for an updated version of 
+Carl's Unicon program, but to no avail.  I have also occassionally 
+searched the internet for similar programs, but could not find any 
+that I was completely happy with (or that were better than the ancient 
+1993 version of Carl's Unicon).
+
+But, being someone who loves developing software, I decided in 
+October / November 2000 to develop an updated version of my original 
+Apple ][ Units Converter program, but with a nice graphical user interface
+(GUI) for Windows.  I had a spare weekend and it was very rainy stormy 
+outside ....  And I thought I'd easily be finished by Monday ....  
+I finished the software design and development quickly enough ....  
+I had developed a nice program with a great GUI, that adapted its user 
+interface based on the data / conversions in a data file.  I was planning 
+to release several versions - one with basic units, one with more 
+units / conversions, and a 3rd "expert" version that could handle 
+every conversion of every unit known to man.  It was a dream of mine to
+simplify conversions for all units.
+
+But I didn't take into account the massive data / unit collection job I 
+was about to start ....
+
+So, I set about exploring and gathering all of the units and conversions 
+I could find.  I set-up a Lotus Improv spreadsheet - because this allows you to 
+seprate data and forumulas and use plain english formulas, for example: 
+Kilograms = Pounds * 2.2 instead of A3 = B5 * 2.2, and then I searched 
+all over the internet and gathered up all of the units I could find - 
+whether I wanted them in my program or not.  This process took me many, 
+many, many dozens of hours of work, and I have to say that I dissappeared 
+down a large number of deep and awful rabbit holes for long a while 
+(over a decade).  I soon discovered that world of Units wasn't neat 
+and orderly as I had hoped, but there are contradictions, vagaries, and 
+confounding information everywhere.  
+
+I also got lost in the scope of the exercise - there are many 1,000's of 
+units out there.  
+
+Every few months, I would return to my Lotus Improv spreadsheet and 
+do another few hours of research, adding in more units, grathering 
+more evidence for confirming the conversions I had gathered so far, and 
+gathering new units and conversions.  I was using the internet, as well 
+as reference books and encyclopaedias.
+
+Often I'd watch a TV program, documentary, or movie and hear them talk 
+about some new unit of measure and think "Ahhh, I'll add that to my 
+Lotus Improv spreadsheet ...", and off I'd go and what I thought would 
+be a quick bit of research, but it usually turned out to me more complex 
+and convoluted, and lead me down numerous other paths for other units, 
+and so on.  A quick 10-20 mins of research would frequently turn into 
+several hours or more - and with no end in sight.
+
+I remember one area that really stumped me was soldier group sizes: 
+battalion, squad, phalanx, etc - I tried to add conversions in for these, 
+but the definitions of these terms vary by army, country, period of 
+history, etc.  I lost a lot of time here trying to make sense of it - 
+but in the end I had to concede that there wasn't any sense to it 
+at all.  It was impossible ....
+
+On 20-Nov-2000, I very nearly released v1.0 of my Units Converter.  
+But, I wasn't completely happy with it ....  More work was needed on 
+tidying up some of the units / data conversions.  I have found so many 
+inconsistences and contradictions between information sources, that I 
+was not 100% confident that all of my conversions were correct.
+
+Fast forward 14 years later to November 2014 ....  In my Google and 
+DuckDuckGo searches in early November 2014, I could find NO mention at 
+all of Carl Henry nor his "Unicon" Universal Units Converter program.  
+It looks like Carl hasn't released an update for his program for many 
+years - and possibly he hasn't released an update since 1993.
+
+Anyway, here we are, 14+ years later, and I am still no-where near to 
+completing my Units Conversion Lotus Improv spreadsheet.  In fact, I 
+have not done any further work on my Lotus Improv spreadsheet for 
+about 4 years now, and I have no plans to go back to it - the job 
+was simply too big and too convoluted for one person, especially 
+when that person (me) was doing it ALL for FREE and in their "spare time".
+
+So, I have returned my Units Converter program, tidied up the user 
+interface, and released it.
+
+As a special tribute to Carl Henry's 1993 "Unicon" program 
+(which no longer exists on the internet, as far as I can tell),
+I have decided to set aside nearly all of the units / conversions I have
+painstakingly collected and researched over the last 14+ years, and instead use
+the data file from Carl "Unicon" program, but with some fixes and
+21 extra units / conversions and 4 additional unit categories.
+
+Carl's "Unicon" program had 307 units in 10 categories.
+
+v1.0 of my Units Converter program supports 328 units in 
+14 categories.
+
+So, I have added 21 units and 4 categories to Carl's original data 
+file.  As I said above, I have much bigger (and incomplete) unit 
+conversion lists that support many dozens more units.  So, 
+I may add more in the future ....
+
+
+Reviews / Awards / CDs :
+-------------------------
+
+None that anyone has told me about, so far.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.  
+
+Anyone - any person, any company, or any business - can 
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please 
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select 
+the "About" option under the Help menu, and then click 
+the PayPal link on the "About" screen).
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know.
+
+
+Amendment History :
+--------------------
+
+Vers    Date        Description
+
+1.0   20-Nov-2000   First Public Release.  (NOT RELEASED - see above)
+                    Developed using 16-bit Delphi v1.0 so that the program will
+                    work with any version of Windows since Windows 3.
+                    (6,615 lines of code / comments.)
+
+1.0f  29-Nov-2014   First Public Release.
+                    (858 lines of code / comments / blank lines in primary source file.)
+                    (55,571 lines of code / comments / blank lines in all primary, library, and include files.)
+
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this 
+program is available from my WEB page - see below.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://moosevalley.fhost.com.au/
+____________________________________________________
+ 

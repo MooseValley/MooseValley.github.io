@@ -1,0 +1,83 @@
+
+- bitmap.inc
+  * Nil.
+
+- componet.inc
+  * Nil.
+
+- Component_Shape.inc
+
+- datetime.inc
+  * textutil.inc
+
+- diskutil.inc
+  * Nil.
+
+- file_utl.inc
+  * textutil.inc
+
+- ini_main.inc
+  * textutil.inc
+
+- listmemo.inc
+  * file_utl.inc
+  * textutil.inc
+
+- memoex.inc
+  * listmemo.inc
+
+- numutil.inc
+  * textutil.inc
+
+- on_top.inc
+  * Nil.
+
+- other.inc
+  * Nil.
+
+- pcspeakr.inc
+  * win_api.inc
+
+- register.inc
+  * encrypt.inc
+  * textutil.inc
+  * other.inc
+
+- register__FREEWARE.inc
+  * Nil.
+
+- registry.inc
+  * file_utl.inc  **
+
+- RichEdit.inc
+  * Nil.
+
+- RichEdit_sortutil.inc
+
+- sethead.inc
+  * encrypt.inc
+
+- scale.inc
+  * checksum.inc
+
+- sortutil.inc
+
+- sound.inc
+
+- str_grid.inc
+  * Nil.
+
+- textutil.inc
+  * Nil.
+
+- WEB_EMAL.inc
+  * Nil.
+
+- win_api.inc
+  * file_utl.inc  **
+
+- Xstr_grid.inc
+  * Nil.
+
+
+EOF.

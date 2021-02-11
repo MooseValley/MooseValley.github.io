@@ -1,0 +1,155 @@
+key_snd__v1,4f.zip
+
+Key Sound Generator (v1.4f)
+
+Key_Sound_Generator
+
+http://www.virustotal.com/en/file/56f8abb366c58da4fa164e3246a89a388eae48755e4e97039aa9cf2608b8b8b5/analysis/1422314663/
+
+SHA256: 	56f8abb366c58da4fa164e3246a89a388eae48755e4e97039aa9cf2608b8b8b5
+File name: 	key_snd__v1,4f.zip
+Detection ratio: 	2 / 57
+Analysis date: 	2015-01-26 23:24:23 UTC ( 0 minutes ago )
+1
+0
+
+    Analysis
+    Additional information
+    Comments
+    Votes
+
+Antivirus 	Result 	Update
+Norman 	Suspicious_Gen4.DGGBR 	20150126
+Symantec 	WS.Reputation.1 	20150126
+ALYac 		20150126
+AVG 		20150126
+AVware 		20150126
+Ad-Aware 		20150126
+AegisLab 		20150126
+Agnitum 		20150126
+AhnLab-V3 		20150126
+Alibaba 		20150126
+Antiy-AVL 		20150126
+Avast 		20150126
+Avira 		20150126
+Baidu-International 		20150126
+BitDefender 		20150126
+Bkav 		20150126
+ByteHero 		20150127
+CAT-QuickHeal 		20150125
+CMC 		20150124
+ClamAV 		20150126
+Comodo 		20150126
+Cyren 		20150126
+DrWeb 		20150126
+ESET-NOD32 		20150126
+Emsisoft 		20150126
+F-Prot 		20150126
+F-Secure 		20150126
+Fortinet 		20150126
+GData 		20150126
+Ikarus 		20150126
+Jiangmin 		20150126
+K7AntiVirus 		20150126
+K7GW 		20150127
+Kaspersky 		20150126
+Kingsoft 		20150127
+Malwarebytes 		20150127
+McAfee 		20150126
+McAfee-GW-Edition 		20150126
+MicroWorld-eScan 		20150126
+Microsoft 		20150126
+NANO-Antivirus 		20150127
+Panda 		20150126
+Qihoo-360 		20150127
+Rising 		20150126
+SUPERAntiSpyware 		20150125
+Sophos 		20150127
+Tencent 		20150127
+TheHacker 		20150126
+TotalDefense 		20150126
+TrendMicro 		20150126
+TrendMicro-HouseCall 		20150126
+VBA32 		20150126
+VIPRE 		20150126
+ViRobot 		20150126
+Zillya 		20150126
+Zoner 		20150123
+nProtect 		20150126 
+
+
+
+
+File identification
+MD5 28fb4c3717a752847a09f5c95bfc0f72
+SHA1 2badaab17b81c01c0a2b32892de6f6f282fec958
+SHA256 56f8abb366c58da4fa164e3246a89a388eae48755e4e97039aa9cf2608b8b8b5
+ssdeep
+12288:1df2kuR0HIoeCax5Fii55wp2/Om9jK4tEgWvuCmHw9jp8Ve9mTGnxLR/g6:1dc9Cax5Fiuv/OQKC3JHajjhLR/g6
+
+File size 680.6 KB ( 696958 bytes )
+File type ZIP
+Magic literal
+Zip archive data, at least v2.0 to extract
+
+TrID 	ZIP compressed archive (100.0%)
+Tags
+zip upx
+
+VirusTotal metadata
+First submission 2013-12-13 06:28:09 UTC ( 1 year, 1 month ago )
+Last submission 2015-01-26 23:24:23 UTC ( 1 minute ago )
+File names 	key_snd.zip
+key-sound-generator-1.4f.zip
+key_snd__v1,4f.zip
+Advanced heuristic and reputation engines
+ClamAV PUA
+Possibly Unwanted Application. While not necessarily malicious, the scanned file presents certain characteristics which depending on the user policies and environment may or may not represent a threat. For full details see: http://www.clamav.net/doc/pua.html .
+
+ExifTool file metadata
+MIMEType
+application/zip
+
+ZipRequiredVersion
+20
+
+ZipCRC
+0xb8f697d1
+
+FileType
+ZIP
+
+ZipCompression
+Deflated
+
+ZipUncompressedSize
+10216
+
+ZipCompressedSize
+8390
+
+FileAccessDate
+2015:01:27 00:24:34+01:00
+
+ZipFileName
+arcade/arrow.wav
+
+ZipBitFlag
+0
+
+FileCreateDate
+2015:01:27 00:24:34+01:00
+
+ZipModifyDate
+2001:02:16 21:57:05
+
+
+
+Comments 1
+
+Downloaded from my web site: http://moosevalley.fhost.com.au/
+I am super paranoid about security and all of my PCs are subject to the highest levels of security, so you can rest assured that there are no viruses or malware in any of the software I provide on my web site, as confirmed by this VirusTotal analysis. :)
+There are 2 false positives in this scan report - and both are complete non-sense. If these anti-virus scanners are going to claim something *might* contain a virus, then they should have to show at least some shred of proof, instead of making wild and completely unsubtantiated accusations. There are NO viruses and NO malware in any of my software. You can safely ignore the results of these "over zealous" (to put it politely !) anti-virus scanners that show any "false positives".
+Moose
+Posted 0 minutes ago by Moose Delete
+

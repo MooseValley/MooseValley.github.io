@@ -1,0 +1,702 @@
+ 
+File Tools			Copyright (C) Moose O'Malley, 
+----------			September 2007.
+ 
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Using this Program
+   | * Installing this Program 
+   | * Uninstalling this Program
+   | * Walkthrough with Examples on Using File Tools 
+   |   - "Directory Path View" on the "Other" tab 
+   |   - "Filename View" on the "Other" tab 
+   |   - Copy to Window's Clipboard (Main Window) 
+   |   - Rename File Names (Main Window) 
+   |   - Search and Replace File Contents (Main Window) 
+   |   - General Tab Functions 
+   |   - Rename Tab 
+   |   - UNIX CR Only Text Files - An Example 
+   |   - Set File Attributes (Other tab)
+   |   - Right Mouse Click Menu
+   | * Special Thanks to
+   | * The Future
+   | * Reviews / Awards / CDs
+   | * Freeware Information
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+File Tools for Windows 95, 98, ME, NT, 2000, XP, etc.
+
+This program is free software.  Anyone - any person, any company, 
+or any business - can use this program for free.  No fees or 
+payment is required.  See "Freeware Information" below.
+
+File Tools provides some very useful functionality :
+
+- Ever wanted to grab the list of files from the current directory ?
+- Ever needed to get the long or short directory path from
+  the current directory ?
+- Ever wanted to stamp all files with the current date and time ?
+- Ever been frustrated with virtually un-readable text files from 
+  MAC or UNIX environments and wished you could make them readable 
+  on your PC ?  (More on this below with examples !).
+- Ever needed to convert long file names to short DOS standard (8.3)
+  file names or vica versa ?
+- Ever needed to search inside a bunch of ZIP files ?
+- Ever needed to test the integrity of a bunch of ZIP files ?
+- Ever needed to rename a bunch of files ?
+- Ever needed to search and replace the contents of a bunch of files ?
+- Ever needed to Word Wrap all lines in a file or remove the 
+  word wrapping of lines in a file ?
+- Ever needed to change File Access Attributes ?
+- Ever needed to count the occurence of all characters 
+  in a file or a bunch of files ?
+- Ever needed to count the number of lines, words, or characters in 
+  a plain text file or a bunch of plain text files ?
+- Ever wanted to rename file names to Uppercase, Lowercase, or 
+  Title Case ?
+- Ever wanted to replace underscores with spaces and vica versa, 
+  or replace minus signs with spaces and vica versa in file names ?
+
+- And have you ever wanted to be able to do any or all of this 
+  at the click of a button ?
+
+If your answer is "Yes" to any of these questions, then
+File Tools is could be what you are looking for.
+
+File Tools supports full "Drag & Drop", so you can drag and
+drop bunches of files onto File Tools from Windows Explorer.
+(File Tools will automatically scan for and remove duplicates !).
+
+See "Walkthrough with Examples on Using File Tools" below
+for descriptions, examples, and further details on all 
+functionality provided by the program.
+
+Once the program has been run at least once on your computer, 
+and you have installed the registry changes (under the File menu)
+then you can also start File Tools by selecting a file in Windows 
+Explorer and right mouse clicking and selecting the "File Tool" 
+option from the popup mouse menu.
+
+Developed using 32-bit Delphi.
+
+File Tools for Windows 95, 98, ME, NT, 2000, XP, etc.
+
+This program will **NOT** run under Windows 3.x
+(even with Win32 installed) !!
+
+
+Using this Program :
+--------------------
+
+To use this program, unzip the contents of the ZIP file to a directory - 
+such as c:\filetool - and run the executable file filetool.EXE.
+
+Simply drag and drop files onto File Tools from Windows
+Explorer and then click the buttons needed to perform
+the particular processing you need.
+
+Once the program has been run at least once on your computer, 
+you can also start File Tools by selecting a file in Windows 
+Explorer and right mouse clicking and selecting the "File Tool" 
+option from the popup mouse menu.
+
+I recommend that you also create a Shortcut to FileTools.EXE 
+in the Windows "Send To" folder so that you can select
+a bunch of files in Windows Explorer, right-click on them,
+select the "Send To" option and then select "File Tools".
+This will cause File Tools to load and automatically load 
+the list of files you want to work on.
+
+At the moment, when you double click on a file in the list, 
+it always loads it into Windows Notepad - regardless of the 
+type of file.  It would be much better to kick of WinZIP for 
+ZIP files, WORD for DOC files, etc.
+
+In future versions, I will be able to improve on these features.
+(Refer to: "The Future" section below.)
+
+See "Walkthrough with Examples on Using File Tools" below
+for descriptions, examples, and further details on all 
+functionality provided by the program.
+
+
+Installing this Program :
+-------------------------
+
+To install  this program, simply unzip the contents of the 
+distribution ZIP file to a directory (using PKUNIP, WinZIP, 
+or similar), run the Filetool.EXE, drag and drop files from 
+Windows Explorer onto FileTools, and then click on the 
+buttons to perform the activities you require.
+
+Everything is hopefully clearly labeled and the program 
+should hopefully be fairly straight forward to use.
+
+
+Uninstalling this Program :
+---------------------------
+
+At the  present time, there is No Uninstall program for File Tools.
+
+If you ever want to delete File Tools from your computer,
+then :
+
+ 1. Uninstall Registry Changes (Only necessary if you ever Installed
+    the Registry Changes), via the "Uninstall Registry Changes" 
+    on the File menu.
+
+ 2. Then exit File Tools, and delete it from wherever you installed
+    it on your harddrive.
+
+Simple as that !
+
+
+Walkthrough with Examples on Using File Tools :
+-----------------------------------------------
+
+OK, let's assume that you have run File Tools, and have 
+dragged and dropped these files from Windows Explorer
+into File Tools :
+
+	C:\temp\File Tools Test 1.txt
+	C:\temp\aaa\File Tools Test 2.txt
+
+
+"Directory Path View" on the "Other" tab :
+++++++++++++++++++++++++++++++++++++++++++
+
+File Tools will display the Directory Path if the 
+"Directory Path View" is set to "Show", otherwise, 
+you will only see the list of files without their 
+directory paths.
+
+If paths were set to "Show", the you would see :
+
+	C:\temp\File Tools Test 1.txt
+	C:\temp\aaa\File Tools Test 2.txt
+
+otherwise (with paths set to "Hide") you would see :
+
+	File Tools Test 1.txt
+	File Tools Test 2.txt
+
+
+"Filename View" on the "Other" tab :
+++++++++++++++++++++++++++++++++++++
+
+In addition, view short (DOS compatible) or long file 
+names depending on whether you have selected "Short" or
+"Long" in the "Filename View".
+
+With "Long" selected and "Show" paths, you would see :
+
+	C:\temp\File Tools Test 1.txt
+	C:\temp\aaa\File Tools Test 2.txt
+
+but with "Short" selected, you would see :
+
+	C:\temp\FILETO~2.TXT
+	C:\temp\FILETO~1.TXT
+
+
+Copy to Window's Clipboard (Main Window) :
+++++++++++++++++++++++++++++++++++++++++++
+
+In this group box, there are the following buttons :
+
+- File List - copies the list of files to Windows clipboard
+  as they appear in the list according to your 
+  "Directory Path View" and "Filename View" settings.
+  e.g. If "Long" filenames and "Show" paths is selected, then
+  the list of files with long file names and full directory paths
+  will be copied to Windows Clipboard.
+
+- Short Paths - builds a list of the DOS standard short filename
+  paths for every file in the list.  If all files are in one directory,
+  then only one directory will be copied to Windows Clipboard.
+  If the files in the list are in 5 directories, then 5 directories 
+  will be copied to Windows Clipboard.
+
+- Short Paths - builds a list of the long filename paths for every file 
+
+
+  in the list.  If all files are in one directory, then only one directory 
+  will be copied to Windows Clipboard.  If the files in the list are in 
+  5 directories, then 5 directories will be copied to Windows Clipboard.
+
+
+Rename File Names (Main Window) :
++++++++++++++++++++++++++++++++++
+
+Here you can type in how you want to change a file's name, and then 
+press the "Rename" button, and files that match the specification 
+will be renamed as you specify.
+
+For example, if our File List contained these files :
+
+	C:\temp\File Tools Test 1.txt
+	C:\temp\aaa\File Tools Test 2.txt
+
+
+And I wanted to rename "Tools" to "Helper", then I could enter 
+these changes into the edit boxes provided, and press the "Rename"
+button, and the files would then be called :
+
+	C:\temp\File Helper Test 1.txt
+	C:\temp\aaa\File Helper Test 2.txt
+
+Also, see the "Rename Tab" below
+
+Search and Replace File Contents (Main Window) :
+++++++++++++++++++++++++++++++++++++++++++++++++
+
+With this functionality, you can search for particular strings 
+in files and replace these with something else.
+
+WARNING : Using this functionality to change the contents of 
+          BINARY files - such as EXE files or Word Documents, etc
+          could have disastrous effects - do NOT do this.
+
+          This function is intended for use with plain text files.
+          i.e files that you can edit using Windows Notepad.
+          Using this functionality with other file types is for 
+          Advanced Users only.
+
+          Always backup files before using this functionality !!
+
+OK, that's the warnings out of the way ... ;)
+
+With this functionality, you can change the text within files.
+
+
+General Tab Functions :
++++++++++++++++++++++++
+
+Using functions on this tab, you can :
+
+- Reset List :
+  Reset the list of files.
+
+
+
+- Checksum :
+  Checksum all files in the list - and generate a simple report of 
+  this information.
+
+- Count Characters :
+  Count all the occurence of all characters in the Extended IBM-PC
+  ASCII character set (255 characters) in all files in the list - 
+  and generate a simple report of this information.
+  With this information, you can see how many times - for example - the 
+  letter "Z" appears in all files in the list.
+
+- Count Lines :
+  Count all Lines of text within in all files in the list - and generate a 
+  simple report of this information.
+
+- Count Words :
+  Count all Words within in all files in the list - and generate a 
+  simple report of this information.  e.g. This sentence "Hi there, Mike"
+  contains 3 words.
+
+- Date/Time Stamp :
+  Set the last modified date and time to the current system date and time 
+  for all files in the list.
+
+- DOS Prompt :
+  If there are no files in the list, then a DOS command window is opened 
+  in the c:\ root directory.
+
+  If there is one file in the list, or if there are multiple files in the 
+  list all from the one directory, then a DOS command window is opened 
+  in this directory - whatever it may be.
+
+  If the files in the list are from multiple directories, then a list of 
+  unique directories is displayed, and you can select one and a DOS 
+  command window will be opened in the selected directory.
+
+- File Size Report :
+
+- Unix to Dos :
+  Converts Unix or Mac based text files to IBM-PC compatible text files,
+  so they are readable with Windows Notepad and similar text 
+  editing / viewing programs.  See "UNIX CR Only Text Files - An Example" 
+  (below) for further information.
+
+- Un-Word Wrap :
+  Un-Word Wrap the contents of all files in the list.
+
+  WARNING : Using this functionality to change the contents of 
+            BINARY files - such as EXE files or Word Documents, etc
+            could have disastrous effects - do NOT do this.
+
+            This function is intended for use with plain text files.
+            i.e files that you can edit using Windows Notepad.
+            Using this functionality with other file types is for 
+            Advanced Users only.
+
+            Always backup files before using this functionality !!
+
+- Word Wrap :
+  Word Wrap the contents of all files in the list.
+
+  WARNING : Using this functionality to change the contents of 
+            BINARY files - such as EXE files or Word Documents, etc
+            could have disastrous effects - do NOT do this.
+
+            This function is intended for use with plain text files.
+            i.e files that you can edit using Windows Notepad.
+            Using this functionality with other file types is for 
+            Advanced Users only.
+
+            Always backup files before using this functionality !!
+
+- ZIP Search :
+  With this functionality, you can search all ZIP files in the list 
+  for particular files - by file name or by CRC.
+
+- ZIP Test :
+  Test the integrity of all ZIP files in the list of files.
+
+
+Rename Tab :
+++++++++++++
+
+Using the options on this tab, you can change file names to :
+- UPPER CASE
+- lower case
+- Title Case
+
+and you can also change file names by replacing :
+- Underscores with Spaces
+- Spaces with Underscores
+- Minus Signs with Spaces
+- Spaces with Minus Signs
+- Underscores with Minus Signs
+- Minus Signs with Underscores
+
+
+UNIX CR Only Text Files - An Example :
+++++++++++++++++++++++++++++++++++++++
+
+In the UNIX world, there is only a Carriage Return at the end
+of a line of text, but in the DOS / Windows world there is a
+Carriage Return and Line Feed at the end of a line of text.
+
+If you ever get a text file from a UNIX system, you will 
+quickly recognise it, because it has ugly black boxes in
+amongst the text and it isn't formatted right.
+
+For example, it will look like this :
+  
+  With File Tools,this text would be readable in a snap !
+
+instead of :
+  
+  With File Tools,
+
+  this text would be readable in a snap !
+
+Which is how the text looks after File Tools has fixed it !!
+
+Similar problems happen with text files transferred from a MAC.
+
+File Tools will convert the text files from these all MAC and
+UNIX sources to once again be readable !!
+
+Converting text files from MAC or UNIX environments makes them
+readable.
+
+However, converting all the CRs to CR/LFs in a binary file
+(such as an EXE or ZIP or Word DOC or Excel XLS or similar 
+file) will cause corruption of the data in this file.
+
+ONLY CONVERT TEXT FILES !!!
+
+NEVER CONVERT BINARY FILES !!!
+
+If you need more information on this, please Email me.
+
+WARNING : Using this functionality to change the contents of 
+          BINARY files - such as EXE files or Word Documents, etc
+          could have disastrous effects - do NOT do this.
+
+          This function is intended for use with plain text files.
+          i.e files that you can edit using Windows Notepad.
+          Using this functionality with other file types is for 
+          Advanced Users only.
+
+          Always backup files before using this functionality !!
+
+
+Set File Attributes (Other tab) :
++++++++++++++++++++++++++++++++++
+
+Using this functionality, you can set the file attributes 
+for all files in the list to one or more of the following :
+- Read-Only
+- Archive
+- System
+- Hidden
+
+
+Right Mouse Click Menu :
+++++++++++++++++++++++++
+
+After selecting a file (or multiple files in the list of files),
+you can right mouse click on the and 
+
+  - Remove Selected File(s) from List
+
+  - Remove all but the Selected File(s) from List
+
+The list of files is multi-select enabled so you can select 
+a single file or multiple files by holding down the SHIFT key
+just as you can in Windows Explorer.
+
+
+Special Thanks to :
+-------------------
+
+The ZIP Testing functionality for this program was mostly supplied by :
+
+    Info-Zip:    http://www.cdrom.com/pub/infozip/
+    Delphi Zip:  http://www.geocities.com/SiliconValley/Orchard/8607/
+
+I would like to thanks the developers of these products for making great 
+FREE ZIP tools and utilities.
+
+
+The Future :
+------------
+
+In the future, many improvements could be made to this program,
+such as :
+
+- Storing the program in the Windows Tray Bar - with the clock, 
+  etc.
+
+- Automatically create a File Tools shortcut in the "Send To"
+  menu (displayed when you right click on a file in Windows 
+  Explorer).
+
+- Tie File Tools in with Windows Explorer, so when you select
+  a group of files and right click on them, then File Tools is 
+  an option on the popup menu displayed.
+  At the moment, File Tool only works with a single file - if you 
+  select multiple files and right click, you get multiple copies of
+  File Tools running - each with a single file in them - which
+  isn't satisfactory.  But, it is the best I could do for now.
+
+- Check if a file is a Text File before allowing it to be
+  converted from UNIX (CR) to DOS (CR/LF).  Checking if a file
+  is a text file and getting it absolutely correct is not 
+  easy - even WinZip gets it wrong somethimes !!
+
+- Add in support for ARJ, TAR, and other types of compressed files.
+
+- Add in functionality to perform Backups.
+
+- Add in an "Edit / View" Text file option - with support for huge
+  text files.  (Rotten Windows Notepad !!)
+
+- Add in smart file handling.  At the moment, when you double click on
+  a file in the list, it always loads it into Windows Notepad - 
+  regardless of the type of file.  It would be much better to kick
+  of WinZIP for ZIP files, WORD for DOC files, etc.
+
+- Command Line mode.
+
+- Anything else ?
+
+If you would like any of these improvements, or would like to
+suggest more, please email me and let me know.
+
+How much more work I do on this program depends entirely on
+what support I get, how many people use the program, etc.
+
+
+Reviews / Awards / CDs :
+-------------------------
+
+None so far.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.  
+
+Anyone - any person, any company, or any business - can 
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please 
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select 
+the "About" option under the Help menu, and then click 
+the PayPal link on the "About" screen).
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know.
+
+
+Ammendment History :
+--------------------
+
+Vers    Date        Description
+
+1.0  22-Feb-2000    First Public Release.
+                    (11,672 lines of code / comments.)
+
+1.1  29-Feb-2000    Save and Load previously used File list to the same
+                    directory where File Tool is installed.  Also, if
+                    File Tool is run by selecting a file, right mouse 
+                    clicking and choosing "File Tool" or the 
+                    "Send To ..." menu, then do not load the previously 
+                    used file list.  Save the settings INI file in 
+                    File Tool's directory, rather that in the Windows' 
+                    directory - there's enough crap there already ! ;)
+                    (11,676 lines of code / comments.)
+                    
+1.2  29-Mar-2000    Re-design the user interface - hope you like it !
+                    Add in "Restore Factory Defaults" menu option, to restore
+                    the size and shape of the application to what it was when 
+                    it was originally downloaded.  Add in "Set / Change File 
+                    Attributes" functionality.
+                    (12,016 lines of code / comments.)
+
+2.0  29-Jan-2001    Big changes for this release !!
+                    No longer make registry changes automatically when the user runs
+                    File Tools for the first time.  Installing and Uninstalling
+                    Registry changes - along with a full description of the benefits 
+                    that this provides - are now user selectable menu options available 
+                    under the Install and Uninstall Registry Changes menu options under 
+                    the File menu.
+                    Registry changes enable you to right mouse click on a file in Windows
+                    Explorer and select "File Tool" from the popup menu to send the file
+                    to File Tools.  (This only works for single files at the moment).
+                    If you ever want to delete File Tools from your computer,
+                    then "Uninstall Registry Changes", then exit the program, and
+                    then you can delete the File Tools from your harddrive.
+                    Add in a "Copy to Windows Clipboard" button on the error dialog.
+                    Add in "Always On Top" menu option / functionality.
+                    Add in support for ZIP files with DeflatN compression.
+                    Add in a "Checksum Files" button, which calculates WinZIP compatible 
+                    CRC 32's on all files in the list.
+                    Add in functionality to Word Wrap or remove Word Wraps on 
+                    text files.  (This will make it much easier to move a text file
+                    into a WordProcessor document, and vica versa).
+                    (14,845 lines of code / comments.)
+
+2.1  17-Apr-2001    Add in a "Char Count" button to enable you to count the
+                    the occurence of all characters in one or more selected 
+                    files, and display these counts in a simple report.
+                    Add in support for "Big Fonts" and "Other Sized Fonts" - 
+                    with these Windows resizes the windows automatically - 
+                    but only sometimes and it doesn't always do it right, 
+                    so now I make sure my main window is the right size 
+                    before doing any scaling, etc.  i.e. I make it fit the 
+                    component(s) that extend the furthest right and 
+                    furthest down the form.   See the  Start Menu -> 
+                    Settings -> Control Pannel -> Display -> Settings 
+                    Tab -> "Advanced" button -> "General" tab for 
+                    your PC's settings in this area.
+
+                    Bring program up-to-date with my latest code libraries.
+                    (16,059 lines of code / comments.)
+
+2.2  20-Jan-2002    Add in Line Count functionality for plain text files.
+                    Make all Yes/No and OK/Cancel dialogs Confirmation dialogs  
+                    instead of Information dialogs.  (This basically changes the 
+                    dialog heading and logo used on the dialog - a minor change, 
+                    but it clarifies things).
+                    Add in a whole raft of new functionality to rename files : 
+                    Uppercase, Lowercase, Title Case, replacing underscores with 
+                    spaces and vica versa, and replacing minus signs with spaces 
+                    and vica versa.  (You could always do this with the existing 
+                    "Rename Files" functionality but it is now as easy as clicking
+                    a button).
+                    If a file used last time the File Tools was used is missing 
+                    then remove it from the list, instead of replacing it with 
+                    'ERROR' in the list.
+                    Bring program up-to-date with my latest code libraries.
+                    (18,108 lines of code / comments.)
+
+3.0  25-Sep-2002    Massive changes for this release !!
+                    Add Word Count functionality to count the number of words 
+                    in all files in the list.  All files in the list will be 
+                    treated as plain text files.
+                    Add in a "File Size" report and functionality.
+                    Add "DOS Prompt" functionality to enable you to open a DOS 
+                    Command Prompt in any drive or directory for any of the 
+                    files in the list of files.  Very useful if you need to drop
+                    down and work in DOS on any of your files !!
+                    Add in 2 additional "Quick Pick" file renaming options
+                    "Underscores with Minuses" and "Minuses with Underscores".
+                    Add in "ZIP Search" functionality which allows you to search 
+                    within  all ZIP files in the list of files, and find all ZIP 
+                    files that contain files with a particular name or CRC or part 
+                    of a name or CRC.
+                    Files that no longer exist between runs are removed from the 
+                    list automatically when the program is next run.  
+                    Add in support for the Maximise icon in the top right 
+                    corner of the program's main window.
+                    Add a pop-up menu which appears when you right mouse click on 
+                    file(s) in the list.  This pop-up menu allows you to :
+                      - Remove Selected File(s) from the List
+                      - Remove all but the Selected File(s) from the List
+                    The list of files is multi-select enabled so you can select 
+                    a single file or multiple files by holding down the SHIFT key
+                    just as you can in Windows Explorer.
+                    Bring the program up to date with my latest code libraries.
+                    Introduce yet more Anti-Hacker / Anti-Cracker measures.
+                    Various user interface / usability enhancements.
+                    Improve several error messages.
+                    Add the "Walkthrough with Examples on Using File Tools" section 
+                    above with descriptions, examples, and further details on all 
+                    functionality provided by the program.
+                   (49,644 lines of code / comments.)
+
+3.1  25-Oct-2002    Fix the checksumming and comparison of *HUGE* files - you 
+                    can now checksum or compare or process files of any size
+                    regardless of the amount of free memory your PC has.
+                    Add in a progress bar for the progress in checksumming 
+                    each file.
+                    Bring the program up to date with my latest code libraries.
+                   (50,468 lines of code / comments.)
+
+3.1b  20-Nov-2002   Bring the program up to date with my latest code libraries.
+                    (54,346 lines of code / comments.)
+
+3.1f  3-Sep-2007    This program is now FREEWARE - see "Freeware Information"
+                    above.
+
+
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this 
+program is available from my WEB page - see below.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://move.to/moose
+____________________________________________________
+ 

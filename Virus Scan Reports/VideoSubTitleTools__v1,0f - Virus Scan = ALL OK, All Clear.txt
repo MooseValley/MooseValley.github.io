@@ -1,0 +1,96 @@
+VideoSubTitleTools__v1,0f.zip
+http://www.mediafire.com/file/3iber1yk28f4br8/VideoSubTitleTools__v1%2C0f.zip
+
+As always, I virus scan all of the files I release against 55 of the leading virus scanners on the Virus Total web site, and updated Sag Calculator (v3.6.01) has a 100% clean bill of health.  Here's a link to the scan report:
+
+https://www.virustotal.com/en/file/402bcbf57cde72fe43977eec416e5847d47d402bda62fe30e27286aa70fb6546/analysis/1487504365/
+
+
+If you have any further issues, please let me know.  :)
+
+
+*************************************************
+https://www.virustotal.com/en/file/402bcbf57cde72fe43977eec416e5847d47d402bda62fe30e27286aa70fb6546/analysis/1487504365/
+
+SHA256: 	402bcbf57cde72fe43977eec416e5847d47d402bda62fe30e27286aa70fb6546
+File name: 	VideoSubTitleTools__v1,0f.zip
+Detection ratio: 	0 / 54
+Analysis date: 	2017-02-19 11:39:25 UTC ( 2 minutes ago )
+1
+0
+
+    Analysis
+    File detail
+    Additional information
+    Comments
+    Votes
+
+Antivirus 	Result 	Update
+ALYac 		20170219
+AVG 		20170219
+AVware 		20170219
+Ad-Aware 		20170219
+AegisLab 		20170219
+AhnLab-V3 		20170219
+Alibaba 		20170217
+Antiy-AVL 		20170219
+Arcabit 		20170219
+Avast 		20170219
+Avira (no cloud) 		20170219
+Baidu 		20170217
+BitDefender 		20170219
+Bkav 		20170218
+CAT-QuickHeal 		20170218
+CMC 		20170219
+ClamAV 		20170219
+Comodo 		20170219
+CrowdStrike Falcon (ML) 		20170130
+Cyren 		20170219
+DrWeb 		20170219
+ESET-NOD32 		20170219
+Emsisoft 		20170219
+Endgame 		20170217
+F-Prot 		20170219
+F-Secure 		20170219
+Fortinet 		20170219
+GData 		20170219
+Ikarus 		20170219
+Invincea 		20170203
+Jiangmin 		20170218
+K7AntiVirus 		20170219
+K7GW 		20170219
+Kaspersky 		20170219
+Kingsoft 		20170219
+Malwarebytes 		20170219
+McAfee 		20170219
+McAfee-GW-Edition 		20170219
+eScan 		20170219
+Microsoft 		20170219
+NANO-Antivirus 		20170219
+Panda 		20170219
+Qihoo-360 		20170219
+Rising 		20170219
+SUPERAntiSpyware 		20170219
+Sophos 		20170219
+Symantec 		20170218
+Tencent 		20170219
+TheHacker 		20170218
+TrendMicro 		20170219
+Trustlook 		20170219
+VBA32 		20170217
+VIPRE 		20170219
+ViRobot 		20170218
+Webroot 		20170219
+WhiteArmor 		20170215
+Yandex 		20170218
+Zillya 		20170218
+Zoner 		20170219
+nProtect 		20170219
+
+
+Comments
+Downloaded from my web site: http://moosesoftware.16mb.com/
+I am super paranoid about security and all of my PCs are subject to the highest levels of security, so you can rest assured that there are no viruses or malware in any of the software I provide on my web site, as confirmed by this VirusTotal analysis. :)
+Moose
+Posted 0 minutes ago by Moose Delete
+

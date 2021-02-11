@@ -1,0 +1,87 @@
+winhlp32-windows-7-x86-x64-komeil_upd
+http://www.mediafire.com/file/u0updhss784xgfb/winhlp32-windows-7-x86-x64-komeil_upd.zip
+
+
+
+https://www.virustotal.com/en/file/566791e0a66b469fdcfea05c2bbfe495be39a1c3f9093466cb6309a13e478b1b/analysis/1489624092/
+SHA256: 	566791e0a66b469fdcfea05c2bbfe495be39a1c3f9093466cb6309a13e478b1b
+File name: 	winhlp32-windows-7-x86-x64-komeil_upd.zip
+Detection ratio: 	0 / 58
+Analysis date: 	2017-03-16 00:28:12 UTC ( 0 minutes ago )
+1
+0
+
+    Analysis
+    File detail
+    Additional information
+    Comments
+    Votes
+
+Antivirus 	Result 	Update
+Ad-Aware 		20170315
+AegisLab 		20170315
+AhnLab-V3 		20170315
+Alibaba 		20170228
+ALYac 		20170315
+Antiy-AVL 		20170315
+Arcabit 		20170315
+Avast 		20170315
+AVG 		20170315
+Avira (no cloud) 		20170316
+AVware 		20170315
+Baidu 		20170315
+BitDefender 		20170315
+Bkav 		20170315
+CAT-QuickHeal 		20170315
+ClamAV 		20170315
+CMC 		20170315
+Comodo 		20170315
+CrowdStrike Falcon (ML) 		20170130
+Cyren 		20170315
+DrWeb 		20170315
+Emsisoft 		20170315
+Endgame 		20170222
+ESET-NOD32 		20170315
+F-Prot 		20170315
+F-Secure 		20170315
+Fortinet 		20170315
+GData 		20170315
+Ikarus 		20170315
+Invincea 		20170203
+Jiangmin 		20170315
+K7AntiVirus 		20170315
+K7GW 		20170315
+Kaspersky 		20170315
+Kingsoft 		20170316
+Malwarebytes 		20170315
+McAfee 		20170315
+McAfee-GW-Edition 		20170315
+Microsoft 		20170315
+eScan 		20170315
+NANO-Antivirus 		20170315
+nProtect 		20170315
+Palo Alto Networks (Known Signatures) 		20170316
+Panda 		20170315
+Qihoo-360 		20170316
+Rising 		None
+SentinelOne (Static ML) 		20170315
+Sophos 		20170315
+SUPERAntiSpyware 		20170316
+Symantec 		20170315
+Tencent 		20170316
+TheHacker 		20170315
+TrendMicro 		20170315
+TrendMicro-HouseCall 		20170315
+Trustlook 		20170316
+VBA32 		20170315
+VIPRE 		20170315
+ViRobot 		20170315
+Webroot 		20170316
+WhiteArmor 		20170315
+Yandex 		20170315
+Zillya 		20170314
+ZoneAlarm by Check Point 		20170315
+Zoner 		20170315
+
+.
+

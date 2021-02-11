@@ -1,0 +1,176 @@
+ 
+Keyboard and Mouse Button Odometer 	Copyright (C) Moose O'Malley, 
+----------------------------------	September 2007.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Limitations of this Program
+   | * The Future
+   | * Reviews / Awards / CDs
+   | * Freeware Information
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+Keyboard and Mouse Button Odometer for Windows 95, 98, NT, 2000, 
+XP, etc.
+
+This program is free software.  Anyone - any person, any company, 
+or any business - can use this program for free.  No fees or 
+payment is required.  See "Freeware Information" below.
+
+Keyboard and Mouse Button Odometer is a "for fun" program that 
+simply keeps track of :
+- how often you hit each key on the keyboard,
+- how often you press the left, right, and middle mouse buttons.
+
+When you run this program, it resides in the Windows Traybar
+(in the tray area of where the clock, etc resides).
+
+The program will silently monitor your keystokes and mouse 
+clicks (even while minimised in the tray), and when you left mouse 
+click on the program's icon in the tray bar (or right mouse click 
+and choose the "Restore" option in the popup menu), then 
+the program window will appear and show the latest totals 
+for each keyboard key and mouse button.
+
+You can click on the column headings : ASCII Value,
+Key / Button Name, or Number of Key Presses and sort 
+by the data in that particular column - either in 
+ascending or descending order.
+
+Further menu options enable you to :
+- make the program stay "Always on Top" of other programs.
+- Auto-Run the Program when Windows Starts Up.
+- Restore Factory Defaults
+- and all other functionality that is standard to my programs.
+  (About menu, Catalog menu, etc).
+
+Developed using 32-bit Delphi.
+This program will **NOT** run under Windows 3.x
+(even with Win32 installed) !!
+
+
+Limitations of this Program :
+-----------------------------
+
+This program is designed to run in the background and
+monitor your keystrokes and mouse clicks.
+
+As such, I have written this program so that it has as little
+impact as possible on system resources : cpu, memory, etc.
+
+In order to minimise the load on the system, it has been
+necessary for me to trade-off and compromise absolute
+accuracy.  That is, if you press keys extremely quickly, 
+then there is a small chance that some key strokes may
+not be counted.
+
+The only alternative to this would be to use more system
+resources to ensure that no keystrokes are missed.  But, 
+this would then impct on other programs you are running,
+and slow the system down.
+
+If there is enough demand, I may release a version of this 
+program where the user can select the Accuracy Vs System 
+Resource Usage so that they can get superb accuracy for a 
+higher impact on their system.
+
+
+The Future :
+------------
+
+In the future, many improvements could be made to this program.
+
+If you would like any improvements, or would like to
+suggest any improvements, please email me and let me know.
+
+As with all of my shareware programs, how much more work I do on 
+this program depends entirely on what support I get, how many 
+people use the program, etc.
+
+None of my programs are perfect - I am the first to admit that.
+I have ideas for improvements and enhancements for all of my 
+shareware.  How much I improve things and when depends on the 
+support I receive for my hard work.
+
+
+Reviews / Awards / CDs :
+-------------------------
+
+None so far.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.  
+
+Anyone - any person, any company, or any business - can 
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please 
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select 
+the "About" option under the Help menu, and then click 
+the PayPal link on the "About" screen).
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know.
+
+
+Amendment History :
+--------------------
+
+Vers    Date        Description
+
+1.0   10-Mar-2001   First Public Release.
+                    (7,859 lines of code / comments.)
+
+1.1  17-Apr-2001    Add in support for "Big Fonts" and "Other Sized Fonts" - 
+                    with these Windows resizes the windows automatically - 
+                    but only sometimes and it doesn't always do it right, 
+                    so now I make sure my main window is the right size 
+                    before doing any scaling, etc.  i.e. I make it fit the 
+                    component(s) that extend the furthest right and 
+                    furthest down the form.   See the  Start Menu -> 
+                    Settings -> Control Pannel -> Display -> Settings 
+                    Tab -> "Advanced" button -> "General" tab for 
+                    your PC's settings in this area.
+                    Bring program up-to-date with my latest code libraries.
+                    (8,443 lines of code / comments.)
+
+1.1b  20-Nov-2002   Bring the program up to date with my latest code libraries.
+                    Registered Users - please contact me via email.
+                    (29,860 lines of code / comments.)
+
+1.1f  3-Sep-2007    This program is now FREEWARE - see "Freeware Information"
+                    above.
+
+
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this 
+program is available from my WEB page - see below.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://move.to/moose
+____________________________________________________
+ 

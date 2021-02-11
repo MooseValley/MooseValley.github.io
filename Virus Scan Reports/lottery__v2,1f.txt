@@ -1,0 +1,153 @@
+lottery__v2,1f.zip
+
+Lottery Number $elector (v2.1f)
+
+Lottery_Number_Selector
+
+http://www.virustotal.com/en/file/c8cec6be3c429eb19c30bfe0affc7a84c41074d5f9d97cabc5869b3e9305cc0a/analysis/1422315718/
+
+SHA256: 	c8cec6be3c429eb19c30bfe0affc7a84c41074d5f9d97cabc5869b3e9305cc0a
+File name: 	lottery__v2,1f.zip
+Detection ratio: 	0 / 57
+Analysis date: 	2015-01-26 23:41:58 UTC ( 0 minutes ago )
+1
+0
+
+    Analysis
+    Additional information
+    Comments
+    Votes
+
+Antivirus 	Result 	Update
+ALYac 		20150126
+AVG 		20150126
+AVware 		20150126
+Ad-Aware 		20150126
+AegisLab 		20150126
+Agnitum 		20150126
+AhnLab-V3 		20150126
+Alibaba 		20150126
+Antiy-AVL 		20150126
+Avast 		20150127
+Avira 		20150126
+Baidu-International 		20150126
+BitDefender 		20150126
+Bkav 		20150126
+ByteHero 		20150127
+CAT-QuickHeal 		20150125
+CMC 		20150124
+ClamAV 		20150126
+Comodo 		20150126
+Cyren 		20150127
+DrWeb 		20150127
+ESET-NOD32 		20150126
+Emsisoft 		20150126
+F-Prot 		20150126
+F-Secure 		20150126
+Fortinet 		20150126
+GData 		20150126
+Ikarus 		20150126
+Jiangmin 		20150126
+K7AntiVirus 		20150126
+K7GW 		20150127
+Kaspersky 		20150126
+Kingsoft 		20150127
+Malwarebytes 		20150127
+McAfee 		20150126
+McAfee-GW-Edition 		20150126
+MicroWorld-eScan 		20150126
+Microsoft 		20150126
+NANO-Antivirus 		20150127
+Norman 		20150126
+Panda 		20150126
+Qihoo-360 		20150127
+Rising 		20150126
+SUPERAntiSpyware 		20150125
+Sophos 		20150127
+Symantec 		20150126
+Tencent 		20150127
+TheHacker 		20150126
+TotalDefense 		20150126
+TrendMicro 		20150127
+TrendMicro-HouseCall 		20150126
+VBA32 		20150126
+VIPRE 		20150126
+ViRobot 		20150126
+Zillya 		20150126
+Zoner 		20150123
+nProtect 		20150126 
+
+
+
+
+File identification
+MD5 6d258c9e583f90e27636b1c25cfbb04e
+SHA1 d44b4ca0d558e824ae5b5c577118a1d0acef2821
+SHA256 c8cec6be3c429eb19c30bfe0affc7a84c41074d5f9d97cabc5869b3e9305cc0a
+ssdeep
+6144:qoiZvX7z4PK8atEclQqvvHfNBu8MSDgDX6I7e0teedfRtom:q7B7z4PbE7H/NMhS8DXD7e0gedZtom
+
+File size 255.8 KB ( 261929 bytes )
+File type ZIP
+Magic literal
+Zip archive data, at least v2.0 to extract
+
+TrID 	ZIP compressed archive (100.0%)
+Tags
+zip upx
+
+VirusTotal metadata
+First submission 2010-06-22 21:40:39 UTC ( 4 years, 7 months ago )
+Last submission 2015-01-26 23:41:58 UTC ( 2 minutes ago )
+File names 	lottery__v2,1f.zip
+Advanced heuristic and reputation engines
+ClamAV PUA
+Possibly Unwanted Application. While not necessarily malicious, the scanned file presents certain characteristics which depending on the user policies and environment may or may not represent a threat. For full details see: http://www.clamav.net/doc/pua.html .
+
+Symantec reputation Suspicious.Insight
+ExifTool file metadata
+MIMEType
+application/zip
+
+ZipRequiredVersion
+20
+
+ZipCRC
+0x32de27df
+
+FileType
+ZIP
+
+ZipCompression
+Deflated
+
+ZipUncompressedSize
+31859
+
+ZipCompressedSize
+11232
+
+FileAccessDate
+2015:01:27 00:42:03+01:00
+
+ZipFileName
+catalog.txt
+
+ZipBitFlag
+0
+
+FileCreateDate
+2015:01:27 00:42:03+01:00
+
+ZipModifyDate
+2007:09:18 10:49:16
+
+
+
+
+Comments
+
+Downloaded from my web site: http://moosevalley.fhost.com.au/
+I am super paranoid about security and all of my PCs are subject to the highest levels of security, so you can rest assured that there are no viruses or malware in any of the software I provide on my web site, as confirmed by this VirusTotal analysis. :)
+Moose
+Posted 0 minutes ago by Moose Delete

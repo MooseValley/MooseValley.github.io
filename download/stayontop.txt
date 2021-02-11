@@ -1,0 +1,176 @@
+ 
+Stay On Top				Copyright (C) Moose O'Malley, 
+-----------				September 2007.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Using this Program :
+   | * Why did I write this program ? Why is this useful ?
+   | * The Future
+   | * Reviews / Awards / CDs
+   | * Freeware Information
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+Stay On Top for Windows 95, 98, NT, 2000, ME, XP, etc.
+
+This program is free software.  Anyone - any person, any company, 
+or any business - can use this program for free.  No fees or 
+payment is required.  See "Freeware Information" below.
+
+Stay On Top displays a list of all windows programs (and their 
+individual component windows), and allows you to double click 
+on one or more to make that window awlays stay on top of all
+other windows.
+
+The window you place on top will stay on top until another 
+windows is placed on top, and then the previous window 
+will be second from the top.
+
+To help you locate a window, you can sort the list of windows
+by title or ID (which is really the handle of the window),
+using the "Sort by ..." butons provided.
+
+Developed using 32-bit Delphi.
+
+Stay On Top will **NOT** run under Windows 3.x
+(even with Win32 installed) !!
+
+
+Using this Program :
+--------------------
+
+To use this program, simply run it and observe double click
+on the window you wish to stay on top - it's as easy as that.
+
+To help you locate a window, you can sort the list of windows
+by title or ID (which is really the handle of the window),
+using the "Sort by ..." butons provided.
+
+
+Why did I write this program ? Why is this useful ?
+---------------------------------------------------
+
+When I purchased my new Pentium III PC, it had a video card that 
+I could connect to a VCR, camcorder, etc and watch video / TV 
+on my PC.  Watching TV in a window or full screen on my PC was 
+great !
+
+But, there was one problem, the program included with my PC's 
+video card to enable this (TW Video v1.0, by Techwell Ltd) was an 
+incredibly crappy and badly written program - it does not save any 
+of its settings on exit, it does not remember the options you chose 
+last time it was run, it does not stay on top, etc, etc.
+
+This meant (among other things) that I could not watch TV in a 
+Window and have it stay on top, so if I wanted to get on and 
+do some work in another program, or play a game or something,
+I could not have a TV window visible as well.  This was a real 
+pain.
+
+So, as I usually do, I sat down and thought about things and wrote 
+this program, and now I can watch TV Full screen or in a window and 
+have it on top of all of my other windows.
+
+My Stay On Top program made the TW Video v1.0, by Techwell Ltd 
+more usable and user-friendly.
+
+In a similar way, this program can be used to make any other
+application's windows stay on top of all other windows - which
+is a useful thing to be able to do sometimes.
+
+
+The Future :
+------------
+
+In the future, many improvements could be made to this program,
+such as :
+- Remember the title(s) of windows you placed "On Top" the last
+  time the program was run, and look for these and automatically 
+  make them "On Top" again next time the program is run.
+  (This is not easy though, as many programs change their titles
+  based on their settings, size, version number, date, time, etc).
+- Ability to resize program windows - specially for badly written 
+  programs that don't remember their settings last time they were 
+  run.
+- Show the parent / child relationship between windows.
+- Show the Thread Id or other details for each program / window.
+- Do extra things.  e.g. make a window the bottom of all 
+  other windows, etc - if anyone would like this, let me know.
+- Anything else ?
+
+If you would like any of these improvements, or would like to
+suggest more, please email me and let me know.
+
+How much more work I do on this program depends entirely on
+what support I get, how many people use the program, how many
+people have registered, etc.
+
+
+
+Reviews / Awards / CDs :
+-------------------------
+
+None so far.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.  
+
+Anyone - any person, any company, or any business - can 
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please 
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select 
+the "About" option under the Help menu, and then click 
+the PayPal link on the "About" screen).
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know.
+
+
+Amendment History :
+--------------------
+
+Vers    Date        Description
+
+1.0   01-Nov-2001   First Public Release.
+                    (10,297 lines of code / comments.)
+
+1.0b  20-Nov-2002   Bring the program up to date with my latest code libraries.
+                    (32,879 lines of code / comments.)
+
+1.0f  3-Sep-2007    This program is now FREEWARE - see "Freeware Information"
+                    above.
+
+
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this 
+program is available from my WEB page - see below.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://move.to/moose
+____________________________________________________
+ 

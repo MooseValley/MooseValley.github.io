@@ -1,0 +1,415 @@
+ 
+************************************************************
+ Apple ][ Disk Transfer Instructions     by Moose O'Malley
+ v1.1
+************************************************************
+
+****************************************************
+Table of Contents :
+****************************************************
+- Amendment History
+- Apple 2 Disk Image Contents
+- Apple <-> PC Disk Transfers
+- Some Brief Notes about Disk Image Files
+- Transferring Standard Floppy Disks : Apple 2 -> PC
+- Transferring Standard Floppy Disks : PC -> Apple 2
+- Standard Floppy Disks Problems ?
+- Transferring Copy Protected Disks : Apple 2 -> PC
+- Transferring Copy Protected Disks : PC -> Apple 2
+- Copy Protected Disks Problems ?
+- Conclusion
+
+
+****************************************************
+Amendment History
+****************************************************
+26-May-2005: v1.0 First Release.
+21-Jan-2011: v1.1 Updated "Transferring Copy Protected Disks : PC -> Apple 2"
+
+
+****************************************************
+Apple 2 Disk Image Contents
+****************************************************
+
+Here are the contents of the disk that I use to do my transfers :
+
+- SST - Super Saltines Transcopy
+
+- ADT : Apple <-> PC Disk Transfer
+
+- Copy ][+ v5.0
+
+- DDD - Daltons Disk Disintegrator v2.0
+
+- Trackstar 128 File transfer (Only useful if you have an Apple 2 
+disk drive hooked up to a Trackstar 128 Expansion Card in your PC.  
+i.e. this program is useless for )
+
+- BCOPY v1.5
+
+- Locksmith v4.1
+
+- RENUMBER
+
+- DOS BOSS
+
+For disk transfer purposes, SST - Super Saltines Transcopy and ADT : 
+Apple <-> PC Disk Transfer are the two programs you need on the Apple 
+2 computer.
+
+
+****************************************************
+ Apple <-> PC Disk Transfers
+****************************************************
+
+The version of ADT on this floppy disk image is ADT v1.21 - so it may 
+or may not work with other versions of ADT or ADT for Windows.
+
+ADT is the "Apple Disk Transfer" utility.  Paul Guertin developed ADT 
+as a way to transfer 5.25" disk image files from PC directly to 
+diskette on a 64k or larger Apple II and to send 5.25" diskettes to 
+PC where they are saved as .DSK disk image files.  
+
+A typical ADT setup is an Apple II with a serial card or built-in 
+serial port connected via a NULL modem cable to a PC's COM port with 
+each computer running ADT.
+
+ADT can only handle standard Apple ][ floppy disks.  i.e. non copy 
+protected disks and disks that don't have strange formats.  If you 
+have these types of disks, then you need to use SST - Super Saltines 
+Transcopy.  See "Transferring Copy Protected Disks" below for further 
+details.
+
+There are various versions of ADT - DOS or Windows - depending on 
+which OS you like.
+
+To install ADT on your Apple ][, you type in a command on your Apple 
+][ (usually IN#2 or similar, see Rubywand's excellent Csa2 FAQs) and 
+hit the send button on the PC (which is running ADT as well), and the 
+PC will send the Apple version down the null modem wire to the Apple 
+][ - it really is amazing software.
+
+Then, you can save ADT to a disk on the Apple ][ and BRUN it, and 
+then you can transfer over the disk image I sent you and then you 
+should then be able to transfer standard and copy protected disks 
+using the software it contains.  E.g. SST.
+
+For more information about all aspects of disk transfers, including 
+ADT, communications, etc, see Rubywand's excellent Csa2 FAQs :
+
+	http://home.swbell.net/rubywand/Csa2T1TCOM.html
+
+and the documentation included with most ADT distributions.
+
+For ADT (DOS and Windows) downloads and information :
+
+	http://apple2.org.za/gswv/a2zine/Sel/ADTWin.html
+
+It took me a while to set up ADT on my Apple ][ - because I didn't 
+realise that my Apple ][ printer cable was a null modem cable - once 
+I figured this out, I had it transferred in a few seconds.
+
+
+****************************************************
+ My Apple ][c and Set-Up
+****************************************************
+
+My Apple ][c has an inbuilt serial port (for driving the printer), 
+and the Apple ][ printer cable is actually a Null Modem cable itself.
+
+So, all I do is plug the Apple ][ printer cable into the serial port 
+on the back of my PC and I'm ready to transfer disks.
+
+Transferring disks is very easy with the Apple ][c - no need to set 
+baud rates or mess around making cables or trying to get Super Serial 
+Cards to play ball, etc.
+
+My ][c also has 2 floppy drives - the internal drive and an external 
+drive - which can save some disk swapping when doing SST transfers.
+
+If you are looking to buy an Apple ][ for transferring disks, then I 
+highly recommend that you buy the Apple ][c - but make sure that you 
+get the Apple ][c printer cable as well.
+
+I also have a Trackstar 128, but this requires a very slow bus - i.e. 
+a 468 PC or better yet, a 386.
+
+
+****************************************************
+ Some Brief Notes about Disk Image Files
+****************************************************
+
+There are several types of Virtual Apple 2 Disk Image file used with 
+Apple 2 emulators, but the main two are DSK and NIB, as follows :
+
+  Disk Image                       File
+    Type         File Size       Extension
+  -----------  ---------------   ----------
+    DSK         143,360 bytes      .DSK
+    NIB         232,960 bytes      .NIB
+
+NIB disk images are 1.625 times the size of DSK disk images, because 
+NIB files also contain the copy protection / formatting information 
+of the original disk.  DSK files don't contain this formatting, so 
+these can only be used to contain images of disks from standard Apple 
+DOS disks.
+
+So, if the original floppy disk is copy protected, then you need to 
+transfer the disk to the PC using additional steps.
+
+If the original disk is not copy protected, then you can transfer the 
+disk to the PC in a single step.
+
+Standard floppy disks have formats that are DOS 3.3, ProDOS, Pascal, 
+and others.
+
+Normally, you can CATALOG these disks and see a list of files.
+
+Copy Protected Disks have strange, non-standard formats, and usually 
+you cannot CATALOG these disks - even if you boot with a standard DOS 
+or ProDOS master disk and then insert the other disk and do the 
+CATALOG.
+
+Below I discuss transferring Standard Floppy Disks and Copy Protected 
+Disks between the Apple 2 <-> PC.
+
+
+****************************************************
+ Transferring Standard Floppy Disks : Apple 2 -> PC
+****************************************************
+
+*** Work in Progress
+*** See the ADT help or the CSA2 FAQs
+
+
+****************************************************
+ Transferring Standard Floppy Disks : PC -> Apple 2
+****************************************************
+
+*** Work in Progress
+*** See the ADT help or the CSA2 FAQs
+
+
+****************************************************
+ Standard Floppy Disks Problems ?
+****************************************************
+
+If you have any problems / errors, then check out your original disk 
+and make sure it is fully working.  If it contains bad sectors, then 
+there is nothing ADT can do to fix these errors, and your data may 
+not be recoverable.  (Try Bag of Tricks or similar programs - you 
+might get lucky, and they may be able to fix your original disk - and 
+then you can transfer it).
+
+When floppy disks become old (10-15+ years), then there is a real 
+danger of data loss, bad sectors, and invalid sectors / data on disks 
+because of the ravages of Bit Rot.  Unless you have good backups of 
+these disks, then it may be too late and your data / programs may be 
+lost forever.
+
+If the disk image does not work after the transfer, and you are sure 
+that your original disk is 100% good and working, then there could 
+have been some sort of corruption or bad sectors on one of the floppy 
+disks on the Apple 2 (something that used to happen with alarming 
+regularity on real Apple 2's), or some sort of corruption in the 
+transfer process, or the disk may be copy protected or it could use a 
+strange format.
+
+ADT can only handle standard Apple ][ floppy disks.  i.e. non copy 
+protected disks and disks that don't have strange formats.  If you 
+have these type of disks, then you need to use SST - Super Saltines 
+Transcopy.
+
+See "Transferring Copy Protected Disks" below for further details.
+
+
+****************************************************
+ Transferring Copy Protected Disks : Apple 2 -> PC
+****************************************************
+
+Execute SST - Super Saltines Transcopy on the Apple 2 :
+
+    Select Menu Option 1 - Pirate a Disk
+
+    Select Menu Option 2 - Pack
+
+   Enter the Start Track - 0 is the default  
+   - just hit enter to keep this value.
+
+     Enter the End Track - 34 is the default 
+     - just hit enter to keep this value.
+
+                    Step - 1 is the default  
+                    - just hit enter to keep this value.
+
+      Synchronize Tracks - NO is the default 
+      - just hit enter to keep this value.
+
+            Nibble Count - NO is the default 
+            - just hit enter to keep this value.
+
+Now you are told to insert disks, and press <Return>.
+
+So, place the Copy Protected Disk into Drive 1 on your Apple 2 and a 
+blank DOS 3.3 formatted disk into Drive 2, and press <Return>.
+
+SST will then read the copy protected disk and write this in packed, 
+transferrable format onto the standard DOS 3.3 disk in Drive 2.
+
+Only half of the image of the Copy Protected Disk can fit onto the 
+blank disk in Drive 2, so at the half-way point, SST will ask you to 
+place another blank formatted disk into Drive 2.
+
+Do, this, and press <Return> and SST will complete the process.
+
+Now, you have a 2 standard DOS 3.3 floppy disks that each contain 
+half of a complete image of a Copy Protected Disk.
+
+These Disks can then be transferred to the PC for use with emulators 
+using ADT, in exactly the same as we transferred Standard Floppy 
+Disks above.  (See "Transferring Standard Floppy Disks" above).
+
+On the PC side - where you are running an Apple 2 emulator - you will 
+need to use SST (running on an Apple 2 Emulator) to stitch the 2 
+halves of the Copy Protected Disk's disk images back together again.
+
+Let's say you transfer the 2 standard disks as "d1a.dsk" and 
+"d1b.dsk", we now need to UnPack these disks from within the Apple 2 
+Emulator on the PC to a special NIB disk image file (you could copy 
+and overwrite an existing NIB file, or else download and use the 
+blank.NIB file from Asimov - I'll assume you have called the NIB file 
+"game.nib" on the PC) :
+
+    Select Menu Option 1 - Pirate a Disk
+
+    Select Menu Option 3 - UnPack
+
+    Select Menu Option 1 - Packed Parms
+
+   Enter the Start Track - 0 is the default  
+   - just hit enter to keep this value.
+
+     Enter the End Track - 34 is the default 
+     - just hit enter to keep this value.
+
+                    Step - 1 is the default  
+                    - just hit enter to keep this value.
+
+      Synchronize Tracks - NO is the default 
+      - just hit enter to keep this value.
+
+            Nibble Count - NO is the default 
+            - just hit enter to keep this value.
+
+Place d1a.dsk in drive 1 and game.nib in drive 2, and hit <return> to 
+make SST proceed.
+
+Then, when prompted to "turn over the disk", place d1b.dsk in drive 1 
+and leave game.nib in drive 2 and hit <return> and SST will finish 
+the process of rebuilding a virtual disk image copy of the original 
+copy protected floppy disk.
+
+You should then have a NIB disk image file that contains the copy 
+protection / formatting information of the original disk along with 
+all of the program code / data from this disk, and this disk should 
+now run under emulation just as the original floppy disk runs on a 
+real Apple 2, only it will be considerably faster under emulation.
+
+
+****************************************************
+ Transferring Copy Protected Disks : PC -> Apple 2
+****************************************************
+
+You can reverse the above process to transfer NIB disk images back to 
+real floppy disks on the Apple 2.  To do this, you would use SST on 
+the Apple 2 emulator to pack the NIB disk onto two .DSK disk image 
+files, ADT these across onto 2 floppy disks on the real Apple 2, and 
+then use SST on the real Apple 2 to unpack (stitch) these together 
+again onto a single floppy disk.
+
+
+***UPDATE: I don't think SST (or the version of SST that was available at this time) 
+can be used to transfer / reconstruct copy protected disks back on the Apple 2.  
+(I thought it could, I could have sworn that it worked, and indeed this is why 
+SST was developed, but a few people have said it cannot be done, and I 
+have not had a working Apple ][ for years to check it out myself).
+Maybe this can be done ?
+Maybe SST has been updated to do this now ?
+Maybe some other software exists to do this ?
+Without a working Apple ][, I cannot explore these possibilities.
+
+
+****************************************************
+ Copy Protected Disks Problems ?
+****************************************************
+
+If you have any problems / errors, then check out your original disk 
+and make sure it is fully working.  If it contains bad sectors, then 
+there is nothing SST can do to fix these errors, and your data may 
+not be recoverable.  (Try Bag of Tricks or similar programs - you 
+might get lucky, and they may be able to fix your original disk - and 
+then you can transfer it).
+
+When floppy disks become old (10-15+ years), then there is a real 
+danger of data loss, bad sectors, and invalid sectors / data on disks 
+because of the ravages of Bit Rot.  Unless you have good backups of 
+these disks, then it may be too late and your data / programs may be 
+lost forever.
+
+If the NIB disk does not work after the transfer, and you are sure 
+that your original disk is 100% good and working, then there could 
+have been some sort of corruption or bad sectors on one of the floppy 
+disks on the Apple 2 (something that used to happen with alarming 
+regularity on real Apple 2's), or some sort of corruption in the 
+transfer process.  So try again.  
+
+If the resulting NIB disk still doesn't work, then the problem is 
+most likely because the Copy Protection on the original disk image is 
+more than SST can handle with its default settings, and you may need 
+to adjust some of SST's parameters, or (if that doesn't work), then 
+use some other process to transfer the disk - see below.
+
+I have transferred well over 50 Apple 2 disks from the Apple 2 to the 
+PC or from the PC back to the Apple 2, and probably only 5-10 of 
+these were copy protected or had strange formats, but SST handled 
+these disks perfectly every time, and straight ADT transfers handled 
+the rest.
+
+I have never heard of SST having problems with fierce / nasty / 
+strange copy protection schemes - it seems to handle everything you 
+can throw at it - but I guess there could be cases where SST just 
+can't handle the protection / formatting of the disk.
+
+If SST does not do the job for you, then use some other process to 
+transfer the disk.  (Such as a Copy ][+ Option Board, or a TrackStar 
+128 Card, or enlist the help of someone who is an expert in 
+deprotecting ancient Apple 2 disks or do something else).
+
+
+****************************************************
+ Conclusion
+****************************************************
+
+Whatever you do, make sure you do it sooner rather than later.  The 
+older your disks become, the higher the chances for errors and data 
+loss.
+
+In the late-1990's, I purchased an Apple ][c epecially to transfer 
+all of my existng work from my Apple 2 days way back in 1981/82/83 
+over to the PC.  However, as it turned out, I was too late, and I 
+ended up losing a large number of the earliest programs and work that 
+I had ever written on the Apple 2 because of old disks going bad, and 
+this was very painful and sad.  I hope you don't suffer the same 
+fate.  ;)
+
+Transfer your old disks today !
+
+All the best,
+
+Mike "Moose" O'Malley 
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB: http://move.to/moose 
+____________________________________________________
+
+EOF.

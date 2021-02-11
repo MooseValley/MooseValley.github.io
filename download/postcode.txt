@@ -1,0 +1,339 @@
+ 
+Post Code Lookup			Copyright (C) Moose O'Malley, 
+----------------			October 2014.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Using this Program
+   | * Getting Started
+   | * Adding in Additional Countries
+   | * Search Criteria
+   | * Format for Postcode Data Files
+   | * Why is this useful ?  /  Why do this ?
+   | * The Future
+   | * Reviews / Awards / CDs
+   | * Freeware Information
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+Post Code Lookup for Windows 95, 98, ME, NT, 2000, XP, Vista , 7, 8, etc
+(32 bit and 64 bit).
+
+This program is free software.  Anyone - any person, any company, 
+or any business - can use this program for free.  No fees or 
+payment is required.  See "Freeware Information" below.
+
+Post Code Lookup enables you to search on postcodes, locations, 
+and states / regions in your country to find the place name or 
+postcode for the locations you are interested in - all at the
+click of a mouse button.  
+
+This program comes complete with Postcode data for :
+
+- Australia       (16,640 postcodes / locations)
+
+- New Zealand     (2,219  postcodes / locations)
+
+- United Kingdom  (27,195 postcodes / locations)
+                  (not down to street / house level !)
+
+More postcodes for more countries to be added in the future !!!
+
+See "Getting Started Below" for further information.
+
+This program will work with numeric or alphanumeric Postcodes
+of any length, and will work with regions / states and locations
+of any length.  (Up to a maximum of 255 characters).
+
+All search criteria are case insensitive.  So, 'au' is the same 
+as 'AU' and 'Au'.
+
+Developed using 32-bit Delphi.
+
+Post Code Lookup will **NOT** run under Windows 3.x
+(even with Win32 installed) !!
+
+
+Using this Program :
+--------------------
+
+Simply download the ZIP file, unzip it to a directory using
+WinZIP or similar, execute the program (postcode.exe) on
+a PC and select your Country file, and away you go.
+
+
+Getting Started :
+-----------------
+
+Before you can use this program, you need the post code data
+for your country.
+
+** Australia Postcode Data :
+
+In Australia, you can get this data file - For FREE !! - from :
+
+	http://www1.auspost.com.au/download/pc-full.zip
+	(Link Updated and Verified: 27-Jan-2010).
+	
+and, I have included this file with this program to save you
+the trouble of downloading it.
+
+** UK Postcode Data :
+
+In the UK, there are millions of postcodes, and you need to buy this data 
+on CD direct from Royal Mail.  (This CD comes with extensive search 
+capabilities, so you probably wont want to use my Post Code Lookup 
+program if you buy this UK CD.)
+
+If you want a cut down list of UK postcodes (which doesn't go down to house
+or street level), then you can get this data file - For FREE !! - from :
+
+	http://www.brainstorm.co.uk/utils/postcodes.html
+	(Link no longer works: 27-Jan-2010).
+	(Can anyone supply a new link that works ?)
+
+and, I have also included this file with this program to save you
+the trouble of downloading it.  (Gee Moose - you are such a nice guy !!)
+
+** New Zealand Postcode Data
+
+You can get this data for FREE !! from :
+
+	http://www.nzpost.co.nz/nzpost/business/va7.html#post_code_finder
+	(Link no longer works: 27-Jan-2010).
+	(Can anyone supply a new link that works ?)
+	
+	
+** Other Postcodes for Other Countries ????
+
+If you are NOT from one of the above countries, then this Post Code 
+Lookup program will not be much use, until we can track down your 
+country's postcode data file.
+
+I did try and track down data for the USA, but I couldn't find post code
+data in a downloadable form.
+
+I did find some data for Singapore, Thailand, and loads of other countries,
+and I may add these countries and any others into this program.
+
+
+Adding in Additional Countries :
+--------------------------------
+
+There is only one way you can add in Postcode data for other countries,
+or update data for the current country.
+
+You can alter the existing data files.  So, you could for instance
+put Singapore data in Australia's data file (pc_aus.csv).
+
+The best way to do this though is to locate the necessary postcode data 
+on the WEB / Internet, and then let me know where it is, and I will 
+add in support for your country.
+
+
+Search Criteria :
+-----------------
+
+You can search on a single field, such as just the Location, or you can search on 
+multiple fields, such as on Location and State.
+
+You can use * (Asterisk) to expand your search options in any fields.  
+For example, the in the Location field you could :
+- Enter AU* for all places starting with 'AU', such as Aubury.
+- Enter AU for all places with 'AU' somewhere in the name, such Beauty Point.
+- Enter *Au for places ending in 'AU' such as : Collaroy Plateau.
+
+All search criteria are case insensitive.  So, 'au' is the same 
+as 'AU' and 'Au'.
+
+
+Format for Postcode Data Files :
+---------------------------------
+
+All postcode data files are plain comma separated text files with the data 
+stored in this order postcode, location, state/region.
+
+For example :
+
+2000,NSW,SYDNEY
+3996,VIC,POUND CREEK
+4000,QLD,BRISBANE
+
+You can have additional fields after these, but these are ignored by this program.
+
+The order is very important - it must be stored in postcode, location, 
+and then state/region order.
+
+The order of these records in the file (here they are sorted by postcode)
+is the order that they will appear in on the Postcode Search Results screen.
+
+This program will work with numeric or alphanumeric Postcodes
+of any length, and will work with regions / states and locations
+of any length.  (Up to a maximum of 255 characters).
+
+
+Why is this useful ?  /  Why do this ?
+--------------------------------------
+
+This program can save you ages searching for phone books, post code lists,
+etc, and it is a fast and effective way to look up postcodes.
+
+
+The Future :
+------------
+
+In the future, many improvements could be made to this program,
+such as :
+- Enable the user to sort by postcode, location or state / region
+  at the click of the mouse.
+- Add in support for additional postcode files, countries, regions, 
+  etc.
+- Enable the user to add in / alter their own country files.
+- Further speed up and optimise processing, sorting, searching, etc.
+- More searching options.  e.g. % for single character, so you could
+  say "Aubur%" and get all the locations that start with "Aubur" and
+  have only 1 additional character.  More wildcard search options,
+  such as "Au*ry" to find all locations starting with "Au" and ending with
+  "ry", etc.  There are loads of things I could do here.
+- Put the program in the Windows Tray Bar, along with the clock, etc.
+- Anything else ?
+
+The program will probably never contain ALL UK postcodes or postcodes 
+for every country on the planet, as this would require whole DVD's of 
+data for storage.
+
+If you would like any of these improvements, or would like to
+suggest more, please email me and let me know.
+
+How much more work I do on this program depends entirely on
+what support I get, how many people use the program, etc.
+
+None of my programs are perfect - I am the first to admit that.
+I have ideas for improvements and enhancements for all of my 
+shareware.  How much I improve things and when depends on the 
+support I receive for my hard work.
+
+
+Reviews / Awards / CDs :
+-------------------------
+
+None so far.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.  
+
+Anyone - any person, any company, or any business - can 
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please 
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select 
+the "About" option under the Help menu, and then click 
+the PayPal link on the "About" screen).
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know.
+
+
+Amendment History :
+--------------------
+
+Vers    Date        Description
+
+1.0   28-Apr-2000   First Public Release.
+                    (6,401 lines of code / comments.)
+
+1.1   13-Oct-2001   Bring the program up to date with my 
+                    latest code libraries.
+                    Fix a problem where Aus and UK postcodes 
+                    couldn't be loaded on some systems.
+                    Add in support for massive postcode lists.
+                    Improve the processing speed / efficiency
+                    when loading and processing lists.
+                    Brand New About Screen and associated functionality.
+                    Add in support for the Maximise icon in the top right 
+                    corner of the program's main window.
+                    (9,544 lines of code / comments.)
+
+1.1b  20-Nov-2002   Bring the program up to date with my latest code libraries.
+                    (31,641 lines of code / comments.)
+
+1.1f  3-Sep-2007    This program is now FREEWARE - see "Freeware Information"
+                    above.
+
+1.2f  18-Jan-2010   Enable the user to press ENTER to do a search.
+                    Enable the user to press ESC to dismiss the search results dialog.
+                    Make place names title case on the search results dialog.
+                    Make Australia the default postcode.
+                    Bring the program up to date with my latest code libraries.
+                    I wrote this program 10 years ago, and I still use it multiple 
+                    times every day.  An extremely useful program.
+                    Bring the program up to date with my latest code libraries.
+                    (59,259 lines of code / comments.)
+
+1.2fb 27-Jan-2010   No program changes - just update the Australian post code data file 
+                    and the readme text file.
+                    Update links to the Australian post code data file.
+                    Include the latest Australian post code data with the program.
+                    This new Australian post code data file contains 16,700 postcodes
+                    / locations, which is 392 more than the 16,308 postcodes / locations 
+                    in the old data file from Apr-2000).
+                    The web links I have to UK and NZ post code data files no longer work.
+                    Can anyone supply me with new links to this data ?
+
+1.2fc 22-Apr-2012   No program changes - just update the Australian post code data file 
+                    and the readme text file.
+
+1.3f  13-Oct-2014   Usability enhancements: add in the ability to copy the selected 
+                    post code line of data from the Search Results to Windows Clipboard 
+                    in a variety of formats by selecting the line in the Postcode Search 
+                    Results screen and then doing any of these:
+                    (1). Clicking the "Copy" button, 
+                    (2). Selecting "Clipboard Copy" from the Right-mouse click 
+                         popup menu, or 
+                    (3). Using the ubiquitous Ctrl-C Windows shortcut.
+
+                    If you do something silly, like try to copy the headings, then you will 
+                    get a "what are you doing ???" error message with emoticons in it, 
+                    such as frowning :/, or smiling :).  I'm tired of my usual "very polite" 
+                    error messages, so its time to step things up a bit !  LOL   :)  :)
+                    
+                    I use my Post Code Lookup program at least once per day, 
+                    and usually many times per day, and I have wanted to make these 
+                    usability enhancements for ages and finally found a spare 10 mins.  :)
+                    
+                    Also tidy up the alignment of labels and data entry boxes on the main screen.
+                    (953 lines of code / comments / blank lines in primary source file.)
+                    (66,330 lines of code / comments / blank lines in all primary, library, and include files.)
+
+
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this 
+program is available from my WEB page - see below.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://moosevalley.fhost.com.au/
+____________________________________________________
+ 

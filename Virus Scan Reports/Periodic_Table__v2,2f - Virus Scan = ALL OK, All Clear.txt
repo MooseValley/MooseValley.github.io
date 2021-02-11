@@ -1,0 +1,155 @@
+Periodic_Table__v2,2f - Virus Scan = ALL OK, All Clear.txt
+
+Periodic_Table.zip
+
+http://www.mediafire.com/download/tqmdjmdlmzz/Periodic_Table__v2,2f.zip
+
+
+http://www.virustotal.com/en/file/b5566a8c0bae6c90ae1d76ee4f771b2baec880869b5ba1e722d5fc0847e14f36/analysis/1421541646/
+
+SHA256: 	b5566a8c0bae6c90ae1d76ee4f771b2baec880869b5ba1e722d5fc0847e14f36
+File name: 	Periodic_Table.zip
+Detection ratio: 	1 / 57
+Analysis date: 	2015-01-18 00:40:46 UTC ( 0 minutes ago )
+0
+0
+
+    Analysis
+    Additional information
+    Comments
+    Votes
+
+Antivirus 	Result 	Update
+Symantec 	WS.Reputation.1 	20150118
+ALYac 		20150117
+AVG 		20150118
+AVware 		20150118
+Ad-Aware 		20150118
+AegisLab 		20150118
+Agnitum 		20150117
+AhnLab-V3 		20150117
+Alibaba 		20150117
+Antiy-AVL 		20150117
+Avast 		20150117
+Avira 		20150117
+Baidu-International 		20150117
+BitDefender 		20150117
+Bkav 		20150117
+ByteHero 		20150118
+CAT-QuickHeal 		20150117
+CMC 		20150116
+ClamAV 		20150118
+Comodo 		20150118
+Cyren 		20150118
+DrWeb 		20150117
+ESET-NOD32 		20150117
+Emsisoft 		20150117
+F-Prot 		20150118
+F-Secure 		20150117
+Fortinet 		20150117
+GData 		20150117
+Ikarus 		20150117
+Jiangmin 		20150116
+K7AntiVirus 		20150117
+K7GW 		20150117
+Kaspersky 		20150117
+Kingsoft 		20150118
+Malwarebytes 		20150118
+McAfee 		20150117
+McAfee-GW-Edition 		20150118
+MicroWorld-eScan 		20150117
+Microsoft 		20150118
+NANO-Antivirus 		20150117
+Norman 		20150117
+Panda 		20150117
+Qihoo-360 		20150118
+Rising 		20150117
+SUPERAntiSpyware 		20150117
+Sophos 		20150118
+Tencent 		20150118
+TheHacker 		20150117
+TotalDefense 		20150117
+TrendMicro 		20150117
+TrendMicro-HouseCall 		20150118
+VBA32 		20150116
+VIPRE 		20150118
+ViRobot 		20150117
+Zillya 		20150117
+Zoner 		20150116
+nProtect 		20150116 
+
+
+
+
+File identification
+MD5 d2d5bf51c582dfa3240f5a4a4844d918
+SHA1 f36d39f1c29c6e714ea01c5c8310197b20330076
+SHA256 b5566a8c0bae6c90ae1d76ee4f771b2baec880869b5ba1e722d5fc0847e14f36
+ssdeep
+6144:01x6KEiCodklANXkcRyAIBxGILyM0Pv99GyuAyg0sS4Mq9mnPzL3V7:0b6jOq5B0IL69GyursS4Mq9CPnV7
+
+File size 350.3 KB ( 358700 bytes )
+File type ZIP
+Magic literal
+Zip archive data, at least v2.0 to extract
+
+TrID 	ZIP compressed archive (100.0%)
+Tags
+zip upx
+
+VirusTotal metadata
+First submission 2013-12-09 17:26:14 UTC ( 1 year, 1 month ago )
+Last submission 2015-01-18 00:40:46 UTC ( 1 minute ago )
+File names 	periodic-table-of-elements-moose-2.2f.zip
+Periodic_Table.zip
+Advanced heuristic and reputation engines
+ClamAV PUA
+Possibly Unwanted Application. While not necessarily malicious, the scanned file presents certain characteristics which depending on the user policies and environment may or may not represent a threat. For full details see: http://www.clamav.net/doc/pua.html .
+
+ExifTool file metadata
+MIMEType
+application/zip
+
+ZipRequiredVersion
+20
+
+ZipCRC
+0x32de27df
+
+FileType
+ZIP
+
+ZipCompression
+Deflated
+
+ZipUncompressedSize
+31859
+
+ZipCompressedSize
+11232
+
+FileAccessDate
+2015:01:18 01:40:59+01:00
+
+ZipFileName
+catalog.txt
+
+ZipBitFlag
+0
+
+FileCreateDate
+2015:01:18 01:40:59+01:00
+
+ZipModifyDate
+2007:09:18 10:49:16
+
+
+
+Comments
+
+Symantec's "WS.Reputation.1" is damned stupid - ignore this because it is a "false positive". Symantec fix your scanner and stop casting aspersions of harmless software !!
+
+Downloaded from my web site: http://moosevalley.fhost.com.au/
+I am super paranoid about security and all of my PCs are subject to the highest levels of security, so you can rest assured that there are no viruses or malware in any of the software I provide on my web site, as confirmed by this VirusTotal analysis. :)
+Moose
+Posted 0 minutes ago by Moose Delete

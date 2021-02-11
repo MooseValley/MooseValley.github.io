@@ -1,0 +1,330 @@
+ 
+CPU Monitor			Copyright (C) Moose O'Malley, 
+-----------			September 2007.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * So, Why Monitor CPU Usage ??
+   | * Advantages of CPU Monitor over Dashboard and others
+   | * Settings / Calibrations
+   | * So, How does it work
+   | * The Future
+   | * Reviews / Awards / CDs
+   | * Freeware Information
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+CPU Monitor for Windows 95, 98, NT, 2000, XP, etc.
+
+This program is free software.  Anyone - any person, any company, 
+or any business - can use this program for free.  No fees or 
+payment is required.  See "Freeware Information" below.
+
+CPU Monitor :
+- Calculates CPU usage and displays it graphically.
+- Calculates the average CPU usage since CPU monitor was started.
+- Enables you to calibrate "ground zero" and other settings.
+  (This is discussed further below).
+
+Developed using 32-bit Delphi.
+
+CPU Monitor for Windows 95 / 98 / ME / NT / 2000.
+This program will **NOT** run under Windows 3.x
+(even with Win32 installed) !!
+
+
+So, Why Monitor CPU Usage ?? 
+----------------------------
+
+I wrote CPU monitor because I wanted to find out where the 
+performance bottlenecks were in my system.
+
+If your PC is running software / games / etc slowly, it could 
+be because of a bottleneck in the disk, CPU, cache, memory, or 
+some other problem.
+
+By tracking CPU usage and the average CPU usage, it is 
+possible to see if the software you are using is running 
+slowly because of lack of CPU power.
+
+Before running out and buying a new expensive CPU upgrade, 
+just run CPU monitor - if the CPU usage isn't too high, 
+then your CPU is coping with whatever you are running 
+and the problem is elsewhere.
+
+This could save you many hundreds of dollars in a wasted 
+CPU upgrade !!!
+
+It is also quite nifty to just sit and watch CPU usage 
+for various programs / games - just for the sheer hell 
+of it.  Also, by running CPU monitor on your PC, your 
+friends will think you really know what you are doing 
+on your PC !!
+
+
+Advantages of CPU Monitor over Dashboard and others :
+-----------------------------------------------------
+
+There are other CPU monitoring programs on the market,
+such as WinProbe, Dashboard 95, and System Monitor
+which is a Microsoft product that comes with Windows 95.
+
+However, I wrote CPU Monitor because of some serious
+failings of these other commercial programs, such as :
+
+1. Dashboard 95 and other cpu monitoring programs
+   go straight to 100% when FTP, and FTP server,
+   and other programs are running.  Clearly, however, 
+   these programs are not using 100% of the cpu.
+   However, CPU Monitor gives more realistic answers 
+   and seems to handle these programs better.
+
+2. CPU Monitor calculates average CPU usage as well.
+   No other program currently on the market does this - 
+   to the best of my knowledge.
+
+3. Also, if your machine is loading WORD or some other
+   big program, then cpu utilisation can easily hit 100%.  
+   This prevents Dashboard 95 and all other cpu monitoring 
+   programs from monitoring cpu utilisation.  Dashboard 
+   and these other programs do not notice that they 
+   missed out on monitoring for several seconds, and 
+   do not register any 100% cpu utilisation.  
+   CPU Monitor, however, notes and displays all such 
+   100% CPU utilisation for the time it occured !
+
+4. CPU Monitor enables you to define various settings 
+   in order to get the best results on your machine / 
+   setup.  No option like this exists in other CPU 
+   monitors that I am aware of.
+
+
+Settings / Calibrations :
+-------------------------
+
+Because not all machines are the same, I have enabled the 
+user to set some technical aspects of the program.  Most 
+users should never have to modify the "default" settings.  
+However, various settings can be modified if needed.
+
+These include :
+- Calibration / CPU Monitor Overhead
+  Change the "ground zero" for cpu evaluation.  
+  This enables you to remove the impact that CPU Monitor has
+  on CPU utilisation values when monitoring cpu usage.
+  If this value is set to 5 (say), then a value of 5 is 
+  taken off each CPU reading.
+
+- Disregarded first readings for Average Calc
+  When CPU Monitor first starts, the first CPU readings are high
+  because CPU Monitor is loading and initialising.  If you want 
+  to remove / ignore these high readings in the calculation
+  of the Average CPU Usage, then set this parameter.
+  A value of 3 (say) indicates that the first 3 CPU readings
+  are ignored when calculating the Average CPU usage.
+
+- Graph Updated Every every n Milliseconds
+  The number of milliseconds between each update of the graph.
+  You may want to update the graph less frequently on slow 
+  machines.  A value of 500 indicates that the graph will 
+  be updated every 500 milliseconds.  i.e. every half second.
+
+- Determine CPU Usage every n Milliseconds
+  How often CPU Monitor should try and determine the CPU usage.
+  If you are on a slow PC, then use a larger value here,
+  otherwise CPU Monitor will not have finished the prior
+  CPU utilisation calculations by the time the next 
+  calculations start.
+
+If you get in a mess with these settings, simply press the
+"Restore Defaults" button to return to reasonable values.
+
+As settings are modified, you can see the effects on the
+main CPU Monitor window immediately.
+
+
+So, How does it work ?
+----------------------
+
+It took me ages to work out how to benchmark the CPU in 
+Windows.
+
+It is fairly easy to make the CPU do some tasks and 
+time how long it takes.
+
+But, how do you know how fast the CPU could do the tasks ?
+
+How fast could it do them if no other tasks were running ?
+
+How would your monitor program know the answers to these 
+questions when it may never have been run on the machine 
+in its virgin state ?
+
+How do you know how fast the machine could run under Windows ?
+
+It is like asking how fast your car can go, when you have 
+never put your foot down !!  Or, you had put your foot 
+down but you were towing a large caravan at the time.
+
+Anyway, I thought about these questions all day, and finally 
+got the inspiration while sitting on the beach overlooking the 
+ocean in August / September 1996.  And, in the end the answer 
+was surprisingly simple !!  I could explain the theory of 
+exactly how to do it to anybody in under 60 seconds !
+
+This program uses my own very simple algorithms to determine
+CPU usage.
+
+Most other programs (including my RAM / SWAP Monitor program
+use Windows function calls to determine the CPU usage).
+
+Even in November 2001, 5+ yeats after I originally wrote this
+program, I still believe that my algorithm gives better results.
+
+
+The Future :
+------------
+
+In the future, many improvements could be made to this program,
+such as :
+- Store Average CPU usage details for use next time the 
+  program is run.
+- Keep this program's Window on top, so that it can be seen
+  and monitored while other programs are being loaded / run.
+- More graph types - I would like to do a heart-beat (ECG) 
+  kind of graph for CPU activity.
+- The average CPU usage is probably not as important as another
+  thing I will add into the program - the number of times and 
+  the amount of time the CPU spends at 100% - this is where the 
+  real delays come in and your PC is being too overworked.
+- Make the main window scalable like virtually all of my other
+  programs.  i.e. so when you resize the window, the graph and 
+  all text, labels, buttons, etc are are scaled to fit the new 
+  window size.
+- Anything else ?
+
+If you would like any of these improvements, or would like to
+suggest more, please email me and let me know.
+
+How much more work I do on this program depends entirely on
+what support I get, how many people use the program, etc.
+
+
+Reviews / Awards / CDs :
+-------------------------
+
+Version 1.9 of this program was included on
+the INFOPC (french edition of PC World magazine, IDG) 
+"the best tools to test your computer" cover CD 
+for the February 1998 issue.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.  
+
+Anyone - any person, any company, or any business - can 
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please 
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select 
+the "About" option under the Help menu, and then click 
+the PayPal link on the "About" screen).
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know.
+
+
+Amendment History :
+--------------------
+
+Vers    Date        Description
+1.1     19-Sep-96   First Public Release.
+1.2     27-Sep-96   Standardise internal Include files.
+1.3     02-Oct-96   Fix problem with Menu wrapping on some video cards,
+                    which truncated the bottom line of the main window.
+1.4     27-Jan-97   Add in Registration functionality.
+1.5     23-Feb-97   Add in a Settings menu to enable various settings / 
+                    calibrations to be adjusted to suit your PC / setup.
+                    Improve / tidy up main window.
+1.6     28-Apr-97   Add in the ability to choose Line or Bar graphs
+                    to display CPU usage.  The new Line graph looks
+                    vaguely reminicent of the mountains in the old 
+                    Battle Zone arcade game.
+1.7     24-May-97   Save settings automatically on Windows 95 shutdown 
+                    (Registered Users only).
+                    Start Minimised if set in Shortcut / settings
+                    (Registered Users only).  
+                    Improve application startup - size and position 
+                    form before user sees it.
+                    Make user selected Bar <-> Line graph change
+                    instantaneous - instead of waiting for next
+                    Timer draw cycle.
+1.8     17-Jun-97   Add in Menu items for viewing my Shareware Catalog, 
+                    the Readme file, and the Registration Form.
+1.9     08-Jul-97   Add in code to redraw the CPU Monitor graph
+                    very quickly whenever the graph is hidden
+                    behind another window / application and then
+                    is uncovered again.  i.e. there is no longer
+                    any delay in re-drawing the graph.
+2.0     11-Jan-98   Fix a long standing but very elusive problem
+                    to do with "DateEncode" errors which occured
+                    on some machines under some conditions.
+                    Once I could replicate the error, it was
+                    reasonably straight forward to get a workaround
+                    for what was another bug in Delphi.
+                    (2,883 lines of code.)
+
+2.1   16-Nov-2001   Phew - Almost 4 years since this program was last updated !! ;)
+                    Bring the program up to date with my latest code libraries.
+                    Brand New About Screen and associated functionality.
+                    Add in an "Auto-Run at Windows Startup" menu option to help
+                    the user make this program run automatically at Windows Startup.
+                    Add in an "Always On Top" menu option and functionality.
+                    Make the main window a non-resizable dialog window.
+                    (Unlike my othe programs, this program's main window is not
+                    scalable, and does not rescale everything when it is resized.)
+                    Move the program over to Windows 32 Operating Systems.
+                    So, the program is for Windows 95, 98, NT, ME, 2000, etc
+                    systems only now, and it will not run on Windows 3.x systems.
+                    Stop pulsing of the cursor - the cursor used to throb when 
+                    CPU Monitor was visible.
+                    (9,084 lines of code / comments.)
+
+2.1b  20-Nov-2002   Bring the program up to date with my latest code libraries.
+                    Registered Users - please contact me via email.
+                    (29,595 lines of code / comments.)
+
+2.1f  3-Sep-2007    This program is now FREEWARE - see "Freeware Information"
+                    above.
+
+
+If this program was not downloaded from my Home Page, then
+it is most likely an old version.  The latest version of this 
+program is available from my Home page and its mirrors.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://move.to/moose
+____________________________________________________
+ 

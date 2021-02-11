@@ -1,0 +1,67 @@
+----------------------------------------------
+             Text File Editor
+----------------------------------------------
+             Apple ][ Version
+         By Michael O'Malley - 1982
+----------------------------------------------
+
+Copyright (C) Moose O'Malley, 1982-2002.
+
+This ZIP file contains a disk image of a program
+called Text File Editor - a program I wrote way back 
+in 1982/93 on my Apple ][ computer.
+
+This Apple ][ version is FREEWARE - please feel free 
+to copy it, distribute it, and use it in any way you 
+like.
+
+Editing and using text files on an Apple 2 is a real
+pain in the neck - but this program makes it easier.
+
+This program is *extremely* limited - it is basically
+a real simple line editor for text files on the 
+Apple 2 - but someone might find it useful.
+
+To edit / view text files you would be much better off 
+using something like the great text file editor in 
+Locksmith v6.0 (which didn't come out until 1986 - 
+years after I wrote this program) or a word processor.
+(such as Zardax, Homeword, Sandy's, or some other 
+word processor) - which were around but I didn't have 
+way back in 1982.  (Hence the reason I wrote this 
+program ...)
+
+So, this program is really only here for fun / historical 
+purposes.
+
+
+Using this Program :
+---------------------
+
+Unzip the disk image to wherever you have installed your 
+favourite Apple 2 emulator, and you can then run it with 
+the emulator. 
+
+Check out my Apple 2 Emulation pages for more 
+information / links :
+
+	http://move.to/moose
+
+
+Apple ][ Emulators :
+---------------------
+
+Apple ][ emulators and other disk images can be downloaded 
+from :
+
+	ftp://ftp.apple.asimov.net/pub/apple_II// 
+
+
+Enjoy !
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://move.to/moose
+____________________________________________________
+ 

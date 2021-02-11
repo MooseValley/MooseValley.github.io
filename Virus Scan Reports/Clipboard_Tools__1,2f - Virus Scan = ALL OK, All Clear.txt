@@ -1,0 +1,115 @@
+
+Clipboard Tools (v1.2f)
+Clipboard_Tools
+Clipboard_Tools__1,2f.zip
+
+http://www.virustotal.com/en/file/9f7f050c4b66da3f7bf6d0b2f49447cb0cd4e138b269ef77afeba25ea6a0df35/analysis/1426832232/
+
+SHA256: 	9f7f050c4b66da3f7bf6d0b2f49447cb0cd4e138b269ef77afeba25ea6a0df35
+File name: 	Clipboard_Tools__1,2f.zip
+Detection ratio: 	0 / 56
+Analysis date: 	2015-03-20 06:17:12 UTC ( 0 minutes ago )
+1
+0
+
+    Analysis
+    Additional information
+    Comments
+    Votes
+
+Antivirus 	Result 	Update
+ALYac 		20150320
+AVG 		20150320
+AVware 		20150320
+Ad-Aware 		20150320
+AegisLab 		20150320
+Agnitum 		20150319
+AhnLab-V3 		20150320
+Alibaba 		20150320
+Antiy-AVL 		20150320
+Avast 		20150320
+Avira 		20150320
+Baidu-International 		20150319
+BitDefender 		20150320
+Bkav 		20150319
+ByteHero 		20150320
+CAT-QuickHeal 		20150320
+CMC 		20150317
+ClamAV 		20150320
+Comodo 		20150320
+Cyren 		20150320
+DrWeb 		20150320
+ESET-NOD32 		20150320
+Emsisoft 		20150320
+F-Prot 		20150320
+F-Secure 		20150320
+Fortinet 		20150320
+GData 		20150320
+Ikarus 		20150320
+Jiangmin 		20150319
+K7AntiVirus 		20150320
+K7GW 		20150320
+Kaspersky 		20150320
+Kingsoft 		20150320
+Malwarebytes 		20150320
+McAfee 		20150320
+McAfee-GW-Edition 		20150319
+MicroWorld-eScan 		20150320
+Microsoft 		20150320
+NANO-Antivirus 		20150320
+Norman 		20150320
+Qihoo-360 		20150320
+Rising 		20150319
+SUPERAntiSpyware 		20150320
+Sophos 		20150320
+Symantec 		20150320
+Tencent 		20150320
+TheHacker 		20150319
+TotalDefense 		20150319
+TrendMicro 		20150320
+TrendMicro-HouseCall 		20150320
+VBA32 		20150319
+VIPRE 		20150320
+ViRobot 		20150320
+Zillya 		20150319
+Zoner 		20150319
+nProtect 		20150319 
+
+
+
+
+File identification
+MD5 08c194a39d8d3754edae489949845764
+SHA1 d91b6108a694a43a98642e10aed0db3bcda4c1ae
+SHA256 9f7f050c4b66da3f7bf6d0b2f49447cb0cd4e138b269ef77afeba25ea6a0df35
+ssdeep
+6144:B7JoJIIKSZJ+Jv690e3c02KqSZ+HtEoLkvOkD99aI:CpAN690e3DqSoHtEoLcnDF
+
+File size 253.5 KB ( 259610 bytes )
+File type ZIP
+Magic literal
+Zip archive data, at least v2.0 to extract
+
+TrID 	ZIP compressed archive (100.0%)
+Tags
+zip upx
+
+VirusTotal metadata
+First submission 2015-03-20 06:17:12 UTC ( 0 minutes ago )
+Last submission 2015-03-20 06:17:12 UTC ( 0 minutes ago )
+File names 	Clipboard_Tools__1,2f.zip
+Advanced heuristic and reputation engines
+ClamAV PUA
+Possibly Unwanted Application. While not necessarily malicious, the scanned file presents certain characteristics which depending on the user policies and environment may or may not represent a threat. For full details see: http://www.clamav.net/doc/pua.html .
+
+Symantec reputation Suspicious.Insight
+
+
+
+
+Comments
+
+Downloaded from my web site: http://moosevalley.fhost.com.au/
+I am super paranoid about security and all of my PCs are subject to the highest levels of security, so you can rest assured that there are no viruses or malware in any of the software I provide on my web site, as confirmed by this VirusTotal analysis. :)
+Moose
+Posted 0 minutes ago by Moose Delete

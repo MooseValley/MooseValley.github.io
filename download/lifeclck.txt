@@ -1,0 +1,241 @@
+ 
+Life Clock				Copyright (C) Moose O'Malley, 
+----------				September 2007.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Inspiration for this Program
+   | * The Future
+   | * Program Estimates Warranty
+   | * Reviews / Awards / CDs
+   | * Freeware Information
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+Life Clock for Windows 3.1, 3.11, 95, NT, 2000, XP, etc.
+
+This program is free software.  Anyone - any person, any company, 
+or any business - can use this program for free.  No fees or 
+payment is required.  See "Freeware Information" below.
+
+This program displays :
+
+- the current date / time, and,
+
+- the amount of time you might have left to live 
+  (in years:days:hours:mins:secs format) based on 
+  the settings you enter in the Setup Screen 
+  (found via the File | Settings menu).
+
+I wrote this program because I read about a new 
+watch that displays the amount of time you might 
+have left to live, and which sold for 
+$140 (Australian dollars).  (See "Inspiration 
+for this Program" below).
+
+I have not seen this watch, but my program reproduces 
+the functionality described in this article.
+
+The aim of this program is that it makes you 
+realise that time is passing and it attempts to 
+scare you into living.  i.e. don't delay,
+start living and achieving your goals today !
+
+Thanks to my brother, Frank, for inspiring me
+to write this program, and for finding and faxing
+me the article below.
+
+
+Inspiration for this Program :
+------------------------------
+
+Sunday Morning Herald, Feb 16, 1997.  (Melbourne, Australia).
+(Typed in by Moose O'Malley, with all words, syntax,
+punctuation, etc intact as per the original article).
+(Thanks to my brother, Frank, for finding and faxing the 
+article to me).
+
+THE FINAL COUNTDOWN
+
+TIME waits for no man - so the saying goes.  But if
+you like the idea of counting the passing hours, the new
+Timisis digital clock may hold a fascination.
+
+What makes this timepiece unique is that rather than
+displaying the time, it shows you how many minutes and 
+seconds you can expect to have left in your life.  As its
+default setting, the clock presumes men will live to 75
+and women 80.  But if you are super fit - or in
+desperate need of a workout - you can reconfigure
+the setting accordingly.
+
+According to its US inventor, Chip Altholz, "the 
+Timisis clock scares you into living".
+
+The Clock also has the facility to display 150
+motivational messages (if you buy the clock you will
+probably need them).  Priced at $140 [Australian], 
+the Timisis clock will only be available through 
+specialist stores.
+
+
+The Future :
+-------------
+
+In the future, I would like to add a screen that enables
+you to enter your health / life style details (such as
+whether you smoke, whether you are overweight, gender,
+how often you exercise, etc), and have the program
+estimate estimate your life span based on this.
+
+I saw a quiz (in a women's magazine) based on this years 
+ago, but, regretably, I didn't keep the article.
+
+If anyone has a quiz that can help determine your 
+life span, please email it to me.
+
+Other things I could do are :
+- Add the display of a random motivational message / tip
+  each time the program is run.
+- Add in sounds / warning messages when various stages
+  of your life are reached.  Such as when the program thinks
+  you have 1 year to live.
+- Add in a birthday greeting each year.
+- and so on.
+
+
+Program Estimates Warranty :
+----------------------------
+
+This program shows how long you might have to live.
+
+The program is in no way accurate, and there are
+no accurate algorithms in use to guess your life span.
+
+Please do not rely on this program to estimate your 
+life span.
+
+Do not blame me if you believe this program and spend all
+your money believing you might soon die, but then live
+for another 20 years.  Also, do not blame me if the 
+program suggests you might die in 20 years and you die 
+today.
+
+
+Reviews / Awards / CDs :
+-------------------------
+
+None so far.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.  
+
+Anyone - any person, any company, or any business - can 
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please 
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select 
+the "About" option under the Help menu, and then click 
+the PayPal link on the "About" screen).
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know.
+
+
+Amendment History :
+--------------------
+
+Vers    Date        Description
+1.0     28-Feb-97   First Public Release.
+1.1     04-Apr-97   Add in extra date / validation / error handling 
+                    code.
+1.2     25-Apr-97   Fix a problem with date validation
+                    experienced by several USA users.
+1.3     16-Jun-97   Save settings automatically on Windows 95 shutdown 
+                    (Registered Users only).
+                    Start Minimised if set in Shortcut / settings
+                    (Registered Users only).  
+                    Improve application startup - size and position 
+                    form before user sees it.
+                    Add in Menu items for viewing my Shareware Catalog, 
+                    the Readme file, and the Registration Form.
+                    Display the current time in red on a black 
+                    background to make it look a bit like an LED 
+                    clock.  
+1.4     11-Jan-98   Fix a long standing but very elusive problem
+                    to do with "DateEncode" errors which occured
+                    on some machines under some conditions.
+                    Once I could replicate the error, it was
+                    reasonably straight forward to get a workaround
+                    for what was another bug in Delphi.
+                    (2,832 lines of code.)
+1.5     25-Sep-98   Add in the display of your age / time remaining
+                    in "years:days:hh:mm:ss" format.
+                    Add in the option to seperate date output by
+                    ':' or 'y', 'd', 'h', 'm', and 's'.
+                    Add in autosizing of the main window to handle
+                    long date outputs.
+                    (3,214 lines of code.)
+
+1.6   01-Feb-2001   Store the INI settings file in the program's directory, 
+                    rather that in the Windows' directory - there's enough 
+                    crap there already ! ;)
+                    Fix an old bug in Borland Delphi / Windows NT
+                    to fix NTDLL.DLL errors on closedown which 
+                    occured on some Windows NT configurations.
+                    Ensure that the user's currently selected ShortDate in Windows
+                    has the century in it so that dates are handled correctly.
+                    If the user doesn't have the century in the ShortDate format, 
+                    this program will add it in for its own use.
+                    (6,579 lines of code / comments.)
+
+1.7  17-Apr-2001    Add in support for "Big Fonts" and "Other Sized Fonts" - 
+                    with these Windows resizes the windows automatically - 
+                    but only sometimes and it doesn't always do it right, 
+                    so now I make sure my main window is the right size 
+                    before doing any scaling, etc.  i.e. I make it fit the 
+                    component(s) that extend the furthest right and 
+                    furthest down the form.   See the  Start Menu -> 
+                    Settings -> Control Pannel -> Display -> Settings 
+                    Tab -> "Advanced" button -> "General" tab for 
+                    your PC's settings in this area.
+                    Bring program up-to-date with my latest code libraries.
+                    (7,212 lines of code / comments.)
+
+1.7b  20-Nov-2002   Bring the program up to date with my latest code libraries.
+                    (31,498 lines of code / comments.)
+
+1.7f  3-Sep-2007    This program is now FREEWARE - see "Freeware Information"
+                    above.
+
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this 
+program is available from my WEB page - see below.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://move.to/moose
+____________________________________________________
+ 

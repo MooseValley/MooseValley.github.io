@@ -1,0 +1,178 @@
+Sanitize_Disk_Space__2,3f - Virus Scan = ALL OK, All Clear
+
+sanitize_disk_space__2,3f.zip
+
+Sanitize Disk Space (v2.3f)
+http://www.mediafire.com/download/47ccm017yo3mzrs/sanitize_disk_space__2,3f.zip
+
+http://www.virustotal.com/en/file/5fe2525e74775fb7227608dfd3ae9111f50828386eda2df3ccdb40d8619b3222/analysis/1437195169/
+
+SHA256: 	5fe2525e74775fb7227608dfd3ae9111f50828386eda2df3ccdb40d8619b3222
+File name: 	sanitize_disk_space__2,3f.zip
+Detection ratio: 	0 / 55
+Analysis date: 	2015-07-18 04:52:49 UTC ( 0 minutes ago )
+1
+0
+
+    Analysis
+    File detail
+    Additional information
+    Comments
+    Votes
+
+Antivirus 	Result 	Update
+ALYac 		20150718
+AVG 		20150718
+AVware 		20150718
+Ad-Aware 		20150718
+AegisLab 		20150717
+Agnitum 		20150717
+AhnLab-V3 		20150717
+Alibaba 		20150717
+Antiy-AVL 		20150718
+Arcabit 		20150718
+Avast 		20150718
+Avira 		20150717
+Baidu-International 		20150717
+BitDefender 		20150718
+Bkav 		20150717
+ByteHero 		20150718
+CAT-QuickHeal 		20150717
+ClamAV 		20150717
+Comodo 		20150718
+Cyren 		20150718
+DrWeb 		20150718
+ESET-NOD32 		20150718
+Emsisoft 		20150718
+F-Prot 		20150718
+F-Secure 		20150718
+Fortinet 		20150718
+GData 		20150718
+Ikarus 		20150717
+Jiangmin 		20150716
+K7AntiVirus 		20150717
+K7GW 		20150718
+Kaspersky 		20150718
+Kingsoft 		20150718
+Malwarebytes 		20150718
+McAfee 		20150718
+McAfee-GW-Edition 		20150717
+MicroWorld-eScan 		20150718
+Microsoft 		20150718
+NANO-Antivirus 		20150718
+Panda 		20150717
+Qihoo-360 		20150718
+Rising 		20150713
+SUPERAntiSpyware 		20150718
+Sophos 		20150718
+Symantec 		20150718
+Tencent 		20150718
+TheHacker 		20150717
+TrendMicro 		20150718
+TrendMicro-HouseCall 		20150718
+VBA32 		20150717
+VIPRE 		20150718
+ViRobot 		20150718
+Zillya 		20150718
+Zoner 		20150718
+nProtect 		20150717 
+
+
+
+
+ The file being studied is a compressed stream! More specifically, it is a ZIP file.
+Interesting properties
+The studied file contains at least one Portable Executable.
+Contained files
+This file is a compressed stream containing 3 files.
+[+] catalog.txt unknown 37022 Bytes
+[+] Sanitize_Disk_Space.exe Portable Executable 294928 Bytes
+[+] sanitize_disk_space.txt unknown 28214 Bytes
+Compression metadata
+Contained files
+3
+Uncompressed size
+360164
+Highest datetime
+2015-07-18 14:51:20
+Lowest datetime
+2015-05-31 12:42:52
+Contained files by extension
+txt
+2
+exe
+1
+Contained files by type
+unknown
+2
+Portable Executable
+1
+ExifTool file metadata
+MIMEType
+application/zip
+
+ZipRequiredVersion
+20
+
+ZipCRC
+0x974ec13c
+
+FileType
+ZIP
+
+ZipCompression
+Deflated
+
+ZipUncompressedSize
+37022
+
+ZipCompressedSize
+13471
+
+FileTypeExtension
+zip
+
+ZipFileName
+catalog.txt
+
+ZipBitFlag
+0x0002
+
+ZipModifyDate
+2015:05:31 12:42:26
+
+
+
+
+File identification
+MD5 83d823d4868bc0a29ff7a2258928f249
+SHA1 b81bb889bf21266f59a914d9f0b778c2ed3496f4
+SHA256 5fe2525e74775fb7227608dfd3ae9111f50828386eda2df3ccdb40d8619b3222
+ssdeep
+6144:lv+0GBOrPGTPmBGckXAGhfUcM6yTx4luME7dPnblQDAQ3KKm3sRZW:lJG6P5GHf9UnDx4lu/7zoAQ33Rg
+
+File size 300.6 KB ( 307770 bytes )
+File type ZIP
+Magic literal
+Zip archive data, at least v2.0 to extract
+
+TrID 	ZIP compressed archive (100.0%)
+Tags
+contains-pe zip upx
+
+VirusTotal metadata
+First submission 2015-07-18 04:52:49 UTC ( 1 minute ago )
+Last submission 2015-07-18 04:52:49 UTC ( 1 minute ago )
+File names 	sanitize_disk_space__2,3f.zip
+Advanced heuristic and reputation engines
+Symantec reputation Suspicious.Insight
+
+
+
+
+
+Downloaded from my web site: http://moosevalley.fhost.com.au/
+I am super paranoid about security and all of my PCs are subject to the highest levels of security, so you can rest assured that there are no viruses or malware in any of the software I provide on my web site, as confirmed by this VirusTotal analysis. :)
+Moose
+Posted 0 minutes ago by Moose Delete
+

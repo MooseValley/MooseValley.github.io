@@ -1,0 +1,246 @@
+ 
+Mouse Odometer			Copyright (C) Moose O'Malley, 
+--------------			March 2015.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Using Mouse Odometer
+   | * The Future
+   | * Reviews / Awards / CDs
+   | * Freeware Information
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+Mouse Odometer is for IBM compatible PCs, desktops, laptops, 
+netbooks, etc running any version of Windows from Windows 95 onwards, which 
+includes Windows 98, ME, NT, 2000, XP, Vista, 7, 8, 10, etc, 32 and 64 bit.
+
+This program is free software.  Anyone - any person, any company, 
+or any business - can use this program for free.  No fees or 
+payment is required.  See "Freeware Information" below.
+
+Mouse Odometer is a "for fun" program that simply keeps track of :
+- Your mouse cursor movement and converts this to a total 
+  distance travelled in Kilometers by the mouse cursor, based on 
+  the screen resolution and size of your current display.
+- And the number of left and right mouse clicks.
+
+At the moment, the mouse movement is monitored 20 times per second.
+
+In Mouse Odometer's Settings Screen, you can enter your viewable 
+screen width and viewable screen height to make the distance 
+calculations as accurate as possible.
+
+Developed using 32-bit Delphi.
+
+This program will **NOT** run under Windows 3.x  
+(even with Win32 installed) !!
+
+
+Using Mouse Odometer :
+----------------------
+
+To use Mouse Odometer, simply run the program and then let it do
+it's mouse monitoring and measuring.
+
+When Mouse Odometer is run, it is auto-minimised to the Windows TrayBar 
+(with the clock, etc) on start-up and whenever the program is minimised.  
+The icon for Mouse Odometer in Windows TrayBar is the "mouse with red legs 
+and black shoes".  Double click on this icon to open Mouse Odometer's window, or 
+right-mouse click on the icon and select a menu option from the pop-up menu.
+                    
+The program keeps monitoring mouse movement and counting mouse clicks 
+even when it is minimised or iconised.
+
+Use the settings screen to enter your viewable screen size in 
+centimeters, which is used in converting pixels to Kilometers 
+when calculating the movement distance.
+
+
+The Future :
+------------
+
+In the future, many improvements could be made to this program,
+such as :
+
+- Enable the user to specify how often to check for mouse movement.
+  At the moment, the mouse movement is monitored 5 times per second.
+
+- Improved accuracy - does anyone need their mouse monitored more 
+  than 20 times per second ?
+
+- Add in forecasting to estimate how far the mouse will move in a year
+  at the current movement rates.
+
+- Add in averages for the Km or Miles moved per hour since monitoring
+  was first started.
+
+- Monitoring on middle (3rd) mouse button clicks.
+
+- Mouse wheel movement monitoring.
+
+- Anything else ?
+
+If you would like any of these improvements, or would like to
+suggest more, please email me and let me know.
+
+As with all of my shareware programs, how much more work I do on 
+this program depends entirely on what support I get, how many 
+people use the program, etc.
+
+None of my programs are perfect - I am the first to admit that.
+I have ideas for improvements and enhancements for all of my 
+shareware.  How much I improve things and when depends on the 
+support I receive for my hard work.
+
+
+Reviews / Awards / CDs :
+-------------------------
+
+None so far.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.  
+
+Anyone - any person, any company, or any business - can 
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please 
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select 
+the "About" option under the Help menu, and then click 
+the PayPal link on the "About" screen).
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know.
+
+
+Amendment History :
+--------------------
+
+Vers    Date        Description
+
+1.0   14-Apr-2000   First Public Release.
+                    (5,285 lines of code / comments.)
+
+1.1   10-Jan-2001   Make the Font bigger.  Improve the display.
+                    Add in Left and Right Mouse Click counting.
+
+                    Add in "Always On Top" menu option / functionality.
+                    (7,180 lines of code / comments.)
+
+1.2  17-Apr-2001    Add in support for "Big Fonts" and "Other Sized Fonts" - 
+                    with these Windows resizes the windows automatically - 
+                    but only sometimes and it doesn't always do it right, 
+                    so now I make sure my main window is the right size 
+                    before doing any scaling, etc.  i.e. I make it fit the 
+                    component(s) that extend the furthest right and 
+                    furthest down the form.   See the  Start Menu -> 
+                    Settings -> Control Pannel -> Display -> Settings 
+                    Tab -> "Advanced" button -> "General" tab for 
+                    your PC's settings in this area.
+                    Bring program up-to-date with my latest code libraries.
+                    Thousands seperator in the mouse clicks (its amazing how 
+                    quickly you click a mouse button a few thousand times !!).
+                    (8,168 lines of code / comments.)
+
+1.3  13-Oct-2001    Add in a comma seperated on the number of mouse clicks.
+                    Add in support for *huge* numbers.  The program now handles
+                    up to 9,223,372,036,854,775,807 (~2^63) mouse button 
+                    clicks - yep, that's 9.2 Exa clicks folks !! - and up to
+                    10^308 kilometers travelled (the diameter of the entire
+                    Milky Way galaxy is only 10^17 kilometers) - so, these 
+                    huge numbers should hopefully be enough for everyone ... ;))
+                    After a year of using this program, I am already up to
+                    200,000+ mouse clicks, so at this rate, this program should 
+                    be useful for more than 650 billion lifetimes of mouse 
+                    measuring before the numbers start at zero again !!
+
+
+
+                    If any immortals feel that these numbers are still too 
+                    limited, let me know !!  ;))
+                    Add in "Restore Factory Defaults" menu option.
+                    Brand New About Screen and associated functionality.
+                    Add in support for the Maximise icon in the top right 
+                    corner of the program's main window.
+                    Enable the program to live on the Windows 95, 98, NT, 
+                    2000, etc tray bar.
+                    (8,997 lines of code / comments.)
+
+1.4  07-Nov-2001    Output distance travelled correct to 8 decimal places
+                    which is the resolution of my current measurements.
+                    (The previous 10 decimal places were overkill).
+                    Add in support for Metric (centimeters, kilometers)
+                    and Imperial (inches, miles) units of measure.
+                    (9,738 lines of code / comments.)
+
+1.4b  20-Nov-2002   Bring the program up to date with my latest code libraries.
+                    (30,256 lines of code / comments.)
+
+1.5   07-Mar-2003   Remove the Tray Icon functionality, which was 
+                    clashing with the ability to run the program 
+                    minimised, normal, or maximised on startup.
+                    (Thanks to Thomas B for reporting this problem).
+                    Bring the program up to date with my latest code 
+                    libraries.
+                    (46,659 lines of code / comments.)
+
+1.6   30-June-2003  Add in support for all of the various Windows
+                    Regional Settings for floating point numbers. 
+                    i.e. Allow people to use something other than a 
+                    full stop as the decimal point, and something 
+                    other than a comma as a 1,000's separator.
+                    Bring the program up to date with my latest code 
+                    libraries.
+                    (46,848 lines of code / comments.)
+
+1.6f  3-Sep-2007    This program is now FREEWARE - see "Freeware Information"
+                    above.
+
+1.7f  2-Mar-2015    Auto-minimise Mouse Odometer to Windows TrayBar (with the clock, etc)
+                    on start-up and whenever the program is minimised.  The icon for 
+                    Mouse Odometer in Windows TrayBar is the "mouse with red legs and black shoes".  
+                    Just double click on this icon to open Mouse Odometer's window, or 
+                    right-mouse click on the icon and select a menu option from the pop-up menu.
+                    Greetings to "Morc" who requested this TrayBar functionality earlier today.
+                    Add exception handling to the loading and saving of program settings (INI file)
+                    so that the program executes and exits cleanly (no error messages produced) even 
+                    if running from a read-only device such as a optical disk (CD-ROM, etc) or 
+                    there are disk errors or the disk is full and/or the INI file does not exist 
+                    and/or it cannot be created.
+                    Bring the program up to date with my latest code libraries.
+                    (770 lines of code / comments / blank lines in primary source file.)
+                    (32,435 lines of code / comments / blank lines in all primary, library, and include files.)
+
+
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this 
+program is available from my WEB page - see below.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://moosevalley.fhost.com.au/
+____________________________________________________
+ 

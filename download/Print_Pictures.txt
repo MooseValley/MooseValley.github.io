@@ -1,0 +1,286 @@
+ 
+Print and PDF Pictures		Copyright (C) Moose O'Malley,
+----------------------		October 2009.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Why I wrote this program ?
+   | * Credits / Thanks
+   | * Installing and Using this Program
+   | * Uninstalling this Program
+   | * The Future
+   | * Reviews / Awards / CDs
+   | * Freeware Information
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+Print and PDF Pictures is a program for Windows 95, 98, 
+ME, NT, 2000, XP, etc.
+
+This program is free software.  Anyone - any person, any company, 
+or any business - can use this program for free.  No fees or 
+payment is required.  See "Freeware Information" below.
+
+Print and PDF Pictures enables you to drag and drop a whole 
+bunch of pictures from Windows Explorer, move or sort these
+into the required order, and then either :
+- Print them all out to a printer, 
+- Or, if you have Adobe Acrobat Distiller installed
+  (http://www.adobe.com/), then you can print them all 
+  to the Acrobat Distiller, which places all of the 
+  images into a PDF (Portable Document Format) file.
+
+At the moment, every image is enlarged to fill the page,
+and each image is printed one per page.
+(Options to allow you to customise these and other settings 
+are planned for the future - see "The Future" below).
+
+At the moment, the program supports ".BMP", ".JPG", 
+".JPEG", ".EMF", and ".WMF" graphics file formats.
+(Options to allow you to use other graphics file formats
+are planned for the future - see "The Future" below).
+
+This program should be useful to anyone who wants to print 
+a number of images, or get them into a suitable format that 
+enables easy reading "on screen".
+
+Developed using 32-bit Delphi.
+
+This program will **NOT** run under Windows 3.x  
+(even with Win32 installed).
+
+
+Why I wrote this program ?
+--------------------------
+
+Lately, I have been busy scanning many of my oldest 
+computer magazines and manuals into my computer.
+They are getting very old - some are over 20 years old - 
+and their condition is deteriorating steadily.  So, I 
+decided to scan them in and store them electronically 
+before they deteriorate any further.
+
+However, having these scans in individual files means 
+that they are difficult to read on screen - you need to 
+load each image in, read it, load the next image in, 
+read it, etc.
+
+In addition, these images are also very difficult to print.
+You need to load the image into a graphics program,
+like Paint Shop Pro, print it, load the next image in, print it.
+
+To print a whole magazine's worth of scans would take hours,
+and be a frustratingly slow process.
+
+To PDF it is even worse !  The only way I found to do this 
+was to manually load all of the images into a Word Processor -
+one by one - and reszise each image, add page breaks, etc.
+If you had a couple of hundred images to do, this this would 
+take several hours and be frustratingly tedious and slow work.
+
+What I needed was a program to print all of my images automatically,
+or, better yet, enable me to print them all into a PDF document
+so that I could read this on screen.
+
+I did a quick search of the internet, and found very few links 
+that looked promising for what I needed to do.
+
+When I followed these up, I found software that didn't do what it 
+promised, was extremely difficult to use, and costed a fortune.
+
+Drum roll please ...
+
+Enter Print and PDF Pictures.
+
+So, as I usually do, I decided the only way to get the 
+functionality I wanted was to write my own software.  
+So, I sat down and wrote this program over the course 
+of a couple of nights.
+
+Print and PDF Pictures enables you to drag and drop a whole 
+bunch of pictures from Windows Explorer, move or sort these
+into the required order, and then either :
+- Print them all out to a printer, 
+- Or, if you have Adobe Acrobat Distiller installed
+  (http://www.adobe.com/), then you can print them all 
+  to the Acrobat Distiller, which places all of the 
+  images into a PDF (Portable Document Format) file.
+
+At the moment, every image is enlarged to fill the page,
+and each image is printed one per page.
+(Options to allow you to customise these and other settings 
+are planned for the future - see "The Future" below).
+
+At the moment, the program supports ".BMP", ".JPG", 
+".JPEG", ".EMF", and ".WMF" graphics file formats.
+(Options to allow you to use other graphics file formats
+are planned for the future - see "The Future" below).
+
+The program is extremely easy to install and use, and it is 
+incredibly inexpensive.
+
+I personally use this program extensively, and 
+I hope you find the program easy to use and useful.
+
+
+Credits / Thanks :
+------------------
+
+None at this stage.
+
+
+Installing and Using this Program :
+-----------------------------------
+
+To use this program, unzip the contents of the ZIP file to a 
+directory - such as c:\Print_Pictures\ - and run the executable 
+file : Print_Pictures.EXE.
+
+If you want the program to run automatically when Windows
+starts up, then select this option under the "File" menu 
+in the program.
+
+If you would like to be able to run this program by clicking 
+on an icon in the Windows Start Menu, or on the Desktop, etc 
+then you can use the "Create Shortcut ..." options under 
+the program's File menu.
+
+I hope you find the program easy to use and useful.
+
+
+Uninstalling this Program :
+---------------------------
+
+At the present time, there is No Uninstall function.
+
+If you ever want to delete this program 
+from your computer, then :
+
+ 1. Exit the program, and delete it from wherever 
+    you installed it on your harddrive.
+
+Before doing this however :
+
+- If you have selected / enabled the "Auto-Run at Windows 
+  Startup" option (under the File menu), then you should 
+  ensure that this option is not checked / enabled 
+  (which you can easily do by re-selecting the 
+  "Auto-Run at Windows Startup" option from under 
+  the File menu).
+
+- If you have used any of the "Create Shortcut ..." options 
+  under the File menu, then you should use the "Delete All 
+  Shortcuts" option under the File menu to remove these from
+  your system.
+
+Simple as that !
+
+
+The Future :
+------------
+
+There are many things I could do with this program in the 
+future, for example :
+
+- Support for more advanced print options.
+  e.g. setting margins, maintaining aspect ratio, etc.
+  At the moment, every image is enlarged to fill the page,
+  and each image is printed one per page.
+
+- Support for more graphics file formats.
+  At the moment, the program only supports ".BMP", ".JPG", 
+  ".JPEG", ".EMF", and ".WMF" graphics file formats.
+
+- Ability to remove the "Courtesy of ..." message at the 
+  bottom of each page.
+
+- Ability to set the print title, document name, etc.
+
+- Ability to output the page number to the bottom or top 
+  of each page.
+
+- Anything else ??
+
+If you would like any of these improvements, or would like to
+suggest more, please email me and let me know.
+
+How much more work I do on this program depends entirely on
+what support I get, how many people use the program, etc.
+
+
+Reviews / Awards / CDs :
+-------------------------
+
+None so far.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.  
+
+Anyone - any person, any company, or any business - can 
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please 
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select 
+the "About" option under the Help menu, and then click 
+the PayPal link on the "About" screen).
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+You should seek always professional advice if there is 
+anything you are not sure about.  
+
+You should seek professional advice to double and triple 
+check everything that this program tells you.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know.
+
+
+Amendment History :
+-------------------
+
+Vers    Date        Description
+
+1.0  24-Mar-2003    First Public Release.
+                    (48,830 lines of code / comments.)
+
+1.0f  3-Sep-2007    This program is now FREEWARE - see "Freeware Information"
+                    above.
+                    Remove the "courtesy of" message that used to appear 
+                    at the bottom of every page of print out or PDF.
+
+1.1f  6-Oct-2009    Enable the user to move or remove multiple items at a time, as
+                    requested by Mark.  Thanks for your kind words and feedback Mark.
+                    Bring the program up to date with my latest libraries, includes, etc.
+                    (51,005 lines of code / comments.)
+
+
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this 
+program is available from my WEB page - see below.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://move.to/moose
+____________________________________________________
+ 

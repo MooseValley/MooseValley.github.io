@@ -1,0 +1,315 @@
+ 
+Nixie Clock 			Copyright (C) Moose O'Malley, 
+-----------			May 2010.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Why I wrote this program ?
+   | * Credits / WEB Page Links
+   | * Installing and Using this Program
+   | * Uninstalling this Program
+   | * The Future
+   | * Reviews / Awards / CDs
+   | * Freeware Information
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+Nixie Clock is for Windows 95, 98, ME, NT, 2000, XP, etc.
+
+This program is free software.  Anyone - any person, any company, 
+or any business - can use this program for free.  No fees or 
+payment is required.  See "Freeware Information" below.
+
+Nixie Clock is a "for fun" program that displays a re-sizable
+clock made out of images of Nixie Tube digits.
+
+The program currently has the following digit styles 
+available :
+- Valvo ZM1000 Nixie Tubes
+- Z568M Nixie Tubes
+- Red and Green LED clock digits
+- Unknown Nixie Type
+- ZM1020 Round Nixie Tubes
+
+More digits / styles will be made available in future versions 
+of this program.  (If you have a set of images for each digit
+- then please email them to me, and I will add them into 
+the program).
+
+I would particularly like to add the following images this 
+program :
+- Burroughs B7971 alphanumeric nixie tubes
+- East German Z856 nixie tubes
+- and others
+
+The normal Windows style menus are turned off in this program
+(so they don't detract from the clock), however, everything 
+can be accessed via a right mouse click popup menu.
+
+Developed using 32-bit Delphi.
+
+This program will **NOT** run under Windows 3.x  
+(even with Win32 installed).
+
+
+Why I wrote this program ?
+--------------------------
+
+I wrote this program because my electronics genius, super 
+geek brother, Francis, got me interested in Nixie Clocks
+several months ago.  ;))
+
+Sadly, what I know about electronics can be written on 
+the back of a postage stamp (leaving plenty of room for 
+glue and lickin' !! ;), so building such a real hardware 
+Nixie Tube clock for me is pretty much out of the question 
+at the moment.
+
+However, developing computer software is something I
+know very well and thoroughly enjoy, so I developed a
+software based Nixie Clock instead.
+
+Unlike the hardware based Nixie Clocks, this software
+one will never wear out.
+
+
+Credits / WEB Page Links :
+---------------------------
+
+*** Valvo ZM1000 Nixie Tube Images :
+
+The initial set of Valvo ZM1000 Nixie Tube digits 
+were obtained from a on-line Nixie Clock WEB site :
+
+	http://www.fortunecity.de/wolkenkratzer/westend/696/nixieclock/nixstart.htm
+
+The "colon" Valvo ZM1000 Nixie Tube image was created 
+by me by hand editing the digit 0.
+
+I also hand edited the images to create a Red set of
+Nixie tubes as well.
+
+Electronics Purists probably consider both of these 
+activities to be sacrilidge ...  ;)
+
+
+*** Z568M Nixie Tube Images :
+
+The Z568M Nixie Tube images were obtained from the
+Giant Nixie Clock WEB Page :
+
+	http://www.hanssummers.com/electronics/clocks/nixie/
+
+
+*** LED Digits :
+
+The Red and Green LED clock digits were created by me 
+from scratch.  (I have actually created complete sets of 
+5 different styles of LEDs - but included with the program 
+are what I consider to be the best style).
+
+
+*** Unknown Nixie Type :
+
+Were contained in a GIF animation that was on a WEB site somewhere.
+(I have retraced my steps trying to find the WEB site again, but 
+have not been successful yet.  If anyone knows about these Nixie 
+Tubes, please email me and let me know).  I extracted the frames 
+out, touched up them images, and made them into an animation strip 
+and loaded them into my Nixie Clock program.
+
+
+- ZM1020 Round Tubes Image
+
+These images were originally obtained from a GIF animation on 
+Peter H. Wendt's Nixie Clock Project web page :
+
+	http://www.fortunecity.de/wolkenkratzer/westend/696/nixieclock/nixstart.htm
+
+The images required extensive editing and touching up.  I extracted 
+the frames out, and then did extensive editing and touching up 
+and manually edited each digit (there was a strange blue background 
+on the digits, the bottom half of the round Nixie "button" was truncated, 
+and they were all damaged due to resolution reduction and colour 
+reduction).  However, after a couple of hours of hand-editing, they 
+were in infinitely better shape (but still far from perfect).  
+I then made them into an animation strip and loaded them into my 
+Nixie Clock program.
+
+
+Special thanks also go to these pages for inspiring 
+this project :
+
+Nixie Clock Gallery
+	http://www.netcomuk.co.uk/~wwl/nixclock.html
+	http://www.netcomuk.co.uk/~wwl/electric.html
+
+Cathode Corner
+	http://www.cathodecorner.com/
+
+and especially to my brother Francis for letting me know
+about these cool Nixie clocks and tubes, and inspiring me to 
+create this program.
+
+
+Installing and Using this Program :
+-----------------------------------
+
+To use this program, unzip the contents of the ZIP file to a 
+directory - such as c:\Clock\ - and run the executable 
+file : Nixie_Clock.EXE.
+
+You can also drag and drop shortcuts to this program
+onto your Desktop or Start Menu using Windows Explorer.
+
+If you want the program to run automatically when Windows
+starts up, then select this option under the "File" menu
+in the program.
+
+I hope you find the program easy to use and useful.
+
+
+Uninstalling this Program :
+---------------------------
+
+At the  present time, there is No Uninstall function.
+
+If you ever want to delete Nixie Clock
+from your computer, then :
+
+ 1. Exit the program, and delete it from wherever 
+    you installed it on your harddrive.
+
+Simple as that !
+
+(Before deleting the program, you should turn off 
+the auto-running of this program under Windows - 
+if you have previously enabled it.  See the menu 
+option under the "File" menu in the program to 
+achieve this - or righ-mouse click and choose 
+the option from the pop-up menu).
+
+
+The Future :
+------------
+
+In the future, many improvements could be made to this program,
+such as :
+
+- Add more digits.
+
+- Add more types of tubes.
+
+- The ability to display the date as well.
+
+- The ability to create and/or use your own digits.
+
+- Maintain Aspect Ratio - so you cannot get digits that
+  are stretched too far out of shape when you re-size the  
+  Nixie Clock's main window.
+
+- Automatically Resize Nixie Clock's main window to suit the
+  digits being displayed.  e.g. resize for optimal viewing 
+  conditions (size), aspect ratio, etc.
+
+- Anything else ?
+
+If you would like any of these improvements, or would like to
+suggest more, please email me and let me know.
+
+How much more work I do on this program depends entirely on
+what support I get, how many people use the program, etc.
+
+
+Reviews / Awards / CDs :
+-------------------------
+
+None so far.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.  
+
+Anyone - any person, any company, or any business - can 
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please 
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select 
+the "About" option under the Help menu, and then click 
+the PayPal link on the "About" screen).
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know.
+
+
+Amendment History :
+-------------------
+
+Vers    Date        Description
+
+1.0  18-Oct-2002    First Public Release.
+                    (29,324 lines of code / comments.)
+
+1.1  22-Oct-2002    Add in additional digit types :
+                    - Z568M Nixie Tubes
+                    - Red and Green LED clock digits
+                    Add in a settings screen to enable the user
+                    to choose the digit graphics and whether to
+                    display HH:MM, HH:MM:SS, or HH:MM:SS:hh.
+                    Improve the timing routines and program efficiency - 
+                    use as little system resources / CPU as possible.
+                    Update the screen 25 times a second if hundreths 
+                    of seconds are being displayed, or less if only 
+                    seconds are displayed, etc.
+                    (29,753 lines of code / comments.)
+
+1.2  07-Nov-2002    Add in additional digit types :
+                    - Unknown Nixie Type
+                    - ZM1020 Round Nixie Tubes
+                    Enable you to change the digit type (on the settings 
+                    screen) and see the results immediately (in the 
+                    main window).
+                    (29,908 lines of code / comments.)
+
+1.2b  20-Nov-2002   Fix a program start / video update issue on super fast PCs.
+                    Bring the program up to date with my latest code libraries.
+                    (35,166 lines of code / comments.)
+
+1.2f  3-Sep-2007    This program is now FREEWARE - see "Freeware Information"
+                    above.
+
+1.3   29-May-2010   Enable the user to change between a 12 and 24 hour clock.
+                    Change done specially for Dietmar.
+
+
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this 
+
+program is available from my WEB page - see below.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://move.to/moose
+____________________________________________________
+ 

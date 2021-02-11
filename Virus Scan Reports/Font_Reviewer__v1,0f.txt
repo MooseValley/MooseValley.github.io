@@ -1,0 +1,156 @@
+Font_Reviewer__v1,0f.zip
+
+Font Reviewer (v1.0f)
+Font_Reviewer
+
+http://www.virustotal.com/en/file/48951f34474a85e2069f078827202bf213002d8197e4c34d8daa440fb139dfe3/analysis/1422312772/
+
+SHA256: 	48951f34474a85e2069f078827202bf213002d8197e4c34d8daa440fb139dfe3
+File name: 	Font_Reviewer__v1,0f.zip
+Detection ratio: 	0 / 54
+Analysis date: 	2015-01-26 22:52:52 UTC ( 0 minutes ago )
+1
+0
+Probably harmless! There are strong indicators suggesting that this file is safe to use.
+
+    Analysis
+    Additional information
+    Comments
+    Votes
+
+Antivirus 	Result 	Update
+ALYac 		20150126
+AVG 		20150126
+AVware 		20150126
+Ad-Aware 		20150126
+AegisLab 		20150126
+Agnitum 		20150126
+AhnLab-V3 		20150126
+Alibaba 		20150126
+Antiy-AVL 		20150126
+Avast 		20150126
+Avira 		20150126
+Baidu-International 		20150126
+BitDefender 		20150126
+Bkav 		20150126
+ByteHero 		20150126
+CAT-QuickHeal 		20150125
+CMC 		20150124
+ClamAV 		20150126
+Comodo 		20150126
+Cyren 		20150126
+DrWeb 		20150126
+ESET-NOD32 		20150126
+Emsisoft 		20150126
+F-Prot 		20150126
+F-Secure 		20150126
+Fortinet 		20150126
+GData 		20150126
+Ikarus 		20150126
+Jiangmin 		20150126
+K7AntiVirus 		20150126
+K7GW 		20150126
+Kaspersky 		20150126
+Kingsoft 		20150126
+Malwarebytes 		20150126
+McAfee 		20150126
+McAfee-GW-Edition 		20150126
+MicroWorld-eScan 		20150126
+Microsoft 		20150126
+NANO-Antivirus 		20150126
+Norman 		20150126
+Panda 		20150126
+Qihoo-360 		20150126
+Rising 		20150126
+SUPERAntiSpyware 		20150125
+Sophos 		20150126
+Symantec 		20150126
+Tencent 		20150126
+TheHacker 		20150126
+TotalDefense 		20150126
+TrendMicro 		20150126
+TrendMicro-HouseCall 		20150126
+VBA32 		20150126
+VIPRE 		20150126
+ViRobot 		20150126
+Zillya 		20150126
+Zoner 		20150123
+nProtect 		20150126 
+
+
+
+
+File identification
+MD5 017acb3e419f7866203baf05481cbf21
+SHA1 4c928e1b67b3de63731159e5635a1fda4bc853ba
+SHA256 48951f34474a85e2069f078827202bf213002d8197e4c34d8daa440fb139dfe3
+ssdeep
+6144:auMd/3Ol0WFarKoKcho/wqpUF65llkBHbo9JRdAoy01eYDgELiA:auMh35rHKc6mF6KBHbo92oyfELiA
+
+File size 263.8 KB ( 270180 bytes )
+File type ZIP
+Magic literal
+Zip archive data, at least v2.0 to extract
+
+TrID 	ZIP compressed archive (100.0%)
+Tags
+zip upx software-collection
+
+VirusTotal metadata
+First submission 2009-11-06 21:00:17 UTC ( 5 years, 2 months ago )
+Last submission 2015-01-26 22:52:52 UTC ( 1 minute ago )
+File names 	Font_Reviewer.zip
+file
+file
+Font_Reviewer__v1,0f.zip
+Advanced heuristic and reputation engines
+ClamAV PUA
+Possibly Unwanted Application. While not necessarily malicious, the scanned file presents certain characteristics which depending on the user policies and environment may or may not represent a threat. For full details see: http://www.clamav.net/doc/pua.html .
+
+Symantec reputation Suspicious.Insight
+ExifTool file metadata
+MIMEType
+application/zip
+
+ZipRequiredVersion
+20
+
+ZipCRC
+0x32de27df
+
+FileType
+ZIP
+
+ZipCompression
+Deflated
+
+ZipUncompressedSize
+31859
+
+ZipCompressedSize
+11232
+
+FileAccessDate
+2015:01:26 23:52:56+01:00
+
+ZipFileName
+catalog.txt
+
+ZipBitFlag
+0
+
+FileCreateDate
+2015:01:26 23:52:56+01:00
+
+ZipModifyDate
+2007:09:18 10:49:16
+
+
+
+Comments
+
+Downloaded from my web site: http://moosevalley.fhost.com.au/
+I am super paranoid about security and all of my PCs are subject to the highest levels of security, so you can rest assured that there are no viruses or malware in any of the software I provide on my web site, as confirmed by this VirusTotal analysis. :)
+Moose
+Posted 0 minutes ago by Moose Delete
+

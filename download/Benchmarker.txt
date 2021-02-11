@@ -1,0 +1,414 @@
+ 
+Windows PC Benchmarker		Copyright (C) Moose O'Malley, 
+----------------------		September 2007.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Why I wrote this program ?
+   | * About the Benchmark Tests
+   | * Hints and Tips for better PC Performance
+   | * Installing and Using this Program
+   | * Uninstalling this Program
+   | * The Future
+   | * Freeware Information
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+Windows PC Benchmarker is for Windows 95, 98, ME, NT, 
+2000, XP, etc.
+
+This program is free software.  Anyone - any person, any company, 
+or any business - can use this program for free.  No fees or 
+payment is required.  See "Freeware Information" below.
+
+Windows PC Benchmarker enables you to :
+
+1.  Benchmark and evaluate the performance of various 
+    selected aspects of your computer.
+
+2.  View the results of this benchmarking in a graph.
+
+3.  Save the results and compare them against other selected 
+    benchmark results.
+
+This program should be useful to anyone who wants to 
+evaluate or test the performance of their computer or 
+tune up or fine tune the various aspects of their PC.
+
+This program benchmarks the operation of various components 
+in your PC and then displays the results in a special 
+logarithmic graph, so that the various values can be shown 
+all on one graph.
+
+This means that significant differences in values may only 
+appear as slight differences in bar lengths on the graph.
+
+To see the values for each test, you need to check the "Show 
+Values" checkbox (in the top right hand corner of the graph).
+
+You can save, load, and compare the results against other 
+saved results.
+
+You can also copy the Benchmark Results graph and the raw 
+benchmark results data (in TAB separated format) to Windows
+Clipboard, so you can use this within your own documents
+or spreadsheets or web pages.  (This should be very useful 
+for PC magazines reviewing a bunch of PCs, or PC manufacturers 
+or overclockers wanting to extol the virtues of their PC, etc).
+
+See "About the Benchmark Tests" below for details of each 
+test, and what the tests mean.
+
+Included with this program are the benchmark results 
+for 4 of my PCs :
+- Pentium 4, 1.8 GHz, Windows XP Pro, 512 MB, 40 HG, 
+  Intel 82845G On-Boad Graphics
+- Pentium III 700 MHz, Windows XP, 256 MB, TNT2 M64, 
+  60 GB 7200 Segate Baracuda IV HDD
+- Celeron 900 PC, 128 MB, SIS On-Board Video
+- Pentium II 300 Mhz, 64 MM, Winfast Video, 3 GB HDD
+- and various other PCs,
+
+against which you can compare your PC, and add your 
+own results to this list.
+
+(At the moment, I own more than 10 PCs - ranging from 
+the first IBM XTs and an old Apple 2 - yes, my whole 
+life is computers ... ;)
+
+Developed using 32-bit Delphi.
+
+This program will **NOT** run under Windows 3.x  
+(even with Win32 installed).
+
+
+Why I wrote this program ?
+--------------------------------------------
+
+I wrote this program because I have always wanted a 
+no hassle / no fuss benchmarking program.
+
+Most (if not all) benchmarking programs out there are 
+complex to use (or they are at least more complex to 
+use than they need to be), and/or they are expensive to buy, 
+and/or many are unsatisfactory in various ways.
+
+In comparison, this program is very easy to use,
+is very inexpensive to buy, and it hopefully provides
+tests that will satisfy your requirements.
+
+This  is a program I have wanted to develop for ages.
+
+
+About the Benchmark Tests :
+----------------------------
+
+Each benchmark test is designed to take between 3 and 
+6 seconds on my Pentium III 700 MHz PC (so that is around
+35 seconds for all 7 tests).   At the time of writing,
+this PC is over 3 years old and is infinitely far from 
+the latest leading edge PCs.
+
+However, if you are running this on an old Pentium 100
+(i.e. a PC that was built in early-mid 1996), then 
+things will be a lot slower than even this.
+
+But, if you are running this program on the latest 
+and most powerful PC then the benchmark tests will 
+complete much more quickly - and you may find that 
+all tests finish in a few seconds (or less !).
+
+N.B.  To get the best results, you should close
+      down all other programs while executing 
+      the benchmark tests.
+
+      See "Hints and Tips for better PC Performance" 
+      below for further details.
+
+The following benchmark tests are available :
+
+** Integer Arithmetic : MIops
+This test is designed to check how quickly a computer
+can perform integer calculations, by executing 900 
+million integer calculations and timing how long 
+they take to execute.  The results are given in :
+- MIops : Millions of Integer Operations per Second
+
+** Floating Point Arithmetic : MFops
+This test is designed to check how quickly a computer
+can perform floating point calculations, by executing 
+more than 125 million floating point calculations and 
+timing how long they take to execute.  The results 
+are given in :
+- MFops : Millions of Floating Point Operations per Second
+
+** Disk Speed (Small Files) : KB/Sec
+This test is designed to check how quickly a computer
+can read and write small files, by creating and 
+writing 500 small (4 KB) files (containing special 
+data) on the selected disk or harddrive and then 
+reading these files back in again while timing how 
+long this process takes.  The results are given in :
+- KB/Sec : Kilo-Bytes per Second (1 KB = 1,024 bytes)
+
+** Disk Speed (Large Files) : KB/Sec
+This test is designed to check how quickly a computer
+can read and write large files, by creating and 
+writing 10 large (10 MB) files (containing special 
+data) on the selected disk or harddrive and then 
+reading these files back in again while timing how 
+long this process takes.  The results are given in :
+- KB/Sec : Kilo-Bytes per Second (1 KB = 1,024 bytes)
+
+** Memory Speed : MB/Sec
+This test is designed to check the speed of your 
+PCs memory (RAM) by creating large dynamic arrays 
+in your PC's memory and then filling these with 
+data and copying data between them, while timing 
+how long this process takes.  The results are 
+given in :
+- MB/Sec : Mega-Bytes per Second 
+(1 MB = 1,024 KB, and 1 KB = 1,024 bytes)
+
+** Graphics: Standard Windows Forms / Controls
+This test is designed to check the speed of your 
+PCs Windows Graphics processing by creating a Windows 
+Form and populating it with a bunch of standard 
+Windows Controls (such as editboxes, listboxes, 
+radio buttons, etc) and then changing the values 
+or attributes of these many 1000's of times, 
+while timing how long this process takes.  
+The results are given in :
+- Controls/Sec
+
+** Graphics: 2D Bitmaps and Drawings
+This test is designed to check the speed of your 
+PCs 2D Graphics processing by creating a Windows 
+Form and populating it with a bunch of simple 
+drawing shapes, and then moving these around 
+and changing their colours and attributes many 
+1000's of times, while timing how long this 
+process takes.  The results are given in :
+- KPix/Sec : 1000's of Pixels per Second
+
+When these tests have been run, it is possible to 
+compare how your PC performs against other PCs,
+or fine tune your PC so that it performs better.
+
+
+Hints and Tips for better PC Performance :
+------------------------------------------
+
+Here are some simple hints and tips to improving 
+the performance of your PC (and improving its
+benchmark results) :
+
+1. Make sure your PC has enough memory (RAM).
+   e.g. if you are running Windows XP, then your 
+   PC should have at least 128 MB of RAM, and 
+   preferably 256 MB or more RAM.
+
+2. Defregment your registry and system files
+   every time you boot your PC.  (This requires
+   some special software, such as Page Defrag
+   by Sysinternals - www.sysinternals.com).
+
+3. Defragment your harddrive once per month.
+
+4. Scan Disk your harddrive at least once per 
+   month.
+
+5. Uninstall no longer needed software,
+   especially if that software has a tendency 
+   to run every time Windows starts up.
+   Tweak XP and various other programs can 
+   help with this.
+
+6. Only run the programs you need.
+   For example, if you are running Word, Excel, 
+   Powerpoint, Internet Explorer, Eudora, and a 
+   bunch of other programs, and system resources 
+   are becoming scarce or your PC is starting to 
+   slow down, then close the programs you no longer 
+   need open - you can always re-open them later.
+
+7. Use Moose's Software - it is useful, inexpensive,
+   regularly updated, and very well supported ! ;)
+      http://move.to/moose
+
+
+Installing and Using this Program :
+-----------------------------------
+
+To use this program, unzip the contents of the ZIP file to a 
+directory - such as c:\Program Files\ - and run the executable 
+file : Benchmarker.EXE.
+
+You can also drag and drop shortcuts to this program
+onto your Desktop or Start Menu using Windows Explorer.
+
+If you want the program to run automatically when Windows
+starts up, then select this option under the "File" menu
+in the program.
+
+I hope you find the program easy to use and useful.
+
+
+Uninstalling this Program :
+---------------------------
+
+At the  present time, there is No Uninstall function.
+
+If you ever want to delete Windows PC Benchmarker  
+from your computer, then :
+
+ 1. Exit the program, and delete it from wherever 
+    you installed it on your harddrive.
+
+Simple as that !
+
+
+The Future :
+------------
+
+In the future, many improvements could be made to this program,
+such as :
+
+- More benchmark tests.  e.g. 3D graphics, CPU <-> L2 cache 
+  speed, etc.
+
+- More graph options.  e.g. the ability to compare the 
+  benchmark results of 3 or more PCs at once.
+
+- Add in benchmark results for the earliest computers :
+  The ENIAC (1946), the Manchester Mark 1, EDSAC, and others,
+  so you can see how many 1,000's of times faster your lovely 
+  PC is in comparison to these early pioneering machines.
+
+- Detailed progress indicators during the benchmarking process.
+
+- The ability to abort the benchmarking process.
+
+- Anything else ?
+
+If you would like any of these improvements, or would like to
+suggest more, please email me and let me know.
+
+How much more work I do on this program depends entirely on
+what support I get, how many people use the program, etc.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.  
+
+Anyone - any person, any company, or any business - can 
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please 
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select 
+the "About" option under the Help menu, and then click 
+the PayPal link on the "About" screen).
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know.
+
+
+Amendment History :
+-------------------
+
+Vers    Date        Description
+
+1.0  29-Oct-2002    First Public Release.
+                    (35,092 lines of code / comments.)
+
+1.1   5-Nov-2002    Calculate and store all results as Extended Length 
+                    Real Numbers to handle massive numbers up to 10^4932.
+                    i.e. This program will be able to benchmark just about 
+                    any imaginable future computer - even those trillions of 
+                    trillions of trillions of trillions of times faster than 
+                    the fastest computers currently on the planet - without 
+                    numeric overflow, truncation or wrapping errors.
+                    Fix a bug in the Integer Operations Per Second value.
+                    When results are saved or replaced, update the name on 
+                    the graph if appropriate.
+                    Registered users can change the number of repetitions of the 
+                    benchmark tests or the drive being tested.
+                    Allow Registered Users to change and set their own benchmark 
+                    options for each test.  For example, the number of files to 
+                    create, the size of files to create, the number of integer 
+                    operations to time, etc, etc.  No other benchmarking program 
+                    I know of provides this level of control or flexibility or 
+                    customisability to the user.
+                    Automatically save any un-saved data when exiting the program - 
+                    under the name 'Auto-Save'.
+                    (35,420 lines of code / comments.)
+
+1.2  20-Nov-2002    Add in a "Copy Graph to Windows Clipboard" option under 
+                    the "Edit" menu.
+                    Add in a "Copy Results Data to Windows Clipboard" option 
+                    under the "Edit" menu.
+                    Fix units of graph for disk speed rates : they are KB/Sec 
+                    not MB/Sec.
+                    (40,969 lines of code / comments.)
+
+1.3  11-Dec-2002    Add File Menu options to enable the user to create or delete
+                    shortcuts to this program on the Desktop, StartMenu, etc -
+                    you can do this *ANY* time - not just when the program is
+                    being installed.  (All Windows programs should provide this
+                    functionality).
+                    Sadly, not everyone uses a full stop as the decimal point.
+                    For example, some countries allow you to use a comma as both the
+                    decimal point and the thousands separator.
+                    In these cases, would this number "123,456,789" be 123,456.789 
+                    or 123,456,789 or something else ?   God help us !!!  ;-/
+                    So, if you have a "." as the Decimal Separator, and save some 
+                    benchmark results and then change your Windows Regional Settings 
+                    so that comma is the Decimal Separator, and try and load the 
+                    benchmark results then the you will get "invalid number" errors.
+                    To avoid these errors, I now force all data to be loaded and 
+                    saved with a particular format with "." as the decimal point, 
+                    and "," as the thousand's separator.
+                    By doing this, benchmark results saved on one computer can be 
+                    used on any other computer - regardless of its regional settings.
+                    (Thanks for reporting this problem Solutor - Greetings to you 
+                    in Hungary ! :)
+                    Add Solutor's PC into the benchmark results database (distributed 
+                    with this program) : AMD Athlon XP 1800+, 256MB 266MHz DDR RAM, 
+                    Maxtor 60GB 7200 HDD, Inno3D GF4 Ti 4200 128MB, Windows 2000 Pro,
+                    and Overclocked from 1533 to 1673MHz.
+                    (53,683 lines of code / comments.)
+
+1.3f  3-Sep-2007    This program is now FREEWARE - see "Freeware Information"
+                    above.
+
+
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this 
+program is available from my WEB page - see below.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://move.to/moose
+____________________________________________________
+ 

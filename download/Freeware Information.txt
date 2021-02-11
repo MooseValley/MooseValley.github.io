@@ -1,0 +1,155 @@
+
+Installers:
+
+d:\moose's shareware\download\Computer_Space_Simulator.zip - Computer_Space_Install.EXE
+d:\moose's shareware\download\Computer_Space_Simulator.zip - Computer_Space_Install.txt
+d:\moose's shareware\download\Computer_Space_Simulator__One_Click.zip - Computer_Space_Install.txt
+d:\moose's shareware\download\Computer_Space_Simulator__One_Click.zip - Computer_Space_Install__One_Click.EXE
+d:\moose's shareware\download\game005.zip - Game_Installer.EXE
+d:\moose's shareware\download\game005.zip - Game_Installer.txt
+d:\moose's shareware\download\key_snd.zip - Key_Sound_Generator_Install.EXE
+d:\moose's shareware\download\key_snd.zip - Key_Sound_Generator_Install.txt
+d:\moose's shareware\download\Robot_Simulator_Install.zip - Robot_Simulator_Install.EXE
+d:\moose's shareware\download\Robot_Simulator_Install.zip - Robot_Simulator_Install.txt
+d:\moose's shareware\download\Robot_Simulator_Install__TRIAL.zip - Robot_Simulator_Install - TRIAL.EXE
+d:\moose's shareware\download\Robot_Simulator_Install__TRIAL.zip - Robot_Simulator_Install.txt
+d:\moose's shareware\download\Sag_Calculator_Installer_Trial.zip - Sag_Calculator_Installer_Trial.EXE
+d:\moose's shareware\download\Sag_Calculator_Installer_Trial.zip - sag_install_info.txt
+d:\moose's shareware\download\talkclck.zip - Talking_Clock_Install.EXE
+d:\moose's shareware\download\talkclck.zip - Talking_Clock_Install.txt
+d:\moose's shareware\download\Yahtzee.zip - Yahtzee_Install.EXE
+d:\moose's shareware\download\Yahtzee.zip - Yahtzee_Install.txt
+
+
+No installed needed:
+BigMouse          *** ALREADY DONE ***
+key_snd.zip       *** DONE - Install / Uninstall instructions updated ***
+Robot_Simulator   *** DONE - Install / Uninstall instructions updated ***
+talkclck          *** DONE - no instructions updated needed
+Yahtzee           *** DONE - Install / Uninstall instructions updated ***
+
+
+
+
+** Converted to FREEWARE:
+-------------------------
+Backup_Again.dpr
+Benchmarker.dpr
+bigmouse.dpr
+Binary_Clock.dpr
+Checksum.dpr
+codeaudt.dpr
+CPU_MON.DPR
+dirusage.dpr
+DISK_MON.DPR
+File_mon.dpr
+File_Mover_Copier.dpr
+filetool.dpr
+Font_Reviewer.dpr
+FORM_PRO.DPR
+INTCLOCK.DPR
+key_snd.dpr
+Key_Stroke_Recorder.dpr
+keybd_od.dpr
+Keyboard_Mapper.dpr
+lifeclck.dpr
+Lottery.dpr
+morsecod.dpr
+Mosaic_Maker_Extractor.dpr
+Mouse_od.dpr
+Nixie_Clock.dpr
+parrot.dpr
+patcher.dpr
+Periodic_Table.dpr
+pong.dpr
+Postcode.dpr
+Print_Pictures.dpr
+ram_swap.dpr
+Real_Estate_Calculator.dpr
+Robot_Simulator.dpr
+Sanitize_Disk_Space.dpr
+Screen_Machine.dpr
+Solar_System_Simulator.dpr
+Spam_Analysis_Tool.dpr
+StayOnTop.dpr
+Stopwtch.dpr
+STORMDIS.DPR
+Talkclck.dpr
+Textbut.dpr
+winpaper.dpr
+Words_Worth.dpr
+Yahtzee.dpr
+Zip_Cracker.dpr
+
+Birthday_And_Event_Reminder.dpr
+Int_DLoad.dpr
+Quizmstr.dpr
+sortit.dpr
+FileSync.dpr
+
+	
+** Issues / Workd to be Done:
+------------------------------
+Birthday_And_Event_Reminder.dpr - Missing XStringGrid component   *** FIXED ***
+Int_DLoad.dpr - extra functionality to be removed                 *** FIXED ***
+Quizmstr.dpr  - extra functionality to be removed                 *** FIXED ***
+sortit.dpr - RichEdit_sortutil.inc missing                        *** FIXED ***
+FileSync.dpr - lists not working right ...  Dir stub double ups.  *** FIXED ***
+
+** Will NOT Be Released as FREEWARE:
+------------------------------------
+sag32.dpr
+	
+
+
+
+{$DEFINE DISABLE_ALL_EXE_INTEGRITY_CHECKS}
+{$DEFINE DISABLE_ALL_EXE_INTEGRITY_CHECKS_QUIETLY_NO_MESSAGE}
+
+
+September 2007
+
+  program_status              = 'P';             { S=Shareware, P=Public Domain, R=Registered, T=Time Trial. }
+
+{ I register.inc}       { Registration Utils / functions }
+{$I register__FREEWARE.inc}  { Registration Utils / functions - All Apps that use this are FREEWARE }
+
+
+
+------------------			September 2007.
+
+   | * Reviews / Awards / CDs
+   | * Freeware Information
+
+
+This program is free software.  Anyone - any person, any company, 
+or any business - can use this program for free.  No fees or 
+payment is required.  See "Freeware Information" below.
+
+
+
+
+Reviews / Awards / CDs :
+-------------------------
+
+None so far.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.  
+
+Anyone - any person, any company, or any business - can 
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please 
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select 
+the "About" option under the Help menu, and then click 
+the PayPal link on the "About" screen).
+
+
+x.xf  3-Sep-2007    This program is now FREEWARE - see "Freeware Information"
+                    above.
+

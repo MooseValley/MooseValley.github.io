@@ -1,0 +1,155 @@
+dirusage__v1,2f.zip
+
+Directory_Usage_Monitor
+
+Directory Usage Monitor (v1.2f)
+
+http://www.virustotal.com/en/file/c736424ebbb60630330cface7b1b6807f942c52d805505154a6b5af45f650807/analysis/1422141498/
+
+SHA256: 	c736424ebbb60630330cface7b1b6807f942c52d805505154a6b5af45f650807
+File name: 	dirusage__v1,2f.zip
+Detection ratio: 	0 / 57
+Analysis date: 	2015-01-24 23:18:18 UTC ( 0 minutes ago )
+1
+0
+
+    Analysis
+    Additional information
+    Comments
+    Votes
+
+Antivirus 	Result 	Update
+ALYac 		20150124
+AVG 		20150124
+AVware 		20150124
+Ad-Aware 		20150124
+AegisLab 		20150124
+Agnitum 		20150124
+AhnLab-V3 		20150124
+Alibaba 		20150120
+Antiy-AVL 		20150124
+Avast 		20150124
+Avira 		20150124
+Baidu-International 		20150124
+BitDefender 		20150124
+Bkav 		20150124
+ByteHero 		20150125
+CAT-QuickHeal 		20150124
+CMC 		20150124
+ClamAV 		20150124
+Comodo 		20150124
+Cyren 		20150124
+DrWeb 		20150124
+ESET-NOD32 		20150124
+Emsisoft 		20150124
+F-Prot 		20150124
+F-Secure 		20150124
+Fortinet 		20150124
+GData 		20150124
+Ikarus 		20150124
+Jiangmin 		20150124
+K7AntiVirus 		20150124
+K7GW 		20150124
+Kaspersky 		20150124
+Kingsoft 		20150125
+Malwarebytes 		20150125
+McAfee 		20150124
+McAfee-GW-Edition 		20150124
+MicroWorld-eScan 		20150125
+Microsoft 		20150125
+NANO-Antivirus 		20150124
+Norman 		20150123
+Panda 		20150124
+Qihoo-360 		20150125
+Rising 		20150123
+SUPERAntiSpyware 		20150124
+Sophos 		20150125
+Symantec 		20150124
+Tencent 		20150125
+TheHacker 		20150123
+TotalDefense 		20150124
+TrendMicro 		20150124
+TrendMicro-HouseCall 		20150124
+VBA32 		20150123
+VIPRE 		20150124
+ViRobot 		20150124
+Zillya 		20150124
+Zoner 		20150123
+nProtect 		20150123 
+
+
+
+
+
+File identification
+MD5 8aaf6703588f71fb48b548175396b706
+SHA1 e682922f3c13f2cee431c9ba996ad3ab082c7212
+SHA256 c736424ebbb60630330cface7b1b6807f942c52d805505154a6b5af45f650807
+ssdeep
+6144:QH73Y7FfyhpTTsqBdYrU05vltG4SRPh8W:K73YxfwZs0AJxn4PyW
+
+File size 262.3 KB ( 268642 bytes )
+File type ZIP
+Magic literal
+Zip archive data, at least v2.0 to extract
+
+TrID 	ZIP compressed archive (100.0%)
+Tags
+zip upx
+
+VirusTotal metadata
+First submission 2013-12-16 11:56:36 UTC ( 1 year, 1 month ago )
+Last submission 2015-01-24 23:18:18 UTC ( 1 minute ago )
+File names 	directory-usage-monitor-1.2f.zip
+dirusage__v1,2f.zip
+Advanced heuristic and reputation engines
+ClamAV PUA
+Possibly Unwanted Application. While not necessarily malicious, the scanned file presents certain characteristics which depending on the user policies and environment may or may not represent a threat. For full details see: http://www.clamav.net/doc/pua.html .
+
+Symantec reputation Suspicious.Insight
+ExifTool file metadata
+MIMEType
+application/zip
+
+ZipRequiredVersion
+20
+
+ZipCRC
+0x32de27df
+
+FileType
+ZIP
+
+ZipCompression
+Deflated
+
+ZipUncompressedSize
+31859
+
+ZipCompressedSize
+11232
+
+FileAccessDate
+2015:01:25 00:18:19+01:00
+
+ZipFileName
+catalog.txt
+
+ZipBitFlag
+0
+
+FileCreateDate
+2015:01:25 00:18:19+01:00
+
+ZipModifyDate
+2007:09:18 10:49:16
+
+
+
+
+Comments
+
+Downloaded from my web site: http://moosevalley.fhost.com.au/
+I am super paranoid about security and all of my PCs are subject to the highest levels of security, so you can rest assured that there are no viruses or malware in any of the software I provide on my web site, as confirmed by this VirusTotal analysis. :)
+Moose
+Posted 0 minutes ago by Moose Delete

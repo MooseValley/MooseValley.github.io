@@ -1,0 +1,153 @@
+
+MineSweeper			Copyright (C) Moose O'Malley,
+--------------			June 2018.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Using this Program
+   | * Useful links
+   | * The Future
+   | * Reviews / Awards / CDs
+   | * Freeware Information
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+MineSweeper :
+--------------
+
+MineSweeper is a simple game that runs under the Java Virtual
+Machine (JVM).
+
+MineSweeper is my clone of the Windows Game "MineSweeper".
+
+How to Play:
+* Left mouse click: select squares that you hope aren't mines.
+* Right mouse click: flag squares that you think are mines.
+* Use the number inside the squares to work out where nearby mines are.
+* Keep going until you have selected all squares or hit a mine.
+
+Also:
+* Use Ctrl + Mouse Wheel Up/Down to increase / decrease font size
+(just like you can do on a web page).
+
+This game will run on ANY operating system that is capable of
+running the JVM, including desktops, laptops, and tablets running
+Windows, Linux, Unix, etc, such as PCs, Macs, Raspberry PI, etc.
+
+I never really played MineSweeper much until early 2018, and then
+I realised what a terrific game it is.  So, on a rainy Sunday morning,
+I created my own version.
+
+This program is free software.  Anyone - any person, any company,
+or any business - can use this program for free.  No fees or
+payment is required.  See "Freeware Information" below.
+
+
+Using this Program :
+--------------------
+
+Download and install the Java Runtime Environment (JRE) for
+your machine / OS (if it is not already installed on your machine):
+
+http://www.oracle.com/technetwork/java/javase/downloads/index.html
+
+Extract the contents of the Oblotteration.zip file you
+downloaded from my web site to a folder on your machine.
+
+And then, double click on:
+
+	MineSweeperGUI.jar
+
+icon / file to run the game in the Java Virtual Machine (JVM).
+
+
+Useful links :
+--------------
+
+Minesweeper Wiki
+http://www.minesweeper.info/wiki/Main_Page
+
+Minesweeper The Movie (trailer)
+https://www.youtube.com/watch?v=LHY8NKj3RKs
+
+
+The Future :
+------------
+
+In the future, many improvements could be made to this program,
+such as :
+
+- Better sound effects, more sound effetcs, etc.
+
+- Game levels: easy, hard, super hard, Oh come on !!!,
+you've got to be joking, etc.
+
+- Different modes of play, 2 or more Players, internet play,
+play by email, etc.
+
+- Anything else ?
+
+If you would like any of these improvements, or would like to
+suggest more, please email me and let me know.
+
+How much more work I do on this program depends entirely on
+what support I get, how many people use the program, etc.
+
+
+Reviews / Awards / CDs :
+-------------------------
+
+None so far.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.
+
+Anyone - any person, any company, or any business - can
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select
+the "About" option under the Help menu, and then click
+the PayPal link on the "About" screen).
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let
+me know.
+
+
+Amendment History :
+--------------------
+
+Vers    Date        Description
+
+1.0f 26-Jun-2018    First public release and my 100th software
+                    title released on my Moose's Software Valley web page.
+                    (1,146 lines of code / comments / blank lines in primary source files.)
+
+
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this
+program is available from my WEB page - see below.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://moosesoftware.16mb.com/
+____________________________________________________

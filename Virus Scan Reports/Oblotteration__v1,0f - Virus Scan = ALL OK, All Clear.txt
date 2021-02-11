@@ -1,0 +1,97 @@
+Oblotteration__v1,0f.zip
+http://www.mediafire.com/file/u06p19na2cwpzly/Oblotteration__v1%2C0f.zip
+
+As always, I virus scan all of the files I release against 55 of the leading virus scanners on the Virus Total web site, and updated Sag Calculator (v3.6.01) has a 100% clean bill of health.  Here's a link to the scan report:
+
+https://www.virustotal.com/en/file/afdca0d4d1077f0ee9b37a5e7c283596b357aeee020b0b6d51694e54f3447c7d/analysis/
+
+
+If you have any further issues, please let me know.  :)
+
+
+*************************************************
+
+https://www.virustotal.com/en/file/afdca0d4d1077f0ee9b37a5e7c283596b357aeee020b0b6d51694e54f3447c7d/analysis/
+
+
+SHA256: 	afdca0d4d1077f0ee9b37a5e7c283596b357aeee020b0b6d51694e54f3447c7d
+File name: 	Oblotteration__v1,0f.zip
+Detection ratio: 	0 / 55
+Analysis date: 	2017-01-30 12:18:01 UTC ( 0 minutes ago )
+1
+0
+
+    Analysis
+    File detail
+    Additional information
+    Comments 0
+    Votes
+
+Antivirus 	Result 	Update
+ALYac 		20170130
+AVG 		20170130
+AVware 		20170130
+Ad-Aware 		20170130
+AegisLab 		20170130
+AhnLab-V3 		20170129
+Alibaba 		20170122
+Antiy-AVL 		20170130
+Arcabit 		20170130
+Avast 		20170130
+Avira (no cloud) 		20170130
+Baidu 		20170125
+BitDefender 		20170130
+Bkav 		20170123
+CAT-QuickHeal 		20170130
+CMC 		20170130
+ClamAV 		20170130
+Comodo 		20170130
+CrowdStrike Falcon (ML) 		20161024
+Cyren 		20170130
+DrWeb 		20170130
+ESET-NOD32 		20170130
+Emsisoft 		20170130
+F-Prot 		20170130
+F-Secure 		20170130
+Fortinet 		20170130
+GData 		20170130
+Ikarus 		20170130
+Invincea 		20170111
+Jiangmin 		20170130
+K7AntiVirus 		20170130
+K7GW 		20170130
+Kaspersky 		20170130
+Kingsoft 		20170130
+Malwarebytes 		20170130
+McAfee 		20170130
+McAfee-GW-Edition 		20170130
+eScan 		20170130
+Microsoft 		20170130
+NANO-Antivirus 		20170130
+Panda 		20170129
+Qihoo-360 		20170130
+Rising 		20170130
+SUPERAntiSpyware 		20170130
+Sophos 		20170130
+Symantec 		20170129
+Tencent 		20170130
+TheHacker 		20170129
+TrendMicro 		20170130
+TrendMicro-HouseCall 		20170130
+Trustlook 		20170130
+VBA32 		20170130
+VIPRE 		20170130
+ViRobot 		20170130
+WhiteArmor 		20170123
+Yandex 		20170129
+Zillya 		20170128
+Zoner 		20170130
+nProtect 		20170130
+
+
+Comments
+Downloaded from my web site: http://moosesoftware.16mb.com/
+I am super paranoid about security and all of my PCs are subject to the highest levels of security, so you can rest assured that there are no viruses or malware in any of the software I provide on my web site, as confirmed by this VirusTotal analysis. :)
+Moose
+Posted 0 minutes ago by Moose Delete
+

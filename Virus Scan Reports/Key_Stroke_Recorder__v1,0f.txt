@@ -1,0 +1,146 @@
+Key_Stroke_Recorder__v1,0f.zip
+
+Key_Stroke_Recorder
+
+Key Stroke Recorder (v1.01f)
+
+http://www.virustotal.com/en/file/f9aafcaf6b9c54222796714df06598721a85d2d636d2021ed55cdb20c237e5a7/analysis/1422139426/
+
+SHA256: 	f9aafcaf6b9c54222796714df06598721a85d2d636d2021ed55cdb20c237e5a7
+File name: 	Key_Stroke_Recorder.zip
+Detection ratio: 	0 / 57
+Analysis date: 	2015-01-24 22:43:46 UTC ( 0 minutes ago )
+0
+0
+
+    Analysis
+    Additional information
+    Comments
+    Votes
+
+Antivirus 	Result 	Update
+ALYac 		20150124
+AVG 		20150124
+AVware 		20150124
+Ad-Aware 		20150124
+AegisLab 		20150124
+Agnitum 		20150124
+AhnLab-V3 		20150124
+Alibaba 		20150120
+Antiy-AVL 		20150124
+Avast 		20150124
+Avira 		20150124
+Baidu-International 		20150124
+BitDefender 		20150124
+Bkav 		20150124
+ByteHero 		20150124
+CAT-QuickHeal 		20150124
+CMC 		20150124
+ClamAV 		20150124
+Comodo 		20150124
+Cyren 		20150124
+DrWeb 		20150124
+ESET-NOD32 		20150124
+Emsisoft 		20150124
+F-Prot 		20150124
+F-Secure 		20150124
+Fortinet 		20150124
+GData 		20150124
+Ikarus 		20150124
+Jiangmin 		20150124
+K7AntiVirus 		20150124
+K7GW 		20150124
+Kaspersky 		20150124
+Kingsoft 		20150124
+Malwarebytes 		20150124
+McAfee 		20150124
+McAfee-GW-Edition 		20150124
+MicroWorld-eScan 		20150124
+Microsoft 		20150124
+NANO-Antivirus 		20150124
+Norman 		20150123
+Panda 		20150124
+Qihoo-360 		20150124
+Rising 		20150123
+SUPERAntiSpyware 		20150124
+Sophos 		20150124
+Symantec 		20150124
+Tencent 		20150124
+TheHacker 		20150123
+TotalDefense 		20150124
+TrendMicro 		20150124
+TrendMicro-HouseCall 		20150124
+VBA32 		20150123
+VIPRE 		20150124
+ViRobot 		20150124
+Zillya 		20150124
+Zoner 		20150123
+nProtect 		20150123 
+
+
+
+File identification
+MD5 b3904a829cb21f0f53afa47ecfd7ab04
+SHA1 07d8a93dfda3ab0d82d82771a2db9c0b7e405cdd
+SHA256 f9aafcaf6b9c54222796714df06598721a85d2d636d2021ed55cdb20c237e5a7
+ssdeep
+384:RytZ3ENFSGCPKd+uMdD6UDBQ5IrmdhqZ+O/ZVTM1sBQq4Qgs1AkMaMyW41h:AtSuoMu8NBudokO/Z5M1EQbfkhu41h
+
+File size 15.6 KB ( 15949 bytes )
+File type ZIP
+Magic literal
+Zip archive data, at least v2.0 to extract
+
+TrID 	ZIP compressed archive (100.0%)
+Tags
+zip
+
+VirusTotal metadata
+First submission 2015-01-24 22:43:46 UTC ( 1 minute ago )
+Last submission 2015-01-24 22:43:46 UTC ( 1 minute ago )
+File names 	Key_Stroke_Recorder.zip
+ExifTool file metadata
+MIMEType
+application/zip
+
+ZipRequiredVersion
+20
+
+ZipCRC
+0x32de27df
+
+FileType
+ZIP
+
+ZipCompression
+Deflated
+
+ZipUncompressedSize
+31859
+
+ZipCompressedSize
+11723
+
+FileAccessDate
+2015:01:24 23:43:46+01:00
+
+ZipFileName
+catalog.txt
+
+ZipBitFlag
+0
+
+FileCreateDate
+2015:01:24 23:43:46+01:00
+
+ZipModifyDate
+2007:09:18 10:49:16
+
+
+
+Comments
+
+Downloaded from my web site: http://moosevalley.fhost.com.au/
+I am super paranoid about security and all of my PCs are subject to the highest levels of security, so you can rest assured that there are no viruses or malware in any of the software I provide on my web site, as confirmed by this VirusTotal analysis. :)
+Moose
+Posted 0 minutes ago by Moose Delete

@@ -1,0 +1,186 @@
+ 
+Mad Cow Disease Diagnosis		Copyright (C) Moose O'Malley, 
+-------------------------		December 2002.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Why I wrote this program ?
+   | * Credits / Thanks
+   | * Installing and Using this Program
+   | * Uninstalling this Program
+   | * The Future
+   | * Reviews / Awards / CDs
+   | * Freeware Information
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+Mad Cow Disease Diagnosis is a "for fun" program for Windows 
+95, 98, ME, NT, 2000, XP, etc.
+
+This program is free software.  Anyone - any person, any company, 
+or any business - can use this program for free.  No fees or 
+payment is required.  See "Freeware Information" below.
+
+Simply click on the images displayed to hear sounds of normal 
+and mad cows.
+
+Developed using 32-bit Delphi.
+
+This program will **NOT** run under Windows 3.x  
+(even with Win32 installed).
+
+
+Why I wrote this program ?
+--------------------------
+
+I wrote this program because I have a personal "interest" 
+in Mad Cow Disease.
+
+From 1990 to 1996, I lived in the United Kingdom, and
+I believed the lies of UK politicians who loudly and 
+very publicly declared that British beef was 100% safe
+and that there was absolutely no danger in eating it.
+The politicians even wheeled their children out in front 
+of TV cameras to eat hamburgers to convince the nation 
+to eat beef.
+
+So, I thought it was safe, and I ate lots of beef 
+(steak, hamburgers, beef curry, chille con carne, 
+roast beef, etc) during my stay in the UK.
+
+However, when I returned to Australia in 1996, I 
+discovered - much to my horror - that I was no longer 
+able to donate blood because there is a real risk that I
+am a carrier for Mad Cow Disease and that I might one-day 
+develop the disease - all thanks to living in the UK and 
+eating beef whilst there.
+
+I thought the Australia Red Cross were joking when they 
+rejected me as a blood donour in late 1996 - but they were 
+deadly serious.
+
+(Prior to this, I had been a regular blood donor).
+
+So, now I am simply playing a waiting game - either I 
+will contract the disease or I wont.
+
+There is no cure.
+
+My last and only defence is to laugh at the disease.
+
+And to help this along, I have developed this program.
+
+
+Credits / Thanks :
+------------------
+
+I obtained the sound files and pictures / animations
+of the cows from various sites on the internet.
+(They are available at many 1,000's of web pages).
+
+However, I have no idea who originally prepared these,
+and I would hazard a guess that most if not all of these
+web site maintainers are similarly "in the dark" about this.  
+
+(Whoever recorded the sound effects is either in serious
+need of medication, or they already have contracted the 
+disease ... ;))
+
+So, if you know who is responsible, send me an email, 
+and I will give them full credit here.
+
+
+Installing and Using this Program :
+-----------------------------------
+
+To use this program, unzip the contents of the ZIP file to a 
+directory - such as c:\mad_cow\ - and run the executable 
+file : Mad_Cow_Disease.EXE.
+
+If you want the program to run automatically when Windows
+starts up (but you would have to be "mad" to want this), 
+then select this option under the "File" menu in the program.
+
+I hope you find the program easy to use and useful.
+
+
+Uninstalling this Program :
+---------------------------
+
+At the  present time, there is No Uninstall function.
+
+If you ever want to delete Mad Cow Disease 
+from your computer, then :
+
+ 1. Exit the program, and delete it from wherever 
+    you installed it on your harddrive.
+
+Simple as that !
+
+
+The Future :
+------------
+
+No plans at this stage - what more is there to do ??
+
+
+Reviews / Awards / CDs :
+-------------------------
+
+None so far.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.  
+
+Anyone - any person, any company, or any business - can 
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please 
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select 
+the "About" option under the Help menu, and then click 
+the PayPal link on the "About" screen).
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know.
+
+
+Amendment History :
+-------------------
+
+Vers    Date        Description
+
+1.0  10-Dec-2002    First Public Release.
+                    (44,994 lines of code / comments.)
+
+
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this 
+program is available from my WEB page - see below.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://move.to/moose
+____________________________________________________
+ 

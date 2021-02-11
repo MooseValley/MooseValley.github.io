@@ -1,0 +1,685 @@
+ 
+MAME32 Tools				Copyright (C) Moose O'Malley, 
+-------------				November 2002.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction (LONG)
+   | * Why I wrote this Program / Why use this Program
+   | * Using this Program
+   | * MAME 32 and MAME Tools
+   | * DOS MAME Front End
+   | * Multiple ROM Directories
+   | * Filtering Out No Longer Support Games
+   | * Limitations / Restrictions of the program
+   | * The Future
+   | * Special Greetings / Thanks to
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+N.B. This program is for use with versions of MAME 32 prior 
+     to v0.63. If you are using MAME v0.63 or later, then 
+     please use MAME 32 INI Tools.
+
+MAME32 Tools for Windows 95 / 98 / NT / 2000 / ME / etc.
+
+MAME32 Tools is a companion utility / tool for the 
+MAME 32 Arcade Machine Emulator :
+
+	http://www.mame.net
+
+MAME32 Tools is also compatible with the various "unofficial" MAME 32 
+emulators out there, such as MAME Screen Saver, Stretch MAME,
+Advanced MAME, etc.
+
+MAME32 INI Tools is a companion utility to MAME 32 - that means 
+that it is designed to be used in conjunction with MAME 32.  
+i.e. used in conjunction with the Windows GUI version of MAME.
+
+Indeed, for MAME32 Tools to be fully functional, you need to have 
+DOS MAME and MAME 32 (or StretchMAME, Advance MAME, etc) installed 
+on your PC as well, and ideally, you should have run MAME 32 and 
+used it to audit all ROMs before MAME32 Tools is used.
+
+When you have done this, MAME32 Tools can provide some useful and 
+powerful functionality.
+
+This program does not have *ANY* in-built ROM auditing capabilities, 
+as I could see absolutely no point in duplicating this functionality 
+that is already provided by MAME 32.  To do so would have been a 
+complete waste of time.  So, this program needs MAME 32 to tell it
+which ROMs are correct, etc.
+
+MAME32 Tools currently allows you to do a whole bunch of things,
+and, listed by category, these are :
+
+
+
+*********************************************
+***   P L A Y E D   C O U N T S   tab    ****
+*********************************************
+- List All games supported by MAME32.
+- List All MAME32 games that you have NEVER played.
+- List All MAME32 games that you have played at least once.
+- List All games where either the original or its clones have been played.
+- List All games where neither the original nor its clones have NOT been played.
+- Change the "Played Count" to ZERO for ALL MAME32 games.
+- Change the "Played Count" to ONE for ALL MAME32 games.
+- Change the "Played Count" to ONE for ALL MAME32 games that 
+  you have NEVER played.
+- Change the "Played Count" to ONE for ALL games where either the original 
+  or its clones have been played.
+
+*********************************************
+***   R O M   Z I P S   tab              ****
+*********************************************
+- List All games which have matching ROM ZIP files.
+- List All games which do NOT have matching ROM ZIP files.
+  (These games could already be extracted to their own directory,
+   or they could be inside another zip file.  i.e. one that doesn't
+   have their name).
+- List ROM ZIP files that are not associated with any game 
+  currently supported by MAME 32.
+- Move these Unused ROM ZIPs to another directory.
+- Move all Clone ZIP files to another directory.
+
+*********************************************
+***   A U D I T  R E S U L T S   tab     ****
+*********************************************
+- List All games which were successfully audited by MAME 32.
+- List All games which failed the audit by MAME 32.
+- List all games that were successfully audited but have 
+  never been played.
+
+*********************************************
+***   F A V O U R I T E S   tab          ****
+*********************************************
+- List games marked as Favourites in MAME 32.
+- List games marked which are NOT Favourites in MAME 32.
+
+*********************************************
+***   S C R E E N  S H O T S   tab       ****
+*********************************************
+- List games that have screenshots in the screen shot directory and/or
+  in SNAP.ZIP.
+- List games which do NOT have any screenshots.
+- List screenshots that are not directly associated with any game.
+- List All games where either the original or its clones have a Screenshot(s).
+- List All games where neither the original nor its clones have a Screenshot(s).
+- Change the played count to ZERO for all games without screen shots.
+  (This then enables you to sort games by played count in MAME 32, and play 
+  the games that are missing screenshots so you can then pess F12 and 
+  get the missing screenshots).
+- Change the played count to One for all games which have screen shots
+  but currently have a played count of zero.
+  (This then enables you to sort games by played count in MAME 32, and play 
+  the just those games that do not already have screenshots).
+- Change the "Played Count" to ZERO for ALL MAME32 games where either the 
+  original or its clones do NOT have any screenshot.
+- Change the "Played Count" to ONE for ALL MAME32 games where either the 
+  original or its clones have a screenshot.
+
+*********************************************
+***   S E T T I N G S   tab              ****
+*********************************************
+- Save / Load Settings : Column Order, Column Shown, Column Widths, List 
+  Font, etc so when you install a new MAME, you can easily and quickly 
+  get the column / order / size back to what you had previously.
+- Select MAME version - based on where the Registry settings are stored.
+  Currently, all known vcersions of MAME use either MAME32's Registry area
+  or StretchMAME32's Registry area.
+- "When a Game is Played, Update its Played Count" option.
+- "Refresh Screen Shots After Each Game is Played" option.
+
+*********************************************
+***   U N U S E D  G A M E S   tab       ****
+*********************************************
+- Filter out games that are no longer supported by MAME.
+  (See "Filtering Out No Longer Support Games" below).
+
+*********************************************
+***   D O S  M A M E   tab               ****
+*********************************************
+- MAME Tools can act as a front end to DOS MAME - which can be very handy,
+  especially for later games which benefit from DOS MAME's extra speed.
+  On this tab, you can setup your path and command line for DOS MAME.
+  As soon as you do this, you can double click on a game in any list,
+  and MAME Tools will load the game into DOS MAME.
+  (See the DOS MAME tab in the program and the "DOS MAME Front End" below).
+
+*********************************************
+***   O R I G I N A L S  C L O N E S tab ****
+*********************************************
+- Press the "Refresh Originals / Clones" button to refresh this list.
+  N.B.  You must have DOS MAME setup above to be able to do this,
+  as the list of originals / clones is generated from DOS MAME
+  -listclones output.
+  The list of originals / clones is used in many places in 
+  building lists for the above tabs.
+
+*********************************************
+***   R O M  T O O L S   tab             ****
+*********************************************
+- Checksum ROMs.
+- Chop ROMs in half to fix incorrect size errors.
+
+Clipboard button :
+- Copy any of these lists of items to the Window's Clipboard.
+
+Refresh button :
+- Refresh all of the above lists.
+
+Exit button :
+- Exit the program and save current lists, so that they cna be reused
+  next time the program is run.
+
+
+Most of the above features are not supported by any other utility or
+Front End.
+
+Some people may find the above functionality useful to help them manage 
+their MAME 32 installations to help them get even more enjoyment out of 
+MAME.
+
+MAME Tools also supports multiple ROM directories - see "Multiple ROM 
+Directories" below.
+
+If you do use this program, please send me an email and let me know.
+If you like, I will also email you when new versions of MAME32 Tools
+are released.  If people use the program, then I am more likely to 
+enhance it further in the future.
+
+This program is FREE - if you payed money for this program, then
+you were ripped off and you should complain to the person who 
+sold it to you.  (Don't complain to me, it's nothing to do with me).
+
+This program is free for any company, business, individual, or anyone
+else to use.
+
+If you find this program useful, then please give something back by 
+helping the arcade emulation community in some way.
+
+MAME32 Tools is NOT an official part of the MAME project.
+
+Developed using 32-bit Delphi.
+
+
+Why I wrote this Program / Why use this Program :
+-------------------------------------------------
+
+I wrote this program primarily because there were things I wished
+MAME 32 could do.  Some of these things (like listing missing ROMs)
+I could not add into MAME because they contravened the MAME 
+license agreement.  I also didn't want to get into having to recompile
+my own MAME every time a new version was released to add in support
+for my additional functionality.  I also prefer programming in Delphi,
+and MAME is primarily written in C++.
+
+So, I wrote this program to do what I needed to do, and it has grown
+into a very large and even more useful program since then.
+
+Maybe, some other people out there will also find this program useful.
+
+One question I have been asked a few times is : Why would anyone want 
+to mess around with Played Counts ???
+
+Well, I like playing all newly supported games when a new version
+of MAME 32 is released.  (So many I have never seen, so it is just so 
+much fun to experience them).  MAME 32 is sometimes prone to crashing
+and played counts for all of the games you have played this session
+are lost when a crash occurs.  By using MAME Tools to set the Played Counts 
+of all games supported by the old version of MAME to 1 (or more), 
+I can then install the new version of MAME 32 and sort the games 
+by Played Count (within the emulator) and in that way just play 
+the newly supported games.
+
+
+Using this Program :
+--------------------
+
+To use this program, simply unzip it to a directory (using 
+PKUNIP, WinZIP, or similar), run it, and click on the buttons to
+view / perform the activities you require.
+
+Tool tips (hints) are provided with all buttons.
+
+Everything is clearly labelled and the program should be 
+fairly straight forward to use.
+
+When you run the program, everything is grayed out until
+all of the various lists of things are refreshed.  This refresh
+originally took less than 5 seconds on my Pentium III 667 PC,
+but now that MAME supports over 3,100 games and I have added in loads of
+extra lists, a full refresh of everything takes about 80 seconds.
+(I'll improve this in the future - see "The Future" below).
+
+When the Refresh is done, you can change tabs and click on buttons
+to see the various lists and do the required processing.
+
+The program started off pretty simple, but people have emailed
+me and asked me to add in all sorts of other functionality
+and lists, so it has sort of become quite big and complex 
+now - far more complex that I ever really wanted.
+
+
+MAME 32 and MAME Tools :
+------------------------
+
+When you run MAME 32, it reads settings (game lists, played 
+counts, etc) from the registry.  Then when you close MAME 32, it 
+writes all of its settings back to the registry.
+
+If you run MAME Tools while MAME 32 is running, then any 
+changes to played counts, etc you make with MAME Tools will be 
+overwritten when you exit MAME 32.
+
+In addition, MAME 32 will not pickup any changes that MAME 
+Tools makes to played counts, etc unless you Refresh (F5) in 
+MAME 32.
+
+The best way to ensure that MAME 32 is not overwriting changes 
+made by MAME Tools, is to exit MAME 32 *before* making any 
+changes to played counts, etc with MAME Tools.
+
+Another way is to Refresh MAME 32 (press F5) to get it to read back
+in the lastest values / settings, which MAME Tools may have changed.
+
+
+DOS MAME Front End :
+--------------------
+
+You can Double Click on a game in any of the lists and MAME Tools 
+will load the game into DOS MAME.  (First you must setup 
+your MAME command line and options under the "DOS MAME" tab).
+
+After you have played a game, MAME Tools can automatically 
+update the played count for the game.  (Select the checkboxes
+on the "DOS MAME" tab).
+
+This is useful since MAME 32 can be a bit unstable on some
+games, and DOS MAME is more stable, and that is why I added 
+this functionality into MAME tools.
+
+To setup the DOS MAME functionality, you need to enter the DOS MAME 
+command line required to run DOS MAME.  e.g.  c:\mame\mame.exe.
+If required, you can also setup the parameters for MAME, such 
+as video settings, sound card settings, etc.  e.g. -soundcard 1
+See the readme.txt file that accompanies DOS MAME for further 
+information about these.
+
+See also "Multiple ROM Directories" below.
+
+
+Multiple ROM Directories :
+--------------------------
+
+MAME Tools supports multiple ROM directories, so you can now keep
+your ROMs split up in whatever seperate directories you like.
+
+You need to tell MAME Tools which is the main ROM directory
+(if this is "roms" below where MAME is installed), and MAME 
+Tools reads what the other ROM directories are from what you have
+setup in MAME 32.
+
+In MAME 32, you can use the "Directories" optin under the "Options" 
+menu to tell MAME 32 which directories contain ROM files.
+
+Once you have done this (and exited MAME 32 to save the settings 
+to the Registry), MAME Tools can read this directory list and
+use these to find all of the ROM files.
+
+
+Filtering Out No Longer Support Games :
+----------------------------------------
+
+MAME Tools filters out games that are no longer supported by MAME,
+under the "Unused Games" tab.  The problem is that MAME 32
+does not cleanup after itself and remove no-longer supported
+games from the Registry.  
+
+So, to get around this, there were 3 main choices : 
+
+1) Delete all MAME registry keys before runing a new version 
+   of MAME.  (This means you would loose your played counts
+   an favourites settings for each game).
+
+2) Download a new version of MAME Tools each time a new 
+   version of MAME is released.  A lot of work all around !
+
+3) Enable the user to type in the 3 or 4 games (to MAME Tools) 
+   that are no longer supported for each MAME release.
+
+Option 3 seemed the best all around, we are only talking about 
+3 or 4 games anyway for each new MAME release.
+
+Option 3 also meant that I don't need to create a new version of 
+MAME Tools each time a new MAME is released (something I have
+tried to avoid all along), and this means that users don't have 
+to download new versions of MAME Tools all the time.
+
+So users can now enter the 3 or 4 "no longer supported games" on 
+the "Unused Games" tab each time a new MAME is released.
+
+
+Limitations / Restrictions of the program :
+-------------------------------------------
+
+None.  There is no trial period and there is no "cutdown"
+or "restricted" functionality that requires users to register.
+
+This program is FREE software - any person and any company is
+welcome to copy it, use it, and distribute it as they see fit,
+as long as the EXEcutable and this text file remain intact.
+
+If you paid money for this program, then you were ripped off,
+and you should complain to the person who sold it to you !!
+(Don't complain to me, it's nothing to do with me !!).
+
+
+The Future :
+------------
+
+In the future, many improvements could be made to this program,
+such as :
+
+- Add support for UOMAME.  This program does something strange in 
+  the registry with it's settings, etc, and I am just waiting for the
+  author to reply to an email I have sent him asking a few questions.
+
+- Sound Sample checking for each game.
+
+- Marquee, Flyer, Cabinet checking for each game.
+
+- Changing played counts to something other that 0 or 1.  (Why ?)
+
+- Ability to Save Lists directly to disk.
+
+- Ability to save and load played counts to disk so that when you 
+  move to a new machine, your played counts can be taken with you !
+
+- Who knows, maybe even a Linux version (when I can get Delphi for Linux).
+
+- Speed up the time it takes to do a full refresh, or else allow
+  the user to choose what they want to refresh.
+
+- Ability to erase all Mame 32 or Stretch MAME 32 Registry settings.
+  This can be useful when you install a new version of MAME - and you
+  don't want no-longer supported games, etc hanging around and being
+  listed.
+
+- Speed up the processing done when the "Refresh Screen Shots After 
+  Each Game is Played" option is checked.
+
+- Anything else ?
+
+If you would like any of these improvements, or would like to
+suggest more, or would like to give me some feedback on the program,
+please email me and let me know.
+
+
+Special Greetings / Thanks to :
+-------------------------------
+
+Special thanks to all arcade emulator authors, people who maintain 
+arcade emulator sites, those who dump the roms, and those
+who work hard to try and preserve the actual physical arcade machines,
+with special mention to :
+
+- Dave Spicer for developing Sparcade - the very first Arcade Emulator 
+  for PCs, which introduced me to Arcade Emulation way back in 1995.
+  I was and still am compltely blown away by arcade emulation !!
+- Nicola Salmoria (for MAME and other emulators) and the fabulous MAME 
+  and various MAME 32 Development Teams.
+- Neil Bradley (Emu, Retrocade and others).
+- Antiriad and the Raine Development Team.
+- Dave (Final Burn).
+- Anders Nilsson & Janne Korpela (Neo Rage and Tutankham).
+- Thierry Lescot (System 16 Emulator).
+- Neill Corlett (MGE).
+- Michael Cuddy (KEM & Gyruss).
+- and all other arcade emulator developers - you guys rule !!!
+- Virtu Al, Brian Peek, MAME DK, and others - you guys rule too !!!
+
+Even though some of these emulators are no longer under development,
+your amazing work is NOT forgotten !!
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know, and I will do my best to fix it ASAP.
+
+
+Amendment History :
+--------------------
+
+Vers    Date        Description
+1.0   06-Nov-2000   First Public Release.
+
+2.0   23-Jan-2001   Big changes for this new version !!
+                    Roms directory entry box is now READ Only.
+                    Remove the chance of divide by zero errors on the Progress Guage.
+                    Add in a "Move Unused ROM ZIPs" button to enable you to move these 
+                    unused ROM ZIPs to another directory.
+                    Add in confirmation promts before changing the played counts.
+                    Add in "View Favourites" and "View Non-Favourites"
+                    Add in the ability to Save / Load Column Settings :
+                    Column Order, Column Shown, Column Widths, List Font
+                    (So when you install a new MAME, you can easily and quickly get 
+                    the column / order / size back to what you had previously).
+                    Add in Debugging and Verification functionality / report,
+                    to help me sort out problems on a Windows 2000 user's PC.
+                    Change the Icon to an icon based on MAME 32's icon.
+                    Add in Form and Component Scaling when the program's
+                    main window is resized - really Cool !!
+                    Add in Screen Shot auditing, so you can see which games
+                    have screenshots, which games don't, and list any
+                    screenshots that are not associated with any game.
+                    Also, add in functionality to enable a user to
+                    set the played count to ZERO for all games without screen shots.
+                    (This then enables you to sort games by played count in MAME 32,
+                    and play the games that are missing screenshots so you can then
+                    press F12 and get the missing screenshots).  This functionality 
+                    does NOT (yet) support screenshots inside the SNAP.ZIP file.
+                    (Maybe in the future I'll add this ZIP support into the program).
+                    Add in "Always On Top" menu option / functionality.
+                    Use a different Registry key.  I have scanned the MAME 32 source code
+                    and it appears that I wasn't using the latest / recommended Windows
+                    registry key.  Even so, the program worked fine for me under Windows
+                    98 and Windows NT.  But recently, a Windows 2000 user reported a problem
+                    where the program just sat there with all buttons grayed out and nothing 
+                    much happening.  This new registry key fixes that problem.  
+                    (Hope you like it, Karlo !)
+                    Finally, optimise the Refreshing.  From now on when you change something
+                    (like Played Counts) then only items related to this are refreshed.
+                    (8,496 lines of code / comments.)
+
+2.1   20-Feb-2001   Add in "Degugging Messages On (During Refresh)", 
+                    "Button Greying On (During Refresh)", and
+                    "Show Progress Bars (During Refresh)" menu options.
+                    Also, show Progress Bars for each item, during a Refresh.
+                    Add in ZIP support for screenshots, which will now be 
+                    searched for in the snapshot directory and in SNAP.ZIP. 
+                    Fix problems encountered on a Windows 98 SE PC.  This involved 
+                    adding in extra validation and verification of registry 
+                    data.  (If you have ever run an old version of MAME 32 
+                    then invalid data / keys can still be in the registry).
+                    (Thanks Andy M. for your help / patience !)
+
+                    (14,469 lines of code / comments.)
+
+2.2  26-Feb-2001    DOS MAME Front End, Unsupported Games, Multi ROM Dirs.
+                    See "DOS MAME Front End", "Multiple ROM Directories", and
+                    "Filtering Out No Longer Support Games" above for further 
+                    information on these changes / topics.
+                    (16,214 lines of code / comments.)
+
+2.3  01-Mar-2001    Big changes for this new version !!
+                    Use "CreateProcess" instead of "ShellExecute" or the old 
+                    fashioned "WinExec" to execute DOS MAME - this means that 
+                    F12 now takes screenshots correctly.  (For some reason that 
+                    probably only Microsoft would know, F12 did not work with 
+                    WinEXEC, but all the other function keys did).
+                    Improve the running of DOS MAME - the DOS Box window now 
+                    closes automaticaly when MAME Exits.
+                    Improve MAME Tools startup - all lists are now saved on 
+                    exit, and re-loaded when you run the program again.  This 
+                    means that a Refresh is not done automatically when you
+                    start up MAME Tools - only when you press the "Refresh" button.
+                    The enter / return key now runs the currently selected game.
+                    i.e. it works like a double-click.
+                    Add in support for Clones and Originals.  (A DOS MAME command 
+                    needs to be run to get this information, so DOS MAME needs 
+                    to be setup under the DOS MAME tab.
+                    Add in lists for :
+                    - List All games where either the original or its clones 
+                      have been played.
+                    - List All games where either the original or its clones 
+                      have NOT been played.
+                    - List All games where either the original or its clones 
+                      have a Screenshot(s).
+                    - List All games where neither the original nor its clones 
+                      have a Screenshot(s).
+                    Add in the following play count changing functionality :
+                    - Change the "Played Count" to ONE for ALL games where 
+                      either the original or its clones have been played.
+                    - Change the "Played Count" to ZERO for ALL MAME32 games 
+                      where either the original or its clones do NOT have any 
+                      screenshot.
+                    - Change the "Played Count" to ONE for ALL MAME32 games 
+                      where either the original or its clones have a screenshot.
+                    (16,983 lines of code / comments.)
+
+2.4  11-Apr-2001    Add in support for "Big Fonts" and "Other Sized Fonts" - 
+                    with these Windows resizes the windows automatically - 
+                    but only sometimes and it doesn't always do it right, 
+                    so now I make sure my main window is the right size 
+                    before doing any scaling, etc.  i.e. I make it fit the 
+                    component(s) that extend the furthest right and 
+                    furthest down the form.   See the  Start Menu -> 
+                    Settings -> Control Pannel -> Display -> Settings 
+                    Tab -> "Advanced" button -> "General" tab for 
+                    your PC's settings in this area.
+                    Bring program up-to-date with my latest code libraries.
+                    (9,417 lines of code / comments.)
+                    Save the MAME version on exit, and re-load this next 
+                    time Mame Tools is re-run, so that this is available even 
+                    when the user does not Refresh after startup.
+                    Add in support for StretchMAME32 - which stores its settings 
+                    data in different Windows Registry area to MAME 32.
+                    (17,660 lines of code / comments.)
+
+2.5  11-Apr-2001    Add in support for StretchMAME 32, which saves its settings
+                    in a different Registry area to other MAME 32 variants.
+                    (See the "Settings" tab).
+                    Add in a new "ROM Tools" tab, with buttons to checksum or 
+                    chop in half any ROMs that you drag and drop onto the form.
+                    Add in support for "Big Fonts" and "Other Sized Fonts" - 
+                    with these Windows resizes the windows automatically - 
+                    but only sometimes and it doesn't always do it right, 
+                    so now I make sure my main window is the right size 
+                    before doing any scaling, etc.  i.e. I make it fit the 
+                    component(s) that extend the furthest right and 
+                    furthest down the form.   See the  Start Menu -> 
+                    Settings -> Control Pannel -> Display -> Settings 
+                    Tab -> "Advanced" button -> "General" tab for 
+                    your PC's settings in this area.
+                    Bring program up-to-date with my latest code libraries.
+                    (18,704 lines of code / comments.)
+
+2.6  15-June-2001   Change to a Win 32 PageControl instead of a Windows 3.1 
+                    Tabbed Notebook.  (These are much more flexible and easy 
+                    to handle).  Fix a bug with a hardcoded file parameter in 
+                    the refreshing of Originals and Clones.
+                    Display all numbers and counts with a thousands "," seperator.
+                    Work around a bug in Delphi / Windows where sorted listboxes
+                    were not sorted according to the rules of any text string
+                    comparison function built into Delphi.
+                    (14,139 lines of code / comments.)
+                    
+2.7   22-Oct-2001   Add in extra progress bars for use during the refresh.
+                    Make "When a Game is Played, Update its Played Count"
+                    checked (true) by default.
+                    Add in a "List all games that were successfully audited 
+                    but have never been played" button / functionality.
+                    Display MAME version and number of games supported in 
+                    the title bar.
+                    Add in an option to "Refresh Screen Shots After Each Game 
+                    is Played" under the Settings Tab.
+                    Add in the ability to move Clone ZIP files to another directory.
+                    Add in a rough timer (it updates when it can - not every second),
+                    and I have been using this to help to optimise my code.
+                    Optimise the Refresh Time - by using my own hand built code 
+                    instead of calling Windows' functions, I reduced the refresh 
+                    time from 88 seconds to less than 18 seconds on my Pentium III 
+                    667 MHz for MAME v0.54 (with 3,113 games).  This proves again that 
+                    there is no substitute for experience, and I'll put my 20+ years 
+                    of computer programming experience up against Microsoft's best 
+                    programmers any day of the week.  So, how about it boys ??  ;)
+                    Massively speed up closing / exiting the program by
+                    only saving those lists of items that have changed during the
+                    current run of the program.
+                    Bring the program up to date with my latest code libraries.
+                    Brand New About Screen and associated functionality.
+                    Add in support for the Maximise icon in the top right 
+                    corner of the program's main window.
+                    (20,521 lines of code / comments.)
+
+3.0  01-June-2002   Add in "Use the Above Defaults" button on the DOS MAME tab.
+                    (This saves typing in the suggested options, if these
+                    are useful / applicable to you or useful as a starting point
+                    for whatever your command line is for DOS MAME).
+                    Pressing the Ctrl key on a game in a list now runs the game
+                    in DOS MAME.  (Superb for using this program as a MAME front end
+                    in my MAME arcade cabinet !!).  So, you can now double click on
+                    a game, press ENTER or press Ctrl to run the selected
+                    (i.e. highlighted) game.
+                    Remember the last used Tab next time the program is run.
+                    Remember the last clicked List Button next time the program is run.
+                    When refreshing just the Played Counts, position all of the relevant
+                    progress bars to 100% to better show progress for the refreshing.
+                    If the user drags and drops any files (e.g. ROMs) onto MAME Tools,
+                    then ensure that the "ROM Tools" tab is the active page.
+                    Add in better reporting when a game's you want to run cannot be found.  
+                    Change over to using MAME 32's new RomPath registry key instead of 
+                    the no-longer used RomDirs registry key.
+                    Fix game count in Windows Title area - it was 2 too many. (. and ..).
+                    Fix count displayed when you press the button for changing the "Played 
+                    Count" to ZERO for ALL MAME32 games where either the original or its 
+                    clones do NOT have any screenshot.
+                    Bring the program up to date with my latest code libraries.
+                    Brand New About Screen and associated functionality.
+                    (32,616 lines of code / comments.)
+
+3.1   20-Nov-2002   Fix the moving of Unused ROM ZIPs and Clone ROM ZIPs - there
+                    was a bug with the directory processing if multiple ROM directories
+                    are used.
+                    Bring the program up to date with my latest code libraries.
+                    (46,952 lines of code / comments.)
+
+
+If this program was not downloaded from my Home Page, then
+it might be an old version.  The latest version of this 
+program is available from my WEB page - see below.
+
+For more great software, please visit my WEB page !
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://move.to/moose
+____________________________________________________
+ 

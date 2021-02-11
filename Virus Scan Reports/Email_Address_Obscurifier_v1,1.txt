@@ -1,0 +1,151 @@
+Email_Address_Obscurifier_v1,1.zip
+
+Email Address Obscurifier (v1.1)
+
+Email_Address_Obscurifier
+
+http://www.virustotal.com/en/file/b041d054bef31e624fd88eae54a6d924acbe2761b516b434a5b45738ba47ead9/analysis/1422175701/
+
+SHA256: 	b041d054bef31e624fd88eae54a6d924acbe2761b516b434a5b45738ba47ead9
+File name: 	Email_Address_Obscurifier_v1,1.zip
+Detection ratio: 	0 / 54
+Analysis date: 	2015-01-25 08:48:21 UTC ( 1 minute ago )
+1
+0
+
+    Analysis
+    Additional information
+    Comments
+    Votes
+
+Antivirus 	Result 	Update
+ALYac 		20150125
+AVG 		20150125
+AVware 		20150125
+Ad-Aware 		20150125
+AegisLab 		20150125
+Agnitum 		20150124
+AhnLab-V3 		20150124
+Alibaba 		20150120
+Antiy-AVL 		20150125
+Avast 		20150125
+Avira 		20150124
+Baidu-International 		20150125
+BitDefender 		20150125
+Bkav 		20150124
+ByteHero 		20150125
+CAT-QuickHeal 		20150124
+CMC 		20150124
+ClamAV 		20150125
+Comodo 		20150125
+Cyren 		20150125
+DrWeb 		20150125
+Emsisoft 		20150125
+F-Prot 		20150125
+F-Secure 		20150125
+Fortinet 		20150125
+GData 		20150125
+Ikarus 		20150125
+Jiangmin 		20150124
+K7AntiVirus 		20150125
+K7GW 		20150124
+Kaspersky 		20150125
+Kingsoft 		20150125
+Malwarebytes 		20150125
+McAfee 		20150125
+McAfee-GW-Edition 		20150125
+MicroWorld-eScan 		20150125
+Microsoft 		20150125
+NANO-Antivirus 		20150125
+Norman 		20150123
+Panda 		20150124
+Qihoo-360 		20150125
+Rising 		20150123
+SUPERAntiSpyware 		20150124
+Sophos 		20150125
+Symantec 		20150125
+Tencent 		20150125
+TheHacker 		20150123
+TotalDefense 		20150124
+TrendMicro 		20150125
+TrendMicro-HouseCall 		20150125
+VBA32 		20150123
+VIPRE 		20150125
+ViRobot 		20150125
+Zillya 		20150124
+Zoner 		20150123
+nProtect 		20150123 
+
+
+
+File identification
+MD5 7f14cd5c0316fb72b2d72e075bd5f5f6
+SHA1 6ccf58604adfc6f141544a642f463f744457174d
+SHA256 b041d054bef31e624fd88eae54a6d924acbe2761b516b434a5b45738ba47ead9
+ssdeep
+6144:M8VqWVmySiMPIl4lrWYejNgzlO0P3mFU7wTs3J/at2ZXD:M88WVmySVAl5Hizk0uFU7wTKHT
+
+File size 281.8 KB ( 288544 bytes )
+File type ZIP
+Magic literal
+Zip archive data, at least v2.0 to extract
+
+TrID 	ZIP compressed archive (100.0%)
+Tags
+zip upx
+
+VirusTotal metadata
+First submission 2015-01-25 08:48:21 UTC ( 2 minutes ago )
+Last submission 2015-01-25 08:48:21 UTC ( 2 minutes ago )
+File names 	Email_Address_Obscurifier_v1,1.zip
+Advanced heuristic and reputation engines
+ClamAV PUA
+Possibly Unwanted Application. While not necessarily malicious, the scanned file presents certain characteristics which depending on the user policies and environment may or may not represent a threat. For full details see: http://www.clamav.net/doc/pua.html .
+
+Symantec reputation Suspicious.Insight
+ExifTool file metadata
+MIMEType
+application/zip
+
+ZipRequiredVersion
+20
+
+ZipCRC
+0x32de27df
+
+FileType
+ZIP
+
+ZipCompression
+Deflated
+
+ZipUncompressedSize
+31859
+
+ZipCompressedSize
+11232
+
+FileAccessDate
+2015:01:25 09:48:44+01:00
+
+ZipFileName
+catalog.txt
+
+ZipBitFlag
+0
+
+FileCreateDate
+2015:01:25 09:48:44+01:00
+
+ZipModifyDate
+2007:09:18 10:49:16
+
+
+
+
+Comments
+
+Downloaded from my web site: http://moosevalley.fhost.com.au/
+I am super paranoid about security and all of my PCs are subject to the highest levels of security, so you can rest assured that there are no viruses or malware in any of the software I provide on my web site, as confirmed by this VirusTotal analysis. :)
+Moose
+Posted 0 minutes ago by Moose Delete

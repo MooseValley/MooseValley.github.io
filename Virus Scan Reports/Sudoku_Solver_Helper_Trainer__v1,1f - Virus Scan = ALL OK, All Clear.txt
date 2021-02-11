@@ -1,0 +1,146 @@
+Sudoku_Solver_Helper_Trainer__v1,1f - Virus Scan = ALL OK, All Clear.txt
+
+http://www.virustotal.com/en/file/76f5fa7b48ea3a9560a62d1765912826e983b9a43bc76f5e95b9d0705d3cf988/analysis/1424236650/
+
+SHA256: 	76f5fa7b48ea3a9560a62d1765912826e983b9a43bc76f5e95b9d0705d3cf988
+File name: 	Sudoku_Solver_Helper_Trainer__v1,1f.zip
+Detection ratio: 	0 / 57
+Analysis date: 	2015-02-18 05:17:30 UTC ( 1 minute ago )
+2
+0
+
+    Analysis
+    Additional information
+    Comments 0
+    Votes
+
+Antivirus 	Result 	Update
+ALYac 		20150218
+AVG 		20150218
+AVware 		20150218
+Ad-Aware 		20150218
+AegisLab 		20150218
+Agnitum 		20150218
+AhnLab-V3 		20150218
+Alibaba 		20150218
+Antiy-AVL 		20150218
+Avast 		20150218
+Avira 		20150218
+Baidu-International 		20150218
+BitDefender 		20150218
+Bkav 		20150213
+ByteHero 		20150218
+CAT-QuickHeal 		20150218
+CMC 		20150214
+ClamAV 		20150218
+Comodo 		20150218
+Cyren 		20150218
+DrWeb 		20150218
+ESET-NOD32 		20150218
+Emsisoft 		20150218
+F-Prot 		20150218
+F-Secure 		20150218
+Fortinet 		20150218
+GData 		20150218
+Ikarus 		20150218
+Jiangmin 		20150216
+K7AntiVirus 		20150218
+K7GW 		20150218
+Kaspersky 		20150218
+Kingsoft 		20150218
+Malwarebytes 		20150218
+McAfee 		20150218
+McAfee-GW-Edition 		20150218
+MicroWorld-eScan 		20150218
+Microsoft 		20150218
+NANO-Antivirus 		20150218
+Norman 		20150218
+Panda 		20150218
+Qihoo-360 		20150218
+Rising 		20150218
+SUPERAntiSpyware 		20150218
+Sophos 		20150218
+Symantec 		20150218
+Tencent 		20150218
+TheHacker 		20150218
+TotalDefense 		20150218
+TrendMicro 		20150218
+TrendMicro-HouseCall 		20150218
+VBA32 		20150218
+VIPRE 		20150218
+ViRobot 		20150218
+Zillya 		20150218
+Zoner 		20150218
+nProtect 		20150218 
+
+
+
+
+
+
+File identification
+MD5 1eba40635ae41c36a747205f943da65c
+SHA1 708bd9a67e5a4875ee862b9a942232c6c5a34178
+SHA256 76f5fa7b48ea3a9560a62d1765912826e983b9a43bc76f5e95b9d0705d3cf988
+ssdeep
+6144:HekjVCGVTdWuC6t/9G9PcCxXGaI1s59+Ld2YwMyKV7XJNLkaB8g7Po:twGvZCUFLmXGaI1E9Gd2YwMJ1XJNLnRo
+
+File size 298.5 KB ( 305702 bytes )
+File type ZIP
+Magic literal
+Zip archive data, at least v2.0 to extract
+
+TrID 	ZIP compressed archive (100.0%)
+Tags
+zip upx
+
+VirusTotal metadata
+First submission 2015-02-18 05:17:30 UTC ( 1 minute ago )
+Last submission 2015-02-18 05:17:30 UTC ( 1 minute ago )
+File names 	Sudoku_Solver_Helper_Trainer__v1,1f.zip
+Advanced heuristic and reputation engines
+ClamAV PUA
+Possibly Unwanted Application. While not necessarily malicious, the scanned file presents certain characteristics which depending on the user policies and environment may or may not represent a threat. For full details see: http://www.clamav.net/doc/pua.html .
+
+Symantec reputation Suspicious.Insight
+ExifTool file metadata
+MIMEType
+application/zip
+
+ZipRequiredVersion
+20
+
+ZipCRC
+0xea9a1720
+
+FileType
+ZIP
+
+ZipCompression
+Deflated
+
+ZipUncompressedSize
+12290
+
+ZipCompressedSize
+4695
+
+ZipFileName
+Sudoku_Solver_Helper_Trainer.txt
+
+ZipBitFlag
+0x0002
+
+ZipModifyDate
+2015:02:18 14:08:24
+
+
+
+
+
+Comments 1
+
+Downloaded from my web site: http://moosevalley.fhost.com.au/
+I am super paranoid about security and all of my PCs are subject to the highest levels of security, so you can rest assured that there are no viruses or malware in any of the software I provide on my web site, as confirmed by this VirusTotal analysis. :)
+Moose
+Posted 0 minutes ago by Moose Delete

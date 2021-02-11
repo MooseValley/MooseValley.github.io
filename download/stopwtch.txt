@@ -1,0 +1,313 @@
+ 
+Stop Watch			Copyright (C) Moose O'Malley, 
+----------			September 2007.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Using multiple PC's
+   | * Reviews / Awards / CDs
+   | * Freeware Information
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+Stop Watch for Windows 95, 98, NT, ME, 2000, etc.
+
+This program is free software.  Anyone - any person, any company, 
+or any business - can use this program for free.  No fees or 
+payment is required.  See "Freeware Information" below.
+
+The Stop Watch remembers the Elapsed Time from the previous Stop
+Watch session, so it can be used to accumulate time over many
+days even if the computer is turned off in between.
+
+Stop Watch is useful for :
+
+- Monitoring how long you connect to the Internet, especially
+  when you pay by the hour for usage, but you might not be billed
+  until the end of the month.  Stop Watch let's you accumulate
+  the total connection time for the month along with a detailed LOG.
+
+- Benchmarking of various programs / applications under Windows.
+
+- Benchmarking of various real world things outside your computer.
+
+- One person (in England) is even using the program to time 
+  motorcycles over 1/4 of a mile.  (To do this accurately, he 
+  has hooked up a modified mouse to his PC that is triggered 
+  by a beam of light being broken !!).
+
+- Another guy in the San Francisco Bay area is using Stop Watch
+  with it's various Snap Shot functions to time Yacht Races and 
+  to actually time the turns and navigation of his own yacht 
+  during races !!
+
+- Timing groups of ocurences, such as runners or cars in a race
+  (via the Snap Shot button - see below).
+
+- Monitoring the amount of time your laptop battery has been 
+  used / has left to go.
+
+Stop Watch displays Elapsed time in 
+- Seconds, 
+- Minutes,
+- Hours, and, 
+- DD:HH:MM:SS.HH.
+
+A "Snap Shot since last Resume / Start" button (the button with the 
+smaller camera on it) enables Registered users to write the current 
+elapsed times (since the last Resume or Start - whichever is the later)
+to the log file without stopping the stop watch - great for timing 
+multiple runners in a race crossing the finish line, etc.  This 
+"Snap Shot" button is only enabled when the Stop Watch is actually 
+running.
+
+Snap Shot events are written to the log file like this :
+   >> Snap Shot 001 Time since Resume/Start :       00.00:00:00.92    00.00:00:00.92
+   >> Snap Shot 002 Time since Resume/Start :       00.00:00:02.03    00.00:00:02.03
+
+Where the Elapsed times line up under the headings already
+found in the log file.
+
+Also, a "Snap Shot since original Start" button (the button with the 
+larger camera on it) enables Registered users to write the current 
+elapsed times (since the original Start) to the log file without 
+stopping the stop watch - great for timing multiple runners in a 
+race crossing the finish line, etc.  This "Snap Shot" button is 
+enabled when the Stop Watch is running and when the Stop Watch 
+is paused.
+
+Snap Shot events are written to the log file like this :
+   >> Time since original start :                   00.00:00:14.00
+
+In this example, the Stop Watch elapsed time might only be 3 seconds, 
+but the time since original start would be 14.00 seconds if the 
+Stop Watch was paused for 11 seconds.
+
+Stop Watch is set to be swapped-in by Windows every 1,000 of a second,
+but how often the Stop Watch is swapped-in depends on your PC, and
+on what else you are running.  How often Stop Watch is swapped-in
+determines how often the Elapsed Time details are updated each 
+second.
+
+The Elapsed time in DD:HH:MM:SS.HH output area is selectable by the
+user, so you can PAUSE the Stop Watch, select the current value of the
+elapsed time, and copy it to the ClipBoard  or any other application.
+
+Stop Watch uses a local settings (INI) file, which lives in the 
+directory wherever Stop Watch was loaded from.  This enables
+you to run multiple distinct Stop Watch sessions at the one time
+by having copies of Stop Watch each in their own directory.
+
+Stop Watch can also keep and log the number of times you press
+the Stop button, which enables you to count the number of phone
+calls you have made to your ISP or work model pool, and helps
+add up expenses and costs.  I use this feature a lot !
+
+Developed using Borland Delphi.
+
+
+Using multiple PC's :
+---------------------
+
+To enable users to easily run Stopwatch on multiple PC's
+and synchronise their current Stopwatch times and LOG details,
+use the menu options "Copy Stopwatch Times To Floppy Disk A:" 
+and "Copy Stopwatch Times From Floppy Disk A:".
+
+"Copy Stopwatch Times To Floppy Disk A:" :
+- saves all current Stopwatch times / settings to the stopwtch.INI
+  file.
+- copies this INI file to the A:\ drive.
+- Copies the current Stopwatch LOG file to the A:\ drive.
+
+"Copy Stopwatch Times From Floppy Disk A:" :
+- copies the stopwtch.INI file from the A:\ drive to the 
+  directory where Stopwatch is being run from.
+- Reloads all Stopwatch times / settings from this stopwtch.INI
+  file.
+- Copies the current Stopwatch LOG file from the A:\ drive to the 
+  directory where Stopwatch is being run from.
+
+These menu options are available to Registered Users only !
+
+	
+Reviews / Awards / CDs :
+-------------------------
+
+None so far.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.  
+
+Anyone - any person, any company, or any business - can 
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please 
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select 
+the "About" option under the Help menu, and then click 
+the PayPal link on the "About" screen).
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know.
+
+
+Amendment History :
+--------------------
+
+Vers    Date        Description
+1.1   19-Sep-1996   First Public Release.
+1.2   18-Oct-1996   Add in Day of Week and Date display in main window.
+1.3   01-Nov-1996   Add in display hundreths of seconds.  Change philosophy
+                    of timer functionality to use milli-seconds since mid-night
+                    instead of relying on windows to swap-in the timer when
+                    requested / required.  User can now copy Elapsed Time 
+                    (DD:HH:MM:SS.HH) to the Clipboard.
+1.4   09-Jan-1997   Imrpove accuracy of Stop Watch.  Enable detailed 
+                    logging of elapsed and cummulative times to a user 
+                    selected Log File.  Also add in Log File Select button.
+                    Remove the Moose picture from the main screen.
+1.5   27-Jan-1997   Add in Registration functionality.
+1.6   20-Mar-1997   Add in loads of Tooltips to fields and buttons.
+                    Rearrange labels slightly to enable me to make 
+                    application window smaller.
+1.7   07-Apr-1997   Add in a "Snap Shot" button that enables you
+                    to write the current elapsed times to the log
+                    file without stopping the stop watch - great
+                    for timing multiple runners in a race crossing 
+                    the finish line, etc.  (Registered Vers only)
+                    (These changes were requested by Carter West)
+1.8   22-Apr-1997   Add in the ability to Log the Time since the
+                    start button was originally pressed.
+                    (This change was requested by Carter West)
+                    Stop Watch now uses a local settings (INI) file, 
+                    which lives in the directory wherever Stop 
+                    Watch was loaded from.
+                    Also make various small improvements.  e.g.
+                    improve format of the log file, simplify logging
+                    code / strategy, etc.
+1.9   03-May-1997   Make the "Log Time since Original Start" menu
+                    option a button instead, with a large camera on it.
+                    Make the normal Snap Shot button a button
+                    with a smaller camera on it.
+1.95  16-Jun-1997   Save settings automatically on Windows 95 shutdown 
+                    (Registered Users only).
+                    Start Minimised if set in Shortcut / settings
+                    (Registered Users only).  
+                    Improve application startup - size and position 
+                    form before user sees it.
+                    Add in Menu items for viewing my Shareware Catalog, 
+                    the Readme file, and the Registration Form.
+2.0   11-Jan-1998   Fix a long standing but very elusive problem
+                    to do with "DateEncode" errors which occured
+                    on some machines under some conditions.
+                    Once I could replicate the error, it was
+                    reasonably straight forward to get a workaround
+                    for what was another bug in Delphi.
+                    Improve initial display of StopWatch, and get it 
+                    to correctly handle last used window poisition 
+                    parameter values.
+                    (3,593 lines of code / comments.)
+2.1   24-Jun-1998   Enable people to run this program on multiple 
+                    PC's and synchronise their stopwatch times and 
+                    log details accross multiple PC's by adding in :
+                    "Copy Stopwatch Times To Floppy Disk A:" and
+                    "Copy Stopwatch Times From Floppy Disk A:"
+                    menu options.  (Specially for Nancy S !)
+                    (3,986 lines of code / comments.)
+2.2   02-Dec-1998   Add in EXPERT mode, which means that the
+                    user will not receive confirmation that the 
+                    Log file or Stopwatch has been reset.
+                    Expert Mode is available under the "File" Menu.  
+                    (Registered Users only).
+                    (Specially for Ray Chesin !)
+                    (4,123 lines of code / comments.)
+2.3   28-Jul-1999   Add in functionality to enable only the time
+                    with no other labels to be written to the Log
+                    file.  This was done specially for ???
+                    who is using Stop Watch to time bicycle race
+                    Events, and wanted to be able to Copy & Paste
+                    all the times for all riders easily into a 
+                    spreadsheet.
+                    (4,316 lines of code / comments.)
+
+3.0   18-Apr-2000   Save Settings to the INI file whenever the STOP button is
+                    pressed.  This is to prevent loss of stop watch times
+                    if system crash, power outtage, etc occurs.
+                    (Specially for Peter Guhl !)
+                    Enhance "About ..." window with buttons to
+                    copy my email and WEB page address to the
+                    Window's clipboard, so user can simply
+                    paste them into WEB Browser or Email program.
+                    Add in Form and Component Scaling when the program's 
+                    main window is resized - really Cool !!
+                    Add in "Always On Top" functionality - available 
+                    from the "File" menu.  (Added especially for 
+                    my good friend Patrick Cullinan !)
+                    (6,297 lines of code / comments.)
+
+3.1   26-Mar-2001   Add in support for "Big Fonts" and "Other Sized Fonts" - 
+                    with these Windows resizes the windows automatically - 
+                    but only sometimes and it doesn't always do it right, 
+                    so now I make sure my main window is the right size 
+                    before doing any scaling, etc.  i.e. I make it fit the 
+                    component(s) that extend the furthest right and 
+                    furthest down the form.   See the  Start Menu -> 
+                    Settings -> Control Pannel -> Display -> Settings 
+                    Tab -> "Advanced" button -> "General" tab for 
+                    your PC's settings in this area.
+                    Bring program up-to-date with my latest code libraries.
+                    (8,604 lines of code / comments.)
+
+3.2   20-Nov-2002   Add in Exit button.
+                    Improve the interface - bitmaps on buttons, etc.
+                    Add in the ability to write the number of times the STOP 
+                    button has been pressed.  (Great for adding up phone bills, etc - 
+                    if you use Stop Watch with your modem for work, etc - which I do
+                    a great deal).
+                    Bring the program up to date with my latest code libraries.
+                    Registered Users - please contact me via email.
+                    (34,513 lines of code / comments.)
+
+3.3   29-Aug-2003   Fix the day of the week - it was showing a day ahead.
+                    (I'm amazed that I hadn't noticed this issue before,
+                    and that no-one had reported the problem ... )
+                    Remove short file name restrictions, so that long 
+                    log-file names are OK.
+                    Bring the program up to date with my latest code libraries.
+                    (60,111 lines of code / comments.)
+
+3.3f  3-Sep-2007    This program is now FREEWARE - see "Freeware Information"
+                    above.
+
+
+If this program was not downloaded from my Home Page, then
+it is most likely an old version.  The latest version of this 
+program is available from my Home page and its mirrors.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://move.to/moose
+____________________________________________________
+ 

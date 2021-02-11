@@ -1,0 +1,373 @@
+ 
+Keyboard Mapper				Copyright (C) Moose O'Malley, 
+---------------				September 2007.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Why I wrote this program ?  What can it do ?
+   | * About the Included Sample Keyboard Maps
+   | * Installing and Using this Program
+   | * Uninstalling this Program
+   | * The Future
+   | * Special Thanks To
+   | * Reviews / Awards / CDs
+   | * Freeware Information
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+Keyboard Mapper for Windows 95, 98, ME, NT, 2000, XP, etc.
+
+This program is free software.  Anyone - any person, any company, 
+or any business - can use this program for free.  No fees or 
+payment is required.  See "Freeware Information" below.
+
+Keyboard Mapper enables you to create keyboard maps - that is, 
+diagrams showing you what particular keyboard keys do for a 
+particular computer program, application, or game.  
+
+You can save and load the keyboard maps to file, and you 
+can also save a bitmap of the entire keyboard to file 
+and copy it to the Windows Clipboard.
+
+Keyboard Mapper is hopefully a powerful and useful
+program that will enable people to quickly and easily
+create diagrams showing you what particular keyboard keys 
+do for a particular computer program, application, or game.
+
+As far as I can tell, this program is unique - there is
+nothing out there on the internet that provides similar 
+functionality that I have been able to find.
+
+Developed using 32-bit Delphi.
+
+This program will **NOT** run under Windows 3.x  
+(even with Win32 installed).
+
+
+Why I wrote this program ?  What can it do ?
+--------------------------------------------
+
+I wrote this program because a friend of mine (Bill T)
+suggested that I write the program.  We discussed the
+idea a lot in a bunch of email converstations we had in 
+June 2002.  Bill had searched the internet and couldn't 
+find any program that could do anything like this.
+
+So, I played around with the idea that night and over the
+coming weekends, and pretty soon Keyboard Mapper was written.
+
+
+Installing and Using this Program :
+-----------------------------------
+
+To use this program, unzip the contents of the ZIP file to a 
+directory - such as c:\Keyboard_Mapper\ - and run the executable 
+file : Keyboard_Mapper.EXE.
+
+When the program runs, you will see a diagram of half a 
+standard IBM Compatible PC 107 Key Keyboard 
+
+The scroll bar at the bottom on the window allows you to move
+left / right around the keyboard.
+
+If you left mouse click on the "Key Label" of any key, 
+then you can type in a new description for the key.
+
+For example you could click on the "P" key and change the 
+label to "High Punch", and then click on the "K" key and change
+the label to "Low Kick".
+
+Using the Menu Options provided, you can :
+
+**************************
+  "File" Menu
+**************************
+- Save the Keyboard Layout to File
+- Load Keyboard Layout
+- Load the Key Font Settings from Another Keyboard Layout File
+- Load the Key Labels from Another Keyboard Layout File
+- Load the Key Colour Settings from Another Keyboard Layout File
+
+- Save the Keyboard Layout to a Bitmap file
+  You can then load this into a word processor or a picture 
+  editing program and add headers / footers and other labels, 
+  as you require, and print it, or PDF it, or create a WEB page 
+  out of it, etc.
+
+- Copy the Keyboard Layout to Windows Clipboard as Bitmap file
+  You can then paste this into a word processor or a picture 
+  editing program and add headers / footers and other labels, 
+  as you require, and print it, or PDF it, or create a WEB page 
+  out of it, etc.
+
+**************************
+  "Erase" Menu
+**************************
+- Erase Function Key labels
+- Erase Main Keyboard Labels
+- Erase Cursor Control Labels
+- Erase Numeric Keypad Labels
+- Erase All Labels
+
+**************************
+  "Set" Menu
+**************************
+- Set Function Key labels
+- Set Main Keyboard Labels
+- Set Cursor Control Labels
+- Set Numeric Keypad Labels
+- Set All Labels To A Default Value
+
+**************************
+  "Fonts / Colours" Menu
+**************************
+- Keyboard Map Title Font
+- Group Names Font
+- Key Names Font
+- Key Labels Font
+- Select Key Colour
+- Select Key Border Colour
+- Set Key Label Vertical Alignment to Top, Center, or Bottom
+
+All of these options are also available on Context Sensitive 
+right mouse click popup menus.  So, for example, if you right 
+mouse click on anything in the Function Keys area, then 
+a popup menu of functions / options specific to function keys
+will be displayed.
+
+And, as with all of my programs, there are the standard options :
+
+**************************
+  "File" Menu
+**************************
+- Always On Top
+- Auto-Run at Windows Startup
+- Restore Factory Defaults
+
+**************************
+  "About" Menu
+**************************
+- View Readme file
+- View Shareware Catalog
+- About
+
+I hope you find the program easy to use and useful.
+
+
+About the Included Sample Keyboard Maps :
+-----------------------------------------
+
+Included with the program are two sample keyboard maps :
+- MAME Flashy - with funky fonts and bright colours
+- MAME Conservative - with standard fonts and grey colours
+
+Using Keyboard Mapper, it took me about 1 minute to create 
+the Flashy keyboard map, and it took about 20 seconds for 
+me to convert this to the Conservative keyboard map.
+
+The Flashy layout uses funky fonts like Planetary Orbiter,
+Stop, and Showcard Gothic - and if your PC does not have these
+installed - and there is a good chance it wont - then Windows
+will replace the font with something that is hopefully similar
+- but this may produce poor results.
+
+As such, these fonts are available for download in the 
+Keyboard Mapper section of my WEB page, and you can unzip 
+them to the Windows' Fonts directory on your PC.  Normally, 
+this is the c:\Windows\Fonts\ directory.  These fonts will 
+allow you to see the keyboard map as it is meant to appear.
+
+(For those who don't know, MAME (http://www.mame.net) 
+stands for Multiple Arcade Machine Emulator, and it 
+is an incredibly clever piece of software that lets 
+you run old video arcade games on your PC, MAC, etc.  
+In my opinion, MAME is the most amazing and exciting 
+software development project on the planet).
+
+
+Uninstalling this Program :
+---------------------------
+
+At the  present time, there is No Uninstall function.
+
+If you ever want to delete Keyboard Mapper
+from your computer, then :
+
+ 1. Exit the program, and delete it from wherever 
+    you installed it on your harddrive.
+
+Simple as that !
+
+
+The Future :
+------------
+
+Like all of my programs, I've got tons of ideas for this 
+program.
+
+In the future, many improvements could be made to this program,
+such as :
+
+**** Relatively Easy Changes :
+
+- An "American" version - so the word "Colour" is (mis)spelt as 
+  "Color" in the menus / prompts / etc to keep people in the USA
+  happy ...  ;)
+
+- Add the ability to hide / show the numeric keypad, cursor 
+  control keys, or function keys.
+
+- Add support for logos / icons - so you could add your logo to
+  the keyboard layout.
+
+- Add support for different key designs.  e.g. square edged 
+  instead of round edged.
+
+
+**** Medium Difficultly Changes :
+
+- Add support for a simulated isometric keyboard view.
+  To illustrate, here is a rough diagram of what I mean :
+
+       ----                    -----                     ----
+      | Q | |                 || Y ||                  | | P |
+      |---- |                 |-----|                  | ----|
+      |_____|                 |_____|                  |_____|
+
+   Keys on the left        Keys in the center    Keys on the right
+  side of the Keyboard      of the Keyboard     side of the Keyboard
+
+- Add the ability to save directly to GIF, JPG, or other types of 
+  graphic file - instead of simply saving to a Bitmap.
+
+- Add support for diming / fading of unused keys.  This will mean 
+  that keys that have a description will stand out more.
+
+- Add support for changing the colours / fonts for individual keys.
+  So, for example, you could make the "ESC" key stand out more
+  than other keys.
+
+- Add the ability to Print the Keyboard Layout.
+
+- Add the ability to move / swap key labels by dragging and dropping 
+  one key onto another.
+
+- Make it so that you can click anywhere on the key and you will be 
+  prompted to enter a new label.  At the moment, you need to click 
+  on the label area (bottom two-thirds) of each key.
+
+**** Much More Difficult / Time Consuming Changes :
+
+- Add support for different keyboard layouts.
+
+- Add the ability to define your own keyboard layouts / designs.
+
+- Add the ability to rotate keys.  e.g. to enable you to do layouts
+  for the Microsoft Natural Keyboard and other funky keyboards.
+
+- Add support for keyboards in non-Eglish keyboards / layouts.
+  e.g. Arabic keyboard.
+
+- Add support for a graphic for each key - so you could
+  have a very detailed and very precise image of each key.
+
+- Anything else ?
+
+If you would like any of these improvements, or would like to
+suggest more, please email me and let me know.
+
+Some of the above enhancements / changes will require many 
+dozens of hours of work.
+
+The "Much More Difficult Changes" may never be done, or, 
+otherwise, when they are done, the program's price may 
+increase very significantly, as these changes will require
+an enormous amount of work.
+
+How much more work I do on this program depends entirely on
+what support I get, how many people use the program, etc.
+
+
+Special Thanks To :
+-------------------
+
+Special thanks go to Bill T who thought up the idea for
+this program and inspired me to write it.
+
+Bill also made many of the suggestions that appear in the 
+"Much More Difficult Changes" category in "The Future"
+section above, so he has tried his best to commit me to 
+months of work !! ;))
+
+Thanks for all of your enthusiasm, ideas, feedback, and
+support Bill.
+
+
+Reviews / Awards / CDs :
+-------------------------
+
+None so far.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.  
+
+Anyone - any person, any company, or any business - can 
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please 
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select 
+the "About" option under the Help menu, and then click 
+the PayPal link on the "About" screen).
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know.
+
+
+Amendment History :
+-------------------
+
+Vers    Date        Description
+
+1.0  01-July-2002   First Public Release.
+                    Special thanks to Bill T - see above.
+                    (22,761 lines of code / comments.)
+
+1.0b  20-Nov-2002   Bring the program up to date with my latest code libraries.
+                    Registered Users - please contact me via email.
+                    (32,488 lines of code / comments.)
+
+1.0f  3-Sep-2007    This program is now FREEWARE - see "Freeware Information"
+                    above.
+
+
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this 
+program is available from my WEB page - see below.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://move.to/moose
+____________________________________________________
+ 

@@ -1,0 +1,181 @@
+ 
+Prototype Game			 	Copyright (C) Moose O'Malley, 
+------------------			September 2002.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Installing this Program
+   | * Uninstalling this Program
+   | * The Future
+   | * Credits / Special Thanks to
+   | * Freeware Information
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+This prototype game is simply to allow me to develop and test 
+my prototype sprite engine.
+
+This prototype game is not polished or even fully playable, and 
+is severely lacking in many areas : 
+* the sound is abysmal, 
+* the control system is limited to the keyboard, 
+* the code is largely unoptimised, 
+* the game is barely playable,
+* the sprites are low quality and each only has a few frames of animation,
+* the background is a simple single scrolling bitmap,
+* the collision detection is not satisfactory
+* etc
+
+However, it serves as a basis upon which I can further develop my 
+game and sprite engines.
+
+Because the code is mostly unoptimised, the game currently requires 
+a reasonably fast PC to get the full 40 frames per second.  
+i.e. a Pentium III 500 MHz or above is perfect.
+
+However, even though it is still early days, things are looking 
+promising, and some features of my Prototype Sprite Engine include :
+* (Almost) Flicker free animation for any number of sprites on screen 
+  at once, each with their own number of frames of animation, 
+  sizes / resolutions, number of colours, own movement agendas, 
+  speeds, scores, hit points, etc.
+* Linking of sprite states to sounds, so that sounds can play when 
+  sprites are created, destroyed, etc.
+* Written in very easily understandable and maintainable Delphi 
+  code - using simple BitBlitting of images - no Direct/X at this stage.
+* Eight way Scrolling background bitmap images.
+
+I wrote this prototype game / sprite engine "for fun" way back in 
+early-mid 2000.
+
+Developed using 32-bit Delphi.
+
+This program is for Windows 95 / 98 / ME / NT / 2000 / XP / 
+and similar.
+
+
+Installing this Program :
+-------------------------
+
+Run the GAME_INSTALLER.EXE in the distribution ZIP file, and 
+follow the prompts - just like many other standard Windows 
+programs.
+
+To run the program you could :
+
+1. Navigate your Start menu and look for the 
+   "Moose's Software" group and run the game, or,
+
+2. Locate the place where you installed the program 
+   (using Windows Explorer) - the default location
+   is c:\Program Files\Game\, and double click on the 
+   game's executable to run it,
+
+just like many other standard Windows programs.
+
+
+Uninstalling this Program :
+----------------------------
+
+Use the Add / Remove programs in Windows Control Panel to uninstall this 
+program - just like many other standard Windows programs.
+
+
+The Future :
+--------------
+
+* Optimisation !
+* Better sound - may mean moving to Direct/X - darn it !!!
+* A better prototype game (to demonstrate the sprite engine),
+* More behind the scenes options, so my sprite engine will 
+  natively support space invaders type games, platform games, 
+  simple 2D driving / flying / running games, etc,
+* Enemies that attack back.
+* Physics engine,
+* Parallax scrolling,
+* Multiple levels of background / scenery,
+* Tile mapping (to enable scrolling backgrounds to be built),
+* Accurate collision detection
+* Better graphics.  e.g. high-resolution sprites each with dozens or 
+  hundreds of frames of animation.
+* etc.
+
+
+Credits / Special Thanks to :
+------------------------------
+
+Thanks / credits go to :
+
+- Ari Feldman for his great Sprites (Graphics images)
+  http://www.arifeldman.com
+
+- ZOIDS Music : in MIDI format
+
+  Originally from the wierd Commodore 64 game of the same name.
+
+  This music was composed for the C=64 game by the legendary 
+  Rob Hubbard (and he based the music on Synergy's Ancestors 
+  music from their great "Audion" album).
+
+  A MIDI version was created for the PC by :
+  Chris Abbott (HiTec Music, HTML@aol.com) and 
+  Rochus Wessels (rochus@math.uni-muenster.de)
+
+- The Sound effects (WAV files) have been on my harddrive so long 
+  that I have forgotten where they came from originally.
+  They could be from a Zillion Sounds CD or some other program.
+
+- The background (the plate of pasta) is an old Windows desktop 
+  bitmap that was downloaded from somewhere on the internet many 
+  years ago.
+
+
+Freeware Information :
+----------------------
+
+This program is FREE software - any person and any company is
+welcome to copy it, use it, and distribute it as they see fit,
+as long as the program's files and this text file remain intact.
+
+If you paid money for this program, then you were ripped off,
+and you should complain to the person who sold it to you !!
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know, and I will do my best to fix it ASAP.
+
+
+Amendment History :
+--------------------
+
+Vers    Date        Description
+
+0.05  5-Sep-2002    First Public Release (but program was written ~2 years ago).
+                    (4,584 lines of code / comments.)
+
+If this program was not downloaded from my Home Page, then
+it is most likely an old version.  The latest version of this 
+program is available from my Home page and its mirrors.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://move.to/moose
+____________________________________________________
+ 

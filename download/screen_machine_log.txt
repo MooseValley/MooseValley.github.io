@@ -1,0 +1,339 @@
+** 2002-Dec-20 12:34:40 AM   User: Mike OMalley
+** Start Logging : Fri, 20-Dec-2002, 00:34:40
+
+** 2002-Dec-20 12:35:01 AM   User: Mike OMalley
+** Halt Logging : Fri, 20-Dec-2002, 00:35:01
+
+** 2002-Dec-20 12:38:17 AM   User: Mike OMalley
+** Start Logging : Fri, 20-Dec-2002, 00:38:17
+
+** 2002-Dec-20 12:42:42 AM   User: Mike OMalley
+** Halt Logging : Fri, 20-Dec-2002, 00:42:42
+
+** 2002-Dec-21 07:00:38 PM   User: Mike OMalley
+** Start Logging : Sat, 21-Dec-2002, 19:00:38
+
+** 2002-Dec-21 07:01:02 PM   User: Mike OMalley
+*** Error : Invalid password entry attempt : "" !
+
+** 2002-Dec-21 07:01:02 PM   User: Mike OMalley
+** Halt Logging : Sat, 21-Dec-2002, 19:01:02
+
+** 2002-Dec-21 07:05:38 PM   User: Mike OMalley
+** Start Logging : Sat, 21-Dec-2002, 19:05:38
+
+** 2002-Dec-21 07:05:39 PM   User: Mike OMalley
+** Start Logging : Sat, 21-Dec-2002, 19:05:39
+
+** 2002-Dec-21 07:05:39 PM   User: Mike OMalley
+  Screen saved to : 2002-Dec-21_07;05;39_PM__Mike_OMalley.bmp
+
+** 2002-Dec-21 07:10:39 PM   User: Mike OMalley
+** Start Logging : Sat, 21-Dec-2002, 19:10:39
+
+** 2002-Dec-21 07:10:40 PM   User: Mike OMalley
+** Start Logging : Sat, 21-Dec-2002, 19:10:40
+
+** 2002-Dec-21 07:10:40 PM   User: Mike OMalley
+  Screen saved to : 2002-Dec-21_07;10;39_PM__Mike_OMalley.bmp
+
+** 2002-Dec-21 07:12:59 PM   User: Mike OMalley
+** Halt Logging : Sat, 21-Dec-2002, 19:12:59
+
+** 2002-Dec-21 07:25:58 PM   User: Mike OMalley
+** Start Logging : Sat, 21-Dec-2002, 19:25:58
+
+** 2002-Dec-21 07:26:28 PM   User: Mike OMalley
+** Start Logging : Sat, 21-Dec-2002, 19:26:28
+
+** 2002-Dec-21 07:26:48 PM   User: Mike OMalley
+** Halt Logging : Sat, 21-Dec-2002, 19:26:48
+
+** 2002-Dec-21 07:27:39 PM   User: Mike OMalley
+** Start Logging : Sat, 21-Dec-2002, 19:27:39
+
+** 2002-Dec-21 07:28:10 PM   User: Mike OMalley
+** Halt Logging : Sat, 21-Dec-2002, 19:28:10
+
+** 2002-Dec-21 07:29:47 PM   User: Mike OMalley
+** Start Logging : Sat, 21-Dec-2002, 19:29:47
+
+** 2002-Dec-21 07:29:54 PM   User: Mike OMalley
+*** Error : Invalid password entry attempt : "aaaa" !
+
+** 2002-Dec-21 07:29:54 PM   User: Mike OMalley
+** Halt Logging : Sat, 21-Dec-2002, 19:29:54
+
+** 2002-Dec-21 07:30:08 PM   User: Mike OMalley
+** Halt Logging : Sat, 21-Dec-2002, 19:30:08
+
+** 2002-Dec-21 07:31:44 PM   User: Mike OMalley
+** Start Logging : Sat, 21-Dec-2002, 19:31:44
+
+** 2002-Dec-21 07:32:00 PM   User: Mike OMalley
+** Start Logging : Sat, 21-Dec-2002, 19:32:00
+
+** 2002-Dec-21 07:32:23 PM   User: Mike OMalley
+** Halt Logging : Sat, 21-Dec-2002, 19:32:23
+
+** 2002-Dec-21 07:35:58 PM   User: Mike OMalley
+** Start Logging : Sat, 21-Dec-2002, 19:35:58
+
+** 2002-Dec-21 07:36:07 PM   User: Mike OMalley
+** Start Logging : Sat, 21-Dec-2002, 19:36:07
+
+** 2002-Dec-21 07:36:21 PM   User: Mike OMalley
+** Halt Logging : Sat, 21-Dec-2002, 19:36:21
+
+** 2002-Dec-21 07:36:50 PM   User: Mike OMalley
+** Start Logging : Sat, 21-Dec-2002, 19:36:50
+
+** 2002-Dec-21 07:36:59 PM   User: Mike OMalley
+*** Error : Invalid password entry attempt : "aaa" !
+
+** 2002-Dec-21 07:36:59 PM   User: Mike OMalley
+** Halt Logging : Sat, 21-Dec-2002, 19:36:59
+
+** 2002-Dec-21 07:37:18 PM   User: Mike OMalley
+** Halt Logging : Sat, 21-Dec-2002, 19:37:18
+
+** 2003-Jan-11 01:12:03 PM   User: Mike OMalley
+** Start Logging : Sat, 11-Jan-2003, 13:12:03
+
+** 2003-Jan-11 01:12:55 PM   User: Mike OMalley
+** Start Logging : Sat, 11-Jan-2003, 13:12:55
+
+** 2003-Jan-11 01:13:04 PM   User: Mike OMalley
+*** Error : Invalid password entry attempt : "aaa" !
+
+** 2003-Jan-11 01:13:04 PM   User: Mike OMalley
+** Halt Logging : Sat, 11-Jan-2003, 13:13:04
+
+** 2003-Jan-11 01:13:14 PM   User: Mike OMalley
+** Halt Logging : Sat, 11-Jan-2003, 13:13:14
+
+** 2003-Jan-11 01:17:32 PM   User: Mike OMalley
+** Start Logging : Sat, 11-Jan-2003, 13:17:32
+
+** 2003-Jan-11 01:17:58 PM   User: Mike OMalley
+** Start Logging : Sat, 11-Jan-2003, 13:17:58
+
+** 2003-Jan-11 01:18:09 PM   User: Mike OMalley
+** Halt Logging : Sat, 11-Jan-2003, 13:18:09
+
+** 2003-Jan-11 01:18:18 PM   User: Mike OMalley
+** Start Logging : Sat, 11-Jan-2003, 13:18:18
+
+** 2003-Jan-11 01:20:03 PM   User: Mike OMalley
+** Start Logging : Sat, 11-Jan-2003, 13:20:03
+
+** 2003-Jan-11 01:20:04 PM   User: Mike OMalley
+** Start Logging : Sat, 11-Jan-2003, 13:20:04
+
+** 2003-Jan-11 01:20:05 PM   User: Mike OMalley
+  Screen saved to : 2003-Jan-11_01;20;04_PM__Mike_OMalley.bmp
+
+** 2003-Jan-11 01:25:05 PM   User: Mike OMalley
+** Start Logging : Sat, 11-Jan-2003, 13:25:05
+
+** 2003-Jan-11 01:25:07 PM   User: Mike OMalley
+** Start Logging : Sat, 11-Jan-2003, 13:25:07
+
+** 2003-Jan-11 01:25:07 PM   User: Mike OMalley
+  Screen saved to : 2003-Jan-11_01;25;06_PM__Mike_OMalley.bmp
+
+** 2003-Jan-11 01:30:07 PM   User: Mike OMalley
+** Start Logging : Sat, 11-Jan-2003, 13:30:07
+
+** 2003-Jan-11 01:30:08 PM   User: Mike OMalley
+** Start Logging : Sat, 11-Jan-2003, 13:30:08
+
+** 2003-Jan-11 01:30:08 PM   User: Mike OMalley
+  Screen saved to : 2003-Jan-11_01;30;07_PM__Mike_OMalley.bmp
+
+** 2003-Jan-11 01:35:08 PM   User: Mike OMalley
+** Start Logging : Sat, 11-Jan-2003, 13:35:08
+
+** 2003-Jan-11 01:35:09 PM   User: Mike OMalley
+** Start Logging : Sat, 11-Jan-2003, 13:35:09
+
+** 2003-Jan-11 01:35:09 PM   User: Mike OMalley
+  Screen saved to : 2003-Jan-11_01;35;08_PM__Mike_OMalley.bmp
+
+** 2003-Jan-11 01:40:10 PM   User: Mike OMalley
+** Start Logging : Sat, 11-Jan-2003, 13:40:10
+
+** 2003-Jan-11 01:40:11 PM   User: Mike OMalley
+** Start Logging : Sat, 11-Jan-2003, 13:40:11
+
+** 2003-Jan-11 01:40:11 PM   User: Mike OMalley
+  Screen saved to : 2003-Jan-11_01;40;11_PM__Mike_OMalley.bmp
+
+** 2003-Jan-11 01:45:12 PM   User: Mike OMalley
+** Start Logging : Sat, 11-Jan-2003, 13:45:12
+
+** 2003-Jan-11 01:45:13 PM   User: Mike OMalley
+** Start Logging : Sat, 11-Jan-2003, 13:45:13
+
+** 2003-Jan-11 01:45:13 PM   User: Mike OMalley
+  Screen saved to : 2003-Jan-11_01;45;12_PM__Mike_OMalley.bmp
+
+** 2003-Jan-11 01:50:13 PM   User: Mike OMalley
+** Start Logging : Sat, 11-Jan-2003, 13:50:13
+
+** 2003-Jan-11 01:50:15 PM   User: Mike OMalley
+** Start Logging : Sat, 11-Jan-2003, 13:50:15
+
+** 2003-Jan-11 01:50:15 PM   User: Mike OMalley
+  Screen saved to : 2003-Jan-11_01;50;14_PM__Mike_OMalley.bmp
+
+** 2003-Jan-11 01:55:15 PM   User: Mike OMalley
+** Start Logging : Sat, 11-Jan-2003, 13:55:15
+
+** 2003-Jan-11 01:55:16 PM   User: Mike OMalley
+** Start Logging : Sat, 11-Jan-2003, 13:55:16
+
+** 2003-Jan-11 01:55:16 PM   User: Mike OMalley
+  Screen saved to : 2003-Jan-11_01;55;15_PM__Mike_OMalley.bmp
+
+** 2003-Jan-11 02:00:21 PM   User: Mike OMalley
+** Start Logging : Sat, 11-Jan-2003, 14:00:21
+
+** 2003-Jan-11 02:00:23 PM   User: Mike OMalley
+** Start Logging : Sat, 11-Jan-2003, 14:00:23
+
+** 2003-Jan-11 02:00:23 PM   User: Mike OMalley
+  Screen saved to : 2003-Jan-11_02;00;21_PM__Mike_OMalley.bmp
+
+** 2003-Jan-11 02:05:23 PM   User: Mike OMalley
+** Start Logging : Sat, 11-Jan-2003, 14:05:23
+
+** 2003-Jan-11 02:05:25 PM   User: Mike OMalley
+** Start Logging : Sat, 11-Jan-2003, 14:05:25
+
+** 2003-Jan-11 02:05:25 PM   User: Mike OMalley
+  Screen saved to : 2003-Jan-11_02;05;24_PM__Mike_OMalley.bmp
+
+** 2003-Jan-11 02:10:25 PM   User: Mike OMalley
+** Start Logging : Sat, 11-Jan-2003, 14:10:25
+
+** 2003-Jan-11 02:10:26 PM   User: Mike OMalley
+** Start Logging : Sat, 11-Jan-2003, 14:10:26
+
+** 2003-Jan-11 02:10:26 PM   User: Mike OMalley
+  Screen saved to : 2003-Jan-11_02;10;26_PM__Mike_OMalley.bmp
+
+** 2003-Jan-11 02:15:26 PM   User: Mike OMalley
+** Start Logging : Sat, 11-Jan-2003, 14:15:26
+
+** 2003-Jan-11 02:15:28 PM   User: Mike OMalley
+** Start Logging : Sat, 11-Jan-2003, 14:15:28
+
+** 2003-Jan-11 02:15:28 PM   User: Mike OMalley
+  Screen saved to : 2003-Jan-11_02;15;27_PM__Mike_OMalley.bmp
+
+** 2003-Jan-11 02:20:28 PM   User: Mike OMalley
+** Start Logging : Sat, 11-Jan-2003, 14:20:28
+
+** 2003-Jan-11 02:20:29 PM   User: Mike OMalley
+** Start Logging : Sat, 11-Jan-2003, 14:20:29
+
+** 2003-Jan-11 02:20:29 PM   User: Mike OMalley
+  Screen saved to : 2003-Jan-11_02;20;29_PM__Mike_OMalley.bmp
+
+** 2003-Jan-11 02:23:53 PM   User: Mike OMalley
+** Halt Logging : Sat, 11-Jan-2003, 14:23:53
+
+** 2003-Jan-15 02:03:55 AM   User: Mike OMalley
+** Start Logging : Wed, 15-Jan-2003, 02:03:56
+
+** 2003-Jan-15 02:04:02 AM   User: Mike OMalley
+*** Error : Invalid password entry attempt : "a" !
+
+** 2003-Jan-15 02:04:02 AM   User: Mike OMalley
+** Halt Logging : Wed, 15-Jan-2003, 02:04:02
+
+** 2003-Jan-15 02:04:28 AM   User: Mike OMalley
+** Halt Logging : Wed, 15-Jan-2003, 02:04:28
+
+** 2003-Jan-15 10:02:31 PM   User: Mike OMalley
+** Start Logging : Wed, 15-Jan-2003, 22:02:31
+
+** 2003-Jan-15 10:02:42 PM   User: Mike OMalley
+** Halt Logging : Wed, 15-Jan-2003, 22:02:42
+
+** 2003-Jan-15 10:03:44 PM   User: Mike OMalley
+** Start Logging : Wed, 15-Jan-2003, 22:03:44
+
+** 2003-Jan-15 10:04:18 PM   User: Mike OMalley
+** Halt Logging : Wed, 15-Jan-2003, 22:04:18
+
+** 2003-Jan-16 02:06:50 AM   User: Mike OMalley
+** Start Logging : Thu, 16-Jan-2003, 02:06:50
+
+** 2003-Jan-16 02:06:54 AM   User: Mike OMalley
+** Halt Logging : Thu, 16-Jan-2003, 02:06:54
+
+** 2003-Jan-16 02:06:56 AM   User: Mike OMalley
+** Start Logging : Thu, 16-Jan-2003, 02:06:56
+
+** 2003-Jan-16 02:07:05 AM   User: Mike OMalley
+** Halt Logging : Thu, 16-Jan-2003, 02:07:05
+
+** 2003-Jan-16 02:07:07 AM   User: Mike OMalley
+** Start Logging : Thu, 16-Jan-2003, 02:07:07
+
+** 2003-Jan-16 02:07:38 AM   User: Mike OMalley
+** Halt Logging : Thu, 16-Jan-2003, 02:07:38
+
+** 2003-Jan-16 02:09:50 AM   User: Mike OMalley
+** Start Logging : Thu, 16-Jan-2003, 02:09:50
+
+** 2003-Jan-16 02:09:55 AM   User: Mike OMalley
+** Halt Logging : Thu, 16-Jan-2003, 02:09:55
+
+** 2003-Jan-16 02:10:50 AM   User: Mike OMalley
+** Start Logging : Thu, 16-Jan-2003, 02:10:50
+
+** 2003-Jan-16 02:11:26 AM   User: Mike OMalley
+** Halt Logging : Thu, 16-Jan-2003, 02:11:26
+
+** 2003-Jan-16 02:12:31 AM   User: Mike OMalley
+** Start Logging : Thu, 16-Jan-2003, 02:12:31
+
+** 2003-Jan-16 02:15:27 AM   User: Mike OMalley
+** Start Logging : Thu, 16-Jan-2003, 02:15:27
+
+** 2003-Jan-16 02:15:38 AM   User: Mike OMalley
+** Halt Logging : Thu, 16-Jan-2003, 02:15:38
+
+** 2003-Jan-16 02:17:31 AM   User: Mike OMalley
+** Start Logging : Thu, 16-Jan-2003, 02:17:31
+
+** 2003-Jan-16 02:17:46 AM   User: Mike OMalley
+** Halt Logging : Thu, 16-Jan-2003, 02:17:46
+
+** 2003-Jan-16 02:26:04 AM   User: Mike OMalley
+** Start Logging : Thu, 16-Jan-2003, 02:26:04
+
+** 2003-Jan-16 02:26:19 AM   User: Mike OMalley
+** Halt Logging : Thu, 16-Jan-2003, 02:26:19
+
+** 2003-Jan-16 02:27:36 AM   User: Mike OMalley
+** Start Logging : Thu, 16-Jan-2003, 02:27:36
+
+** 2003-Jan-16 02:27:49 AM   User: Mike OMalley
+** Halt Logging : Thu, 16-Jan-2003, 02:27:49
+
+** 2003-Jan-16 02:41:07 AM   User: Mike OMalley
+** Start Logging : Thu, 16-Jan-2003, 02:41:07
+
+** 2003-Jan-16 02:41:11 AM   User: Mike OMalley
+** Halt Logging : Thu, 16-Jan-2003, 02:41:11
+
+** 2007-Sep-05 11:14:06    User: User1
+** Start Logging : Wed, 05-Sep-2007, 23:14:06
+
+** 2007-Sep-05 11:14:17    User: User1
+** Halt Logging : Wed, 05-Sep-2007, 23:14:17
+

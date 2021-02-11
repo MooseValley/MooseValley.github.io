@@ -1,0 +1,266 @@
+ 
+Disk Monitor			Copyright (C) Moose O'Malley, 
+------------			January 2015.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * The Future
+   | * Reviews / Awards / CDs
+   | * Freeware Information
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+Disk Monitor is for IBM compatible PCs, desktops, laptops, netbooks, 
+etc running any version of Windows from Windows 95 onwards, which includes 
+Windows 98, ME, NT, 2000, XP, Vista, 7, 8, 10, etc, 32 and 64 bit.
+
+This program is free software.  Anyone - any person, any company, 
+or any business - can use this program for free.  No fees or 
+payment is required.  See "Freeware Information" below.
+
+Disk Monitor displays :
+- the total disk space and the free (unused) disk space in bytes, KB, 
+  MB, GB, TB, PB, EB, YB, ZB (whatever is most suitable) 
+  for all drives you want to monitor.
+- the percentage of free (unused) disk space for all drives 
+  you want to monitor.
+- the overall totals for all drives you are monitoring.
+
+Disk Monitor will monitor up to 26 drives.
+
+Colour coding is used to show how critical disk space is 
+becoming : green indicates that less than 85% of the disk
+is used, yellow if between 85% and 95% is used,
+and red if more than 95% is used.
+
+Never again will you need to worry about unexpectedly running 
+out of disk space when downloading large files from the Net, 
+saving large documents / spreadsheets, or restructure large 
+databases, because now it is so easy to keep track of all 
+your drives.  A quick glance will tell you all you need 
+to know !
+
+The disk usage statistics are updated everry 30 seconds by 
+default, but this can also be changed (also under the 
+Settings menu).
+
+Windows, drive, etc Settings are automatically saved to the INI
+file when you exit Disk Monitor.  The settings are also
+saved on Windows shutdown.
+
+You can also drag and drop files from Windows Explorer / File
+Manager or similar product onto Disk Monitor to automatically 
+start monitoring of the drive that the particular files reside 
+on.
+
+
+The Future :
+------------
+
+Much new functionality can be added to this program in the future,
+such as :
+- Add a column to hold the label description for each disk.
+- Add a column to hold the type of drive : floppy, hard-disk, CD,
+  network, etc.
+- Add in a screen to display details of each drive - sector 
+  sizes, number of sectors, FAT 32/16, etc.
+
+If anyone requires any of this or other functionality,
+or has any other suggestions, please email me and let me 
+know !
+
+
+Reviews / Awards / CDs :
+------------------------
+
+Version 2.3 of this program was included on
+the INFOPC (french edition of PC World magazine, IDG) 
+"the best tools to test your computer" cover CD 
+for the February 1998 issue.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.  
+
+Anyone - any person, any company, or any business - can 
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please 
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select 
+the "About" option under the Help menu, and then click 
+the PayPal link on the "About" screen).
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know.
+
+
+Amendment History :
+--------------------
+
+Vers    Date        Description
+1.1   25-Sep-1996   First Public Release.
+1.2   29-Sep-1996   Improve Settings menu option.
+1.3   02-Oct-1996   Fix problem with Menu wrapping on some video cards,
+                    which truncated the bottom line of the main window.
+1.4   27-Jan-1997   Add in Registration functionality.
+1.5   05-May-1997   Now you can double click on the drive label,
+                    space free label, or main form to refresh the 
+                    drive statii.  Unfortunately, due to limitations
+                    in Delphi, you cannot double-click on the 
+                    individual graphs to refresh their statii.
+2.0   09-May-1997   Massive changes for this release !!
+                    By popular demand, add in support for monitoring 
+                    of up to 26 drives - in the Registered version !
+                    Make Usage Bar Graphs lie horizontal instead
+                    of vertical.  Make main Window shrink / expand
+                    vertically as drives are added / removed to the
+                    monitor list.  Show disk space free out of 
+                    total disk capacity for each drive.  Add in 
+                    support for Terrabyte and Gigabyte abbreviations 
+                    in the disk sizes.  Tart up the settings window.
+                    Add in tool tips for each field on the screen.
+                    Optimise code - to reduce repetitiveness.
+2.1   24-May-1997   Save settings automatically on Windows 95 shutdown 
+                    (Registered Users only).
+                    Turn off "Drive not Ready" messages if the floppy,
+                    CD, etc has been removed from the drive.
+                    Start Minimised if set in Shortcut / settings
+                    (Registered Users only).  
+                    Improve application startup - size and position 
+                    form before user sees it.
+                    Use a yellow bar colour if the drive is between
+                    85% and 95% used.  
+2.2   17-Jun-1997   Add in Menu items for viewing my Shareware Catalog, 
+                    the Readme file, and the Registration Form.
+2.3   02-Jul-1997   Add in ability to display a Total's row, which 
+                    will display overall disk space used, free, and 
+                    total capacity.
+                    (2,983 lines of code / comments).
+2.4   11-Jan-1998   Fix a long standing but very elusive problem
+                    to do with "DateEncode" errors which occured
+                    on some machines under some conditions.
+                    Once I could replicate the error, it was
+                    reasonably straight forward to get a workaround
+                    for what was another bug in Delphi.
+                    Remove scroll-bars from main window - which
+                    appeared under some circumstances.  e.g.  when
+                    monitoring a drive with 1000 KB left and the labels
+                    are too long - a vertical scroll bar appears !
+                    (3,133 lines of code / comments).
+3.1   25-Aug-1999   Produce a 32-bit version of Disk Monitor
+                    for Windows 95 / NT which supports big disks -
+                    i.e. handles harddisks greater than 2 GB in size.
+                    This is a 32 bit version for use with Windows 95
+                    98, 2000, and NT only.  This 32 bit version 
+                    will **NOT** work under Windows 3.x even with 
+                    Win32s installed.
+                    Work around another bug in Borland Delphi 
+                    to fix NTDLL.DLL errors on closedown which 
+                    occured on some Windows NT configurations.
+                    Fix "About ..." dialog's free resources %
+                    in Windows NT.
+                    Enhance "About ..." window with buttons to
+                    copy my email and WEB page address to the
+                    Window's clipboard, so user can simply
+                    paste them into WEB Browser or Email program.
+                    Position the Settings Window at Screen Centre.
+                    Add in ability to drag and drop files onto
+                    Disk Monitor to automatically start monitoring 
+                    of the drive that the particular files appear on.
+                    (Registered Users Only).
+                    Add a "Free / Used" header on the main screen.
+                    (4,722 lines of code / comments).
+
+3.2   25-Aug-1999   Work around another bug in Borland Delphi so 
+                    the 32 bit version of Disk Monitor can 
+                    correctly handle 30 GB and far larger drives.  
+                    (Fix required due to errors in Borland's 
+                    suggested fix FAQ2552D on their WEB site).
+                    (4,718 lines of code / comments).
+
+3.5   18-Apr-2000   Store the INI settings file in program's directory, 
+                    rather that in the Windows' directory - there's enough 
+                    crap there already ! ;)
+                    Add in a "spinner" so you can tell when things are 
+                    being updated in the graphs, etc.
+                    Add in "Always On Top" functionality - available 
+                    from the "File" menu.  (Added especially for 
+                    my good friend Patrick Cullinan !)
+                    (6,773 lines of code / comments).
+
+3.6   17-Apr-2001   Add in support for "Big Fonts" and "Other Sized Fonts" - 
+                    with these Windows resizes the windows automatically - 
+                    but only sometimes and it doesn't always do it right, 
+                    so now I make sure my main window is the right size 
+                    before doing any scaling, etc.  i.e. I make it fit the 
+                    component(s) that extend the furthest right and 
+                    furthest down the form.   See the  Start Menu -> 
+                    Settings -> Control Pannel -> Display -> Settings 
+                    Tab -> "Advanced" button -> "General" tab for 
+                    your PC's settings in this area.
+                    Bring program up-to-date with my latest code libraries.
+                    (9,574 lines of code / comments.)
+
+3.6b  20-Nov-2002   Bring the program up to date with my latest code libraries.
+                    Registered Users - please contact me via email.
+                    (35,573 lines of code / comments.)
+
+3.6f  3-Sep-2007    This program is now FREEWARE - see "Freeware Information"
+                    above.
+                    
+3.7f  4-Jan-2015    Fix a couple of issues with this program running under 64 bit versions of 
+                    Windows Vista, 7, 8, etc.  (Auto-run at Windows startup and refreshing).
+                    Fix an issue with the total of all drives.
+                    Stop the timer when refreshing the free / space for all drives and 
+                    re-enable it when everything has been refreshed for all drives just 
+                    in case the user has selected a LOT of drives (up to 26) and/or some are slow 
+                    or take time to spin up - CD drives, etc - and the user has selected 
+                    a fast refresh frequency (1 second).  This prevents updates from clashing 
+                    with / piling up on each other.
+                    Change the timer refresh increment from 5 seconds to 1 second.
+                    Smarten up the Settings screen a little bit: add icons to buttons, 
+                    change from bevels to groupboxes, etc.
+                    This program now supports disk drive sizes well into the trillions of 
+                    Zetta Bytes range (unless there is a bug in the pascal compiler I am using).
+                    1 ZB = 1,000,000,000,000 TB.  Given that current hard-drive sizes max out at
+                    about 6 TB, we wont be getting to ZB drive sizes for a little while yet !  :)
+                    Change over to using 1000 bytes for a KB as per the "standard".  I hate doing this.  
+                    1 KB should be 1024 bytes, not 1000 bytes.  But I refuse to use the stupid looking 
+                    "KiB" abbreviation for 1024 bytes.  Stupid standards committees !
+                    To avoid feeling ill, I'll just have to "avert my eyes" when I get to the part 
+                    of my code that says "1 KB = 1000 bytes".
+                    Bring the program up to date with my latest code libraries.  :)
+                    (976 lines of code / comments / blank lines in primary source file.)
+                    (56,470 lines of code / comments / blank lines in all primary, library, and include files.)
+
+
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this 
+program is available from my WEB page - see below.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://moosevalley.fhost.com.au/
+____________________________________________________
+ 

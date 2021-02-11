@@ -1,0 +1,207 @@
+ 
+Disk Space Logger			Copyright (C) Moose O'Malley, 
+------------------			September 2013.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction                                            |
+   | * Why is this useful ?  /  Why do this ?                  |
+   | * Using this Program                                      |
+   | * The Future                                              |
+   | * Special Greetings / Thanks to                           |
+   | * Program License / Limitations / Restrictions            |
+   | * Warranty                                                |
+   | * Amendment History                                       |
+   | * Contacting the Program's Author                         |
+   +===========================================================+
+
+Introduction :
+--------------
+
+Disk Space Logger for Windows 95 / 98 / ME / NT / 2000, 
+Vista, 7, 8, 32 or 64 bit, etc.
+
+Disk Space Logger enables you to quickly and easily keep track of 
+the amount of free disk space on a particular drive in or attached 
+to your machine.
+
+Settings allow you to specify a wide range of logging options,
+including:
+* The drive to log.  e.g. C:, D:, etc.
+* The number of seconds between log events.  e.g. 10 seconds means 
+  that the free disk space is checked and logged every 10 seconds.
+* The order in which data is added to the list (at the top 
+  or at the bottom)
+* When to log the first disk space item - when the start button is 
+  pressed or when the timer reaches zero,
+* The Units of Measure: KB, MB, GB, etc all the way up to YB.
+  Given that current harddrives drives are measured in TB, with the 
+  largest being around 4 TB for desktop use, it will be probably
+  be decades or centuries before the YB measure is needed.
+* The Conversion factor. i.e. whether a KB is 1024 or 1000 bytes.
+* The number of decimal places to display.
+
+All but one of these settings can be changed while the program is 
+logging the free disk space.  This could be useful if you need to 
+drop down to MB or even KB to really keep an eye on how much disk 
+space is available.
+
+The only setting you cannot change while the programm is logging free 
+disk space is the Drive setting.  If you could change the drive on the 
+fly, then the Average, Min, Max, from the prior drive would be either 
+be lost or corrupted and meaningless, and the log would become 
+meaningless - which drive is this for ?
+
+So, if you want to change Drives, click "Stop", and then click 
+"Reset" to reset everything, change the drive, and then click "Start" 
+to start the logging again.
+
+This seems the only safe way to handle this, but if anyone has any 
+suggestions, email me and let me know.  :)
+
+Changing the settings does NOT effect existing / prior log entries 
+(they are history, and they cannot be changed), but only future log 
+entries.  This provides maximum flexibility.  e.g. you can do some 
+logging in GB and then in a tricky part where you want to see 
+greater detail, you can log in MB or KB, or increase the number of 
+decimal points for a while, and so on.  Doing so will only effect 
+future log entries.
+
+The abbreviations used for KB, MB, etc are all according to the
+IEC standard (see http://en.wikipedia.org/wiki/Terrabyte).
+I adopted the IEC standard, because it covers everything.
+Others, like JEDEC, do not.  For example, JEDEC does not go 
+beyond TB (or, at least it doesn't according to Wikipedia).
+
+This means that if you have selected 1000 as the Conversion Factor
+then the disk size / space abbreviations are: kB, MB, GB, TB, etc.  
+i.e. 1 kB = 1000 bytes, and 1 MB = 1000 kB, and so on.
+(Yes, lowercase "k" is correct in "kB" according to the standard).
+
+But, if you select 1024 as the Conversion Factor, then the 
+disk size / space abbreviations are: KiB, MiB, GiB, TiB, 
+etc.  i.e. 1 KiB = 1024 bytes, and 1 MiB = 1024 KiB, and so on.
+
+I cannot tell you how much this rankles me !!!
+
+I am definitely a traditional guy when it comes disk size / space 
+units of measure.  i.e. KB, MB, etc and I believe that 
+a KB should always be 1024 bytes.  Not a KiB ! 
+If anything, the KiB should be when you divide by 1000 !
+
+But the standard does not agree with me.  And, I have 
+abided by what the standard says.
+
+If you don't agree with this, blame the likes of the IEC, 
+not me !  :P
+
+The "Start" and "Stop" buttons start and stop the logging.
+A blue progress bar displays an indication of the number of 
+seconds left before the next disk space reading is logged.
+
+The "Reset" button resets the log, and the Min, Max, Average 
+values displayed.
+
+Buttons are provided next to the Min, Max, Average 
+values to enable you to copy and paste the values to 
+Windows Clipboard.
+
+"Copy" and "Save" buttons are provided next to the log to
+allow you to copy it to Windows Clipboard and save it to file 
+respectively.
+
+And that's about it.  Everything should hopefully be pretty 
+self explanatory.  Any questions or problems, let me know.  :)
+
+Developed using 32-bit Delphi.
+
+
+Why is this useful ?  /  Why do this ?
+--------------------------------------
+
+I wrote this program on 23-Sep-2013 to keep track of the free 
+disk space used by a *very* badly behaved installer, which said 
+it needed 3,288 MB, when in reality it needed more than 11 GB.
+I wanted to log the disk space used so that I could provide 
+information to the developers of the product so that they could 
+fix their installer.
+
+This program would be useful for anyone maintaining installers.
+And for anyone who wants to keep a log of disk space usage 
+on their computer while it is performing various tasks, 
+for whatever reasons they may have.
+
+If you find any good uses for this program, please email me and 
+let me know.  :)
+
+
+Using this Program :
+--------------------
+
+To use this program, simply unzip it to a directory (using 
+PKUNIP, WinZIP, or similar), and run it.  e.g. double click on the 
+"Disk_Space_Logger.EXE" file.
+
+See "Introduction" above for further details about the 
+settings and functionality provided.
+
+
+The Future :
+------------
+
+Anything ideas ?  If you would like any improvements, 
+please email me and let me know.
+
+
+Special Greetings / Thanks to :
+-------------------------------
+
+- None so far.
+
+
+Program License / Limitations / Restrictions :
+----------------------------------------------
+
+This program is FREE software - any person and any company is
+welcome to copy it, use it, and distribute it as they see fit,
+as long as the EXEcutable and this text file remain intact.
+
+If you find this program useful or funny or think I need 
+serious mental help, please visit my WEB page and check out 
+some of the other software. 
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know, and I will do my best to fix it ASAP.
+
+
+Amendment History :
+--------------------
+
+Vers    Date        Description
+
+1.0f  24-Sep-2013   First Public Release.
+                    (722 lines of code / comments / blank lines in primary source file.)
+                    (56,232 lines of code / comments / blank lines in all primary, library, and include files.)
+
+
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this 
+program is available from my WEB page - see below.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB: http://moosevalley.fhost.com.au/
+____________________________________________________
+ 

@@ -1,0 +1,202 @@
+Full Screen Background		Copyright (C) Moose O'Malley,
+----------------------		April 2019.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Using this Program
+   | * Use Cases: Why Use This Program? Why I wrote this program?
+   | * The Future
+   | * Reviews / Awards / CDs
+   | * Freeware Information
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+Full Screen Background is a simple little program that
+creates a full screen "background" over your desktop
+and any underlying applications that you want to hide.
+
+Why is this useful ?  I'm often doing screen shots, live
+demos, and recording desktop videos using tools like Camtasia
+Studio, and I don't want to show / include the clutter of
+my desktop icons, or show any material in any open documents
+that I'd rather keep private, so I needed a program that I
+could run and it will cover everything below it - no more
+desktop clutter, no more private information revealed,
+no more worries about prying eyes of strangers or "busy bodies"
+walking by, etc.
+
+So, I created Full Screen Background, and it has proven incredibly
+useful to me.  Maybe someone else out there will also find it useful ?
+
+This program will run on ANY operating system that is capable of
+running the JVM, including desktops, laptops, and tablets running
+Windows, Linux, Unix, etc, such as PCs, Macs, Raspberry PI, etc.
+
+This program is free software.  Anyone - any person, any company,
+or any business - can use this program for free.  No fees or
+payment is required.  See "Freeware Information" below.
+
+
+Using this Program :
+--------------------
+
+Download and install the Java Runtime Environment (JRE) for
+your machine / OS (if it is not already installed on your machine):
+
+http://www.oracle.com/technetwork/java/javase/downloads/index.html
+
+Extract the contents of the FullScreenBackground.zip file you
+downloaded from my web site to a folder on your machine.
+
+And then, double click on:
+
+	FullScreenBackground.jar
+
+icon / file to run the program in the Java Virtual Machine (JVM).
+
+Right mouse click on the screen to access the popup menu
+to change colours, see ther About screen, and Exit the
+application.
+
+Create a shortcut to FullScreenBackground on your Desktop
+so it is ready when you need it.  :)
+
+Run FullScreenBackground and then access your applications
+from the taskbar and click on their icons to bring them
+to the top, and click their icons again to minimize them.
+
+Use Windows Hotkeys:
+* Alt-TAB to switch applications and bring them to the front.
+* Ctrl_Esc to show the Start Menu so you can run apps, and
+  also reveal the Taskbar so you can select apps to bring
+  to the front.
+* etc.
+
+
+Use Cases: Why Use This Program? Why I wrote this program?
+----------------------------------------------------------
+
+FullScreenBackground is very useful if you are:
+1. recording desktop videos (Camtasia Studio, etc).
+2. taking screen shots.
+3. doing live demos, etc.
+
+and you want a clean computer screen - i.e. you don't want to
+show / include the clutter of my desktop icons, or show any
+material in any open documents that you would rather keep
+private, then Full Screen Background is just what you need.
+
+4. Also FullScreenBackground is very useful if you want to
+make screen shots or recordings of your apps / work, but
+you don't want to have the desktop icons, writing in
+background windows, etc showing through - bleeding through -
+and causing artifacts in transparent title bars and borders.
+
+5. FullScreenBackground would also be useful if you
+want to green screen your computer monitor(s), laptop
+screens, etc while making a video / movie so that you can
+add the computer graphics to the screens later on (without
+having to mess around deleting all the icons from your
+desktops, changing the background colour of your desktop
+to green, etc).
+
+6. And FullScreenBackground would also be useful if
+you have sensitive icons, information, etc on your
+screen, and someone - a stranger or "busy body" -
+walks by and they are trying to get a good look at what
+you are doing, and you don't want them to mind their
+own business.
+
+FullScreenBackground is great in all of these cases.
+
+I do lots of desktop How To videos and screen shots, so
+I'm doing 1, 2, and 3 all the time (some times many times
+a week, some weeks).
+
+
+The Future :
+------------
+
+In the future, many improvements could be made to this program,
+such as :
+
+- Display a picture, image of your choice ... instead of just
+  a single colour.
+
+- Display a facsimilie of a spreadsheet, word document,
+  or something else that has random data in it (so people
+  don't get too curious about what is being hidden).
+
+- Mouse lock, keyboard lock, password protect so that
+  the screen provides some basic security if you walk
+  away and leave your computer logged in / unlocked.
+
+- Anything else ?
+
+If you would like any of these improvements, or would like to
+suggest more, please email me and let me know.
+
+How much more work I do on this program depends entirely on
+what support I get, how many people use the program, etc.
+
+
+Reviews / Awards / CDs :
+-------------------------
+
+None so far.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.
+
+Anyone - any person, any company, or any business - can
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please
+consider making a PayPal donation to support my efforts.
+To do this, please visit my web page, click the "Contact Me"
+menu item, and scroll down to the PayPal link or the
+"PayPal Donate" icon or similar and click it.
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let
+me know.
+
+
+Amendment History :
+--------------------
+
+Vers    Date        Description
+
+1.0f  09-Apr-2019   First public release and my 109th software
+                    title released on my Moose's Software Valley web page.
+                    (178 lines of code / comments / blank lines in primary source files.)
+
+
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this
+program is available from my WEB page - see below.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://moosesoftware.netau.net/
+____________________________________________________

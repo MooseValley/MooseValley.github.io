@@ -1,0 +1,138 @@
+Tetris v1.9 (June 94) for DOS.            by Moose O'Malley
+
+FREE Ware !
+
+This Prototype Tetris program includes various 
+levels of play : 
+	- Kids Tetris (easy), 
+	- Standard Tetris, 
+	- Hard Tetris, and, 
+	- Nightmare !
+
+This version of Tetris is FREE Ware, and you can
+copy, distribute, and use it freely as long as this
+message remains intact.
+
+The program operates in character mode only.  i.e. it is not a 
+graphical program, so it will work on any monitor : CGA, EGA, VGA, 
+etc, and will run on any PC (with an Intel CPU from 8088 to Pentium 
+Pro), and with any amount of memory (it only needs a few dozen KB).
+
+It runs on my 8086 640 KB CGA laptop, and it runs (at the same 
+speed) on my Pentium 100 / 16 MB / SVGA.
+
+It also runs under Windows 3.1, 95, NT, but as a DOS application.
+
+This program was written in Turbo Pascal v3 / v5 (DOS).
+
+I wrote this version of Tetris in 5 days, after work during 
+the week.  The game is still very rough, and it could do with 
+a great deal of polishing / enhancing.
+
+If you like this program, please EMail me and let me know.
+
+It may encourage me to make some of the changes listed below.
+
+
+Future possible Enhancements :
+------------------------------
+
+- Windows version - then again, keeping the program in DOS / ASCII 
+  means it will run on the very first PC (with 64 KB of RAM and 
+  NO graphics capability), and will also run (at the same speed and 
+  with the same functionality) on the very latest Pentium machines.
+  Not many games / programs out there can claim this !
+
+- 2, 3 or 4 players competing (they have their own areas).
+
+- 2, 3 or 4 players co-operating (all controlling their own pieces 
+  in 1 huge area).
+
+- Shape editor to enable you to create your own Tetris pieces.
+
+- Seperate High Score tables for each Level of game play.
+
+- Add in a 'Lines Removed' counter.
+
+- Add in the missing 'T' piece.  (How did I miss it out ??)
+
+- "Get out of the Mess" - start with predefined levels, with layers
+  of blocks already in position and the player has to get out of 
+  the mess and clear the screen.
+
+- Game play could also be tweaked then - at the moment all other 
+  Tetris games out there (that I have seen) stop when one player 
+  ends - so a fast player who drops heaps of pieces and ends the 
+  game will have a higher score than the slow careful player who 
+  has not made a mistake. The slow player should have the option 
+  of continuing on to beat the other players score.
+
+- I have also thought of having Arkanoid like power ups - imagine 
+  having laser cannons on your falling piece with say 5 shots to 
+  shoot out pieces / mistakes below - or a black piece (like the 
+  black balls in Arkanoid) that passes through all other pieces 
+  and cleans them away.
+
+- You could also have morphing pieces that change shape if a player 
+  is too slow in dropping them down, wild card pieces, Larva pieces 
+  that flow into any given gap, Acid pieces that eat away other 
+  pieces, virus pieces that infect and change the shape of any 
+  other peices they touch, and heaps of other tricky things.
+  (I have got loads of ideas here !!).
+
+- Sound FX - at the moment sound is only beeps and farts through 
+  the PC's internal speaker.  Great sounds and music, with
+  in-game speech would make the game much better.
+
+- Then there is modem, network and internet play ........  
+  This is tricky and will be weeks / months of hard work and it 
+  will probably mean moving from DOS to Windows ....
+
+- The game also needs a lot of polishing and interface enhancing - 
+  it is very rough round the edges.
+
+But, the sky really is the limit !!
+
+The above really is a lot of work, and it is unlikely that all
+of the above will be done for the first release, and some may
+never be done.
+
+The new program will probably cost $5 (FIVE dollars) - like
+all of my other Shareware programs !!
+
+If anyone is interested in this program or registering their 
+intentions to buy the program when most of the above features 
+are added, please let me know !
+
+With enough support, I might be able to start work on the 
+project sooner rather than later.
+
+If you purchase any of my programs, you will become a 
+treasured Registered Users and receive :
+- FREE upgrades for life !
+- FREE Technical Support via Email.
+- Access to the latest functionality - only available in 
+  Registered versions of the programs.
+- Friendly and fast customer support via Email.
+- Notifications by Email when the programs you have 
+  registered are upgraded.
+- Greater say in future changes / enhancements.
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know, and I will do my best to fix it ASAP.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://move.to/moose
+____________________________________________________
+ 

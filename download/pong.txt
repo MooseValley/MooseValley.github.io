@@ -1,0 +1,274 @@
+ 
+Moose Pong			Copyright (C) Moose O'Malley, 
+----------			September 2007.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Mouse Controls
+   | * Keyboard Controls
+   | * The Future
+   | * Known Bugs
+   | * Reviews / Awards / CDs
+   | * Freeware Information
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+Moose Pong (pun intended !) - a game of PONG for 
+Windows 95, 98, ME, NT, 2000, XP, etc.
+
+This program is free software.  Anyone - any person, any company, 
+or any business - can use this program for free.  No fees or 
+payment is required.  See "Freeware Information" below.
+
+This is the first "PONG" game in the universe to feature 
+3 Stooges sound effects !!!
+
+PONG was the first mass marketed video arcade game - 
+way back in 1972.  So, it is only fitting that 
+this was my first Delphi game !!
+
+Pong enables you to re-play this great game from the 
+mid 1970's on your Windows PC.
+
+Moose Pong features :
+- Ability to play in a fully user-scalable window.
+- The ability to play Squash, Hockey (2 Player only), 
+  and Tennis (2 Player only).
+- Digitised sound effects - all sampled from my own voice !!
+  (Including the 3 Stooges impersonations, serving
+  "grunt", and the ball bounce sounds !!!).
+- 1 or 2 Player action.
+- Mouse or Keyboard control.
+- Ability to change the direction of the ball according
+  to which part of your bat you hit it with !!
+- 4 bats (2 per player) in Hockey.
+- Some interesting features in the game.
+  e.g. if you are serving in squash, you are always on the 
+  left, so that the other player can curve the ball before 
+  you can hit it to make up for your serving advantage !!
+  I have also implemented bat deflections - great especially
+  in Hockey !  
+  Also, the ball sticks to the bat prior to serving.
+
+This is my FIRST game in Delphi !  Hopefully, many more to 
+follow !!
+
+The ">>" symbol between the 2 scores is an arrow that 
+indicates who's turn it is to hit the ball next.
+
+Note that in Squash, the player who is serving is always 
+on the left.  I did this to give the receiver the 
+advantage of being able to curve the ball around the
+server's bat - making up for their serving advantage.
+
+Developed using 16-bit Delphi.
+
+
+Mouse Controls :
+----------------
+
+Moving the Mouse up and down moves your bat.
+Pressing the Left mouse button serves the ball - if it 
+is your turn to serve.
+
+
+Keyboard Controls :
+-------------------
+
+I like games with multiple options for keyboard controls,
+so here I have done a bit of an overkill.
+
+Any of the keys in these categories will work !!
+
+Bat UP :    Any of QWERTYUIOP[]  (i.e. top row of keyboard)
+            Any of 789           (on the keypad - numlock on or off)
+            Up Cursor Key
+Bat STOP :  Any of ASDFGHJKL;'   (i.e. middle row of keyboard)
+            Any of 456           (on the keypad - numlock on or off)
+            Left or Right Cursor Key
+Bat DOWN :  Any of ZXCVBNM,./    (i.e. bottom row of keyboard)
+            Any of 123           (on the keypad - numlock on or off)
+            Down Cursor Key
+Serve :     Any of : <Space Bar>, <Ins>, <Del>, <Return>
+
+Pause Game: <ESC> or <Pause>
+
+F1 :        Reverse VERTICAL motion of ball.
+F2 :        Reverse HORIZONTAL motion of ball.
+
+The keyboard controls are NOT case sensitive - so you don't need
+to worry about the Caps Lock.
+
+The ball direction change keys (F1 & F2) were used by 
+me to test the program to make sure all ball bounces of 
+all walls / bats, etc worked properly.  I have left them 
+in to enable you to have some fun and annoy your friends !!
+
+
+The Future :
+------------
+
+This is a very early version of the game, so it is pretty 
+basic right now.
+
+But, many things can be done to improve this game in the future,
+such as :
+- Setup Screen - so that you can set your own ball speed, bat size, 
+  colours, ball size, score modifiers, etc.
+- Add in true scoring - so that Squash scores / rules are like in 
+  real Squash.  Similarly for Tennis.
+- High Score table.
+- Add in extra ball / bounce randomness / speed control.
+- Add a computer opponent for 1 player action.
+- Joystick control.
+- Extend the game to play BREAKOUT as well.
+- Enable players to curve the ball while holding
+  down a special curve key.
+- Add in 2 balls at once.
+- Extra sound effects.  I love the 3 stooges, so I may add more
+  of their sayings, or I could add other's - Jim Carey would be
+  a good one or Yoda out of Star Wars !!
+- Network / Modem / Internet play.
+- Tokens that fall out of the ball or somewhere - like in Arkanoid - 
+  to increase your bat length, give you a laser on your bat to
+  temporarily stun your opponent's bat, nuclear weapons
+  to permanently take out your opponent, etc.
+- 4 player at once action - 1 on mouse, 1 or 2 on joystick(s), 
+  and 1 or 2 on keyboard !!
+- Level Designer - so that you can develop your own PONG tables,
+  add obstacles, move walls, and do things like have a big goal 
+  and a big bat for one player, and a small goal and small 
+  bat for the other, etc.
+- etc.
+
+The list is almost endless !!
+
+Once you register this game, all future upgrades are FREE !!
+
+What upgrades I do depends on what sort of response I get to 
+this game.  If a few people register, then I will make improvements.
+If lots of people register, then I will make many improvements.
+
+(Even if people don't register, then I will still probably
+add more things - but this particular game won't get 
+such a high priority as other things I am working on).
+
+
+Known Bugs :
+------------
+
+When 2 sounds are played at the same instant, very occasionaly
+(randomly) a short burst of static may come out of your
+sound card.  
+
+I have noticed that this also happens on several commercial games 
+that I own - such as Mortal Kombat 1 (by Acclaim) !!
+
+I have recreated the sound effects WAV file, and made the 
+frequently occuring sounds much shorter, and run the game
+on its own in a small window for several hours, and
+this problem seems to have gone now.
+
+If anybody enounters this problem please let me know.
+
+Also, if anybody knows how to get around this problem 
+(in Delphi !), please let me know.
+
+
+Reviews / Awards / CDs :
+-------------------------
+
+None so far.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.  
+
+Anyone - any person, any company, or any business - can 
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please 
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select 
+the "About" option under the Help menu, and then click 
+the PayPal link on the "About" screen).
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know.
+
+
+Amendment History :
+--------------------
+
+Vers    Date        Description
+1.0     01-Apr-97   First Public Release.
+1.1     29-Apr-97   Remove code access FASTTIME.DLL - an fast 
+                    timer I was experimenting with - a version
+                    with this experimental code was accidentally 
+                    uploaded following a restore in late-Apr.
+                    Sorry for any inconvenience caused by this.
+1.2     16-Jun-97   Save settings automatically on Windows 95 shutdown 
+                    (Registered Users only).
+                    Start Minimised if set in Shortcut / settings
+                    (Registered Users only).  
+                    Improve application startup - size and position 
+                    form before user sees it.
+                    Add in Menu items for viewing my Shareware Catalog, 
+                    the Readme file, and the Registration Form.
+1.3     11-Jan-98   Fix a long standing but very elusive problem
+                    to do with "DateEncode" errors which occured
+                    on some machines under some conditions.
+                    Once I could replicate the error, it was
+                    reasonably straight forward to get a workaround
+                    for what was another bug in Delphi.
+                    (3,650 lines of code.)
+
+1.4  17-Apr-2001    Add in support for "Big Fonts" and "Other Sized Fonts" - 
+                    with these Windows resizes the windows automatically - 
+                    but only sometimes and it doesn't always do it right, 
+                    so now I make sure my main window is the right size 
+                    before doing any scaling, etc.  i.e. I make it fit the 
+                    component(s) that extend the furthest right and 
+                    furthest down the form.   See the  Start Menu -> 
+                    Settings -> Control Pannel -> Display -> Settings 
+                    Tab -> "Advanced" button -> "General" tab for 
+                    your PC's settings in this area.
+                    Bring program up-to-date with my latest code libraries.
+                    (7,234 lines of code / comments.)
+
+1.4b  20-Nov-2002   Bring the program up to date with my latest code libraries.
+                    (29,724 lines of code / comments.)
+
+1.4f  3-Sep-2007    This program is now FREEWARE - see "Freeware Information"
+                    above.
+
+
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this 
+program is available from my WEB page - see below.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://move.to/moose
+____________________________________________________
+ 

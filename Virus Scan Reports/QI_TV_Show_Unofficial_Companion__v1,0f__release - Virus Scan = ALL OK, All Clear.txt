@@ -1,0 +1,115 @@
+
+QI TV Show UnOfficial Companion (v1.0f)
+QI_TV_Show_Unofficial_Companion__v1,0f__release.zip
+
+http://www.virustotal.com/en/file/b53f4520a8926ce6b7ffb93b0f67acdb2fe5a5cba6a39cdce2ddb23237d02777/analysis/1427888988/
+
+SHA256: 	b53f4520a8926ce6b7ffb93b0f67acdb2fe5a5cba6a39cdce2ddb23237d02777
+File name: 	QI_TV_Show_Unofficial_Companion__v1,0f__release.zip
+Detection ratio: 	0 / 57
+Analysis date: 	2015-04-01 11:49:48 UTC ( 1 minute ago )
+1
+0
+
+    Analysis
+    Additional information
+    Comments
+    Votes
+
+Antivirus 	Result 	Update
+ALYac 		20150401
+AVG 		20150401
+AVware 		20150401
+Ad-Aware 		20150401
+AegisLab 		20150401
+Agnitum 		20150331
+AhnLab-V3 		20150331
+Alibaba 		20150401
+Antiy-AVL 		20150401
+Avast 		20150401
+Avira 		20150401
+Baidu-International 		20150401
+BitDefender 		20150401
+Bkav 		20150401
+ByteHero 		20150401
+CAT-QuickHeal 		20150401
+CMC 		20150401
+ClamAV 		20150401
+Comodo 		20150401
+Cyren 		20150401
+DrWeb 		20150401
+ESET-NOD32 		20150401
+Emsisoft 		20150401
+F-Prot 		20150401
+F-Secure 		20150401
+Fortinet 		20150401
+GData 		20150401
+Ikarus 		20150401
+Jiangmin 		20150331
+K7AntiVirus 		20150401
+K7GW 		20150401
+Kaspersky 		20150401
+Kingsoft 		20150401
+Malwarebytes 		20150401
+McAfee 		20150401
+McAfee-GW-Edition 		20150331
+MicroWorld-eScan 		20150401
+Microsoft 		20150401
+NANO-Antivirus 		20150401
+Norman 		20150401
+Panda 		20150401
+Qihoo-360 		20150401
+Rising 		20150401
+SUPERAntiSpyware 		20150401
+Sophos 		20150331
+Symantec 		20150401
+Tencent 		20150401
+TheHacker 		20150330
+TotalDefense 		20150401
+TrendMicro 		20150401
+TrendMicro-HouseCall 		20150401
+VBA32 		20150331
+VIPRE 		20150401
+ViRobot 		20150401
+Zillya 		20150401
+Zoner 		20150330
+nProtect 		20150401 
+
+
+
+
+File identification
+MD5 dcd6cf8ade4aeb349f5cbfe43e270c2e
+SHA1 dab27665c54a5e19357aea3c4a45b8ca6b2dd2d7
+SHA256 b53f4520a8926ce6b7ffb93b0f67acdb2fe5a5cba6a39cdce2ddb23237d02777
+ssdeep
+24576:+OGgmHvzssziqFeYEtrjZi/+yJ2DQgKgsz0j:BGgeOqFEFcRw0h0j
+
+File size 1.0 MB ( 1059317 bytes )
+File type unknown
+Magic literal
+data
+
+TrID 	ZIP compressed archive (multivolume) (100.0%)
+Tags
+upx
+
+VirusTotal metadata
+First submission 2015-04-01 11:49:48 UTC ( 2 minutes ago )
+Last submission 2015-04-01 11:49:48 UTC ( 2 minutes ago )
+File names 	QI_TV_Show_Unofficial_Companion__v1,0f__release.zip
+Advanced heuristic and reputation engines
+ClamAV PUA
+Possibly Unwanted Application. While not necessarily malicious, the scanned file presents certain characteristics which depending on the user policies and environment may or may not represent a threat. For full details see: http://www.clamav.net/doc/pua.html .
+
+Symantec reputation Suspicious.Insight
+
+
+
+
+Comments
+
+Downloaded from my web site: http://moosevalley.fhost.com.au/
+I am super paranoid about security and all of my PCs are subject to the highest levels of security, so you can rest assured that there are no viruses or malware in any of the software I provide on my web site, as confirmed by this VirusTotal analysis. :)
+Moose
+Posted 0 minutes ago by Moose Delete

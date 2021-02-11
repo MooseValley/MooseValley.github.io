@@ -1,0 +1,170 @@
+Bitwise_Encryptor_Decryptor__v1,0f - Virus Scan = ALL OK, All Clear
+
+Bitwise Encryptor Decryptor
+Bitwise_Encryptor_Decryptor__v1,0f.zip
+
+
+http://www.virustotal.com/en/file/7933cad98e476be1bf14d7e97b59645e32496c3eb5a94aa56e1cc8211152f51d/analysis/1444454625/
+
+SHA256: 	7933cad98e476be1bf14d7e97b59645e32496c3eb5a94aa56e1cc8211152f51d
+File name: 	Bitwise_Encryptor_Decryptor__v1,0f.zip
+Detection ratio: 	0 / 55
+Analysis date: 	2015-10-10 05:23:45 UTC ( 0 minutes ago )
+1
+0
+
+    Analysis
+    File detail
+    Additional information
+    Comments
+    Votes
+
+Antivirus 	Result 	Update
+ALYac 		20151010
+AVG 		20151010
+AVware 		20151010
+Ad-Aware 		20151010
+AegisLab 		20151009
+Agnitum 		20151009
+AhnLab-V3 		20151009
+Alibaba 		20151010
+Antiy-AVL 		20151010
+Arcabit 		20151010
+Avast 		20151010
+Avira 		20151010
+Baidu-International 		20151009
+BitDefender 		20151010
+Bkav 		20151008
+ByteHero 		20151010
+CAT-QuickHeal 		20151009
+CMC 		20151009
+ClamAV 		20151009
+Comodo 		20151010
+Cyren 		20151010
+DrWeb 		20151010
+ESET-NOD32 		20151009
+Emsisoft 		20151010
+F-Prot 		20151010
+F-Secure 		20151010
+Fortinet 		20151010
+GData 		20151010
+Ikarus 		20151010
+Jiangmin 		20151008
+K7AntiVirus 		20151009
+K7GW 		20151010
+Kaspersky 		20151010
+Kingsoft 		20151010
+Malwarebytes 		20151010
+McAfee 		20151010
+McAfee-GW-Edition 		20151010
+MicroWorld-eScan 		20151010
+Microsoft 		20151010
+NANO-Antivirus 		20151010
+Panda 		20151009
+Qihoo-360 		20151010
+Rising 		20151009
+SUPERAntiSpyware 		20151010
+Sophos 		20151010
+Tencent 		20151010
+TheHacker 		20151010
+TrendMicro 		20151010
+TrendMicro-HouseCall 		20151010
+VBA32 		20151009
+VIPRE 		20151010
+ViRobot 		20151010
+Zillya 		20151009
+Zoner 		20151010
+nProtect 		20151008 
+
+
+ The file being studied is a compressed stream! More specifically, it is a ZIP file.
+Interesting properties
+The studied file contains at least one Portable Executable.
+Contained files
+This file is a compressed stream containing 4 files.
+[+] catalog.txt unknown 37454 Bytes
+[+] Bitwise_Encryptor_Decryptor.exe Portable Executable 323088 Bytes
+[+] Bitwise_Encryptor_Decryptor.txt unknown 9948 Bytes
+[+] Project4b_encrypted.txt unknown 94 Bytes
+Compression metadata
+Contained files
+4
+Uncompressed size
+370584
+Highest datetime
+2015-10-10 15:21:26
+Lowest datetime
+2015-10-01 15:01:06
+Contained files by extension
+txt
+3
+exe
+1
+Contained files by type
+unknown
+3
+Portable Executable
+1
+ExifTool file metadata
+MIMEType
+application/zip
+
+ZipRequiredVersion
+20
+
+ZipCRC
+0x88025cc2
+
+FileType
+ZIP
+
+ZipCompression
+Deflated
+
+ZipUncompressedSize
+37454
+
+ZipCompressedSize
+13620
+
+FileTypeExtension
+zip
+
+ZipFileName
+catalog.txt
+
+ZipBitFlag
+0x0002
+
+ZipModifyDate
+2015:10:10 14:09:03
+
+
+
+File identification
+MD5 ad899e857755d4a9d1e159dfcd12ba61
+SHA1 c7b7f0a49ead62646cc37cb596534adb33f7d7d4
+SHA256 7933cad98e476be1bf14d7e97b59645e32496c3eb5a94aa56e1cc8211152f51d
+ssdeep
+6144:4wMmdAcd2osXZUDEoHHwX8+fEXqmcLW0Di2bKh2LDTL5XEa/JlVcbj:4wMmdAImXZAEom8BXfcpi2GG9llV+
+
+File size 324.2 KB ( 331996 bytes )
+File type ZIP
+Magic literal
+Zip archive data, at least v2.0 to extract
+
+TrID 	ZIP compressed archive (100.0%)
+Tags
+contains-pe zip upx
+
+VirusTotal metadata
+First submission 2015-10-10 05:23:45 UTC ( 1 minute ago )
+Last submission 2015-10-10 05:23:45 UTC ( 1 minute ago )
+File names 	Bitwise_Encryptor_Decryptor__v1,0f.zip
+
+
+
+Comments
+I am super paranoid about security and all of my PCs are subject to the highest levels of security, so you can rest assured that there are no viruses or malware in any of the software I provide on my web site, as confirmed by this VirusTotal analysis. :)
+Moose
+Posted 0 minutes ago by Moose Delete

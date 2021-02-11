@@ -1,0 +1,102 @@
+YahtzeeGUI__v1,0f.zip
+http://www.mediafire.com/file/o6a3b1x52g5de2t/YahtzeeGUI__v1%2C0f.zip
+
+As always, I virus scan all of the files I release against 59 of the leading virus scanners on the Virus Total web site, and updated Sag Calculator (v3.6.01) has a 100% clean bill of health.  Here's a link to the scan report:
+
+https://www.virustotal.com/en/file/1f07870bc4fb9223241f1dee41e23c671721d3231d29ddcba0be6b263c18e06c/analysis/1500092728/
+
+
+If you have any further issues, please let me know.  :)
+
+
+*************************************************
+https://www.virustotal.com/en/file/1f07870bc4fb9223241f1dee41e23c671721d3231d29ddcba0be6b263c18e06c/analysis/1500092728/
+
+SHA256: 	1f07870bc4fb9223241f1dee41e23c671721d3231d29ddcba0be6b263c18e06c
+File name: 	YahtzeeGUI__v1,0f.zip
+Detection ratio: 	0 / 59
+Analysis date: 	2017-07-15 04:25:28 UTC ( 0 minutes ago )
+0
+0
+
+    Analysis
+    File detail
+    Additional information
+    Comments
+    Votes
+
+Antivirus 	Result 	Update
+Ad-Aware 		20170715
+AegisLab 		20170715
+AhnLab-V3 		20170714
+Alibaba 		20170714
+ALYac 		20170715
+Antiy-AVL 		20170715
+Arcabit 		20170715
+Avast 		20170715
+AVG 		20170715
+Avira (no cloud) 		20170714
+AVware 		20170715
+Baidu 		20170714
+BitDefender 		20170715
+Bkav 		20170714
+CAT-QuickHeal 		20170714
+ClamAV 		20170715
+CMC 		20170714
+Comodo 		20170715
+CrowdStrike Falcon (ML) 		20170710
+Cylance 		20170715
+Cyren 		20170715
+DrWeb 		20170715
+Emsisoft 		20170715
+Endgame 		20170713
+ESET-NOD32 		20170715
+F-Prot 		20170715
+F-Secure 		20170714
+Fortinet 		20170629
+GData 		20170715
+Ikarus 		20170714
+Invincea 		20170607
+Jiangmin 		20170715
+K7AntiVirus 		20170714
+K7GW 		20170715
+Kaspersky 		20170714
+Kingsoft 		20170715
+Malwarebytes 		20170715
+MAX 		20170715
+McAfee 		20170715
+McAfee-GW-Edition 		20170715
+Microsoft 		20170715
+eScan 		20170715
+NANO-Antivirus 		20170715
+nProtect 		20170715
+Palo Alto Networks (Known Signatures) 		20170715
+Panda 		20170714
+Qihoo-360 		20170715
+Rising 		20170715
+SentinelOne (Static ML) 		20170516
+Sophos 		20170715
+SUPERAntiSpyware 		20170715
+Symantec 		20170714
+Symantec Mobile Insight 		20170713
+Tencent 		20170715
+TheHacker 		20170712
+TrendMicro 		20170715
+TrendMicro-HouseCall 		20170715
+Trustlook 		20170715
+VBA32 		20170714
+VIPRE 		20170715
+ViRobot 		20170715
+Webroot 		20170715
+WhiteArmor 		20170713
+Yandex 		20170714
+Zillya 		20170714
+ZoneAlarm by Check Point 		20170715
+Zoner 		20170715
+
+
+Comments
+Downloaded from my web site: http://moosesoftware.16mb.com/
+I am super paranoid about security and all of my PCs are subject to the highest levels of security, so you can rest assured that there are no viruses or malware in any of the software I provide on my web site, as confirmed by this VirusTotal analysis. :)
+Moose
+Posted 0 minutes ago by Moose Delete

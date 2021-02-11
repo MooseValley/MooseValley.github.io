@@ -1,0 +1,196 @@
+ 
+Windows Wallpaper Changer		Copyright (C) Moose O'Malley, 
+-------------------------		September 2007.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Using this Program
+   | * Bitmaps (.BMP) Files Only
+   | * The Future
+   | * Reviews / Awards / CDs
+   | * Freeware Information
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+Windows Wallpaper Changer for Windows 95, 98, ME, NT, 2000, 
+XP, etc.
+
+This program is free software.  Anyone - any person, any company, 
+or any business - can use this program for free.  No fees or 
+payment is required.  See "Freeware Information" below.
+
+Windows Wallpaper Changer randomly selects a Bitmap file and 
+makes this the new Windows' Wallpaper (i.e. the picture you 
+see behind the icons on your Main Windows Desktop).  
+
+The user can specify directory from which Bitmaps are 
+randomly chosen, and the interval (in Seconds) in which the
+Windows Wallpaper is changed to the new bitmap.
+
+Developed using 32-bit Delphi.
+
+Windows Wallpaper Changer will **NOT** run under Windows 3.x
+(even with Win32 installed) !!
+
+
+Using this Program :
+--------------------
+
+To use this program, unzip the contents of the ZIP
+file to a directory - such as c:\winpaper - and run
+the executable file winpaper.EXE.
+
+Then, choose the directory where your desktop bitmaps
+reside - these may be scanned photos of your friends,
+family, or pets, or be photos you have grabbed
+from the internet.
+
+Then, set the interval (in seconds) between
+Wallpaper changes, and the program will automaticaly
+change the Windows Wallpaper for you at these times.
+
+You may also want to make this program load minimised
+each time Windows Starts Up.
+
+To achieve this, create a shortcut to the winpaper.EXE
+and place it in the Windows StartUp folder and alter
+the properties of this shortcut to "Run Minimised".
+
+
+Bitmaps (.BMP) Files Only :
+---------------------------
+
+This program only works with Bitmaps (.BMP) files, as these
+are the files that Windows needs to set as Wallpaper.
+If your graphics files are in another format (Jpeg, GIF,
+etc) then you will need to convert these to BMP files.
+
+To achieve this, I recommend using Paint Shop Pro, 
+which is available on various PC magaine cover CD's
+or from the internet at : http://www.jasc.com
+
+
+The Future :
+------------
+
+In the future, many improvements could be made to this program,
+such as :
+
+- Full support for the Maximise icon.  (Only partial support 
+  is provided at the moment).
+
+- Support for other graphic formats.  e.g. JPG, GIF, etc.
+
+- Ability to exit (or stop) after X changes of the wall paper.
+
+- Ability randonly change wall paper to any file except what 
+  is currently set as the wall paper.  That is, force the wall 
+  paper to change - do NOT allow the wall paper that is 
+  currently set to be re-used.
+
+- Anything else ?
+
+If you would like these improvements, or would like to
+suggest something else, please email me and let me know.
+
+How much more work I do on this program depends entirely on
+what support I get, how many people use the program, etc.
+
+
+Reviews / Awards / CDs :
+-------------------------
+
+None so far.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.  
+
+Anyone - any person, any company, or any business - can 
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please 
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select 
+the "About" option under the Help menu, and then click 
+the PayPal link on the "About" screen).
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know.
+
+
+Amendment History :
+--------------------
+
+Vers    Date        Description
+
+1.0   25-Nov-1998   First Public Release.
+                    (4,464 lines of code / comments.)
+                    
+1.1   25-Nov-2001   Store the INI settings file in the program's directory, 
+                    rather that in the Windows' directory - there's enough 
+                    crap there already ! ;)
+                    Add Restore Factory Defaults, Always on Top, and 
+                    Auto-Run at Windows Startup options to the File menu.
+                    Add in support for "Big Fonts" and "Other Sized Fonts".
+                    Bring the program up to date with my latest code libraries.
+                    Brand New About Screen and associated functionality.
+                    Add in *partial* support for the Maximise icon in the 
+                    top right corner of the program's main window.
+                    Make the program reside in the Windows Tray Bar
+                    with the clock, etc.
+                    This program is now for 32 bit Windows or later.  
+                    e.g. Windows 95, 98, ME, NT, 2000, or later.
+                    i.e. Windows 3.x is no longer supported.
+                    (9,840 lines of code / comments).
+
+1.2    6-Jan-2002   Add a "Change Now" button to change the wallpaper
+                    to the next random wallpaper available.
+                    Add in the number of seconds remaining until the 
+                    next wallpaper change.
+                    You can now type in the directory / path directly - 
+                    without having to select it.
+                    Double mouse clicking on the directory entry box
+                    runs the "Directory Select" functionality.  i.e.
+                    it is the same as clicking the button to the left of 
+                    the directory entry box.
+                    Add in additional options - stretching pictures to fit 
+                    the screen, tiling pictures, and centering pictures.
+                    (10,225 lines of code / comments).
+
+1.2b  20-Nov-2002   Bring the program up to date with my latest code libraries.
+                    (33,305 lines of code / comments.)
+
+1.2f  3-Sep-2007    This program is now FREEWARE - see "Freeware Information"
+                    above.
+
+
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this 
+program is available from my WEB page - see below.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://move.to/moose
+____________________________________________________
+ 

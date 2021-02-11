@@ -1,0 +1,11 @@
+https://www.virustotal.com/gui/file/dad2e039f9f896ff27f2c14b87b6d0b670c3a8bc18a26d174b86d63df537d99c/detection
+
+0/59
+
+Sun, 07-Apr-2019 @ 10:31 AM
+
+Downloaded from my web site:
+http://moosesoftware.netau.net/
+(Updated host)
+I am super paranoid about security and all of my PCs are subject to the highest levels of security, so you can rest assured that there are no viruses or malware in any of the software I provide on my web site, as confirmed by this VirusTotal analysis.  :)
+Moose

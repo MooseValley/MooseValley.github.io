@@ -1,0 +1,186 @@
+
+SoundBoard Lenny		Copyright (C) Moose O'Malley,
+----------------		January 2020.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Using this Program
+   | * The Future
+   | * Reviews / Awards / CDs
+   | * Special Thanks To
+   | * Freeware Information
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+SoundBoard Lenny runs under the Java Virtual
+Machine (JVM).
+
+SoundBoard Lenny is a collection of buttons that
+play specific sounds, and buttons that play random sounds or
+stop all sounds playing.  The sounds included are all FREE,
+public domain sounds.
+
+A Live Demo of the Sound Board Lenny is available on YouTube:
+https://youtu.be/kUUNG4zAuRU
+
+These sounds are perfect for tying up phone scammers to waste their
+time and stop them from targetting others.  Help fight the good fight !
+Simply put your phone next to your PC's speaker and press buttons to
+let Lenny do the talking.
+
+Use any of the pre-set buttons to respond to the phone scammer.
+
+If you aren't sure how to reply, click the "Play 1 Random" sound button
+and let random numbers select the sound for you.
+
+If you are tired of stringing the phone scammers along, click the
+"Play Many Random to play random sounds sequentially, one after the
+other, until you click the "Stop Sounds" button.
+
+Or if you really want to blow the phone scammers mind, click the
+"Modern Life" button to play multiple sounds at once.
+
+This software will run on ANY operating system that is capable of
+running the JVM, including desktops, laptops, and tablets running
+Windows, Linux, Unix, etc, such as PCs, Macs, Raspberry PI, etc.
+
+This program is free software.  Anyone - any person, any company,
+or any business - can use this program for free.  No fees or
+payment is required.  See "Freeware Information" below.
+
+
+Using this Program :
+--------------------
+
+Download and install the Java Runtime Environment (JRE) for
+your machine / OS (if it is not already installed on your machine):
+
+http://www.oracle.com/technetwork/java/javase/downloads/index.html
+
+Extract the contents of the SoundEffectsSoundBoard zip file you
+downloaded from my web site to a folder on your machine.
+
+And then, double click on:
+
+	SoundBoardLenny.jar
+
+icon / file to run the game in the Java Virtual Machine (JVM).
+
+* Click the sound buttons to play sounds.
+
+* Click the "Play 1 Random" button to play a random sound.
+
+* Click the "Play Many Random" button to play random sounds
+sequentially, one after the other, until you click the
+"Stop Sounds" button.
+
+* Click the "Modern Life" button to keep playing multiple random
+sounds at once, over the top of each other - it is hilarious,
+and will blow phone scammers minds.
+
+* Click the "Stop" button to halt playing all sounds.
+
+* Ctrl + Mouse wheel to increase/decrease font size.
+
+Enjoy ! :)
+
+
+The Future :
+------------
+
+In the future, many improvements could be made to this program,
+such as :
+
+- More sounds, themes, impersonations, etc.
+  (I'd love to do my own Judge Judy sound board, or Arnie sound board,
+   but these would cause legal problems).
+
+- Want me to add any sounds ?  They must be free, public domain sounds.
+  If so, let me know.  I don't want any copyright issues.
+
+- Ummmm .... anything else ?
+
+If you would like any of these improvements, or would like to
+suggest more, please email me and let me know.
+
+How much more work I do on this program depends entirely on
+what support I get, how many people use the program, etc.
+
+
+Reviews / Awards / CDs :
+-------------------------
+
+None so far.
+
+
+Special Thanks To :
+--------------------
+
+All sound effects are free, public domain sound effects
+downloaded from the following web sites:
+https://www.reddit.com/r/itslenny/comments/2e10dv/where_are_people_getting_the_lenny_sound_prompts/
+https://www.soundboard.com/sb/itslenny
+
+Special thanks to these web sites and the people who
+took the time to record and upload the sounds.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.
+
+Anyone - any person, any company, or any business - can
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select
+the "About" option under the Help menu, and then click
+the PayPal link on the "About" screen).
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let
+me know.
+
+
+Amendment History :
+--------------------
+
+Vers    Date        Description
+
+1.0f  17-Jan-2020   First public release and my 111th software title to be
+                    released on my Moose's Software Valley web page.
+                    (644 lines of code / comments / blank lines in primary source files.)
+
+
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this
+program is available from my WEB page - see below.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+Moose's Software Valley - Established July, 1996.
+* Email: Moose_Software@yahoo.com.au
+* WEB Site: http://moosesoftware.netau.net
+* Discussion Forum on Reddit: https://www.reddit.com/r/MoosesSoftware/
+* YouTube Channel: https://www.youtube.com/user/MoosesValley/playlists
+* GitHub source code: https://github.com/MooseValley?tab=repositories
+___________________________________________________
+

@@ -1,0 +1,216 @@
+
+Video SubTitle Tools 		Copyright (C) Moose O'Malley,
+---------------------		February 2017.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Using this Program
+   | * The Future
+   | * Reviews / Awards / CDs
+   | * Freeware Information
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+Video SubTitle Tools provide functionality to covert subtitle files
+(SRT, SBV, and Echo 360 XML) to a plain text transcript.
+
+This software will run on ANY operating system that is capable of
+running the JVM, including desktops, laptops, and tablets running
+Windows, Linux, Unix, etc, such as PCs, Macs, Raspberry PI, etc.
+
+This program is free software.  Anyone - any person, any company,
+or any business - can use this program for free.  No fees or
+payment is required.  See "Freeware Information" below.
+
+
+Using this Program :
+--------------------
+
+Download and install the Java Runtime Environment (JRE) for
+your machine / OS (if it is not already installed on your machine):
+
+http://www.oracle.com/technetwork/java/javase/downloads/index.html
+
+Extract the contents of the VideoSubTitleTools.zip file you
+downloaded from my web site to a folder on your machine.
+
+And then, double click on:
+
+	VideoSubTitleTools.jar
+
+icon / file to run the software in the Java Virtual Machine (JVM).
+
+You can drag and drop subtitle files onto VideoSubTitleTools using
+Windows Explorer.  Or paste the subtitle data in from the Clipboard.
+Or click the "Open" button and select a subtitle file to process.
+
+Check / set the options you want.  The following are available.
+
+* Remove HTML/XML: remove all HTML and Echo 360 XML tags
+from the subtitle file.
+Some subtitle files include HTML to colour the subtitle text,
+or to make the subtitle text itallic or bold:
+	<font color ...> ... </font>
+	<I> ... </I>
+	<B> ... </B>
+	<U> ... </U>
+
+* Remove Scene Setters: remove all "scene setters" from the
+subtitle file.  Scene setters are text contained within square
+brackets [] to add explanation or describe the mood.  For example:
+
+	[Cheerful instrumental music]
+
+* Remove Counters: remove all counters from the text.  i.e. remove
+all lines that contain just a number.
+For example, remove the "1" in the example below.
+
+* Remove TimeStamps: remove all time stamps and time durations from the subtitle file.
+For example, remove the "00:00:08,840 --> 00:00:11,600":
+
+	1
+	00:00:08,840 --> 00:00:11,600
+	On this shipwrecked episode
+	of Mythbusters...
+
+* Remove Blank Lines: remove all blank lines.
+
+* Combine All Lines: combine all lines of text into a single paragraph.
+Bullet points (lines starting with *, -, +) are always placed on a new line.
+
+
+When you have the settings set the way you want, click the "Convert"
+button to process the selected subtitle file (in the "Source" area)
+and display the converted data in the "Results" area.
+
+Feel free to explore. :)  You can change settings and click the
+"Convert" button to see the results and keep trying options
+until you get the results you like best.  :)
+
+Click the "Save" button to save the results.
+
+
+Sample Conversion :
+-------------------
+
+The subtitle source data file (for about 12 seconds of an episode
+of Mythbusters S6 Ep187 - Duct Tape Island Survival):
+
+Note: I have added additional HTML tags and items for illustration purposes.
+
+
+1
+00:00:08,840 --> 00:00:11,600
+On this shipwrecked episode
+of Mythbusters...
+
+[Cheerful instrumental music]
+2
+00:00:11,800 --> 00:00:15,040
+<font color = #FFFF00>Jamie and I attempt to survive</font>
+<font color = #FFFF00>on a deserted island</font>
+
+3
+00:00:15,280 --> 00:00:17,520
+<font color = #FFFF00>with nothing but a pallet</font>
+<font color = #FFFF00>of duct tape.</font>
+
+4
+00:00:17,760 --> 00:00:20,680
+That's right,
+it's <B>duct tape versus wild</B>
+
+5
+00:00:20,880 --> 00:00:24,400
+in the <U>most <I>extraordinary</I>
+survival challenge in history</U>.
+
+
+The converted transcript text:
+
+On this shipwrecked episode of Mythbusters... Jamie and I attempt to
+survive on a deserted island with nothing but a pallet of duct tape.
+That's right, it's duct tape versus wild in the most extraordinary
+survival challenge in history.
+
+
+The Future :
+------------
+
+In the future, many improvements could be made to this program,
+such as :
+
+- Convert subtitle files between formats: SBV, SRV, XML, etc.
+
+- More conversion to transcript options - let me know if
+  you need anything !  :)
+
+- Anything else ?
+
+If you would like any of these improvements, or would like to
+suggest more, please email me and let me know.
+
+How much more work I do on this program depends entirely on
+what support I get, how many people use the program, etc.
+
+
+Reviews / Awards / CDs :
+-------------------------
+
+None so far.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.
+
+Anyone - any person, any company, or any business - can
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select
+the "About" option under the Help menu, and then click
+the PayPal link on the "About" screen).
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let
+me know.
+
+
+Amendment History :
+--------------------
+
+Vers    Date        Description
+
+1.0f 19-Feb-2017    First public release and my 102nd software
+                    title released on my Moose's Software Valley web page.
+                    (828 lines of code / comments / blank lines in primary source files.)
+
+
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this
+program is available from my WEB page - see below.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://moosesoftware.16mb.com/
+____________________________________________________

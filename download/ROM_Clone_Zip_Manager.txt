@@ -1,0 +1,434 @@
+ 
+ROM Clone Zip Manager			Copyright (C) Moose O'Malley, 
+---------------------			November 2003.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction                                            |
+   | * Why I wrote this Program / Why use this Program         |
+   | * Installing this Program                                 |
+   | * Uninstalling this Program                               |
+   | * Using this Program - Pt 1:  Originals - Clones List     |
+   | * Using this Program - Pt 2:  Settings                    |
+   | * Using this Program - Pt 3:  Clean Clone ZIPs            |
+   | * The Future                                              |
+   | * Special Greetings / Thanks to                           |
+   | * Program License / Limitations / Restrictions            |
+   | * Warranty                                                |
+   | * Amendment History                                       |
+   | * Contacting the Program's Author                         |
+   +===========================================================+
+
+Introduction :
+--------------
+
+ROM Clone Zip Manager for Windows 95, 98, ME, NT, 2000, XP, etc.
+
+In a nutshell, ROM Clone Zip Manager can delete redundant / 
+duplicate files from inside Clone ROM ZIPs.  
+
+That is, ROM Clone Zip Manager scans your Clone ROM ZIP files 
+(in all directories you specify) and compares each file 
+inside these against the files inside the Parent ROM ZIP 
+file, and if an identical file is found (with the same 
+name and CRC) then it is deleted from the Clone ROM ZIP file.
+
+In adition, you can backup the files (and extract them to
+another directory) before they are deleted from inside the 
+Clone ROM ZIP file.  
+
+N.B.  The program will only move clone ZIPs.
+      i.e. files where the clone ROMs are in their own 
+      ZIP file - so if you are using merged sets, it 
+      will not split / move these.
+
+The process takes anywhere from a few seconds to a few minutes
+to run (depending on file sizes), and whether you want files 
+backed up before they are deleted from inside the Clone ZIP 
+Files.
+
+ROM Clone Zip Manager also enables you to move all Clone ZIP
+files to another directory of your choice.
+
+ROM Clone Zip Manager requires a list of Originals and Clone 
+ZIP files, and DOS MAME or Windows Command Line MAME can be 
+executed from within ROM Clone Zip Manager to generate 
+this list.
+
+I wrote this program and ran it against my MAME ZIP files, 
+and, in less than 2 minutes, it had saved me a whopping 191 MB 
+of disk space (in 3,085 ZIP files originally requiring 
+4.41 GB of disk space - a reduction of 4.3%).
+
+WEB sites that host ROM ZIPs should definitely consider 
+using this program to clean up their Clone ROM ZIPs
+to save bandwidth.  A 4.3% reduction in bandwidth 
+costs for a couple of minutes of work is well worth 
+the effort !!  ;)
+
+This program is Freeware.
+
+Developed using 32-bit Delphi.
+
+
+Why I wrote this Program / Why use this Program :
+-------------------------------------------------
+
+I wrote this program because I was checking out some of 
+my largest Clone ROM ZIP files, namely :
+
+- Super Gem Fighter clones, 
+- Primal Rage clone, 
+- Ninja Warrior (Vampire Hunter) clones, 
+- Capcom Sports Club clone, and,
+- Cybots clone.
+
+And noticed that the Clone ROM ZIP files for these games
+contained many files that were already in the Parent ROM ZIP
+files.  I quickly realised that these files sizes could 
+be reduced drastically - some to the tune of 18 MB or more - 
+simply by deleting the redundant duplicate files.
+
+So, I wrote this program to process these ZIPs.
+
+Then, I extended the program to process all Clone ROM ZIPs
+in all nominated directories, and added options to backup
+deleted files, etc.
+
+I wrote this program and ran it against my MAME ZIP files, 
+and, in less than 2 minutes, it had saved me a whopping 191 MB 
+of disk space (in 3,085 ZIP files originally requiring 
+4.41 GB of disk space - a reduction of 4.3%).
+
+If you do use this program, please send me an email and let me 
+know.  If you like, I will also email you when new versions of 
+the program are released.  If I know people are using the program, 
+then I am more likely to enhance it further in the future.
+
+If you like this program, check out some of my other arcade emulation
+utilities, such as :
+
+  - MAME 32 Tools
+  - ROM Chopper
+  - ROM ZIP Differences Manager
+
+or some of the other Freeware / Shareware on my WEB site.
+
+
+Installing this Program :
+-------------------------
+
+To install this program, simply unzip the contents of the 
+distribution ZIP file to a directory (using PKUNIP, WinZIP, 
+or similar), run the ROM_Clone_Zip_Manager.EXE, and click 
+on the buttons to perform the activities you require.
+
+Everything is hopefully clearly labeled and the program 
+should hopefully be fairly straight forward to use.
+
+This program does not need any DAT files or other files to 
+work.  But, it does need DOS MAME or Windows Command Line 
+MAME to generate the required list of Originals and Clones.
+
+The default settings for this program are :
+- Trial Run - so no ZIP files are altered, and,
+- Backup Duplicate Files - so that duplicate files
+  are extracted to another directory.
+
+This means that out of the box, the program is 100% safe.
+
+If the program settings are changed from either of these 
+safe settings, then you will be prompted to confirm your
+decisions before any processing is carried out.
+
+
+Uninstalling this Program :
+----------------------------
+
+To uninstall this program, simply locate the directory where
+you installed it (above) - using Windows Explorer or similar,
+and delete the entire directory.
+
+This program does not store anything in the Window's Registry
+or in any other directory on your PC.
+
+
+Using this Program - Pt 1:  Originals - Clones List
+--------------------------
+
+Press the "Select MAME EXE" speed button next to 
+the DOS MAME editbox and select the DOS MAME Executable
+or the Windows Command Line MAME.
+
+Then, click the "Refresh Originals / Clones List"
+button, and DOS or Command Line MAME will be run with a 
+"-listclones" parameter and another parameter to pipe 
+the output of this command to a file, which 
+ROM Clone Zip Manager will then load, sort, and process.
+
+If the DOS Window does not close automaticaly, then
+this means that the DOS MAME Executable does not have
+a "Close on Exit" option set.  So, you may need
+to close the DOS Window manually.  Or, if you prefer, you 
+could right mouse click on the DOS MAME Executable
+from within Windows Explorer, select "Properties" 
+from the pop-up menu, click on the "Program" tab, 
+and check the "Close on Exit" option, and then 
+click the OK button.
+
+(I could make this program close the DOS window automatically, 
+but I would prefer to allow you to set this or not via the 
+peoperties for the DOS MAME Executable - see above - because 
+then you can decide whether you want to view your output after 
+the programs have been run or not).
+
+You should only need to refresh this list once per MAME
+release.
+
+To help you remember when the Originals / Clones list 
+was last refreshed, the date and time of the last 
+refresh are displayed.
+
+
+Using this Program - Pt 2:  Settings
+--------------------------
+
+This tab contains the following settings / options :
+
+- Trial Run : Don't remove anything from Clone ZIPs
+
+  When this option is checked, then ROM Clone Zip Manager
+  will just count files involved and estimate disk space 
+  savings - but it will NOT actually delete anything from 
+  any ZIP Files.
+
+- Do the Actual Processing for real.  i.e. delete duplicates, etc.
+
+  When this option is checked, then ROM Clone Zip Manager
+  will count the files involved and calculate disk space 
+  savings - AND it will also delete duplicate files from 
+  inside Clone ZIP files.
+
+  You will be prompted to confirm your decisions prior to any 
+  processing taking place.
+  
+- Backup Files to be Deleted
+
+  When this option is checked, then duplicate files will be 
+  extracted from Clone ZIP files to the directory you specify 
+  before they are deleted from the Clone ROM ZIP files.
+
+If you are not doing a trial run, and you are backing up duplicate 
+files, then a Confirmation dialog will be displayed before 
+any "Clean Clone ZIPs" processing is performed.
+
+If you are not doing a trial run, and you are NOT backing up 
+duplicate files, then a Warning dialog will be displayed before 
+any "Clean Clone ZIPs" processing is performed.
+
+
+Using this Program - Pt 3:  Clean Clone ZIPs
+--------------------------
+
+On this tab, you need to select the directories to
+process.  The easiest way to do this is to drag and 
+drop your ROM directories on the "Rom Directories" listbox.
+Alternatively, you can use the speed buttons provided
+to add or remove directories, or reset the directory list.
+
+When this is done, and you have set-up the "Originals / Clones"
+list and the program settings on the "Setings" tab, then
+you are ready to rock'n'roll.
+
+Click the "Clean Clone ZIPs" button, and the directories,
+Originals / Clones, Settings, etc will be verified.
+
+If you are doing anything that will result in any files 
+being changed (e.g. duplicates files to be deleted from 
+Clone ZIP files), then you will be asked to Confirm 
+your desire to perform the processing.
+
+At the end of processing, a report will be generated
+listing all duplicate files that were deleted and/or
+backed up, and the disk space savings, time taken, etc
+will be displayed.
+
+
+The Future :
+------------
+
+In the future, many improvements could be made to this program,
+such as :
+
+- Add in Error Checking and Validation.
+  This program assumes - for the sake of performance - that :
+    * all of your ZIP files are error free, 
+    * there is enough harddisk space on your PC to ZIP, extract, 
+      and re-ZIP files, 
+    * your harddisk has no errors, 
+    * etc, etc.
+
+  i.e. This program currently does very little verification or 
+  validation or error checking.
+
+- Add support for Renamed ROM Sets - at the moment, you will need to 
+  manually rename ROM sets - or use some other program - before you 
+  can Generate Differences or Rebuild ZIPs.
+
+- Display better progress information : estimated time, start 
+  time, time remaining, etc during processing.
+
+- Display the MAME 32 version number and details.
+
+- Who knows, maybe even a Linux version (when I can get Delphi / Kylix 
+  for Linux and actually get around to installing Linux on one of my PCs).
+
+- Support for Command Line Parameters - so it can be run from the DOS
+  command line (while Windows is running).
+
+- This program does NOT generate CRCs - it simply uses the ones available 
+  in the ZIP file's header information for each file in the ZIP file.
+  This means that processing is much faster.  But could this cause problems ?
+  Can the CRCs reported by the zip file be wrong ?  Are ZIP file CRCs -
+  even those generated on other hardware and OS's - always 100% compatible 
+  with WinZIP / MAME CRC's ?  (As far as I know, the answer to these 
+  questions is No, No, and Yes - so there should be no problems here).
+
+- Automatically  close the DOS Window after the Originals - Clones
+  list has been built.  Although, I would prefer not to do this
+  automatically - as this could override your own settings / desires.
+
+  If the DOS Windows does not close automaticaly, then
+  this means that the DOS MAME Executable does not have
+  a "Close on Exit" option set.  If you want to set this option, 
+  then right mouse click on the DOS MAME Executable from within 
+  Windows Explorer, select "Properties" from the pop-up menu, 
+  click on the "Program" tab, and check the "Close on Exit" option, 
+  and then click the OK button.
+
+  (I could make this program close the DOS window automatically, but I 
+  would prefer to allow you to set this or not via the properties for the 
+  DOS MAME Executable - see above - because then you can decide whether you 
+  want to view any output after the DOS program(s) have been run or not).
+
+- Anything else ?
+
+If you would like any of these improvements, or would like to
+suggest more, or would like to give me some feedback on the program,
+please email me and let me know.
+
+
+Special Greetings / Thanks to :
+-------------------------------
+
+Special thanks to all arcade emulator authors, people who maintain 
+arcade emulator sites, those who buy PCBs and dump the ROMs, and those
+who work hard to try and preserve the actual physical arcade machines.
+I'd especially like to thank :
+
+- Dave Spicer for developing Sparcade - the very first Arcade Emulator 
+  for PCs, which introduced me to Arcade Emulation way back in 1995.
+- Nicola Salmoria (for MAME and other emulators) and the fabulous MAME 
+  and various MAME 32 Development Teams.
+- Neil Bradley (Emu, Retrocade and others).
+- Antiriad and the Raine Development Team.
+- Dave (Final Burn).
+- Anders Nilsson & Janne Korpela (Neo Rage and Tutankham emus).
+- Thierry Lescot (System 16 Emulator).
+- Neill Corlett (MGE).
+- Michael Cuddy (KEM & Gyruss).
+- All arcade and other emulator developers - you guys rule !!!
+- Virtu Al, Brian Peek, MAME DK, and others - you guys rule too !!!
+- Till for his great "Fix Files" at http://www.sys2064.com/fixfiles.htm 
+
+In 1995, I was completely blown away by arcade emulation - and I 
+still am !!
+
+Even though some of the above emulators are no longer under 
+development, your amazing work is NOT forgotten (or deleted) !!
+
+
+Program License / Limitations / Restrictions :
+----------------------------------------------
+
+There is no trial period and there is no "cut-down" or 
+"restricted" functionality that requires users to register.
+
+This program is Freeware - which means that the program is free
+to use and distribute, but that I retain Copyright over all of 
+the work.
+
+This program is free for any company, business, individual, or 
+anyone else to use or distribute provided that the EXE, this 
+text file, and the distribution ZIP file remain intact.
+
+This program is Freeware - if you paid money for this program, 
+then you were ripped off and you should complain to the person 
+who sold it to you !!   (Don't complain to me, it's nothing to 
+do with me !!)
+
+If you find this program useful, then please give something 
+back by helping the arcade emulation community in some way.  
+(There are 100's of ways you can help - be imaginitive / 
+creative ;)
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know, and I will do my best to fix it ASAP.
+
+
+Amendment History :
+--------------------
+
+Vers    Date        Description
+
+1.0   19-June-2002  First Public Release - Enjoy !!
+                    (30,120 lines of code / comments.)
+
+1.1   20-Nov-2002   Improve various messages / dialogs.
+                    Verify the ZIP file is a valid ZIP file before doing 
+                    any subsequent processing or testing.
+                    Bring the program up to date with my latest code libraries.
+                    (43,953 lines of code / comments.)
+
+1.2   13-Dec-2002   Add in "Move Clone ZIPs" functionality so you can move 
+                    all clone zip files to a different / new directory.
+                    You can now drag and drop the MAME EXEcutable onto 
+                    the DOS MAME EXE input box ("Originals / Clones" tab),
+                    and drag and drop other directories onto their various
+                    input boxes using Windows Explorer.
+                    The "Restore Factory Defaults" now resets everything back 
+                    to the original state - including the list of originals / 
+                    clones.
+                    (56,994 lines of code / comments.)
+
+1.3   3-Nov-2003    Massively speed up the generation of the Originals / Clones list.
+                    Bring the program up to date with my latest code libraries.
+                    Fix the "Focus" error - special thanks to S DeFranco for 
+                    reporting this.
+                    (66,351 lines of code / comments.)
+
+
+
+If this program was not downloaded from my Home Page, then
+it might be an old version.  The latest version of this 
+program is available from my WEB page - see below.
+
+For more great software, please visit my WEB page !
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://move.to/moose
+____________________________________________________
+ 

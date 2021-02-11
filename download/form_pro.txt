@@ -1,0 +1,213 @@
+ 
+WEB Form Formatter			Copyright (C) Moose O'Malley, 
+------------------			September 2007.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * The Future
+   | * Reviews / Awards / CDs
+   | * Freeware Information
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+WEB Form Formatter is for Windows 95, 98, ME, NT, 2000, XP
+and similar.
+
+This program is free software.  Anyone - any person, any company, 
+or any business - can use this program for free.  No fees or 
+payment is required.  See "Freeware Information" below.
+
+This program formats the results of a Emailed WEB Form.
+
+For example, if a user fills out a WEB Page Form, such as a customer
+survey, and then the completed form is Emailed to another user
+(such as an administrator of the WEB Page), the WEB form data 
+will arrive looking something like this :
+
+	Your+Name+%3D+=Moose&Your+Email+Address+%3D+=moose%40maximum.net
+	&Today%27s+Date+%3D+=11%2DNov%2D2002&Game+%3D+=Tutankham
+
+i.e. the data is almost complete gibberish !
+
+However, after Copying & Pasting this text into the WEB Form 
+Formatter, and pressing the "Process Text" button, the data 
+will look like this :
+
+	Your Name = Moose
+	Your Email Address = moose@maximum.net
+	Today's Date = 11-Nov-2002
+	Game = Tutankham
+
+i.e. the data is now understandable and usable.
+
+If the "Show Text after '=' only" checkbox is toggled,
+then the WEB Form Formatter will format the data as follows :
+
+	Moose
+	moose@maximum.net
+	11-Nov-2002
+	Tutankham
+
+which might be more useful for some people.
+
+BTW, the above form data is the output of a Survey Form that 
+used to be on my WEB Page to enable people to vote for 
+their favourite Arcade Game.
+
+You can open emails that contain emailed web form data, and 
+select it all and paste it into WEB Form Formatter and process it.
+
+Or, if you have used the "Create Shortcut on SendTo Menu" option 
+under the file menu, then you can save the form data to file, and 
+right mouse click on it and send it to Form_Pro directly.
+
+Developed using 32-bit Delphi.
+
+WEB Form Formatter is for Windows 95, 98, ME, NT, 2000, XP
+and similar.  This program will **NOT** run under 
+Windows 3.x (even with Win32 installed) !!
+
+
+The Future :
+------------
+
+I don't know yet what features people will use / need.  
+
+Later on, I may add other features, allow people to define 
+columns that the ouput to conform to, etc.  But, I need people 
+to tell me what they want.  So, please do.  ;)
+
+
+Reviews / Awards / CDs :
+-------------------------
+
+None so far.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.  
+
+Anyone - any person, any company, or any business - can 
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please 
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select 
+the "About" option under the Help menu, and then click 
+the PayPal link on the "About" screen).
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know.
+
+
+Amendment History :
+--------------------
+
+Vers    Date        Description
+
+1.1    13-Oct-1996  First Public Release.
+
+1.2    01-Dec-1996  Add in "Format into columns" option to format
+                    form text from my WEB Page (Arcade Game) Survey.
+                    Save values of "Show text after '=' only" and 
+                    "Format into columns" settings.
+
+1.3    24-Jan-1997  Add in "Copy to Clipboard" and "Copy From Clipboard"
+                    buttons, and a "Format all in 1 Line" option.
+
+1.4    27-Jan-1997  Add in Registration functionality.
+
+1.5    17-Jun-1997  Add in Menu items for viewing my Shareware Catalog, 
+                    the Readme file, and the Registration Form.
+
+1.6    11-Jan-1998  Fix a long standing but very elusive problem
+                    to do with "DateEncode" errors which occured
+                    on some machines under some conditions.
+                    Once I could replicate the error, it was
+                    reasonably straight forward to get a workaround
+                    for what was another bug in Delphi.
+                    (2,846 lines of code / comments.)
+
+1.7    29-Mar-2000  Fix bug with the handling of dozens of form fields which
+                    contain long data.  (Thanks for reporting this Chris !).
+                    Add in Form scaling when resized.
+                    Fix NT Warning on Shutdown on some PCs.
+                    Store the INI settings file in the program's directory, 
+                    rather that in the Windows' directory - there's enough 
+                    crap there already ! ;)
+                    (5,323 lines of code / comments.)
+
+2.0    26-Nov-2002  The default release for this program is now Windows 
+                    95 / NT or later.
+                    Remove the "Format into Columns" and "Format all in 1 Line"
+                    options - nobody seemed to use them.
+                    Completely rewrite the data processing engine, and run a large 
+                    selection of simple and complex forms through the program to 
+                    make sure everything is working.
+                    The program will now accept forms up to 2 GB in size - should 
+                    be more than big enough for everyone ... ;)
+                    Add File Menu options to enable the user to create or delete 
+                    shortcuts to this program on the Desktop, StartMenu, SendTo, etc
+                    and you can do this *ANY* time - not just when the program is 
+                    being installed.  (All Windows programs should provide this 
+                    functionality).
+                    You can now right-mouse click on a file and sent it to
+                    WEB Form Formatter directly - provided there is a shortcut
+                    to WEB Form Formatter in the SendTo menu.  (See above).
+                    Add Restore Factory Defaults, Always on Top, and 
+                    Auto-Run at Windows Startup options to the File menu.
+                    Add in support for "Big Fonts" and "Other Sized Fonts".
+                    Bring the program up to date with my latest code libraries.
+                    Brand New About Screen and associated functionality.
+                    Add in support for the Maximise icon in the top right
+                    corner of the program's main window.
+                    This program is now for 32 bit Windows or later.  
+                    e.g. Windows 95, 98, ME, NT, 2000, or later.
+                    i.e. Windows 3.x is no longer supported.
+                    Various interface enhancements - pictures on buttons, etc.
+                    Bring the program up to date with my latest code libraries.
+                    Registered Users - please contact me via email.
+                    (46,290 lines of code / comments.)
+
+2.1    21-Jul-2003  Various usability improvements.
+                    Enable the user to drag and drop a file to process.
+                    Enable the user to select a file to process.
+                    Add in a "Load File" button so that the data from 
+                    either of these sources can be loaded.
+                    Add in a "Reset" button to reset all text areas.
+                    Bring the program up to date with my latest code libraries.
+                    (53,771 lines of code / comments.)
+
+2.1f  3-Sep-2007    This program is now FREEWARE - see "Freeware Information"
+                    above.
+
+
+If this program was not downloaded from my Home Page, then
+it is most likely an old version.  The latest version of this 
+program is available from my Home page and its mirrors.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://move.to/moose
+____________________________________________________
+ 

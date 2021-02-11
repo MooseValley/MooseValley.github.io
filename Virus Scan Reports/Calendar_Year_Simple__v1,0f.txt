@@ -1,0 +1,153 @@
+Calendar_Year_Simple__v1,0f.zip
+
+Calendar_Year_Simple
+
+Calendar Year Simple (v1.0f)
+
+http://www.virustotal.com/en/file/c5908ae2e97ec9792929f4f3d1d344b14ab774223e353fd992115141d63143f3/analysis/1422140265/
+
+SHA256: 	c5908ae2e97ec9792929f4f3d1d344b14ab774223e353fd992115141d63143f3
+File name: 	Calendar_Year_Simple__v1,0f.zip
+Detection ratio: 	0 / 57
+Analysis date: 	2015-01-24 22:57:45 UTC ( 0 minutes ago )
+0
+0
+
+    Analysis
+    Additional information
+    Comments
+    Votes
+
+Antivirus 	Result 	Update
+ALYac 		20150124
+AVG 		20150124
+AVware 		20150124
+Ad-Aware 		20150124
+AegisLab 		20150124
+Agnitum 		20150124
+AhnLab-V3 		20150124
+Alibaba 		20150120
+Antiy-AVL 		20150124
+Avast 		20150124
+Avira 		20150124
+Baidu-International 		20150124
+BitDefender 		20150124
+Bkav 		20150124
+ByteHero 		20150124
+CAT-QuickHeal 		20150124
+CMC 		20150124
+ClamAV 		20150124
+Comodo 		20150124
+Cyren 		20150124
+DrWeb 		20150124
+ESET-NOD32 		20150124
+Emsisoft 		20150124
+F-Prot 		20150124
+F-Secure 		20150124
+Fortinet 		20150124
+GData 		20150124
+Ikarus 		20150124
+Jiangmin 		20150124
+K7AntiVirus 		20150124
+K7GW 		20150124
+Kaspersky 		20150124
+Kingsoft 		20150124
+Malwarebytes 		20150124
+McAfee 		20150124
+McAfee-GW-Edition 		20150124
+MicroWorld-eScan 		20150124
+Microsoft 		20150124
+NANO-Antivirus 		20150124
+Norman 		20150123
+Panda 		20150124
+Qihoo-360 		20150124
+Rising 		20150123
+SUPERAntiSpyware 		20150124
+Sophos 		20150124
+Symantec 		20150124
+Tencent 		20150124
+TheHacker 		20150123
+TotalDefense 		20150124
+TrendMicro 		20150124
+TrendMicro-HouseCall 		20150124
+VBA32 		20150123
+VIPRE 		20150124
+ViRobot 		20150124
+Zillya 		20150124
+Zoner 		20150123
+nProtect 		20150123 
+
+
+
+
+File identification
+MD5 fe0f24d5338eaabb28e3b38c72a39cf5
+SHA1 d0d1f117cc5655cab3050e03e5bd595f5b6f5009
+SHA256 c5908ae2e97ec9792929f4f3d1d344b14ab774223e353fd992115141d63143f3
+ssdeep
+6144:PxP3gcstxLxdPqR0Y8fSp0MTmWbfCmGWuyAO4dtD+tMnKNkxyz6/P:OVXLbFfw090fqOsD+t1NkxW6n
+
+File size 259.7 KB ( 265944 bytes )
+File type ZIP
+Magic literal
+Zip archive data, at least v2.0 to extract
+
+TrID 	ZIP compressed archive (100.0%)
+Tags
+zip upx
+
+VirusTotal metadata
+First submission 2013-10-27 20:56:06 UTC ( 1 year, 2 months ago )
+Last submission 2015-01-24 22:57:45 UTC ( 0 minutes ago )
+File names 	Calendar_Year_Simple__v1,0f.zip
+1360566294-Calendar_Year_Simple.zip
+Calendar_Year_Simple.zip
+Advanced heuristic and reputation engines
+ClamAV PUA
+Possibly Unwanted Application. While not necessarily malicious, the scanned file presents certain characteristics which depending on the user policies and environment may or may not represent a threat. For full details see: http://www.clamav.net/doc/pua.html .
+
+ExifTool file metadata
+MIMEType
+application/zip
+
+ZipRequiredVersion
+20
+
+ZipCRC
+0xf87844f7
+
+FileType
+ZIP
+
+ZipCompression
+Deflated
+
+ZipUncompressedSize
+259600
+
+ZipCompressedSize
+252465
+
+FileAccessDate
+2015:01:24 23:57:52+01:00
+
+ZipFileName
+Calendar_Year_Simple.exe
+
+ZipBitFlag
+0
+
+FileCreateDate
+2015:01:24 23:57:52+01:00
+
+ZipModifyDate
+2003:01:21 20:20:11
+
+
+
+Comments
+
+Downloaded from my web site: http://moosevalley.fhost.com.au/
+I am super paranoid about security and all of my PCs are subject to the highest levels of security, so you can rest assured that there are no viruses or malware in any of the software I provide on my web site, as confirmed by this VirusTotal analysis. :)
+Moose
+Posted 0 minutes ago by Moose Delete

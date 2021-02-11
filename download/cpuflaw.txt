@@ -1,0 +1,136 @@
+ 
+CPU Fault Detector			Copyright (C) Moose O'Malley, 
+-------------------			November 2002.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Using this Program
+   | * Freeware Information
+   | * Special Thanks to
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+CPU Fault Detector for Windows 95, 98, ME, NT, 2000, XP, etc.
+
+CPU Fault Detector executes dozens of floating point 
+calculations that are known to generate incorrect results 
+on some Intel Pentium Processors from the mid-1990's.
+
+If your processor passes the test, then you have nothing 
+to worry about.
+
+If your processor does NOT pass the test, then you still most
+likely have nothing to worry about.  It is extremely unlikely
+that the average user will ever perform a calculation that
+will be affected by the CPU flaw.  Users who are into heavy
+floating point calculations - 3D games, CAD/CAM, 3D modelling, 
+etc may like to change / upgrade their processor if the flaw
+is detected in their machine'c CPU.
+
+I have tested dozens of PC's - from slow Pentium 60's on up,
+and have never found a CPU with the error(s).  So, it
+does not seem to be as widespread as some of the press
+reports suggested.  (No suprise there !!)
+
+This program is FREE software - any person and any company is
+welcome to copy it, use it, and distribute it as they see fit,
+as long as the CPUFLAW.EXE and this text file remain intact.
+
+If you find this program useful, please visit my WEB page
+and check out some of the other Freeware or $5 dollar shareware
+programs I have on offer there. 
+
+Developed using 32-bit Delphi.
+
+CPU Fault Detector for Windows 95, 98, ME, NT, 2000, XP, etc.
+This program will **NOT** run under Windows 3.x
+(even with Win32 installed) !!
+
+
+Using this Program :
+--------------------
+
+To use this program, simply unzip it to a directory (using 
+PKUNIP, WinZIP, or similar), run it, click the "Check for
+Pentium Flaw" button and read the message that should
+appear pretty well instantanously after this.
+
+
+Freeware Information :
+---------------------------
+
+This program is FREEware - any person and any company is
+welcome to copy it, use it, and distribute it as they see fit,
+as long as the CPUFLAW.EXE and this text file remain intact.
+
+
+Special Thanks to :
+--------------------
+
+- Dr. Thomas R. Nicely      <nicely@acavax.lynchburg.edu>
+     Professor of Mathematics
+     Lynchburg College
+     1501 Lakeside Drive
+     Lynchburg, Virginia 24501-3199
+
+     http://lasi.lynchburg.edu/Nicely_T/public/
+
+  Dr Tom found and highlighted the problem with Intel Tech 
+  Support on 24 October (call reference number 51270).
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know, and I will do my best to fix it ASAP.
+
+
+Amendment History :
+--------------------
+
+Vers    Date        Description
+1.0   19-Oct-1999   First Public Release.
+
+1.1   17-Apr-2001   Add in support for "Big Fonts" and "Other Sized Fonts" - 
+                    with these Windows resizes the windows automatically - 
+                    but only sometimes and it doesn't always do it right, 
+                    so now I make sure my main window is the right size 
+                    before doing any scaling, etc.  i.e. I make it fit the 
+                    component(s) that extend the furthest right and 
+                    furthest down the form.   See the  Start Menu -> 
+                    Settings -> Control Pannel -> Display -> Settings 
+                    Tab -> "Advanced" button -> "General" tab for 
+                    your PC's settings in this area.
+                    Bring program up-to-date with my latest code libraries.
+                    (7,677 lines of code / comments.)
+
+1.1b  20-Nov-2002   Bring the program up to date with my latest code libraries.
+                    The default release of this program is now for Windows 95 / NT
+                    or later.  (If you need a Windows 3.x version, let me know).
+                    (31,860 lines of code / comments.)
+                    
+
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this 
+program is available from my WEB page - see below.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://move.to/moose
+____________________________________________________
+ 

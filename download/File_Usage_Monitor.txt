@@ -1,0 +1,397 @@
+ 
+File Usage Monitor			Copyright (C) Moose O'Malley, 
+------------------			April 2015.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Introduction
+   | * How to use File Usage Monitor
+   | * Why is this useful ?  Why do this ?
+   | * Monitoring How Long Windows has been running
+   | * Limitations of File Usage Monitor
+   | * The Future
+   | * Special Thanks to
+   | * Reviews / Awards / CDs
+   | * Freeware Information
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+File Usage Monitor is for IBM compatible PCs, desktops, laptops, 
+netbooks, etc running any version of Windows from Windows 95 onwards, which 
+includes Windows 98, ME, NT, 2000, XP, Vista, 7, 8, 10, etc, 32 and 64 bit.
+
+This program is free software.  Anyone - any person, any company, 
+or any business - can use this program for free.  No fees or 
+payment is required.  See "Freeware Information" below.
+
+File Usage Monitor simply monitors and logs the usage of files that 
+you want to monitor: how many hours each file has been open / in use, 
+the date/time it was opened, the date/time it was closed, etc.
+for any files you want to monitor.
+
+I use File Usage Monitor to keep track of various documents,  spreadsheets, 
+and files that I work on so that I can tell when the files were last changed, 
+when I last worked on them, how long I have worked on them for, and so on.
+
+File Usage Monitor also records the date / time each time that it is started 
+(executed, run) and ended (exited, closed) in the event log.
+
+The program resides in the Windows Icon Tray (with the clock, etc).
+Its icon has a green eye with the word "File" on it.
+
+Developed using 32-bit Delphi.
+
+
+How to use File Usage Monitor :
+-------------------------------
+
+File Usage Monitor's main screen consists of a tabbed notebook \
+with a series of tabs:
+
+(1). Files Monitored tab: 
+This tab contains a grid consisting of 3 columns which display the name(s) of 
+any files being monitored, the current status of each file (open, closed, etc), 
+and the number of hours (usage time) that the file has been locked 
+(open, in use).
+
+The buttons down the left hand side enable you to add files to be monitored, 
+remove files from being monitored, reset the usage time for a selected file 
+or for all files, and buttons to pause and resume the logging of file usage.
+
+(2).  Event / Status Log tab:
+This tab shows the event log for File Usage Monitor, which contains:
+
+* the events and status for all files that are being monitored (the 
+date/time that each file was locked (open, in use) and closed.
+
+* the date / time every time File Usage Monitor was started and ended, 
+
+The log is sorted into File Path + Name order, and then in 
+chronological date/time order for each file.
+
+The buttons down the left hand side enable you to are to copy the log to 
+Windows Clipboard, copy the log in TAB separated format to Windows Clipboard 
+(makes it *very* easy to paste the data into columns in a spreadsheet, 
+if this is required), and erase the log.
+
+(3). Settings tab:
+This tab contains the following settings:
+
+* whether to stop logging file usage after so many seconds of mouse inactivity 
+(however many seconds you specify),
+
+* whether to auto-save settings and the log file every so 
+many minutes (however many minutes you specify).
+
+The log file and all settings are automatically saved when File Usage Monitor
+is closed and when Windows is Shutsdown and when you log off from your user 
+account.  And the log file and all settings are also auto-saved every nn minutes 
+(however many minutes you specify, if the "auto-save" checkbox is ticked on 
+the Settings tab).
+
+All buttons in this program have Tooltips, so just let the 
+mouse pointer hover over the button and pretty soon a 
+Tool Tip help will appear to explain what the button does.
+
+If a CPU lockout occurs or the PC hangs for a while, I have 
+especially coded the program so that such lockouts are
+ignored in the log.  i.e. time will not be added to the
+logged usage for a file while the PC is hung.
+
+
+Why is this useful ?  Why do this ?
+-----------------------------------
+
+In many service oriented companies - particularly in Legal Offices, 
+Accountants, Graphic Designers, Computer Consultancies, etc customers 
+and clients are billed for each hour of work done on their behalf.
+
+File Usage Monitor enables these companies to justify / support
+work invoices sent to clients by logging the amount of
+time spent working on the computer files related to each client.
+
+Other uses include helping staff in companies fill in 
+detailed time / task recording sheets which may require you to
+log what work you did during each hour of the day.
+
+These logs will be accurate as long as you are disciplined: open 
+a file, do whatever work is needed on it, and then close the file 
+straight away when you have finished working on it.
+
+As far as I know, nothing like this application exists already,
+and this application is completely unique.
+
+I like keeping track of various files and the history of when they 
+have been edited / worked on / in use.
+
+For example, I keep track of several of my VirtualBox Virtual Machines
+so that I know when, for example, I last checked my various email accounts, etc.
+(I do ALL of my internet browsing and email checking, etc inside sandboxes inside 
+Virtual Machines, so that if I accidentally visit a "malware web site" or open 
+an email that contains malware, then only the sandbox gets hit.  This limits all 
+potential damage / infection and it can be completely erased with the click of a 
+mouse button).  Anyway, I track the hard-disk image files for my various 
+virtual machines with File Usage Monitor so that I have a full log of when 
+I last checked my emails, and various other activities.
+
+I use File Usage Monitor to keep track of various documents,  spreadsheets, 
+and files that I work on so that I can tell when the files were last changed, 
+when I last worked on them, how long I have worked on them for, and so on.
+
+
+Monitoring How Long Windows has been running :
+----------------------------------------------
+
+I also use File Usage Monitor to keep track of how long Windows has 
+been running, when Windows was started and shut down, etc.
+
+To do this under Windows NT, XP, Vista, 7, 8, 10, etc, add the 
+"pagefile.sys" file to File Usage Monitor (in the c:\ folder by default).
+
+To do this under "ancient" versions of Windows 95, 98, ME, etc add the 
+"Win386.swp" file to File Usage Monitor (in the c:\ folder by default).
+
+
+Limitations of File Usage Monitor :
+----------------------------------
+
+This program can only log file usage if file locking occurs.  
+e.g.  When you edit a document in MS Word, Word "locks" the 
+document to prevent other accesses until you finish editing 
+and close the document.  Excel, Power Point, Lotus 1-2-3, 
+Access, WordPerfect, Corel Draw, and most large commercial 
+packages perform this locking.
+
+Some programs, like Notepad, Word Pad, Paint Shop Pro, etc 
+do NOT lock your files while they are being worked on.  As 
+a result of this, File Usage Monitor cannot log any access 
+to files within these programs.
+
+If you are not sure whether the application(s) you are using 
+lock open files, add a file that you are editing in that 
+application to File Usage Monitor and see if the "File Status" 
+changes while the file is being edited in the particular application.
+
+
+The Future :
+-------------
+
+In the future, many improvements could be made to this program,
+such as :
+
+- More file type filters in the "Add File" dialog.  If you need 
+  any other filters, please let me know.  :)
+  
+- Add a Client column so that the hours spent working on 
+  all files for a client can be easily seen.
+  Does anyone need this ?
+  
+- Add in a Client Report button which generates a report 
+  containing : File name, logged work time (in Hours), 
+  with a month by month breakdown and an overall total.
+  Does anyone need this ?
+
+- Add in Sort functionality to sort on the various columns.
+  Does anyone need this ?
+
+- Add in the ability to ignore file usage events of less 
+  than 15 seconds (or whatever you specify).
+  Does anyone need this ?
+
+- Group Working functionality to generate reports for each 
+  client even when many people are working on files relating 
+  to the client.
+  Does anyone need this ?
+
+- Anything else ?  Just Email me with suggestions / comments !!
+
+If you would like any of these improvements, or would like to
+suggest more, please email me and let me know.
+
+How much more work I do on this program depends entirely on
+what support I get, how many people use the program, etc.
+
+
+Special Thanks to :
+-------------------
+
+I would especially like to thank the following people :
+
+- My brother for his original and brilliant idea for this program.  
+  I might have to develop a Mac version one of these days, so he can use it.
+
+
+Reviews / Awards / CDs :
+-------------------------
+
+None so far.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.  
+
+Anyone - any person, any company, or any business - can 
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please 
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select 
+the "About" option under the Help menu, and then click 
+the PayPal link on the "About" screen).
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know.
+
+
+Amendment History :
+--------------------
+
+Vers    Date        Description
+
+1.0   18-Apr-1997   First Public Release.
+                    Thank to my brother for his original and brilliant 
+                    idea for this program.  :)
+
+1.1   24-May-1997   Save settings automatically on Windows shutdown 
+                    (Registered Users only).
+                    Start Minimised if set in Shortcut / settings
+                    (Registered Users only).  
+                    Improve application startup - size and position 
+                    form before user sees it.
+                    Put a Status Bar at the bottom of the Main 
+                    Window to hold Icon & object tool tips.
+                    Add in Menu items for viewing my Shareware 
+                    Catalog, Readme file, and Registration Form.
+
+1.2   13-Jun-1997   Save Window Height and Width on exit, and 
+                    enable Main Window to be resized.
+                    Build a 32 bit version for Windows 95 / NT
+                    which enables Long File Names to be used, and
+                    also enables File Usage Monitor to be placed
+                    on the Icon Tray.
+                    Make the "Add Files to be Monitored" button
+                    multi-select, so you can add many files at once.
+                    Add in a "Reset Usage" for all files button.
+
+1.3   11-Jan-1998   Fix a long standing but very elusive problem
+                    to do with "DateEncode" errors which occured
+                    on some machines under some conditions.
+                    Once I could replicate the error, it was
+                    reasonably straight forward to get a workaround
+                    for what was another bug in Delphi.
+                    (3,216 lines of code / comments.)
+
+1.4   18-Jul-2000   Add in the ability to Pause logging if a certain
+                    period of mouse inactivity is encountered.
+                    (Added in specially for Mark Radford).
+                    (6,691 lines of code / comments.)
+
+1.5  17-Apr-2001    Add in support for "Big Fonts" and "Other Sized Fonts" - 
+                    with these Windows resizes the windows automatically - 
+                    but only sometimes and it doesn't always do it right, 
+                    so now I make sure my main window is the right size 
+                    before doing any scaling, etc.  i.e. I make it fit the 
+                    component(s) that extend the furthest right and 
+                    furthest down the form.   See the  Start Menu -> 
+                    Settings -> Control Pannel -> Display -> Settings 
+                    Tab -> "Advanced" button -> "General" tab for 
+                    your PC's settings in this area.
+                    Bring program up-to-date with my latest code libraries.
+                    (8,381 lines of code / comments.)
+
+1.5b  20-Nov-2002   Bring the program up to date with my latest code libraries.
+                    Registered Users - please contact me via email.
+                    (28,694 lines of code / comments.)
+
+1.5f  3-Sep-2007    This program is now FREEWARE - see "Freeware Information"
+                    above.
+
+1.6f  27-Mar-2015   Remove all of the sub-forms / sub screens and place all user interface 
+                    components in a tabbed notebook on the program's main screen.
+                    Add in functionality to save File Usage Monitor's settings and 
+                    the File Usage Log periodically (say every 5 minutes, or whatever 
+                    you specify), to minimise the impact of a crash, power failure, 
+                    etc.
+                    Add a Detailed Log for each file being monitored so 
+                    that you can see the various start / stop dates / times 
+                    for when work was undertaken on each particular file.
+                    Record the start/stop dates and times for File Usage Monitor to the log.
+                    Add a 2nd "Clipboard Copy" button on the "Event / Status Log" tab 
+                    which copies  the log in TAB separated format to Windows Clipboard 
+		    (makes it *very* easy to paste the data into columns in a spreadsheet).
+                    Change the name of the program and readme file names from "File_mon" 
+                    to the much more meaningful and appropriate "File_Usage_Monitor".  :)
+                    Add exception handling to the loading and saving of program settings (INI file)
+                    so that the program executes and exits cleanly (no error messages produced) even 
+                    if running from a read-only device such as a optical disk (CD-ROM, etc) or 
+                    there are disk errors or the disk is full and/or the INI file does not exist 
+                    and/or it cannot be created.
+                    Bring the program up to date with my latest code libraries.
+                    (1,078 lines of code / comments / blank lines in primary source file.)
+                    (36,712 lines of code / comments / blank lines in all source, library, and include files.)
+
+2.0f  12-Apr-2015   WOW, another big update, and just weeks after the last update.  
+                    I've been putting a lot of hours of work into this program recently.
+                    Add filtering for other file types in the "Add Files" dialog: 
+                    * Wordprocessor documents (*.doc;*.docx;*.odt;*.fodt)
+                    * Spreadsheets (*.xls;*.xlsx;*.ods;*.fods)
+                    * Presentations (*.ppt;*.pps;*.pptx;*.odp;*.fodp)
+                    * Virtual hard-drive files (*.vmdk;*.vdi;*.vhd;*.hdd;*.qed;*.qcow;*.qcow2;*.vhdx)
+                    If you need any other filters, let me know.  :)
+                    Access all files in read-only mode - this is required when monitoring 
+                    Windows Vista, 7, 8, etc pagefiles from a "standard user" level account.
+                    Add "Drag and Drop" support so you can drag and drop files from Windows 
+                    Explorer onto File Usage Monitor's window and they will be added to 
+                    the list of files being monitored.
+                    Add an information dialog when adding files to be monitored: display 
+                    the number of files added, the number of files that were already being 
+                    monitored (and therefore weren't added to the list again), and so on.
+                    Add mouse wheel scrolling to the grid and log interface components.
+                    Add the "Update the status of all files every seconds" timer interval 
+                    setting to the Settings tab so you can change this to whatever you want.
+                    The default value is 5 seconds.  Warning: if you are monitoring the status 
+                    of 100's of files on an ancient / slow computer, then set the delay 
+                    to something reasonable.  e.g. 5+ seconds - not 1 second !
+                    Display the application name and version number (rather than just the 
+                    program's EXE name) when the mouse hovers over the application's icon 
+                    in the Windows TrayBar.
+                    Record in the log when files are added to / removed from the monitored list.
+                    Display the number of files being monitored in the program's title bar.
+                    Remove the horizontal scroll bar from the grid - it was not needed, because 
+                    the grid automatically expans to fill the available space.
+                    Make the Remove and Reset Usage buttons multi-select friendly - so you can now 
+                    select multiple files in the grid and remove them or reset their usage hours.
+                    Bring the program up to date with my latest code libraries.
+                    (1,419 lines of code / comments / blank lines in primary source file.)
+                    (37,059 lines of code / comments / blank lines in all source, library, and include files.)
+
+
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this 
+program is available from my WEB page - see below.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://moosevalley.fhost.com.au/
+____________________________________________________
+ 

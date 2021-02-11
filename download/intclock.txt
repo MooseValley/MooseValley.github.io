@@ -1,0 +1,241 @@
+ 
+International Clock			Copyright (C) Moose O'Malley, 
+-------------------			September 2007.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * The Future
+   | * Reviews / Awards / CDs
+   | * Freeware Information
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+International Clock for Windows 95, 98, NT, 2000, XP, etc.
+
+This program is free software.  Anyone - any person, any company, 
+or any business - can use this program for free.  No fees or 
+payment is required.  See "Freeware Information" below.
+
+International Clock enables you to see :
+- The current date / time for the location you are in now.
+- The current date / time for up to 10 other locations 
+  (anywhere in the world) you specify, according to the 
+  time differences you specify.
+- A time comparison table with each hour in the day in one location
+  with the time in any of the other 10 locations.
+  No longer will you need to say : "Oh, it's 4:30 PM here and they are
+  8.5 hours behind, Um..., Erm..., what the hell is the time there ??"
+  As International Clock will work it all out for you !
+
+I wrote this utility to enable me to keep track of time in Australia
+and in the UK, because I was speaking a lot on the phone
+to someone in the UK, and I wanted to make sure that the time I
+called them was convenient, and not anti-social.
+
+In the age of global communications and the Internet, many people 
+might find International Clock an invaluable program.  I hope
+so anyway !
+
+
+The Future :
+------------
+In the future, many improvements could be made to this program,
+such as :
+
+- A much better / easier way to select the locations you want to 
+  monitor.  e.g. use Display a list of the Regional Location Settings 
+  that Windows knows about and allow the user to select multiple of 
+  these to monitor.
+
+- A better way to specify where you currently are.  At the moment, 
+  if you move to another time zone, you have to re-specify the time 
+  difference setting for *every* location you monitor.  This SUCKS !!!
+
+- The ability for the user to choose back / foreground font colours.
+
+- The ability to change the fonts in labels / time display.
+
+- The ability for the user to dynamically change the space between 
+  the label and time columns.
+
+- Possibly implement short and long descriptions / names for each 
+  location to enable real window size shrinkage.
+
+- 12 / 24 hour clocks.
+
+- The ability to turn off seconds.
+
+- The ability to put the clock onto the system tray.
+
+- The ability to shrink down the date display - put a (-1) for 
+  1 day behind or (+1) for 1 day ahead - this way you can see 
+  the time at each location and know what the date is as well 
+  without having to see "Tuesday July 8" spelt out on each line.
+
+- Let user to choose "date" format next version. e.g. If they 
+  don't want to display the "year".
+
+- Anything else ?
+
+I have wanted to make many of these changes for years (especially 
+the first two on the list), but have never got around to it,
+mainly because, saldy, this program has received ZERO support, 
+donations, and registrations, so there has been no incentive 
+for me to make these changes.
+
+If you would like any of these improvements, or would like to
+suggest more, please email me and let me know.
+
+How much more work I do on this program depends entirely on
+what support I get, how many people use the program, etc.
+
+
+Reviews / Awards / CDs :
+-------------------------
+
+None so far.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.  
+
+Anyone - any person, any company, or any business - can 
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please 
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select 
+the "About" option under the Help menu, and then click 
+the PayPal link on the "About" screen).
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know.
+
+
+Amendment History :
+--------------------
+
+Vers    Date        Description
+1.1     26-Sep-96   First Public Release.
+1.2     02-Oct-96   Fix problem with Menu wrapping on some video cards,
+                    which truncated the bottom line of the main window.
+1.3     01-Nov-96   Convert time to 12 hour clock format with AM / PM label.
+1.4     13-Jan-97   Enable half-hour increments in time difference to
+                    reflect and cater for all real life time differences.
+1.5     27-Jan-97   Add in Registration functionality.
+2.0     27-May-97   Massive changes for this release !!
+                    Save settings automatically on Windows 95 shutdown 
+                    (Registered Users only).
+                    Start Minimised if set in Shortcut / settings
+                    (Registered Users only).  
+                    Improve application startup - size and position 
+                    Main Window before user sees it.
+                    Added support for up to 5 locations / time 
+                    zones (Registered Users only).
+                    Enable Main Window to be re-sized automatically as 
+                    locations are added / removed. (Registered Users only).
+                    Added full Popup Menus which is available
+                    when you right-mouse click on the main window
+                    (Registered Users only).
+                    Added ability to make the Menus line dissapear
+                    via an option on the popup menu that appears 
+                    when you right-mouse click on the main window
+                    (Registered Users only).
+                    Change Clock displays to be black backgraound 
+                    with red letters - to simulate an LED clock.
+                    Display all times in 24 hour clock format.
+                    Add the ability to display dates for each location 
+                    as well as the time.  (Registered Users only).
+                    Improve the Settings Screens - with nice Tabbed
+                    Dialogs and other nice features.
+2.1     03-Jun-97   Add in Menu items for viewing my Shareware Catalog, 
+                    the Readme file, and the Registration Form.
+2.2     09-Jun-97   Add functionality to generate a time comparison 
+                    table with each hour in the day in one location
+                    with the time in any of the other 5 locations.
+2.3     30-Jun-97   Add in menu options to Hide the Title Bar and 
+                    Menu Bar.  (Registered Users only).
+                    Add Right Click (Mouse) menu to reshow Title Bar 
+                    and Menu Bar, generate Time Comparison Table,
+                    and Settings Menu, Help, etc.
+                    Add in ability to hide the current time zone 
+                    time / description from the main window.
+                    (Registered Users only).
+                    Add in a button to copy the time comparison 
+                    table data to the Clipboard, with row values 
+                    seperated by a TAB character.
+                    (Registered Users only).
+                    Enable Main Window to be horizontally sized 
+                    automatically.  (Registered Users only).
+2.4     01-July-97  Add in support for 10 other locations / time 
+                    zones.  Format the Time Comparison Table times
+                    so that times less than 10:00 are padded with a
+                    space to make them line up better when copy & 
+                    pasted to Notepad or other product.
+                    (3,602 lines of code / comments)
+2.5     11-Jan-98   Fix a long standing but very elusive problem
+                    to do with "DateEncode" errors which occured
+                    on some machines under some conditions.
+                    Once I could replicate the error, it was
+                    reasonably straight forward to get a workaround
+                    for what was another bug in Delphi.
+                    (3,772 lines of code.)
+
+2.6   01-Feb-2001   Store the INI settings file in the program's directory, 
+                    rather that in the Windows' directory - there's enough 
+                    crap there already ! ;)
+                    Fix an old bug in Borland Delphi / Windows NT
+                    to fix NTDLL.DLL errors on closedown which 
+                    occured on some Windows NT configurations.
+                    (7,360 lines of code / comments.)
+
+2.7  17-Apr-2001    Add in support for "Big Fonts" and "Other Sized Fonts" - 
+                    with these Windows resizes the windows automatically - 
+                    but only sometimes and it doesn't always do it right, 
+                    so now I make sure my main window is the right size 
+                    before doing any scaling, etc.  i.e. I make it fit the 
+                    component(s) that extend the furthest right and 
+                    furthest down the form.   See the  Start Menu -> 
+                    Settings -> Control Pannel -> Display -> Settings 
+                    Tab -> "Advanced" button -> "General" tab for 
+                    your PC's settings in this area.
+                    Bring program up-to-date with my latest code libraries.
+                    (7,977 lines of code / comments.)
+
+2.7b  20-Nov-2002   Bring the program up to date with my latest code libraries.
+                    Registered Users - please contact me via email.
+                    (33,809 lines of code / comments.)
+
+2.7f  3-Sep-2007    This program is now FREEWARE - see "Freeware Information"
+                    above.
+
+
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this 
+program is available from my WEB page - see below.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://move.to/moose
+____________________________________________________
+ 

@@ -1,0 +1,151 @@
+Screen_Machine__1,2f.zip
+
+Screen Shot Machine (v1.2f)
+
+Screen_Machine
+
+http://www.virustotal.com/en/file/31dd62a6e320c0188a4816ff7070b1eeae4a1f2376f83b73f7d043ddc7efc4c2/analysis/1422175113/
+
+SHA256: 	31dd62a6e320c0188a4816ff7070b1eeae4a1f2376f83b73f7d043ddc7efc4c2
+File name: 	Screen_Machine__1,2f.zip
+Detection ratio: 	0 / 57
+Analysis date: 	2015-01-25 08:38:33 UTC ( 0 minutes ago )
+1
+0
+
+    Analysis
+    Additional information
+    Comments
+    Votes
+
+Antivirus 	Result 	Update
+ALYac 		20150125
+AVG 		20150125
+AVware 		20150125
+Ad-Aware 		20150125
+AegisLab 		20150125
+Agnitum 		20150124
+AhnLab-V3 		20150124
+Alibaba 		20150120
+Antiy-AVL 		20150125
+Avast 		20150125
+Avira 		20150124
+Baidu-International 		20150125
+BitDefender 		20150125
+Bkav 		20150124
+ByteHero 		20150125
+CAT-QuickHeal 		20150124
+CMC 		20150124
+ClamAV 		20150125
+Comodo 		20150125
+Cyren 		20150125
+DrWeb 		20150125
+ESET-NOD32 		20150124
+Emsisoft 		20150125
+F-Prot 		20150125
+F-Secure 		20150125
+Fortinet 		20150125
+GData 		20150125
+Ikarus 		20150125
+Jiangmin 		20150124
+K7AntiVirus 		20150125
+K7GW 		20150124
+Kaspersky 		20150125
+Kingsoft 		20150125
+Malwarebytes 		20150125
+McAfee 		20150125
+McAfee-GW-Edition 		20150125
+MicroWorld-eScan 		20150125
+Microsoft 		20150125
+NANO-Antivirus 		20150125
+Norman 		20150123
+Panda 		20150124
+Qihoo-360 		20150125
+Rising 		20150123
+SUPERAntiSpyware 		20150124
+Sophos 		20150125
+Symantec 		20150125
+Tencent 		20150125
+TheHacker 		20150123
+TotalDefense 		20150124
+TrendMicro 		20150125
+TrendMicro-HouseCall 		20150125
+VBA32 		20150123
+VIPRE 		20150125
+ViRobot 		20150125
+Zillya 		20150124
+Zoner 		20150123
+nProtect 		20150123 
+
+
+
+File identification
+MD5 86c2124da87592a5c179c6fcf841c78c
+SHA1 32986f830af08d34e81e52d12ae27086072fc252
+SHA256 31dd62a6e320c0188a4816ff7070b1eeae4a1f2376f83b73f7d043ddc7efc4c2
+ssdeep
+6144:IVWyXrfvD3sMiqC953sQhlfJ1dGomPiZQnrPDBeJL:CWyXrXD3ZM3FlfJ1d4PiSnrN0L
+
+File size 279.6 KB ( 286277 bytes )
+File type ZIP
+Magic literal
+Zip archive data, at least v2.0 to extract
+
+TrID 	ZIP compressed archive (100.0%)
+Tags
+zip upx
+
+VirusTotal metadata
+First submission 2015-01-25 08:38:33 UTC ( 1 minute ago )
+Last submission 2015-01-25 08:38:33 UTC ( 1 minute ago )
+File names 	Screen_Machine__1,2f.zip
+Advanced heuristic and reputation engines
+ClamAV PUA
+Possibly Unwanted Application. While not necessarily malicious, the scanned file presents certain characteristics which depending on the user policies and environment may or may not represent a threat. For full details see: http://www.clamav.net/doc/pua.html .
+
+Symantec reputation Suspicious.Insight
+ExifTool file metadata
+MIMEType
+application/zip
+
+ZipRequiredVersion
+20
+
+ZipCRC
+0xc8c0ff0e
+
+FileType
+ZIP
+
+ZipCompression
+Deflated
+
+ZipUncompressedSize
+277008
+
+ZipCompressedSize
+268742
+
+FileAccessDate
+2015:01:25 09:38:36+01:00
+
+ZipFileName
+Screen_Machine.exe
+
+ZipBitFlag
+0x0002
+
+FileCreateDate
+2015:01:25 09:38:36+01:00
+
+ZipModifyDate
+2013:11:07 21:34:11
+
+
+
+Comments
+
+Downloaded from my web site: http://moosevalley.fhost.com.au/
+I am super paranoid about security and all of my PCs are subject to the highest levels of security, so you can rest assured that there are no viruses or malware in any of the software I provide on my web site, as confirmed by this VirusTotal analysis. :)
+Moose
+Posted 0 minutes ago by Moose Delete

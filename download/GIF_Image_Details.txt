@@ -1,0 +1,257 @@
+ 
+GIF Image Details			Copyright (C) Moose O'Malley, 
+-----------------			May 2015.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Using this Program
+   | * Definitions
+   | * The Future
+   | * Special Thanks
+   | * Reviews / Awards / CDs
+   | * Freeware Information
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+GIF Image Details is for IBM compatible PCs, desktops, laptops, 
+netbooks, etc running any version of Windows from Windows 95 onwards, which 
+includes Windows 98, ME, NT, 2000, XP, Vista, 7, 8, 10, etc, 32 and 64 bit.
+
+This program is free software.  Anyone - any person, any company, 
+or any business - can use this program for free.  No fees or 
+payment is required.  See "Freeware Information" below.
+
+GIF Image Details displays information about a GIF image, and allows you 
+to step through each frame of animation and save each frame to separate 
+bitmap (BMP) files or copy each frame and information about the GIF to 
+Windows Clipboard.  You can also move or copy the GIF to a selected 
+directory.  To get started, simply use the File -> Open GIF File menu 
+option, or use "open file" button above the GIF image, or just the 
+drag and drop a GIF image file onto the main window using Windows Explorer.
+
+If you have a lot of GIF images that you want to examine / extract / 
+review, sort out, then GIF Image Details will help you with this.
+
+Developed using 32-bit Delphi.
+
+
+Using this Program :
+--------------------
+
+To use this program, unzip the contents of the ZIP
+file to a directory - such as c:\GIF_Image_Details\ - and run
+the executable file GIF_Image_Details.EXE.
+
+Simply use the File -> Open GIF File menu option, or 
+use "open file" button above the GIF image, or just the drag and drop 
+a GIF image file onto the main window using Windows Explorer, 
+and then use the radio buttons and buttons as follows:
+* The little "open file" button above the GIF image display area allows 
+  you to select a GIF file.
+* Use the radio buttons to see a report for the GIF, manually step through 
+  the GIF's animation frames, and or see all animation frames for the GIF.
+* The little "copy" button (in the bottom right hand corner of the report) 
+  copies the GIG summary report to window's clipboard.
+* "Curr Frame" button: Save BMP of current frame to selected directory
+* "All Frames" button: Save BMP of ALL frames (one BMP per frame) to selected directory
+* "Move GIF" button:   Move GIF to selected directory
+* "Copy GIF" button:   Copy GIF to selected directory
+* "Clipboard" button:  Copy current frame to Windows Clipboard
+* The little "open folder" button next to the selected directory edit box allows 
+  you to select the directory where you want to save BMP files and/or move or copy 
+  GIFs when you click the above buttons.  You can also drag and drop a folder 
+  (directory) onto the program's window using Windows Explorer to set / change 
+  the selected directory.
+
+You can also right-mouse click on the program's window and access ALL of 
+this functionality from a pop-up menu.
+
+NOTE: 
+* The frames of GIF images are usually compressed to reduce file size (and increase 
+  display and download speed and reduce bandwidth when used on web pages).  
+  That is, they contain just the pixels that have changed since the last frame, 
+  with everything else empty / blank.  This means that if you save / copy selected 
+  frame(s) of a GIF, then they may be incomplete and contain areas with no pixel 
+  colours / information.  i.e. the may appear to have "holes" in them.
+  This is *NOT* an error with my program - it is simply how GIF's work.
+
+
+The report shows file name, file size, dimensions, etc for the GIF.  
+Here's an example:
+
+-------------------------------------------------------
+anim_altered_beast_small.gif
+File Size:       55.8 KB
+Width:           178
+Height:          159
+Is Animated:     Yes
+Frames:          7
+Loop Iterations: 0
+Animation Speed: 100
+Transparent:     Yes
+Opaque:          No
+-------------------------------------------------------
+
+See below for the definitions of each of these terms.
+
+
+Definitions :
+-------------
+
+* File Size:
+The size of the GIF file, in KB, MB, GB, etc (whatever is appropriate for the file).
+
+* Width:
+The width of the GIF image in pixels.
+
+* Height:
+The height of the GIF image in pixels.
+
+* Is Animated:
+Whether the GIF is an animated GIF (multiple frames) or a single frame GIF 
+(a standard image).
+
+* Frames:
+The number of frames of animation in the GIF.
+
+* Loop Iterations:
+How many times the GIF will loop through all frames of animation.
+0 = keep looping forever.
+
+* Animation Speed:
+The relative speed at which animations are played back.  The value is as a 
+percentage of the GIF-specified speed and defaults to 100.  When you create 
+the GIF (using GIF creation software), if you set the speed to 50 and then 
+it will animate at half the speed compared to when the speed is 100.
+
+* Transparent:
+With GIFs you can have them set to transparent, but if you don't save them 
+with the background colour set to the colour that makes them transparent, 
+then they wont be transparent at all.
+e.g. if I have a GIF with a red dragon on a white background, and I set 
+it to transparent for the colour blue, then the GIF wont be transparent 
+at all - it will be a red dragon on a white background.  But, if I set 
+the transparent colour to white, then all you will see is a red dragon 
+with no background.
+
+* Opaque:
+Whether the GIF is opaque or not.
+
+
+The Future :
+------------
+
+In the future, many improvements could be made to this program,
+such as :
+
+- Display other GIF details.
+  Need anything ?  Email me and let me know.
+
+- Support for other types of GIF file ?
+  Are any needed ?  Email me and let me know.
+  
+- Ability to move back and forwards through all GIFs in a directory.
+  Need this ?  Email me and let me know.
+
+- Ability to process multiple GIF files at once and display their 
+  specifications / details in a table.
+  Need this ?  Email me and let me know.
+
+- Anything else ?  Email me and let me know.  :)
+
+If you would like any of these improvements, or would like to
+suggest more, please email me and let me know.
+
+How much more work I do on this program depends entirely on
+what support I get, how many people use the program, how many
+people have registered, etc.
+
+
+Special Thanks :
+----------------
+
+* Special thanks to Suzy Q for requesting this program.
+She needed this program to sort out her GIF files.
+Hopefully other people will find it useful.  :)
+
+* Also, special thanks to Theodor Kleynhans of Sulako Developments 
+(was at: http://www.sulako.com but web site seems to be gone now) 
+for his excellent TGIFImage component for Delphi which sure helped me a 
+lot and saved me a lot of work for this program.
+I am still using v3.0 of Theodor's component which dates way back to 
+Sep-1999, but it works perfectly and does all I need, so why change ?
+If it ain't broke, why fix it ?
+
+
+Reviews / Awards / CDs :
+-------------------------
+
+None so far.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.  
+
+Anyone - any person, any company, or any business - can 
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please 
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select 
+the "About" option under the Help menu, and then click 
+the PayPal link on the "About" screen).
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know.
+
+
+Amendment History :
+--------------------
+
+Vers    Date        Description
+
+0.9f  27-May-2015   Private release specially for Suzy Q.  Suzy emailed me and requested this 
+                    program earlier today and here it is.  :)
+                    (542 lines of code / comments / blank lines in primary source file.)
+                    (36,031 lines of code / comments / blank lines in all primary, library, and include files.)
+
+0.91f 28-May-2015   Private release #2 specially for Suzy Q.
+                    Many dozens of changes and improvements, 6 new buttons, right-mouse 
+                    click menu options, and heaps of new functionality.
+                    (770 lines of code / comments / blank lines in primary source file.)
+                    (36,562 lines of code / comments / blank lines in all primary, library, and include files.)
+
+1.0f 31-May-2015    First Public Release. Special thanks to Suzy Q for requesting this program.
+                    (840 lines of code / comments / blank lines in primary source file.)
+                    (36,521 lines of code / comments / blank lines in all primary, library, and include files.)
+
+
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this 
+program is available from my WEB page - see below.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://moosevalley.fhost.com.au/
+____________________________________________________
+ 

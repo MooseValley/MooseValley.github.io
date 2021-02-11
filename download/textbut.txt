@@ -1,0 +1,446 @@
+ 
+Text Buttons		Copyright (C) Moose O'Malley, 
+------------		September 2007.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Installing and Using this Program 
+   | * Using Text Buttons
+   | * Uninstalling this Program
+   | * The Future
+   | * Reviews / Awards / CDs
+   | * Freeware Information
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+Text Buttons for Windows 95, 98, ME, NT, 2000, XP, or 
+later.
+
+This program is free software.  Anyone - any person, any company, 
+or any business - can use this program for free.  No fees or 
+payment is required.  See "Freeware Information" below.
+
+Text Buttons enables you to place often used chunks / sections 
+of text behind buttons so that it is very easily and 
+quickly obtainable when required.
+
+This program enables you to store text for anything up to
+750 buttons in 50 in columns / groups of 15.
+
+How many times have you had to load up a document just to cut
+the same piece of text out over and over again ?
+
+How many times have you cursed Microsoft Exchange or other email 
+programs because they doesn't handle EMail SIGs properly or put 
+your SIGs where you want them ?
+
+Text Buttons is a great way to solve these and other headaches !
+
+Text Buttons can also be used as a notebook to keep frequently
+used information - such as Task Lists and To Do Lists - even 
+if this information is not often required for copying and
+pasting.
+
+I use this program all day every day - for holding email sigs,
+to standard emails, to various WEB site addresses, standard
+registration letters (for my shareware), lists of registered 
+users by program, newsgroups, mailing lists, email addresses,
+and various details and notes I need all the time at work and at home.
+
+Why this program hasn't sold millions or even dozens of copies 
+around the world, I just can't understand.
+
+You may ask "Why the hell would anyone need dozens, hundreds, 
+or the 750 buttons that this program supports ?".  Well, 
+start using this program, and pretty soon, you'll hopefully 
+discover how darn useful it is, and you'll start using more and 
+more buttons, and wonder how you ever got along without 
+Text Buttons.
+
+I love this program, and hope you do to !!  :)  I personally 
+use well over 100 buttons - and use the program all day at 
+work.  (This was why I originally wrote the program).
+
+Developed using 32-bit Delphi.
+
+Text Buttons for Windows 95, 98, ME, NT, 2000, XP, or 
+later.  This program will **NOT** run under Windows 3.x
+(even with Win32 installed) !!
+
+
+Installing and Using this Program :
+-----------------------------------
+
+To use this program, unzip the contents of the ZIP file to a 
+directory - such as c:\text_buttons\ - and run the 
+executable file : Textbut.EXE.
+
+If you want the program to run automatically when Windows
+starts up, then select this option under the "File" menu 
+in the program.
+
+If you would like to be able to run this program by clicking 
+on an icon in the Windows Start Menu, or on the Desktop, etc 
+then you can use the "Create Shortcut ..." options under 
+the program's File menu.
+
+I hope you find the program easy to use and useful.
+
+
+Using Text Buttons :
+--------------------
+
+To use Text Buttons, simply click on one of the ten buttons, and 
+one of 2 things will happen :
+
+- If the button is already setup, then the text it contains
+  will be automatically copied to the Windows Clipboard - ready 
+  for use.  You can then paste it into whatever application you 
+  are using.  e.g. Email, Word processor, etc
+
+- Or, if the button is not already defined, you will be taken to
+  a setup screen where you will be able to define the button's
+  label and contents.
+
+- To Add, Change or Erase the definition of a button, simply 
+  click with the right mouse button on a particular Text Button
+  to enter the Settings Screen for that button.
+
+- If you select "Button Drag / Move Mode" {under the File menu}
+  then you will be able to Drag and Drop Text Buttons on to
+  each other to change the order / positions / group of
+  the buttons.  You will need to select this option again
+  under the File menu to turn "Button Drag / Move Mode" OFF
+  before Text Buttons are active / usable again.
+
+- On the Text Button setup screen there are buttons for 
+  copying text from the clipboard and loading text from 
+  a file when defining a Text Button.
+
+You can view 1, 2, 3, or 4 columns of buttons at ant time, and 
+you can move backwards and forwards through other groups / columns 
+of buttons as desired.
+
+Each group / column of 15 buttons can be assigned a name,
+which makes it great for ordering and classifying your 
+buttons.
+
+To navigate quickly to other button groups, you can double click
+on any group name, or use the "Jump to Button Group" menu option
+on the File menu.
+
+You can also select the Font / Size for the text on the buttons.  
+For this, you can use any Windows fonts !
+(See "Change Button Font" under the File menu).
+
+You can also select the Colour of the text on the buttons.  
+For this, you can can use any Windows colours !!
+(See "Change Button Font Colour" under the File menu).
+
+This program enables you to store text for anything up to
+750 buttons in 50 columns / groups of 15.
+
+If the "Auto-Minimise after Button Press" (under the File menu) 
+is checked, then Text Buttons will auto-minimise itself once a 
+button is pressed - to get it out of the way so you can 
+continue working straight away.
+
+To erase buttons quickly, you can use the "Erase Button Mode" 
+menu option (under the File menu), which allows you to erase 
+buttons simply by clicking on them with the mouse.
+
+This program is fully scalable - so if you change the size or
+shape of the main Text Buttons window, and all buttons, etc
+will resize and scale automatically to fit the new window 
+size.
+
+Some useful text processing options are included with the program
+- see "Text Menu Options" below.
+
+
+Text Menu Options :
+-------------------
+
+The program's Text menu includes the following options :
+
+- Sort Clipboard Text
+  Takes text from Windows' clipboard, sorts it into ascending 
+  order, and then places it back on Windows Cluipboard.
+
+- WordWrap Clipboard Text
+  Takes text from Windows' clipboard, word wraps it to column 70,
+  and then places it back on Windows Cluipboard.
+
+- WordWrap and '>' Prefix Clipboard Text
+  Takes text from Windows' clipboard, word wraps it to column 70,
+  places a ">" prefix in front of every line, and then places 
+  it back on Windows Cluipboard.
+
+- UPPERCASE Clipboard Text
+  Takes text from Windows' clipboard, converts it to uppercase,
+  and then places it back on Windows Cluipboard.
+
+- Lowercase Clipboard Text
+  Takes text from Windows' clipboard, converts it to lowercase,
+  and then places it back on Windows Cluipboard.
+
+- Titlecase Clipboard Text
+  Takes text from Windows' clipboard, converts it to titlecase,
+  and then places it back on Windows Cluipboard.
+
+These options are very useful when dealing when text.
+
+
+Uninstalling this Program :
+---------------------------
+
+At the  present time, there is No Uninstall function.
+
+If you ever want to delete this program 
+from your computer, then :
+
+ 1. Exit the program, and delete it from wherever 
+    you installed it on your harddrive.
+
+Before doing this however :
+
+- If you have selected / enabled the "Auto-Run at Windows 
+  Startup" option (under the File menu), then you should 
+  ensure that this option is not checked / enabled 
+  (which you can easily do by re-selecting the 
+  "Auto-Run at Windows Startup" option from under 
+  the File menu).
+
+- If you have used any of the "Create Shortcut ..." options 
+  under the File menu, then you should use the "Delete All 
+  Shortcuts" option under the File menu to remove these from
+  your system.
+
+Simple as that !
+
+
+The Future :
+------------
+
+In the future, many improvements could be made to this program,
+such as :
+
+- Enable user to select Font and size of text (of the data 
+  behind the button, not just the button's name), so that 
+  the text will appear correctly if it is pasted into Word 
+  or email or some other font aware application.
+
+- Enable the program to link to a file instead of having to enter
+  the text into the edit window for each button.  This means that
+  files that change will always have their latest definitions
+  available in Text Buttons.
+
+- Enable the program to work with other types of data, such as
+  pictures, sounds, video, etc.
+
+- Make Text Buttons reside on the Windows 95 / NT tray bar.
+
+- Add in the ability to reorder Button Groups.  (i.e. move
+  and reorder entire columns of 15 buttons).
+
+- More buttons - is 750 enough ??  ;)
+
+- Optimise the loading and saving of button details to
+  make moving groups faster - only needed for very slow PCs.
+  e.g. PC's from the early-mid 1980's.  ;)
+
+If you would like any of these improvements, or would like to
+suggest more, please email me and let me know.
+
+How much more work I do on this program depends entirely on
+what support I get, how many people use the program, etc.
+
+
+Reviews / Awards / CDs :
+-------------------------
+
+None so far.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.  
+
+Anyone - any person, any company, or any business - can 
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please 
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select 
+the "About" option under the Help menu, and then click 
+the PayPal link on the "About" screen).
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know.
+
+
+Amendment History :
+--------------------
+
+Vers    Date        Description
+1.0   30-Mar-1998   First Public Release.
+                    (3,220 lines of code / comments.)
+
+2.1   19-Aug-1999   Ability to Drag and Drop Text Buttons on to
+                    each other to change the order / positions of
+                    the buttons - via the "Button Drag / Move Mode".
+                    Also, if the user presses the Right or Middle 
+                    Mouse Buttons over a Text Button, then go into 
+                    the setup mode for that button.
+                    Add in buttons for copying text from the 
+                    clipboard and loading text from a file
+                    when defining a Text Button.
+                    (Note that the copy to from / to clipboard
+                    was always available via the standard
+                    Windows Ctrl-C and Ctrl-V key presses - 
+                    now the functionality is more visible).
+                    (4,663 lines of code / comments.)
+
+3.1   08-Mar-2000   Remove the Show / Hide Button Setup Icons 
+                    options - they are no longer needed - simply 
+                    right mouse click on a particular Text Button 
+                    to enter setup mode for that button.
+                    Make Text Button Labels have a strikeout (i.e. line 
+                    through them) while Button Drag Mode is enabled, to 
+                    reinforce that the buttons are not available until 
+                    Button Drag Mode is disabled again.
+                    Add in Form and Component Scaling when the program's 
+                    main window is resized - really Cool !!
+                    Fix NT Warning on Shutdown on some PCs.
+                    Store the INI settings file in Text Button's directory, 
+                    rather that in the Windows' directory - there's enough 
+                    crap there already ! ;)
+                    (6,678 lines of code / comments.)
+
+3.2   12-Apr-2000   Added in 5 extra buttons - now there are 15 text buttons.
+                    10 buttons simply wasn't enough for this very useful program.
+                    Also, simplified some of the code, and saved settings when 
+                    exiting button setup mode.
+                    (6,501 lines of code / comments.)
+
+3.5   24-Oct-2000   Greatly simplify the code to make it very easy to add extra
+                    buttons in the future - the program code will now support 
+                    1,000's of buttons if required.  Only save Buttons when 
+                    they change - not after every exit.  Reduce Memory
+                    footprint - even though this was small and never an issue.
+                    Support for up to 4 columns of 15 buttons - so you can have 
+                    15, 30, 45, or 60 buttons.  (I use this program all the time, 
+                    and I just kept needing more buttons - 60 should be enough 
+                    for now !).  Enable the user to change the button font.
+
+4.0   10-Apr-2001   ***  Private BETA Release for Bruce C.  ***
+                    Added in support for button groups (each group is a column 
+                    of 15 buttons), which you can give your own name.  
+                    Now, this program supports up to 750 buttons in 50
+                    groups (of 15) - hopefully enough for most people !!  ;))
+                    (Provided specially for Bruce C - hope you like it Bruce !)
+                    Add in the "Always On Top" menu / functionality.
+                    (10,304 lines of code / comments.)
+
+4.1   11-Apr-2001   ***  Private BETA Release for Bruce C.  ***
+                    Another busy night of coding ... ;)
+                    Enhance the Button Drag Mode dialog, and add a "Don't Show 
+  Windows 95, 98    This Again" option.
+  NT, 2000 only.    Add in an "Erase Buttons" menu option to enable you to quickly 
+                    erase buttons simply by clicking on them with the mouse.
+                    Add in an "Auto-Run at Windows Startup" menu option to help
+                    the user make this program run automatically at Windows Startup.
+                    This saves you creating a shortcut to the program in the Windows
+                    StartUp folder !!
+                    In addition, if you move the program to a new directory or drive,
+                    it will automatically sense that its existing auto-run command
+                    needs updating to the program's new location.  Very cool !!
+                    Add in a "Jump to Button Group" menu option (under the file menu),  
+                    to enable quick navigation to any button group.  You can also 
+                    achieve this by double clicking on any button group name in the 
+                    main window.  Very handy !!
+                    Convert Text Buttons to being 32 bit - so you get long file
+                    names in the "Load From File" option when a button is being setup.
+                    This means that Text Buttons is now for 32 bit Windows (such as
+                    95, 98, NT, 2000), and will no longer run on Windows 3.x.
+                    Improve the font handling / support.
+                    (Special thanks to Bruce C for the great encouragement and support !)
+                    (11,996 lines of code / comments.)
+
+4.2   6-Feb-2002    Back onto Public Releases !!  A great deal (v4.0, v4.1)
+                    has happened since the last real release.
+                    Add the ability to select the Font / Size for the text on 
+                    the buttons.  You can use any Windows fonts !!
+                    (See "Change Button Font" under the File menu).
+                    Add the ability to select the Colour of the text on 
+                    the buttons.  You can use any Windows colours !!
+                    (See "Change Button Font Colour" under the File menu).
+                    When setting up a button or erasing a button, or moving
+                    a button, make it have focus.  i.e. it is selected.
+                    Bring the program up to date with my latest code libraries.
+                    Brand New About Screen and associated functionality.
+                    Add in support for the Maximise icon in the top right 
+                    corner of the program's main window.
+                    Introduce yet more Anti-Hacker / Anti-Cracker measures.
+                    (16,216 lines of code / comments.)
+
+4.3  29-Oct-2002    Enable the use of any fonts installed on your PC.
+                    i.e. the list of fonts that you cna use are no longer
+                    dependant on which printer(s) you have installed
+                    or which printer is your default printer.
+                    (Thanks to Bruce C for alerting me to this problem). 
+                    Add some pictures to the buttons on the setup form.
+                    Bring the program up to date with my latest code libraries.
+                    (37,232 lines of code / comments.)
+      
+4.3b  20-Nov-2002   Bring the program up to date with my latest code libraries.
+                    Registered Users - please contact me via email.
+                    (42,699 lines of code / comments.)
+
+4.3c  25-Aug-2003   Fix an error in the Button Drag / Move mode - which was
+                    saving buttons with a "BitBtn" prefix instead of "Button"
+                    prefix.
+                    Bring the program up to date with my latest code libraries.
+                    (71,588 lines of code / comments.)
+
+5.0   14-Jun-2005   Allow the user to Minimise Application On Start-Up by 
+                    providing an option under the File menu.
+                    Add in a Text menu with the following options :
+                      - Sort Clipboard Text
+                      - WordWrap Clipboard Text
+                      - WordWrap and '>' Prefix Clipboard Text
+                      - UPPERCASE Clipboard Text
+                      - Lowercase Clipboard Text
+                      - Titlecase Clipboard Text
+                    These options are very useful when dealing when text.
+                    Bring the program up to date with my latest code libraries.
+                    (74,708 lines of code / comments.)
+
+If this program was not downloaded from my Home Page, then
+it is most likely an old version.  The latest version of this 
+program is available from my Home page and its mirrors.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://move.to/moose
+____________________________________________________
+ 

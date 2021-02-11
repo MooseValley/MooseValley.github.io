@@ -1,0 +1,188 @@
+ 
+CPUs Monitor			Copyright (C) Moose O'Malley, 
+------------			October 2015.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Using this Program
+   | * The Future
+   | * Special Thanks
+   | * Reviews / Awards / CDs
+   | * Freeware Information
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+CPUs Monitor is for IBM compatible PCs, desktops, laptops, 
+netbooks, etc running any version of Windows from Windows 95 onwards, which 
+includes Windows 98, ME, NT, 2000, XP, Vista, 7, 8, 10, etc, 32 and 64 bit.
+
+This program is free software.  Anyone - any person, any company, 
+or any business - can use this program for free.  No fees or 
+payment is required.  See "Freeware Information" below.
+
+CPUs Monitor:
+
+- Displays CPU Utilisation (Usage) for each CPU in your system (unless 
+  you turn this off in the Settings screen).
+  
+- Displays the average CPU Utilisation (Usage) according to settings 
+  you specify on the Settings screen (Edit -> Settings).
+  For example, you can specify that you want to see the Average CPU Usage 
+  for all CPUs for each refresh (0 seconds), and/or the Average CPU Usage 
+  for the last 5, 10, 30, 60, and/or whatever seconds you want, 
+  and/or include the Average CPU Usage since the program has been 
+  running (for this run of the program).
+
+Lots of options are provided in the Settings screen (Edit -> Settings) 
+to control the layout of the CPU graph.  And, as you change settings, 
+the main screen's CPU graph automatically updates on-the-fly to reflect 
+your latest settings.
+
+CPUs Monitor also includes my "CPU Usage Drop alarm" functionality (similar to 
+functionality included in my RAM / Swap Monitor and CPU Usage Drop Alarm programs).
+When activated (by clicking the "Activate" button) this functionality 
+plays a sound over and over again until the user clicks the OK button 
+when the CPU usage drops below a user specified level for a user 
+specified number of seconds.   This is very useful for telling you when a big 
+job has ended, such as a Virus Scan, Disk Scan, Disk Defragment, CD/DVD Burning, 
+video processing and conversions, etc.
+
+I like to keep an eye on the resource usage (and the average resource usage) 
+in my computer systems and I developed CPUs Monitor to help me do this.
+Maybe someone else out there will find this useful as well ?
+
+Developed using 32-bit Delphi.
+
+
+Using this Program :
+--------------------
+
+To use this program, extract the contents of the CPU Usage Drop Alarm ZIP file to a directory,
+such as c:\CPU_Usage_Drop_Alarm\ and then run the program by double clicking on the 
+CPU_Usage_Drop_Alarm.EXE.  Then, watch the CPU usage graph change and/or change the 
+program's settings (Edit -> Settings) to suit your needs.
+
+On the Settings screen you can change:
+
+* the CPU Refresh Delay / Timer Interval (milliseconds)
+
+* Whether to Display CPU Usage for each CPU (checkbox)
+
+* The Averages you want to display for prior seconds - just add values to the 
+  list.  e.g. add 5 to the list to add the average CPU usage for the last 5 seconds 
+  to the graph.
+
+* Whether to Display Average CPU usage since program started (checkbox).
+
+* Whether to Show Percentage Numbers in CPU Bar Graphs (checkbox).
+
+* Chart Bar Colours: single, Multi (auto), or adjust the colours depending on each
+  bar's length in the graph.  You can specify the threshold values and colours.
+  For example, you can colour code the graph bars according to CPU utilisation.
+  e.g. Green for 0-85, yellow for 85-95, and red for 96-100.
+
+* The Chart Bar Style: rectangle, pyramid, etc.
+
+* At the bottom of the settings screen is the MAX and Random CPU values 
+  (these are for testing / demo purposes) which artifically sets the 
+  CPU usage to 100 or a random value respectively for each CPU.  I used 
+  for testing the averages, etc during this program's development.
+  I have left it visible / enabled because it is interesting to watch the graphs, 
+  averages, etc change.
+
+A menu at the top of the main screen (where the CPU graph is) provides access to
+various functionality.  e.g. you can enter the setting screen (Edit -> Setitngs).
+A popup menu appears when you to right mouse click on the CPU graph to provide 
+the same Edit menu functionality.
+
+If you want this program to be "Always On Top" of other Windows, 
+then select the "Always On Top" menu option under the "File" menu.
+
+
+The Future :
+------------
+
+In the future, many improvements could be made to this program,
+such as :
+
+- Store Average CPU usage details for use next time the 
+  program is run.
+
+- More graph options ...  tons of options I could add here.
+
+- Anything else ?
+
+If you would like any of these improvements, or would like to
+suggest more, please email me and let me know.
+
+How much more work I do on this program depends entirely on
+what support I get, how many people use the program, etc.
+
+
+Special Thanks :
+----------------
+
+None so far.
+
+
+Reviews / Awards / CDs :
+-------------------------
+
+None so far.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.  
+
+Anyone - any person, any company, or any business - can 
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please 
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select 
+the "About" option under the Help menu, and then click 
+the PayPal link on the "About" screen).
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know.
+
+
+Amendment History :
+--------------------
+
+Vers    Date        Description
+
+1.0f 18-Oct-2015    First Public Release.
+                    (1,395  lines of code / comments / blank lines in primary source file.)
+                    (55,287 lines of code / comments / blank lines in all primary, library, and include files.)
+
+
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this 
+program is available from my WEB page - see below.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://moosevalley.fhost.com.au/
+____________________________________________________
+ 

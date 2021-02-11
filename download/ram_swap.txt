@@ -1,0 +1,456 @@
+ 
+RAM / Swap Monitor			Copyright (C) Moose O'Malley, 
+------------------			January 2015.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Using this Program
+   | * Why is this useful ?  /  Why do this ?
+   | * The Future
+   | * Reviews / Awards / CDs
+   | * Freeware Information
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+RAM / SWAP Monitor is for IBM compatible PCs, desktops, laptops, netbooks, 
+etc running any version of Windows from Windows 95 onwards, which includes 
+Windows 98, ME, NT, 2000, XP, Vista, 7, 8, 10, etc, 32 and 64 bit.
+
+This program is free software.  Anyone - any person, any company, 
+or any business - can use this program for free.  No fees or 
+payment is required.  See "Freeware Information" below.
+
+RAM / SWAP Monitor displays:
+- the CPU usage and the Average CPU usage (since RAM / Swap 
+  Monitor has been running).  If your PC has multiple CPUs / cores, 
+  then the CPU Usage is the average across all CPUs.
+- graphs and numerical values for the Physical RAM and 
+  SWAPfile (Page file) usage in your PC,
+- the free space and total capacity of any single drive 
+  selected by the user, and you can view a report for the selected drive 
+  by clicking the little button next to the drive selection drop down box.
+- and, if the "Show Mouse Odometer" option is "checked" in the 
+  "Mouse Odometer" menu, the number of left / right mouse botton 
+  clicks and the distance the mouse pointer has travelled in Km or Miles.
+
+RAM / SWAP Monitor also contains "CPU Usage Drop alarm" 
+functionality which plays a sound over and over again until 
+the user clicks the OK button when the CPU usage drops below 
+a user specified level for a user specified number of seconds.  
+This is very useful for telling you when a big job has ended, 
+such as a Virus Scan, Disk Scan, Disk Defragment, CD/DVD Burning, 
+video processing and conversions, etc.  This functionality is available 
+under the "CPU Usage Drop Alarm" menu option in the "File" menu.
+(I use this all the time, so I can watch TV or do something else, 
+and my PC will make a sound and tell me when it has finised its work !!).
+
+Developed using 32-bit Delphi.
+
+This program will **NOT** run under Windows 3.x
+(even with Win32 installed) !!
+
+
+Using this Program :
+--------------------
+
+To use this program, simply run it and observe the RAM usage
+and SWAP file usage details change as you run it.
+
+If you do not want to see the textual Free KB / Total KB 
+details for RAM and SWAP, then simply re-size the window to
+hide these details.
+
+The Spinning Line (between the RAM and Swap labels) spins
+everytime the RAM / Swapfile usage details are updated.
+i.e. it confirms that the program is still operating -
+even when the graphs are stable.
+
+RAM / SWAP Monitor for Windows 95 / 98 / NT only.
+This program will **NOT** run under Windows 3.x 
+(even with Win32 installed) !!
+
+If you want this program to be "Always On Top" 
+of other Windows, then select the "Always On Top"
+menu option under the "File" menu.
+
+
+Why is this useful ?  /  Why do this ?
+--------------------------------------
+
+When RAM utilisation is high, then non-essential
+chunks of code and data are automatically written 
+(by Windows) to a special file known as a Swapfile 
+or Page file, where they can be loaded again
+(if and when needed) much faster than if the individual
+chunks of code and data were searched for and loaded
+again from their respective source files.
+
+When RAM and/or Swap file utilisation is high, 
+system performance can suffer dramatically.
+When this happens, it is be best to buy more 
+RAM and/or allocate more swap file space.
+
+Also, if you find your temporary swap file is always 
+dramatically changing in size / usage, then it may 
+be best to allocate a permanent large swap file.
+(This avoids lots of disk usage / disk thrashing 
+caused when the temporary swapfile is resized).
+
+If your permanent Swapfile is too small for your needs,
+then non-essential chunks of code / data are thrown
+away completely instead of written to the swapfile,
+and will mean that they will have to be searched for 
+and loaded again from their respective source files.
+This is much slower than re-loading them from the 
+Swapfile.
+
+If your permenent Swapfile is far larger than you need,
+then you can shrink it down and recover the disk space
+for other needs.
+
+RAM / SWAP Monitor can help you monitor your PC's
+RAM / Swapfile usage, so that upgrade / system
+tuning decisions can then be made.
+
+Basically, all this means that you will be better
+able to monitor what is happening in your PC and
+tune it accordingly.
+
+You may be surprised to see just how much RAM / Swap
+Windows 95 / 98 / NT uses up just in loading itself.
+
+N.B. To alter Swapfile size and temporary / permanent 
+     settings, go to the Control Pannel, double click
+     on the System icon.  
+     In Windows 95 / 98, choose the "Performance" tab, 
+     and then select the "Virtual Memory" button,
+     you can now alter all Swapfile settings.
+
+
+The Future :
+------------
+
+In the future, many improvements could be made to this program,
+such as :
+- Display average RAM and SWAP usage.
+- Store these average RAM and SWAP usage details for
+  use next time the program is run.
+- Display the number of Threads (windows processes) currently
+  running.
+- Display % of free system resources.  Actually, this is already displayed - 
+  when Windows reports the % of Free system resources, this is the percentage 
+  of Free RAM.
+- Add in other graph types - like speedometer, bar, etc.
+- Display whether the Swapfile is dymanic or fixed size / static.
+- Possibly enable the navigation directly to Windows Virtual 
+  Memory (Swapfile) settings directly from this program - 
+  instead of having to manually go via Control Pannel.
+- Possibly do a 16-bit version of the program that will run
+  under Windows 3.x.  (Anybody still using Windows 3.x ???  ;)
+- Anything else ?
+
+If you would like any of these improvements, or would like to
+suggest more, please email me and let me know.
+
+How much more work I do on this program depends entirely on
+what support I get, how many people use the program, etc.
+
+
+Reviews / Awards / CDs :
+-------------------------
+
+None so far.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.  
+
+Anyone - any person, any company, or any business - can 
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please 
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select 
+the "About" option under the Help menu, and then click 
+the PayPal link on the "About" screen).
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know.
+
+
+Amendment History :
+--------------------
+
+Vers    Date        Description
+
+1.0   20-Apr-98     First Public Release.
+                    (2,887 lines of code / comments.)
+
+1.1   26-Jul-98     Display the free space and total
+                    capacity of any single drive selected
+                    by the user.
+                    Update the Graphs / Stats before the 
+                    application's mainform is displayed.
+                    Use the drive where Windows is installed
+                    to save settings, etc instead of assuming 
+                    that the C: drive exists.
+                    (3,314 lines of code / comments.)
+
+2.1   20-Aug-1999   Work around a bug in Borland Delphi so 
+                    program can correctly handle harddisks
+                    greater than 2 GB in size.
+                    Put comma seperator in the 1,000's
+                    in RAM and Swap File usage numbers.
+                    Work around another bug in Borland Delphi 
+                    to fix NTDLL.DLL errors on closedown which 
+                    occured on some Windows NT configurations.
+                    (3,314 lines of code / comments.)
+
+2.2   24-Aug-1999   Fix "About ..." dialog's free resources %
+                    in Windows NT.
+                    Enhance "About ..." window with buttons to
+                    copy my email and WEB page address to the
+                    Window's clipboard, so user can simply
+                    paste them into WEB Browser or Email program.
+                    (3,887 lines of code / comments.)
+
+2.3   25-Aug-1999   Work around another bug in Borland Delphi so 
+                    Ram Swap can correctly handle 30 GB and far 
+                    larger drives.  (Fix required due to errors
+                    in Borland's suggested fix FAQ2552D on 
+                    their WEB site).
+                    (3,831 lines of code / comments.)
+
+2.5   18-Apr-2000   Fix error reported when drive is not ready.
+                    e.g. Floppy or CD removed removed from drive
+                    being monitored.
+                    Add in Form and Component Scaling when the program's 
+                    main window is resized - really Cool !!
+                    Add in "Always On Top" functionality - available 
+                    from the "File" menu.  (Added especially for 
+                    my good friend Patrick Cullinan !)
+                    (6,001 lines of code / comments.)
+
+3.0   18-Jan-2001   Add in functionality to make the PC's Speaker Beep 
+                    or make some sound whenever the CPU usage drops below 
+                    a user specified level for a user specified number of 
+                    seconds.  This could come in handy for telling you when 
+                    a big job has ended, such as a Virus Scan, Disk Scan, 
+                    Disk Defragment, CD Burning, etc.
+                    This functionality is available under the 
+                    "CPU Usage Drop Alarm" menu option, under the "File" menu.
+                    (I use this new option all the time, so I can watch TV 
+                    or do something else, and my PC will beep and tell me 
+                    when it has finised the job !!).
+                    (7,343 lines of code / comments.)
+
+                    ****     Advanced Notification    ****
+                    N.B. As soon as I get the CPU Usage fixed under Windows NT, 
+                         this program is going up to $10 (from $5), so if you 
+                         are thinking of buying it, maybe you should buy it  
+                         NOW at the cheaper price !!
+
+4.0   22-Jan-2001   This is a Massive Update !!!!
+                    Many dozens of hours of work went into this release !!
+                    Fix CPU Usage under Windows NT - finally.  Whoo Hoo !! Yee Haa !!!
+                    (This took one HELL of a lot of work, code, and trial-and-error !!!
+                    The code required to get CPU usage under Win NT is an absolute 
+                    nightmare - some of the most convoluted and hideous code and
+                    Win API's I have *ever* had to deal with.  Rotten Microsoft !!)
+                    Also, if your PC has multiple CPUs, then the CPU Usage 
+                    reported by RAM / Swap Monitor is the average across all CPUs.
+                    (Maybe in the future when multi-CPU PCs become a bit more common, 
+                    I'll add in a graph for each CPU.  If you want this, let me know !)
+                    As advised, the price of this program is $10 from now on.
+                    Improve font selections on main screen : Times Roman instead of System.
+                    (This also scales much better when the window is resized).
+                    Store the INI settings file in the program's directory, 
+                    rather that in the Windows' directory - there's enough 
+                    crap there already ! ;)
+                    Add in an "Auto-Run at Windows Startup" menu option to help
+                    the user make this program run automatically at Windows Startup.
+                    This saves you creating a shortcut to the program in the Windows
+                    StartUp folder !!
+                    In addition, if you move the program to a new directory or drive,
+                    it will automatically sense that its existing auto-run command
+                    needs updating to the program's new location.  Very cool !!
+                    (8,447 lines of code / comments.)
+
+4.1   11-Apr-2001   Add in support for "Big Fonts" and "Other Sized Fonts" - 
+                    with these Windows resizes the windows automatically - 
+                    but only sometimes and it doesn't always do it right, 
+                    so now I make sure my main window is the right size 
+                    before doing any scaling, etc.  i.e. I make it fit the 
+                    component(s) that extend the furthest right and 
+                    furthest down the form.   See the  Start Menu -> 
+                    Settings -> Control Pannel -> Display -> Settings 
+                    Tab -> "Advanced" button -> "General" tab for 
+                    your PC's settings in this area.
+                    Bring program up-to-date with my latest code libraries.
+                    (9,417 lines of code / comments.)
+
+4.2   20-Oct-2001   Add a "Sound Test" button to the CPU Usage Drop Alarm screen.
+                    (Just so people can hear what the sound is like).
+                    Add in the following File Menu options :
+                    - Snap Program to Top Right of Screen
+                    - Snap Program to Bottom Right of Screen
+                    - Snap Program to Top Left of Screen
+                    - Snap Program to Bottom Left of Screen
+                    - Keep Program Inside the Screen Bounds
+                    which make the program automatically control its position
+                    no matter what screen resolutions changes you make.
+                    Bring the program up to date with my latest code libraries.
+                    Brand New About Screen and associated functionality.
+                    Add in support for the Maximise icon in the top right 
+                    corner of the program's main window.
+                    (10,447 lines of code / comments.)
+
+4.3  5-Feb-2002     Bring the program up to date with my latest code libraries.
+                    Introduce yet more Anti-Hacker / Anti-Cracker measures.
+                    (11,904 lines of code / comments.)
+
+4.4  14-June-2002   Bring the program up to date with my latest code libraries.
+                    Fix the PC speaker beeping under Windows XP / 2000.
+                    (Nobody has reported this problem, and I only found out 
+                    about this when I upgraded to Windows XP last weekend).
+                    Add in a slider so the user can set the frequency of the beeping,
+                    and add in a Wold Whistle and Sliding Scale sound effects options. 
+                    (These options are only available under Windows NT, 2000, XP, etc).
+                    (PC Speaker Beeping is used in the CPU Usage Drop Alarm 
+                     functionality, and it is now fixed and improved under 
+                     Windows NT / XP / 2000).
+                    (22,882 lines of code / comments.)
+
+4.5  23-July-2002   Bring the program up to date with my latest code libraries.
+                    Add in a graph for Average CPU Usage for this run of the program.
+                    Add in a "Reset CPU Monitoring" menu option - especially for 
+                    Windows 95 / 98 users.  Sometimes, the CPU monitoring seems to 
+                    get itself snagged up and keeps reporting values in the 90% range.
+                    This only happens very rarely and only happens under Windows 95 / 98 
+                    - I have never seen it happen under Windows NT or XP.
+                    (Added especially for Bruce C).
+                    (22,959 lines of code / comments.)
+
+4.5b  20-Nov-2002   Bring the program up to date with my latest code libraries.
+                    Registered Users - please contact me via email.
+                    (40,772 lines of code / comments.)
+
+4.6   21-June-2003  Add in Mouse Odometer functionality - which is exactly the 
+                    same as the "Mouse Odometer" program on my web site.
+                    (** Registered Users Only **).
+                    You can choose to display a Mouse Odometer or not - the 
+                    default is to display the odometer.
+                    The Mouse Odometer keeps count of your left anbd right 
+                    mouse button clicks and the distance your mouse pointer 
+                    travels (in Kilometers or Miles) - you choose which units 
+                    you like.
+                    You can also load the mouse distance and click details from 
+                    the settings saved by my Mouse Odometer program, or save 
+                    these values to file for use by my Mouse Odometer program.
+                    (I always run Ram / Swap and Mouse Odometer at Windows startup
+                    and merging this functionality into a single program saves 
+                    about 2 MB of memory - a very small saving on today's PCs with 
+                    256+ MB of RAM - but this saving could be useful on old PCs).
+                    Improve the CPU Usage Drop Alarm functionality.
+                    If a CPU Usage Drop Alarm is already in progress, then warn the
+                    user if they attempt to start another CPU Usage Drop Alarm.
+                    Bring the program up to date with my latest code libraries.
+                    (59,047 lines of code / comments.)
+
+4.7   30-June-2003  Add in support for all of the various Windows
+                    Regional Settings for floating point numbers. 
+                    i.e. Allow people to use something other than a 
+                    full stop as the decimal point, and something 
+                    other than a comma as a 1,000's separator.
+                    Bring the program up to date with my latest code 
+                    libraries.
+                    (59,111 lines of code / comments.)
+
+4.8   23-Jan-2004   Add in the "Reset Average CPU Usage" option under the "File" menu, to
+                    force the program to restart average CPU usage calculations.
+                    Add in "Disk Information" button and dialog - next to the drive space
+                    monitoring section of the main window.
+                    Fix the CPU Usage Drop Alarm - was this ever broken or was I just doing 
+                    some testing / mucking around ??  In any case, it's fixed.
+                    (60,026 lines of code / comments.)
+
+4.8f  3-Sep-2007    This program is now FREEWARE - see "Freeware Information"
+                    above.
+
+5.0f  4-Jan-2015    WOW, nearly 8 years since I've updated this program.  :)
+                    Fix an issue with this program running under 64 bit versions of 
+                    Windows Vista, 7, 8, etc.  (Auto-run at Windows startup).
+                    Change the CPU Usage Drop alarm from the PC Speaker to an embedded sound (WAV) file,
+                    because modern PCs no longer have a speaker.  All sound now comes via the 
+                    sound device / speakers.
+                    Flash the program's titlebar in the Windows Taskbar's when the CPU Usage Drop alarm
+                    goes off (as well as playing the sound).  When the CPU Usage Drop alarm goes off, 
+                    the sound keeps playing over and over again until the OK button is clicked.
+                    Fix memory (RAM) and Swap File space reported under 64 bit versions of Windows
+                    with memories much larger than 4 GB.
+                    This program now supports memory (RAM) sizes, file sizes, and disk drive sizes 
+                    well into the trillions of Zetta Bytes range (unless there is a bug I don't know 
+                    about in the pascal compiler I am using).  Wish I had a 100 ZB drive to test against.  :)
+                    1 ZB = 1,000,000,000,000 TB.  Given that current hard-drive sizes max out at
+                    about 6 TB, we wont be getting to ZB drive sizes for a little while yet !  :)
+                    Change over to using 1000 bytes for a KB as per the "standard".  I hate doing this.  
+                    1 KB should be 1024 bytes, not 1000 bytes.  But I refuse to use the stupid looking 
+                    "KiB" abbreviation for 1024 bytes.  Stupid standards committees !
+                    To avoid feeling ill, I'll just have to "avert my eyes" when I get to the part 
+                    of my code that says "1 KB = 1000 bytes".  :/
+                    Completely re-design / re-vamp the user interface.
+                    Change the old "oval Pie Chart" guages for RAM and Swap to standard (and boring) 
+                    "bar graph" guages.  I remember 6 or so years ago someone sent me a very angry and 
+                    highly abusive email because these 2 guages weren't circular.  Ummm, they were never  
+                    meant to be circular dude !  I liked the elipses. LOL.  :)
+                    Bring the program up to date with my latest code libraries.  :)
+                    (1,655  lines of code / comments / blank lines in primary source file.)
+                    (68,308 lines of code / comments / blank lines in all primary, library, and include files.)
+
+5.1f  4-Jan-2015    Add right-mouse click popup context sensitive menus to the CPU, Disk Space,
+                    and Mouse sections.
+                    Display a little speaker icon between the CPU Usage and Average CPU Usage bar 
+                    graphs when the CPU Usage Drop Alarm is active.  (Prior to this, a little 
+                    radio button was displayed in the top left corner of the CPU groupbox,  
+                    but this was not as attractive as the little speaker icon).
+                    (1,737  lines of code / comments / blank lines in primary source file.)
+                    (68,538 lines of code / comments / blank lines in all primary, library, and include files.)
+
+5.2f  16-Jan-2015   Add exception handling to the loading and saving of program settings (INI file)
+                    so that the program executes and exits cleanly (no error messages produced) even 
+                    if running from a read-only device such as a optical disk (CD-ROM, etc) or 
+                    there are disk errors or the disk is full and/or the INI file does not exist 
+                    and/or it cannot be created.
+                    (1,772  lines of code / comments / blank lines in primary source file.)
+                    (68,584 lines of code / comments / blank lines in all primary, library, and include files.)
+
+
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this 
+program is available from my WEB page - see below.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://moosevalley.fhost.com.au/
+____________________________________________________
+ 

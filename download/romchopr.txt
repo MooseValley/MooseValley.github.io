@@ -1,0 +1,199 @@
+ 
+ROM / File Chopper			Copyright (C) Moose O'Malley, 
+-------------------			November 2002.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Using this Program
+   | * Hints on Working with ZIP files
+   | * Freeware Information
+   | * Limitations / Restrictions of the program
+   | * The Future
+   | * Special Greetings / Thanks to
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+ROM / File Chopper for Windows 95 / 98 / NT / 2000.
+
+ROM / File Chopper allows you to : quickly and easily chop
+files in half and throw away the second half.
+
+Why do this ??
+
+If you are an emulation or arcade machine enthusiast, then you 
+will know the extremely common problem of double length ROMS
+- where the files data is duplicated.  This is mainly due to
+reading errors or reading the ROM with the wrong EPROM Reader 
+settings.
+
+This program can fix virtually all of the "INCORRECT LENGTH"
+errors you see reported by MAME and other emulators - and I
+especially wrote it to fix my Neo Geo ROMS, but it works with
+any file that needs chopping in half.
+
+I wrote this program in about 30 minutes, and it immediately 
+saved me about 12 hours in re-dumping and re-downloading 
+problem ROMs.  I hope it saves you similar time / work.
+
+Developed using 32-bit Delphi.
+
+This program is FREE software - any person and any company is
+welcome to copy it, use it, and distribute it as they see fit,
+as long as the distribution ZIP file remains intact - it should 
+include 3 files : romchopr.EXE, romchopr.txt, and catalog.txt.
+
+If you find this program useful, please visit my WEB page
+and check out some of the other Freeware or $5 dollar shareware
+programs I have on offer there. 
+
+
+Using this Program :
+--------------------
+
+To use this program, simply unzip it to a directory (using 
+PKUNIP, WinZIP, or similar), run it.
+
+You can then Drag and Drop files directly onto ROM / File Chopper
+via Windows Exmplorer or straight from ZIP files, etc, then
+click the chop button, and provided no errors are encountered
+then a success message will be displayed.
+
+
+Hints on Working with ZIP files :
+---------------------------------
+
+(This is the easiest and best way to use ROM / File Chopper,
+and this is how I use the program).
+N.B. This assumes you have WinZIP, PowerZIP, EZIP, or similar 
+installed on your PC.
+
+- In MAME, or your emulation program run an audit on your ROMS.
+- Double click on the ZIP file for a ROM with audit errors.
+- Drag the first problem ROM out of the ZIP file and drop it 
+  on ROM / File Chopper.
+- Click the Chop button.
+- Click on the ZIP program (WinZIP, or whatever), and it will tell 
+  you that the file has changed and asks if you would like to
+  place the new version of the file back into the ZIP.  Click YES,
+  and your ZIP now contains the correct sized ROMs.
+- Repeat for any other files in the ZIP that had audit errors.
+
+
+Freeware Information :
+----------------------
+
+This program is FREE software - any person and any company is
+welcome to copy it, use it, and distribute it as they see fit,
+as long as the CPUFLAW.EXE and this text file remain intact.
+
+If you paid money for this program, then you were ripped off,
+and you should complain to the person who sold it to you !!
+
+
+Limitations / Restrictions of the program :
+-------------------------------------------
+
+None.  There is no trial period and there is no "cutdown"
+or "restricted" functionality that requires users to register.
+
+
+The Future :
+------------
+
+In the future, many improvements could be made to this program,
+such as :
+
+- Console to MVS dump conversion for Neo Geo ROMs.
+  If anyone knows how to do this, please let me know.
+
+- Fix the "Rom needs Redump" roms in MAME.
+  Is there some way to fix these roms without having to
+  actually pull the roms off your PCB and re-read them.
+  If anyone knows about this, please let me know.
+
+- Anything else ?
+
+If you would like any of these improvements, or would like to
+suggest more, or would like to give me some feedback on the program,
+please email me and let me know.
+
+
+Special Greetings / Thanks to :
+-------------------------------
+
+Special thanks to all arcade emulator authors, people who maintain 
+arcade emulator sites, and those who dump the roms, with special 
+mention to :
+
+- Dave Spicer for developing Sparcade - the very first Arcade Emulator 
+  for PCs, which introduced me to Arcade Emulation way back in 1995.
+  I was and still am compltely blown away by arcade emulation !!
+- Nicola Salmoria (for MAME and other emulators) and the fabulous MAME 
+  and MAME 32 Development Teams.
+- Neil Bradley (Emu, Retrocade and others).
+- Antiriad and the Raine Development Team.
+- Dave (Final Burn).
+- Anders Nilsson & Janne Korpela (Neo Rage and Tutankham).
+- Thierry Lescot (System 16 Emulator).
+- Neill Corlett (MGE).
+- Michael Cuddy (KEM & Gyruss).
+- and all other arcade emulator developers - you guys rule !!!
+- Virtu Al, Brian Peek, MAME DK, and others.
+
+Even though some of these emulators are no longer under development,
+your amazing work is NOT forgotten !!
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know, and I will do my best to fix it ASAP.
+
+
+Amendment History :
+--------------------
+
+Vers    Date        Description
+1.0  12-Jul-2000    First Public Release.
+
+1.1  11-Apr-2001    Add in support for "Big Fonts" and "Other Sized Fonts" - 
+                    with these Windows resizes the windows automatically - 
+                    but only sometimes and it doesn't always do it right, 
+                    so now I make sure my main window is the right size 
+                    before doing any scaling, etc.  i.e. I make it fit the 
+                    component(s) that extend the furthest right and 
+                    furthest down the form.   See the  Start Menu -> 
+                    Settings -> Control Pannel -> Display -> Settings 
+                    Tab -> "Advanced" button -> "General" tab for 
+                    your PC's settings in this area.
+                    Bring program up-to-date with my latest code libraries.
+                    (7,154 lines of code / comments.)
+
+1.1b  20-Nov-2002   Bring the program up to date with my latest code libraries.
+                    (28,646 lines of code / comments.)
+                    
+
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this 
+program is available from my WEB page - see below.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://move.to/moose
+____________________________________________________
+ 

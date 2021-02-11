@@ -1,0 +1,515 @@
+ 
+ROM ZIP Differences Manager		Copyright (C) Moose O'Malley, 
+---------------------------		November 2002.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction                                            |
+   | * Why I wrote this Program / Why use this Program         |
+   | * Installing this Program                                 |
+   | * Uninstalling this Program                               |
+   | * Using this Program - Pt 1:  Generating ROM Differences  |
+   | * Using this Program - Pt 2:  Rebuilding ROM ZIPs         |
+   | * Using this Program - Pt 3:  Multiple ROM Directories    |
+   | * The Future                                              |
+   | * Special Greetings / Thanks to                           |
+   | * Program License / Limitations / Restrictions            |
+   | * Warranty                                                |
+   | * Amendment History                                       |
+   | * Contacting the Program's Author                         |
+   +===========================================================+
+
+Introduction :
+--------------
+
+ROM ZIP Differences Manager for Windows 95, 98, NT, 2000, ME, etc.
+
+In a nutshell, ROM ZIP Differences Manager can :
+
+- automatically extract the files that are different between all 
+  changed ROM sets, and,
+
+- automatically apply these differences to existing ROM sets.
+
+This means that you can extract all ROM ZIP differences with a few 
+mouse clicks and within seconds / minutes (depending on files sizes).
+
+And, this also means that you can apply all differences to update 
+your ROMS with a few mouse clicks and have all your ROMs updated 
+within seconds / minutes (depending on files sizes).
+
+This should certainly speed up the generation and application of 
+Fix Files, and it should also improve the quality and effectiveness
+of Fix Files.
+
+It could also save Joe Public many mega-bytes of downloads a year,
+and help with what was previously a nightmarish, manual job of 
+using "Fix Files" to update your existing ROM sets.
+
+This program is Freeware.
+
+Developed using 32-bit Delphi.
+
+
+Why I wrote this Program / Why use this Program :
+-------------------------------------------------
+
+Whenever a new release of MAME comes out, usually a dozen or 
+several dozen games that previously worked fine suddenly no 
+longer work - errors have been found in the ROMs by the MAME 
+Development team or others, and the ROMs - usually just 1 or 2 
+for each game's set - have been re-dumped or fixed.
+
+But, even though only 1 or 2 ROMs changed out of a set of many ROMS
+(of maybe a dozen or more) for a game, it is usually necessary to
+download the entire game's ZIP file again to get the game to work 
+with the new version of MAME.
+
+Some people out there are nice enough to build "Fix Files" 
+(such as: Till's "Fix Files" at http://www.sys2064.com/fixfiles.htm), 
+which contain the changed ROMs for many of the affected games.
+
+The problem with these "Fix Files" is that :
+
+1.  They usually only fix some of the games that are now broken 
+    under the new release of MAME.  
+
+2.  And, from what Till has told me, these "Fix Files" are manually 
+    generated - by laboriously comparing ROM CRCs by hand.
+
+3.  In addition, there seems to be no easy way to apply these 
+    "Fix Files" to the existing ROMs to fix / update them to
+     work with the new version of MAME.  (You have to manually ZIP 
+     the changes into each game's ZIP file by hand).
+
+Drum Roll Please ...
+
+This is where ROM ZIP Differences Manager comes in.
+
+In a nutshell, ROM ZIP Differences Manager can :
+
+- automatically extract the files that are different between all 
+  changed / updated ROM sets, and,
+
+- automatically apply these differences to existing ROM sets.
+
+I wrote this program especially to save time, hassle, and excess 
+downloads.
+
+Various tutorials / walkthroughs of the program are contained below to
+show you how to use the program and understand the program better.
+
+Please take the time to read these tutorials / walkthroughs - 
+especially if you are new to using this program.
+
+If you do use this program, please send me an email and let me know.
+If you like, I will also email you when new versions of the program
+are released.  If I know people are using the program, then I am 
+more likely to enhance it further in the future.
+
+If you like this program, check out some of my other arcade emulation
+utilities, such as :
+
+  - MAME 32 Tools
+  - ROM Chopper
+  - ROM Clone Zip Manager
+
+or some of the other Freeware / Shareware on my WEB site.
+
+
+Installing this Program :
+-------------------------
+
+To install  this program, simply unzip the contents of the 
+distribution ZIP file to a directory (using PKUNIP, WinZIP, 
+or similar), run the ROM_Zip_Manager.EXE, and click on the 
+buttons to perform the activities you require.
+
+Everything is hopefully clearly labeled and the program 
+should hopefully be fairly straight forward to use.
+
+This program does not need any DAT files or other files to work.
+
+It works by comparing CRC's inside each game's ZIP file - no other 
+programs or data files are needed (apart from the ROM Differences
+"Fix Files" if you are Rebuilding ROM ZIPs).
+
+
+Uninstalling this Program :
+----------------------------
+
+To uninstall this program, simply locate the directory where
+you installed it (above) - using Windows Explorer or similar,
+and delete the entire directory.
+
+This program does not store anything in the Window's Registry
+or in any other directory on your PC.
+
+
+Using this Program - Pt 1:  Generating ROM Differences
+--------------------------
+
+OK, I will talk about this with lots of examples, and
+I'll try and keep things as simple as possible.
+
+Let's say that you have your MAME ROM ZIPs stored in 
+this directory :
+
+    c:\mame\roms\
+
+and you have just installed a new version of MAME and found
+that all of a sudden 10 or so games don't work anymore.
+
+Let's assume that you have now re-dumped / re-downloaded
+all of the ROMS for these 10 games and stored their ZIP 
+files in another directory, for example :
+
+    c:\mame\roms\new\
+
+So, this directory should contain the complete new sets for 
+each new or altered game - even though only 1 or 2 files 
+inside each game's ZIP file may have changed.
+
+Now, you can compare the ROMs so that you can generate game 
+differences (called "Fix Files") so that you can gives these 
+differences to others to save them re-dumping / re-downloading 
+many MegaBytes of games again.
+
+In ROM ZIP Differences Manager, on the "Generate Differences" tab,
+you would use these settings :
+
+        ROM Directory  : c:\mame\roms\
+        New ROM Dir    : c:\mame\roms\new\
+   ZIP Differences Dir : c:\mame\roms\diffs\
+
+And, then press the "Compare ZIPs" button, and it will generate
+the differences between the new and old ROMs - for every ROM in 
+the New ROM Directory.
+
+If a ROM is brand new - i.e. there is no matching file in the 
+Old ROM Directory - then it will be skipped.  Only matching 
+pairs of ROMs are processed.
+
+When the processing is completed, an "00Readme.txt" file will be 
+written to the ZIP Differences Directory containing a brief summary :
+ROM ZIP Differences Manager version, date, time, etc.
+
+As an example, let's say the game XYZ has changed, and a new 
+ROM had been added to the ZIP file (aaa.bin) and another ROM
+inside the ZIP file (bbb.bin) has changed for the new release 
+of MAME.  In this case, the ZIP Differences Directory would
+contain these files :  
+	c:\mame\roms\diffs\xyz\aaa.bin
+	c:\mame\roms\diffs\xyz\bbb.bin
+
+That is, the ZIP Differences Directory contains the differences 
+between matching (old and new) ZIP files.
+
+These differences could then be ZIPped up and given to others to
+save them re-dumping / re-downloading many MegaBytes of 
+games again.
+
+Potentially, only one person in the Arcade Emulation Community
+would need to do the hard work of :
+ - downloading complete ZIP files for all changed games, and, 
+ - Generating ROM Differences.
+
+In the past, Till has been nice enough to provide such 
+"Fix Files" at http://www.sys2064.com/fixfiles.htm. 
+
+If you are lucky enough to find individual fix files for a game,
+such as XYZ_fix.zip, then you could unZIP these to the Extraction 
+Directory.  In the case of a fix file for the game XYZ, these 
+should be unziped to :
+
+	c:\mame\roms\diffs\xyz\
+
+Unfortunately, though, it is far more common for complete ZIP
+files to be made available - so you need to download the entire
+game again - than for individual fix files for a game to be made 
+available.
+
+The Generating ROM Differences process may take seconds or 
+minutes depending on the size of files involved.
+
+
+Using this Program - Pt 2:  Rebuilding ROM ZIPs
+--------------------------
+
+Extending the above example, let's say someone has given us the ROM
+Differences all ZIPped up in say a file called : MAME_new.ZIP.
+
+Or, these differences may be in multiple ZIP files.
+
+The first thing to do is unZIP these ZIP file(s) to a directory, 
+such as :
+
+     c:\mame\roms\diffs\
+
+and this should then extract files to their own sub-directories for 
+each changed game, for example :
+
+	c:\mame\roms\diffs\xyz\aaa.bin
+	c:\mame\roms\diffs\xyz\bbb.bin
+	::: etc for other games / files :::
+
+where XYZ is the name of a game with a ZIP file XYZ.ZIP, etc
+for all other differences / files for other games.
+
+In ROM ZIP Differences Manager, on the "Rebuild ZIPs" tab,
+you would use these settings :
+
+        ROM Directory  : c:\mame\roms\
+   ZIP Differences Dir : c:\mame\roms\diffs\
+
+Then, all we need to do is press the "Rebuild ZIPs" button,
+and ROM ZIP Differences Manager will apply the differences
+to the existing ROM set ZIPs.  i.e. it will add the new / changed 
+ROMs to the existing game ZIP files in the ROMs Directory.
+
+That is, in mathematical terms :
+
+    New Game ZIP  =  Old Game ZIP  +  Differences
+
+The Rebuild process may take seconds or minutes depending
+on the size of files involved.
+
+
+Using this Program - Pt 3:  Multiple ROM Directories
+--------------------------
+
+OK, now we come to the question "What happens if I
+keep my ROM ZIP files in Multiple Directories ?".
+
+I certainly do this with my ROMs.  For example, I have 
+my ROMs split up alphabetically into directories like :
+      c:\mame\roms\a-e\
+      c:\mame\roms\f-l\
+      c:\mame\roms\m-r\
+      c:\mame\roms\s-z\
+
+and put my BIOS files (neogeo.zip, etc) here :
+      c:\mame\roms\
+
+If you split up your ROMs into multiple directories, then
+you simply need to add each ROM directory to the list of 
+ROM directories, or drag and drop directories onto the
+ROM Directory listbox (from within Windows Explorer).
+
+The "Compare ZIPs" button and the "Rebuild ZIPs" button 
+will then process these multiple directories as required.
+
+Check out the screen shots on my web page for examples
+of the program in action.
+
+
+The Future :
+------------
+
+In the future, many improvements could be made to this program,
+such as :
+
+- Add in Error Checking and Validation.
+  This program assumes - for the sake of performance - that :
+    * all of your ZIP files are error free, 
+    * there is enough harddisk space on your PC to ZIP, extract, 
+      and re-ZIP files, 
+    * your harddisk has no errors, 
+    * etc, etc.
+
+  i.e. This program currently does very little verification or 
+  validation or error checking.
+
+- Add support for Renamed ROM Sets - at the moment, you will need to 
+  manually rename ROM sets - or use some other program - before you 
+  can Generate Differences or Rebuild ZIPs.
+
+- Display better progress information : estimated time, start 
+  time, time remaining, etc during processing.
+
+- Add support for Compressing Extracted files into a single BIG ZIP 
+  file - or a series of ZIP chunked ZIP files (to ensure the space 
+  of each ZIP file does not exceed say 1 MB).
+
+- Support for Rebuilding ZIPs (i.e. updating game ZIPs with difference 
+  files) from inside a single BIG ZIP file - or a series of ZIP chunked 
+  ZIP files.  i.e. the differences dfon't need to be extracted from
+  the differences ZIP file before they can be applied to existing game 
+  ZIPs.
+
+- Display the MAME 32 version number and details.
+
+- Who knows, maybe even a Linux version (when I can get Delphi / Kylix 
+  for Linux and actually get around to installing Linux on one of my PCs).
+
+- Support for Command Line Parameters - so it can be run from the DOS
+  command line (while Windows is running).
+
+- Add in options to allow the user to extract all files that are 
+  new or have changed in :
+   * the New Directory's ZIP files.
+     (This program currently only does this !)
+   * the Old and New Directory's ZIP files (so you get differences 
+     both ways).
+
+- Add in an options to allow the user to :
+   * Only process matching ZIP files - i.e. where a ZIP file with the 
+     same name exists in both the Old and New Directories.  
+     (This program currently only does this !)
+   * Move Zip files that are in the New Directory but not the Old 
+     Directory to the Extraction Directory.
+
+- This program does NOT generate CRCs - it simply uses the ones available 
+  in the ZIP file's header information for each file in the ZIP file.
+  This means that processing is much faster.  But could this cause problems ?
+  Can the CRCs reported by the zip file be wrong ?  Are ZIP file CRCs -
+  even those generated on other hardware and OS's - always 100% compatible 
+  with WinZIP / MAME CRC's ?  (As far as I know, the answer to these 
+  questions is No, No, and Yes - so there should be no problems here).
+
+- Anything else ?
+
+If you would like any of these improvements, or would like to
+suggest more, or would like to give me some feedback on the program,
+please email me and let me know.
+
+
+Special Greetings / Thanks to :
+-------------------------------
+
+Special thanks to all arcade emulator authors, people who maintain 
+arcade emulator sites, those who buy PCBs and dump the ROMs, and those
+who work hard to try and preserve the actual physical arcade machines.
+I'd especially like to thank :
+
+- Dave Spicer for developing Sparcade - the very first Arcade Emulator 
+  for PCs, which introduced me to Arcade Emulation way back in 1995.
+- Nicola Salmoria (for MAME and other emulators) and the fabulous MAME 
+  and various MAME 32 Development Teams.
+- Neil Bradley (Emu, Retrocade and others).
+- Antiriad and the Raine Development Team.
+- Dave (Final Burn).
+- Anders Nilsson & Janne Korpela (Neo Rage and Tutankham emus).
+- Thierry Lescot (System 16 Emulator).
+- Neill Corlett (MGE).
+- Michael Cuddy (KEM & Gyruss).
+- All arcade and other emulator developers - you guys rule !!!
+- Virtu Al, Brian Peek, MAME DK, and others - you guys rule too !!!
+- Till for his great "Fix Files" at http://www.sys2064.com/fixfiles.htm 
+
+In 1995, I was completely blown away by arcade emulation - and I 
+still am !!
+
+Even though some of the above emulators are no longer under 
+development, your amazing work is NOT forgotten (or deleted) !!
+
+
+Program License / Limitations / Restrictions :
+----------------------------------------------
+
+There is no trial period and there is no "cut-down" or 
+"restricted" functionality that requires users to register.
+
+This program is Freeware - which means that the program is free
+to use and distribute, but that I retain Copyright over all of 
+the work.
+
+This program is free for any company, business, individual, or 
+anyone else to use or distribute provided that the EXE, this 
+text file, and the distribution ZIP file remain intact.
+
+This program is Freeware - if you paid money for this program, 
+then you were ripped off and you should complain to the person 
+who sold it to you !!   (Don't complain to me, it's nothing to 
+do with me !!)
+
+If you find this program useful, then please give something 
+back by helping the arcade emulation community in some way.  
+(There are 100's of ways you can help - be imaginitive / 
+creative ;)
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know, and I will do my best to fix it ASAP.
+
+
+Amendment History :
+--------------------
+
+Vers    Date        Description
+
+0.001  18-Sep-2001  *** Private VERY EARLY BETA Release
+                    Very early Private BETA sent to MAKE DK for review 
+                    and comment.  I offered to give the program to MAME DK 
+                    to save them significant bandwidth costs - they could 
+                    have offered ROM FIX files to save people downloading
+                    entire ROM sets again when a few ROMs changed.
+                    Sadly, they did not bother to reply to my emails.
+                    In early March 2002, MAME DK closed down for the second 
+                    and perhaps final time because their bandwidth costs 
+                    were so high.  If only they had listened to my advice 
+                    and took the FREE help I offered ....
+
+0.9B  26-May-2002   *** Private BETA Release
+                    Resurrected this project recently after catching up the 
+                    3 releases of MAME that I was behind - very hard work ! ;)
+                    Email Till who generates "Fix Files" at 
+                    http://www.sys2064.com/fixfiles.htm, and let him know
+                    about the project, and later on email him a Private BETA of
+                    the program to test against the next release of MAME (v0.61).
+                    (28,431 lines of code / comments.)
+
+0.9d  29-May-2002   *** Private BETA Release
+                    Add in Multi-Directory support - to save you changing 
+                    directory and pressing the "Compare ZIPs" or "Rebuild 
+                    ZIPs" buttons  multiple times if you have multiple ROM
+                    directories.  e.g. c:\roms\a-e\, c:\roms\f-l\, etc.
+                    Ensure a '\' terminates all directory paths.
+                    Email the new version to Till.
+                    (28,481 lines of code / comments.)
+
+0.9e  03-June-2002  *** Private BETA Release
+                    Add Drag and Drop support, so you can now drag and drop a
+                    single directory onto the ZIP Differences Directory or the
+                    New ROM Directory edit boxes, or you can drag and drop
+                    one or more directories onto the ROM Directory(s) listbox.
+                    Add in a "Reset the ROM Directory list" speedbutton.
+                    Add extra validation.  e.g. display a warning message if 
+                    the ZIP Differences Directory is the same as the New ROM 
+                    Directory, or if the ZIP Differences Directory is in the 
+                    list of ROM Directories, etc.
+                    (28,780 lines of code / comments.)
+
+1.0   19-June-2002  First Public Release - Enjoy !!
+                    (28,798 lines of code / comments.)
+
+1.1   20-Nov-2002   Improve various messages / dialogs.
+                    Verify the ZIP file is a valid ZIP file before doing 
+                    any subsequent processing or testing.
+                    Add in Savings Report functionality / tab.
+                    Bring the program up to date with my latest code libraries.
+                    (40,577 lines of code / comments.)
+
+
+If this program was not downloaded from my Home Page, then
+it might be an old version.  The latest version of this 
+program is available from my WEB page - see below.
+
+For more great software, please visit my WEB page !
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://move.to/moose
+____________________________________________________
+ 

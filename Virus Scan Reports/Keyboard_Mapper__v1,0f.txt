@@ -1,0 +1,153 @@
+Keyboard_Mapper__v1,0f.zip
+
+Keyboard Mapper (v1.0f)
+
+Keyboard_Mapper
+
+http://www.virustotal.com/en/file/2b7b0aaed7e97c8e3726a81607aca56d5633b3c4b32784e60f39e03c7933e50d/analysis/1422314425/
+
+SHA256: 	2b7b0aaed7e97c8e3726a81607aca56d5633b3c4b32784e60f39e03c7933e50d
+File name: 	Keyboard_Mapper__v1,0f.zip
+Detection ratio: 	0 / 57
+Analysis date: 	2015-01-26 23:20:25 UTC ( 0 minutes ago )
+0
+0
+
+    Analysis
+    Additional information
+    Comments
+    Votes
+
+Antivirus 	Result 	Update
+ALYac 		20150126
+AVG 		20150126
+AVware 		20150126
+Ad-Aware 		20150126
+AegisLab 		20150126
+Agnitum 		20150126
+AhnLab-V3 		20150126
+Alibaba 		20150126
+Antiy-AVL 		20150126
+Avast 		20150126
+Avira 		20150126
+Baidu-International 		20150126
+BitDefender 		20150126
+Bkav 		20150126
+ByteHero 		20150127
+CAT-QuickHeal 		20150125
+CMC 		20150124
+ClamAV 		20150126
+Comodo 		20150126
+Cyren 		20150126
+DrWeb 		20150126
+ESET-NOD32 		20150126
+Emsisoft 		20150126
+F-Prot 		20150126
+F-Secure 		20150126
+Fortinet 		20150126
+GData 		20150126
+Ikarus 		20150126
+Jiangmin 		20150126
+K7AntiVirus 		20150126
+K7GW 		20150126
+Kaspersky 		20150126
+Kingsoft 		20150127
+Malwarebytes 		20150127
+McAfee 		20150126
+McAfee-GW-Edition 		20150126
+MicroWorld-eScan 		20150126
+Microsoft 		20150126
+NANO-Antivirus 		20150127
+Norman 		20150126
+Panda 		20150126
+Qihoo-360 		20150127
+Rising 		20150126
+SUPERAntiSpyware 		20150125
+Sophos 		20150126
+Symantec 		20150126
+Tencent 		20150127
+TheHacker 		20150126
+TotalDefense 		20150126
+TrendMicro 		20150126
+TrendMicro-HouseCall 		20150126
+VBA32 		20150126
+VIPRE 		20150126
+ViRobot 		20150126
+Zillya 		20150126
+Zoner 		20150123
+nProtect 		20150126 
+
+
+
+File identification
+MD5 2adac4cc3b5f51a7a87c275db8a1517f
+SHA1 36591875d8f74a1767526402f532ccbbf25b4bd8
+SHA256 2b7b0aaed7e97c8e3726a81607aca56d5633b3c4b32784e60f39e03c7933e50d
+ssdeep
+6144:R2AG4t081JJZvYblMKJbbu0sdGHWN1wvNdLIXQ0x:YAQwJJZvYtJbydYSuvNdcXx
+
+File size 264.1 KB ( 270427 bytes )
+File type ZIP
+Magic literal
+Zip archive data, at least v2.0 to extract
+
+TrID 	Google Earth saved working session (60.0%)
+ZIP compressed archive (40.0%)
+Tags
+zip upx
+
+VirusTotal metadata
+First submission 2014-04-29 16:09:18 UTC ( 9 months ago )
+Last submission 2015-01-26 23:20:25 UTC ( 1 minute ago )
+File names 	Keyboard_Mapper-178.kmz
+Keyboard_Mapper__v1,0f.zip
+Advanced heuristic and reputation engines
+ClamAV PUA
+Possibly Unwanted Application. While not necessarily malicious, the scanned file presents certain characteristics which depending on the user policies and environment may or may not represent a threat. For full details see: http://www.clamav.net/doc/pua.html .
+
+ExifTool file metadata
+MIMEType
+application/zip
+
+ZipRequiredVersion
+20
+
+ZipCRC
+0x32de27df
+
+FileType
+ZIP
+
+ZipCompression
+Deflated
+
+ZipUncompressedSize
+31859
+
+ZipCompressedSize
+11232
+
+FileAccessDate
+2015:01:27 00:20:27+01:00
+
+ZipFileName
+catalog.txt
+
+ZipBitFlag
+0
+
+FileCreateDate
+2015:01:27 00:20:27+01:00
+
+ZipModifyDate
+2007:09:18 10:49:16
+
+
+
+
+Comments
+
+Downloaded from my web site: http://moosevalley.fhost.com.au/
+I am super paranoid about security and all of my PCs are subject to the highest levels of security, so you can rest assured that there are no viruses or malware in any of the software I provide on my web site, as confirmed by this VirusTotal analysis. :)
+Moose
+Posted 0 minutes ago by Moose Delete

@@ -1,0 +1,427 @@
+ 
+Internet Download Buddy		Copyright (C) Moose O'Malley, 
+-----------------------		September 2007.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Why I wrote this Program / Why use this Program
+   | * Step by Step Guide to Using This Program
+   |     - Scenario #1
+   |     - Scenario #2
+   |     - Scenario #3
+   |     - Scenario #4
+   |     - Scenario #5
+   | * Uninstalling this Program
+   | * The Future
+   | * Reviews / Awards / CDs
+   | * Freeware Information
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+Internet Download Buddy is designed to help you easily 
+download groups of files from the internet.
+
+First off, let's just get it clear what this program 
+DOES NOT DO :
+- It does NOT resume broken downloads,
+- It does NOT verify downloaded files, and, 
+- It will NOT help you download entire WEB sites.
+
+But, with that said, it does help you do a lot.
+
+If you have ever encountered the following :
+
+ 1. Somebody has scanned a document or a magazine or something
+    and put all of the pictures on the internet, but you have
+    to click on the thumbnail images or links to get to the 
+    full sized images so you can save them to your own PC.
+
+    You are sick of clicking and waiting and right clicking and
+    saving to save each image.
+
+ 2. Somebody has a list of files of their web site, and you
+    want to download them, and, you don't want to wear out your 
+    mouse or fingers with all the clicking and messing around 
+    to save the files individually.
+
+If you can relate to the above situations, then Internet 
+Download Buddy could be just what you need, and it could 
+save you time and hassle.
+
+A Step by Step Guide to using this program is contained below.
+(See "Step by Step Guide to Using This Program" below ! ;)
+
+To use the program, simply copy and paste in your list of files,
+(such as the list of files changed for a new release of MAME), 
+enter the base web link, select a directory to save the files to 
+on your PC, set any other options you require, and press
+the "Download + Next" button to download the first file
+and move the selection to the next file.
+
+If you have checked the "Automatic Downloads" checkbox, then
+the next file will start downloading when the first file is 
+finished, and so on until all files are downloaded.
+
+Developed using 32-bit Delphi.
+
+Internet Download Buddy is for Windows 95 / 98 / NT / 2000 / etc.
+This program will **NOT** run under Windows 3.x
+(even with Win32 installed) !!
+
+
+Why I wrote this Program / Why use this Program :
+-------------------------------------------------
+
+I wrote this program primarily because :
+
+(a) Initially, I was worried about the unnecessary traffic on 
+    MAKE DK's server(s) as a result of having to view web pages with 
+    screen shots, and pages of other detail, when all you 
+    need is the resulting ZIP file.
+
+    (I had emailed MAME DK and suggested improvements to their site
+    that would have drastically reduced their bandwidth expenses,
+    but, alas, these were not implemented).
+
+    So, I wrote this program and offered it to MAME DK and all MAME DK
+    users FREE of charge (in my email on 18-Sep-2001).  However, 
+    MAME DK did not bother to reply to my emails about the program.
+
+(b) Then, in February 2002, a nice person scanned in some ancient
+    Apple 2 magazines (from the early 1980's), but it was a real 
+    difficult and slow process to download them (click thumbnail, 
+    wait for page to download, right click, save it, press the back 
+    button to go back to the index, and do it all over again for 80 
+    or so pages for each magazine).
+
+    So, I modified and renamed my program to become a general
+    purpose internet download utility.
+
+    And, the next day, it downloaded the other magazine pictures
+    for me, and I did not even have to be there in the room
+    while it worked its way down the list.
+
+If you find this program useful, or if it saves you time, 
+then that is cool !
+
+
+Step by Step Guide to Using This Program :
+------------------------------------------
+
+To use this program, simply unzip it to a directory (using 
+PKUNIP, WinZIP, or similar), copy and paste in your list
+of files.
+
+Let's now look at some scenarious and step by step situations
+where Internet Download Buddy could prove very useful.
+
+*** Note Well Before we Start ***
+
+N.B.  Some WEB sites hide their files within bizare links,
+      such as
+
+      http://www.moose.com/downloads/moose/?1000353364|1ce
+OR
+      http://www.moose.com/downloads/moose/dl.php?moose.zip
+
+Somw WEB sites do this to make it harder for people to download
+files so that they can force you to go through all of their
+banner ads.  Some sites do this because they don't like other 
+web sites linking to their files and stealing bandwidth.
+And, other people do this because they are just plain mean.
+
+For these sites, Internet Download Buddy will not be much use,
+well, at this stage anyway ...
+
+OK, on with the show.
+
+
+Scenario #1.  There are a bunch of files listed on a web page 
+************  and I want to download them all.
+
+The first thing to do is download one of the files and see 
+where it is downloaded from.  Some WEB pages hide this, but 
+most do not.  If necessary "View the Source" for the web page
+and search for the file you are downloading and copy the link.
+
+OK, let's say that files are all downloaded from :
+
+  http:/www.moose.com/downloads/
+
+OK, so copy and paste this link into the "Source WEB URL"
+in Internet Download Buddy.
+
+Next, select where on the PC you want the files to go.
+i.e. select the "Destination PC Directory" in Internet 
+Download Buddy.
+
+OK, so far so good, now we need the list of files.
+
+	cactus.jpg
+	flower.jpg
+	hedgehog.jpg
+
+If so, then just select these files and copy and paste them into
+in Internet Download Buddy.
+
+OK, we are now ready to test the download.
+
+Press the "Download + Next" button, and Internet Download Buddy
+will download the first file, and then select the next file
+ready for subsequent downloading.
+
+When the download is complete, go to wherever your destination 
+directory is, and view the file and make sure it is what you
+were expecting.
+
+If not, then you may need to use some of the setting we discuss
+below, or you may need to check the "Source WEB URL" above,
+and that you have enough free disk space in the 
+"Destination PC Directory", etc.
+
+If all is OK, then check the "Automatic Downloads" checkbox,
+and press the "Download + Next" button, and all remaining
+files will be downloaded - one at a time.
+
+
+Scenario #2.  As above, but descriptions are also listed
+************  with each file name.
+
+If the file names have descriptions with them, such as :
+
+	cactus.jpg     A Picture of a Cactus
+	flower.jpg     Flower in full bloom
+	hedgehog.jpg   Cute but not so cudly
+
+then, you should check "Ignore everything in file name 
+after Space, comma, colon, etc" checkbox, so that Internet 
+Download Buddy knows to use "cactus.jpg" as the file name 
+and not "cactus.jpg     A Picture of a Cactus" as the file 
+name.
+
+If all is OK, then check the "Automatic Downloads" checkbox,
+and press the "Download + Next" button, and all remaining
+files will be downloaded - one at a time.
+
+
+Scenario #3.  As above, but the file extensions are not 
+************  displayed.
+
+If the file names don't have extensions, such as :
+
+	cactus     A Picture of a Cactus
+	flower     Flower in full bloom
+	hedgehog   Cute but not so cudly
+
+Then, download one of the pictures and see what extension it has.
+
+Let's say the file has a JPG extension.
+
+In Internet Download Buddy, type in "JPG" as the 
+"Default File Extension".
+
+N.B.  Some WEB sites are case sensitive, so you may need to 
+      change this to "jpg" or "Jpg" or something else for 
+      the downloads to succeed !
+
+Then, you should check "Ignore everything in file name 
+after Space, comma, colon, etc" checkbox as before,
+and this will enable Internet Download Buddy to work
+out that"cactus.jpg" is the file name and not 
+"cactus     A Picture of a Cactus".
+
+If all is OK, then check the "Automatic Downloads" checkbox,
+and press the "Download + Next" button, and all remaining
+files will be downloaded - one at a time.
+
+
+Scenario #4.  No files are displayed, but they are all based
+************  on a pattern.  e.g. pic1.bmp, pic2.bmp, etc
+
+For situations where file names are not displayed or listed,
+then check the file names and see if they conform to
+a basic pattern.
+
+For example, if the file names were pic1.bmp, pic2.bmp,
+... pic15.bmp, etc, then the "Manufacture File List"
+functionality in Internet Download Buddy.
+
+As the File Spec, enter :
+
+	pic:n:.bmp
+
+Set the From spinner to 1, and the To spinner to 15,
+and Zero pad numbers to at least 1 digit, and
+press the "Manufacture File List" button,
+and the required list of files should be generated.
+
+
+Scenario #5.  As above, but file names are pic001.bmp, 
+************  pic002.bmp, etc.
+
+As before, enter the File Spec as :
+
+	pic:n:.bmp
+
+And, as before, set the From spinner to 1, and the 
+To spinner to 15, but this time Zero pad numbers 
+to at least 3 digits, and then press the 
+"Manufacture File List" button, and the required 
+list of files should be generated.
+
+
+Hopefully the above walkthroughs help you understand
+the program and get the most out of it.
+
+The trick is to download one file, and see how you go,
+and play with things till you get it working, and then
+download all files.
+
+Tool tips (hints) are provided with all buttons.
+
+Everything is clearly labelled and the program should 
+hopefully be fairly straight forward to use.
+
+
+Uninstalling this Program :
+---------------------------
+
+At the  present time, there is No Uninstall function.
+
+If you ever want to delete the program from your 
+computer, then :
+
+ 1. Exit the program, and delete it from wherever you installed
+    it on your harddrive.
+
+Simple as that !
+
+
+The Future :
+------------
+
+In the future, many improvements could be made to this program,
+such as :
+
+- Retrying the download if the file is bad, corrupted, or truncated.
+
+  This means that I will need to know how to integrity check files.  
+  For ZIP files this is easy, but for JPEG, Word Document, and other 
+  files, this could involve some major work.
+
+- A simpler way to integrity check downloads might be to checksum the file
+  on the web server, and checksum it again when the download is complete.
+
+  But, this strategy has many issues.  e.g. CR -> CR/LF conversions
+  during downloads of text files from Unix to Windows based systems
+  would mean that the checksums never matched.
+
+  A way around this might be to ignore the CR/LF characters during the 
+  checksum, but what if it is these that are corrupted during the download ?
+
+  So, as you see, there is no easy answer to this problem.
+
+- Multiple Downloads at once.
+
+- More advanced features.
+
+- Resuming of broken / incomplete downloads.
+
+- Add in an Instant Halt button.  (At the moment, the Halt stops the 
+  download at the end of the file currently being downloaded).
+
+- Get the file size from the web server, and display a progress bar 
+  (with % download, etc).
+
+- Display the download speed for the current file, and for all files 
+  downloaded since the "Download + Next" button was last pressed.
+
+- Subdirectory downloads.
+  This program has proven to be enormously useful and time saving 
+  for me many times in the past.  And, I have greatly extended 
+  this program behind the scenes, adding in the ability to download 
+  from sub-directories, etc.  Maybe one day I'll release this
+  vastly improved version ...
+
+- Anything else ?
+
+If you would like any of these improvements, or would like to
+suggest more, please email me and let me know.
+
+How much more work I do on this program depends entirely on
+what support I get, how many people use the program, etc.
+
+
+Reviews / Awards / CDs :
+-------------------------
+
+None so far.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.  
+
+Anyone - any person, any company, or any business - can 
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please 
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select 
+the "About" option under the Help menu, and then click 
+the PayPal link on the "About" screen).
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know.
+
+
+Amendment History :
+--------------------
+
+Vers    Date        Description
+
+0.001  18-Sep-2001  Very early Private BETA sent to MAKE DK for review 
+                    and comment.  I offered to give the program to MAME DK 
+                    to save them significant bandwidth costs while still 
+                    protecting their banner add income.  
+                    They did not bother to reply to my emails.
+                    In early March 2002, MAME DK closed down for the second 
+                    and perhaps final time because their costs were so high.
+                    If only they had listened to my advice and took the
+                    FREE help I offered ....
+
+1.0   11-Mar-2002   First Public Release.
+                    (21,627 lines of code / comments.)
+
+1.0f  3-Sep-2007    This program is now FREEWARE - see "Freeware Information"
+                    above.
+
+
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this 
+program is available from my WEB page - see below.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://move.to/moose
+____________________________________________________
+ 

@@ -1,0 +1,27 @@
+
+Disclaimer of Warranty :
+------------------------
+
+This software and the accompanying files are provided "as is" 
+without any warranty as to performance or merchantability and 
+without any other warranties whether expressed or implied.
+
+Because of the various hardware and software environments 
+into which this software may be used, no warranty of fitness 
+for a particular purpose is offered.
+
+Good data processing procedure dictates that any program be
+thoroughly tested with non-critical data before relying on it.
+
+The user assumes the entire risk of using the program.
+
+If you do find any faults with this program, email me and let 
+me know, and I will do my best to fix it or find a way to 
+work around the issue(s) asap.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://moosevalley.fhost.com.au/
+____________________________________________________
+ 

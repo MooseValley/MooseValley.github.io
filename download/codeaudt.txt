@@ -1,0 +1,561 @@
+ 
+Program Code Auditor			Copyright (C) Moose O'Malley, 
+--------------------			September 2007.
+
+   +===========================================================+
+   |          T A B L E   O F   C O N T E N T S                |
+   +===========================================================+
+   | * Introduction
+   | * Why I wrote this program
+   | * Auditing "Foreign" Code
+   | * Testing Program Code Auditor
+   | * Using this Program
+   | * Example Audit Report
+   | * Programming Languages Supported "Out of the Box"
+   | * The Future
+   | * Freeware Information
+   | * Warranty
+   | * Amendment History
+   | * Contacting the Program's Author
+   +===========================================================+
+
+Introduction :
+--------------
+
+Program Code Auditor for Windows 95, 98, NT, 2000, etc.
+
+This program is free software.  Anyone - any person, any company, 
+or any business - can use this program for free.  No fees or 
+payment is required.  See "Freeware Information" below.
+
+Program Code Auditor is a tool specially designed for :
+- programmers, or,
+- the managers of programmers, or,
+- teachers of programming students
+to analyse the program code that has been written, and
+see how many lines of code there are and how much white 
+space and comments there are in the code.
+
+As every good programmer knows, white space (blank lines),
+and comments in your code are *extremely* important
+for your program to be understandable and maintainable.
+e.g. A 10,000 line program with a single line of comments 
+is a badly written program.
+
+Normally, good programmers aim to have around 15%-20% of their 
+programs as comments, 15%-20% as white space (blank lines),
+and the rest code.
+
+On the other hand, for HTML and WEB Page Languages, adding 
+comments slows page downloading and puts more stress on servers.
+Too many comments in HTML or WEB languages is a bad thing,
+and they should be removed or filtered out of the code before
+it goes into a "live" environment.
+
+Program Code Auditor is a tool that lets you see how many lines 
+and what percentage of programs are comments, code, white space,
+or code with comments (on the same line) for each source
+code file, and it also produces a summary of all source files
+audited.  All of this information is written to a report that
+you can copy to the Window's Clipboard, print it, or save it 
+to disk.
+
+Built into this program is support 17 languages so far :
+ - Assembler
+ - BASIC (Plain Text Files - not Tokenised - Listings)
+ - C / C++
+ - COBOL 
+ - Delphi v1 / Turbo Pascal / Pascal
+ - Delphi v2 or later
+ - DOS Batch Files (IBM-PC)
+ - FORTH
+ - Fortran
+ - Holos
+ - HTML (WEB Pages)
+ - Java
+ - JCL (IBM Mainframe Job Control Language)
+ - Lotus Script (for the brilliant Lotus Improv Spreadsheet)
+ - NATURAL
+ - PL/1
+ - SQL
+
+There is also an option for you to specify the comment start 
+and end delimiters, and this should make Program Code Auditor 
+work with just about any programming language !!
+
+Program Code Auditor allows you to :
+- Audit single files.
+- Audit all files in a directory.
+- Audit all files in a directory and all of its subdirectories.
+- Exclude certain files (by their extension) from the audit.
+- Exclude certain directories from the audit.  (Useful when processing 
+  a directory and most but not all of its subdirectories).
+- Load and Save profiles.
+
+  Definition: A Profile is the groups of files and directories 
+              you are auditing, along with any files you are 
+              excluding from the audit.
+
+N.B. The Profiles used by Program Code Auditor are 100% compatible
+and interchangable with my Checksum Calculator, so you can use the same
+profile to checksum your files (in Checksum Calculator) and then
+use it again to audit your files (in Program Code Auditor).  
+
+Pretty cool, hey ?
+
+This program supports full drag and drop, so you can drag and drop 
+files into the program for auditing.
+
+
+Why I wrote this program :
+--------------------------
+
+In 1989, I was working for a company in Melbourne Australia,
+and this company paid a small fortune (many thousands of dollars)
+for a code auditing tool that does much less than my program, 
+and it only worked for one programming language !!  (Natural)
+It produced nasty reports, wasn't user-friendly, and
+it was extremely limited.
+
+My $20 Australian program is a versatile, flexible, stunning 
+bargain in comparison !!  ;)
+
+In addition, I became an active, internet based, shareware 
+author / developer in July 1996.
+
+Anyway, I was interested to know what percentage of my programs 
+were comments, white space, etc.  And, I also wanted to know what 
+percentage of my code was common code that is reused across all 
+of my programs.
+
+But, I particularly didn't want to pay 1,000's or even 100's of 
+dollars for a program to do it.
+
+Anyway, as I usually do, I just sat down late one evening and 
+wrote this program, and by morning (I do tend to code all night)
+I had finished and I could get the results I wanted.
+(See "Example Audit Report" below).
+
+Once I had the program working for one language, I added in support
+for other langauges, and, with each new version, the list of supported 
+languages grew.
+
+In addition, you can also define your own "user defined" settings 
+in the program - comment delimiters, string delimiters, etc,
+and in this way Program Code Auditor could be made to work
+for any source code.
+
+Program Code auditor provides these answers to me, and
+it runs so quickly that I get get the latest audit results on
+100's of my programs in minutes or less.
+
+Also, for the past few years, I have been working as a 
+lecturer in some computer science subjects at a university in 
+Australia.  And Program Code Auditor is invaluable for me here,
+because it helps me audit programming assignments handed in
+from my students, and it provides me with percentages, etc that
+I can use to provide feedback to my students about their coding 
+and commenting practices.
+
+
+Auditing "Foreign" Code :
+-------------------------
+
+By "Foreign" I mean source code on non-Windows PCs, not people 
+from Spain or England.  ;))
+
+If you want to audit source code from another operating system
+(Unix, MAC OS, VMS, Tops-10 or whatever), then transfer the source 
+code (via FTP or whatever means works best for you) to the PC 
+where you have installed Program Code Auditor, and you can then
+audit the code.
+
+Simple as that.
+
+Make sure you convert to PC text file format (Unix -> PC or MAC -> PC
+format with CR/LF at the end of each line.  FTP programs can do this
+for you, or my File Tools program can also help.
+
+I have FTP'd or otherwise transferred code from Unix, IBM's MVS, 
+and Digital's VMS machines and audited 10's of 1,000's of 
+lines of source code with Program Code Auditor.
+
+I now know that in the first 4 years (July 1996 - July 2000) 
+of part-time work on my shareware programs, I have developed 
+well over 60,500 lines of Delphi source code, contained in over 
+180 seperate files, and requiring over 2 MB of disk space.  
+(This is just the *.pas files, and does not include the *.dfm 
+or other files).  Much of this code is common code that is 
+reused across all of my programs.
+
+I hope you also find this program useful.
+
+
+Testing Program Code Auditor :
+------------------------------
+
+I have a large bank of test cases for every single language 
+supported by Program Code Auditor, and I run these through 
+the program before I make a public release of the program.
+
+You can rest assured that Program Code Auditor will
+deliver accurate results for all of the programming 
+languages it supports.
+
+
+Using this Program :
+--------------------
+
+To use this program, unzip the contents of the ZIP file to a directory - 
+such as c:\utils\ - and run the executable file Codeaudt.exe.
+
+Simply drag and drop files onto Program Code Auditor from Windows
+Explorer and then click the "Audit" button to audit the files.
+
+Or, you can use the buttons provided in Program Code Auditor 
+to add directories, add directories and all of their sub-directories,
+exclude files, etc.
+
+Before you audit any files, you should ensure that the Comment Delimiter
+settings (on the "Settings" tab) are correct for the programming language
+that you are auditing.
+
+
+Example Audit Report :
+----------------------
+
+Below is a audit report for a small fraction of my shareware's 
+Delphi source code (in February 2002).
+
+
+Audit Date / Time        : Wednesday, February 20, 2002,  at  04:34 AM
+
+Audit Report Courtesy of : Program Code Auditor v2.0  (http://move.to/moose)
+
+Programming Language     : Delphi v2 or later
+                                                                                               Lines of Code 
+ Program Name       Total Lines        Blank Lines       Comment Lines      Lines of Code      with Comments 
+---------------- ------------------ ------------------ ------------------ ------------------ ------------------
+about_p.pas                     174          30  (17%)          28  (16%)         115  (66%)           1   (0%)
+ast_help.pas                     37          10  (27%)           3   (8%)          24  (64%)           0   (0%)
+ast_set.pas                      71          17  (23%)           3   (4%)          51  (71%)           0   (0%)
+astclckp.pas                    561         131  (23%)          38   (6%)         388  (69%)           4   (0%)
+bigmousm.pas                    370          72  (19%)          89  (24%)         206  (55%)           3   (0%)
+bigmousp.pas                    433          89  (20%)          88  (20%)         252  (58%)           4   (0%)
+calculatorp.pas                 190          32  (16%)          33  (17%)         125  (65%)           0   (0%)
+checksup.pas                  2,300         466  (20%)         378  (16%)       1,423  (61%)          33   (1%)
+cleanupp.pas                    803         181  (22%)         115  (14%)         497  (61%)          10   (1%)
+cpu_monp.pas                    830         220  (26%)         177  (21%)         421  (50%)          12   (1%)
+---------------- ------------------ ------------------ ------------------ ------------------ ------------------
+ Overall Totals               5,769       1,248  (21%)         952  (16%)       3,502  (60%)          67   (1%)
+---------------- ------------------ ------------------ ------------------ ------------------ ------------------
+
+
+ Processing Summary : Delphi v2 or later
+-----------------------------------------
+
+  - Programming Language                = Delphi v2 or later
+
+  - Total Files Audited                 =                  10
+
+  - Total Lines Processed               =               5,769
+  - Average Lines per File              =                 577 Lines / File
+
+  - Total Size of Files                 =               207.0 KBytes
+  - Average Size of Each File           =                20.7 KBytes / File
+
+  - Total Blank Lines                   =        1,248  (21%)
+  - Total Lines of Comments             =          952  (16%)
+  - Total Lines of Code                 =        3,502  (60%)
+  - Total Lines of Code (with comments) =           67   (1%)
+
+End of Report.
+
+
+Programming Languages Supported "Out of the Box" :
+--------------------------------------------------
+
+The following languages are supported by the program so far.
+
+N.B. In addition, you can also define your own "user defined" 
+     settings in the program - comment delimiters, string 
+     delimiters, etc, and in this way Program Code Auditor 
+     could be made to work for any source code for any 
+     programming language.
+
+Assembler
+	; everything after this on the line is a comment.
+	' or " = delimiting quotes for strings and chars.
+
+BASIC (Plain Text Files - not Tokenised - Listings)
+	REM = Rest of line is a Comment
+	" = delimiting quotes for strings and chars.
+	Remove Line Numbers.
+
+C / C++
+	// = Rest of Line is a comment
+	/* = Start Comment
+	*/ = End of comment
+	" = delimiting quotes for strings.
+	' = delimiting quotes for chars.
+
+COBOL
+	* in Column 1 or 7 means everything on the line is a comment.
+	' or " = delimiting quotes for strings and chars.
+
+Delphi v1 and Pascal
+	{ = Start Comment
+	} = End of comment
+	' = delimiting quotes for strings and chars.
+
+Delphi v2 or later
+	// = Rest of Line is a comment
+	{ = Start Comment  (Open Curley Bracket)
+	} = End of comment (Close Curley Bracket)
+	' = delimiting quotes for strings and chars.
+
+DOS Batch Files (IBM-PC)
+	REM = Comment
+	" = delimiting quotes for strings and chars.
+
+FORTH
+	( = Start Comment  (Open Round Bracket)
+	) = End of comment (Close Round Bracket)
+	" = delimiting quotes for strings and chars.
+Fortran
+	C, c, or * in Column 1 means everything on the line is a comment.
+	' = delimiting quotes for strings and chars.
+
+Holos
+	! Anything after a ! is a comment.  Can appear anywhere on a line.  
+	  e.g. after code.
+	" = delimiting quotes for strings and chars.
+
+HTML (WEB Pages)
+	<! = Start Comment
+	>  = End of comment
+	' or " = delimiting quotes for strings and chars.
+
+Java
+	// = Rest of Line is a comment
+	/* = Start Comment
+	*/ = End of comment
+	" = delimiting quotes for strings.
+	' = delimiting quotes for chars.
+
+JCL (IBM Mainframe Job Control Language)
+	//* = Comment
+	' = delimiting quotes for strings and chars.
+
+Lotus Script (for the brilliant Lotus Improv Spreadsheet)
+	' = Anything after ' is a comment - can appear anywhere 
+	    on the line, and everything until eol is a comment.
+	" = delimiting quotes for strings and chars.
+
+NATURAL
+	* at start of line means entire line is a comment.  
+	/* Anything after /* is a comment.
+	' = delimiting quotes for strings and chars.
+	Remove Line Numbers.
+
+PL/1
+	/* = Rest of Line is a comment
+	' = delimiting quotes for strings and chars.
+
+SQL
+	REM = Anything after this is a comment.
+	' = delimiting quotes for strings and chars, and,
+	" = delimiting quotes for strings and chars.
+
+
+N.B. In addition, you can also define your own "user defined" 
+     settings in the program - comment delimiters, string 
+     delimiters, etc, and in this way Program Code Auditor 
+     could be made to work for any source code for any 
+     programming language.
+
+
+The Future :
+------------
+
+In the future, many improvements could be made to this program,
+such as :
+
+- Command Line mode, just like my Checksum Calculator.
+
+- "Out of the Box" support for other langauges.
+  e.g. Dbase / Clipper, RPG, Eiffel, etc.
+
+- Better auditing, such as auditing the average number of 
+  characters in each comment.
+
+- Anything else ?
+
+If you would like any of these improvements, or would like to
+suggest more, please email me and let me know.
+
+How much more work I do on this program depends entirely on
+what support I get, how many people use the program, etc.
+
+
+Freeware Information :
+-----------------------
+
+This is free software.  
+
+Anyone - any person, any company, or any business - can 
+use this program for free.  No fees or payment is required.
+
+However, if you find the program useful, then please 
+consider making a PayPal donation to support my efforts.
+(To make a donation, please run the program and select 
+the "About" option under the Help menu, and then click 
+the PayPal link on the "About" screen).
+
+
+Warranty :
+----------
+
+This software and the accompanying files are provided "as is" and
+without warranties as to performance or merchantability or any
+other warranties whether expressed or implied.
+
+The user assumes the entire risk of using this software.
+
+If you do find any faults with this program, email me and let 
+me know.
+
+
+Amendment History :
+--------------------
+
+Vers    Date        Description
+
+1.0  29-Jan-2001    First Public Release.
+                    (9,834 lines of code / comments.)
+
+1.1  17-Apr-2001    Add in support for "Big Fonts" and "Other Sized Fonts" - 
+                    with these Windows resizes the windows automatically - 
+                    but only sometimes and it doesn't always do it right, 
+                    so now I make sure my main window is the right size 
+                    before doing any scaling, etc.  i.e. I make it fit the 
+                    component(s) that extend the furthest right and 
+                    furthest down the form.   See the  Start Menu -> 
+                    Settings -> Control Pannel -> Display -> Settings 
+                    Tab -> "Advanced" button -> "General" tab for 
+                    your PC's settings in this area.
+                    Add in Form and Component Scaling when the program's 
+                    main window is resized - really Cool !!
+                    Bring program up-to-date with my latest code libraries.
+                    Fix handling of null / empty files.
+                    (11,146 lines of code / comments.)
+
+1.2  31-Apr-2001    Add in built-in support for :
+                    - COBOL 
+                    - Fortran.
+                    (Yes, many people still use these languages !)
+                    (Added specially for Keith B).
+                    (11,244 lines of code / comments.)
+
+1.3  10-Dec-2001    Display Total Blank Lines correctly on the 
+                    Audit Report's summary.  For Fortran, a "C", 
+                    "c", or "*" in column 1 indicates a comment.
+                    Add in support for a second comment start to end-of-line 
+                    character.  e.g. Everything after a // in a line of C++ 
+                    is a comment.
+                    (12,228 lines of code / comments.)
+
+2.0  21-Feb-2002    Massive Changes for this Release.  (Program doubled in size !)
+                    Smart code processing and handling of comment characters within 
+                    strings.  So, the C++ line My_String = "ABC // DEF /* GHI";
+   Price Rise       is not counted as containing comment(s) any longer. 
+    from $5         Fully generic auditing - no special cases or handling.
+    to $20          (Prior to this, I checked for and handled COBOL, Fortran, 
+                    etc first, and then processed languages with more complex 
+                    commenting methods as a group).  Now, all languages are processed 
+                    entirely by their comment start, end, etc characteristics.
+                    Add "out of the box" support for 11 more computer programming  
+                    languages (bringing the total to 17) : 
+                    - Assembler
+                    - BASIC (Plain Text Files - not Tokenised - Listings)
+                    - DOS Batch Files (IBM-PC)
+                    - FORTH
+                    - Holos 
+                    - HTML (WEB Pages)
+                    - JCL (IBM Mainframe Job Control Language)
+                    - Lotus Script (for the brilliant Lotus Improv Spreadsheet)
+                    - NATURAL
+                    - PL/1
+                    - SQL
+                    I have extensively coded in 15 of these 17 langauges in the past.
+                    (Another few to add, and then that about wraps up my core 
+                    languages since 1980.  Then I'll move onto my "fringe" languages ;)
+                    Add in extra reporting options : report file name with or without 
+                    the full directory path, and show line counts with or without 
+                    percentages.
+                    Improve the formatting of the report : Align all audit information 
+                    according to the longest file name, add column headings, add
+                    column footings, improve the look and readability of the report.
+                    Add date and time, programming language selected, and Program
+                    Code Auditor name, version, and web address onto the Audit Report.
+                    Add in "Print Report" button to the Audit Report screen. 
+                    This allows you to select the Printer and its associated settings 
+                    (e.g. paper size, portrait or landscape, etc).
+                    In addition, the Report is now generated in Rich Text Format, with 
+                    fonts, etc, so if you copy and paste it to Word or anywhere else the
+                    fonts and spacing will remain intact.
+                    Add in "Ignore Line Numbers" option - useful for languages with 
+                    numbered line numbers.  e.g. BASIC.
+                    Add in a "Halt Processing" button - you can now halt the
+                    auditing / processing of files at any time.
+                    Move the Reset and Audit buttons to the bottom of the window so they 
+                    are visible at all times.  i.e. they are no longer on a notebook tab.
+                    Stop the process and inform the user if there are no files to audit.
+                    If the file is empty or locked, then report this on the Audit Report.
+                    Add in new sections to this text file :
+                    - Auditing "Foreign" Code
+                    - Programming Languages Supported "Out of the Box"
+                    - Testing Program Code Auditor
+                    Add in support for massive source code files with up to 4,294,967,295
+                    lines of comments, lines of code, etc per file.  This program is now 
+                    more than capable of auditing the largest source code files on the
+                    planet.  I don't expect these sizes to be exceeded for some time !  ;)
+                    Make "Expert Mode" the default mode now - it is much better after all.
+                    Add Restore Factory Defaults, Always on Top, and 
+                    Auto-Run at Windows Startup options to the File menu.
+                    Brand New About Screen and associated functionality.
+                    Add in support for the Maximise icon in the top right
+                    corner of the program's main window.
+                    This program is now for 32 bit Windows or later.  
+                    e.g. Windows 95, 98, ME, NT, 2000, or later.
+                    i.e. Windows 3.x is no longer supported.
+                    Bring the program up to date with my latest code libraries.
+                    Introduce yet more Anti-Hacker / Anti-Cracker measures.
+                    Price Rise : the program is now $20 Australian dollars.
+                    (Before this release, it used to be just $5 Australian dollars).
+                    But, even at $20 the program is still an absolute bargain.
+                    (25,155 lines of code / comments.)
+
+2.0b 11-June-2002   Recompile program to bring it up to date with my latest code libraries.
+                    (This also fixed a registration functionality issue - thanks 
+                    for reporting this Randall).
+                    (28,239 lines of code / comments.)
+
+2.0c  20-Nov-2002   Bring the program up to date with my latest code libraries.
+                    Registered Users - please contact me via email.
+                    (39,536 lines of code / comments.)
+
+2.0f  3-Sep-2007    This program is now FREEWARE - see "Freeware Information"
+                    above.
+
+
+If this program was not downloaded from my Home Page, then
+it is possibly an old version.  The latest version of this 
+program is available from my WEB page - see below.
+
+ Mike "Moose" O'Malley
+____________________________________________________
+ Moose's Software Valley - Established July, 1996.
+ WEB:  http://move.to/moose
+____________________________________________________
+ 
