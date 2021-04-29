@@ -1,0 +1,12 @@
+	<li class="top"> &nbsp;&nbsp;&nbsp;&nbsp; <i><small>Established July, 1996.</small></i></LI>
+
+	Programming dilema ....  Java or Delphi ?
+	I feel to be at a cross-roads with my software development activities ...
+	Pascal is a language I have loved since first encountering Turbo Pascal back in the mid-1980's ...
+	Delphi (based on Pascal) is a beautiful language and development environment.
+	Java is a language I have slowly grown to love.
+	When I program in Pascal (or especially Delphi), I reoutinely go into "auto pilot" mode where the code just flows out of my finger tips without me having to think about how to do this or how to do that.  I am just so comfortable and familiar with the language, that I can do virtually everything I need to do quite easily.
+	Java is also becomming like this for me, but it has been a battle.  Java has some extremely wierd areas, and is nowhere near as consistent or well designed as a "recently" developed language should be.
+	Java advertises itself as "Write Once, Run Anywhere".  Ahh, if only that were true.  Apple's iOS devices (iPad and iPhone) do not have the Java Runtime Environment - Apple will not allow it.  So, Java Applications, applets, etc cannot be run on an iPhone or iPad.
+	And getting your Java code to run on Android is a right royal pain in the arse - you need to re-write and redevelop and tweak so much to get things to work on Android.  I wonder why Google did this ???
+		The BIG problem

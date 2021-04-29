@@ -1,0 +1,50 @@
+
+Nothing I tried worked properly.
+
+The suggestions below came from:
+* http://stackoverflow.com/questions/8988855/include-another-html-file-in-a-html-file
+
+http://webdesign.about.com/od/ssi/a/aa052002a.htm
+http://www.boutell.com/newfaq/creating/include.html
+
+--------------------------------
+
+This did NOT work: The title picture and menu were jammed into a scroll box in the top left hand corner.  And: The menu system does NOT work - it is a list of links rather than my nice menu.
+
+<OBJECT data="title_and_menu_bar.html">
+Warning: title_and_menu_bar.html could not be included.
+</OBJECT>
+
+--------------------------------
+
+This did NOT work: The menu system does NOT work - it is a list of links rather than my nice menu.
+
+<OBJECT data="title_and_menu_bar.html" width=100%>
+Warning: title_and_menu_bar.html could not be included.
+</OBJECT>
+
+
+--------------------------------
+
+This did NOT work: nothing was loaded from the html file - no menu, nothing.
+
+<script>$("#includedContent").load("title_and_menu_bar.html");</script>
+
+--------------------------------
+
+This did NOT work: nothing was loaded from the html file - no menu, nothing.
+
+<html> 
+  <head> 
+    <script src="jquery.js"></script> 
+    <script> 
+    $(function(){
+      $("#includedContent").load("title_and_menu_bar.html".html"); 
+    });
+    </script> 
+  </head> 
+
+  <body> 
+     <div id="includedContent"></div>
+  </body> 
+</html>

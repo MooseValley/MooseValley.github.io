@@ -1,0 +1,29 @@
+
+<!--
+<table width="100%" border=1 cellspacing=0 cellpadding=2>
+	<tr><td bgcolor=DarkBlue>
+		<CENTER><BIG><font color=Lime> 08-Jul-2018 :: </font>
+		<font color=Yellow> Android Studio = More Reasons to *HATE* Google</font>
+		</BIG></CENTER></td></tr>
+	</table>
+	<UL>
+	<P>
+	As well as running a fraudulent search engine,
+<!--
+	where entities (people, companies, etc) can buy search engine
+	rank using Ad-words and various other scams.
+	Needless to say, the vast bulk of search engine results can often
+	scam web sites or worse, even for page 1 results.
+	Fuck you Google, Fuck you.
+-->
+<!--
+and developing Android (an OS based on Linux, but requiring a
+completely new development tool chain),
+and other things, Google also develop Android Studio.
+I first used Android Studio a few years ago, and it was very buggy
+and had serious issues.
+Last weekend, I cleared up 15 GB of harddisk space and installed the
+latest version of Android Studio, and sadly things have not improved:
+Android Studio is just as buggy and flawed as ever, making me wonder
+what on earth Google are upto.
+-->

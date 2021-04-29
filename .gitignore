@@ -1,0 +1,43 @@
+#
+# Exclude these folders from GIT version control - otherwise the .git folder becomes 350+ MB
+#
+# I basically just want html, php, txt, etc files under version control.
+# The other files - ZIP, PNG, etc I will drag and drop into the GIT Web Client - so they are uploaded
+# but not under version control.
+#
+# There's probably better ways to do this ??
+#
+# Initial Commit - NO VERSION CONTROL
+#
+/00 - NO-VERSION-CONTROL
+/00 - NOT IN GIT
+/00 - WEB Site Moved - 2018-11-08
+/00__Backups and Other
+/00 - Backups
+/00__Staging Area
+/CAPURAM_files
+/download - FULL versions
+/download - ZIP
+/FaceBook
+/Not Directly Needed or NO Longer Used
+/photos - not used
+/pics
+/Take-A-Break, Stayz, Wotif
+/Tripod inserted Javascript and Junk
+
+*.doc
+*.docx
+*.gif
+*.jpg
+*.mp4
+*.mpg
+*.png
+*.ppt
+*.pptx
+*.xls
+*.xlsx
+*.zip
+Vacancy*.*
+vacancy*.*
+
+#.EOF.
