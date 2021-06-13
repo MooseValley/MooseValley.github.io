@@ -1,6 +1,6 @@
 
 Oblotteration			Copyright (C) Moose O'Malley,
---------------			January 2017.
+--------------			June 2021.
 
    +===========================================================+
    |          T A B L E   O F   C O N T E N T S                |
@@ -25,7 +25,8 @@ Oblotteration is my clone of a game called Flood It.
 
 How to Play:
 * You start each game in the top left hand corner (the white square).
-* Use the colour buttons at the bottom of the screen to change
+* Use the colour buttons at the bottom of the screen,
+or click any coloured rectangles in the game grid, to change
 the top left square (and all horizontally and vertically adjoining
 squares with the same colour) to the selected colour.
 * The game ends when all squares are the same colour.
@@ -50,7 +51,7 @@ your machine / OS (if it is not already installed on your machine):
 http://www.oracle.com/technetwork/java/javase/downloads/index.html
 
 Extract the contents of the Oblotteration.zip file you
-downloaded my my web site to a folder on your machine.
+downloaded from my web site to a folder on your machine.
 
 And then, double click on:
 
