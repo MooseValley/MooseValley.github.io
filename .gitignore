@@ -27,11 +27,11 @@
 
 *.doc
 *.docx
-*.gif
-*.jpg
+#*.gif
+#*.jpg
 *.mp4
 *.mpg
-*.png
+#*.png
 *.ppt
 *.pptx
 *.xls
