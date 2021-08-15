@@ -34,8 +34,8 @@
 #*.png
 *.ppt
 *.pptx
-*.xls
-*.xlsx
+#*.xls
+#*.xlsx
 *.zip
 Vacancy*.*
 vacancy*.*
