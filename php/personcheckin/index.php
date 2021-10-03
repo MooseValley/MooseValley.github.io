@@ -22,7 +22,7 @@ registerAndInitialiseSessionData()
 <?php
 
 date_default_timezone_set("Australia/Brisbane");
-echo date_default_timezone_get();
+//echo date_default_timezone_get();
 
 
 $db = new Database__MySQL();

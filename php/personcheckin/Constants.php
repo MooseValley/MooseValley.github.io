@@ -52,18 +52,18 @@ class Constants
 
    const SQL_MOST_RECENT_CHECKINS =
         ' SELECT '
-      . ' , personName as "Person" '
+      . '   personName as "Person" '
       . ' , DATE_FORMAT(MAX(checkinDateTime), "%a, %d-%b-%Y @ %l:%i:%s %p") as "Date/Time" '
       . ' FROM personCheckIn '
-      . ' GroupBy personName ';
-      . ' ORDER BY readingDateTime DESC ';
+      . ' Group By personName ';
 
    const SQL_SELECT_CHECKINS =
-        ' SELECT id as "Id" '
-      . ' , personName '
+        ' SELECT '
+      . '   id    as "Id" '
+      . ' , personName as "person" '
       . ' , DATE_FORMAT(checkinDateTime, "%a, %d-%b-%Y @ %l:%i:%s %p") as "Date/Time" '
       . ' FROM personCheckIn '
-      . ' ORDER BY readingDateTime DESC ';
+      . ' ORDER BY checkinDateTime DESC ';
 
    const SQL_SELECT_CHECKINS_TOP_N =
         Constants::SQL_SELECT_CHECKINS
