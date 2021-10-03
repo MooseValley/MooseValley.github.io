@@ -8,10 +8,12 @@ function registerAndInitialiseSessionData()
     // No $
 	$_SESSION['personName']             = 'unknown';
 	$_SESSION['checkinDateTime']        = 0;
+	$_SESSION['comments']               = '';
 
     // $
 	$_SESSION['$personName']            = 'unknown';
 	$_SESSION['$checkinDateTime']       = 0;
+	$_SESSION['$comments']              = '';
 }
 
 function displaySessionData()
@@ -25,12 +27,14 @@ function displaySessionData()
 	echo "<caption>Session Data:</caption>";
 
     // No $
-	echo "<tr><td>* personName</td><td>"            . $_SESSION['personName']          . "</td></tr>";
-	echo "<tr><td>* checkinDateTime</td><td>"       . $_SESSION['checkinDateTime']       . "</td></tr>";
+	echo "<tr><td>* personName</td><td>"            . $_SESSION['personName']        . "</td></tr>";
+	echo "<tr><td>* checkinDateTime</td><td>"       . $_SESSION['checkinDateTime']   . "</td></tr>";
+	echo "<tr><td>* comments</td><td>"              . $_SESSION['comments']          . "</td></tr>";
 
     // $
-	echo "<tr><td>* personName</td><td>"            . $_SESSION['$personName']          . "</td></tr>";
-	echo "<tr><td>* checkinDateTime</td><td>"       . $_SESSION['$checkinDateTime']       . "</td></tr>";
+	echo "<tr><td>* personName</td><td>"            . $_SESSION['$personName']       . "</td></tr>";
+	echo "<tr><td>* checkinDateTime</td><td>"       . $_SESSION['$checkinDateTime']  . "</td></tr>";
+	echo "<tr><td>* comments</td><td>"              . $_SESSION['$comments']         . "</td></tr>";
 
    //foreach ($_POST as $key => $value)
    //{

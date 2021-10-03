@@ -5,7 +5,7 @@
 class Constants
 {
    const APP_NAME                 = "Person Check-in App";
-   const APP_VERSION              = "v0.0001";
+   const APP_VERSION              = "v0.03";
 
    //const EMAIL_PERSON_URL       = "mailto:MichaelO@centacare.net";
    //const EMAIL_PERSON_NAME      = "Mike O";
@@ -51,17 +51,30 @@ class Constants
 
 
    const SQL_MOST_RECENT_CHECKINS =
+   /*
         ' SELECT '
       . '   personName as "Person" '
       . ' , DATE_FORMAT(MAX(checkinDateTime), "%a, %d-%b-%Y @ %l:%i:%s %p") as "Date/Time" '
+      . ' , comments as "Comments" '
       . ' FROM personCheckIn '
-      . ' Group By personName ';
+    //. ' WHERE checkinDateTime = MAX(checkinDateTime) '
+      . ' Group By personName '
+      . ' ORDER BY personName ASC, checkinDateTime DESC;
+	*/
+        ' SELECT DISTINCT '
+      . '   pc1.personName as "Person" '
+      . ' , DATE_FORMAT(MAX(pc1.checkinDateTime), "%a, %d-%b-%Y @ %l:%i:%s %p") as "Date/Time" '
+      . ' , (SELECT pc2.comments FROM personCheckIn pc2 WHERE pc2.personName = pc1.personName  AND pc2.checkinDateTime = MAX(pc1.checkinDateTime) )  as "Comments" '
+      . ' FROM personCheckIn pc1 '
+      . ' GROUP BY pc1.personName '
+      . ' ORDER BY pc1.personName ASC, pc1.checkinDateTime DESC ';
 
    const SQL_SELECT_CHECKINS =
         ' SELECT '
       . '   id    as "Id" '
-      . ' , personName as "person" '
+      . ' , personName as "Person" '
       . ' , DATE_FORMAT(checkinDateTime, "%a, %d-%b-%Y @ %l:%i:%s %p") as "Date/Time" '
+      . ' , comments as "Comments" '
       . ' FROM personCheckIn '
       . ' ORDER BY checkinDateTime DESC ';
 

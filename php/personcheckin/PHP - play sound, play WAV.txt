@@ -1,0 +1,15 @@
+
+
+You need to embed player in HTML, if you have to do it dynamically using PHP, do something like this...
+
+$myAudioFile = "myAudiofile.wav";
+echo '<EMBED SRC="'.$myAudioFile.'" HIDDEN="TRUE" AUTOSTART="TRUE"></EMBED>';
+
+Update: As per the new HTML5 standard we can use the built-in audio player
+
+$myAudioFile = "myAudiofile.wav";
+echo '<audio autoplay="true" style="display:none;">
+         <source src="'.$myAudioFile.'" type="audio/wav">
+      </audio>';
+
+

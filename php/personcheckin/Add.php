@@ -57,8 +57,8 @@ if ($_POST)
    }
 
    $insertSQL = "INSERT INTO personCheckIn "
-              . "        (personName,  checkinDateTime) "
-              . " VALUES (?, ?) ";
+              . "        (personName,  checkinDateTime, comments) "
+              . " VALUES (?, ?, ?) ";
 
    $checkinDateTime = date('Y-m-d H:i:s'); // Current Date/time
 
@@ -67,7 +67,7 @@ if ($_POST)
    //$statement->bind_param("isiiiiii", $apartmentNum, $readingDateTime, $mainDoorOpenAmt, $kitchenWindowOpenAmt,
    //                       $bathroomWindowOpenAmt, $bedroomDoorOpenAmt, $bedroomWindowOpenAmt, $shutdownInteger);
 
-   $statement->bind_param("ss", $personName, $checkinDateTime);
+   $statement->bind_param("sss", $personName, $checkinDateTime, $comments);
 
    $statement->execute();
 

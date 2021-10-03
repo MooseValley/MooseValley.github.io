@@ -77,6 +77,13 @@ $db->queryResultsToHTMLTable ("Most Recently Added Person Check-ins:", true, tru
       </select>
    </div>
 
+   <div class="form-group">
+      <label for="comments">Comments:</label>
+      <br>
+      <input type="text" name="comments" size="150" value="All OK">
+      <!-- placeholder = default value -->
+   </div>
+
    <button type="reset" class="btn btn-primary">
       <span class="glyphicon glyphicon-erase"></span> Reset/Clear
    </button>
