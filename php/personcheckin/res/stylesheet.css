@@ -1,0 +1,24 @@
+<!-- 
+Table cell borders, padding. 
+Background image.
+-->
+<style type="text/css">
+
+body
+{
+   background-image: url("res/XStatic logo - v1.0__faded.png");
+   background-size:  cover;
+}
+
+table, th, td 
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td 
+{
+    padding: 5px;
+    text-align: left;
+}
+
+</style>
