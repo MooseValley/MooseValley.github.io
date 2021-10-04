@@ -74,6 +74,39 @@ if ($_POST)
    $statement->close();
    $db->close();
 
+	/*
+	echo "<p>Check-in added for: </p>";
+	echo "<p><ul>";
+	echo "<li> Person: "    . $personName      . "</li>";
+	echo "<li> Date/Time: " . $checkinDateTime . "</li>";
+	echo "<li> Comment: "   . $comments        . "</li>";
+	echo "</ul></p>";
+	*/
+
+	echo "<p><table><ul>";
+	echo "<tr><td> Person: </td><td>"    . $personName      . "</td>";
+	echo "<tr><td> Date/Time: </td><td>" . $checkinDateTime . "</td>";
+	echo "<tr><td> Comment: </td><td>"   . $comments        . "</td>";
+	echo "</ul></table></p>";
+
+
+	// Redirect to index.php
+	// NONE of the methods work so far - typical Stack Overflow, PHP, etc.
+	// REF: https://stackoverflow.com/questions/33080226/how-to-open-a-url-using-php
+
+	//redirect("index.php");
+	//echo "<a href='index.php'>index.php</a>";
+
+	//function open_window($url){
+	//   echo '<script>window.open ("'.$url.'", "mywindow","status=0,toolbar=0")</script>;
+	//}';
+	//
+	//open_window('index.php');
+
+	//$page = fopen('index.php');
+	//or $page = file_get_contents('http://www.example.com/filename.html');
+	//echo $page;
+
 }
 ?>
 

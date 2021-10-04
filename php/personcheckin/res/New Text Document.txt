@@ -1,0 +1,65 @@
+
+
+----- Forwarded message -----
+From: Moose O'Malley <moose_software@yahoo.com.au>
+To: Murray <misse21@hotmail.com>; Francis O <franciso@optusnet.com.au>; Peter O <peteraomalley@yahoo.com>
+Sent: Monday, 4 October 2021, 10:35:57 am AEST
+Subject: Fw: Person Check-In App
+
+You can see how Mum is going ...
+http://moosessoftware.epizy.com/php/personcheckin/index.php
+
+Very basic.  Not secure.  No login.  Don't type any credit card details or addresses, etc into the app.
+
+Note: we are in the 21st century.  Mum and I talked about how I can monitor her without causing hassle or disturbing her - in case she has a turn or a fall - phone call twice a day, emails twice a day, or a little App.  She liked the App idea best.
+
+This app will work from mobile phone, tablet, PC, Mac, etc.
+
+You guys and Mary, Henry, and Scott can also use this app if you want.
+
+Have a nice day.  :)
+
+Mike "Moose" OMalley
+____________________________________________________
+Moose's Software Valley - Established July, 1996.
+* Email: Moose_Software@yahoo.com.au
+* WEB Site:  https://moosevalley.github.io/
+* YouTube Channel: https://www.youtube.com/user/MoosesValley/playlists
+* GitHub Projects: https://github.com/MooseValley
+___________________________________________________
+
+
+----- Forwarded message -----
+From: Moose O'Malley <moose_software@yahoo.com.au>
+To: Mum <pennyom21@yahoo.com>
+Sent: Monday, 4 October 2021, 10:25:34 am AEST
+Subject: Person Check-In App
+
+Hi Chookie,
+
+The app is ready for use.  Please Bookmark this page in your broswer - or I will do it for you when I next see you:
+
+http://moosessoftware.epizy.com/php/personcheckin/index.php
+
+You can leave the "All OK" comment or type in any comment you like .
+
+Click the "Add" button whenever you feel like it - once in the morning, once in the afternoon or evening would be ideal, but whenever convenient for you.
+
+A new screen will appear telling you everything was successful.  Click the "Home" button to return to the main screen.
+
+You can scroll down and look at all of the messages - all just TEST messages from me so far.
+
+I will monitor this page during the day and night to make sure you are all ok.
+
+Have a nice day.  :)
+
+Mike "Moose" OMalley
+____________________________________________________
+Moose's Software Valley - Established July, 1996.
+* Email: Moose_Software@yahoo.com.au
+* WEB Site:  https://moosevalley.github.io/
+* YouTube Channel: https://www.youtube.com/user/MoosesValley/playlists
+* GitHub Projects: https://github.com/MooseValley
+___________________________________________________
+
+

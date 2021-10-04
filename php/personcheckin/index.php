@@ -24,7 +24,6 @@ registerAndInitialiseSessionData()
 date_default_timezone_set("Australia/Brisbane");
 //echo date_default_timezone_get();
 
-
 $db = new Database__MySQL();
 
 $countSQL = 'SELECT COUNT(*) FROM personCheckIn ';
@@ -40,40 +39,32 @@ $row = $results->fetch_array();
 echo "<li> Most recently added: " . $row[0] . "</li>";
 echo "</ul>";
 echo "</div>";
-
-
-// Remove WHERE_CLAUSE
-$sql = str_replace ("WHERE_CLAUSE", "", Constants::SQL_MOST_RECENT_CHECKINS);
-
-$results = $db->executeSQLQuery ($sql);
-$db->queryResultsToHTMLTable ("Most Recently Person Check-ins:", true, true, false);
-
-
-
-// Remove WHERE_CLAUSE
-$sql = str_replace ("WHERE_CLAUSE", "", Constants::SQL_SELECT_CHECKINS_TOP_N);
-
-$results = $db->executeSQLQuery ($sql);
-$db->queryResultsToHTMLTable ("Most Recently Added Person Check-ins:", true, true, false);
-
-
+//echo "<hr>";
 ?>
 
 
+<!--
+<p><br></p>
+-->
+<hr>
 
 <div class="container">
 
-<p><br></p>
-<hr>
-<h1>Add New Record:</h1>
+<h2>Add New Record:</h2>
 <form name="add-apartment-record-form" action="add.php" method="POST">
 
    <div class="form-group">
       <label for="personName">Person Name:</label>
       <select class="form-control" name="personName" id="personName">
          <option value="Margaret">Margaret</option>
+         <option value="Francis">Francis</option>
+         <option value="Henry">Henry</option>
+         <option value="Mary">Mary</option>
          <option value="Mike">Mike</option>
          <option value="Murray">Murray</option>
+         <option value="Peter">Peter</option>
+         <option value="Scott">Scott</option>
+         <option value="Other">Other</option>
       </select>
    </div>
 
@@ -95,6 +86,28 @@ $db->queryResultsToHTMLTable ("Most Recently Added Person Check-ins:", true, tru
 </form>
 
 </div>
+
+
+
+
+<?php
+
+// Remove WHERE_CLAUSE
+$sql = str_replace ("WHERE_CLAUSE", "", Constants::SQL_MOST_RECENT_CHECKINS);
+
+$results = $db->executeSQLQuery ($sql);
+echo '<p><br></p><hr>';
+$db->queryResultsToHTMLTable ("Most Recently Person Check-ins:", true, true, false);
+
+
+
+// Remove WHERE_CLAUSE
+$sql = str_replace ("WHERE_CLAUSE", "", Constants::SQL_SELECT_CHECKINS_TOP_N);
+echo '<p><br></p><hr>';
+$results = $db->executeSQLQuery ($sql);
+$db->queryResultsToHTMLTable ("Most Recently Added Person Check-ins:", true, true, false);
+
+?>
 
 
 

@@ -19,10 +19,10 @@ include_once ('res/header.php');
             </tr>
 
             <tr>
-                <td>v0.001</td>
+                <td>v0.04</td>
                 <td>Sun, 03-Oct-2021</td>
                 <td>Moose</td>
-                <td>Created - basic functionality.</td>
+                <td>Created - basic functionality.  Release.</td>
             </tr>
 
         </table>
