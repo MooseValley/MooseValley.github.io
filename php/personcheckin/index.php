@@ -51,27 +51,36 @@ echo "</div>";
 <div class="container">
 
 <h2>Add New Record:</h2>
-<form name="add-apartment-record-form" action="add.php" method="POST">
+<form class="form-horizontal" name="add-checkin-record-form" action="add.php" method="POST">
 
    <div class="form-group">
-      <label for="personName">Person Name:</label>
-      <select class="form-control" name="personName" id="personName">
-         <option value="Margaret">Margaret</option>
-         <option value="Francis">Francis</option>
-         <option value="Henry">Henry</option>
-         <option value="Mary">Mary</option>
-         <option value="Mike">Mike</option>
-         <option value="Murray">Murray</option>
-         <option value="Peter">Peter</option>
-         <option value="Scott">Scott</option>
-         <option value="Other">Other</option>
-      </select>
+		<!-- <label class="form-label" for="personName">Person Name:</label> -->
+      <label class="control-label col-sm-2" for="personName">Person Name:</label>
+		<div class="col-sm-10">
+			<select class="form-control" name="personName" id="personName">
+				<option value="Margaret">Margaret</option>
+				<option value="Francis">Francis</option>
+				<option value="Henry">Henry</option>
+				<option value="Mary">Mary</option>
+				<option value="Mike">Mike</option>
+				<option value="Murray">Murray</option>
+				<option value="Peter">Peter</option>
+				<option value="Scott">Scott</option>
+				<option value="Other">Other</option>
+			</select>
+   	</div>
    </div>
 
 	<div class="form-group">
-		<label for="comments" class="form-label">Comments:</label>
+		<!--
+		<label class="form-label" for="comments">Comments:</label>
 		<input type="text" class="form-control" name="comments" id="comments" value="All OK">
-		<!-- placeholder="All OK" -->
+		-->
+		<label class="control-label col-sm-2" for="comments">Comments:</label>
+		<div class="col-sm-10">
+			<input type="text" class="form-control" name="comments" id="comments" value="All OK">
+			<!-- placeholder="All OK" -->
+		</div>
 	</div>
 <!--
    <div class="form-group">
