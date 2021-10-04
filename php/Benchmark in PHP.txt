@@ -1,0 +1,28 @@
+https://stackoverflow.com/questions/8310487/start-and-stop-a-timer-php
+
+
+You can use microtime and calculate the difference:
+
+$time_pre = microtime(true);
+exec(...);
+$time_post = microtime(true);
+$exec_time = $time_post - $time_pre;
+
+*****************************************************
+
+Since PHP 7.3 the hrtime function should be used for instrumentation.
+
+$start = hrtime(true);
+// run your code...
+$end = hrtime(true);
+
+echo ($end - $start);                // Nanoseconds
+echo ($end - $start) / 1000000;      // Milliseconds
+echo ($end - $start) / 1000000000;   // Seconds
+
+The mentioned microtime function relies on the system clock. Which can be modified e.g. by the ntpd program on ubuntu or just the sysadmin.
+
+*****************************************************
+
+Also you can use HRTime package. It has a class StopWatch.
+

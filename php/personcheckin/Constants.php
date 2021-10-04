@@ -5,7 +5,7 @@
 class Constants
 {
    const APP_NAME                 = "Person Check-in App";
-   const APP_VERSION              = "v0.04";
+   const APP_VERSION              = "v0.05";
 
    //const EMAIL_PERSON_URL       = "mailto:MichaelO@centacare.net";
    //const EMAIL_PERSON_NAME      = "Mike O";
@@ -80,7 +80,18 @@ class Constants
 
    const SQL_SELECT_CHECKINS_TOP_N =
         Constants::SQL_SELECT_CHECKINS
-      . ' LIMIT 25 '; // same as "SELECT TOP 25 ... " in SQL Server.
+      . ' LIMIT 50 '; // same as "SELECT TOP 50 ... " in SQL Server.
+
+   const SQL_SELECT_CHECKINS_LAST_7_DAYS =
+        ' SELECT '
+      . '   id    as "Id" '
+      . ' , personName as "Person" '
+      . ' , DATE_FORMAT(checkinDateTime, "%a, %d-%b-%Y @ %l:%i:%s %p") as "Date/Time" '
+      . ' , comments as "Comments" '
+      . ' FROM personCheckIn '
+      . ' WHERE checkinDateTime >= (NOW() - 7) '
+      . ' ORDER BY checkinDateTime DESC ';
+
 
 } // class Constants
 

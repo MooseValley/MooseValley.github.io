@@ -68,12 +68,18 @@ echo "</div>";
       </select>
    </div>
 
+	<div class="form-group">
+		<label for="comments" class="form-label">Comments:</label>
+		<input type="text" class="form-control" name="comments" id="comments" value="All OK">
+		<!-- placeholder="All OK" -->
+	</div>
+<!--
    <div class="form-group">
       <label for="comments">Comments:</label>
       <br>
       <input type="text" name="comments" size="150" value="All OK">
-      <!-- placeholder = default value -->
    </div>
+-->
 
    <button type="reset" class="btn btn-primary">
       <span class="glyphicon glyphicon-erase"></span> Reset/Clear
@@ -97,15 +103,21 @@ $sql = str_replace ("WHERE_CLAUSE", "", Constants::SQL_MOST_RECENT_CHECKINS);
 
 $results = $db->executeSQLQuery ($sql);
 echo '<p><br></p><hr>';
-$db->queryResultsToHTMLTable ("Most Recently Person Check-ins:", true, true, false);
+echo '<div class="container">';
+echo '<h2>Most Recent Check-ins for each Person:</h2>';
+$db->queryResultsToHTMLTable ("Most Recent Check-ins for each Person:", true, true, false);
+echo '</div>';
 
 
 
 // Remove WHERE_CLAUSE
-$sql = str_replace ("WHERE_CLAUSE", "", Constants::SQL_SELECT_CHECKINS_TOP_N);
+$sql = str_replace ("WHERE_CLAUSE", "", Constants::SQL_SELECT_CHECKINS_LAST_7_DAYS);
 echo '<p><br></p><hr>';
+echo '<div class="container">';
+echo '<h2>Check-in History (last 7 days):</h2>';
 $results = $db->executeSQLQuery ($sql);
-$db->queryResultsToHTMLTable ("Most Recently Added Person Check-ins:", true, true, false);
+$db->queryResultsToHTMLTable ("", true, true, false);
+echo '</div>';
 
 ?>
 

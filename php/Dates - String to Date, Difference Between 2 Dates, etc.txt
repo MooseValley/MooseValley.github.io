@@ -1,0 +1,224 @@
+https://stackoverflow.com/questions/676824/how-to-calculate-the-difference-between-two-dates-using-php
+
+The complete code used to achieve the goal:
+
+/**
+ * Format an interval to show all existing components.
+ * If the interval doesn't have a time component (years, months, etc)
+ * That component won't be displayed.
+ *
+ * @param DateInterval $interval The interval
+ *
+ * @return string Formatted interval string.
+ */
+function format_interval(DateInterval $interval) {
+    $result = "";
+    if ($interval->y) { $result .= $interval->format("%y years "); }
+    if ($interval->m) { $result .= $interval->format("%m months "); }
+    if ($interval->d) { $result .= $interval->format("%d days "); }
+    if ($interval->h) { $result .= $interval->format("%h hours "); }
+    if ($interval->i) { $result .= $interval->format("%i minutes "); }
+    if ($interval->s) { $result .= $interval->format("%s seconds "); }
+
+    return $result;
+}
+
+$first_date = new DateTime("2012-11-30 17:03:30");
+$second_date = new DateTime("2012-12-21 00:00:00");
+
+$difference = $first_date->diff($second_date);
+
+echo format_interval($difference);
+
+
+
+This is a really good answer as it provides a clear function that can be called from anywhere in a codebase without lots of time calcs. Others answers allow you to drop echoed calcs on the fly that address the symptoms rather than solve the problem... The only element I've added (and pretty much all other posts don't cover this) is the pluralisation of $interval elements if more than 1. –
+nickhar
+Jan 3 '19 at 23:12
+
+
+***********************************************************
+
+https://stackoverflow.com/questions/676824/how-to-calculate-the-difference-between-two-dates-using-php
+
+jurka's answer (almost everyone liked this best)
+
+I suggest to use DateTime and DateInterval objects.
+
+$date1 = new DateTime("2007-03-24");
+$date2 = new DateTime("2009-06-26");
+$interval = $date1->diff($date2);
+echo "difference " . $interval->y . " years, " . $interval->m." months, ".$interval->d." days ";
+
+// shows the total amount of days (not divided into years, months and days like above)
+echo "difference " . $interval->days . " days ";
+
+
+
++1 DateTime handles leap years and time-zones properly and there's a good book for the shelf: phparch.com/books/… –
+hakre
+Aug 7 '11 at 12:03
+
+The $interval->days and $interval->d are different measures. your comment above is right "shows the total amount of days (not divided into years, months and days like above)" –
+jurka
+Jul 18 '12 at 12:20
+
+***********************************************************
+
+https://www.geeksforgeeks.org/how-to-calculate-the-difference-between-two-dates-in-php/
+
+Approximation - does not handle Leap Years, etc.
+Use only if you are forced to use a really OLD version of PHP (< 5.3)
+or don't care much about accuracy.
+
+What about leap years? A year is not 365 days on average. –
+Peter Mortensen
+Apr 8 '14 at 23:10
+
+
+<?php
+
+// Declare and define two dates
+$date1 = strtotime("2016-06-01 22:45:00");
+$date2 = strtotime("2018-09-21 10:44:01");
+
+// Formulate the Difference between two dates
+$diff = abs($date2 - $date1);
+
+
+// To get the year divide the resultant date into
+// total seconds in a year (365*60*60*24)
+$years = floor($diff / (365*60*60*24));
+
+
+// To get the month, subtract it with years and
+// divide the resultant date into
+// total seconds in a month (30*60*60*24)
+$months = floor(($diff - $years * 365*60*60*24)
+                               / (30*60*60*24));
+
+
+// To get the day, subtract it with years and
+// months and divide the resultant date into
+// total seconds in a days (60*60*24)
+$days = floor(($diff - $years * 365*60*60*24 -
+             $months*30*60*60*24)/ (60*60*24));
+
+
+// To get the hour, subtract it with years,
+// months & seconds and divide the resultant
+// date into total seconds in a hours (60*60)
+$hours = floor(($diff - $years * 365*60*60*24
+       - $months*30*60*60*24 - $days*60*60*24)
+                                   / (60*60));
+
+
+// To get the minutes, subtract it with years,
+// months, seconds and hours and divide the
+// resultant date into total seconds i.e. 60
+$minutes = floor(($diff - $years * 365*60*60*24
+         - $months*30*60*60*24 - $days*60*60*24
+                          - $hours*60*60)/ 60);
+
+
+// To get the minutes, subtract it with years,
+// months, seconds, hours and minutes
+$seconds = floor(($diff - $years * 365*60*60*24
+         - $months*30*60*60*24 - $days*60*60*24
+                - $hours*60*60 - $minutes*60));
+
+// Print the result
+printf("%d years, %d months, %d days, %d hours, "
+     . "%d minutes, %d seconds", $years, $months,
+             $days, $hours, $minutes, $seconds);
+?>
+
+Output:
+2 years, 3 months, 21 days, 11 hours, 59 minutes, 1 seconds
+
+***********************************************************
+
+https://www.geeksforgeeks.org/how-to-calculate-the-difference-between-two-dates-in-php/
+
+<?php
+
+// Declare two dates
+$start_date = strtotime("2018-06-08");
+$end_date = strtotime("2018-09-19");
+
+// Get the difference and divide into
+// total no. seconds 60/60/24 to get
+// number of days
+echo "Difference between two dates: "
+    . ($end_date - $start_date)/60/60/24;
+?>
+
+Output:
+
+Difference between two dates: 103
+
+***********************************************************
+
+https://www.geeksforgeeks.org/php-date_diff-function/
+
+<?php
+// PHP program to illustrate
+// date_diff() function
+
+// creates DateTime objects
+$datetime1 = date_create('2017-06-28');
+$datetime2 = date_create('2018-06-28');
+
+// calculates the difference between DateTime objects
+$interval = date_diff($datetime1, $datetime2);
+
+// printing result in days format
+echo $interval->format('%R%a days');
+?>
+
+Output:
++365 days
+
+***********************************************************
+
+https://www.geeksforgeeks.org/php-date_diff-function/
+
+<?php
+// PHP program to illustrate
+// date_diff() function
+
+// difference only in  year
+$datetime1 = date_create('2017-06-28');
+$datetime2 = date_create('2018-06-28');
+
+$interval = date_diff($datetime1, $datetime2);
+echo $interval->format('%R%a days') . "\n";
+
+// Difference only in months
+$datetime1 = date_create('2018-04-28');
+$datetime2 = date_create('2018-06-28');
+
+$interval = date_diff($datetime1, $datetime2);
+echo $interval->format('%R%a days') . "\n";
+
+// Difference in year, month, days
+$datetime1 = date_create('2017-06-28');
+$datetime2 = date_create('2018-04-05');
+
+$interval = date_diff($datetime1, $datetime2);
+echo $interval->format('%R%a days') . "\n";
+
+?>
+
+Output:
++365 days
++61 days
++281 days
+
+***********************************************************
+***********************************************************
+***********************************************************
+***********************************************************
+***********************************************************
+***********************************************************
+***********************************************************
