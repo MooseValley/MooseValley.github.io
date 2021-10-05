@@ -25,6 +25,13 @@ include_once ('res/header.php');
                 <td>Created - basic functionality.  Release.</td>
             </tr>
 
+            <tr>
+                <td>v0.07</td>
+                <td>Tue, 05-Oct-2021</td>
+                <td>Moose</td>
+                <td>Rename to "ChatterBox", change logo, fix typo in code.</td>
+            </tr>
+
         </table>
 
     </div>

@@ -20,7 +20,7 @@ include ('res/stylesheet.css');
 
 <body>
 <div class="panel-heading text-left">
-    <IMG SRC = "res/Sherlock - silhouette - icon 01 - face to right.gif"  ALIGN=LEFT   WIDTH=50px HEIGHT=50px>
+    <IMG SRC = "res/Chatterbox - Little Miss Chatterbox - face right.png"  ALIGN=LEFT   WIDTH=70px HEIGHT=70px>
     <!--
       <IMG SRC = "res/CentacareCQ - logo with dignity, etc - adjacent.jpg"  ALIGN=RIGHT  WIDTH=170px HEIGHT=50px>
     -->

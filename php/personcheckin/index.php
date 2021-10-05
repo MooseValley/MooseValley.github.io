@@ -50,7 +50,7 @@ echo "</div>";
 
 <div class="container">
 
-<h2>Add New Record:</h2>
+<h2>Add Chat:</h2>
 <form class="form-horizontal" name="add-checkin-record-form" action="add.php" method="POST">
 
    <div class="form-group">
@@ -94,7 +94,7 @@ echo "</div>";
       <span class="glyphicon glyphicon-erase"></span> Reset/Clear
    </button>
 
-   <button type="button" class="btn btn-primary" onClick="document.forms['add-apartment-record-form'].submit();">
+   <button type="button" class="btn btn-primary" onClick="document.forms['add-checkin-record-form'].submit();">
       <span class="glyphicon glyphicon-plus"></span> Add
    </button>
 
@@ -113,17 +113,17 @@ $sql = str_replace ("WHERE_CLAUSE", "", Constants::SQL_MOST_RECENT_CHECKINS);
 $results = $db->executeSQLQuery ($sql);
 echo '<p><br></p><hr>';
 echo '<div class="container">';
-echo '<h2>Most Recent Check-ins for each Person:</h2>';
+echo '<h2>Most Recent Chats for each Person:</h2>';
 $db->queryResultsToHTMLTable ("Most Recent Check-ins for each Person:", true, true, false);
 echo '</div>';
 
 
 
 // Remove WHERE_CLAUSE
-$sql = str_replace ("WHERE_CLAUSE", "", Constants::SQL_SELECT_CHECKINS_LAST_7_DAYS);
+$sql = str_replace ("WHERE_CLAUSE", "", Constants::SQL_SELECT_CHECKINS_TOP_N);
 echo '<p><br></p><hr>';
 echo '<div class="container">';
-echo '<h2>Check-in History (last 7 days):</h2>';
+echo '<h2>Chat History (last 7 days):</h2>';
 $results = $db->executeSQLQuery ($sql);
 $db->queryResultsToHTMLTable ("", true, true, false);
 echo '</div>';

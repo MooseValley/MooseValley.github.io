@@ -4,8 +4,8 @@
 
 class Constants
 {
-   const APP_NAME                 = "Person Check-in App";
-   const APP_VERSION              = "v0.06";
+   const APP_NAME                 = "ChatterBox";
+   const APP_VERSION              = "v0.07";
 
    //const EMAIL_PERSON_URL       = "mailto:MichaelO@centacare.net";
    //const EMAIL_PERSON_NAME      = "Mike O";
