@@ -23,8 +23,8 @@ if ($startYear != $currentYear)
 }
 echo $currentYear . ". <strong>Unauthorised access strictly prohibited.</strong>  ";
 echo "<br>For further information about this application, email ";
-echo "<a href='" . Constants::EMAIL_WITH_SUBJECT . "'>" . Constants::EMAIL_PERSON_NAME . "</a>.";
-echo " or see <a href='" .  Constants::CHANGE_LOG_FILE_NAME . "'>Change Log</a>.";
+echo "<a href='" . Constants::EMAIL_WITH_SUBJECT . "'>" . Constants::EMAIL_PERSON_NAME . "</a>";
+echo ", or see <a href='" .  Constants::CHANGE_LOG_FILE_NAME . "'>Change Log</a>.";
 
 echo "<br>PHP v" . $version;
 echo ".   Date: " . $date;

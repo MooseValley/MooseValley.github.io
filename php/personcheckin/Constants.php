@@ -5,7 +5,7 @@
 class Constants
 {
    const APP_NAME                 = "ChatterBox";
-   const APP_VERSION              = "v0.07";
+   const APP_VERSION              = "v0.08";
 
    //const EMAIL_PERSON_URL       = "mailto:MichaelO@centacare.net";
    //const EMAIL_PERSON_NAME      = "Mike O";
@@ -50,6 +50,11 @@ class Constants
    const USER_PASSWORD   = "YfHFYmXnKjOP";
 
 
+	const SQL_COUNT_RECORDS        = 'SELECT COUNT(*) FROM personCheckIn ';
+
+	const SQL_MOST_RECENT_RECORD   = 'SELECT DATE_FORMAT(MAX(checkinDateTime), "%a, %d-%b-%Y @ %l:%i:%s %p") FROM personCheckIn ';
+
+	// Most Recent record for each person.
    const SQL_MOST_RECENT_CHECKINS =
    /*
         ' SELECT '
@@ -62,6 +67,7 @@ class Constants
       . ' ORDER BY personName ASC, checkinDateTime DESC;
 	*/
         ' SELECT DISTINCT '
+      . '   id    as "Id" '
       . '   pc1.personName as "Person" '
       . ' , DATE_FORMAT(MAX(pc1.checkinDateTime), "%a, %d-%b-%Y @ %l:%i:%s %p") as "Date/Time" '
       . ' , (SELECT pc2.comments FROM personCheckIn pc2 WHERE pc2.personName = pc1.personName  AND pc2.checkinDateTime = MAX(pc1.checkinDateTime) )  as "Comments" '

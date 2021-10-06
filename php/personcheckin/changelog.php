@@ -32,6 +32,13 @@ include_once ('res/header.php');
                 <td>Rename to "ChatterBox", change logo, fix typo in code.</td>
             </tr>
 
+            <tr>
+                <td>v0.08</td>
+                <td>Wed, 06-Oct-2021</td>
+                <td>Moose</td>
+                <td>Add "Refresh" button and display last refresh / reload date / time at top of main page.</td>
+            </tr>
+
         </table>
 
     </div>

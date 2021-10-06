@@ -25,22 +25,24 @@ date_default_timezone_set("Australia/Brisbane");
 //echo date_default_timezone_get();
 
 $db = new Database__MySQL();
+?>
 
-$countSQL = 'SELECT COUNT(*) FROM personCheckIn ';
-$results = $db->executeSQLQuery ($countSQL);
-$row = $results->fetch_array();
+<?php
+$date              = date('D, j-M-Y, g:i:s A');
 echo "<div class='container'>";
 echo "<ul>";
-echo "<li> Records in database: " . $row[0] . "</li>";
+?>
 
-$latestRecordSQL = 'SELECT DATE_FORMAT(MAX(checkinDateTime), "%a, %d-%b-%Y @ %l:%i:%s %p") FROM personCheckIn ';
-$results = $db->executeSQLQuery ($latestRecordSQL);
-$row = $results->fetch_array();
-echo "<li> Most recently added: " . $row[0] . "</li>";
+<button type="button" class="btn btn-primary" onclick="window.location='index.php'">
+	<span class="glyphicon glyphicon-home"></span> Refresh
+</button>
+
+<?php
+echo " Page last refreshed: <b>" . $date . "</b>";
 echo "</ul>";
 echo "</div>";
-//echo "<hr>";
 ?>
+
 
 
 <!--
@@ -118,7 +120,6 @@ $db->queryResultsToHTMLTable ("Most Recent Check-ins for each Person:", true, tr
 echo '</div>';
 
 
-
 // Remove WHERE_CLAUSE
 $sql = str_replace ("WHERE_CLAUSE", "", Constants::SQL_SELECT_CHECKINS_TOP_N);
 echo '<p><br></p><hr>';
@@ -127,10 +128,24 @@ echo '<h2>Chat History (last 7 days):</h2>';
 $results = $db->executeSQLQuery ($sql);
 $db->queryResultsToHTMLTable ("", true, true, false);
 echo '</div>';
-
 ?>
 
+<?php
+echo '<p><br></p><hr>';
 
+$results = $db->executeSQLQuery (Constants::SQL_COUNT_RECORDS);
+$row = $results->fetch_array();
+echo "<div class='container'>";
+echo "<ul>";
+echo "<li> Records in database: " . $row[0] . "</li>";
+
+$results = $db->executeSQLQuery (Constants::SQL_MOST_RECENT_RECORD);
+$row = $results->fetch_array();
+echo "<li> Most recently added: " . $row[0] . "</li>";
+echo "</ul>";
+echo "</div>";
+//echo "<hr>";
+?>
 
 <?php
 include_once ('res/footer.php');
