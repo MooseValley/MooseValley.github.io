@@ -5,7 +5,7 @@
 class Constants
 {
    const APP_NAME                 = "ChatterBox";
-   const APP_VERSION              = "v0.08";
+   const APP_VERSION              = "v0.09";
 
    //const EMAIL_PERSON_URL       = "mailto:MichaelO@centacare.net";
    //const EMAIL_PERSON_NAME      = "Mike O";
@@ -54,48 +54,30 @@ class Constants
 
 	const SQL_MOST_RECENT_RECORD   = 'SELECT DATE_FORMAT(MAX(checkinDateTime), "%a, %d-%b-%Y @ %l:%i:%s %p") FROM personCheckIn ';
 
+	const SQL_SELECT_ROOT   =
+        ' SELECT '
+      . '   pc.id as "Id" '
+      . ' , pc.personName as "Person" '
+      . ' , DATE_FORMAT(pc.checkinDateTime, "%a, %d-%b-%Y @ %l:%i:%s %p") as "Date/Time" '
+      . ' , TIMESTAMPDIFF(DAY, NOW(), pc.checkinDateTime) as "Age (days)" '
+    //. ' , FORMAT(TIMESTAMPDIFF(MICROSECOND, NOW(), pc.checkinDateTime) / 1000.0 / 60.0 / 60.0, 1) as "Age (hours)" '
+      . ' , pc.comments as "Comments" '
+      . ' FROM  personCheckIn pc ';
+
 	// Most Recent record for each person.
    const SQL_MOST_RECENT_CHECKINS =
-   /*
-        ' SELECT '
-      . '   personName as "Person" '
-      . ' , DATE_FORMAT(MAX(checkinDateTime), "%a, %d-%b-%Y @ %l:%i:%s %p") as "Date/Time" '
-      . ' , comments as "Comments" '
-      . ' FROM personCheckIn '
-    //. ' WHERE checkinDateTime = MAX(checkinDateTime) '
-      . ' Group By personName '
-      . ' ORDER BY personName ASC, checkinDateTime DESC;
-	*/
-        ' SELECT DISTINCT '
-      . '   id    as "Id" '
-      . '   pc1.personName as "Person" '
-      . ' , DATE_FORMAT(MAX(pc1.checkinDateTime), "%a, %d-%b-%Y @ %l:%i:%s %p") as "Date/Time" '
-      . ' , (SELECT pc2.comments FROM personCheckIn pc2 WHERE pc2.personName = pc1.personName  AND pc2.checkinDateTime = MAX(pc1.checkinDateTime) )  as "Comments" '
-      . ' FROM personCheckIn pc1 '
-      . ' GROUP BY pc1.personName '
-      . ' ORDER BY pc1.personName ASC, pc1.checkinDateTime DESC ';
-
-   const SQL_SELECT_CHECKINS =
-        ' SELECT '
-      . '   id    as "Id" '
-      . ' , personName as "Person" '
-      . ' , DATE_FORMAT(checkinDateTime, "%a, %d-%b-%Y @ %l:%i:%s %p") as "Date/Time" '
-      . ' , comments as "Comments" '
-      . ' FROM personCheckIn '
-      . ' ORDER BY checkinDateTime DESC ';
+        Constants::SQL_SELECT_ROOT
+      . ' WHERE pc.id = (SELECT MAX(pc2.id) FROM personCheckIn pc2 WHERE pc2.personName = pc.personName ) '
+      . ' ORDER BY pc.personName ASC ';
 
    const SQL_SELECT_CHECKINS_TOP_N =
-        Constants::SQL_SELECT_CHECKINS
+        Constants::SQL_SELECT_ROOT
+      . ' ORDER BY checkinDateTime DESC '
       . ' LIMIT 50 '; // same as "SELECT TOP 50 ... " in SQL Server.
 
    const SQL_SELECT_CHECKINS_LAST_7_DAYS =
-        ' SELECT '
-      . '   id    as "Id" '
-      . ' , personName as "Person" '
-      . ' , DATE_FORMAT(checkinDateTime, "%a, %d-%b-%Y @ %l:%i:%s %p") as "Date/Time" '
-      . ' , comments as "Comments" '
-      . ' FROM personCheckIn '
-      . ' WHERE checkinDateTime >= (NOW() - 7) '
+        Constants::SQL_SELECT_ROOT
+      . ' WHERE TIMESTAMPDIFF(DAY, NOW(), pc.checkinDateTime) >= -7 '
       . ' ORDER BY checkinDateTime DESC ';
 
 

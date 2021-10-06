@@ -39,6 +39,13 @@ include_once ('res/header.php');
                 <td>Add "Refresh" button and display last refresh / reload date / time at top of main page.</td>
             </tr>
 
+            <tr>
+                <td>v0.09</td>
+                <td>Wed, 06-Oct-2021</td>
+                <td>Moose</td>
+                <td>Add Age column, fix last 7 days query.</td>
+            </tr>
+
         </table>
 
     </div>

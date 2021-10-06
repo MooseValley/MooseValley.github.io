@@ -121,7 +121,7 @@ echo '</div>';
 
 
 // Remove WHERE_CLAUSE
-$sql = str_replace ("WHERE_CLAUSE", "", Constants::SQL_SELECT_CHECKINS_TOP_N);
+$sql = str_replace ("WHERE_CLAUSE", "", Constants::SQL_SELECT_CHECKINS_LAST_7_DAYS);
 echo '<p><br></p><hr>';
 echo '<div class="container">';
 echo '<h2>Chat History (last 7 days):</h2>';

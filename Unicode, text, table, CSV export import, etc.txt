@@ -1,0 +1,45 @@
+https://stackoverflow.com/questions/895221/howto-import-xls-csv-file-with-unicode-charset-into-php-mysql
+
+Howto import xls/csv file with unicode charset into php/mysql?
+Asked 12 years, 4 months ago
+Active 8 years ago
+Viewed 23k times
+
+
+
+
+Okay, the solution was to export the file from excel to UTF16 unicode text and add the ';' instaid of '\t' and convert from utf16 to utf8.
+
+file_put_contents($tmpfile, str_replace("\t", ";",  iconv('UTF-16', 'UTF-8', file_get_contents($tmpfile))));
+
+The table in mysql has to be changed from latin1 to utf8
+
+ALTER TABLE  `translation`
+CHANGE  `text`  `text` VARCHAR( 100 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ,
+CHANGE  `desc`  `desc` VARCHAR( 255 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL
+
+And then the file could be imported as before.
+
+When I want to export the data from the database to a excel file, the csv-version is not an option. It has to be done in excel's html mode. Where data is corrected by eg. urlencode() or htmlentities()
+
+Here some example code.
+
+
+<?php
+header('Content-type: application/vnd.ms-excel');
+header('Content-Disposition: attachment; filename="export.xls"');
+print ('<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40">
+<div id="Classeur1_16681" align=center x:publishsource="Excel">
+<table x:str border=0 cellpadding=0 cellspacing=0 width=100% style="border-collapse: collapse">');
+for($i = 0 ; $i < count($lines) ; $i++) {
+    print ('<tr><td>');
+  print implode("</td><td>",$lines[$i]);
+    print ('</td></tr>');
+}
+?>
+</div>
+</body>
+</html>
+

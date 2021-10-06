@@ -1,0 +1,12 @@
+https://quick-adviser.com/does-php-work-on-github-pages/
+
+Does PHP work on GitHub pages?
+
+No, you cannot do that on Github Pages as it only supports static websites, i.e. sites built on html, css, JS. The good thing is that you can place your php in other server then use github repo html, javascript and call the php via ajax to load content result so you can have a dynamic page in github.
+
+
+
+How can I host a PHP site for free?
+
+Get free PHP web hosting with full MySQL database support and absolutely no ads. 000webhost offer free hosting with almost unrestricted PHP support! Enjoy benefits of latest PHP versions absolutely for free. Unlike other free webhosts, we have PHP and MySQL enabled with no vital limits!
+
