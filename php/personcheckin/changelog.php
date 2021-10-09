@@ -46,6 +46,13 @@ include_once ('res/header.php');
                 <td>Add Age column, fix last 7 days query.</td>
             </tr>
 
+            <tr>
+                <td>v0.10</td>
+                <td>Sat, 09-Oct-2021</td>
+                <td>Moose</td>
+                <td>Fix Age (days) calcs, recover from crazy HTTP 500 Internal Server Error.</td>
+            </tr>
+
         </table>
 
     </div>
