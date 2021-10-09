@@ -24,9 +24,9 @@ class Constants
    // MySQL - local database
    /*
    const SERVER_NAME     = "localhost"; // serverName\instanceName
-   const DATABASE_NAME   = "kinkapalms";
+   const DATABASE_NAME   = "moosedb";
    const USER_NAME       = "root";
-   const USER_PASSWORD   = "nbuser";
+   const USER_PASSWORD   = ""; // nbuser
    */
 
    // *** OLD:  MySQL - http://moosesoftware.16mb.com
