@@ -1,0 +1,60 @@
+00 - How to Run this in XAMPP
+
+App code setup:
+	copy personcheckin folder and all subfolders to:
+	C:\xampp\htdocs\
+
+In other words, all of the code, etc for the app will be here:
+	C:\xampp\htdocs\personcheckin\
+
+-------------------------------------------------
+
+Run XAMP
+	START -> XAMPP
+
+Apache	-> [START]
+MySQL		-> [START]
+
+Click [Admin] for MySQL
+
+Click "Databases" tab
+	if "moosedb" does not exist, create it.
+
+Click "user Accounts" tab
+	root user will be there, probably with no password.
+
+edit "personcheckin/Constants.php"
+
+Make sure the LocalHost stuff is uncommented:
+
+   // MySQL - local database
+
+   const SERVER_NAME     = "localhost"; // serverName\instanceName
+   const DATABASE_NAME   = "moosedb";
+   const USER_NAME       = "root";
+   const USER_PASSWORD   = ""; //nbuser
+
+
+and comment out /*  */ any remote host database stuff.
+
+
+-------------------------------------------------
+
+Web Browser:
+
+Paste this url:
+
+http://localhost/personcheckin/00__Drop_and_Re_Create_Tables.php
+
+Confirm any tables are created OK - no error messages.
+
+
+Paste this URL:
+
+http://localhost/personcheckin/index.php
+
+
+and start using the App, hooked up to a local MySQL database.
+
+So EASY !!!!!
+.

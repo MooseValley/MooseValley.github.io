@@ -59,12 +59,8 @@ class Constants
       . '   pc.id as "Id" '
       . ' , pc.personName as "Person" '
       . ' , DATE_FORMAT(pc.checkinDateTime, "%a, %d-%b-%Y @ %l:%i:%s %p") as "Date/Time" '
-      . ' , FORMAT (TIMESTAMPDIFF(DAY,  pc.checkinDateTime, NOW() ), 1) as "Age (days)"  '
-    //. ' , FORMAT (1 + TIMESTAMPDIFF(DAY,  pc.checkinDateTime, NOW() ) +  '
-    //. ' , FORMAT (TIMESTAMPDIFF(HOUR, pc.checkinDateTime, NOW() ) / 24.0, 1) as "Age (days)" '
+      . ' , TIMESTAMPDIFF(DAY, NOW(), pc.checkinDateTime) as "Age (days)" '
     //. ' , FORMAT(TIMESTAMPDIFF(MICROSECOND, NOW(), pc.checkinDateTime) / 1000.0 / 60.0 / 60.0, 1) as "Age (hours)" '
-    //. ' , FORMAT ((NOW() - pc.checkinDateTime) / 60.0 / 60.0 / 24.0, 1) as "Age (days)" '
-    //. ' , FORMAT (DATEFIFF(NOW(), pc.checkinDateTime), 1) as "Age (days)" '
       . ' , pc.comments as "Comments" '
       . ' FROM  personCheckIn pc ';
 
