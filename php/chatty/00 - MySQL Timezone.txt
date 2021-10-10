@@ -1,0 +1,8 @@
+Warning: do NOT attempt to change Time Zones on MySQL.
+
+I am 95% sure this is what caused the crazy "Error 500 - HTTP 500 Internal Server Error"
+I was seeing - where my App folder was blocked if it contained this PHP code,
+even if it was commented out !!
+
+//const SQL_SET_TIME_ZONE        = 'SET time_zone = "+10:00" ';
+

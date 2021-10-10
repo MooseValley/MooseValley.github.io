@@ -50,7 +50,25 @@ include_once ('res/header.php');
                 <td>v0.10</td>
                 <td>Sat, 09-Oct-2021</td>
                 <td>Moose</td>
-                <td>Fix Age (days) calcs, recover from crazy HTTP 500 Internal Server Error.</td>
+                <td>Add Emoji Picker to input text fields ... sadly, does NOT work as advertised.
+                </td>
+            </tr>
+
+            <tr>
+                <td>v0.11</td>
+                <td>Sat, 09-Oct-2021</td>
+                <td>Moose</td>
+                <td>Explore blocking of my app ... HTTP 500 Internal Server Error.  Crazy !
+                </td>
+            </tr>
+
+            <tr>
+                <td>v0.12</td>
+                <td>Sun, 10-Oct-2021</td>
+                <td>Moose</td>
+                <td>Fix Age (days) calcs, recover from crazy HTTP 500 Internal Server Error.
+                    <b>Warning:</b> do NOT attempt to change Time Zones on MySQL.
+                </td>
             </tr>
 
         </table>

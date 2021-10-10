@@ -5,7 +5,7 @@
 class Constants
 {
    const APP_NAME                 = "ChatterBox";
-   const APP_VERSION              = "v0.10";
+   const APP_VERSION              = "v0.12";
 
    //const EMAIL_PERSON_URL       = "mailto:MichaelO@centacare.net";
    //const EMAIL_PERSON_NAME      = "Mike O";
@@ -24,9 +24,9 @@ class Constants
    // MySQL - local database
    /*
    const SERVER_NAME     = "localhost"; // serverName\instanceName
-   const DATABASE_NAME   = "moosedb";
+   const DATABASE_NAME   = "kinkapalms";
    const USER_NAME       = "root";
-   const USER_PASSWORD   = ""; // nbuser
+   const USER_PASSWORD   = "nbuser";
    */
 
    // *** OLD:  MySQL - http://moosesoftware.16mb.com
@@ -50,25 +50,27 @@ class Constants
    const USER_PASSWORD   = "YfHFYmXnKjOP";
 
 
- //const SQL_SET_TIME_ZONE        = 'SET time_zone = "+10:00" ';
-
 	const SQL_COUNT_RECORDS        = 'SELECT COUNT(*) FROM personCheckIn ';
 
 	const SQL_MOST_RECENT_RECORD   = 'SELECT DATE_FORMAT(MAX(checkinDateTime), "%a, %d-%b-%Y @ %l:%i:%s %p") FROM personCheckIn ';
 
+
 	const SQL_SELECT_ROOT   =
-      . ' SELECT '
+        ' SELECT '
       . '   pc.id as "Id" '
       . ' , pc.personName as "Person" '
       . ' , DATE_FORMAT(pc.checkinDateTime, "%a, %d-%b-%Y @ %l:%i:%s %p") as "Date/Time" '
+      . ' , FORMAT (TIMESTAMPDIFF(HOUR, "CURRENT_DATE_TIME", pc.checkinDateTime) / 24.0, 1) as "Age (days)" '
+    //. ' , FORMAT (TIMESTAMPDIFF(HOUR, NOW(), pc.checkinDateTime) / 24.0, 1) as "Age (days)" '
     //. ' , TIMESTAMPDIFF(DAY, NOW(), pc.checkinDateTime) as "Age (days)" '
     //. ' , FORMAT (TIMESTAMPDIFF(DAY,  pc.checkinDateTime, NOW() ), 1) as "Age (days)"  '
     //. ' , FORMAT (1 + TIMESTAMPDIFF(DAY,  pc.checkinDateTime, NOW() ) +  '
     //. ' , FORMAT (TIMESTAMPDIFF(HOUR, pc.checkinDateTime, NOW() ) / 24.0, 1) as "Age (days)" '
-    //. ' , FORMAT(TIMESTAMPDIFF(MICROSECOND, NOW(), pc.checkinDateTime) / 1000.0 / 60.0 / 60.0, 1) as "Age (hours)" '
+    //. ' , FORMAT (TIMESTAMPDIFF(MICROSECOND, NOW(), pc.checkinDateTime) / 1000.0 / 60.0 / 60.0, 1) as "Age (hours)" '
     //. ' , FORMAT ((NOW() - pc.checkinDateTime) / 60.0 / 60.0 / 24.0, 1) as "Age (days)" '
     //. ' , FORMAT (DATEFIFF(NOW(), pc.checkinDateTime), 1) as "Age (days)" '
-    //. ' , FORMAT(TIMESTAMPDIFF(MICROSECOND, NOW(), pc.checkinDateTime) / 1000.0 / 60.0 / 60.0, 1) as "Age (hours)" '
+    //. ' , FORMAT (TIMESTAMPDIFF(MICROSECOND, NOW(), pc.checkinDateTime) / 1000.0 / 60.0 / 60.0, 1) as "Age (hours)" '
+    //. ' , FORMAT (TIMESTAMPDIFF(MICROSECOND, NOW(), pc.checkinDateTime) / 1000.0 / 60.0 / 60.0, 1) as "Age (hours)" '
       . ' , pc.comments as "Comments" '
       . ' FROM  personCheckIn pc ';
 

@@ -2,6 +2,15 @@ HTTP 500 Internal Server Error
 
 http://moosessoftware.epizy.com/php/personcheckin/index.php
 
+Warning: do NOT attempt to change Time Zones on MySQL.
+
+I am 95% sure this is what caused the crazy "Error 500 - HTTP 500 Internal Server Error"
+I was seeing - where my App folder was blocked if it contained this PHP code,
+even if it was commented out !!
+
+//const SQL_SET_TIME_ZONE        = 'SET time_zone = "+10:00" ';
+
+
 
 ---------------------------------------------------------------
 
@@ -123,6 +132,16 @@ Effing hell !!  I cannot get the app running again ...
 
 My Air Conditioner app is still working fine:
 http://moosessoftware.epizy.com/php/aircond/index.php
+
+
+
+Warning: do NOT attempt to change Time Zones on MySQL.
+
+I am 95% sure this is what caused the crazy "Error 500 - HTTP 500 Internal Server Error"
+I was seeing - where my App folder was blocked if it contained this PHP code,
+even if it was commented out !!
+
+//const SQL_SET_TIME_ZONE        = 'SET time_zone = "+10:00" ';
 
 Moose
 Sat, 09-Oct-2021, 08:20 PM

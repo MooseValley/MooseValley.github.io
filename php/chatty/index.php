@@ -108,9 +108,12 @@ echo "</div>";
 
 
 <?php
+$currentDateTime = date('Y-m-d H:i:s');
 
 // Remove WHERE_CLAUSE
-$sql = str_replace ("WHERE_CLAUSE", "", Constants::SQL_MOST_RECENT_CHECKINS);
+$sql = str_replace ("WHERE_CLAUSE",      "",               Constants::SQL_MOST_RECENT_CHECKINS);
+$sql = str_replace ("CURRENT_DATE_TIME", $currentDateTime, $sql);
+
 
 $results = $db->executeSQLQuery ($sql);
 echo '<p><br></p><hr>';
@@ -121,7 +124,9 @@ echo '</div>';
 
 
 // Remove WHERE_CLAUSE
-$sql = str_replace ("WHERE_CLAUSE", "", Constants::SQL_SELECT_CHECKINS_LAST_7_DAYS);
+$sql = str_replace ("WHERE_CLAUSE",      "",               Constants::SQL_SELECT_CHECKINS_LAST_7_DAYS);
+$sql = str_replace ("CURRENT_DATE_TIME", $currentDateTime, $sql);
+
 echo '<p><br></p><hr>';
 echo '<div class="container">';
 echo '<h2>Chat History (last 7 days):</h2>';
