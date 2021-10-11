@@ -54,7 +54,9 @@ class Constants
 
 	const SQL_MOST_RECENT_RECORD   = 'SELECT DATE_FORMAT(MAX(checkinDateTime), "%a, %d-%b-%Y @ %l:%i:%s %p") FROM personCheckIn ';
 
-
+	// NOTE: Now() uses local time zone.  When I tried to change time zones in MySQL -
+	// via a simple SQL command, my App was banned and gave ERROR 500 from then on.
+	// Even with the SQL command commented out, the app was still banned !!
 	const SQL_SELECT_ROOT   =
         ' SELECT '
       . '   pc.id as "Id" '
@@ -87,7 +89,8 @@ class Constants
 
    const SQL_SELECT_CHECKINS_LAST_7_DAYS =
         Constants::SQL_SELECT_ROOT
-      . ' WHERE TIMESTAMPDIFF(DAY, NOW(), pc.checkinDateTime) >= -7 '
+    //. ' WHERE TIMESTAMPDIFF(DAY, NOW(), pc.checkinDateTime) >= -7 '
+      . ' WHERE TIMESTAMPDIFF(HOUR, "CURRENT_DATE_TIME", pc.checkinDateTime) / 24.0 > -8 '
       . ' ORDER BY checkinDateTime DESC ';
 
 

@@ -10,6 +10,9 @@ even if it was commented out !!
 
 //const SQL_SET_TIME_ZONE        = 'SET time_zone = "+10:00" ';
 
+	// NOTE: Now() uses local time zone.  When I tried to change time zones in MySQL -
+	// via a simple SQL command, my App was banned and gave ERROR 500 from then on.
+	// Even with the SQL command commented out, the app was still banned !!
 
 
 ---------------------------------------------------------------
