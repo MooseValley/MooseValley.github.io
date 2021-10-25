@@ -1,0 +1,53 @@
+
+
+function getUserIpAddr(){
+    if(!empty($_SERVER['HTTP_CLIENT_IP'])){
+        //ip from share internet
+        $ip = $_SERVER['HTTP_CLIENT_IP'];
+    }elseif(!empty($_SERVER['HTTP_X_FORWARDED_FOR'])){
+        //ip pass from proxy
+        $ip = $_SERVER['HTTP_X_FORWARDED_FOR'];
+    }else{
+        $ip = $_SERVER['REMOTE_ADDR'];
+    }
+    return $ip;
+}
+
+echo 'User Real IP - '.getUserIpAddr();
+
+
+
+
+******************************************************
+
+https://www.codexworld.com/how-to/get-user-ip-address-php/
+
+How to Get IP Address of User in PHP
+By: CodexWorldLast Updated: Feb 7, 2020
+Share
+Tweet
+
+Many times we need to collect the visitor IP address to track activity and for security reasons. It’s very easy to get the IP address of visitors in PHP. PHP $_SERVER variable provides an easy way to get user IP address. The $_SERVER contains an array that provides the server and environment-related information in PHP.
+
+The simplest way to get the visitor IP address is using the REMOTE_ADDR in PHP.
+
+    $_SERVER['REMOTE_ADDR'] – Returns the IP address of the user from which viewing the current page.
+
+echo 'User IP - '.$_SERVER['REMOTE_ADDR'];
+
+But sometimes REMOTE_ADDR does not returns the correct IP address of the user. The reason behind this is to use Proxy. In that situation, use the following code to get real IP address of user in PHP.
+
+function getUserIpAddr(){
+    if(!empty($_SERVER['HTTP_CLIENT_IP'])){
+        //ip from share internet
+        $ip = $_SERVER['HTTP_CLIENT_IP'];
+    }elseif(!empty($_SERVER['HTTP_X_FORWARDED_FOR'])){
+        //ip pass from proxy
+        $ip = $_SERVER['HTTP_X_FORWARDED_FOR'];
+    }else{
+        $ip = $_SERVER['REMOTE_ADDR'];
+    }
+    return $ip;
+}
+
+echo 'User Real IP - '.getUserIpAddr();

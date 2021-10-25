@@ -42,10 +42,10 @@ executeQuery ($db, $sql, "personCheckIn - DROP");
 
 $sql = "CREATE TABLE personCheckIn
 (
-   id                    INT(11)      NOT NULL AUTO_INCREMENT,
-   personName            VARCHAR(255) NOT NULL,
-   checkinDateTime       DATETIME     NOT NULL,
-   comments              VARCHAR(255) NOT NULL,
+   id                    INT(11)       NOT NULL AUTO_INCREMENT,
+   personName            VARCHAR(255)  NOT NULL,
+   checkinDateTime       DATETIME      NOT NULL,
+   comments              VARCHAR(4000) NOT NULL,
    PRIMARY KEY (id)
 )";
 

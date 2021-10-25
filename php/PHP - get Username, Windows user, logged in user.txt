@@ -1,0 +1,30 @@
+$user = $_SERVER['AUTH_USER'];
+
+
+https://stackoverflow.com/questions/168610/can-you-get-a-windows-ad-username-in-php
+
+I've got php mysql running on IIS - I can use $_SERVER["AUTH_USER"] if I turn on Windows Authentication in IIS -> Authentication and turn off Anonymous authentication (important)
+
+I've used this to get my user and domain:
+
+$user = $_SERVER['AUTH_USER'];
+
+$user will return a value like: DOMAIN\username on our network, and then it's just a case of removing the DOMAIN\ from the string.
+
+This has worked in IE, FF, Chrome, Safari (tested) so far.
+
+
+
+
+After turning on Windows Authentication in IIS -> Authentication and turn off Anonymous authentication it worked for me. Thank you, Cheers! –
+user752746
+May 8 '19 at 18:06
+
+
+
+
+
+Look at the PHP LDAP library functions:
+http://us.php.net/ldap.
+Active Directory [mostly] conforms to the LDAP standard.
+
