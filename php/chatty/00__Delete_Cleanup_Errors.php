@@ -34,6 +34,8 @@ $results = $db->executeSQLQuery ($sql);
 
 echo "<div class='container'>";
 echo "<h3>Delete / Cleanup Mistakes:</h3>";
+echo $sql;
+echo $results;
 echo "* DONE !";
 echo "</div>";
 
