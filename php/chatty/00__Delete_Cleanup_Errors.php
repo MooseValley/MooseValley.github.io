@@ -25,7 +25,7 @@ $db = new Database__MySQL();
 
 $sql = ' UPDATE personCheckIn '
  . ' SET comments = '
- . ' "Clayton Rd and Hawke St going on the market. Both of these properties are being sold. Motel house also going to be sold as soon as Murray finishes moving out. Pretty soon all I will own is my farm.  My Rates bill will go from $42K+ pa. down to about $4K.  No more will rates be "bleeding me dry", as stupid, greedy, incompetent local councils keep jacking up rates like there is no tomorrow, even when property prices are falling." '
+ . ' "Clayton Rd and Hawke St going on the market. Both of these properties are being sold. Motel house also going to be sold as soon as Murray finishes moving out. Pretty soon all I will own is my farm.  My Rates bill will go from $42K+ pa. down to about $4K.  No more will rates be ""bleeding me dry"", as stupid, greedy, incompetent local councils keep jacking up rates like there is no tomorrow, even when property prices are falling." '
  . ' WHERE id = 186 ';
 
 
