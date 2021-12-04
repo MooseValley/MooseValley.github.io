@@ -93,6 +93,10 @@ class Constants
       . ' WHERE TIMESTAMPDIFF(HOUR, "CURRENT_DATE_TIME", pc.checkinDateTime) / 24.0 > -8 '
       . ' ORDER BY checkinDateTime DESC ';
 
+   const SQL_SELECT_All_CHECKINS =
+        Constants::SQL_SELECT_ROOT
+      . ' ORDER BY checkinDateTime DESC ';
+
 
 } // class Constants
 

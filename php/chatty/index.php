@@ -127,6 +127,8 @@ echo '</div>';
 $sql = str_replace ("WHERE_CLAUSE",      "",               Constants::SQL_SELECT_CHECKINS_LAST_7_DAYS);
 $sql = str_replace ("CURRENT_DATE_TIME", $currentDateTime, $sql);
 
+$sql = Constants::SQL_SELECT_All_CHECKINS;
+
 echo '<p><br></p><hr>';
 echo '<div class="container">';
 echo '<h2>Chat History (last 7 days):</h2>';
