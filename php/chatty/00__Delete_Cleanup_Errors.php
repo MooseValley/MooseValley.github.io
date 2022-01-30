@@ -34,11 +34,13 @@ $db = new Database__MySQL();
 // . ' WHERE id = 260 ';
 
 
-$sql = ' UPDATE personCheckIn '
- . ' SET comments = '
- . ' "Another very hot day.<br>1. Take a hatchback load out to farm in morning. <br>2. Mind Jean for a few hours while Murray took a car load to Rocky. <br>3. Carefully label all panels and roof sections of Garden Shed #2 and mostly dismantle the shed - the buyers want this second shed removed so they can put a 40 foot Shipping Container at the rear of the motel on Thurs, 13-Jan (tomorrow).  <br>4. Mum minded Jean for a few hours from about 3-6 PM. Murray and I took a trailer load of rubbish to the dump (old QB matress, blow out Hot Water Service, etc). <br>5. Murray and I removed the last few screws in Garden Shed #2 and slid the panels onto my trailer and took it out to the farm. <br>6. Mow all rear and as much of front of motel as possible (until too dark to see). Everyone laughed when I said I needed a mower with headlights ...  <br>7. After dinner, I minded Jean for another few hours so Murray can take another car load of stuff to Rocky.  <br><b>Almost there.  Going to sleep for a week straight when this is all over.</b>" '
- . ' WHERE id = 279 ';
+//$sql = ' UPDATE personCheckIn '
+// . ' SET comments = '
+// . ' "Another very hot day.<br>1. Take a hatchback load out to farm in morning. <br>2. Mind Jean for a few hours while Murray took a car load to Rocky. <br>3. Carefully label all panels and roof sections of Garden Shed #2 and mostly dismantle the shed - the buyers want this second shed removed so they can put a 40 foot Shipping Container at the rear of the motel on Thurs, 13-Jan (tomorrow).  <br>4. Mum minded Jean for a few hours from about 3-6 PM. Murray and I took a trailer load of rubbish to the dump (old QB matress, blow out Hot Water Service, etc). <br>5. Murray and I removed the last few screws in Garden Shed #2 and slid the panels onto my trailer and took it out to the farm. <br>6. Mow all rear and as much of front of motel as possible (until too dark to see). Everyone laughed when I said I needed a mower with headlights ...  <br>7. After dinner, I minded Jean for another few hours so Murray can take another car load of stuff to Rocky.  <br><b>Almost there.  Going to sleep for a week straight when this is all over.</b>" '
+// . ' WHERE id = 279 ';
 
+$sql = ' DELETE FROM personCheckIn '
+ . ' WHERE id >= 311 '
 
 
 
