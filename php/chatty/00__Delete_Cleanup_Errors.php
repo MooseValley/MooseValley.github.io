@@ -40,7 +40,7 @@ $db = new Database__MySQL();
 // . ' WHERE id = 279 ';
 
 $sql = ' DELETE FROM personCheckIn '
- . ' WHERE id >= 311 '
+ . ' WHERE id > 310 '
 
 
 
