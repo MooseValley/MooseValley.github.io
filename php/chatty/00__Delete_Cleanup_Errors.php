@@ -48,6 +48,12 @@ $sql = ' DELETE FROM personCheckIn '
  . ' WHERE id = 346 '
 $results = $db->executeSQLQuery ($sql);
 
+// Leave this in place - it is still to be done:
+$sql = ' DELETE FROM personCheckIn '
+ . ' WHERE id = 366 '
+$results = $db->executeSQLQuery ($sql);
+
+
 echo "<div class='container'>";
 echo "<h3>Delete / Cleanup Mistakes:</h3>";
 echo "<p>* SQL: " . $sql . "<p>";
